@@ -37,17 +37,13 @@
       name="q"
       placeholder='Try "Tenafly", "B12A", or a coach name...'
       autocomplete="off"
-      hx-post="/search"
-      hx-target="#search-results"
-      hx-trigger="input delay:200ms, search"
-      hx-include="[name='q']"
       style="
         flex:1;border:none;outline:none;background:transparent;
         font-family:'Inter',sans-serif;font-size:16px;color:var(--ti-text);
         letter-spacing:-0.2px;
       "
     >
-    <button id="clear-btn" onclick="document.getElementById('search-input').value=''; htmx.trigger('#search-input','search'); this.style.display='none';"
+    <button id="clear-btn"
       style="
         display:none;background:rgba(20,18,14,0.08);border:none;cursor:pointer;
         width:24px;height:24px;border-radius:12px;
@@ -100,12 +96,35 @@
   }
   render();
 
-  // Show/hide clear button
+  // Search
   const searchInput = document.getElementById('search-input');
   const clearBtn    = document.getElementById('clear-btn');
+  const resultsEl   = document.getElementById('search-results');
+  let searchTimer;
+
   searchInput.addEventListener('input', () => {
     clearBtn.style.display = searchInput.value ? 'flex' : 'none';
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => doSearch(searchInput.value), 200);
   });
+
+  clearBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    clearBtn.style.display = 'none';
+    doSearch('');
+  });
+
+  async function doSearch(q) {
+    const resp = await fetch('/search', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: 'q=' + encodeURIComponent(q),
+    });
+    if (resp.ok && resp.status !== 204) {
+      resultsEl.innerHTML = await resp.text();
+      applyCardState();
+    }
+  }
 
   // ── Core ───────────────────────────────────────────────────────────────────
   function toggle(key) {
@@ -203,11 +222,6 @@
       }
     });
   }
-
-  // Re-apply state after every HTMX search swap
-  document.addEventListener('htmx:afterSwap', (e) => {
-    if (e.detail.target.id === 'search-results') applyCardState();
-  });
 
   // ── Event delegation ───────────────────────────────────────────────────────
   document.addEventListener('click', (e) => {

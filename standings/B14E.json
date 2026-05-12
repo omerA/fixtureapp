@@ -1,6 +1,6 @@
 {
   "division": "B14E",
-  "scraped_at": "2026-05-12T02:02:35.695546Z",
+  "scraped_at": "2026-05-12T19:11:16.243115Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -16,6 +16,17 @@
           "goals_for": 5,
           "opponent_club": "Verona",
           "opponent_raw": "Verona-B14E-Colalillo",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "407644",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14E-dePaula",
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "WYNE-Alps3"
@@ -43,17 +54,6 @@
           "venue_code": "TEANECK-VoteeSoccer"
         },
         {
-          "date": "2026-05-02",
-          "game_number": "407644",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B14E-dePaula",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
           "date": "2026-05-03",
           "game_number": "407665",
           "goals_against": 0,
@@ -75,82 +75,22 @@
       "wins": 4
     },
     {
-      "club": "WoodRidge",
-      "coach": "Dipopolo",
+      "club": "Harrison",
+      "coach": "Guevara",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
-          "date": "2026-04-19",
-          "game_number": "407656",
-          "goals_against": 3,
+          "date": "2026-05-11",
+          "game_number": "407640",
+          "goals_against": 0,
           "goals_for": 4,
           "opponent_club": "Teaneck",
           "opponent_raw": "Teaneck-B14E-DeCastro",
           "result": "W",
-          "time": "02:00 PM",
+          "time": "07:30 PM",
           "venue_code": "TEANECK-VoteeSoccer"
         },
-        {
-          "date": "2026-04-25",
-          "game_number": "407650",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B14E-Houghton",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407658",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B14E-Patel",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "MONT-WatsessingPk"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407666",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B14E-Gonzalez",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407667",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B14E-DeBonne",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "ARS-PHHS1"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 7,
-      "goals_for": 17,
-      "losses": 0,
-      "played": 5,
-      "points": 13,
-      "team_raw": "WoodRidge-B14E-Dipopolo",
-      "wins": 4
-    },
-    {
-      "club": "Harrison",
-      "coach": "Guevara",
-      "draws": 1,
-      "form": "DWWW",
-      "games": [
         {
           "date": "2026-04-11",
           "game_number": "407642",
@@ -196,14 +136,85 @@
           "venue_code": "HARR-WHudsonParkSB"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 17,
       "goals_against": 5,
-      "goals_for": 18,
+      "goals_for": 22,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "Harrison-B14E-Guevara",
-      "wins": 3
+      "wins": 4
+    },
+    {
+      "club": "WoodRidge",
+      "coach": "Dipopolo",
+      "draws": 1,
+      "form": "WDWWW",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "407650",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B14E-Houghton",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407656",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B14E-DeCastro",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407658",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B14E-Patel",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "MONT-WatsessingPk"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407666",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14E-Gonzalez",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407667",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B14E-DeBonne",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "ARS-PHHS1"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 7,
+      "goals_for": 17,
+      "losses": 0,
+      "played": 5,
+      "points": 13,
+      "team_raw": "WoodRidge-B14E-Dipopolo",
+      "wins": 4
     },
     {
       "club": "Montclair",
@@ -211,28 +222,6 @@
       "draws": 1,
       "form": "LWWLW",
       "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "407642",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B14E-Guevara",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407658",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B14E-Dipopolo",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "MONT-WatsessingPk"
-        },
         {
           "date": "2026-04-28",
           "game_number": "407638",
@@ -245,6 +234,17 @@
           "venue_code": "MONT-MSU-Sprague"
         },
         {
+          "date": "2026-04-11",
+          "game_number": "407642",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B14E-Guevara",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "407649",
           "goals_against": 0,
@@ -254,6 +254,17 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "MONT-BrookdaleA"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407658",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B14E-Dipopolo",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "MONT-WatsessingPk"
         },
         {
           "date": "2026-05-03",
@@ -294,6 +305,17 @@
       "form": "LWLWW",
       "games": [
         {
+          "date": "2026-05-02",
+          "game_number": "407644",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B14E-Houghton",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
           "date": "2026-04-12",
           "game_number": "407647",
           "goals_against": 4,
@@ -314,17 +336,6 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "407644",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B14E-Houghton",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-Alps3"
         },
         {
           "date": "2026-05-03",
@@ -365,6 +376,17 @@
       "form": "LLWLW",
       "games": [
         {
+          "date": "2026-04-18",
+          "game_number": "407637",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B14E-Houghton",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
           "date": "2026-03-29",
           "game_number": "407643",
           "goals_against": 2,
@@ -376,15 +398,15 @@
           "venue_code": "VERONA-Centennial"
         },
         {
-          "date": "2026-04-18",
-          "game_number": "407637",
-          "goals_against": 5,
+          "date": "2026-05-02",
+          "game_number": "407649",
+          "goals_against": 4,
           "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B14E-Houghton",
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B14E-Patel",
           "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-Alps3"
+          "time": "02:00 PM",
+          "venue_code": "MONT-BrookdaleA"
         },
         {
           "date": "2026-04-19",
@@ -407,17 +429,6 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "407649",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B14E-Patel",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "MONT-BrookdaleA"
         },
         {
           "date": "2026-05-03",
@@ -515,8 +526,19 @@
       "club": "Teaneck",
       "coach": "DeCastro",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
+        {
+          "date": "2026-05-11",
+          "game_number": "407640",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B14E-Guevara",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
         {
           "date": "2026-03-29",
           "game_number": "407643",
@@ -573,11 +595,11 @@
           "venue_code": "MONT-Fortunato"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 17,
+      "goal_diff": -8,
+      "goals_against": 21,
       "goals_for": 13,
-      "losses": 3,
-      "played": 5,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "Teaneck-B14E-DeCastro",
       "wins": 2
@@ -660,6 +682,17 @@
       "form": "LLDLL",
       "games": [
         {
+          "date": "2026-04-28",
+          "game_number": "407638",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B14E-Patel",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MONT-MSU-Sprague"
+        },
+        {
           "date": "2026-03-29",
           "game_number": "407645",
           "goals_against": 5,
@@ -691,17 +724,6 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "LKLND-AddicePrk"
-        },
-        {
-          "date": "2026-04-28",
-          "game_number": "407638",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B14E-Patel",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "MONT-MSU-Sprague"
         },
         {
           "date": "2026-05-03",

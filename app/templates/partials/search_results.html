@@ -1,0 +1,61 @@
+{% if query | length < 2 %}
+<div style="text-align:center;padding:40px 0;color:var(--ti-faint);font-size:14px;">
+  Start typing to find teams
+</div>
+
+{% elif not teams %}
+<div style="text-align:center;padding:40px 0;color:var(--ti-muted);font-size:14px;">
+  No teams match &ldquo;{{ query }}&rdquo;
+  <div style="margin-top:6px;font-size:12px;color:var(--ti-faint);">Try a different name or check spelling.</div>
+</div>
+
+{% else %}
+<div style="background:#fff;border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+  {% for team in teams %}
+  <div
+    data-team-key="{{ team.team_key }}"
+    data-club="{{ team.club }}"
+    data-div-label="{{ team.division_label }}"
+    data-coach="{{ team.coach }}"
+    style="
+      display:flex;align-items:center;gap:12px;
+      padding:12px 14px;cursor:pointer;
+      border-bottom:{{ '1px solid var(--ti-border)' if not loop.last else 'none' }};
+      transition:background 120ms;
+    "
+  >
+    <!-- Crest -->
+    <div class="ti-crest" style="
+      width:36px;height:36px;border-radius:10px;
+      background:{{ crest_color(team.club) }};
+      font-size:13px;flex-shrink:0;
+    ">{{ crest_initials(team.club) }}</div>
+
+    <!-- Info -->
+    <div style="flex:1;min-width:0;">
+      <div style="font-size:15px;font-weight:600;color:var(--ti-text);letter-spacing:-0.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+        {{ team.club }}
+      </div>
+      <div style="font-size:12px;color:var(--ti-muted);margin-top:2px;">
+        {{ team.division_label }}
+        {% if team.coach %} · {{ team.coach }}{% endif %}
+      </div>
+    </div>
+
+    <!-- Checkmark -->
+    <div class="card-check" style="
+      width:24px;height:24px;border-radius:8px;
+      border:1.5px solid var(--ti-border-strong);
+      background:transparent;
+      display:flex;align-items:center;justify-content:center;
+      flex-shrink:0;
+    "></div>
+  </div>
+  {% endfor %}
+</div>
+{% if teams | length == 15 %}
+<p style="font-size:12px;color:var(--ti-faint);text-align:center;padding-top:8px;">
+  Showing first 15 — type more to narrow
+</p>
+{% endif %}
+{% endif %}

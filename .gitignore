@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# App runtime
+app.db
+.env
+
+# Scraper cache (large HTTP response files)
+cache/
+
+# Scratch / smoke-test artifacts
+b12b_output.json
+b12b_table.html
+design_raw.html
+
+# Claude Code project memory
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

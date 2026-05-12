@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}TooInvolved — Follow your kids' soccer{% endblock %}
+
+{% block content %}
+<div style="max-width:420px;margin:0 auto;padding:40px 0 60px;">
+
+  <!-- Brand mark + wordmark -->
+  <div style="display:flex;flex-direction:column;align-items:flex-start;gap:18px;margin-bottom:32px;">
+    <div class="ti-crest" style="width:56px;height:56px;border-radius:16px;background:var(--ti-accent);font-size:22px;font-weight:800;box-shadow:0 8px 24px rgba(20,18,14,0.08);">
+      <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+        <circle cx="15" cy="15" r="11" stroke="#fff" stroke-width="2.4" fill="none"/>
+        <circle cx="15" cy="15" r="3.4" fill="#fff"/>
+      </svg>
+    </div>
+    <div>
+      <h1 style="font-size:36px;font-weight:800;letter-spacing:-1.2px;line-height:40px;margin:0;">TooInvolved</h1>
+      <p style="font-size:17px;color:var(--ti-muted);margin:8px 0 0;line-height:24px;max-width:300px;">
+        Follow your kid's team. Standings, scores, and Saturday's kickoff — all in one place.
+      </p>
+    </div>
+  </div>
+
+  <!-- Hero placeholder -->
+  <div style="
+    width:100%;aspect-ratio:4/3;max-height:240px;
+    border-radius:20px;background:var(--ti-tint);
+    border:1px dashed var(--ti-border-strong);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--ti-muted);font-size:13px;text-align:center;
+    margin-bottom:32px;
+  ">
+    <div>
+      <div style="font-size:32px;margin-bottom:8px;">⚽</div>
+      <div style="font-weight:600;">NCSA NJ Youth Soccer</div>
+      <div style="font-size:12px;margin-top:4px;color:var(--ti-faint);">1,038 teams · 169 divisions</div>
+    </div>
+  </div>
+
+  <!-- CTAs -->
+  <div style="display:flex;flex-direction:column;gap:10px;">
+    <a href="/register" class="ti-btn ti-btn-primary" style="text-decoration:none;">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <path d="M9 2a4 4 0 1 1 0 8A4 4 0 0 1 9 2zM2 16c0-3.3 3.1-6 7-6s7 2.7 7 6" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      Sign up free
+    </a>
+    <a href="/login" class="ti-btn ti-btn-secondary" style="text-decoration:none;">
+      Log in
+    </a>
+  </div>
+
+  <!-- Terms footnote -->
+  <p style="font-size:12px;color:var(--ti-faint);text-align:center;margin-top:20px;line-height:16px;padding:0 12px;">
+    By continuing, you agree to our Terms and acknowledge our Privacy Policy.
+  </p>
+
+  <!-- Stats strip -->
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:40px;text-align:center;">
+    <div>
+      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;" class="num">1,038</div>
+      <div style="font-size:11px;color:var(--ti-faint);margin-top:2px;text-transform:uppercase;letter-spacing:0.4px;font-weight:600;">teams</div>
+    </div>
+    <div>
+      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;" class="num">169</div>
+      <div style="font-size:11px;color:var(--ti-faint);margin-top:2px;text-transform:uppercase;letter-spacing:0.4px;font-weight:600;">divisions</div>
+    </div>
+    <div>
+      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;">Free</div>
+      <div style="font-size:11px;color:var(--ti-faint);margin-top:2px;text-transform:uppercase;letter-spacing:0.4px;font-weight:600;">always</div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Sign up — TooInvolved{% endblock %}
+
+{% block content %}
+<div style="max-width:400px;margin:0 auto;padding:40px 0 60px;">
+
+  <!-- Brand mark -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:32px;">
+    <div class="ti-crest" style="width:44px;height:44px;border-radius:12px;background:var(--ti-accent);font-size:16px;font-weight:800;">
+      <svg width="22" height="22" viewBox="0 0 30 30" fill="none">
+        <circle cx="15" cy="15" r="11" stroke="#fff" stroke-width="2.4" fill="none"/>
+        <circle cx="15" cy="15" r="3.4" fill="#fff"/>
+      </svg>
+    </div>
+    <div>
+      <div style="font-size:20px;font-weight:800;letter-spacing:-0.5px;line-height:1.1;">Create your account</div>
+      <div style="font-size:13px;color:var(--ti-muted);margin-top:2px;">Free, no credit card required.</div>
+    </div>
+  </div>
+
+  {% if error %}
+  <div style="background:#FEF2F2;border:1px solid #FECACA;color:#B91C1C;padding:12px 16px;border-radius:12px;font-size:14px;margin-bottom:20px;">
+    {{ error }}
+  </div>
+  {% endif %}
+
+  <form method="post" action="/register" style="display:flex;flex-direction:column;gap:16px;">
+    <div>
+      <label style="display:block;font-size:12px;font-weight:600;color:var(--ti-muted);letter-spacing:0.3px;text-transform:uppercase;margin-bottom:6px;">Email</label>
+      <input type="email" name="email" value="{{ email or '' }}" required autofocus
+             class="ti-input" placeholder="you@example.com">
+    </div>
+    <div>
+      <label style="display:block;font-size:12px;font-weight:600;color:var(--ti-muted);letter-spacing:0.3px;text-transform:uppercase;margin-bottom:6px;">Password</label>
+      <input type="password" name="password" required minlength="8"
+             class="ti-input" placeholder="At least 8 characters">
+    </div>
+    <button type="submit" class="ti-btn ti-btn-primary" style="margin-top:4px;">
+      Create account
+    </button>
+  </form>
+
+  <p style="margin-top:20px;font-size:14px;color:var(--ti-muted);text-align:center;">
+    Already have an account?
+    <a href="/login" style="color:var(--ti-accent);font-weight:600;text-decoration:none;">Log in</a>
+  </p>
+
+</div>
+{% endblock %}

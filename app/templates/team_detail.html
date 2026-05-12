@@ -1,0 +1,245 @@
+{% extends "base.html" %}
+{% block title %}{{ card.team_title }} — TooInvolved{% endblock %}
+
+{% block content %}
+<div style="max-width:600px;margin:0 auto;padding-bottom:60px;">
+
+  <!-- Back + title bar -->
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:20px;">
+    <a href="/dashboard" style="
+      width:36px;height:36px;border-radius:10px;
+      background:rgba(20,18,14,0.05);border:none;
+      display:flex;align-items:center;justify-content:center;
+      text-decoration:none;flex-shrink:0;
+    ">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M12.5 4L6.5 10l6 6" stroke="var(--ti-text)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <div style="flex:1;min-width:0;">
+      <div style="font-size:17px;font-weight:700;letter-spacing:-0.3px;color:var(--ti-text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+        {{ card.team_title }}
+      </div>
+      <div style="font-size:12px;color:var(--ti-muted);margin-top:1px;">{{ card.team_subtitle }} · {{ card.division_label }}</div>
+    </div>
+    <a href="/onboard" style="
+      width:36px;height:36px;border-radius:10px;
+      background:transparent;border:none;
+      display:flex;align-items:center;justify-content:center;
+      text-decoration:none;flex-shrink:0;color:var(--ti-muted);
+    " title="Edit subscriptions">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <path d="M13 2l3 3L6 15l-4 1 1-4L13 2z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Hero: crest + name -->
+  <div style="display:flex;align-items:center;gap:14px;margin-bottom:16px;">
+    <div class="ti-crest" style="
+      width:56px;height:56px;border-radius:15px;
+      background:{{ crest_color(card.sub.club) }};
+      font-size:20px;
+    ">{{ crest_initials(card.sub.club) }}</div>
+    <div style="flex:1;min-width:0;">
+      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;line-height:26px;">{{ card.team_title }}</div>
+      <div style="font-size:12px;color:var(--ti-muted);margin-top:4px;">
+        {{ card.team_subtitle }} · {{ card.division_label }}
+      </div>
+    </div>
+  </div>
+
+  <!-- Summary cards row -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;">
+    <!-- League position -->
+    <div style="background:#fff;border:1px solid var(--ti-border);border-radius:14px;padding:14px;">
+      <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.5px;text-transform:uppercase;">League position</div>
+      {% if card.rank %}
+      <div class="num" style="font-size:28px;font-weight:800;letter-spacing:-0.8px;color:var(--ti-accent);margin-top:4px;line-height:32px;">
+        #{{ card.rank }} <span style="font-size:13px;color:var(--ti-muted);font-weight:500;">of {{ card.total_teams }}</span>
+      </div>
+      {% if card.team %}
+      <div style="font-size:12px;color:var(--ti-text);margin-top:4px;" class="num">
+        <span style="font-weight:700;">{{ card.team.points }}</span> pts ·
+        {{ card.team.goals_for }}–{{ card.team.goals_against }}
+        <span style="font-weight:700;color:{{ 'var(--ti-accent)' if card.team.goal_diff >= 0 else 'var(--ti-loss)' }};">
+          {{ '+' if card.team.goal_diff > 0 else '' }}{{ card.team.goal_diff }}
+        </span>
+      </div>
+      {% endif %}
+      {% else %}
+      <div style="font-size:14px;color:var(--ti-muted);margin-top:6px;">Not in standings</div>
+      {% endif %}
+    </div>
+
+    <!-- Last 5 -->
+    <div style="background:#fff;border:1px solid var(--ti-border);border-radius:14px;padding:14px;">
+      <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.5px;text-transform:uppercase;">Last 5</div>
+      {% if card.team and card.team.form %}
+      {% set form5 = card.team.form[-5:] %}
+      <div style="display:flex;gap:5px;margin-top:10px;">
+        {% for r in form5 %}
+        <div class="form-chip form-chip-{{ r }}" style="width:26px;height:26px;border-radius:8px;font-size:12px;">{{ r }}</div>
+        {% endfor %}
+      </div>
+      <div style="font-size:12px;color:var(--ti-text);margin-top:8px;" class="num">
+        {{ form5.count('W') }}W ·
+        {{ form5.count('D') }}D ·
+        {{ form5.count('L') }}L
+      </div>
+      {% else %}
+      <div style="font-size:14px;color:var(--ti-muted);margin-top:6px;">No games yet</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Segmented tabs -->
+  <div id="tabs" class="seg-tabs" style="margin-bottom:16px;">
+    <button class="seg-tab active" onclick="switchTab('standings',this)">Standings</button>
+    <button class="seg-tab" onclick="switchTab('results',this)">Results</button>
+  </div>
+
+  <!-- ── Standings tab ─────────────────────────── -->
+  <div id="tab-standings">
+    {% if card.standings %}
+    <div style="background:#fff;border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+      {% for row in card.standings %}
+      {% set is_mine = (row.team_raw == card.sub.team_key) %}
+      <div class="{{ 'standings-mine' if is_mine }}" style="
+        padding:{{ '10px 14px 11px' }};
+        border-bottom:{{ '1px solid var(--ti-border)' if not loop.last else 'none' }};
+      ">
+        <!-- Line 1: rank + crest + name + pts -->
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div class="num" style="
+            width:18px;text-align:center;font-size:13px;flex-shrink:0;
+            font-weight:{{ '800' if is_mine else '600' }};
+            color:{{ 'var(--ti-accent)' if is_mine else 'var(--ti-muted)' }};
+          ">{{ loop.index }}</div>
+          <div class="ti-crest" style="
+            width:28px;height:28px;border-radius:8px;
+            background:{{ crest_color(row.club) }};font-size:10px;flex-shrink:0;
+          ">{{ crest_initials(row.club) }}</div>
+          <div style="
+            flex:1;min-width:0;font-size:15px;letter-spacing:-0.2px;
+            font-weight:{{ '700' if is_mine else '600' }};
+            color:var(--ti-text);
+            overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+          ">{{ row.club }}</div>
+          <div class="num" style="
+            font-size:18px;font-weight:800;letter-spacing:-0.4px;text-align:right;
+            color:{{ 'var(--ti-accent)' if is_mine else 'var(--ti-text)' }};
+          ">{{ row.points }}</div>
+          <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;width:20px;">pts</div>
+        </div>
+        <!-- Line 2: stats -->
+        <div class="num" style="
+          margin-left:38px;margin-top:4px;
+          display:flex;align-items:center;gap:12px;
+          font-size:12px;color:var(--ti-muted);letter-spacing:-0.1px;
+        ">
+          <span><strong style="color:var(--ti-text);font-weight:600;">{{ row.played }}</strong> GP</span>
+          <span style="display:inline-flex;gap:5px;align-items:center;">
+            <span style="color:var(--ti-accent);font-weight:700;">{{ row.wins }}W</span>
+            <span style="opacity:0.4;">·</span>
+            <span style="color:var(--ti-text);font-weight:700;">{{ row.draws }}D</span>
+            <span style="opacity:0.4;">·</span>
+            <span style="color:var(--ti-loss);font-weight:700;">{{ row.losses }}L</span>
+          </span>
+          <span><strong style="color:var(--ti-text);font-weight:600;">{{ row.goals_for }}:{{ row.goals_against }}</strong></span>
+          <span style="font-weight:700;color:{{ 'var(--ti-accent)' if row.goal_diff > 0 else ('var(--ti-loss)' if row.goal_diff < 0 else 'var(--ti-muted)') }};">
+            {{ '+' if row.goal_diff > 0 else '' }}{{ row.goal_diff }}
+          </span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div style="background:#fff;border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
+      Standings not yet available for this division.
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- ── Results tab ───────────────────────────── -->
+  <div id="tab-results" style="display:none;">
+    {% if card.games %}
+    <div style="display:flex;flex-direction:column;gap:18px;">
+      {% set current_month = namespace(value='') %}
+      {% for game in card.games %}
+        {% if game.month_year != current_month.value %}
+          {% set current_month.value = game.month_year %}
+          {% if not loop.first %}</div></div>{% endif %}
+          <div>
+          <div style="font-size:11px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;padding-left:6px;margin-bottom:8px;">
+            {{ game.month_year }}
+          </div>
+          <div style="background:#fff;border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+        {% endif %}
+
+        <!-- Game row -->
+        <div style="
+          display:flex;align-items:center;gap:12px;padding:12px 14px;
+          border-bottom:{{ '1px solid var(--ti-border)' if not loop.last else 'none' }};
+        ">
+          <!-- Date block -->
+          <div style="width:44px;text-align:center;flex-shrink:0;">
+            <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;">{{ game.weekday }}</div>
+            <div class="num" style="font-size:20px;font-weight:800;line-height:22px;color:var(--ti-text);">{{ game.day_num }}</div>
+          </div>
+
+          <!-- Divider -->
+          <div style="width:1px;align-self:stretch;background:var(--ti-border);flex-shrink:0;"></div>
+
+          <!-- Game info -->
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+              <span style="
+                font-size:10px;font-weight:700;color:var(--ti-muted);
+                background:rgba(20,18,14,0.05);padding:2px 6px;border-radius:4px;
+                letter-spacing:0.4px;text-transform:uppercase;
+              ">{{ 'Home' if game.is_home else 'Away' }}</span>
+              <span class="num" style="font-size:12px;color:var(--ti-muted);">{{ game.time }}</span>
+            </div>
+            <div style="font-size:15px;font-weight:600;letter-spacing:-0.2px;margin-top:3px;color:var(--ti-text);">
+              vs {{ game.opponent_club }}
+            </div>
+            <div style="font-size:12px;color:var(--ti-muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+              {{ game.venue_label }}
+            </div>
+          </div>
+
+          <!-- Result -->
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">
+            <div class="form-chip form-chip-{{ game.result }}" style="width:22px;height:22px;border-radius:7px;">{{ game.result }}</div>
+            <div class="num" style="font-size:14px;font-weight:700;color:var(--ti-text);letter-spacing:-0.2px;">
+              {{ game.goals_for }}–{{ game.goals_against }}
+            </div>
+          </div>
+        </div>
+
+        {% if loop.last %}</div></div>{% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <div style="background:#fff;border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
+      No results yet.
+    </div>
+    {% endif %}
+  </div>
+
+</div>
+
+<script>
+function switchTab(tab, btn) {
+  // Hide all
+  document.getElementById('tab-standings').style.display = 'none';
+  document.getElementById('tab-results').style.display   = 'none';
+  // Show selected
+  document.getElementById('tab-' + tab).style.display = '';
+  // Update tab buttons
+  document.querySelectorAll('#tabs .seg-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+</script>
+{% endblock %}

@@ -1,0 +1,234 @@
+{% extends "base.html" %}
+{% block title %}Find your teams — TooInvolved{% endblock %}
+
+{% block content %}
+<div style="max-width:520px;margin:0 auto;padding:8px 0 60px;">
+
+  <!-- Header -->
+  <div style="margin-bottom:24px;">
+    <h1 style="font-size:28px;font-weight:800;letter-spacing:-0.8px;line-height:32px;margin:0 0 8px;">
+      Find your kids' teams
+    </h1>
+    <p style="font-size:15px;color:var(--ti-muted);margin:0;line-height:20px;">
+      Search by club, coach, or division. Select every team you want to follow —
+      you can always come back and change this.
+    </p>
+  </div>
+
+  {% if error %}
+  <div style="background:#FEF2F2;border:1px solid #FECACA;color:#B91C1C;padding:12px 16px;border-radius:12px;font-size:14px;margin-bottom:16px;">
+    {{ error }}
+  </div>
+  {% endif %}
+
+  <!-- Search field -->
+  <div style="
+    display:flex;align-items:center;gap:10px;
+    background:#fff;border:1px solid var(--ti-border-strong);
+    border-radius:14px;padding:0 14px;height:52px;margin-bottom:12px;
+  ">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex-shrink:0;">
+      <circle cx="8" cy="8" r="6" stroke="var(--ti-muted)" stroke-width="1.8"/>
+      <path d="M13 13l3 3" stroke="var(--ti-muted)" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <input
+      id="search-input"
+      type="search"
+      name="q"
+      placeholder='Try "Tenafly", "B12A", or a coach name...'
+      autocomplete="off"
+      hx-post="/search"
+      hx-target="#search-results"
+      hx-trigger="keyup changed delay:200ms, search"
+      hx-include="[name='q']"
+      style="
+        flex:1;border:none;outline:none;background:transparent;
+        font-family:'Inter',sans-serif;font-size:16px;color:var(--ti-text);
+        letter-spacing:-0.2px;
+      "
+    >
+    <button id="clear-btn" onclick="document.getElementById('search-input').value=''; htmx.trigger('#search-input','search'); this.style.display='none';"
+      style="
+        display:none;background:rgba(20,18,14,0.08);border:none;cursor:pointer;
+        width:24px;height:24px;border-radius:12px;
+        align-items:center;justify-content:center;padding:0;flex-shrink:0;
+      ">
+      <svg width="10" height="10" viewBox="0 0 10 10" style="display:block;margin:auto;">
+        <path d="M2 2l6 6M8 2l-6 6" stroke="var(--ti-muted)" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Selected chips -->
+  <div id="selected-chips" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;min-height:0;"></div>
+
+  <!-- "N selected" label -->
+  <div id="selected-count" style="display:none;font-size:12px;font-weight:600;color:var(--ti-muted);letter-spacing:0.2px;text-transform:uppercase;margin-bottom:8px;"></div>
+
+  <!-- Search results (HTMX target) -->
+  <div id="search-results">
+    <div style="text-align:center;padding:40px 0;color:var(--ti-faint);font-size:14px;">Start typing to find teams</div>
+  </div>
+
+  <!-- Submit -->
+  <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--ti-border);">
+    <form id="subscribe-form" method="post" action="/onboard">
+      <button id="continue-btn" type="submit" disabled
+              class="ti-btn ti-btn-primary"
+              style="opacity:0.35;cursor:default;">
+        Continue
+      </button>
+    </form>
+    {% if existing_count %}
+    <p style="font-size:12px;color:var(--ti-faint);text-align:center;margin-top:10px;">
+      Currently following {{ existing_count }} team{{ 's' if existing_count != 1 }}
+    </p>
+    {% endif %}
+  </div>
+
+</div>
+
+<script>
+(function () {
+  // ── State ──────────────────────────────────────────────────────────────────
+  const selected = new Map(); // team_key -> { club, divLabel, coach }
+
+  // Pre-populate from server-provided existing subscriptions
+  const existing = {{ existing_teams | tojson }};
+  for (const t of existing) {
+    selected.set(t.team_key, { club: t.club, divLabel: t.division_label, coach: t.coach });
+  }
+  render();
+
+  // Show/hide clear button
+  const searchInput = document.getElementById('search-input');
+  const clearBtn    = document.getElementById('clear-btn');
+  searchInput.addEventListener('input', () => {
+    clearBtn.style.display = searchInput.value ? 'flex' : 'none';
+  });
+
+  // ── Core ───────────────────────────────────────────────────────────────────
+  function toggle(key) {
+    const card = document.querySelector(`[data-team-key="${CSS.escape(key)}"]`);
+    const club     = card ? card.dataset.club     : (selected.get(key) || {}).club     || key;
+    const divLabel = card ? card.dataset.divLabel : (selected.get(key) || {}).divLabel || '';
+    const coach    = card ? card.dataset.coach    : (selected.get(key) || {}).coach    || '';
+    if (selected.has(key)) {
+      selected.delete(key);
+    } else {
+      selected.set(key, { club, divLabel, coach });
+    }
+    render();
+  }
+
+  function render() {
+    renderChips();
+    syncHiddenInputs();
+    applyCardState();
+    const btn = document.getElementById('continue-btn');
+    btn.disabled = selected.size === 0;
+    btn.style.opacity = selected.size > 0 ? '1' : '0.35';
+    btn.style.cursor  = selected.size > 0 ? 'pointer' : 'default';
+    const countEl = document.getElementById('selected-count');
+    if (selected.size > 0) {
+      countEl.style.display = 'block';
+      countEl.textContent = selected.size + ' selected';
+    } else {
+      countEl.style.display = 'none';
+    }
+  }
+
+  // ── Chips ──────────────────────────────────────────────────────────────────
+  function renderChips() {
+    const container = document.getElementById('selected-chips');
+    container.innerHTML = [...selected.entries()].map(([key, info]) => {
+      const initials = info.club.split(/\s+/).filter(w => /[A-Za-z]/.test(w[0])).slice(0,2).map(w=>w[0].toUpperCase()).join('') || '?';
+      return `
+        <span style="
+          display:inline-flex;align-items:center;gap:8px;
+          background:var(--ti-tint);border:1px solid rgba(46,167,106,0.3);
+          color:var(--ti-text);font-size:13px;padding:5px 10px 5px 8px;border-radius:10px;
+          font-weight:500;
+        ">
+          <span style="
+            width:20px;height:20px;border-radius:6px;background:var(--ti-accent);
+            color:#fff;font-size:9px;font-weight:700;
+            display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;
+          ">${escHtml(initials)}</span>
+          <span style="font-weight:600;">${escHtml(info.club)}</span>
+          <span style="color:var(--ti-muted);font-size:11px;">${escHtml(info.divLabel)}</span>
+          <button type="button" data-remove-key="${escAttr(key)}"
+                  style="
+                    background:rgba(20,18,14,0.08);border:none;cursor:pointer;
+                    width:18px;height:18px;border-radius:9px;
+                    display:inline-flex;align-items:center;justify-content:center;
+                    padding:0;flex-shrink:0;color:var(--ti-muted);font-size:13px;line-height:1;
+                  ">
+            &times;
+          </button>
+        </span>
+      `;
+    }).join('');
+  }
+
+  // ── Hidden inputs ──────────────────────────────────────────────────────────
+  function syncHiddenInputs() {
+    const form = document.getElementById('subscribe-form');
+    form.querySelectorAll('input[name="teams"]').forEach(el => el.remove());
+    for (const key of selected.keys()) {
+      const input = document.createElement('input');
+      input.type  = 'hidden';
+      input.name  = 'teams';
+      input.value = key;
+      form.appendChild(input);
+    }
+  }
+
+  // ── Card visual state ──────────────────────────────────────────────────────
+  function applyCardState() {
+    document.querySelectorAll('[data-team-key]').forEach(card => {
+      const isSelected = selected.has(card.dataset.teamKey);
+      card.style.background = isSelected ? 'var(--ti-tint)' : '#fff';
+      const checkmark = card.querySelector('.card-check');
+      if (checkmark) {
+        if (isSelected) {
+          checkmark.style.background = 'var(--ti-accent)';
+          checkmark.style.border = 'none';
+          checkmark.innerHTML = `<svg width="13" height="13" viewBox="0 0 13 13"><path d="M3 6.5L5.5 9 10 4" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+        } else {
+          checkmark.style.background = 'transparent';
+          checkmark.style.border = '1.5px solid var(--ti-border-strong)';
+          checkmark.innerHTML = '';
+        }
+      }
+    });
+  }
+
+  // Re-apply state after every HTMX search swap
+  document.addEventListener('htmx:afterSwap', (e) => {
+    if (e.detail.target.id === 'search-results') applyCardState();
+  });
+
+  // ── Event delegation ───────────────────────────────────────────────────────
+  document.addEventListener('click', (e) => {
+    const removeBtn = e.target.closest('[data-remove-key]');
+    if (removeBtn) {
+      e.stopPropagation();
+      selected.delete(removeBtn.dataset.removeKey);
+      render();
+      return;
+    }
+    const card = e.target.closest('[data-team-key]');
+    if (card) toggle(card.dataset.teamKey);
+  });
+
+  // ── Utilities ──────────────────────────────────────────────────────────────
+  function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+  function escAttr(s) {
+    return String(s).replace(/"/g,'&quot;');
+  }
+})();
+</script>
+{% endblock %}

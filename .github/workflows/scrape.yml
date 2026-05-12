@@ -1,0 +1,78 @@
+name: Scrape NCSA Standings
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC (2 AM EDT / 1 AM EST)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      divisions:
+        description: "Comma-separated division list (leave blank for all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so merge_standings.py can read HEAD versions
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Scrape standings
+        env:
+          SCRAPER_CONTACT: ${{ secrets.SCRAPER_CONTACT }}
+        run: |
+          if [ -n "${{ github.event.inputs.divisions }}" ]; then
+            python build_standings.py \
+              --divisions "${{ github.event.inputs.divisions }}" \
+              --no-cache \
+              --verbose
+          else
+            python build_standings.py \
+              --all \
+              --no-cache \
+              --verbose
+          fi
+
+      - name: Merge standings (preserve history, detect changes)
+        run: python merge_standings.py --verbose
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet standings/ team_index.json 2>/dev/null \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated standings
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage only data files — never stage cache or source changes
+          git add standings/ team_index.json
+
+          CHANGED_COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          DATE=$(date -u +"%Y-%m-%d")
+
+          git commit -m "chore(data): refresh standings ${DATE} (${CHANGED_COUNT} file(s) updated)"
+
+          git push origin HEAD

@@ -4,6 +4,15 @@ import re
 from typing import Any
 
 
+def division_short(code: str) -> str:
+    """'B09EW' -> 'BU9', 'G12A' -> 'GU12'"""
+    m = re.match(r"^([BG])(\d{2})", code)
+    if not m:
+        return code
+    gender, age = m.group(1), int(m.group(2))
+    return f"{gender}U{age}"
+
+
 def division_label(code: str) -> str:
     """'B12A' -> 'Boys U12 · Flight A',  'G09R' -> 'Girls U9 · Recreational'"""
     m = re.match(r"^([BG])(\d{2})([A-Za-z0-9]+)$", code)
@@ -39,6 +48,7 @@ def search_teams(
                     "coach": info["coach"],
                     "division": info["division"],
                     "division_label": division_label(info["division"]),
+                    "division_short": division_short(info["division"]),
                 }
             )
             if len(results) >= limit:

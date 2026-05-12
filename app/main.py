@@ -75,7 +75,7 @@ def _division_short(code: str) -> str:
     if not m:
         return code
     gender, age = m.group(1), int(m.group(2))
-    return f"{gender}U{age:02d}"
+    return f"{gender}U{age}"
 
 
 def _detect_home_prefix(games: list[dict]) -> str:
@@ -169,7 +169,7 @@ def _build_card(sub: Subscription) -> dict:
     short = _division_short(sub.division)
     return {
         "sub": sub,
-        "team_title": f"{short} · {sub.coach}",
+        "team_title": f"{short}-{sub.coach}",
         "team_subtitle": sub.club,
         "division_label": division_label(sub.division),
         "team": matched,

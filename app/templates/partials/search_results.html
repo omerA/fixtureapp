@@ -34,11 +34,10 @@
     <!-- Info -->
     <div style="flex:1;min-width:0;">
       <div style="font-size:15px;font-weight:600;color:var(--ti-text);letter-spacing:-0.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-        {{ team.club }}
+        {{ team.division_short }}-{{ team.coach }}
       </div>
       <div style="font-size:12px;color:var(--ti-muted);margin-top:2px;">
-        {{ team.division_label }}
-        {% if team.coach %} · {{ team.coach }}{% endif %}
+        {{ team.club }} · {{ team.division_label }}
       </div>
     </div>
 

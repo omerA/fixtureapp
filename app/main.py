@@ -30,6 +30,8 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from starlette.middleware.sessions import SessionMiddleware
 
+from authlib.integrations.starlette_client import OAuth
+
 from .auth import hash_password, verify_password
 from .db import get_db, init_db
 from .models import Subscription, User
@@ -110,6 +112,16 @@ def _annotate_games(games: list[dict], home_prefix: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 # App setup
 # ---------------------------------------------------------------------------
+
+oauth = OAuth()
+oauth.register(
+    name="google",
+    client_id=os.getenv("GOOGLE_CLIENT_ID"),
+    client_secret=os.getenv("GOOGLE_CLIENT_SECRET"),
+    server_metadata_url="https://accounts.google.com/.well-known/openid-configuration",
+    client_kwargs={"scope": "openid email profile"},
+)
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -251,6 +263,43 @@ async def login_post(
 async def logout(request: Request):
     request.session.clear()
     return RedirectResponse("/", status_code=302)
+
+
+# ---------------------------------------------------------------------------
+# Google OAuth
+# ---------------------------------------------------------------------------
+
+@app.get("/auth/google")
+async def auth_google(request: Request):
+    redirect_uri = request.url_for("auth_google_callback")
+    return await oauth.google.authorize_redirect(request, redirect_uri)
+
+
+@app.get("/auth/google/callback")
+async def auth_google_callback(request: Request, db: Session = Depends(get_db)):
+    token = await oauth.google.authorize_access_token(request)
+    user_info = token.get("userinfo")
+    if not user_info:
+        return RedirectResponse("/login?error=google", status_code=302)
+
+    google_id = user_info["sub"]
+    email = user_info["email"]
+
+    user = db.query(User).filter(User.google_id == google_id).first()
+    if not user:
+        user = db.query(User).filter(User.email == email).first()
+        if user:
+            user.google_id = google_id
+        else:
+            user = User(email=email, google_id=google_id)
+            db.add(user)
+        db.commit()
+        db.refresh(user)
+
+    request.session["user_id"] = user.id
+    if not user.subscriptions:
+        return RedirectResponse("/onboard", status_code=302)
+    return RedirectResponse("/dashboard", status_code=302)
 
 
 # ---------------------------------------------------------------------------

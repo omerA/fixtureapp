@@ -1,13 +1,13 @@
 {
   "division": "G11XB",
-  "scraped_at": "2026-05-12T19:13:57.867042Z",
+  "scraped_at": "2026-05-13T08:34:31.184358Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlenRock",
       "coach": "Leichte",
       "draws": 0,
-      "form": "W",
+      "form": "WL",
       "games": [
         {
           "date": "2026-03-22",
@@ -19,6 +19,17 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-12",
+          "game_number": "409513",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11XB-Johnson",
+          "result": "L",
+          "time": "07:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
       "goal_diff": 3,
@@ -34,8 +45,20 @@
       "club": "Dragons",
       "coach": "Johnson",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-12",
+          "game_number": "409513",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11XB-Leichte",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,

@@ -74,7 +74,7 @@ def _venue_label(code: str) -> str:
 def _division_short(code: str) -> str:
     """'B09EW' -> 'BU9', 'G12A' -> 'GU12'"""
     import re
-    m = re.match(r'^([BG])(\\d{2})', code)
+    m = re.match(r'^([BG])(\d{2})', code)
     if not m:
         return code
     gender, age = m.group(1), int(m.group(2))

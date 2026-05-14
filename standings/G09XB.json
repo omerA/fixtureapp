@@ -1,8 +1,35 @@
 {
   "division": "G09XB",
-  "scraped_at": "2026-05-13T08:33:28.950736Z",
+  "scraped_at": "2026-05-14T08:28:07.001348Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Dragons",
+      "coach": "Donohue",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-12",
+          "game_number": "409425",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09XB-Maringola",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 0,
+      "goals_for": 1,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Dragons-G09XB-Donohue",
+      "wins": 1
+    },
     {
       "club": "JerseyCity",
       "coach": "Szucs",
@@ -31,33 +58,6 @@
       "wins": 1
     },
     {
-      "club": "Dragons",
-      "coach": "Donohue",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-12",
-          "game_number": "409425",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G09XB-Maringola",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dragons-G09XB-Donohue",
-      "wins": 0
-    },
-    {
       "club": "Maywood",
       "coach": "Maringola",
       "draws": 0,
@@ -75,11 +75,11 @@
           "venue_code": "DRAG-Westvaleback7v7"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "goal_diff": -1,
+      "goals_against": 1,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Maywood-G09XB-Maringola",
       "wins": 0

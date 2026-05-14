@@ -1,8 +1,35 @@
 {
   "division": "G11XB",
-  "scraped_at": "2026-05-13T08:34:31.184358Z",
+  "scraped_at": "2026-05-14T08:29:09.777464Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Dragons",
+      "coach": "Johnson",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-12",
+          "game_number": "409513",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11XB-Leichte",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Dragons-G11XB-Johnson",
+      "wins": 1
+    },
     {
       "club": "GlenRock",
       "coach": "Leichte",
@@ -32,41 +59,14 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 0,
+      "goal_diff": 0,
+      "goals_against": 3,
       "goals_for": 3,
-      "losses": 0,
-      "played": 1,
+      "losses": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "GlenRock-G11XB-Leichte",
       "wins": 1
-    },
-    {
-      "club": "Dragons",
-      "coach": "Johnson",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-12",
-          "game_number": "409513",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G11XB-Leichte",
-          "result": "W",
-          "time": "07:15 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dragons-G11XB-Johnson",
-      "wins": 0
     },
     {
       "club": "JerseyCity",

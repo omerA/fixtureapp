@@ -1,8 +1,90 @@
 {
   "division": "B11EB",
-  "scraped_at": "2026-05-13T08:29:53.871657Z",
+  "scraped_at": "2026-05-14T08:24:29.946170Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "RiverDell",
+      "coach": "Leckenby",
+      "draws": 1,
+      "form": "LWWWD",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "406927",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B11EB-Lezcano",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "406929",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11EB-Harrison",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406933",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B11EB-Preciado",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406934",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11EB-Furman",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406941",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B11EB-Lezcano",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-05-13",
+          "game_number": "406947",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B11EB-Preciado",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 10,
+      "goals_for": 19,
+      "losses": 1,
+      "played": 6,
+      "points": 13,
+      "team_raw": "RiverDell-B11EB-Leckenby",
+      "wins": 4
+    },
     {
       "club": "Maroons",
       "coach": "Harrison",
@@ -61,77 +143,6 @@
       "played": 4,
       "points": 12,
       "team_raw": "Maroons-B11EB-Harrison",
-      "wins": 4
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Leckenby",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "406927",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B11EB-Lezcano",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "406929",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B11EB-Harrison",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406933",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B11EB-Preciado",
-          "result": "W",
-          "time": "01:15 PM",
-          "venue_code": "RDBH-DPAC North"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406934",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11EB-Furman",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WALD-SuperDomeOut"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406941",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B11EB-Lezcano",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "RDBH-DPAC South"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 9,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 5,
-      "points": 12,
-      "team_raw": "RiverDell-B11EB-Leckenby",
       "wins": 4
     },
     {
@@ -217,70 +228,10 @@
       "wins": 2
     },
     {
-      "club": "GlenRock",
-      "coach": "Chafetz",
-      "draws": 1,
-      "form": "WDLL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "406926",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B11EB-Preciado",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406930",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11EB-Furman",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "WALD-SuperDomeOut"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406936",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B11EB-Lezcano",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406940",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B11EB-Preciado",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 9,
-      "goals_for": 10,
-      "losses": 2,
-      "played": 4,
-      "points": 4,
-      "team_raw": "GlenRock-B11EB-Chafetz",
-      "wins": 1
-    },
-    {
       "club": "Teaneck",
       "coach": "Preciado",
-      "draws": 1,
-      "form": "LLLDW",
+      "draws": 2,
+      "form": "LLDWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -347,15 +298,86 @@
           "result": "W",
           "time": "11:45 AM",
           "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-05-13",
+          "game_number": "406947",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11EB-Leckenby",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
       "goal_diff": -15,
-      "goals_against": 25,
-      "goals_for": 10,
+      "goals_against": 26,
+      "goals_for": 11,
       "losses": 4,
-      "played": 6,
-      "points": 4,
+      "played": 7,
+      "points": 5,
       "team_raw": "Teaneck-B11EB-Preciado",
+      "wins": 1
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Chafetz",
+      "draws": 1,
+      "form": "WDLL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "406926",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B11EB-Preciado",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406930",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11EB-Furman",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406936",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B11EB-Lezcano",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406940",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B11EB-Preciado",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 9,
+      "goals_for": 10,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "GlenRock-B11EB-Chafetz",
       "wins": 1
     },
     {

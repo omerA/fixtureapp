@@ -26,7 +26,7 @@ STANDINGS_URL = f"{NCSA_BASE}/standings.cfm"
 import os as _os
 _contact = _os.getenv("SCRAPER_CONTACT", "your-email@example.com")
 USER_AGENT = (
-    "TenaflyStandingsBot/0.1 "
+    "FixtureAppBot/0.1 "
     f"(parent-side project; polite, max 1 req/2s, contact: {_contact})"
 )
 

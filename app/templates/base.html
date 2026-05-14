@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}TooInvolved{% endblock %}</title>
+
+  <!-- Anti-FOUC: apply dark class before any paint -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('ti-theme');
+      var sys = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && sys)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet" />
@@ -12,6 +24,7 @@
   <link rel="stylesheet" href="/static/style.css">
   <script>
     tailwind.config = {
+      darkMode: 'class',
       theme: {
         extend: {
           colors: {
@@ -35,18 +48,41 @@
   </script>
   <style>
     :root {
-      --ti-bg:           oklch(0.985 0.005 80);
-      --ti-surface:      #ffffff;
-      --ti-text:         oklch(0.22 0.01 80);
-      --ti-muted:        oklch(0.52 0.01 80);
-      --ti-faint:        oklch(0.68 0.01 80);
-      --ti-accent:       oklch(0.62 0.16 145);
-      --ti-tint:         oklch(0.96 0.04 145);
-      --ti-loss:         oklch(0.64 0.18 28);
-      --ti-draw:         oklch(0.72 0.04 80);
-      --ti-border:       rgba(20, 18, 14, 0.08);
-      --ti-border-strong: rgba(20, 18, 14, 0.14);
+      --ti-bg:             oklch(0.985 0.005 80);
+      --ti-surface:        #ffffff;
+      --ti-text:           oklch(0.22 0.01 80);
+      --ti-muted:          oklch(0.52 0.01 80);
+      --ti-faint:          oklch(0.68 0.01 80);
+      --ti-accent:         oklch(0.62 0.16 145);
+      --ti-tint:           oklch(0.96 0.04 145);
+      --ti-loss:           oklch(0.64 0.18 28);
+      --ti-draw:           oklch(0.72 0.04 80);
+      --ti-border:         rgba(20, 18, 14, 0.08);
+      --ti-border-strong:  rgba(20, 18, 14, 0.14);
+      --ti-overlay-faint:  rgba(20, 18, 14, 0.025);
+      --ti-overlay-light:  rgba(20, 18, 14, 0.05);
+      --ti-overlay-medium: rgba(20, 18, 14, 0.08);
+      color-scheme: light;
     }
+
+    html.dark {
+      --ti-bg:             oklch(0.14 0.01 80);
+      --ti-surface:        oklch(0.19 0.01 80);
+      --ti-text:           oklch(0.95 0.005 80);
+      --ti-muted:          oklch(0.60 0.01 80);
+      --ti-faint:          oklch(0.42 0.01 80);
+      --ti-accent:         oklch(0.68 0.16 145);
+      --ti-tint:           oklch(0.22 0.06 145);
+      --ti-loss:           oklch(0.68 0.18 28);
+      --ti-draw:           oklch(0.46 0.04 80);
+      --ti-border:         rgba(255, 255, 255, 0.08);
+      --ti-border-strong:  rgba(255, 255, 255, 0.15);
+      --ti-overlay-faint:  rgba(255, 255, 255, 0.03);
+      --ti-overlay-light:  rgba(255, 255, 255, 0.06);
+      --ti-overlay-medium: rgba(255, 255, 255, 0.08);
+      color-scheme: dark;
+    }
+
     *, *::before, *::after { box-sizing: border-box; }
     html, body { height: 100%; }
     body {
@@ -100,7 +136,7 @@
     /* Segmented tabs */
     .seg-tabs {
       display: flex;
-      background: rgba(20,18,14,0.05);
+      background: var(--ti-overlay-light);
       border-radius: 12px;
       padding: 3px;
       gap: 2px;
@@ -120,10 +156,10 @@
       transition: all 120ms ease;
     }
     .seg-tab.active {
-      background: #fff;
+      background: var(--ti-surface);
       color: var(--ti-text);
       font-weight: 600;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 0 0 1px rgba(20,18,14,0.05);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 0 0 1px var(--ti-border);
     }
 
     /* Primary button */
@@ -146,7 +182,7 @@
     }
     .ti-btn:active { transform: scale(0.985); }
     .ti-btn-primary { background: var(--ti-accent); color: #fff; }
-    .ti-btn-secondary { background: #fff; color: var(--ti-text); border: 1px solid var(--ti-border-strong); }
+    .ti-btn-secondary { background: var(--ti-surface); color: var(--ti-text); border: 1px solid var(--ti-border-strong); }
 
     /* Input field */
     .ti-input {
@@ -158,19 +194,19 @@
       font-family: "Inter", sans-serif;
       font-size: 16px;
       color: var(--ti-text);
-      background: #fff;
+      background: var(--ti-surface);
       outline: none;
       transition: border-color 120ms ease, box-shadow 120ms ease;
     }
     .ti-input:focus {
       border-color: var(--ti-accent);
-      box-shadow: 0 0 0 3px oklch(0.96 0.04 145);
+      box-shadow: 0 0 0 3px var(--ti-tint);
     }
     .ti-input::placeholder { color: var(--ti-faint); }
 
     /* Card */
     .ti-card {
-      background: #fff;
+      background: var(--ti-surface);
       border: 1px solid var(--ti-border);
       border-radius: 18px;
     }
@@ -180,6 +216,39 @@
       background: var(--ti-bg);
       border-bottom: 1px solid var(--ti-border);
     }
+
+    /* Error banner */
+    .ti-error {
+      background: oklch(0.96 0.04 25);
+      border: 1px solid oklch(0.88 0.08 25);
+      color: oklch(0.42 0.18 25);
+      padding: 12px 16px;
+      border-radius: 12px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    html.dark .ti-error {
+      background: oklch(0.24 0.06 25);
+      border-color: oklch(0.32 0.1 25);
+      color: oklch(0.80 0.12 25);
+    }
+
+    /* Theme toggle */
+    .ti-theme-toggle {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      border: 1px solid var(--ti-border-strong);
+      background: var(--ti-surface);
+      color: var(--ti-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 120ms ease, color 120ms ease;
+      flex-shrink: 0;
+    }
+    .ti-theme-toggle:hover { color: var(--ti-text); }
   </style>
   {% block head %}{% endblock %}
 </head>
@@ -208,6 +277,17 @@
             Sign up
           </a>
         {% endif %}
+        <button class="ti-theme-toggle" onclick="tiToggleTheme()" title="Toggle dark mode" aria-label="Toggle dark mode">
+          <!-- Moon icon (shown in light mode) -->
+          <svg class="ti-icon-moon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M13.5 10A6 6 0 0 1 6 2.5a.5.5 0 0 0-.6-.6A7 7 0 1 0 14.1 10.6a.5.5 0 0 0-.6-.6z" fill="currentColor"/>
+          </svg>
+          <!-- Sun icon (shown in dark mode) -->
+          <svg class="ti-icon-sun" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none;">
+            <circle cx="8" cy="8" r="3.5" fill="currentColor"/>
+            <path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.42 1.42M11.36 11.36l1.42 1.42M3.22 12.78l1.42-1.42M11.36 4.64l1.42-1.42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
       </div>
     </div>
   </header>
@@ -217,6 +297,23 @@
     {% block content %}{% endblock %}
   </main>
   {% endblock %}
+
+  <script>
+    // Sync toggle icon with current theme
+    function tiSyncIcon() {
+      var isDark = document.documentElement.classList.contains('dark');
+      document.querySelector('.ti-icon-moon').style.display = isDark ? 'none' : '';
+      document.querySelector('.ti-icon-sun').style.display  = isDark ? '' : 'none';
+    }
+
+    function tiToggleTheme() {
+      var isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('ti-theme', isDark ? 'dark' : 'light');
+      tiSyncIcon();
+    }
+
+    tiSyncIcon();
+  </script>
 
 </body>
 </html>

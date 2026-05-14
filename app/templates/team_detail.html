@@ -8,7 +8,7 @@
   <div style="display:flex;align-items:center;gap:8px;margin-bottom:20px;">
     <a href="/dashboard" style="
       width:36px;height:36px;border-radius:10px;
-      background:rgba(20,18,14,0.05);border:none;
+      background:var(--ti-overlay-light);border:none;
       display:flex;align-items:center;justify-content:center;
       text-decoration:none;flex-shrink:0;
     ">
@@ -52,7 +52,7 @@
   <!-- Summary cards row -->
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;">
     <!-- League position -->
-    <div style="background:#fff;border:1px solid var(--ti-border);border-radius:14px;padding:14px;">
+    <div style="background:var(--ti-surface);border:1px solid var(--ti-border);border-radius:14px;padding:14px;">
       <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.5px;text-transform:uppercase;">League position</div>
       {% if card.rank %}
       <div class="num" style="font-size:28px;font-weight:800;letter-spacing:-0.8px;color:var(--ti-accent);margin-top:4px;line-height:32px;">
@@ -73,7 +73,7 @@
     </div>
 
     <!-- Last 5 -->
-    <div style="background:#fff;border:1px solid var(--ti-border);border-radius:14px;padding:14px;">
+    <div style="background:var(--ti-surface);border:1px solid var(--ti-border);border-radius:14px;padding:14px;">
       <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.5px;text-transform:uppercase;">Last 5</div>
       {% if card.team and card.team.form %}
       {% set form5 = card.team.form[-5:] %}
@@ -102,7 +102,7 @@
   <!-- ── Standings tab ─────────────────────────── -->
   <div id="tab-standings">
     {% if card.standings %}
-    <div style="background:#fff;border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+    <div style="background:var(--ti-surface);border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
       {% for row in card.standings %}
       {% set is_mine = (row.team_raw == card.sub.team_key) %}
       <div class="{{ 'standings-mine' if is_mine }}" style="
@@ -155,7 +155,7 @@
       {% endfor %}
     </div>
     {% else %}
-    <div style="background:#fff;border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
+    <div style="background:var(--ti-surface);border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
       Standings not yet available for this division.
     </div>
     {% endif %}
@@ -174,7 +174,7 @@
           <div style="font-size:11px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;padding-left:6px;margin-bottom:8px;">
             {{ game.month_year }}
           </div>
-          <div style="background:#fff;border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+          <div style="background:var(--ti-surface);border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
         {% endif %}
 
         <!-- Game row -->
@@ -196,7 +196,7 @@
             <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
               <span style="
                 font-size:10px;font-weight:700;color:var(--ti-muted);
-                background:rgba(20,18,14,0.05);padding:2px 6px;border-radius:4px;
+                background:var(--ti-overlay-light);padding:2px 6px;border-radius:4px;
                 letter-spacing:0.4px;text-transform:uppercase;
               ">{{ 'Home' if game.is_home else 'Away' }}</span>
               <span class="num" style="font-size:12px;color:var(--ti-muted);">{{ game.time }}</span>
@@ -222,7 +222,7 @@
       {% endfor %}
     </div>
     {% else %}
-    <div style="background:#fff;border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
+    <div style="background:var(--ti-surface);border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
       No results yet.
     </div>
     {% endif %}

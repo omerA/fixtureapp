@@ -19,9 +19,7 @@
   </div>
 
   {% if error %}
-  <div style="background:#FEF2F2;border:1px solid #FECACA;color:#B91C1C;padding:12px 16px;border-radius:12px;font-size:14px;margin-bottom:20px;">
-    {{ error }}
-  </div>
+  <div class="ti-error">{{ error }}</div>
   {% endif %}
 
   <form method="post" action="/register" style="display:flex;flex-direction:column;gap:16px;">

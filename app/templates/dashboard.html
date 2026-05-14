@@ -11,7 +11,7 @@
   </div>
   <a href="/onboard" style="
     width:42px;height:42px;border-radius:12px;
-    background:#fff;border:1px solid var(--ti-border-strong);
+    background:var(--ti-surface);border:1px solid var(--ti-border-strong);
     display:flex;align-items:center;justify-content:center;
     text-decoration:none;flex-shrink:0;
   " title="Add / edit teams">
@@ -22,7 +22,7 @@
 </div>
 
 {% if not cards %}
-<div style="background:#fff;border:1px dashed var(--ti-border-strong);border-radius:18px;padding:40px 24px;text-align:center;">
+<div style="background:var(--ti-surface);border:1px dashed var(--ti-border-strong);border-radius:18px;padding:40px 24px;text-align:center;">
   <p style="color:var(--ti-muted);margin:0 0 16px;font-size:15px;">You're not following any teams yet.</p>
   <a href="/onboard" class="ti-btn ti-btn-primary" style="text-decoration:none;width:auto;padding:0 24px;display:inline-flex;">
     Add a team
@@ -61,7 +61,7 @@
       {% if card.team %}
       <div style="
         display:grid;grid-template-columns:repeat(5,1fr);
-        background:rgba(20,18,14,0.025);border-radius:12px;
+        background:var(--ti-overlay-faint);border-radius:12px;
         padding:10px 8px;margin-bottom:14px;
       ">
         {% set stats = [

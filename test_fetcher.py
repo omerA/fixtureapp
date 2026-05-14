@@ -41,7 +41,7 @@ def test_basic_post_request():
     assert "div=B12B" in body, f"expected div=B12B in body, got: {body}"
     assert "getGames=Enter" in body, f"expected getGames=Enter, got: {body}"
     assert call.request.method == "POST"
-    assert "TenaflyStandingsBot" in call.request.headers["User-Agent"]
+    assert "FixtureAppBot" in call.request.headers["User-Agent"]
     print("test_basic_post_request: PASS")
 
 

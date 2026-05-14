@@ -1,5 +1,5 @@
 """
-app/main.py — FastAPI web app for TooInvolved standings tracker.
+app/main.py — FastAPI web app for FixtureApp standings tracker.
 
 Routes:
   GET  /                  Landing page (redirects to /dashboard if logged in)
@@ -133,7 +133,7 @@ async def lifespan(app: FastAPI):
     yield
 
 
-app = FastAPI(lifespan=lifespan, title="TooInvolved")
+app = FastAPI(lifespan=lifespan, title="FixtureApp")
 app.add_middleware(ProxyHeadersMiddleware, trusted_hosts="*")
 app.add_middleware(
     SessionMiddleware,

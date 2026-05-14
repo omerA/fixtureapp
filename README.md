@@ -1,4 +1,4 @@
-# TooInvolved
+# FixtureApp
 
 A parent-facing web app for following kids' teams in NCSA NJ youth soccer leagues. Shows standings, results, and form — across all the divisions your kids play in.
 

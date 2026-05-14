@@ -1,10 +1,19 @@
+import os
 from pathlib import Path
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
-DB_PATH = Path(__file__).parent.parent / "app.db"
-engine = create_engine(f"sqlite:///{DB_PATH}", connect_args={"check_same_thread": False})
+_DATABASE_URL = os.getenv("DATABASE_URL")
+
+if _DATABASE_URL:
+    # Railway injects postgres:// but SQLAlchemy requires postgresql://
+    _DATABASE_URL = _DATABASE_URL.replace("postgres://", "postgresql://", 1)
+    engine = create_engine(_DATABASE_URL)
+else:
+    _DB_PATH = Path(__file__).parent.parent / "app.db"
+    engine = create_engine(f"sqlite:///{_DB_PATH}", connect_args={"check_same_thread": False})
+
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 

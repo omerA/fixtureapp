@@ -23,7 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Fetch full history so merge_standings.py can read HEAD versions
+          ref: staging
           fetch-depth: 1
 
       - name: Set up Python
@@ -91,4 +91,4 @@ jobs:
 
           git commit -m "chore(data): refresh standings+schedules ${DATE} (${CHANGED_COUNT} file(s) updated)"
 
-          git push origin HEAD
+          git push origin HEAD:staging

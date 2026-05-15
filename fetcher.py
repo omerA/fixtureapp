@@ -20,6 +20,7 @@ import requests
 
 NCSA_BASE = "https://www.ncsanj.com"
 STANDINGS_URL = f"{NCSA_BASE}/standings.cfm"
+SCHEDULE_URL = f"{NCSA_BASE}/gameSchedule.cfm"
 
 # Identify ourselves clearly to NCSA admins. Set SCRAPER_CONTACT in the
 # environment (or .env) so the User-Agent includes a real contact address.
@@ -136,4 +137,37 @@ class StandingsFetcher:
 
         html = response.text
         self._write_cache(division, html)
+        return FetchResult(division, html, from_cache=False, status_code=200)
+
+    def fetch_schedule(self, division: str, *, force_refresh: bool = False) -> FetchResult:
+        """
+        Fetch the schedule HTML for a given division from gameSchedule.cfm.
+        Uses a separate cache namespace (sched_<division>) to avoid colliding
+        with standings cache entries.
+        """
+        cache_key = f"sched_{division}"
+        if not force_refresh:
+            cached = self._read_cache(cache_key)
+            if cached is not None:
+                log.info("cache hit (schedule): %s", division)
+                return FetchResult(division, cached, from_cache=True, status_code=200)
+
+        self._wait_for_rate_limit()
+        log.info("fetching schedule %s from network", division)
+
+        response = self._session.post(
+            SCHEDULE_URL,
+            data={"BY": "dv", "div": division},
+            timeout=self.timeout,
+            allow_redirects=True,
+        )
+        self._last_request_at = time.time()
+
+        if response.status_code != 200:
+            raise RuntimeError(
+                f"NCSA returned status {response.status_code} for schedule {division}"
+            )
+
+        html = response.text
+        self._write_cache(cache_key, html)
         return FetchResult(division, html, from_cache=False, status_code=200)

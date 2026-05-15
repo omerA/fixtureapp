@@ -1,4 +1,4 @@
-name: Scrape NCSA Standings
+name: Scrape NCSA Standings & Schedules
 
 on:
   schedule:
@@ -51,28 +51,44 @@ jobs:
               --verbose
           fi
 
+      - name: Scrape schedules
+        env:
+          SCRAPER_CONTACT: ${{ secrets.SCRAPER_CONTACT }}
+        run: |
+          if [ -n "${{ github.event.inputs.divisions }}" ]; then
+            python build_schedules.py \
+              --divisions "${{ github.event.inputs.divisions }}" \
+              --no-cache \
+              --verbose
+          else
+            python build_schedules.py \
+              --all \
+              --no-cache \
+              --verbose
+          fi
+
       - name: Merge standings (preserve history, detect changes)
         run: python merge_standings.py --verbose
 
       - name: Check for changes
         id: diff
         run: |
-          git diff --quiet standings/ team_index.json 2>/dev/null \
+          git diff --quiet standings/ schedules/ team_index.json 2>/dev/null \
             && echo "changed=false" >> "$GITHUB_OUTPUT" \
             || echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      - name: Commit and push updated standings
+      - name: Commit and push updated data
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Stage only data files — never stage cache or source changes
-          git add standings/ team_index.json
+          git add standings/ schedules/ team_index.json
 
           CHANGED_COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
           DATE=$(date -u +"%Y-%m-%d")
 
-          git commit -m "chore(data): refresh standings ${DATE} (${CHANGED_COUNT} file(s) updated)"
+          git commit -m "chore(data): refresh standings+schedules ${DATE} (${CHANGED_COUNT} file(s) updated)"
 
           git push origin HEAD

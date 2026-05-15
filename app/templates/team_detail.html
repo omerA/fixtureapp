@@ -97,6 +97,9 @@
   <div id="tabs" class="seg-tabs" style="margin-bottom:16px;">
     <button class="seg-tab active" onclick="switchTab('standings',this)">Standings</button>
     <button class="seg-tab" onclick="switchTab('results',this)">Results</button>
+    <button class="seg-tab" onclick="switchTab('upcoming',this)">
+      Upcoming{% if card.upcoming %} <span style="font-size:10px;background:var(--ti-accent);color:#fff;border-radius:10px;padding:1px 5px;margin-left:3px;font-weight:700;">{{ card.upcoming | length }}</span>{% endif %}
+    </button>
   </div>
 
   <!-- ── Standings tab ─────────────────────────── -->
@@ -228,16 +231,81 @@
     {% endif %}
   </div>
 
+  <!-- ── Upcoming tab ────────────────────────────── -->
+  <div id="tab-upcoming" style="display:none;">
+    {% if card.upcoming %}
+    <div style="display:flex;flex-direction:column;gap:18px;">
+      {% set current_month = namespace(value='') %}
+      {% for game in card.upcoming %}
+        {% if game.month_year != current_month.value %}
+          {% set current_month.value = game.month_year %}
+          {% if not loop.first %}</div></div>{% endif %}
+          <div>
+          <div style="font-size:11px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;padding-left:6px;margin-bottom:8px;">
+            {{ game.month_year }}
+          </div>
+          <div style="background:var(--ti-surface);border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+        {% endif %}
+
+        <div style="
+          display:flex;align-items:center;gap:12px;padding:12px 14px;
+          border-bottom:{{ '1px solid var(--ti-border)' if not loop.last else 'none' }};
+        ">
+          <!-- Date block -->
+          <div style="width:44px;text-align:center;flex-shrink:0;">
+            <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;">{{ game.weekday }}</div>
+            <div class="num" style="font-size:20px;font-weight:800;line-height:22px;color:var(--ti-text);">{{ game.day_num }}</div>
+          </div>
+
+          <!-- Divider -->
+          <div style="width:1px;align-self:stretch;background:var(--ti-border);flex-shrink:0;"></div>
+
+          <!-- Game info -->
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+              <span style="
+                font-size:10px;font-weight:700;color:var(--ti-accent);
+                background:var(--ti-overlay-light);padding:2px 6px;border-radius:4px;
+                letter-spacing:0.4px;text-transform:uppercase;
+              ">{{ 'Home' if game.is_home else 'Away' }}</span>
+              <span class="num" style="font-size:12px;color:var(--ti-muted);">{{ game.time }}</span>
+            </div>
+            <div style="font-size:15px;font-weight:600;letter-spacing:-0.2px;margin-top:3px;color:var(--ti-text);">
+              vs {{ game.opponent_club }}
+            </div>
+            <div style="font-size:12px;color:var(--ti-muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+              {{ game.field }}
+            </div>
+          </div>
+
+          <!-- "Upcoming" pill -->
+          <div style="flex-shrink:0;">
+            <div style="
+              font-size:10px;font-weight:700;color:var(--ti-muted);
+              background:var(--ti-overlay-medium);padding:4px 8px;border-radius:8px;
+              letter-spacing:0.3px;text-transform:uppercase;
+            ">TBD</div>
+          </div>
+        </div>
+
+        {% if loop.last %}</div></div>{% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <div style="background:var(--ti-surface);border:1px dashed var(--ti-border-strong);border-radius:16px;padding:32px;text-align:center;color:var(--ti-muted);font-size:14px;">
+      No upcoming games found. Schedule data refreshes daily.
+    </div>
+    {% endif %}
+  </div>
+
 </div>
 
 <script>
 function switchTab(tab, btn) {
-  // Hide all
   document.getElementById('tab-standings').style.display = 'none';
   document.getElementById('tab-results').style.display   = 'none';
-  // Show selected
+  document.getElementById('tab-upcoming').style.display  = 'none';
   document.getElementById('tab-' + tab).style.display = '';
-  // Update tab buttons
   document.querySelectorAll('#tabs .seg-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }

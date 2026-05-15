@@ -3,317 +3,199 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% block title %}FixtureApp{% endblock %}</title>
+  <title>{% block title %}Fixture{% endblock %}</title>
 
-  <!-- Anti-FOUC: apply dark class before any paint -->
-  <script>
-    (function () {
-      var saved = localStorage.getItem('ti-theme');
-      var sys = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'dark' || (!saved && sys)) {
-        document.documentElement.classList.add('dark');
-      }
-    })();
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/htmx.org@1.9.12"></script>
-  <link rel="stylesheet" href="/static/style.css">
+
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
           colors: {
-            ti: {
-              bg:     '#FAF9F7',
-              text:   '#2E2C28',
-              muted:  '#7A7873',
-              faint:  '#A8A5A0',
-              accent: '#2EA76A',
-              tint:   '#EEF9F3',
-              loss:   '#E2582D',
-              draw:   '#B0ADA7',
-            }
+            "primary":               "#0d631b",
+            "primary-container":     "#2e7d32",
+            "primary-fixed":         "#a3f69c",
+            "on-primary":            "#ffffff",
+            "on-primary-container":  "#cbffc2",
+            "chalk-white":           "#ffffff",
+            "surface":               "#f9f9f9",
+            "surface-container":     "#eeeeee",
+            "surface-container-low": "#f3f3f3",
+            "surface-container-lowest": "#ffffff",
+            "grass-green-light":     "#E3F3E6",
+            "stadium-navy":          "#0D1240",
+            "sideline-grey":         "#616161",
+            "on-surface":            "#1a1c1c",
+            "on-surface-variant":    "#40493d",
+            "outline":               "#707a6c",
+            "outline-variant":       "#bfcaba",
+            "error":                 "#ba1a1a",
+            "error-container":       "#ffdad6",
+            "on-error":              "#ffffff",
+            "secondary":             "#4c56af",
+            "secondary-container":   "#959efd",
+            "tertiary":              "#7e4900",
+            "tertiary-container":    "#a05e00",
+            "tertiary-fixed":        "#ffdcbe",
           },
           fontFamily: {
-            sans: ['"Inter"', '-apple-system', 'system-ui', 'sans-serif'],
+            headline: ["Lexend", "system-ui", "sans-serif"],
           },
         }
       }
     }
   </script>
+
   <style>
-    :root {
-      --ti-bg:             oklch(0.985 0.005 80);
-      --ti-surface:        #ffffff;
-      --ti-text:           oklch(0.22 0.01 80);
-      --ti-muted:          oklch(0.52 0.01 80);
-      --ti-faint:          oklch(0.68 0.01 80);
-      --ti-accent:         oklch(0.62 0.16 145);
-      --ti-tint:           oklch(0.96 0.04 145);
-      --ti-loss:           oklch(0.64 0.18 28);
-      --ti-draw:           oklch(0.72 0.04 80);
-      --ti-border:         rgba(20, 18, 14, 0.08);
-      --ti-border-strong:  rgba(20, 18, 14, 0.14);
-      --ti-overlay-faint:  rgba(20, 18, 14, 0.025);
-      --ti-overlay-light:  rgba(20, 18, 14, 0.05);
-      --ti-overlay-medium: rgba(20, 18, 14, 0.08);
-      color-scheme: light;
-    }
+    body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    .font-headline { font-family: 'Lexend', system-ui, sans-serif; }
 
-    html.dark {
-      --ti-bg:             oklch(0.14 0.01 80);
-      --ti-surface:        oklch(0.19 0.01 80);
-      --ti-text:           oklch(0.95 0.005 80);
-      --ti-muted:          oklch(0.60 0.01 80);
-      --ti-faint:          oklch(0.42 0.01 80);
-      --ti-accent:         oklch(0.68 0.16 145);
-      --ti-tint:           oklch(0.22 0.06 145);
-      --ti-loss:           oklch(0.68 0.18 28);
-      --ti-draw:           oklch(0.46 0.04 80);
-      --ti-border:         rgba(255, 255, 255, 0.08);
-      --ti-border-strong:  rgba(255, 255, 255, 0.15);
-      --ti-overlay-faint:  rgba(255, 255, 255, 0.03);
-      --ti-overlay-light:  rgba(255, 255, 255, 0.06);
-      --ti-overlay-medium: rgba(255, 255, 255, 0.08);
-      color-scheme: dark;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      font-family: "Inter", -apple-system, system-ui, sans-serif;
-      background: var(--ti-bg);
-      color: var(--ti-text);
-      -webkit-font-smoothing: antialiased;
-      min-height: 100%;
-    }
-    .num { font-variant-numeric: tabular-nums; }
-
-    /* Crest — rounded square with initials */
-    .ti-crest {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-weight: 700;
-      letter-spacing: -0.3px;
-      flex-shrink: 0;
-      box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.18);
-    }
-
-    /* Form chip */
-    .form-chip {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
       line-height: 1;
-      flex-shrink: 0;
-      font-size: 11px;
+      vertical-align: middle;
     }
-    .form-chip-W { background: var(--ti-accent); color: #fff; }
-    .form-chip-L { background: var(--ti-loss);   color: #fff; }
-    .form-chip-D { background: var(--ti-draw);   color: var(--ti-text); }
 
-    /* Standings two-line: accent bar for subscribed row */
-    .standings-mine {
-      background: var(--ti-tint);
-      position: relative;
+    .fi-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 12px 24px -10px rgba(13, 18, 64, 0.1);
     }
+
+    /* Form result chips */
+    .result-chip {
+      width: 24px; height: 24px;
+      border-radius: 6px;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 11px; flex-shrink: 0;
+    }
+    .result-W { background: #0d631b; color: #fff; }
+    .result-L { background: #ba1a1a; color: #fff; }
+    .result-D { background: #bfcaba; color: #1a1c1c; }
+
+    /* Standings highlight for subscribed row */
+    .standings-mine { background: #E3F3E6; position: relative; }
     .standings-mine::before {
       content: '';
-      position: absolute;
-      left: 0; top: 0; bottom: 0;
-      width: 3px;
-      background: var(--ti-accent);
+      position: absolute; left: 0; top: 0; bottom: 0;
+      width: 3px; background: #0d631b;
     }
 
     /* Segmented tabs */
-    .seg-tabs {
-      display: flex;
-      background: var(--ti-overlay-light);
-      border-radius: 12px;
-      padding: 3px;
-      gap: 2px;
-    }
+    .seg-tabs { display: flex; background: #eeeeee; border-radius: 10px; padding: 3px; gap: 2px; }
     .seg-tab {
-      flex: 1;
-      height: 34px;
-      border-radius: 9px;
-      border: none;
-      background: transparent;
-      color: var(--ti-muted);
-      font-family: "Inter", sans-serif;
-      font-weight: 500;
-      font-size: 13px;
-      cursor: pointer;
-      letter-spacing: -0.1px;
-      transition: all 120ms ease;
+      flex: 1; height: 36px; border-radius: 8px; border: none;
+      background: transparent; color: #616161;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 13px;
+      cursor: pointer; transition: all 120ms ease;
     }
-    .seg-tab.active {
-      background: var(--ti-surface);
-      color: var(--ti-text);
-      font-weight: 600;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 0 0 1px var(--ti-border);
-    }
-
-    /* Primary button */
-    .ti-btn {
-      height: 52px;
-      border-radius: 14px;
-      padding: 0 20px;
-      font-family: "Inter", sans-serif;
-      font-weight: 600;
-      font-size: 16px;
-      letter-spacing: -0.2px;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      width: 100%;
-      border: none;
-      transition: transform 80ms ease, opacity 120ms ease;
-    }
-    .ti-btn:active { transform: scale(0.985); }
-    .ti-btn-primary { background: var(--ti-accent); color: #fff; }
-    .ti-btn-secondary { background: var(--ti-surface); color: var(--ti-text); border: 1px solid var(--ti-border-strong); }
-
-    /* Input field */
-    .ti-input {
-      width: 100%;
-      height: 48px;
-      border: 1px solid var(--ti-border-strong);
-      border-radius: 12px;
-      padding: 0 14px;
-      font-family: "Inter", sans-serif;
-      font-size: 16px;
-      color: var(--ti-text);
-      background: var(--ti-surface);
-      outline: none;
-      transition: border-color 120ms ease, box-shadow 120ms ease;
-    }
-    .ti-input:focus {
-      border-color: var(--ti-accent);
-      box-shadow: 0 0 0 3px var(--ti-tint);
-    }
-    .ti-input::placeholder { color: var(--ti-faint); }
-
-    /* Card */
-    .ti-card {
-      background: var(--ti-surface);
-      border: 1px solid var(--ti-border);
-      border-radius: 18px;
-    }
-
-    /* Top bar */
-    .ti-topbar {
-      background: var(--ti-bg);
-      border-bottom: 1px solid var(--ti-border);
-    }
+    .seg-tab.active { background: #fff; color: #1a1c1c; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 
     /* Error banner */
-    .ti-error {
-      background: oklch(0.96 0.04 25);
-      border: 1px solid oklch(0.88 0.08 25);
-      color: oklch(0.42 0.18 25);
-      padding: 12px 16px;
-      border-radius: 12px;
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-    html.dark .ti-error {
-      background: oklch(0.24 0.06 25);
-      border-color: oklch(0.32 0.1 25);
-      color: oklch(0.80 0.12 25);
+    .fi-error {
+      background: #ffdad6; border: 1px solid #ba1a1a; color: #93000a;
+      padding: 12px 16px; border-radius: 10px; font-size: 14px; margin-bottom: 16px;
     }
 
-    /* Theme toggle */
-    .ti-theme-toggle {
-      width: 34px;
-      height: 34px;
-      border-radius: 10px;
-      border: 1px solid var(--ti-border-strong);
-      background: var(--ti-surface);
-      color: var(--ti-muted);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background 120ms ease, color 120ms ease;
-      flex-shrink: 0;
-    }
-    .ti-theme-toggle:hover { color: var(--ti-text); }
+    .htmx-indicator { opacity: 0; transition: opacity 200ms ease-in; }
+    .htmx-request .htmx-indicator { opacity: 1; }
+    .htmx-request.htmx-indicator { opacity: 1; }
   </style>
+
   {% block head %}{% endblock %}
 </head>
-<body>
+<body class="bg-surface text-on-surface min-h-screen">
 
-  <!-- Nav -->
-  <header class="ti-topbar sticky top-0 z-50">
-    <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2.5 no-underline">
-        <div class="ti-crest" style="width:32px;height:32px;border-radius:9px;background:var(--ti-accent);font-size:12px;font-weight:800;">
-          FA
-        </div>
-        <span style="font-weight:800;font-size:17px;letter-spacing:-0.4px;color:var(--ti-text);">FixtureApp</span>
-      </a>
-      <div class="flex items-center gap-3">
-        {% if user %}
-          <a href="/onboard" style="font-size:14px;font-weight:500;color:var(--ti-muted);">Teams</a>
-          <form method="post" action="/logout" class="inline">
-            <button type="submit" style="font-size:14px;font-weight:500;color:var(--ti-muted);background:transparent;border:none;cursor:pointer;padding:0;">
-              Log out
-            </button>
-          </form>
-        {% else %}
-          <a href="/login" style="font-size:14px;font-weight:500;color:var(--ti-muted);">Log in</a>
-          <a href="/register" style="background:var(--ti-accent);color:#fff;font-size:14px;font-weight:600;padding:7px 16px;border-radius:10px;letter-spacing:-0.1px;text-decoration:none;">
-            Sign up
-          </a>
-        {% endif %}
-        <button class="ti-theme-toggle" onclick="tiToggleTheme()" title="Toggle dark mode" aria-label="Toggle dark mode">
-          <!-- Moon icon (shown in light mode) -->
-          <svg class="ti-icon-moon" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M13.5 10A6 6 0 0 1 6 2.5a.5.5 0 0 0-.6-.6A7 7 0 1 0 14.1 10.6a.5.5 0 0 0-.6-.6z" fill="currentColor"/>
-          </svg>
-          <!-- Sun icon (shown in dark mode) -->
-          <svg class="ti-icon-sun" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none;">
-            <circle cx="8" cy="8" r="3.5" fill="currentColor"/>
-            <path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.42 1.42M11.36 11.36l1.42 1.42M3.22 12.78l1.42-1.42M11.36 4.64l1.42-1.42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </button>
+  {% if user %}
+  <!-- Sidebar: desktop only, logged-in users -->
+  <aside class="hidden md:flex flex-col fixed left-0 top-0 h-full w-64 bg-chalk-white border-r border-outline-variant z-50 p-6">
+    <a href="/" class="flex items-center gap-3 mb-8" style="text-decoration:none;">
+      <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
+        <svg width="20" height="20" viewBox="0 0 30 30" fill="none">
+          <circle cx="15" cy="15" r="11" stroke="#fff" stroke-width="2.4" fill="none"/>
+          <circle cx="15" cy="15" r="3.4" fill="#fff"/>
+        </svg>
       </div>
+      <span class="font-headline font-bold text-xl text-primary">Fixture</span>
+    </a>
+
+    <nav class="flex-1 space-y-1">
+      <a href="/dashboard" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sideline-grey hover:bg-surface-container transition-all text-sm font-semibold" style="text-decoration:none;">
+        <span class="material-symbols-outlined" style="font-size:20px;">groups</span>
+        My Teams
+      </a>
+      <a href="/onboard" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sideline-grey hover:bg-surface-container transition-all text-sm font-semibold" style="text-decoration:none;">
+        <span class="material-symbols-outlined" style="font-size:20px;">manage_search</span>
+        Find Teams
+      </a>
+    </nav>
+
+    <div class="border-t border-outline-variant pt-4">
+      <form method="post" action="/logout">
+        <button type="submit" class="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-sideline-grey hover:bg-surface-container transition-all text-sm font-semibold text-left" style="background:transparent;border:none;cursor:pointer;">
+          <span class="material-symbols-outlined" style="font-size:20px;">logout</span>
+          Log out
+        </button>
+      </form>
     </div>
-  </header>
+  </aside>
+  {% endif %}
 
-  {% block full_page %}
-  <main class="max-w-4xl mx-auto px-4 py-10">
-    {% block content %}{% endblock %}
-  </main>
-  {% endblock %}
+  <!-- Content wrapper (offset from sidebar on desktop) -->
+  <div class="{% if user %}md:ml-64{% endif %}">
 
-  <script>
-    // Sync toggle icon with current theme
-    function tiSyncIcon() {
-      var isDark = document.documentElement.classList.contains('dark');
-      document.querySelector('.ti-icon-moon').style.display = isDark ? 'none' : '';
-      document.querySelector('.ti-icon-sun').style.display  = isDark ? '' : 'none';
-    }
+    <!-- Top bar -->
+    <header class="sticky top-0 z-40 bg-chalk-white border-b border-outline-variant">
+      <div class="flex items-center justify-between h-16 px-4 {% if not user %}md:px-10 max-w-5xl mx-auto{% endif %}">
 
-    function tiToggleTheme() {
-      var isDark = document.documentElement.classList.toggle('dark');
-      localStorage.setItem('ti-theme', isDark ? 'dark' : 'light');
-      tiSyncIcon();
-    }
+        <!-- Logo (always visible on mobile; hidden on desktop when sidebar is active) -->
+        <a href="/" class="flex items-center gap-2 {% if user %}md:opacity-0 md:pointer-events-none{% endif %}" style="text-decoration:none;">
+          <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+            <svg width="16" height="16" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="15" r="11" stroke="#fff" stroke-width="2.4" fill="none"/>
+              <circle cx="15" cy="15" r="3.4" fill="#fff"/>
+            </svg>
+          </div>
+          <span class="font-headline font-bold text-lg text-primary">Fixture</span>
+        </a>
 
-    tiSyncIcon();
-  </script>
+        <!-- Right-side nav -->
+        {% if user %}
+        <div class="flex items-center gap-4 md:hidden">
+          <a href="/dashboard" class="text-sm font-semibold text-sideline-grey" style="text-decoration:none;">Teams</a>
+          <a href="/onboard" class="text-sm font-semibold text-sideline-grey" style="text-decoration:none;">Find</a>
+          <form method="post" action="/logout" class="inline">
+            <button type="submit" class="text-sm font-semibold text-sideline-grey" style="background:transparent;border:none;cursor:pointer;padding:0;">Out</button>
+          </form>
+        </div>
+        <div class="hidden md:block">{# desktop placeholder — sidebar owns navigation #}</div>
+        {% else %}
+        <div class="flex items-center gap-3">
+          <a href="/login" class="text-sm font-semibold text-sideline-grey" style="text-decoration:none;">Log in</a>
+          <a href="/register" class="text-sm font-bold text-on-primary bg-primary px-4 py-2 rounded-lg" style="text-decoration:none;">Sign up</a>
+        </div>
+        {% endif %}
+
+      </div>
+    </header>
+
+    <!-- Page content -->
+    {% block full_page %}
+    <main class="px-4 md:px-10 py-8">
+      <div class="max-w-5xl mx-auto">
+        {% block content %}{% endblock %}
+      </div>
+    </main>
+    {% endblock %}
+
+  </div><!-- /content wrapper -->
 
 </body>
 </html>

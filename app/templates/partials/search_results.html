@@ -1,59 +1,49 @@
 {% if query | length < 2 %}
-<div style="text-align:center;padding:40px 0;color:var(--ti-faint);font-size:14px;">
+<div class="text-center py-10 text-sideline-grey text-sm">
   Start typing to find teams
 </div>
 
 {% elif not teams %}
-<div style="text-align:center;padding:40px 0;color:var(--ti-muted);font-size:14px;">
+<div class="text-center py-10 text-sideline-grey text-sm">
   No teams match &ldquo;{{ query }}&rdquo;
-  <div style="margin-top:6px;font-size:12px;color:var(--ti-faint);">Try a different name or check spelling.</div>
+  <div class="text-xs text-outline mt-1">Try a different name or check spelling.</div>
 </div>
 
 {% else %}
-<div style="background:var(--ti-surface);border-radius:16px;border:1px solid var(--ti-border);overflow:hidden;">
+<div class="fi-card overflow-hidden">
   {% for team in teams %}
   <div
     data-team-key="{{ team.team_key }}"
     data-club="{{ team.club }}"
     data-div-label="{{ team.division_label }}"
     data-coach="{{ team.coach }}"
-    style="
-      display:flex;align-items:center;gap:12px;
-      padding:12px 14px;cursor:pointer;
-      border-bottom:{{ '1px solid var(--ti-border)' if not loop.last else 'none' }};
-      transition:background 120ms;
-    "
+    class="flex items-center gap-3 px-4 py-3 cursor-pointer {% if not loop.last %}border-b border-outline-variant{% endif %} transition-colors"
+    style="background:#fff;"
   >
     <!-- Crest -->
-    <div class="ti-crest" style="
-      width:36px;height:36px;border-radius:10px;
-      background:{{ crest_color(team.club) }};
-      font-size:13px;flex-shrink:0;
-    ">{{ crest_initials(team.club) }}</div>
+    <div class="w-9 h-9 rounded-lg flex items-center justify-center font-bold text-on-primary text-xs flex-shrink-0"
+         style="background:{{ crest_color(team.club) }};">
+      {{ crest_initials(team.club) }}
+    </div>
 
     <!-- Info -->
-    <div style="flex:1;min-width:0;">
-      <div style="font-size:15px;font-weight:600;color:var(--ti-text);letter-spacing:-0.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+    <div class="flex-1 min-w-0">
+      <div class="text-sm font-semibold text-on-surface truncate">
         {{ team.division_short }}-{{ team.coach }}
       </div>
-      <div style="font-size:12px;color:var(--ti-muted);margin-top:2px;">
+      <div class="text-xs text-sideline-grey mt-0.5">
         {{ team.club }} · {{ team.division_label }}
       </div>
     </div>
 
     <!-- Checkmark -->
-    <div class="card-check" style="
-      width:24px;height:24px;border-radius:8px;
-      border:1.5px solid var(--ti-border-strong);
-      background:transparent;
-      display:flex;align-items:center;justify-content:center;
-      flex-shrink:0;
-    "></div>
+    <div class="card-check w-6 h-6 rounded-lg flex items-center justify-center flex-shrink-0"
+         style="border:1.5px solid #bfcaba;background:transparent;"></div>
   </div>
   {% endfor %}
 </div>
 {% if teams | length == 15 %}
-<p style="font-size:12px;color:var(--ti-faint);text-align:center;padding-top:8px;">
+<p class="text-xs text-sideline-grey text-center mt-2">
   Showing first 15 — type more to narrow
 </p>
 {% endif %}

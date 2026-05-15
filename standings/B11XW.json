@@ -1,6 +1,6 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-05-14T08:24:56.341676Z",
+  "scraped_at": "2026-05-15T12:31:52.079264Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -58,31 +58,31 @@
       "wins": 1
     },
     {
-      "club": "Arsenal",
-      "coach": "Dickins",
+      "club": "Rutherford",
+      "coach": "Carlstein",
       "draws": 0,
-      "form": "L",
+      "form": "W",
       "games": [
         {
           "date": "2026-05-13",
           "game_number": "409439",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B11XW-Carlstein",
-          "result": "L",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11XW-Dickins",
+          "result": "W",
           "time": "06:30 PM",
           "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 2,
+      "goals_against": 2,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Arsenal-B11XW-Dickins",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "Rutherford-B11XW-Carlstein",
+      "wins": 1
     },
     {
       "club": "Maywood",
@@ -115,33 +115,6 @@
       "wins": 0
     },
     {
-      "club": "Rutherford",
-      "coach": "Carlstein",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-13",
-          "game_number": "409439",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11XW-Dickins",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "RUTH-Tamblyn"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-B11XW-Carlstein",
-      "wins": 0
-    },
-    {
       "club": "NMKnights",
       "coach": "Melki",
       "draws": 0,
@@ -166,6 +139,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "NMKnights-B11XW-Melki",
+      "wins": 0
+    },
+    {
+      "club": "Arsenal",
+      "coach": "Dickins",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-13",
+          "game_number": "409439",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B11XW-Carlstein",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Tamblyn"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 4,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Arsenal-B11XW-Dickins",
       "wins": 0
     },
     {

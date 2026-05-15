@@ -79,6 +79,9 @@
   <div id="tabs" class="seg-tabs mb-5" style="max-width:320px;">
     <button class="seg-tab active" onclick="switchTab('standings',this)">Standings</button>
     <button class="seg-tab" onclick="switchTab('results',this)">Results</button>
+    <button class="seg-tab" onclick="switchTab('upcoming',this)">
+      Upcoming{% if card.upcoming %} <span class="inline-flex items-center justify-center bg-primary text-on-primary rounded-full font-bold ml-1" style="font-size:9px;min-width:16px;height:16px;padding:0 4px;">{{ card.upcoming | length }}</span>{% endif %}
+    </button>
   </div>
 
   <!-- Desktop: side-by-side layout for tabs -->
@@ -186,14 +189,66 @@
       {% endif %}
     </div>
 
-  </div><!-- /flex layout -->
+    <!-- ── Upcoming tab ─── -->
+    <div id="tab-upcoming" class="flex-1" style="display:none;">
+      {% if card.upcoming %}
+      <div class="flex flex-col gap-5">
+        {% set current_month = namespace(value='') %}
+        {% for game in card.upcoming %}
+          {% if game.month_year != current_month.value %}
+            {% set current_month.value = game.month_year %}
+            {% if not loop.first %}</div></div>{% endif %}
+            <div>
+            <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-widest mb-3 px-1 bg-surface-container-low py-1 px-3 rounded inline-block">
+              {{ game.month_year }}
+            </div>
+            <div class="fi-card overflow-hidden">
+          {% endif %}
 
-</div>
+          <!-- Game row -->
+          <div class="flex items-center gap-4 px-4 py-3 {% if not loop.last %}border-b border-outline-variant{% endif %}">
+            <!-- Date block -->
+            <div class="w-11 text-center flex-shrink-0 border-r border-outline-variant pr-3">
+              <div class="text-[10px] font-bold text-sideline-grey uppercase">{{ game.weekday }}</div>
+              <div class="font-headline font-bold text-on-surface text-lg leading-none mt-0.5">{{ game.day_num }}</div>
+            </div>
+
+            <!-- Game info -->
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[9px] font-bold text-primary bg-surface-container px-1.5 py-0.5 rounded uppercase tracking-wide">
+                  {{ 'Home' if game.is_home else 'Away' }}
+                </span>
+                <span class="text-[11px] text-sideline-grey">{{ game.time }}</span>
+              </div>
+              <div class="font-bold text-on-surface text-sm">vs {{ game.opponent_club }}</div>
+              <div class="text-[11px] text-sideline-grey truncate">{{ game.field }}</div>
+            </div>
+
+            <!-- TBD pill -->
+            <div class="flex-shrink-0">
+              <span class="text-[9px] font-bold text-sideline-grey bg-surface-container px-2 py-1 rounded uppercase tracking-wide">TBD</span>
+            </div>
+          </div>
+
+          {% if loop.last %}</div></div>{% endif %}
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="fi-card p-8 text-center text-sideline-grey text-sm border-2 border-dashed border-outline-variant"
+           style="box-shadow:none;">
+        No upcoming games found. Schedule data refreshes daily.
+      </div>
+      {% endif %}
+    </div>
+
+  </div><!-- /flex layout -->
 
 <script>
 function switchTab(tab, btn) {
   document.getElementById('tab-standings').style.display = tab === 'standings' ? '' : 'none';
   document.getElementById('tab-results').style.display   = tab === 'results'   ? '' : 'none';
+  document.getElementById('tab-upcoming').style.display  = tab === 'upcoming'  ? '' : 'none';
   document.querySelectorAll('#tabs .seg-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }

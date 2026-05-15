@@ -87,6 +87,22 @@
       </div>
       {% endif %}
 
+      <!-- Next game preview -->
+      {% if card.upcoming %}
+      {% set next = card.upcoming[0] %}
+      <div class="flex items-center gap-3 mt-3 bg-surface-container-low rounded-xl px-3 py-2">
+        <div class="text-center flex-shrink-0 w-9 border-r border-outline-variant pr-3">
+          <div class="text-[9px] font-bold text-sideline-grey uppercase">{{ next.weekday }}</div>
+          <div class="font-headline font-bold text-on-surface text-base leading-none mt-0.5">{{ next.day_num }}</div>
+        </div>
+        <div class="flex-1 min-w-0">
+          <div class="text-[9px] font-bold text-sideline-grey uppercase tracking-wide">Next · {{ 'Home' if next.is_home else 'Away' }}</div>
+          <div class="text-sm font-bold text-on-surface truncate">vs {{ next.opponent_club }}</div>
+        </div>
+        <div class="text-[11px] text-sideline-grey flex-shrink-0">{{ next.time }}</div>
+      </div>
+      {% endif %}
+
     </div>
   </a>
 

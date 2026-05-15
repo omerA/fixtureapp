@@ -406,3 +406,10 @@ html.dark {
   --shadow-card: 0 8px 20px -8px rgba(0,0,0,0.55);
   --shadow-over: 0 16px 40px -8px rgba(0,0,0,0.70);
 }
+
+/* The stadium navy hero panel is always dark regardless of theme.
+   chalk-white flips to a dark surface color in dark mode, so
+   force literal white for text inside this fixed-dark container. */
+html.dark .lp-hero-panel .text-chalk-white {
+  color: #ffffff;
+}

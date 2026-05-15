@@ -265,6 +265,33 @@ body {
 .htmx-request .htmx-indicator { opacity: 1; }
 .htmx-request.htmx-indicator  { opacity: 1; }
 
+/* ── Theme Toggle Button ────────────────────────────────────── */
+.theme-toggle {
+  width: 36px; height: 36px;
+  border-radius: var(--r);
+  border: none; background: transparent;
+  color: var(--clr-sideline-grey);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.theme-toggle:hover {
+  background: var(--clr-surface-container);
+  color: var(--clr-on-surface);
+}
+
+/* ── Smooth theme transition (only during toggle, not all hovers) ── */
+html.theme-transitioning,
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after {
+  transition:
+    background-color 220ms ease,
+    color 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease !important;
+}
+
 
 /* ══════════════════════════════════════════════════════════════
    LANDING PAGE COMPONENTS
@@ -310,4 +337,65 @@ body {
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
   color: var(--clr-primary);
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   DARK MODE — html.dark token overrides
+   Sideline Spirit dark: lighter grass green, deep navy-tinted
+   surfaces, warm sunrise orange retained, navy panel unchanged.
+   ══════════════════════════════════════════════════════════════ */
+
+html.dark {
+  color-scheme: dark;
+
+  /* Primary: lighter for visibility on dark surfaces */
+  --clr-primary:              #88d982;
+  --clr-primary-container:    #1b6d24;
+  --clr-on-primary:           #002204;
+  --clr-on-primary-container: #cbffc2;
+  --clr-primary-fixed:        #a3f69c;
+  --clr-primary-fixed-dim:    #6fbc69;
+  --clr-grass-green-light:    #0d1f10;
+
+  /* Secondary */
+  --clr-secondary:            #bdc2ff;
+  --clr-secondary-container:  #343d96;
+  --clr-on-secondary:         #212478;
+  --clr-on-secondary-container: #e0e0ff;
+
+  /* Tertiary / Sunrise Orange: warmer for dark mode */
+  --clr-tertiary:             #ffb870;
+  --clr-tertiary-dim:         #ff9800;
+  --clr-tertiary-light:       #2c1600;
+  --clr-on-tertiary:          #1a0900;
+
+  /* Surfaces: deep navy-green */
+  --clr-surface:              #101613;
+  --clr-surface-dim:          #0c1210;
+  --clr-surface-low:          #181f1a;
+  --clr-surface-container:    #1e2620;
+  --clr-surface-high:         #242d25;
+  --clr-surface-highest:      #2a342c;
+  --clr-chalk-white:          #1e2620;
+
+  /* On-surface text */
+  --clr-on-surface:           #dfe3de;
+  --clr-on-surface-var:       #b4c0b0;
+  --clr-outline:              #546452;
+  --clr-outline-var:          #2e3930;
+  --clr-sideline-grey:        #7a8f78;
+
+  /* Stadium navy unchanged — works on both themes */
+
+  /* Error */
+  --clr-error:                #ffb4ab;
+  --clr-error-container:      #93000a;
+  --clr-on-error:             #690005;
+  --clr-on-error-container:   #ffdad6;
+
+  /* Stronger shadows in dark */
+  --shadow-xs:   0 1px 3px rgba(0,0,0,0.40);
+  --shadow-card: 0 8px 20px -8px rgba(0,0,0,0.55);
+  --shadow-over: 0 16px 40px -8px rgba(0,0,0,0.70);
 }

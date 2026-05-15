@@ -1,74 +1,395 @@
 {% extends "base.html" %}
-{% block title %}FixtureApp — Follow your kids' soccer{% endblock %}
+{% block title %}Fixture — Follow your kids' soccer season{% endblock %}
 
-{% block content %}
-<div style="max-width:420px;margin:0 auto;padding:40px 0 60px;">
+{% block full_page %}
+<main>
 
-  <!-- Brand mark + wordmark -->
-  <div style="display:flex;flex-direction:column;align-items:flex-start;gap:18px;margin-bottom:32px;">
-    <div class="ti-crest" style="width:56px;height:56px;border-radius:16px;background:var(--ti-accent);font-size:22px;font-weight:800;box-shadow:0 8px 24px rgba(20,18,14,0.08);">
-      <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-        <circle cx="15" cy="15" r="11" stroke="#fff" stroke-width="2.4" fill="none"/>
-        <circle cx="15" cy="15" r="3.4" fill="#fff"/>
-      </svg>
-    </div>
-    <div>
-      <h1 style="font-size:36px;font-weight:800;letter-spacing:-1.2px;line-height:40px;margin:0;">FixtureApp</h1>
-      <p style="font-size:17px;color:var(--ti-muted);margin:8px 0 0;line-height:24px;max-width:300px;">
-        Follow your kid's team. Standings, scores, and Saturday's kickoff — all in one place.
+  {# ══════════════════════════════════════════
+     HERO  —  split layout: copy left · navy panel right
+     ══════════════════════════════════════════ #}
+  <section class="flex flex-col md:flex-row" style="min-height: calc(100vh - 64px);">
+
+    {# ── Left: brand copy + CTAs ── #}
+    <div class="flex-1 flex flex-col justify-center
+                px-6 md:px-12 lg:px-20 py-16 md:py-0"
+         style="max-width: 680px;">
+
+      <span class="fi-chip fi-chip-green self-start mb-6"
+            style="font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;">
+        NCSA NJ Youth Soccer
+      </span>
+
+      <h1 class="font-headline font-bold text-on-surface mb-5"
+          style="font-size: clamp(2.4rem, 5vw, 3.5rem);
+                 line-height: 1.05;
+                 letter-spacing: -0.03em;
+                 max-width: 16ch;">
+        Follow your<br>kids' season.
+      </h1>
+
+      <p class="text-on-surface-variant text-lg leading-relaxed mb-10"
+         style="max-width: 38ch;">
+        Standings, scores, and Saturday's kickoff — all in one place.
+        <span class="font-semibold text-primary">Free, always.</span>
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3" style="max-width: 340px;">
+        <a href="/register" class="fi-btn fi-btn-primary flex-1 justify-center">
+          <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 2a4 4 0 1 1 0 8A4 4 0 0 1 9 2zM2 16c0-3.3 3.1-6 7-6s7 2.7 7 6"
+                  stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          Sign up free
+        </a>
+        <a href="/login" class="fi-btn fi-btn-secondary flex-1 justify-center">
+          Log in
+        </a>
+      </div>
+
+      <p class="text-xs text-sideline-grey mt-4 tracking-wide">
+        No credit card required · Free for every parent
       </p>
     </div>
-  </div>
 
-  <!-- Hero placeholder -->
-  <div style="
-    width:100%;aspect-ratio:4/3;max-height:240px;
-    border-radius:20px;background:var(--ti-tint);
-    border:1px dashed var(--ti-border-strong);
-    display:flex;align-items:center;justify-content:center;
-    color:var(--ti-muted);font-size:13px;text-align:center;
-    margin-bottom:32px;
-  ">
-    <div>
-      <div style="font-size:32px;margin-bottom:8px;">⚽</div>
-      <div style="font-weight:600;">NCSA NJ Youth Soccer</div>
-      <div style="font-size:12px;margin-top:4px;color:var(--ti-faint);">1,038 teams · 169 divisions</div>
+    {# ── Right: Stadium Navy visual panel (desktop only) ── #}
+    <div class="hidden md:flex flex-col justify-center items-center lp-hero-panel"
+         style="width: 44%; flex-shrink: 0;">
+      <div class="relative z-10 flex flex-col items-center w-full px-8 lg:px-12 py-12"
+           style="max-width: 460px;">
+
+        {# Logo lockup #}
+        <div class="flex items-center gap-4 mb-10 self-start">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+               width="52" height="52" aria-hidden="true">
+            <rect width="100" height="100" rx="20" fill="#2E7D32"/>
+            <path d="M30 25H70V35H45V45H65V55H45V75H30V25Z" fill="white"/>
+            <path d="M70 75L85 60L70 45V75Z" fill="#1A237E" opacity="0.8"/>
+            <circle cx="80" cy="25" r="8" fill="#FF9800"/>
+          </svg>
+          <div>
+            <div class="font-headline font-bold text-chalk-white text-2xl leading-none">Fixture</div>
+            <div class="text-on-primary-container text-xs mt-1"
+                 style="letter-spacing: 0.07em; text-transform: uppercase;">
+              Built for parents
+            </div>
+          </div>
+        </div>
+
+        {# Mock standings card #}
+        <div class="lp-mock-card w-full p-5 mb-8">
+          <div class="flex items-center justify-between mb-4">
+            <span class="font-headline font-semibold text-chalk-white text-sm">B09A Standings</span>
+            <span class="fi-live">
+              <span class="fi-live-dot"></span>
+              Live
+            </span>
+          </div>
+
+          <div class="space-y-1">
+            {# Row 1 #}
+            <div class="flex items-center justify-between px-2 py-2"
+                 style="border-bottom: 1px solid rgba(255,255,255,0.08);">
+              <div class="flex items-center gap-3">
+                <span class="text-on-primary-container text-xs" style="width:16px; text-align:right;">1</span>
+                <span class="text-chalk-white text-sm font-semibold">FC Westfield</span>
+              </div>
+              <span class="font-headline font-bold text-primary-fixed text-sm">21 pts</span>
+            </div>
+            {# Row 2 — highlighted "your team" #}
+            <div class="flex items-center justify-between px-2 py-2 rounded-lg"
+                 style="background: rgba(163,246,156,0.09);
+                        border-bottom: 1px solid rgba(255,255,255,0.08);">
+              <div class="flex items-center gap-3">
+                <span class="text-on-primary-container text-xs" style="width:16px; text-align:right;">2</span>
+                <span class="text-chalk-white text-sm font-bold">Your Team</span>
+                <span class="fi-chip"
+                      style="background: rgba(163,246,156,0.18);
+                             color: #88d982;
+                             font-size: 10px; padding: 2px 8px;">
+                  You
+                </span>
+              </div>
+              <span class="font-headline font-bold text-primary-fixed text-sm">18 pts</span>
+            </div>
+            {# Row 3 #}
+            <div class="flex items-center justify-between px-2 py-2">
+              <div class="flex items-center gap-3">
+                <span class="text-on-primary-container text-xs" style="width:16px; text-align:right;">3</span>
+                <span class="text-on-primary-container text-sm">Montclair United</span>
+              </div>
+              <span class="text-on-primary-container text-sm">15 pts</span>
+            </div>
+          </div>
+        </div>
+
+        {# Stats row #}
+        <div class="grid grid-cols-3 w-full"
+             style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;">
+          <div class="text-center"
+               style="border-right: 1px solid rgba(255,255,255,0.08);">
+            <div class="font-headline font-bold text-primary-fixed" style="font-size:1.75rem;">1,038</div>
+            <div class="text-on-primary-container text-xs uppercase tracking-widest mt-1">Teams</div>
+          </div>
+          <div class="text-center"
+               style="border-right: 1px solid rgba(255,255,255,0.08);">
+            <div class="font-headline font-bold text-primary-fixed" style="font-size:1.75rem;">169</div>
+            <div class="text-on-primary-container text-xs uppercase tracking-widest mt-1">Divisions</div>
+          </div>
+          <div class="text-center">
+            <div class="font-headline font-bold text-primary-fixed" style="font-size:1.75rem;">Free</div>
+            <div class="text-on-primary-container text-xs uppercase tracking-widest mt-1">Always</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  {# ══════════════════════════════════════════
+     MOBILE STATS STRIP
+     ══════════════════════════════════════════ #}
+  <div class="md:hidden grid grid-cols-3 divide-x divide-outline-variant
+              border-t border-outline-variant bg-chalk-white">
+    <div class="py-5 text-center">
+      <div class="font-headline font-bold text-on-surface text-xl">1,038</div>
+      <div class="text-sideline-grey text-xs uppercase tracking-wide mt-0.5">Teams</div>
+    </div>
+    <div class="py-5 text-center">
+      <div class="font-headline font-bold text-on-surface text-xl">169</div>
+      <div class="text-sideline-grey text-xs uppercase tracking-wide mt-0.5">Divisions</div>
+    </div>
+    <div class="py-5 text-center">
+      <div class="font-headline font-bold text-on-surface text-xl">Free</div>
+      <div class="text-sideline-grey text-xs uppercase tracking-wide mt-0.5">Always</div>
     </div>
   </div>
 
-  <!-- CTAs -->
-  <div style="display:flex;flex-direction:column;gap:10px;">
-    <a href="/register" class="ti-btn ti-btn-primary" style="text-decoration:none;">
-      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-        <path d="M9 2a4 4 0 1 1 0 8A4 4 0 0 1 9 2zM2 16c0-3.3 3.1-6 7-6s7 2.7 7 6" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+  {# ══════════════════════════════════════════
+     FEATURES  —  4-column grid
+     ══════════════════════════════════════════ #}
+  <section class="py-20 px-6 md:px-12 lg:px-20 bg-chalk-white">
+    <div class="max-w-6xl mx-auto">
+
+      <div class="text-center mb-14">
+        <span class="fi-chip fi-chip-green inline-block mb-4"
+              style="font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;">
+          Everything you need
+        </span>
+        <h2 class="font-headline font-bold text-on-surface mb-3"
+            style="font-size: clamp(1.75rem, 3vw, 2.25rem); line-height: 1.2;">
+          Follow the season like a pro
+        </h2>
+        <p class="text-on-surface-variant text-lg max-w-xl mx-auto leading-relaxed">
+          All the information you need to follow your kid's soccer journey —
+          updated automatically, no spreadsheets required.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="fi-card p-6">
+          <div class="lp-feature-icon mb-5">
+            <span class="material-symbols-outlined" style="font-size:22px;">calendar_today</span>
+          </div>
+          <h3 class="font-headline font-semibold text-on-surface text-base mb-2">
+            Real-time Schedules
+          </h3>
+          <p class="text-on-surface-variant text-sm leading-relaxed">
+            Game dates, times, and field locations always up to date.
+            Know where to be before the weekend rush.
+          </p>
+        </div>
+
+        <div class="fi-card p-6">
+          <div class="lp-feature-icon mb-5">
+            <span class="material-symbols-outlined" style="font-size:22px;">leaderboard</span>
+          </div>
+          <h3 class="font-headline font-semibold text-on-surface text-base mb-2">
+            Live Standings
+          </h3>
+          <p class="text-on-surface-variant text-sm leading-relaxed">
+            Your team's division standings, updated as results come in.
+            Always know exactly where you stand.
+          </p>
+        </div>
+
+        <div class="fi-card p-6">
+          <div class="lp-feature-icon mb-5">
+            <span class="material-symbols-outlined" style="font-size:22px;">sports_score</span>
+          </div>
+          <h3 class="font-headline font-semibold text-on-surface text-base mb-2">
+            Match Results
+          </h3>
+          <p class="text-on-surface-variant text-sm leading-relaxed">
+            Full history of wins, draws, and losses — with form chips
+            so you can spot momentum at a glance.
+          </p>
+        </div>
+
+        <div class="fi-card p-6">
+          <div class="lp-feature-icon mb-5">
+            <span class="material-symbols-outlined" style="font-size:22px;">group</span>
+          </div>
+          <h3 class="font-headline font-semibold text-on-surface text-base mb-2">
+            Multiple Teams
+          </h3>
+          <p class="text-on-surface-variant text-sm leading-relaxed">
+            Follow all your kids at once. Each team on its own card —
+            a dashboard built for busy parents.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  {# ══════════════════════════════════════════
+     COVERAGE CALLOUT  —  grass-green-light background
+     ══════════════════════════════════════════ #}
+  <section class="py-16 px-6 md:px-12 lg:px-20"
+           style="background: var(--clr-grass-green-light);">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row
+                items-center justify-between gap-12">
+
+      <div class="flex-1">
+        <span class="fi-chip fi-chip-green inline-block mb-5"
+              style="font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;">
+          Full Coverage
+        </span>
+        <h2 class="font-headline font-bold text-on-surface mb-4"
+            style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.25;">
+          All of NCSA NJ,<br>covered.
+        </h2>
+        <p class="text-on-surface-variant leading-relaxed"
+           style="max-width: 40ch;">
+          From 8U recreational to 19U competitive, every division of
+          NJ youth soccer is tracked in one place.
+          Your team is already in the system.
+        </p>
+        <a href="/register" class="fi-btn fi-btn-primary mt-8 inline-flex">
+          Find my team
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 flex-shrink-0">
+        <div class="fi-card p-6 text-center" style="min-width: 120px;">
+          <div class="font-headline font-bold text-primary"
+               style="font-size:2.25rem; line-height:1;">1,038</div>
+          <div class="text-on-surface-variant text-sm mt-2">Teams tracked</div>
+        </div>
+        <div class="fi-card p-6 text-center" style="min-width: 120px;">
+          <div class="font-headline font-bold text-primary"
+               style="font-size:2.25rem; line-height:1;">169</div>
+          <div class="text-on-surface-variant text-sm mt-2">Divisions</div>
+        </div>
+        <div class="fi-card p-6 text-center">
+          <div class="font-headline font-bold text-primary"
+               style="font-size:2.25rem; line-height:1;">8U</div>
+          <div class="text-on-surface-variant text-sm mt-2">Youngest age</div>
+        </div>
+        <div class="fi-card p-6 text-center">
+          <div class="font-headline font-bold text-primary"
+               style="font-size:2.25rem; line-height:1;">19U</div>
+          <div class="text-on-surface-variant text-sm mt-2">Oldest age</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  {# ══════════════════════════════════════════
+     FINAL CTA  —  Stadium Navy background
+     ══════════════════════════════════════════ #}
+  <section class="py-24 px-6 text-center"
+           style="background: var(--clr-stadium-navy);">
+
+    <div class="flex justify-center mb-8">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+           width="64" height="64" aria-hidden="true">
+        <rect width="100" height="100" rx="20" fill="#2E7D32"/>
+        <path d="M30 25H70V35H45V45H65V55H45V75H30V25Z" fill="white"/>
+        <path d="M70 75L85 60L70 45V75Z" fill="#1A237E" opacity="0.8"/>
+        <circle cx="80" cy="25" r="8" fill="#FF9800"/>
       </svg>
-      Sign up free
-    </a>
-    <a href="/login" class="ti-btn ti-btn-secondary" style="text-decoration:none;">
-      Log in
-    </a>
-  </div>
-
-  <!-- Terms footnote -->
-  <p style="font-size:12px;color:var(--ti-faint);text-align:center;margin-top:20px;line-height:16px;padding:0 12px;">
-    By continuing, you agree to our Terms and acknowledge our Privacy Policy.
-  </p>
-
-  <!-- Stats strip -->
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:40px;text-align:center;">
-    <div>
-      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;" class="num">1,038</div>
-      <div style="font-size:11px;color:var(--ti-faint);margin-top:2px;text-transform:uppercase;letter-spacing:0.4px;font-weight:600;">teams</div>
     </div>
-    <div>
-      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;" class="num">169</div>
-      <div style="font-size:11px;color:var(--ti-faint);margin-top:2px;text-transform:uppercase;letter-spacing:0.4px;font-weight:600;">divisions</div>
-    </div>
-    <div>
-      <div style="font-size:22px;font-weight:800;letter-spacing:-0.6px;">Free</div>
-      <div style="font-size:11px;color:var(--ti-faint);margin-top:2px;text-transform:uppercase;letter-spacing:0.4px;font-weight:600;">always</div>
-    </div>
-  </div>
 
-</div>
+    <h2 class="font-headline font-bold text-chalk-white mb-3"
+        style="font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+               line-height: 1.15;
+               letter-spacing: -0.02em;">
+      Ready for the season?
+    </h2>
+    <p class="text-on-primary-container text-lg mb-10 mx-auto leading-relaxed"
+       style="max-width: 44ch;">
+      Join parents across New Jersey who follow their kids'
+      soccer journey with Fixture.
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="/register" class="fi-btn fi-btn-primary">
+        <svg width="16" height="16" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M9 2a4 4 0 1 1 0 8A4 4 0 0 1 9 2zM2 16c0-3.3 3.1-6 7-6s7 2.7 7 6"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        Get started free
+      </a>
+      <a href="/login" class="fi-btn fi-btn-outline-white">
+        I already have an account
+      </a>
+    </div>
+
+    <p class="text-xs mt-6 tracking-wide"
+       style="color: rgba(163,246,156,0.45);">
+      Free forever · No credit card · Works on any device
+    </p>
+
+  </section>
+
+  {# ══════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════ #}
+  <footer class="py-10 px-6 md:px-12 lg:px-20 bg-chalk-white border-t border-outline-variant">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row
+                items-center justify-between gap-6">
+
+      {# Brand mark #}
+      <div class="flex items-center gap-3">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+             width="32" height="32" aria-hidden="true">
+          <rect width="100" height="100" rx="20" fill="#2E7D32"/>
+          <path d="M30 25H70V35H45V45H65V55H45V75H30V25Z" fill="white"/>
+          <path d="M70 75L85 60L70 45V75Z" fill="#1A237E" opacity="0.8"/>
+          <circle cx="80" cy="25" r="8" fill="#FF9800"/>
+        </svg>
+        <div>
+          <div class="font-headline font-bold text-primary text-base leading-none">Fixture</div>
+          <div class="text-sideline-grey text-xs mt-0.5">NCSA NJ Youth Soccer Tracker</div>
+        </div>
+      </div>
+
+      {# Nav links #}
+      <nav class="flex items-center gap-6 text-sm text-sideline-grey"
+           aria-label="Footer navigation">
+        <a href="/register"
+           class="hover:text-primary transition-colors"
+           style="text-decoration:none;">
+          Sign up
+        </a>
+        <a href="/login"
+           class="hover:text-primary transition-colors"
+           style="text-decoration:none;">
+          Log in
+        </a>
+      </nav>
+
+      {# Copyright #}
+      <p class="text-xs text-sideline-grey text-center md:text-right">
+        &copy; 2025 Fixture &middot; Made for NJ soccer parents
+      </p>
+
+    </div>
+  </footer>
+
+</main>
 {% endblock %}

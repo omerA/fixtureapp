@@ -1,4 +1,421 @@
-/* Smooth HTMX loading indicator */
+/* ══════════════════════════════════════════════════════════════
+   THE SIDELINE SPIRIT — Design System
+   Fonts: Lexend (headlines) · Inter (body)
+   Palette: Grass Green · Stadium Navy · Sunrise Orange
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── Design Tokens ──────────────────────────────────────────── */
+:root {
+  /* Primary: Grass Green */
+  --clr-primary:              #0d631b;
+  --clr-primary-container:    #2e7d32;
+  --clr-on-primary:           #ffffff;
+  --clr-on-primary-container: #cbffc2;
+  --clr-primary-fixed:        #a3f69c;
+  --clr-primary-fixed-dim:    #88d982;
+  --clr-grass-green-light:    #e3f3e6;
+
+  /* Secondary: Stadium Blue */
+  --clr-secondary:            #4c56af;
+  --clr-secondary-container:  #959efd;
+  --clr-on-secondary:         #ffffff;
+  --clr-on-secondary-container: #27308a;
+
+  /* Tertiary: Sunrise Orange (accent, live states, CTAs) */
+  --clr-tertiary:             #ff9800;
+  --clr-tertiary-dim:         #e65100;
+  --clr-tertiary-light:       #fff3e0;
+  --clr-on-tertiary:          #ffffff;
+
+  /* Deep backgrounds */
+  --clr-stadium-navy:         #0d1240;
+  --clr-stadium-navy-mid:     #1a237e;
+
+  /* Surfaces */
+  --clr-surface:              #f9f9f9;
+  --clr-surface-dim:          #dadada;
+  --clr-surface-low:          #f3f3f3;
+  --clr-surface-container:    #eeeeee;
+  --clr-surface-high:         #e8e8e8;
+  --clr-surface-highest:      #e2e2e2;
+  --clr-chalk-white:          #ffffff;
+
+  /* On-surface text */
+  --clr-on-surface:           #1a1c1c;
+  --clr-on-surface-var:       #40493d;
+  --clr-outline:              #707a6c;
+  --clr-outline-var:          #bfcaba;
+  --clr-sideline-grey:        #616161;
+
+  /* Error */
+  --clr-error:                #ba1a1a;
+  --clr-error-container:      #ffdad6;
+  --clr-on-error:             #ffffff;
+  --clr-on-error-container:   #93000a;
+
+  /* Elevation (shadows tinted with Stadium Navy, never pure black) */
+  --shadow-xs:   0 1px 3px rgba(13,18,64,0.07);
+  --shadow-card: 0 12px 24px -10px rgba(13,18,64,0.10);
+  --shadow-over: 0 24px 48px -8px  rgba(13,18,64,0.18);
+
+  /* Border radius scale */
+  --r-sm:   0.25rem;   /* 4px  */
+  --r:      0.5rem;    /* 8px  */
+  --r-md:   0.75rem;   /* 12px */
+  --r-lg:   1rem;      /* 16px */
+  --r-xl:   1.5rem;    /* 24px */
+  --r-full: 9999px;
+
+  /* Spacing (4px base grid) */
+  --sp-xs: 8px;
+  --sp-sm: 16px;
+  --sp-md: 24px;
+  --sp-lg: 32px;
+  --sp-xl: 48px;
+
+  /* Type */
+  --ff-head: 'Lexend', system-ui, sans-serif;
+  --ff-body: 'Inter',  system-ui, sans-serif;
+}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: var(--ff-body);
+  background: var(--clr-surface);
+  color: var(--clr-on-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-headline { font-family: var(--ff-head); }
+
+/* ── Typography Scale ───────────────────────────────────────── */
+/* display-lg: used for marketing hero headlines */
+.t-display {
+  font-family: var(--ff-head);
+  font-size: 48px; font-weight: 700;
+  line-height: 56px; letter-spacing: -0.02em;
+}
+/* headline-lg: section titles */
+.t-h1 {
+  font-family: var(--ff-head);
+  font-size: 32px; font-weight: 600; line-height: 40px;
+}
+/* headline-md: card/panel titles */
+.t-h2 {
+  font-family: var(--ff-head);
+  font-size: 24px; font-weight: 600; line-height: 32px;
+}
+.t-body-lg { font-size: 18px; line-height: 28px; }
+.t-body    { font-size: 16px; line-height: 24px; }
+/* label-lg: uppercase navigation labels, form labels */
+.t-label   { font-size: 14px; font-weight: 600; letter-spacing: 0.05em; }
+.t-caption { font-size: 12px; font-weight: 500; line-height: 16px; }
+
+/* Mobile type overrides */
+@media (max-width: 767px) {
+  .t-display { font-size: 28px; line-height: 36px; letter-spacing: -0.01em; }
+  .t-h1      { font-size: 24px; line-height: 32px; }
+}
+
+/* ── Material Icons ─────────────────────────────────────────── */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* ── Cards ──────────────────────────────────────────────────── */
+
+/* Level 1 card: white, soft navy shadow */
+.fi-card {
+  background: var(--clr-chalk-white);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-card);
+}
+
+/* Game Day card: orange left-edge accent bar */
+.fi-card-gameday {
+  background: var(--clr-chalk-white);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-card);
+  border-left: 4px solid var(--clr-tertiary);
+}
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.fi-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 8px; height: 48px; padding: 0 24px;
+  font-family: var(--ff-body); font-weight: 700; font-size: 14px;
+  letter-spacing: 0.01em; border-radius: var(--r); border: none;
+  cursor: pointer; text-decoration: none; white-space: nowrap;
+  transition: background 120ms ease, box-shadow 120ms ease, transform 60ms ease;
+  -webkit-user-select: none; user-select: none;
+}
+
+/* Primary: Grass Green fill, tactile inner-shadow on press */
+.fi-btn-primary {
+  background: var(--clr-primary); color: var(--clr-on-primary);
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+}
+.fi-btn-primary:hover  { background: #0f7320; }
+.fi-btn-primary:active {
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.20);
+  transform: translateY(1px);
+}
+
+/* Secondary: transparent with Stadium Navy border */
+.fi-btn-secondary {
+  background: transparent; color: var(--clr-stadium-navy);
+  border: 2px solid var(--clr-stadium-navy);
+}
+.fi-btn-secondary:hover { background: var(--clr-grass-green-light); }
+
+/* In dark mode, navy is near-black on dark backgrounds — use primary green instead */
+html.dark .fi-btn-secondary {
+  color: var(--clr-primary);
+  border-color: var(--clr-primary);
+}
+html.dark .fi-btn-secondary:hover { background: var(--clr-grass-green-light); }
+
+/* Outline-white: for use on dark (navy) backgrounds */
+.fi-btn-outline-white {
+  background: transparent; color: var(--clr-chalk-white);
+  border: 2px solid rgba(255,255,255,0.45);
+}
+.fi-btn-outline-white:hover { background: rgba(255,255,255,0.08); }
+
+/* Ghost: Sunrise Orange text, used for secondary actions needing visibility */
+.fi-btn-ghost {
+  background: transparent; color: var(--clr-tertiary); font-weight: 600;
+}
+.fi-btn-ghost:hover { background: var(--clr-tertiary-light); }
+
+/* ── Chips & Badges ─────────────────────────────────────────── */
+
+/* Pill-shaped markers — position/status, division, team role */
+.fi-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 12px; border-radius: var(--r-full);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.fi-chip-green  { background: var(--clr-grass-green-light); color: var(--clr-primary); }
+.fi-chip-navy   { background: var(--clr-stadium-navy);      color: #fff; }
+.fi-chip-orange { background: var(--clr-tertiary-light);    color: var(--clr-tertiary-dim); }
+.fi-chip-grey   { background: var(--clr-surface-high);      color: var(--clr-sideline-grey); }
+
+/* ── Live Indicator ─────────────────────────────────────────── */
+/* Pulsing Sunrise Orange dot — live scores, active practices */
+.fi-live {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 600;
+  color: var(--clr-tertiary); letter-spacing: 0.04em;
+}
+.fi-live-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--clr-tertiary);
+  animation: fi-pulse 1.6s cubic-bezier(0.4,0,0.6,1) infinite;
+}
+@keyframes fi-pulse {
+  0%, 100% { opacity: 1;   transform: scale(1);    }
+  50%       { opacity: 0.4; transform: scale(0.75); }
+}
+
+/* ── Form Result Chips ──────────────────────────────────────── */
+.result-chip {
+  width: 24px; height: 24px; border-radius: 6px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 11px; flex-shrink: 0;
+}
+.result-W { background: var(--clr-primary);     color: #fff; }
+.result-L { background: var(--clr-error);       color: #fff; }
+.result-D { background: var(--clr-outline-var); color: var(--clr-on-surface); }
+
+/* ── Standings ──────────────────────────────────────────────── */
+.standings-mine { background: var(--clr-grass-green-light); position: relative; }
+.standings-mine::before {
+  content: '';
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px; background: var(--clr-primary);
+}
+
+/* ── Segmented Tabs ─────────────────────────────────────────── */
+.seg-tabs {
+  display: flex;
+  background: var(--clr-surface-container);
+  border-radius: 10px; padding: 3px; gap: 2px;
+}
+.seg-tab {
+  flex: 1; height: 36px; border-radius: 8px; border: none;
+  background: transparent; color: var(--clr-sideline-grey);
+  font-family: var(--ff-body); font-weight: 600; font-size: 13px;
+  cursor: pointer; transition: all 120ms ease;
+}
+.seg-tab.active {
+  background: var(--clr-chalk-white); color: var(--clr-on-surface);
+  box-shadow: var(--shadow-xs);
+}
+
+/* ── Error Banner ───────────────────────────────────────────── */
+.fi-error {
+  background: var(--clr-error-container); border: 1px solid var(--clr-error);
+  color: var(--clr-on-error-container);
+  padding: 12px 16px; border-radius: 10px; font-size: 14px; margin-bottom: 16px;
+}
+
+/* ── HTMX ───────────────────────────────────────────────────── */
 .htmx-indicator { opacity: 0; transition: opacity 200ms ease-in; }
 .htmx-request .htmx-indicator { opacity: 1; }
-.htmx-request.htmx-indicator { opacity: 1; }
+.htmx-request.htmx-indicator  { opacity: 1; }
+
+/* ── Theme Toggle Button ────────────────────────────────────── */
+.theme-toggle {
+  width: 36px; height: 36px;
+  border-radius: var(--r);
+  border: none; background: transparent;
+  color: var(--clr-sideline-grey);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.theme-toggle:hover {
+  background: var(--clr-surface-container);
+  color: var(--clr-on-surface);
+}
+
+/* ── Smooth theme transition (only during toggle, not all hovers) ── */
+html.theme-transitioning,
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after {
+  transition:
+    background-color 220ms ease,
+    color 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease !important;
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   LANDING PAGE COMPONENTS
+   ══════════════════════════════════════════════════════════════ */
+
+/* Hero right panel — Stadium Navy with Grass Green circle accents */
+.lp-hero-panel {
+  background: var(--clr-stadium-navy);
+  position: relative;
+  overflow: hidden;
+}
+.lp-hero-panel::before {
+  content: '';
+  position: absolute; border-radius: 50%;
+  width: 520px; height: 520px;
+  border: 2px solid rgba(163,246,156,0.10);
+  top: -160px; right: -130px;
+  pointer-events: none;
+}
+.lp-hero-panel::after {
+  content: '';
+  position: absolute; border-radius: 50%;
+  width: 300px; height: 300px;
+  border: 1.5px solid rgba(163,246,156,0.07);
+  bottom: 60px; left: -80px;
+  pointer-events: none;
+}
+
+/* Mock standings card inside hero panel */
+.lp-mock-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(163,246,156,0.14);
+  border-radius: var(--r-lg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Feature icon container on landing page */
+.lp-feature-icon {
+  width: 52px; height: 52px;
+  background: var(--clr-grass-green-light);
+  border-radius: var(--r-md);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  color: var(--clr-primary);
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   DARK MODE — html.dark token overrides
+   Sideline Spirit dark: lighter grass green, deep navy-tinted
+   surfaces, warm sunrise orange retained, navy panel unchanged.
+   ══════════════════════════════════════════════════════════════ */
+
+html.dark {
+  color-scheme: dark;
+
+  /* Primary: lighter for visibility on dark surfaces */
+  --clr-primary:              #88d982;
+  --clr-primary-container:    #1b6d24;
+  --clr-on-primary:           #002204;
+  --clr-on-primary-container: #cbffc2;
+  --clr-primary-fixed:        #a3f69c;
+  --clr-primary-fixed-dim:    #6fbc69;
+  --clr-grass-green-light:    #0d1f10;
+
+  /* Secondary */
+  --clr-secondary:            #bdc2ff;
+  --clr-secondary-container:  #343d96;
+  --clr-on-secondary:         #212478;
+  --clr-on-secondary-container: #e0e0ff;
+
+  /* Tertiary / Sunrise Orange: warmer for dark mode */
+  --clr-tertiary:             #ffb870;
+  --clr-tertiary-dim:         #ff9800;
+  --clr-tertiary-light:       #2c1600;
+  --clr-on-tertiary:          #1a0900;
+
+  /* Surfaces: deep navy-green */
+  --clr-surface:              #101613;
+  --clr-surface-dim:          #0c1210;
+  --clr-surface-low:          #181f1a;
+  --clr-surface-container:    #1e2620;
+  --clr-surface-high:         #242d25;
+  --clr-surface-highest:      #2a342c;
+  --clr-chalk-white:          #1e2620;
+
+  /* On-surface text */
+  --clr-on-surface:           #dfe3de;
+  --clr-on-surface-var:       #b4c0b0;
+  --clr-outline:              #546452;
+  --clr-outline-var:          #2e3930;
+  --clr-sideline-grey:        #7a8f78;
+
+  /* Stadium navy unchanged — works on both themes */
+
+  /* Error */
+  --clr-error:                #ffb4ab;
+  --clr-error-container:      #93000a;
+  --clr-on-error:             #690005;
+  --clr-on-error-container:   #ffdad6;
+
+  /* Stronger shadows in dark */
+  --shadow-xs:   0 1px 3px rgba(0,0,0,0.40);
+  --shadow-card: 0 8px 20px -8px rgba(0,0,0,0.55);
+  --shadow-over: 0 16px 40px -8px rgba(0,0,0,0.70);
+}
+
+/* The stadium navy hero panel is always dark regardless of theme.
+   chalk-white flips to a dark surface color in dark mode, so
+   force literal white for text inside this fixed-dark container. */
+html.dark .lp-hero-panel .text-chalk-white {
+  color: #ffffff;
+}
+
+/* fi-btn-outline-white is always placed on dark (navy) backgrounds —
+   keep text literally white regardless of theme. */
+html.dark .fi-btn-outline-white {
+  color: #ffffff;
+}

@@ -90,23 +90,16 @@
       <!-- Next game preview -->
       {% if card.upcoming %}
       {% set next = card.upcoming[0] %}
-      <div style="
-        margin-top:12px;padding:10px 12px;
-        background:var(--ti-overlay-faint);border-radius:10px;
-        display:flex;align-items:center;gap:10px;
-      ">
-        <div style="flex-shrink:0;text-align:center;width:36px;">
-          <div style="font-size:9px;font-weight:700;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;">{{ next.weekday }}</div>
-          <div class="num" style="font-size:17px;font-weight:800;line-height:18px;color:var(--ti-text);">{{ next.day_num }}</div>
+      <div class="flex items-center gap-3 mt-3 bg-surface-container-low rounded-xl px-3 py-2">
+        <div class="text-center flex-shrink-0 w-9 border-r border-outline-variant pr-3">
+          <div class="text-[9px] font-bold text-sideline-grey uppercase">{{ next.weekday }}</div>
+          <div class="font-headline font-bold text-on-surface text-base leading-none mt-0.5">{{ next.day_num }}</div>
         </div>
-        <div style="width:1px;align-self:stretch;background:var(--ti-border);flex-shrink:0;"></div>
-        <div style="flex:1;min-width:0;">
-          <div style="font-size:10px;font-weight:700;color:var(--ti-muted);letter-spacing:0.3px;text-transform:uppercase;">Next · {{ 'Home' if next.is_home else 'Away' }}</div>
-          <div style="font-size:13px;font-weight:600;color:var(--ti-text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-            vs {{ next.opponent_club }}
-          </div>
+        <div class="flex-1 min-w-0">
+          <div class="text-[9px] font-bold text-sideline-grey uppercase tracking-wide">Next · {{ 'Home' if next.is_home else 'Away' }}</div>
+          <div class="text-sm font-bold text-on-surface truncate">vs {{ next.opponent_club }}</div>
         </div>
-        <div class="num" style="font-size:12px;color:var(--ti-muted);flex-shrink:0;">{{ next.time }}</div>
+        <div class="text-[11px] text-sideline-grey flex-shrink-0">{{ next.time }}</div>
       </div>
       {% endif %}
 

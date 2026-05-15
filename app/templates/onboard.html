@@ -137,12 +137,12 @@
     container.innerHTML = [...selected.entries()].map(([key, info]) => {
       const initials = info.club.split(/\s+/).filter(w => /[A-Za-z]/.test(w[0])).slice(0,2).map(w=>w[0].toUpperCase()).join('') || '?';
       return `
-        <span style="display:inline-flex;align-items:center;gap:6px;background:#E3F3E6;border:1px solid rgba(13,99,27,0.25);color:#1a1c1c;font-size:12px;padding:4px 8px 4px 6px;border-radius:8px;font-weight:500;">
-          <span style="width:18px;height:18px;border-radius:5px;background:#0d631b;color:#fff;font-size:8px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;">${escHtml(initials)}</span>
+        <span style="display:inline-flex;align-items:center;gap:6px;background:var(--clr-grass-green-light);border:1px solid var(--clr-outline-var);color:var(--clr-on-surface);font-size:12px;padding:4px 8px 4px 6px;border-radius:8px;font-weight:500;">
+          <span style="width:18px;height:18px;border-radius:5px;background:var(--clr-primary);color:var(--clr-on-primary);font-size:8px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;">${escHtml(initials)}</span>
           <span style="font-weight:600;">${escHtml(info.club)}</span>
-          <span style="color:#616161;font-size:10px;">${escHtml(info.divLabel)}</span>
+          <span style="color:var(--clr-sideline-grey);font-size:10px;">${escHtml(info.divLabel)}</span>
           <button type="button" data-remove-key="${escAttr(key)}"
-                  style="background:#eeeeee;border:none;cursor:pointer;width:16px;height:16px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;padding:0;flex-shrink:0;color:#616161;font-size:12px;line-height:1;">
+                  style="background:var(--clr-surface-container);border:none;cursor:pointer;width:16px;height:16px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;padding:0;flex-shrink:0;color:var(--clr-sideline-grey);font-size:12px;line-height:1;">
             &times;
           </button>
         </span>
@@ -163,16 +163,16 @@
   function applyCardState() {
     document.querySelectorAll('[data-team-key]').forEach(card => {
       const isSelected = selected.has(card.dataset.teamKey);
-      card.style.background = isSelected ? '#E3F3E6' : '#fff';
+      card.style.background = isSelected ? 'var(--clr-grass-green-light)' : 'var(--clr-chalk-white)';
       const checkmark = card.querySelector('.card-check');
       if (checkmark) {
         if (isSelected) {
-          checkmark.style.background = '#0d631b';
+          checkmark.style.background = 'var(--clr-primary)';
           checkmark.style.border = 'none';
-          checkmark.innerHTML = `<svg width="13" height="13" viewBox="0 0 13 13"><path d="M3 6.5L5.5 9 10 4" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+          checkmark.innerHTML = `<svg width="13" height="13" viewBox="0 0 13 13"><path d="M3 6.5L5.5 9 10 4" stroke="var(--clr-on-primary)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
         } else {
           checkmark.style.background = 'transparent';
-          checkmark.style.border = '1.5px solid #bfcaba';
+          checkmark.style.border = '1.5px solid var(--clr-outline-var)';
           checkmark.innerHTML = '';
         }
       }

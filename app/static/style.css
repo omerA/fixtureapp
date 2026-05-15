@@ -413,3 +413,9 @@ html.dark {
 html.dark .lp-hero-panel .text-chalk-white {
   color: #ffffff;
 }
+
+/* fi-btn-outline-white is always placed on dark (navy) backgrounds —
+   keep text literally white regardless of theme. */
+html.dark .fi-btn-outline-white {
+  color: #ffffff;
+}

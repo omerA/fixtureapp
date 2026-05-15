@@ -40,6 +40,7 @@ from .search import division_label, search_teams
 
 PROJECT_ROOT = Path(__file__).parent.parent
 STANDINGS_DIR = PROJECT_ROOT / "standings"
+SCHEDULES_DIR = PROJECT_ROOT / "schedules"
 
 _team_index: dict = {}
 
@@ -168,10 +169,49 @@ def _load_standings(division: str) -> list[dict]:
     return json.loads(path.read_text()).get("teams", [])
 
 
+def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
+    """Return upcoming games for a specific team from the schedule JSON, sorted by date."""
+    path = SCHEDULES_DIR / f"{division}.json"
+    if not path.exists():
+        return []
+    games = json.loads(path.read_text()).get("games", [])
+    upcoming = [
+        g for g in games
+        if g.get("is_upcoming")
+        and (g.get("home_team") == team_raw or g.get("away_team") == team_raw)
+    ]
+    return sorted(upcoming, key=lambda g: (g.get("date", ""), g.get("time", "")))
+
+
 def _tr(request: Request, name: str, ctx: dict | None = None, **kwargs):
     context = ctx or {}
     context.update(kwargs)
     return templates.TemplateResponse(request, name, context)
+
+
+def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
+    """Add is_home flag and formatted date fields to upcoming schedule games."""
+    result = []
+    for g in games:
+        try:
+            d = datetime.strptime(g["date"], "%Y-%m-%d")
+            month_year = d.strftime("%B %Y")
+            weekday = d.strftime("%a").upper()
+            day_num = d.day
+        except ValueError:
+            month_year, weekday, day_num = "Unknown", "?", "?"
+        opponent = g["away_team"] if g["home_team"] == team_raw else g["home_team"]
+        opponent_club = opponent.split("-")[0] if opponent else ""
+        result.append({
+            **g,
+            "is_home": g["home_team"] == team_raw,
+            "opponent_raw": opponent,
+            "opponent_club": opponent_club,
+            "month_year": month_year,
+            "weekday": weekday,
+            "day_num": day_num,
+        })
+    return result
 
 
 def _build_card(sub: Subscription) -> dict:
@@ -180,6 +220,8 @@ def _build_card(sub: Subscription) -> dict:
     rank = next((i + 1 for i, t in enumerate(all_teams) if t["team_raw"] == sub.team_key), None)
     home_prefix = _detect_home_prefix(matched.get("games", [])) if matched else ""
     games = _annotate_games(matched.get("games", []), home_prefix) if matched else []
+    upcoming_raw = _load_upcoming_games(sub.division, sub.team_key)
+    upcoming = _annotate_upcoming(upcoming_raw, sub.team_key)
     short = _division_short(sub.division)
     return {
         "sub": sub,
@@ -191,6 +233,7 @@ def _build_card(sub: Subscription) -> dict:
         "rank": rank,
         "total_teams": len(all_teams),
         "games": list(reversed(games)),  # newest first
+        "upcoming": upcoming,
     }
 
 

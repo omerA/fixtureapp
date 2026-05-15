@@ -1,105 +1,89 @@
 {% extends "base.html" %}
-{% block title %}My Teams — FixtureApp{% endblock %}
+{% block title %}My Teams — Fixture{% endblock %}
 
 {% block content %}
 
 <!-- Page header -->
-<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:10px;margin-bottom:24px;">
+<div class="flex items-end justify-between mb-8">
   <div>
-    <div style="font-size:12px;font-weight:600;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;">Following</div>
-    <h1 style="font-size:30px;font-weight:800;letter-spacing:-1px;line-height:34px;margin:4px 0 0;">My teams</h1>
+    <p class="text-xs font-bold text-sideline-grey uppercase tracking-widest mb-1">Following</p>
+    <h1 class="font-headline font-bold text-on-surface" style="font-size:2rem;letter-spacing:-0.03em;line-height:1.15;">My teams</h1>
   </div>
-  <a href="/onboard" style="
-    width:42px;height:42px;border-radius:12px;
-    background:var(--ti-surface);border:1px solid var(--ti-border-strong);
-    display:flex;align-items:center;justify-content:center;
-    text-decoration:none;flex-shrink:0;
-  " title="Add / edit teams">
-    <svg width="18" height="18" viewBox="0 0 18 18">
-      <path d="M9 3v12M3 9h12" stroke="var(--ti-text)" stroke-width="2" stroke-linecap="round"/>
-    </svg>
+  <a href="/onboard"
+     class="flex items-center justify-center w-12 h-12 bg-primary text-on-primary rounded-xl shadow-md hover:brightness-110 active:scale-95 transition-all"
+     style="text-decoration:none;" title="Add or edit teams">
+    <span class="material-symbols-outlined" style="font-size:22px;">add</span>
   </a>
 </div>
 
 {% if not cards %}
-<div style="background:var(--ti-surface);border:1px dashed var(--ti-border-strong);border-radius:18px;padding:40px 24px;text-align:center;">
-  <p style="color:var(--ti-muted);margin:0 0 16px;font-size:15px;">You're not following any teams yet.</p>
-  <a href="/onboard" class="ti-btn ti-btn-primary" style="text-decoration:none;width:auto;padding:0 24px;display:inline-flex;">
-    Add a team
+<div class="fi-card p-10 text-center border-2 border-dashed border-outline-variant">
+  <span class="material-symbols-outlined text-sideline-grey" style="font-size:40px;">groups</span>
+  <p class="text-on-surface-variant mt-3 mb-5 text-sm">You're not following any teams yet.</p>
+  <a href="/onboard" class="inline-flex items-center gap-2 h-11 px-6 bg-primary text-on-primary font-bold rounded-xl text-sm" style="text-decoration:none;">
+    Find your team
   </a>
 </div>
 
 {% else %}
 
-<div style="display:flex;flex-direction:column;gap:14px;">
+<div class="flex flex-col gap-4">
   {% for card in cards %}
-  <a href="/team/{{ card.sub.team_key }}" class="ti-card" style="display:block;text-decoration:none;cursor:pointer;">
-    <div style="padding:16px;">
 
-      <!-- Team header -->
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
-        <div class="ti-crest" style="
-          width:44px;height:44px;border-radius:12px;
-          background:{{ crest_color(card.sub.club) }};
-          font-size:15px;
-        ">{{ crest_initials(card.sub.club) }}</div>
-        <div style="flex:1;min-width:0;">
-          <div style="font-size:17px;font-weight:700;letter-spacing:-0.3px;color:var(--ti-text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
-            {{ card.team_title }}
-          </div>
-          <div style="font-size:12px;color:var(--ti-muted);margin-top:2px;">
-            {{ card.team_subtitle }}
-            {% if card.rank %} · #{{ card.rank }} of {{ card.total_teams }}{% endif %}
+  {# Pick left-border color based on rank #}
+  {% set border_color = 'border-primary' if card.rank and card.rank <= 3 else ('border-error' if card.rank and card.rank > (card.total_teams - 2) else 'border-outline-variant') %}
+
+  <a href="/team/{{ card.sub.team_key }}"
+     class="fi-card block border-l-4 {{ border_color }} overflow-hidden hover:-translate-y-0.5 transition-transform"
+     style="text-decoration:none;">
+    <div class="p-5">
+
+      <!-- Team header row -->
+      <div class="flex items-center gap-4 mb-4">
+        <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 font-bold text-on-primary text-lg"
+             style="background:{{ crest_color(card.sub.club) }};">
+          {{ crest_initials(card.sub.club) }}
+        </div>
+        <div class="flex-1 min-w-0">
+          <div class="font-headline font-bold text-on-surface text-base leading-snug truncate">{{ card.team_title }}</div>
+          <div class="text-xs text-sideline-grey mt-0.5">
+            {{ card.team_subtitle }}{% if card.rank %} · #{{ card.rank }} of {{ card.total_teams }}{% endif %}
           </div>
         </div>
-        <svg width="16" height="16" viewBox="0 0 16 16">
-          <path d="M6 3l5 5-5 5" stroke="var(--ti-faint)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+        <span class="material-symbols-outlined text-sideline-grey" style="font-size:20px;">chevron_right</span>
       </div>
 
-      <!-- Stat strip -->
       {% if card.team %}
-      <div style="
-        display:grid;grid-template-columns:repeat(5,1fr);
-        background:var(--ti-overlay-faint);border-radius:12px;
-        padding:10px 8px;margin-bottom:14px;
-      ">
+      <!-- Stats strip -->
+      <div class="grid grid-cols-5 bg-surface-container-low rounded-xl p-3 mb-4 text-center">
         {% set stats = [
-          ('Rank', ('#' ~ card.rank) if card.rank else '—', true, false),
-          ('W',    card.team.wins,   false, false),
-          ('D',    card.team.draws,  false, false),
-          ('L',    card.team.losses, false, false),
-          ('Pts',  card.team.points, false, true),
+          ('Rank', ('#' ~ card.rank) if card.rank else '—', true),
+          ('W', card.team.wins, false),
+          ('D', card.team.draws, false),
+          ('L', card.team.losses, false),
+          ('Pts', card.team.points, false),
         ] %}
-        {% for label, value, is_accent, is_bold in stats %}
-        <div style="display:flex;flex-direction:column;align-items:center;gap:2px;">
-          <div class="num" style="
-            font-size:{{ '17px' if is_bold else '15px' }};
-            font-weight:{{ '700' if (is_bold or is_accent) else '600' }};
-            color:{{ 'var(--ti-accent)' if is_accent else 'var(--ti-text)' }};
-            letter-spacing:-0.2px;
-          ">{{ value }}</div>
-          <div style="font-size:10px;font-weight:600;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;">
-            {{ label }}
-          </div>
+        {% for label, value, is_accent in stats %}
+        <div>
+          <div class="font-headline font-bold text-base {% if is_accent %}text-primary{% else %}text-on-surface{% endif %}">{{ value }}</div>
+          <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider mt-0.5">{{ label }}</div>
         </div>
         {% endfor %}
       </div>
 
-      <!-- Form chips -->
-      <div style="display:flex;align-items:center;gap:8px;">
-        <span style="font-size:11px;font-weight:600;color:var(--ti-muted);letter-spacing:0.4px;text-transform:uppercase;">Form</span>
-        <div style="display:flex;gap:4px;">
-          {% set form_chars = card.team.form[-5:] %}
-          {% for r in form_chars %}
-          <div class="form-chip form-chip-{{ r }}" style="width:20px;height:20px;border-radius:6px;">{{ r }}</div>
+      <!-- Form row -->
+      {% set form5 = card.team.form[-5:] %}
+      <div class="flex items-center gap-2">
+        <span class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider">Form</span>
+        <div class="flex gap-1">
+          {% for r in form5 %}
+          <div class="result-chip result-{{ r }}">{{ r }}</div>
           {% endfor %}
-          {% if not form_chars %}
-          <span style="font-size:12px;color:var(--ti-faint);">No games yet</span>
+          {% if not form5 %}
+          <span class="text-xs text-sideline-grey">No games yet</span>
           {% endif %}
         </div>
-        <div style="flex:1;"></div>
-        <span style="font-size:11px;color:var(--ti-faint);">last {{ form_chars | length }}</span>
+        <span class="ml-auto text-[10px] text-sideline-grey">last {{ form5 | length }}</span>
       </div>
       {% endif %}
 
@@ -128,6 +112,7 @@
 
     </div>
   </a>
+
   {% endfor %}
 </div>
 

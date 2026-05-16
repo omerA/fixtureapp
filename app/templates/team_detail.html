@@ -225,9 +225,20 @@
               <div class="text-[11px] text-sideline-grey truncate">{{ game.field }}</div>
             </div>
 
-            <!-- TBD pill -->
+            <!-- Matchup preview link -->
             <div class="flex-shrink-0">
+              {% set opp_key = (game.away_team if game.is_home else game.home_team) %}
+              {% set opp_in_division = card.standings | selectattr('team_raw', 'equalto', opp_key) | list %}
+              {% if opp_in_division %}
+              <a href="/team/{{ card.sub.team_key }}/matchup?opp={{ opp_key }}"
+                 class="flex items-center gap-1 text-[10px] font-bold text-primary px-2 py-1 rounded-lg"
+                 style="text-decoration:none;background:var(--clr-grass-green-light);" title="Matchup preview">
+                <span class="material-symbols-outlined" style="font-size:14px;">analytics</span>
+                Preview
+              </a>
+              {% else %}
               <span class="text-[9px] font-bold text-sideline-grey bg-surface-container px-2 py-1 rounded uppercase tracking-wide">TBD</span>
+              {% endif %}
             </div>
           </div>
 

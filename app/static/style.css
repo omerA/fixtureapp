@@ -235,6 +235,29 @@ html.dark .fi-btn-secondary:hover { background: var(--clr-grass-green-light); }
 .result-L { background: var(--clr-error);       color: #fff; }
 .result-D { background: var(--clr-outline-var); color: var(--clr-on-surface); }
 
+/* ── Matchup Form Chips (larger, shape-differentiated for a11y) ── */
+/* Shape tells the story independently of color:               */
+/*   W → circle (filled)   D → square (outlined)   L → shield  */
+.form-chip-lg {
+  width: 36px; height: 36px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 13px; flex-shrink: 0; letter-spacing: 0;
+}
+.form-chip-lg.result-W {
+  background: var(--clr-primary); color: var(--clr-on-primary);
+  border-radius: 50%;                    /* circle */
+}
+.form-chip-lg.result-D {
+  background: transparent;
+  border: 2.5px solid var(--clr-outline-var);
+  color: var(--clr-on-surface);
+  border-radius: 4px;                    /* outlined square */
+}
+.form-chip-lg.result-L {
+  background: var(--clr-error); color: var(--clr-on-error);
+  border-radius: 6px 6px 10px 10px;     /* shield / tombstone */
+}
+
 /* ── Standings ──────────────────────────────────────────────── */
 .standings-mine { background: var(--clr-grass-green-light); position: relative; }
 .standings-mine::before {

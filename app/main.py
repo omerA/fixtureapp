@@ -2,17 +2,18 @@
 app/main.py — FastAPI web app for FixtureApp standings tracker.
 
 Routes:
-  GET  /                  Landing page (redirects to /dashboard if logged in)
-  GET  /register          Registration form
-  POST /register          Create account -> /onboard
-  GET  /login             Login form
-  POST /login             Authenticate -> /dashboard
-  POST /logout            Clear session -> /
-  GET  /onboard           Team search + subscribe (protected)
-  POST /onboard           Save subscriptions -> /dashboard
-  POST /search            HTMX: return team result cards
-  GET  /dashboard         Show subscribed teams (protected)
-  GET  /team/{team_key}   Team detail: standings + results (protected)
+  GET  /                         Landing page (redirects to /dashboard if logged in)
+  GET  /register                 Registration form
+  POST /register                 Create account -> /onboard
+  GET  /login                    Login form
+  POST /login                    Authenticate -> /dashboard
+  POST /logout                   Clear session -> /
+  GET  /onboard                  Team search + subscribe (protected)
+  POST /onboard                  Save subscriptions -> /dashboard
+  POST /search                   HTMX: return team result cards
+  GET  /dashboard                Show subscribed teams (protected)
+  GET  /team/{team_key}          Team detail: standings + results (protected)
+  GET  /team/{team_key}/matchup  Matchup preview vs. a division opponent (protected)
 """
 from __future__ import annotations
 
@@ -167,6 +168,66 @@ def _load_standings(division: str) -> list[dict]:
     if not path.exists():
         return []
     return json.loads(path.read_text()).get("teams", [])
+
+
+# ---------------------------------------------------------------------------
+# Matchup helpers
+# ---------------------------------------------------------------------------
+
+def _form_points(form: str) -> int:
+    """W=3, D=1, L=0 across the form string."""
+    return sum(3 if r == 'W' else 1 if r == 'D' else 0 for r in form)
+
+
+def _sorted_standings(teams: list[dict]) -> list[dict]:
+    """Sort by points → goal difference → goals for (NCSA tiebreaker order)."""
+    return sorted(teams, key=lambda t: (
+        -t.get('points', 0),
+        -(t.get('goals_for', 0) - t.get('goals_against', 0)),
+        -t.get('goals_for', 0),
+    ))
+
+
+def _result_against(team: dict, opponent_club: str) -> dict | None:
+    """Most recent meeting of team vs opponent_club. None if not played."""
+    matches = [
+        g for g in team.get('games', [])
+        if g.get('opponent_club', '').strip() == opponent_club.strip()
+    ]
+    if not matches:
+        return None
+    matches.sort(key=lambda g: g.get('date', ''), reverse=True)
+    m = matches[0]
+    return {
+        'result': m['result'],
+        'goals_for': m['goals_for'],
+        'goals_against': m['goals_against'],
+        'count': len(matches),
+    }
+
+
+def _common_opponents_rows(my_team: dict, opp_team: dict, all_teams: list[dict]) -> list[dict]:
+    """
+    Returns one row per club both teams have played, sorted by that club's
+    current standings position (strongest first).
+    """
+    clubs_a = {g.get('opponent_club', '').strip() for g in my_team.get('games', []) if g.get('opponent_club')}
+    clubs_b = {g.get('opponent_club', '').strip() for g in opp_team.get('games', []) if g.get('opponent_club')}
+    common = clubs_a & clubs_b
+
+    ranked = _sorted_standings(all_teams)
+    rank_by_club = {t['club'].strip(): i + 1 for i, t in enumerate(ranked)}
+
+    rows = []
+    for club in common:
+        rows.append({
+            'club': club,
+            'standings_pos': rank_by_club.get(club, 999),
+            'result_a': _result_against(my_team, club),
+            'result_b': _result_against(opp_team, club),
+        })
+    rows.sort(key=lambda r: r['standings_pos'])
+    return rows
 
 
 def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
@@ -454,3 +515,60 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
 
     card = _build_card(sub)
     return _tr(request, "team_detail.html", user=user, card=card)
+
+
+# ---------------------------------------------------------------------------
+# Matchup preview
+# ---------------------------------------------------------------------------
+
+@app.get("/team/{team_key}/matchup")
+async def matchup_preview(
+    team_key: str,
+    request: Request,
+    opp: str = "",
+    db: Session = Depends(get_db),
+):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    sub = next((s for s in user.subscriptions if s.team_key == team_key), None)
+    if not sub:
+        return RedirectResponse("/dashboard", status_code=302)
+
+    all_teams = _load_standings(sub.division)
+    my_team = next((t for t in all_teams if t['team_raw'] == team_key), None)
+    other_teams = [t for t in all_teams if t['team_raw'] != team_key]
+
+    opp_team = None
+    common_rows: list[dict] = []
+    summary_a: dict = {'W': 0, 'D': 0, 'L': 0}
+    summary_b: dict = {'W': 0, 'D': 0, 'L': 0}
+    form_pts_a = _form_points(my_team.get('form', '')) if my_team else 0
+    form_pts_b = 0
+
+    if opp:
+        opp_team = next((t for t in all_teams if t['team_raw'] == opp), None)
+        if opp_team and my_team:
+            common_rows = _common_opponents_rows(my_team, opp_team, all_teams)
+            for row in common_rows:
+                if row['result_a']:
+                    summary_a[row['result_a']['result']] += 1
+                if row['result_b']:
+                    summary_b[row['result_b']['result']] += 1
+            form_pts_b = _form_points(opp_team.get('form', ''))
+
+    return _tr(request, "matchup.html",
+        user=user,
+        sub=sub,
+        my_team=my_team,
+        other_teams=other_teams,
+        opp_team=opp_team,
+        opp_key=opp,
+        common_rows=common_rows,
+        summary_a=summary_a,
+        summary_b=summary_b,
+        form_pts_a=form_pts_a,
+        form_pts_b=form_pts_b,
+        division_label=division_label(sub.division),
+    )

@@ -17,7 +17,7 @@ Data is scraped from [ncsanj.com](https://www.ncsanj.com) — a volunteer-run le
 | Web app | FastAPI + Jinja2 templates |
 | Interactivity | HTMX (search), vanilla JS (tabs) |
 | Styling | Tailwind CSS CDN + CSS custom properties |
-| Database | SQLite via SQLAlchemy |
+| Database | SQLite (local) / Postgres (Railway) via SQLAlchemy + Alembic |
 | Auth | bcrypt session auth (Clerk migration planned) |
 | Scraper | `requests` + `BeautifulSoup4` |
 
@@ -29,6 +29,9 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 cp .env.example .env               # fill in SECRET_KEY and SCRAPER_CONTACT
+
+# Apply database migrations (creates app.db on first run)
+alembic upgrade head
 
 # Build the team index (scrapes all 169 NCSA divisions — ~6 min first run)
 python build_team_index.py -v
@@ -42,12 +45,43 @@ uvicorn app.main:app --reload
 
 Then visit `http://localhost:8000`.
 
+> **Note:** The app also runs `alembic upgrade head` automatically at startup, so
+> skipping the manual step above is safe — it just means the first request after
+> a fresh clone takes a fraction of a second longer.
+
+### Database migrations workflow
+
+When you change a model (`app/models.py`):
+
+```bash
+# 1. Generate a migration (compares models against current DB schema)
+alembic revision --autogenerate -m "describe_what_changed"
+
+# 2. Review the generated file in alembic/versions/
+# 3. Apply it locally
+alembic upgrade head
+
+# 4. Commit both the model change and the migration file
+git add app/models.py alembic/versions/
+git commit -m "feat: ..."
+```
+
+Railway applies the migration automatically on the next deploy via
+`alembic upgrade head` in the start command — no manual step needed in production.
+
+To roll back one step locally:
+
+```bash
+alembic downgrade -1
+```
+
 ### Environment variables
 
 | Variable | Required | Description |
 |---|---|---|
 | `SECRET_KEY` | Yes (prod) | Session signing key. Generate: `python -c "import secrets; print(secrets.token_hex(32))"` |
 | `SCRAPER_CONTACT` | Yes | Your email, embedded in the scraper's User-Agent so NCSA can reach you |
+| `DATABASE_URL` | Prod only | Set automatically by Railway when you provision a Postgres plugin. Leave unset locally to use SQLite. |
 
 ### Scraper notes
 
@@ -56,6 +90,20 @@ Then visit `http://localhost:8000`.
 - Stops on any unexpected response
 
 If NCSA ever asks you to stop scraping, stop. The configuration is well within polite limits but respect any direct request.
+
+## Railway deployment
+
+1. Create a new Railway project and connect the GitHub repo.
+2. In the Railway dashboard, add a **Postgres** plugin to the project — Railway injects `DATABASE_URL` automatically.
+3. Add the following environment variables under **Variables**:
+   - `SECRET_KEY` — generate with `python -c "import secrets; print(secrets.token_hex(32))"`
+   - `SCRAPER_CONTACT` — your email address
+   - `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` — from Google Cloud Console (OAuth 2.0)
+4. Deploy. The start command in `railway.toml` runs `alembic upgrade head` before starting the server, so the Postgres schema is created/migrated on every deploy.
+
+### First deploy on an existing Railway Postgres DB
+
+If you are migrating from the old SQLite-based setup (where users were reset on every deploy), the Postgres DB starts empty. Users will need to re-register once — their subscriptions are not lost, they just need to re-enter their email/password or sign in with Google.
 
 ## Data files
 

@@ -1,0 +1,238 @@
+{% extends "base.html" %}
+{% block title %}Matchup Preview — {{ sub.club }} · FixtureApp{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto pb-16">
+
+  <!-- Back + title bar -->
+  <div class="flex items-center gap-2 mb-6">
+    <a href="/team/{{ sub.team_key }}?tab=upcoming"
+       class="flex items-center justify-center w-9 h-9 rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-low transition-colors"
+       style="text-decoration:none;">
+      <span class="material-symbols-outlined" style="font-size:20px;">arrow_back_ios_new</span>
+    </a>
+    <div class="flex-1 min-w-0">
+      <div class="font-headline font-bold text-on-surface text-base truncate">Matchup Preview</div>
+      <div class="text-xs text-sideline-grey">{{ division_label }}</div>
+    </div>
+  </div>
+
+  <!-- Opponent selector -->
+  <div class="fi-card p-4 mb-5">
+    <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-widest mb-3">Select opponent</p>
+    <form method="get" action="/team/{{ sub.team_key }}/matchup" class="flex gap-3 items-center">
+      <select name="opp" onchange="this.form.submit()"
+              class="flex-1 h-11 rounded-xl border border-outline-variant bg-surface-container px-3 text-sm font-semibold text-on-surface focus:outline-none focus:ring-2 focus:ring-primary">
+        <option value="" {% if not opp_key %}selected{% endif %}>— Pick a team —</option>
+        {% for t in other_teams %}
+        <option value="{{ t.team_raw }}" {% if t.team_raw == opp_key %}selected{% endif %}>
+          {{ t.club }}
+        </option>
+        {% endfor %}
+      </select>
+      <noscript>
+        <button type="submit" class="fi-btn fi-btn-primary h-11 px-4 text-sm">Go</button>
+      </noscript>
+    </form>
+  </div>
+
+  {% if opp_team and my_team %}
+
+  <!-- ── Headline ─────────────────────────────────────────── -->
+  <div class="fi-card border-l-8 border-primary p-5 mb-5">
+    <div class="flex items-center justify-between gap-3">
+      <!-- My team -->
+      <div class="flex flex-col items-center gap-2 flex-1 min-w-0">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center font-bold text-on-primary text-xl"
+             style="background:{{ crest_color(sub.club) }};">
+          {{ crest_initials(sub.club) }}
+        </div>
+        <div class="text-center">
+          <div class="font-headline font-bold text-on-surface text-base leading-tight">{{ my_team.club }}</div>
+          <div class="text-[10px] text-sideline-grey mt-0.5">#{{ my_rank }} · {{ my_team.points }} pts</div>
+        </div>
+      </div>
+
+      <!-- VS -->
+      <div class="flex-shrink-0 text-center px-2">
+        <div class="font-headline font-bold text-sideline-grey text-lg">vs</div>
+      </div>
+
+      <!-- Opponent -->
+      <div class="flex flex-col items-center gap-2 flex-1 min-w-0">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center font-bold text-on-primary text-xl"
+             style="background:{{ crest_color(opp_team.club) }};">
+          {{ crest_initials(opp_team.club) }}
+        </div>
+        <div class="text-center">
+          <div class="font-headline font-bold text-on-surface text-base leading-tight">{{ opp_team.club }}</div>
+          <div class="text-[10px] text-sideline-grey mt-0.5">#{{ opp_rank }} · {{ opp_team.points }} pts</div>
+        </div>
+      </div>
+    </div>
+
+    {% if matchup_game %}
+    <!-- Game context: date / time / venue -->
+    <div class="flex items-center justify-center gap-4 mt-4 pt-4 border-t border-outline-variant flex-wrap">
+      <div class="flex items-center gap-1.5 text-xs text-sideline-grey">
+        <span class="material-symbols-outlined" style="font-size:15px;color:var(--clr-tertiary);">calendar_today</span>
+        <span class="font-semibold text-on-surface">{{ matchup_game.weekday }} {{ matchup_game.day_num }} {{ matchup_game.month_year }}</span>
+      </div>
+      <div class="flex items-center gap-1.5 text-xs text-sideline-grey">
+        <span class="material-symbols-outlined" style="font-size:15px;color:var(--clr-tertiary);">schedule</span>
+        <span class="font-semibold text-on-surface">{{ matchup_game.time }}</span>
+      </div>
+      <div class="flex items-center gap-1.5 text-xs text-sideline-grey">
+        <span class="material-symbols-outlined" style="font-size:15px;color:var(--clr-tertiary);">location_on</span>
+        <span class="font-semibold text-on-surface">{{ 'Home' if matchup_game.is_home else 'Away' }}</span>
+        <span>·</span>
+        <span class="truncate" style="max-width:140px;">{{ matchup_game.field }}</span>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- ── Form Bar ─────────────────────────────────────────── -->
+  <div class="fi-card p-5 mb-5">
+    <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-widest mb-4">Recent form — last 5 games</p>
+
+    {% set form_a = my_team.form[-5:] %}
+    {% set form_b = opp_team.form[-5:] %}
+
+    <!-- My team form row -->
+    <div class="flex items-center gap-3 mb-4">
+      <div class="w-20 text-xs font-bold text-on-surface truncate flex-shrink-0">{{ my_team.club }}</div>
+      <div class="flex gap-1.5 flex-1">
+        {% for r in form_a %}
+        <div class="form-chip-lg result-{{ r }}" title="{{ 'Win' if r == 'W' else ('Draw' if r == 'D' else 'Loss') }}">{{ r }}</div>
+        {% endfor %}
+        {% if not form_a %}
+        <span class="text-xs text-sideline-grey italic">No games yet</span>
+        {% endif %}
+      </div>
+      <div class="text-xs font-bold text-sideline-grey flex-shrink-0 text-right w-24">
+        <span class="text-on-surface">{{ form_pts_a }}</span> pts from {{ form_a | length }}
+      </div>
+    </div>
+
+    <!-- Opponent form row -->
+    <div class="flex items-center gap-3">
+      <div class="w-20 text-xs font-bold text-on-surface truncate flex-shrink-0">{{ opp_team.club }}</div>
+      <div class="flex gap-1.5 flex-1">
+        {% for r in form_b %}
+        <div class="form-chip-lg result-{{ r }}" title="{{ 'Win' if r == 'W' else ('Draw' if r == 'D' else 'Loss') }}">{{ r }}</div>
+        {% endfor %}
+        {% if not form_b %}
+        <span class="text-xs text-sideline-grey italic">No games yet</span>
+        {% endif %}
+      </div>
+      <div class="text-xs font-bold text-sideline-grey flex-shrink-0 text-right w-24">
+        <span class="text-on-surface">{{ form_pts_b }}</span> pts from {{ form_b | length }}
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="flex items-center gap-4 mt-5 pt-4 border-t border-outline-variant">
+      <span class="text-[10px] text-sideline-grey uppercase tracking-wider font-bold">Key</span>
+      <div class="flex items-center gap-1.5">
+        <div class="form-chip-lg result-W" style="width:22px;height:22px;font-size:10px;">W</div>
+        <span class="text-[11px] text-sideline-grey">Win</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <div class="form-chip-lg result-D" style="width:22px;height:22px;font-size:10px;">D</div>
+        <span class="text-[11px] text-sideline-grey">Draw</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <div class="form-chip-lg result-L" style="width:22px;height:22px;font-size:10px;">L</div>
+        <span class="text-[11px] text-sideline-grey">Loss</span>
+      </div>
+      <span class="ml-auto text-[10px] text-sideline-grey">oldest → newest</span>
+    </div>
+  </div>
+
+  <!-- ── Common Opponents ─────────────────────────────────── -->
+  <div class="fi-card overflow-hidden mb-5">
+    <div class="px-4 pt-4 pb-3 border-b border-outline-variant">
+      <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-widest">Common opponents</p>
+    </div>
+
+    {% if common_rows %}
+
+    <!-- Table header -->
+    <div class="grid grid-cols-[1fr_auto_auto] gap-x-3 px-4 py-2 bg-surface-container-low">
+      <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider">Opponent</div>
+      <div class="text-[10px] font-bold text-primary uppercase tracking-wider text-right w-24">{{ my_team.club }}</div>
+      <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider text-right w-24">{{ opp_team.club }}</div>
+    </div>
+
+    <!-- Rows -->
+    {% for row in common_rows %}
+    <div class="grid grid-cols-[1fr_auto_auto] gap-x-3 items-center px-4 py-3 {% if not loop.last %}border-b border-outline-variant{% endif %}">
+
+      <!-- Common opponent name + standing position -->
+      <div class="min-w-0">
+        <div class="font-semibold text-sm text-on-surface truncate">{{ row.club }}</div>
+        <div class="text-[10px] text-sideline-grey">#{{ row.standings_pos }} in table</div>
+      </div>
+
+      <!-- My team's result vs this opponent -->
+      <div class="flex flex-col items-end gap-0.5 w-24 flex-shrink-0">
+        {% if row.result_a %}
+        <div class="flex items-center gap-1.5">
+          <span class="text-sm font-bold text-on-surface">{{ row.result_a.goals_for }}–{{ row.result_a.goals_against }}</span>
+          <div class="result-chip result-{{ row.result_a.result }}" style="width:20px;height:20px;font-size:10px;border-radius:5px;">{{ row.result_a.result }}</div>
+        </div>
+        {% if row.result_a.count > 1 %}
+        <div class="text-[10px] text-sideline-grey">({{ row.result_a.count }} meetings)</div>
+        {% endif %}
+        {% else %}
+        <span class="text-xs text-sideline-grey">—</span>
+        {% endif %}
+      </div>
+
+      <!-- Opponent's result vs this common opponent -->
+      <div class="flex flex-col items-end gap-0.5 w-24 flex-shrink-0">
+        {% if row.result_b %}
+        <div class="flex items-center gap-1.5">
+          <span class="text-sm font-bold text-on-surface">{{ row.result_b.goals_for }}–{{ row.result_b.goals_against }}</span>
+          <div class="result-chip result-{{ row.result_b.result }}" style="width:20px;height:20px;font-size:10px;border-radius:5px;">{{ row.result_b.result }}</div>
+        </div>
+        {% if row.result_b.count > 1 %}
+        <div class="text-[10px] text-sideline-grey">({{ row.result_b.count }} meetings)</div>
+        {% endif %}
+        {% else %}
+        <span class="text-xs text-sideline-grey">—</span>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- Summary row -->
+    <div class="grid grid-cols-[1fr_auto_auto] gap-x-3 items-center px-4 py-3 bg-surface-container-low border-t border-outline-variant">
+      <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider">Record vs. common</div>
+      <div class="text-right w-24">
+        <span class="text-sm font-bold text-on-surface">
+          {{ summary_a.W }}W–{{ summary_a.D }}D–{{ summary_a.L }}L
+        </span>
+      </div>
+      <div class="text-right w-24">
+        <span class="text-sm font-bold text-sideline-grey">
+          {{ summary_b.W }}W–{{ summary_b.D }}D–{{ summary_b.L }}L
+        </span>
+      </div>
+    </div>
+
+    {% else %}
+
+    <div class="px-5 py-8 text-center text-sideline-grey text-sm">
+      <span class="material-symbols-outlined block mb-2" style="font-size:32px;opacity:0.4;">schedule</span>
+      No common opponents yet — both teams need to have played someone in common before this comparison is meaningful.
+    </div>
+
+    {% endif %}
+  </div>
+
+  {% endif %}{# end opp_team #}
+
+</div>
+{% endblock %}

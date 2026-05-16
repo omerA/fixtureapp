@@ -2,17 +2,18 @@
 app/main.py — FastAPI web app for FixtureApp standings tracker.
 
 Routes:
-  GET  /                  Landing page (redirects to /dashboard if logged in)
-  GET  /register          Registration form
-  POST /register          Create account -> /onboard
-  GET  /login             Login form
-  POST /login             Authenticate -> /dashboard
-  POST /logout            Clear session -> /
-  GET  /onboard           Team search + subscribe (protected)
-  POST /onboard           Save subscriptions -> /dashboard
-  POST /search            HTMX: return team result cards
-  GET  /dashboard         Show subscribed teams (protected)
-  GET  /team/{team_key}   Team detail: standings + results (protected)
+  GET  /                         Landing page (redirects to /dashboard if logged in)
+  GET  /register                 Registration form
+  POST /register                 Create account -> /onboard
+  GET  /login                    Login form
+  POST /login                    Authenticate -> /dashboard
+  POST /logout                   Clear session -> /
+  GET  /onboard                  Team search + subscribe (protected)
+  POST /onboard                  Save subscriptions -> /dashboard
+  POST /search                   HTMX: return team result cards
+  GET  /dashboard                Show subscribed teams (protected)
+  GET  /team/{team_key}          Team detail: standings + results (protected)
+  GET  /team/{team_key}/matchup  Matchup preview vs. a division opponent (protected)
 """
 from __future__ import annotations
 
@@ -169,6 +170,66 @@ def _load_standings(division: str) -> list[dict]:
     return json.loads(path.read_text()).get("teams", [])
 
 
+# ---------------------------------------------------------------------------
+# Matchup helpers
+# ---------------------------------------------------------------------------
+
+def _form_points(form: str) -> int:
+    """W=3, D=1, L=0 across the form string."""
+    return sum(3 if r == 'W' else 1 if r == 'D' else 0 for r in form)
+
+
+def _sorted_standings(teams: list[dict]) -> list[dict]:
+    """Sort by points → goal difference → goals for (NCSA tiebreaker order)."""
+    return sorted(teams, key=lambda t: (
+        -t.get('points', 0),
+        -(t.get('goals_for', 0) - t.get('goals_against', 0)),
+        -t.get('goals_for', 0),
+    ))
+
+
+def _result_against(team: dict, opponent_club: str) -> dict | None:
+    """Most recent meeting of team vs opponent_club. None if not played."""
+    matches = [
+        g for g in team.get('games', [])
+        if g.get('opponent_club', '').strip() == opponent_club.strip()
+    ]
+    if not matches:
+        return None
+    matches.sort(key=lambda g: g.get('date', ''), reverse=True)
+    m = matches[0]
+    return {
+        'result': m['result'],
+        'goals_for': m['goals_for'],
+        'goals_against': m['goals_against'],
+        'count': len(matches),
+    }
+
+
+def _common_opponents_rows(my_team: dict, opp_team: dict, all_teams: list[dict]) -> list[dict]:
+    """
+    Returns one row per club both teams have played, sorted by that club's
+    current standings position (strongest first).
+    """
+    clubs_a = {g.get('opponent_club', '').strip() for g in my_team.get('games', []) if g.get('opponent_club')}
+    clubs_b = {g.get('opponent_club', '').strip() for g in opp_team.get('games', []) if g.get('opponent_club')}
+    common = clubs_a & clubs_b
+
+    ranked = _sorted_standings(all_teams)
+    rank_by_club = {t['club'].strip(): i + 1 for i, t in enumerate(ranked)}
+
+    rows = []
+    for club in common:
+        rows.append({
+            'club': club,
+            'standings_pos': rank_by_club.get(club, 999),
+            'result_a': _result_against(my_team, club),
+            'result_b': _result_against(opp_team, club),
+        })
+    rows.sort(key=lambda r: r['standings_pos'])
+    return rows
+
+
 def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
     """Return upcoming games for a specific team from the schedule JSON, sorted by date."""
     path = SCHEDULES_DIR / f"{division}.json"
@@ -190,7 +251,8 @@ def _tr(request: Request, name: str, ctx: dict | None = None, **kwargs):
 
 
 def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
-    """Add is_home flag and formatted date fields to upcoming schedule games."""
+    """Add is_home, formatted date fields, and is_tbd flag to upcoming schedule games."""
+    today = datetime.utcnow().date().isoformat()
     result = []
     for g in games:
         try:
@@ -202,6 +264,9 @@ def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
             month_year, weekday, day_num = "Unknown", "?", "?"
         opponent = g["away_team"] if g["home_team"] == team_raw else g["home_team"]
         opponent_club = opponent.split("-")[0] if opponent else ""
+        field = g.get("field", "")
+        # Postponed/rescheduled: date is past OR field explicitly says "To Be Scheduled"
+        is_tbd = g.get("date", "") < today or "to be scheduled" in field.lower()
         result.append({
             **g,
             "is_home": g["home_team"] == team_raw,
@@ -210,7 +275,10 @@ def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
             "month_year": month_year,
             "weekday": weekday,
             "day_num": day_num,
+            "is_tbd": is_tbd,
         })
+    # Confirmed games first (by date/time), TBD games at the bottom
+    result.sort(key=lambda x: (x["is_tbd"], x.get("date", ""), x.get("time", "")))
     return result
 
 
@@ -222,6 +290,8 @@ def _build_card(sub: Subscription) -> dict:
     games = _annotate_games(matched.get("games", []), home_prefix) if matched else []
     upcoming_raw = _load_upcoming_games(sub.division, sub.team_key)
     upcoming = _annotate_upcoming(upcoming_raw, sub.team_key)
+    # next_confirmed: first non-TBD game, used for dashboard preview + matchday banner
+    next_confirmed = next((g for g in upcoming if not g["is_tbd"]), None)
     short = _division_short(sub.division)
     return {
         "sub": sub,
@@ -234,6 +304,7 @@ def _build_card(sub: Subscription) -> dict:
         "total_teams": len(all_teams),
         "games": list(reversed(games)),  # newest first
         "upcoming": upcoming,
+        "next_confirmed": next_confirmed,
     }
 
 
@@ -453,4 +524,80 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
         return RedirectResponse("/dashboard", status_code=302)
 
     card = _build_card(sub)
-    return _tr(request, "team_detail.html", user=user, card=card)
+    today = datetime.utcnow().date().isoformat()
+    return _tr(request, "team_detail.html", user=user, card=card, today=today)
+
+
+# ---------------------------------------------------------------------------
+# Matchup preview
+# ---------------------------------------------------------------------------
+
+@app.get("/team/{team_key}/matchup")
+async def matchup_preview(
+    team_key: str,
+    request: Request,
+    opp: str = "",
+    db: Session = Depends(get_db),
+):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    sub = next((s for s in user.subscriptions if s.team_key == team_key), None)
+    if not sub:
+        return RedirectResponse("/dashboard", status_code=302)
+
+    all_teams = _load_standings(sub.division)
+    my_team = next((t for t in all_teams if t['team_raw'] == team_key), None)
+    other_teams = [t for t in all_teams if t['team_raw'] != team_key]
+
+    ranked = _sorted_standings(all_teams)
+    rank_by_team = {t['team_raw']: i + 1 for i, t in enumerate(ranked)}
+    my_rank = rank_by_team.get(team_key, '—')
+
+    opp_team = None
+    opp_rank = '—'
+    common_rows: list[dict] = []
+    summary_a: dict = {'W': 0, 'D': 0, 'L': 0}
+    summary_b: dict = {'W': 0, 'D': 0, 'L': 0}
+    form_pts_a = _form_points(my_team.get('form', '')) if my_team else 0
+    form_pts_b = 0
+
+    # Find the scheduled game between my team and the opponent (if data exists)
+    raw_upcoming = _load_upcoming_games(sub.division, team_key)
+    upcoming_annotated = _annotate_upcoming(raw_upcoming, team_key)
+    matchup_game = None
+
+    if opp:
+        opp_team = next((t for t in all_teams if t['team_raw'] == opp), None)
+        matchup_game = next(
+            (g for g in upcoming_annotated if g.get('opponent_raw') == opp),
+            None,
+        )
+        if opp_team and my_team:
+            opp_rank = rank_by_team.get(opp, '—')
+            common_rows = _common_opponents_rows(my_team, opp_team, all_teams)
+            for row in common_rows:
+                if row['result_a']:
+                    summary_a[row['result_a']['result']] += 1
+                if row['result_b']:
+                    summary_b[row['result_b']['result']] += 1
+            form_pts_b = _form_points(opp_team.get('form', ''))
+
+    return _tr(request, "matchup.html",
+        user=user,
+        sub=sub,
+        my_team=my_team,
+        other_teams=other_teams,
+        opp_team=opp_team,
+        opp_key=opp,
+        my_rank=my_rank,
+        opp_rank=opp_rank,
+        matchup_game=matchup_game,
+        common_rows=common_rows,
+        summary_a=summary_a,
+        summary_b=summary_b,
+        form_pts_a=form_pts_a,
+        form_pts_b=form_pts_b,
+        division_label=division_label(sub.division),
+    )

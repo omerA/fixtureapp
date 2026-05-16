@@ -87,9 +87,9 @@
       </div>
       {% endif %}
 
-      <!-- Next game preview -->
-      {% if card.upcoming %}
-      {% set next = card.upcoming[0] %}
+      <!-- Next game preview (confirmed games only, TBD excluded) -->
+      {% if card.next_confirmed %}
+      {% set next = card.next_confirmed %}
       <div class="flex items-center gap-3 mt-3 bg-surface-container-low rounded-xl px-3 py-2">
         <div class="text-center flex-shrink-0 w-9 border-r border-outline-variant pr-3">
           <div class="text-[9px] font-bold text-sideline-grey uppercase">{{ next.weekday }}</div>
@@ -101,7 +101,7 @@
         </div>
         <div class="text-[11px] text-sideline-grey flex-shrink-0">{{ next.time }}</div>
       </div>
-      {% endif %}
+      {% endif %}{# next_confirmed #}
 
     </div>
   </a>

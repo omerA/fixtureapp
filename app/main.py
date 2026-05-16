@@ -251,7 +251,8 @@ def _tr(request: Request, name: str, ctx: dict | None = None, **kwargs):
 
 
 def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
-    """Add is_home flag and formatted date fields to upcoming schedule games."""
+    """Add is_home, formatted date fields, and is_tbd flag to upcoming schedule games."""
+    today = datetime.utcnow().date().isoformat()
     result = []
     for g in games:
         try:
@@ -263,6 +264,9 @@ def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
             month_year, weekday, day_num = "Unknown", "?", "?"
         opponent = g["away_team"] if g["home_team"] == team_raw else g["home_team"]
         opponent_club = opponent.split("-")[0] if opponent else ""
+        field = g.get("field", "")
+        # Postponed/rescheduled: date is past OR field explicitly says "To Be Scheduled"
+        is_tbd = g.get("date", "") < today or "to be scheduled" in field.lower()
         result.append({
             **g,
             "is_home": g["home_team"] == team_raw,
@@ -271,7 +275,10 @@ def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
             "month_year": month_year,
             "weekday": weekday,
             "day_num": day_num,
+            "is_tbd": is_tbd,
         })
+    # Confirmed games first (by date/time), TBD games at the bottom
+    result.sort(key=lambda x: (x["is_tbd"], x.get("date", ""), x.get("time", "")))
     return result
 
 
@@ -283,6 +290,8 @@ def _build_card(sub: Subscription) -> dict:
     games = _annotate_games(matched.get("games", []), home_prefix) if matched else []
     upcoming_raw = _load_upcoming_games(sub.division, sub.team_key)
     upcoming = _annotate_upcoming(upcoming_raw, sub.team_key)
+    # next_confirmed: first non-TBD game, used for dashboard preview + matchday banner
+    next_confirmed = next((g for g in upcoming if not g["is_tbd"]), None)
     short = _division_short(sub.division)
     return {
         "sub": sub,
@@ -295,6 +304,7 @@ def _build_card(sub: Subscription) -> dict:
         "total_teams": len(all_teams),
         "games": list(reversed(games)),  # newest first
         "upcoming": upcoming,
+        "next_confirmed": next_confirmed,
     }
 
 

@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}Settings — Fixture{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto pb-16">
+
+  <!-- Header -->
+  <div class="flex items-center gap-3 mb-8">
+    <a href="/dashboard"
+       class="flex items-center justify-center w-9 h-9 rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-low transition-colors"
+       style="text-decoration:none;">
+      <span class="material-symbols-outlined" style="font-size:20px;">arrow_back_ios_new</span>
+    </a>
+    <h1 class="font-headline font-bold text-on-surface" style="font-size:1.4rem;">Settings</h1>
+  </div>
+
+  <!-- Account section -->
+  <div class="fi-card p-5 mb-5">
+    <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider mb-3">Account</p>
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-on-primary font-bold text-sm flex-shrink-0">
+        {{ user.email[0].upper() }}
+      </div>
+      <div class="flex-1 min-w-0">
+        <div class="font-semibold text-on-surface text-sm truncate">{{ user.email }}</div>
+        <div class="text-xs text-sideline-grey">
+          {% if user.google_id %}Google account{% else %}Email account{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TeamSnap section -->
+  <div class="fi-card p-5 mb-5">
+    <div class="flex items-center justify-between mb-4">
+      <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider">TeamSnap</p>
+      {% if user.teamsnap_access_token %}
+      <span class="flex items-center gap-1 text-[10px] font-bold text-primary uppercase tracking-wide">
+        <span class="material-symbols-outlined" style="font-size:14px;">check_circle</span>
+        Connected
+      </span>
+      {% endif %}
+    </div>
+
+    {% if error == 'teamsnap' %}
+    <div class="flex items-center gap-2 text-sm text-error mb-4 bg-error-container rounded-lg px-3 py-2">
+      <span class="material-symbols-outlined" style="font-size:18px;">error</span>
+      TeamSnap connection failed. Please try again.
+    </div>
+    {% endif %}
+
+    {% if user.teamsnap_access_token %}
+      <p class="text-sm text-on-surface mb-4">
+        Your TeamSnap account is linked. You can manage which teams are linked to your
+        NCSA subscriptions on the
+        <a href="/teamsnap/connect" class="text-primary font-semibold" style="text-decoration:none;">Connect page</a>.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="/teamsnap/connect"
+           class="flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-on-primary bg-primary hover:opacity-90 transition-opacity"
+           style="text-decoration:none;">
+          <span class="material-symbols-outlined" style="font-size:18px;">link</span>
+          Manage roster links
+        </a>
+        <form method="post" action="/auth/teamsnap/disconnect"
+              onsubmit="return confirm('Disconnect TeamSnap? All roster links will be removed.')">
+          <button type="submit"
+                  class="flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl text-sm font-semibold text-error border border-error hover:bg-error-container transition-colors"
+                  style="background:transparent;cursor:pointer;">
+            <span class="material-symbols-outlined" style="font-size:18px;">link_off</span>
+            Disconnect
+          </button>
+        </form>
+      </div>
+
+      {% if links %}
+      <div class="mt-5 pt-4 border-t border-outline-variant">
+        <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider mb-3">Linked teams</p>
+        <div class="space-y-2">
+          {% for lnk in links %}
+          <div class="flex items-center gap-3 py-2">
+            <span class="material-symbols-outlined text-primary flex-shrink-0" style="font-size:18px;">sports_soccer</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-sm font-semibold text-on-surface truncate">{{ lnk.teamsnap_team_name }}</div>
+              {% if lnk.subscription %}
+              <div class="text-xs text-sideline-grey truncate">
+                → {{ lnk.subscription.club }} · {{ lnk.subscription.division }}
+              </div>
+              {% else %}
+              <div class="text-xs text-sideline-grey">Not linked to an NCSA team</div>
+              {% endif %}
+            </div>
+            {% if lnk.roster_synced_at %}
+            <div class="text-[10px] text-sideline-grey flex-shrink-0">
+              Synced {{ lnk.roster_synced_at.strftime('%b %-d') }}
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+    {% else %}
+      <p class="text-sm text-on-surface mb-4">
+        Connect your TeamSnap account to see your team's roster alongside NCSA standings and schedules.
+      </p>
+      <a href="/auth/teamsnap"
+         class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-on-primary bg-primary hover:opacity-90 transition-opacity"
+         style="text-decoration:none;">
+        <span class="material-symbols-outlined" style="font-size:18px;">link</span>
+        Connect with TeamSnap
+      </a>
+    {% endif %}
+  </div>
+
+</div>
+{% endblock %}

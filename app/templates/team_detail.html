@@ -99,12 +99,15 @@
   </div>
 
   <!-- Tabs -->
-  <div id="tabs" class="seg-tabs mb-5" style="max-width:320px;">
+  <div id="tabs" class="seg-tabs mb-5" style="max-width:{% if ts_link %}420px{% else %}320px{% endif %};">
     <button class="seg-tab active" data-tab="standings" onclick="switchTab('standings',this)">Standings</button>
     <button class="seg-tab" data-tab="results" onclick="switchTab('results',this)">Results</button>
     <button class="seg-tab" data-tab="upcoming" onclick="switchTab('upcoming',this)">
       Upcoming{% if card.upcoming %} <span class="inline-flex items-center justify-center bg-primary text-on-primary rounded-full font-bold ml-1" style="font-size:9px;min-width:16px;height:16px;padding:0 4px;">{{ card.upcoming | length }}</span>{% endif %}
     </button>
+    {% if ts_link %}
+    <button class="seg-tab" data-tab="roster" onclick="switchTab('roster',this)">Roster</button>
+    {% endif %}
   </div>
 
   <!-- Desktop: side-by-side layout for tabs -->
@@ -306,13 +309,66 @@
       {% endif %}
     </div>
 
+    <!-- ── Roster tab ── -->
+    {% if ts_link %}
+    <div id="tab-roster" class="flex-1" style="display:none;">
+      <div class="fi-card p-5">
+        <!-- Header row -->
+        <div class="flex items-center justify-between mb-4">
+          <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider">
+            {{ ts_link.teamsnap_team_name }}
+          </p>
+          <div class="flex items-center gap-3">
+            {% if ts_link.roster_synced_at %}
+            <span class="text-[10px] text-sideline-grey">Synced {{ ts_link.roster_synced_at.strftime('%b %-d') }}</span>
+            {% endif %}
+            <form method="post" action="/teamsnap/sync/{{ ts_link.id }}">
+              <button type="submit"
+                      class="flex items-center gap-1 text-[10px] font-bold text-primary uppercase tracking-wide"
+                      style="background:transparent;border:none;cursor:pointer;padding:0;">
+                <span class="material-symbols-outlined" style="font-size:14px;">sync</span>
+                Sync
+              </button>
+            </form>
+          </div>
+        </div>
+
+        {% if roster %}
+        <div class="flex flex-wrap gap-2">
+          {% for player in roster %}
+          <span class="flex items-center gap-1.5 text-sm font-medium text-on-surface bg-surface-container px-3 py-1.5 rounded-full">
+            <span class="material-symbols-outlined text-sideline-grey" style="font-size:14px;">person</span>
+            {{ player.name }}
+          </span>
+          {% endfor %}
+        </div>
+        <p class="text-xs text-sideline-grey mt-3">{{ roster | length }} player{{ 's' if roster | length != 1 }}</p>
+        {% else %}
+        <div class="text-center py-6">
+          <span class="material-symbols-outlined text-sideline-grey mb-2" style="font-size:32px;display:block;">group_off</span>
+          <p class="text-sm text-sideline-grey mb-3">No roster loaded yet.</p>
+          <form method="post" action="/teamsnap/sync/{{ ts_link.id }}">
+            <button type="submit"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-on-primary bg-primary hover:opacity-90 transition-opacity"
+                    style="border:none;cursor:pointer;">
+              <span class="material-symbols-outlined" style="font-size:16px;">download</span>
+              Fetch roster
+            </button>
+          </form>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
   </div><!-- /flex layout -->
 
 <script>
 function switchTab(tab, btn) {
-  document.getElementById('tab-standings').style.display = tab === 'standings' ? '' : 'none';
-  document.getElementById('tab-results').style.display   = tab === 'results'   ? '' : 'none';
-  document.getElementById('tab-upcoming').style.display  = tab === 'upcoming'  ? '' : 'none';
+  ['standings', 'results', 'upcoming', 'roster'].forEach(function(t) {
+    var el = document.getElementById('tab-' + t);
+    if (el) el.style.display = (t === tab) ? '' : 'none';
+  });
   document.querySelectorAll('#tabs .seg-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }

@@ -2,18 +2,26 @@
 app/main.py — FastAPI web app for FixtureApp standings tracker.
 
 Routes:
-  GET  /                         Landing page (redirects to /dashboard if logged in)
-  GET  /register                 Registration form
-  POST /register                 Create account -> /onboard
-  GET  /login                    Login form
-  POST /login                    Authenticate -> /dashboard
-  POST /logout                   Clear session -> /
-  GET  /onboard                  Team search + subscribe (protected)
-  POST /onboard                  Save subscriptions -> /dashboard
-  POST /search                   HTMX: return team result cards
-  GET  /dashboard                Show subscribed teams (protected)
-  GET  /team/{team_key}          Team detail: standings + results (protected)
-  GET  /team/{team_key}/matchup  Matchup preview vs. a division opponent (protected)
+  GET  /                              Landing page (redirects to /dashboard if logged in)
+  GET  /register                      Registration form
+  POST /register                      Create account -> /onboard
+  GET  /login                         Login form
+  POST /login                         Authenticate -> /dashboard
+  POST /logout                        Clear session -> /
+  GET  /onboard                       Team search + subscribe (protected)
+  POST /onboard                       Save subscriptions -> /dashboard
+  POST /search                        HTMX: return team result cards
+  GET  /dashboard                     Show subscribed teams (protected)
+  GET  /team/{team_key}               Team detail: standings + results (protected)
+  GET  /team/{team_key}/matchup       Matchup preview vs. a division opponent (protected)
+  GET  /settings                      Account settings + TeamSnap connection status
+  GET  /auth/teamsnap                 Start TeamSnap OAuth flow (protected)
+  GET  /auth/teamsnap/callback        TeamSnap OAuth callback
+  POST /auth/teamsnap/disconnect      Remove TeamSnap connection
+  GET  /teamsnap/connect              Link TeamSnap teams to NCSA subscriptions (protected)
+  POST /teamsnap/link                 Save a TeamSnap → NCSA link
+  POST /teamsnap/sync/{link_id}       Re-fetch roster for a link
+  POST /teamsnap/unlink/{link_id}     Delete a link
 """
 from __future__ import annotations
 
@@ -36,7 +44,7 @@ from authlib.integrations.starlette_client import OAuth
 
 from .auth import hash_password, verify_password
 from .db import get_db
-from .models import Subscription, User
+from .models import Subscription, TeamSnapLink, User
 from .search import division_label, search_teams
 
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -124,6 +132,14 @@ oauth.register(
     server_metadata_url="https://accounts.google.com/.well-known/openid-configuration",
     client_kwargs={"scope": "openid email profile"},
 )
+oauth.register(
+    name="teamsnap",
+    client_id=os.getenv("TEAMSNAP_CLIENT_ID"),
+    client_secret=os.getenv("TEAMSNAP_CLIENT_SECRET"),
+    authorize_url="https://auth.teamsnap.com/oauth/authorize",
+    access_token_url="https://auth.teamsnap.com/oauth/token",
+    client_kwargs={"scope": "read"},
+)
 
 
 @asynccontextmanager
@@ -159,6 +175,7 @@ templates = Jinja2Templates(directory=Path(__file__).parent / "templates")
 templates.env.globals["crest_initials"] = _crest_initials
 templates.env.globals["crest_color"] = _crest_color
 templates.env.filters["venue_label"] = _venue_label
+templates.env.filters["fromjson"] = json.loads
 
 
 # ---------------------------------------------------------------------------
@@ -534,7 +551,22 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
 
     card = _build_card(sub)
     today = datetime.utcnow().date().isoformat()
-    return _tr(request, "team_detail.html", user=user, card=card, today=today)
+
+    # Find a TeamSnap link for this subscription (if any)
+    ts_link = db.query(TeamSnapLink).filter(
+        TeamSnapLink.user_id == user.id,
+        TeamSnapLink.ncsa_subscription_id == sub.id,
+    ).first()
+    roster: list[dict] = []
+    if ts_link and ts_link.roster_json:
+        import json as _json
+        try:
+            roster = _json.loads(ts_link.roster_json)
+        except Exception:
+            roster = []
+
+    return _tr(request, "team_detail.html", user=user, card=card, today=today,
+               ts_link=ts_link, roster=roster)
 
 
 # ---------------------------------------------------------------------------
@@ -610,3 +642,249 @@ async def matchup_preview(
         form_pts_b=form_pts_b,
         division_label=division_label(sub.division),
     )
+
+
+# ---------------------------------------------------------------------------
+# Account settings
+# ---------------------------------------------------------------------------
+
+@app.get("/settings")
+async def settings_get(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    links = db.query(TeamSnapLink).filter(TeamSnapLink.user_id == user.id).all()
+    return _tr(request, "settings.html", user=user, links=links)
+
+
+# ---------------------------------------------------------------------------
+# TeamSnap OAuth
+# ---------------------------------------------------------------------------
+
+@app.get("/auth/teamsnap")
+async def auth_teamsnap(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    redirect_uri = request.url_for("auth_teamsnap_callback")
+    return await oauth.teamsnap.authorize_redirect(request, redirect_uri)
+
+
+@app.get("/auth/teamsnap/callback", name="auth_teamsnap_callback")
+async def auth_teamsnap_callback(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    try:
+        token = await oauth.teamsnap.authorize_access_token(request)
+    except Exception:
+        return RedirectResponse("/settings?error=teamsnap", status_code=302)
+
+    access_token = token.get("access_token")
+    refresh_token = token.get("refresh_token")
+
+    # Fetch the user's TeamSnap identity to get their numeric ID
+    from teamsnap_client import TeamSnapClient, TeamSnapError
+    try:
+        client = TeamSnapClient(access_token)
+        # /me returns the authenticated user's member record
+        me_data = client._get("/me")
+        me_items = client._items(me_data)
+        ts_id = str(me_items[0].get("id", "")) if me_items else None
+    except (TeamSnapError, Exception):
+        ts_id = None
+
+    user.teamsnap_id = ts_id
+    user.teamsnap_access_token = access_token
+    user.teamsnap_refresh_token = refresh_token
+    db.commit()
+    return RedirectResponse("/teamsnap/connect", status_code=302)
+
+
+@app.post("/auth/teamsnap/disconnect")
+async def auth_teamsnap_disconnect(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    user.teamsnap_id = None
+    user.teamsnap_access_token = None
+    user.teamsnap_refresh_token = None
+    # Remove all links for this user
+    db.query(TeamSnapLink).filter(TeamSnapLink.user_id == user.id).delete()
+    db.commit()
+    return RedirectResponse("/settings", status_code=302)
+
+
+# ---------------------------------------------------------------------------
+# TeamSnap connect / roster
+# ---------------------------------------------------------------------------
+
+def _fuzzy_match_subscription(ts_name: str, subscriptions: list) -> int | None:
+    """
+    Try to match a TeamSnap team name against NCSA subscriptions.
+    Returns subscription.id of the best match, or None.
+    """
+    ts_lower = ts_name.lower()
+    best_id = None
+    best_score = 0
+    for sub in subscriptions:
+        candidate = f"{sub.club} {sub.coach}".lower()
+        # Score = number of shared words
+        ts_words = set(ts_lower.split())
+        cand_words = set(candidate.split())
+        score = len(ts_words & cand_words)
+        if score > best_score:
+            best_score = score
+            best_id = sub.id
+    return best_id if best_score > 0 else None
+
+
+@app.get("/teamsnap/connect")
+async def teamsnap_connect_get(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    if not user.teamsnap_access_token:
+        return RedirectResponse("/settings", status_code=302)
+
+    from teamsnap_client import TeamSnapClient, TeamSnapError
+    ts_teams = []
+    error = None
+    try:
+        client = TeamSnapClient(user.teamsnap_access_token)
+        ts_teams = client.get_teams()
+    except TeamSnapError as e:
+        if e.status_code == 401:
+            error = "expired"
+        else:
+            error = "api"
+    except Exception:
+        error = "api"
+
+    existing_links = {lnk.teamsnap_team_id: lnk for lnk in user.teamsnap_links}
+
+    # Annotate each TeamSnap team with suggested match + existing link
+    annotated = []
+    for t in ts_teams:
+        ts_id = str(t.get("id", ""))
+        link = existing_links.get(ts_id)
+        suggested_sub_id = (
+            link.ncsa_subscription_id
+            if link
+            else _fuzzy_match_subscription(t.get("name", ""), user.subscriptions)
+        )
+        annotated.append({
+            "ts_id": ts_id,
+            "ts_name": t.get("name", ""),
+            "link": link,
+            "suggested_sub_id": suggested_sub_id,
+        })
+
+    return _tr(request, "teamsnap_connect.html",
+               user=user,
+               ts_teams=annotated,
+               subscriptions=user.subscriptions,
+               error=error)
+
+
+@app.post("/teamsnap/link")
+async def teamsnap_link_post(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    form = await request.form()
+    ts_id = form.get("ts_id", "").strip()
+    ts_name = form.get("ts_name", "").strip()
+    sub_id_str = form.get("sub_id", "").strip()
+    sub_id = int(sub_id_str) if sub_id_str.isdigit() else None
+
+    if not ts_id:
+        return RedirectResponse("/teamsnap/connect", status_code=302)
+
+    # Validate subscription belongs to user
+    if sub_id:
+        sub = next((s for s in user.subscriptions if s.id == sub_id), None)
+        if not sub:
+            sub_id = None
+
+    # Upsert the link
+    link = db.query(TeamSnapLink).filter(
+        TeamSnapLink.user_id == user.id,
+        TeamSnapLink.teamsnap_team_id == ts_id,
+    ).first()
+    if link:
+        link.ncsa_subscription_id = sub_id
+        link.teamsnap_team_name = ts_name
+    else:
+        link = TeamSnapLink(
+            user_id=user.id,
+            teamsnap_team_id=ts_id,
+            teamsnap_team_name=ts_name,
+            ncsa_subscription_id=sub_id,
+        )
+        db.add(link)
+    db.commit()
+    db.refresh(link)
+
+    # Immediately fetch roster
+    if user.teamsnap_access_token:
+        from teamsnap_client import TeamSnapClient, TeamSnapError
+        import json as _json
+        try:
+            client = TeamSnapClient(user.teamsnap_access_token)
+            members = client.get_members(ts_id)
+            roster = [{"name": m.get("name", "")} for m in members if m.get("name")]
+            link.roster_json = _json.dumps(roster)
+            link.roster_synced_at = datetime.utcnow()
+            db.commit()
+        except (TeamSnapError, Exception):
+            pass
+
+    return RedirectResponse("/teamsnap/connect", status_code=302)
+
+
+@app.post("/teamsnap/sync/{link_id}")
+async def teamsnap_sync(link_id: int, request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    link = db.get(TeamSnapLink, link_id)
+    if not link or link.user_id != user.id:
+        return RedirectResponse("/teamsnap/connect", status_code=302)
+
+    if user.teamsnap_access_token:
+        from teamsnap_client import TeamSnapClient, TeamSnapError
+        import json as _json
+        try:
+            client = TeamSnapClient(user.teamsnap_access_token)
+            members = client.get_members(link.teamsnap_team_id)
+            roster = [{"name": m.get("name", "")} for m in members if m.get("name")]
+            link.roster_json = _json.dumps(roster)
+            link.roster_synced_at = datetime.utcnow()
+            db.commit()
+        except TeamSnapError as e:
+            if e.status_code == 401:
+                return RedirectResponse("/teamsnap/connect?error=expired", status_code=302)
+
+    # Redirect back to the team detail roster tab if linked, otherwise connect page
+    if link.subscription:
+        return RedirectResponse(
+            f"/team/{link.subscription.team_key}?tab=roster",
+            status_code=302,
+        )
+    return RedirectResponse("/teamsnap/connect", status_code=302)
+
+
+@app.post("/teamsnap/unlink/{link_id}")
+async def teamsnap_unlink(link_id: int, request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    link = db.get(TeamSnapLink, link_id)
+    if link and link.user_id == user.id:
+        db.delete(link)
+        db.commit()
+    return RedirectResponse("/teamsnap/connect", status_code=302)

@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+{% block title %}Link TeamSnap Teams — Fixture{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto pb-16">
+
+  <!-- Header -->
+  <div class="flex items-center gap-3 mb-8">
+    <a href="/settings"
+       class="flex items-center justify-center w-9 h-9 rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-low transition-colors"
+       style="text-decoration:none;">
+      <span class="material-symbols-outlined" style="font-size:20px;">arrow_back_ios_new</span>
+    </a>
+    <div>
+      <h1 class="font-headline font-bold text-on-surface" style="font-size:1.4rem;">Link TeamSnap Teams</h1>
+      <p class="text-xs text-sideline-grey mt-0.5">Match your TeamSnap teams to NCSA subscriptions to show rosters</p>
+    </div>
+  </div>
+
+  {% if error == 'expired' %}
+  <div class="flex items-center gap-3 fi-card border-l-4 border-error p-4 mb-5">
+    <span class="material-symbols-outlined text-error flex-shrink-0" style="font-size:22px;">error</span>
+    <div>
+      <div class="font-semibold text-on-surface text-sm">TeamSnap session expired</div>
+      <div class="text-xs text-sideline-grey mt-0.5">
+        <a href="/auth/teamsnap" class="text-primary font-semibold" style="text-decoration:none;">Reconnect TeamSnap</a>
+        to continue syncing rosters.
+      </div>
+    </div>
+  </div>
+  {% elif error == 'api' %}
+  <div class="flex items-center gap-3 fi-card border-l-4 border-error p-4 mb-5">
+    <span class="material-symbols-outlined text-error flex-shrink-0" style="font-size:22px;">cloud_off</span>
+    <div class="font-semibold text-on-surface text-sm">Could not reach TeamSnap. Try again in a moment.</div>
+  </div>
+  {% endif %}
+
+  {% if not ts_teams %}
+  <div class="fi-card p-8 text-center border-2 border-dashed border-outline-variant" style="box-shadow:none;">
+    <span class="material-symbols-outlined text-sideline-grey mb-3" style="font-size:40px;display:block;">group_off</span>
+    <p class="text-sm text-sideline-grey">No TeamSnap teams found for your account.</p>
+    <p class="text-xs text-sideline-grey mt-1">Make sure you are a member of at least one team in TeamSnap.</p>
+  </div>
+  {% else %}
+  <div class="space-y-4">
+    {% for t in ts_teams %}
+    <div class="fi-card p-5">
+
+      <!-- Team name + linked status -->
+      <div class="flex items-start justify-between gap-3 mb-4">
+        <div>
+          <div class="font-headline font-bold text-on-surface text-base">{{ t.ts_name }}</div>
+          {% if t.link %}
+          <div class="flex items-center gap-1 text-[10px] font-bold text-primary uppercase tracking-wide mt-0.5">
+            <span class="material-symbols-outlined" style="font-size:12px;">check_circle</span>
+            Linked
+            {% if t.link.subscription %}· {{ t.link.subscription.club }} {{ t.link.subscription.division }}{% endif %}
+          </div>
+          {% endif %}
+        </div>
+        {% if t.link %}
+        <form method="post" action="/teamsnap/unlink/{{ t.link.id }}">
+          <button type="submit"
+                  class="text-[10px] font-bold text-sideline-grey hover:text-error transition-colors uppercase tracking-wide flex items-center gap-1"
+                  style="background:transparent;border:none;cursor:pointer;padding:0;">
+            <span class="material-symbols-outlined" style="font-size:14px;">link_off</span>
+            Unlink
+          </button>
+        </form>
+        {% endif %}
+      </div>
+
+      <!-- Link form -->
+      <form method="post" action="/teamsnap/link" class="flex flex-col sm:flex-row gap-3 items-start sm:items-end">
+        <input type="hidden" name="ts_id" value="{{ t.ts_id }}">
+        <input type="hidden" name="ts_name" value="{{ t.ts_name }}">
+
+        <div class="flex-1 w-full">
+          <label class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider block mb-1">
+            Link to NCSA subscription
+          </label>
+          <select name="sub_id"
+                  class="w-full rounded-xl border border-outline-variant bg-surface px-3 py-2.5 text-sm text-on-surface focus:outline-none focus:ring-2 focus:ring-primary">
+            <option value="">— Not linked —</option>
+            {% for sub in subscriptions %}
+            <option value="{{ sub.id }}"
+              {% if t.suggested_sub_id == sub.id %}selected{% endif %}>
+              {{ sub.club }} · {{ sub.coach }} ({{ sub.division }})
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <button type="submit"
+                class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-on-primary bg-primary hover:opacity-90 transition-opacity flex-shrink-0"
+                style="cursor:pointer;border:none;">
+          <span class="material-symbols-outlined" style="font-size:18px;">save</span>
+          {% if t.link %}Update{% else %}Link{% endif %}
+        </button>
+      </form>
+
+      <!-- Roster preview + sync -->
+      {% if t.link and t.link.roster_json %}
+      {% set parsed_roster = t.link.roster_json | fromjson %}
+      <div class="mt-4 pt-4 border-t border-outline-variant">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-[10px] font-bold text-sideline-grey uppercase tracking-wider">Roster</p>
+          <div class="flex items-center gap-3">
+            {% if t.link.roster_synced_at %}
+            <span class="text-[10px] text-sideline-grey">Synced {{ t.link.roster_synced_at.strftime('%b %-d') }}</span>
+            {% endif %}
+            <form method="post" action="/teamsnap/sync/{{ t.link.id }}">
+              <button type="submit"
+                      class="flex items-center gap-1 text-[10px] font-bold text-primary uppercase tracking-wide"
+                      style="background:transparent;border:none;cursor:pointer;padding:0;">
+                <span class="material-symbols-outlined" style="font-size:14px;">sync</span>
+                Sync
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          {% for player in parsed_roster %}
+          <span class="text-xs font-medium text-on-surface bg-surface-container px-2.5 py-1 rounded-full">{{ player.name }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% elif t.link %}
+      <div class="mt-4 pt-4 border-t border-outline-variant">
+        <form method="post" action="/teamsnap/sync/{{ t.link.id }}">
+          <button type="submit"
+                  class="flex items-center gap-2 text-xs font-semibold text-primary"
+                  style="background:transparent;border:none;cursor:pointer;padding:0;">
+            <span class="material-symbols-outlined" style="font-size:16px;">download</span>
+            Fetch roster
+          </button>
+        </form>
+      </div>
+      {% endif %}
+
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}

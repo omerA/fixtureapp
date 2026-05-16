@@ -888,3 +888,76 @@ async def teamsnap_unlink(link_id: int, request: Request, db: Session = Depends(
         db.delete(link)
         db.commit()
     return RedirectResponse("/teamsnap/connect", status_code=302)
+
+
+# ---------------------------------------------------------------------------
+# TeamSnap debug (temporary — remove before merging to staging)
+# ---------------------------------------------------------------------------
+
+@app.get("/teamsnap/debug")
+async def teamsnap_debug(request: Request, db: Session = Depends(get_db)):
+    from fastapi.responses import JSONResponse
+    user = _session_user(request, db)
+    if not user:
+        return JSONResponse({"error": "not logged in"}, status_code=401)
+    if not user.teamsnap_access_token:
+        return JSONResponse({"error": "no teamsnap token stored"})
+
+    from teamsnap_client import TeamSnapClient, TeamSnapError
+    import traceback
+
+    results: dict = {
+        "token_prefix": user.teamsnap_access_token[:8] + "...",
+        "teamsnap_id": user.teamsnap_id,
+        "calls": [],
+    }
+
+    client = TeamSnapClient(user.teamsnap_access_token)
+
+    def probe(label: str, path: str, params: dict | None = None):
+        try:
+            raw = client._get(path, params)
+            items = client._items(raw)
+            results["calls"].append({
+                "label": label,
+                "url": f"{client._session.headers.get('base', 'https://api.teamsnap.com/v3')}{path}",
+                "params": params,
+                "status": "ok",
+                "item_count": len(items),
+                "first_item": items[0] if items else None,
+                "raw_keys": list(raw.get("collection", {}).keys()),
+            })
+        except TeamSnapError as e:
+            results["calls"].append({
+                "label": label,
+                "path": path,
+                "params": params,
+                "status": "error",
+                "status_code": e.status_code,
+                "message": str(e),
+            })
+        except Exception:
+            results["calls"].append({
+                "label": label,
+                "path": path,
+                "params": params,
+                "status": "exception",
+                "traceback": traceback.format_exc(),
+            })
+
+    # Probe the API root to discover links
+    try:
+        root = client._get("/")
+        results["root_links"] = [
+            lnk.get("rel") for lnk in root.get("collection", {}).get("links", [])
+        ]
+    except Exception as exc:
+        results["root_error"] = str(exc)
+
+    probe("me endpoint", "/me")
+    probe("teams/search user_id=me", "/teams/search", {"user_id": "me"})
+    if user.teamsnap_id:
+        probe(f"teams/search user_id={user.teamsnap_id}", "/teams/search", {"user_id": user.teamsnap_id})
+    probe("teams (no params)", "/teams")
+
+    return JSONResponse(results)

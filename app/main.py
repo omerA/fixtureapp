@@ -553,8 +553,17 @@ async def matchup_preview(
     form_pts_a = _form_points(my_team.get('form', '')) if my_team else 0
     form_pts_b = 0
 
+    # Find the scheduled game between my team and the opponent (if data exists)
+    raw_upcoming = _load_upcoming_games(sub.division, team_key)
+    upcoming_annotated = _annotate_upcoming(raw_upcoming, team_key)
+    matchup_game = None
+
     if opp:
         opp_team = next((t for t in all_teams if t['team_raw'] == opp), None)
+        matchup_game = next(
+            (g for g in upcoming_annotated if g.get('opponent_raw') == opp),
+            None,
+        )
         if opp_team and my_team:
             opp_rank = rank_by_team.get(opp, '—')
             common_rows = _common_opponents_rows(my_team, opp_team, all_teams)
@@ -574,6 +583,7 @@ async def matchup_preview(
         opp_key=opp,
         my_rank=my_rank,
         opp_rank=opp_rank,
+        matchup_game=matchup_game,
         common_rows=common_rows,
         summary_a=summary_a,
         summary_b=summary_b,

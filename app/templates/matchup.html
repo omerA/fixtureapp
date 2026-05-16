@@ -70,6 +70,26 @@
         </div>
       </div>
     </div>
+
+    {% if matchup_game %}
+    <!-- Game context: date / time / venue -->
+    <div class="flex items-center justify-center gap-4 mt-4 pt-4 border-t border-outline-variant flex-wrap">
+      <div class="flex items-center gap-1.5 text-xs text-sideline-grey">
+        <span class="material-symbols-outlined" style="font-size:15px;color:var(--clr-tertiary);">calendar_today</span>
+        <span class="font-semibold text-on-surface">{{ matchup_game.weekday }} {{ matchup_game.day_num }} {{ matchup_game.month_year }}</span>
+      </div>
+      <div class="flex items-center gap-1.5 text-xs text-sideline-grey">
+        <span class="material-symbols-outlined" style="font-size:15px;color:var(--clr-tertiary);">schedule</span>
+        <span class="font-semibold text-on-surface">{{ matchup_game.time }}</span>
+      </div>
+      <div class="flex items-center gap-1.5 text-xs text-sideline-grey">
+        <span class="material-symbols-outlined" style="font-size:15px;color:var(--clr-tertiary);">location_on</span>
+        <span class="font-semibold text-on-surface">{{ 'Home' if matchup_game.is_home else 'Away' }}</span>
+        <span>·</span>
+        <span class="truncate" style="max-width:140px;">{{ matchup_game.field }}</span>
+      </div>
+    </div>
+    {% endif %}
   </div>
 
   <!-- ── Form Bar ─────────────────────────────────────────── -->

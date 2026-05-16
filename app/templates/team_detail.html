@@ -32,6 +32,29 @@
     </div>
   </div>
 
+  <!-- Matchday banner -->
+  {% if card.upcoming and card.upcoming[0].date == today %}
+  {% set next_game = card.upcoming[0] %}
+  <a href="/team/{{ card.sub.team_key }}/matchup?opp={{ next_game.opponent_raw }}"
+     class="fi-card-gameday flex items-center gap-3 px-4 py-3 mb-5"
+     style="text-decoration:none;">
+    <div class="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-xl"
+         style="background:var(--clr-tertiary-light);">
+      <span class="material-symbols-outlined" style="font-size:22px;color:var(--clr-tertiary);">sports_soccer</span>
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="text-[10px] font-bold uppercase tracking-widest" style="color:var(--clr-tertiary);">Matchday</div>
+      <div class="font-bold text-on-surface text-sm truncate">
+        vs {{ next_game.opponent_club }} · {{ next_game.time }}
+      </div>
+    </div>
+    <div class="flex items-center gap-1 text-xs font-bold flex-shrink-0" style="color:var(--clr-tertiary);">
+      Preview
+      <span class="material-symbols-outlined" style="font-size:16px;">chevron_right</span>
+    </div>
+  </a>
+  {% endif %}
+
   <!-- Summary cards row -->
   <div class="grid grid-cols-2 gap-4 mb-6">
     <!-- League position -->
@@ -77,9 +100,9 @@
 
   <!-- Tabs -->
   <div id="tabs" class="seg-tabs mb-5" style="max-width:320px;">
-    <button class="seg-tab active" onclick="switchTab('standings',this)">Standings</button>
-    <button class="seg-tab" onclick="switchTab('results',this)">Results</button>
-    <button class="seg-tab" onclick="switchTab('upcoming',this)">
+    <button class="seg-tab active" data-tab="standings" onclick="switchTab('standings',this)">Standings</button>
+    <button class="seg-tab" data-tab="results" onclick="switchTab('results',this)">Results</button>
+    <button class="seg-tab" data-tab="upcoming" onclick="switchTab('upcoming',this)">
       Upcoming{% if card.upcoming %} <span class="inline-flex items-center justify-center bg-primary text-on-primary rounded-full font-bold ml-1" style="font-size:9px;min-width:16px;height:16px;padding:0 4px;">{{ card.upcoming | length }}</span>{% endif %}
     </button>
   </div>
@@ -263,5 +286,14 @@ function switchTab(tab, btn) {
   document.querySelectorAll('#tabs .seg-tab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }
+
+// Restore tab from ?tab= query param (e.g. back-navigation from matchup preview)
+(function () {
+  var param = new URLSearchParams(window.location.search).get('tab');
+  if (param) {
+    var btn = document.querySelector('#tabs .seg-tab[data-tab="' + param + '"]');
+    if (btn) switchTab(param, btn);
+  }
+})();
 </script>
 {% endblock %}

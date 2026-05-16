@@ -514,7 +514,8 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
         return RedirectResponse("/dashboard", status_code=302)
 
     card = _build_card(sub)
-    return _tr(request, "team_detail.html", user=user, card=card)
+    today = datetime.utcnow().date().isoformat()
+    return _tr(request, "team_detail.html", user=user, card=card, today=today)
 
 
 # ---------------------------------------------------------------------------
@@ -540,7 +541,12 @@ async def matchup_preview(
     my_team = next((t for t in all_teams if t['team_raw'] == team_key), None)
     other_teams = [t for t in all_teams if t['team_raw'] != team_key]
 
+    ranked = _sorted_standings(all_teams)
+    rank_by_team = {t['team_raw']: i + 1 for i, t in enumerate(ranked)}
+    my_rank = rank_by_team.get(team_key, '—')
+
     opp_team = None
+    opp_rank = '—'
     common_rows: list[dict] = []
     summary_a: dict = {'W': 0, 'D': 0, 'L': 0}
     summary_b: dict = {'W': 0, 'D': 0, 'L': 0}
@@ -550,6 +556,7 @@ async def matchup_preview(
     if opp:
         opp_team = next((t for t in all_teams if t['team_raw'] == opp), None)
         if opp_team and my_team:
+            opp_rank = rank_by_team.get(opp, '—')
             common_rows = _common_opponents_rows(my_team, opp_team, all_teams)
             for row in common_rows:
                 if row['result_a']:
@@ -565,6 +572,8 @@ async def matchup_preview(
         other_teams=other_teams,
         opp_team=opp_team,
         opp_key=opp,
+        my_rank=my_rank,
+        opp_rank=opp_rank,
         common_rows=common_rows,
         summary_a=summary_a,
         summary_b=summary_b,

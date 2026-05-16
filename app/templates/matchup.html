@@ -6,7 +6,7 @@
 
   <!-- Back + title bar -->
   <div class="flex items-center gap-2 mb-6">
-    <a href="/team/{{ sub.team_key }}"
+    <a href="/team/{{ sub.team_key }}?tab=upcoming"
        class="flex items-center justify-center w-9 h-9 rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-low transition-colors"
        style="text-decoration:none;">
       <span class="material-symbols-outlined" style="font-size:20px;">arrow_back_ios_new</span>
@@ -49,7 +49,7 @@
         </div>
         <div class="text-center">
           <div class="font-headline font-bold text-on-surface text-base leading-tight">{{ my_team.club }}</div>
-          <div class="text-[10px] text-sideline-grey mt-0.5">#{{ my_team.points }} pts</div>
+          <div class="text-[10px] text-sideline-grey mt-0.5">#{{ my_rank }} · {{ my_team.points }} pts</div>
         </div>
       </div>
 
@@ -66,7 +66,7 @@
         </div>
         <div class="text-center">
           <div class="font-headline font-bold text-on-surface text-base leading-tight">{{ opp_team.club }}</div>
-          <div class="text-[10px] text-sideline-grey mt-0.5">{{ opp_team.points }} pts</div>
+          <div class="text-[10px] text-sideline-grey mt-0.5">#{{ opp_rank }} · {{ opp_team.points }} pts</div>
         </div>
       </div>
     </div>

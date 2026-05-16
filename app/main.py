@@ -890,34 +890,3 @@ async def teamsnap_unlink(link_id: int, request: Request, db: Session = Depends(
     return RedirectResponse("/teamsnap/connect", status_code=302)
 
 
-# ---------------------------------------------------------------------------
-# TeamSnap debug (temporary — remove before merging to staging)
-# ---------------------------------------------------------------------------
-
-@app.get("/teamsnap/debug/members/{team_id}")
-async def teamsnap_debug_members(team_id: str, request: Request, db: Session = Depends(get_db)):
-    from fastapi.responses import JSONResponse
-    user = _session_user(request, db)
-    if not user:
-        return JSONResponse({"error": "not logged in"}, status_code=401)
-    if not user.teamsnap_access_token:
-        return JSONResponse({"error": "no teamsnap token"})
-
-    from teamsnap_client import TeamSnapClient, TeamSnapError
-    client = TeamSnapClient(user.teamsnap_access_token)
-    try:
-        raw = client._get("/members/search", params={"team_id": team_id})
-        items = client._items(raw)
-        return JSONResponse({
-            "team_id": team_id,
-            "item_count": len(items),
-            "first_item_keys": list(items[0].keys()) if items else [],
-            "first_item": items[0] if items else None,
-            "all_names": [
-                {"name": m.get("name"), "first": m.get("first_name"), "last": m.get("last_name")}
-                for m in items
-            ],
-        })
-    except TeamSnapError as e:
-        return JSONResponse({"error": str(e), "status_code": e.status_code})
-

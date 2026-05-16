@@ -68,4 +68,7 @@ class TeamSnapClient:
     def get_members(self, team_id: int | str) -> list[dict]:
         """Return roster members for a given team."""
         data = self._get("/members/search", params={"team_id": team_id})
-        return self._items(data)
+        items = self._items(data)
+        for m in items:
+            m["name"] = f"{m.get('first_name', '')} {m.get('last_name', '')}".strip()
+        return items

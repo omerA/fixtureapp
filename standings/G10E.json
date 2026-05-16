@@ -1,13 +1,13 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-05-15T17:14:20.450517Z",
+  "scraped_at": "2026-05-16T07:50:34.100249Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlenRidge",
       "coach": "Fisher",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-04-23",
@@ -63,16 +63,120 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "405282",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G10E-Jackson",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 10,
+      "goal_diff": 9,
+      "goals_against": 13,
       "goals_for": 22,
-      "losses": 0,
-      "played": 5,
+      "losses": 1,
+      "played": 6,
       "points": 13,
       "team_raw": "GlenRidge-G10E-Fisher",
       "wins": 4
+    },
+    {
+      "club": "Ajax",
+      "coach": "Jackson",
+      "draws": 2,
+      "form": "WDWLW",
+      "games": [
+        {
+          "date": "2026-04-18",
+          "game_number": "405254",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G10E-Grados",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405257",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G10E-Hyndman",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405263",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G10E-Mezzina",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405266",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10E-Egbert",
+          "result": "D",
+          "time": "12:45 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405275",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G10E-Squeo",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405276",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G10E-Nuzzi",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "405282",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G10E-Fisher",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 11,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 7,
+      "points": 11,
+      "team_raw": "Ajax-G10E-Jackson",
+      "wins": 3
     },
     {
       "club": "Thistle",
@@ -356,88 +460,6 @@
       "played": 4,
       "points": 8,
       "team_raw": "Torpedoes-G10E-Grados",
-      "wins": 2
-    },
-    {
-      "club": "Ajax",
-      "coach": "Jackson",
-      "draws": 2,
-      "form": "DWDWL",
-      "games": [
-        {
-          "date": "2026-04-18",
-          "game_number": "405254",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G10E-Grados",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405257",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G10E-Hyndman",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405263",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G10E-Mezzina",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405266",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10E-Egbert",
-          "result": "D",
-          "time": "12:45 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405275",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G10E-Squeo",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405276",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G10E-Nuzzi",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "BLMFLD-LionsGate"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 11,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 6,
-      "points": 8,
-      "team_raw": "Ajax-G10E-Jackson",
       "wins": 2
     },
     {

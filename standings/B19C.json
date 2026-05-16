@@ -1,13 +1,13 @@
 {
   "division": "B19C",
-  "scraped_at": "2026-05-15T17:13:15.777142Z",
+  "scraped_at": "2026-05-16T07:49:28.891132Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoBergen",
       "coach": "POTOSI",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-04-19",
@@ -54,6 +54,17 @@
           "venue_code": "HOT-HS Turf 2"
         },
         {
+          "date": "2026-05-15",
+          "game_number": "406084",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B19C-Kahn",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
           "date": "2026-04-12",
           "game_number": "406085",
           "goals_against": 2,
@@ -65,14 +76,14 @@
           "venue_code": "WDRDG-AthleticComp"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 9,
-      "goals_for": 16,
+      "goal_diff": 13,
+      "goals_against": 10,
+      "goals_for": 23,
       "losses": 1,
-      "played": 5,
-      "points": 12,
+      "played": 6,
+      "points": 15,
       "team_raw": "NoBergen-B19C-POTOSI",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WoodRidge",
@@ -302,7 +313,7 @@
       "club": "Hotspur",
       "coach": "Kahn",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -358,13 +369,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "406084",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19C-POTOSI",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 19,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -11,
+      "goals_against": 26,
+      "goals_for": 15,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "Hotspur-B19C-Kahn",
       "wins": 1

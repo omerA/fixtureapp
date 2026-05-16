@@ -1,6 +1,6 @@
 {
   "division": "G10A",
-  "scraped_at": "2026-05-15T17:14:06.031396Z",
+  "scraped_at": "2026-05-16T07:50:19.552741Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -335,8 +335,19 @@
       "club": "Maroons",
       "coach": "Forsythe",
       "draws": 1,
-      "form": "WLDLL",
+      "form": "LDLLW",
       "games": [
+        {
+          "date": "2026-05-15",
+          "game_number": "406501",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G10A-Mapes",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406504",
@@ -393,14 +404,14 @@
           "venue_code": "MAR-Stevens SS2"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 13,
-      "goals_for": 6,
+      "goal_diff": -2,
+      "goals_against": 14,
+      "goals_for": 12,
       "losses": 3,
-      "played": 5,
-      "points": 4,
+      "played": 6,
+      "points": 7,
       "team_raw": "Maroons-G10A-Forsythe",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Vikings",
@@ -559,8 +570,19 @@
       "club": "RiverDell",
       "coach": "Mapes",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-05-15",
+          "game_number": "406501",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10A-Forsythe",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406506",
@@ -606,11 +628,11 @@
           "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 26,
-      "goals_for": 2,
-      "losses": 4,
-      "played": 4,
+      "goal_diff": -29,
+      "goals_against": 32,
+      "goals_for": 3,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "RiverDell-G10A-Mapes",
       "wins": 0

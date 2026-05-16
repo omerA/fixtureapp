@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-05-15T17:11:41.450061Z",
+  "scraped_at": "2026-05-16T07:47:54.172995Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -61,8 +61,20 @@
       "club": "CougarUtd",
       "coach": "Camero",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-15",
+          "game_number": "409444",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B12XW-Burke",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
@@ -76,8 +88,20 @@
       "club": "Dumont",
       "coach": "Burke",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-15",
+          "game_number": "409444",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12XW-Camero",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,

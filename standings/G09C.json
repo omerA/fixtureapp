@@ -1,13 +1,13 @@
 {
   "division": "G09C",
-  "scraped_at": "2026-05-15T17:13:47.450052Z",
+  "scraped_at": "2026-05-16T07:50:00.797346Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Warriors",
       "coach": "Kivlehan",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -30,6 +30,17 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "405910",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09C-Dzilla",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis3"
         },
         {
           "date": "2026-05-09",
@@ -65,11 +76,11 @@
           "venue_code": "WALD-HSTurf-2"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 7,
-      "goals_for": 20,
-      "losses": 1,
-      "played": 5,
+      "goal_diff": 10,
+      "goals_against": 12,
+      "goals_for": 22,
+      "losses": 2,
+      "played": 6,
       "points": 12,
       "team_raw": "Warriors-G09C-Kivlehan",
       "wins": 4
@@ -444,7 +455,7 @@
       "club": "Torpedoes",
       "coach": "Dzilla",
       "draws": 1,
-      "form": "DLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -466,6 +477,17 @@
           "opponent_raw": "WorldClassFC-G09C-Leone",
           "result": "L",
           "time": "10:00 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "405910",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G09C-Kivlehan",
+          "result": "W",
+          "time": "06:00 PM",
           "venue_code": "TORP-Pulis3"
         },
         {
@@ -502,14 +524,14 @@
           "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 22,
-      "goals_for": 15,
+      "goal_diff": -4,
+      "goals_against": 24,
+      "goals_for": 20,
       "losses": 3,
-      "played": 5,
-      "points": 4,
+      "played": 6,
+      "points": 7,
       "team_raw": "Torpedoes-G09C-Dzilla",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Vikings",

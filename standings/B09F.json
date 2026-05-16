@@ -1,6 +1,6 @@
 {
   "division": "B09F",
-  "scraped_at": "2026-05-15T17:08:55.213867Z",
+  "scraped_at": "2026-05-16T07:45:06.158515Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -263,8 +263,8 @@
     {
       "club": "Lakeland",
       "coach": "Bravo",
-      "draws": 1,
-      "form": "WLLDW",
+      "draws": 2,
+      "form": "LLDWD",
       "games": [
         {
           "date": "2026-04-24",
@@ -331,22 +331,33 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "404763",
+          "goals_against": 8,
+          "goals_for": 8,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09F-Mancheno",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "ARS-Fieldstone3"
         }
       ],
       "goal_diff": 4,
-      "goals_against": 29,
-      "goals_for": 33,
+      "goals_against": 37,
+      "goals_for": 41,
       "losses": 2,
-      "played": 6,
-      "points": 10,
+      "played": 7,
+      "points": 11,
       "team_raw": "Lakeland-B09F-Bravo",
       "wins": 3
     },
     {
       "club": "Arsenal",
       "coach": "Mancheno",
-      "draws": 0,
-      "form": "LWWLW",
+      "draws": 1,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-04-25",
@@ -402,14 +413,25 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "ARS-MemParkRidge2Sm"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "404763",
+          "goals_against": 8,
+          "goals_for": 8,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B09F-Bravo",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "ARS-Fieldstone3"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 17,
-      "goals_for": 17,
+      "goals_against": 25,
+      "goals_for": 25,
       "losses": 2,
-      "played": 5,
-      "points": 9,
+      "played": 6,
+      "points": 10,
       "team_raw": "Arsenal-B09F-Mancheno",
       "wins": 3
     },

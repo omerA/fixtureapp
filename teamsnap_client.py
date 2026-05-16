@@ -60,9 +60,9 @@ class TeamSnapClient:
             result.append(obj)
         return result
 
-    def get_teams(self) -> list[dict]:
+    def get_teams(self, user_id: str | int) -> list[dict]:
         """Return all teams the authenticated user is a member of."""
-        data = self._get("/teams/search", params={"user_id": "me"})
+        data = self._get("/teams/search", params={"user_id": str(user_id)})
         return self._items(data)
 
     def get_members(self, team_id: int | str) -> list[dict]:

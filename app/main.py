@@ -35,7 +35,7 @@ from uvicorn.middleware.proxy_headers import ProxyHeadersMiddleware
 from authlib.integrations.starlette_client import OAuth
 
 from .auth import hash_password, verify_password
-from .db import get_db, init_db
+from .db import get_db
 from .models import Subscription, User
 from .search import division_label, search_teams
 
@@ -128,7 +128,16 @@ oauth.register(
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    init_db()
+    # Run any pending Alembic migrations on startup.
+    # On Railway this is belt-and-suspenders (railway.toml already runs
+    # `alembic upgrade head` before the process starts), but it guarantees
+    # correctness in local dev and other environments too.
+    from alembic.config import Config as AlembicConfig
+    from alembic import command as alembic_command
+    alembic_cfg = AlembicConfig(str(PROJECT_ROOT / "alembic.ini"))
+    alembic_cfg.set_main_option("script_location", str(PROJECT_ROOT / "alembic"))
+    alembic_command.upgrade(alembic_cfg, "head")
+
     path = PROJECT_ROOT / "team_index.json"
     if path.exists():
         _team_index.update(json.loads(path.read_text()))

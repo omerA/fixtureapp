@@ -1,23 +1,8 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-05-16T07:48:52.065002Z",
+  "scraped_at": "2026-05-17T00:05:14.749479Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "CougarSC",
-      "coach": "Smith",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-B14XW-Smith",
-      "wins": 0
-    },
     {
       "club": "NMKnights",
       "coach": "Fischer",
@@ -36,13 +21,28 @@
           "venue_code": "WALD-HSTurf-1"
         }
       ],
+      "goal_diff": 1,
+      "goals_against": 2,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "NMKnights-B14XW-Fischer",
+      "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Smith",
+      "draws": 0,
+      "form": "",
+      "games": [],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
       "losses": 0,
       "played": 0,
       "points": 0,
-      "team_raw": "NMKnights-B14XW-Fischer",
+      "team_raw": "CougarSC-B14XW-Smith",
       "wins": 0
     },
     {
@@ -78,11 +78,11 @@
           "venue_code": "WALD-HSTurf-1"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "goal_diff": -1,
+      "goals_against": 3,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Warriors-B14XW-Mohorovich",
       "wins": 0

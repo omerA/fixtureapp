@@ -1,6 +1,6 @@
 {
   "division": "B13E",
-  "scraped_at": "2026-05-16T07:48:12.428503Z",
+  "scraped_at": "2026-05-17T00:04:35.002524Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -572,6 +572,77 @@
       "wins": 2
     },
     {
+      "club": "CougarSC",
+      "coach": "Nacak",
+      "draws": 0,
+      "form": "LLLLW",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "405035",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13E-Gudovich",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "FL-Vanderplatt"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405037",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B13E-McLean",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405601",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B13E-Romero",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405604",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B13E-Morales",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "SaddleBR-SmithSchool"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405610",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B13E-McSorley",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-OrangePark"
+        }
+      ],
+      "goal_diff": -10,
+      "goals_against": 21,
+      "goals_for": 11,
+      "losses": 4,
+      "played": 5,
+      "points": 3,
+      "team_raw": "CougarSC-B13E-Nacak",
+      "wins": 1
+    },
+    {
       "club": "SaddleBR",
       "coach": "Morales",
       "draws": 0,
@@ -611,6 +682,17 @@
           "venue_code": "TEN-Municipal"
         },
         {
+          "date": "2026-05-16",
+          "game_number": "405604",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13E-Nacak",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "SaddleBR-SmithSchool"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "405611",
           "goals_against": 1,
@@ -644,74 +726,14 @@
           "venue_code": "SaddleBR-SmithSchool"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 33,
-      "goals_for": 12,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -23,
+      "goals_against": 36,
+      "goals_for": 13,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "SaddleBR-B13E-Morales",
       "wins": 1
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Nacak",
-      "draws": 0,
-      "form": "LLLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "405035",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13E-Gudovich",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "FL-Vanderplatt"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405037",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B13E-McLean",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "COUGSC-OrangePark"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405601",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B13E-Romero",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405610",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B13E-McSorley",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "COUGSC-OrangePark"
-        }
-      ],
-      "goal_diff": -12,
-      "goals_against": 20,
-      "goals_for": 8,
-      "losses": 4,
-      "played": 4,
-      "points": 0,
-      "team_raw": "CougarSC-B13E-Nacak",
-      "wins": 0
     }
   ]
 }

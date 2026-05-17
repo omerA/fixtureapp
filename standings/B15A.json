@@ -1,6 +1,6 @@
 {
   "division": "B15A",
-  "scraped_at": "2026-05-16T07:48:55.387885Z",
+  "scraped_at": "2026-05-17T00:05:18.097856Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -197,9 +197,20 @@
     {
       "club": "Force",
       "coach": "Mullan",
-      "draws": 0,
-      "form": "WLL",
+      "draws": 1,
+      "form": "WLLD",
       "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "407732",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B15A-Torrie",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
         {
           "date": "2026-04-19",
           "game_number": "407739",
@@ -235,12 +246,72 @@
         }
       ],
       "goal_diff": 3,
-      "goals_against": 5,
-      "goals_for": 8,
+      "goals_against": 7,
+      "goals_for": 10,
       "losses": 2,
-      "played": 3,
-      "points": 3,
+      "played": 4,
+      "points": 4,
       "team_raw": "Force-B15A-Mullan",
+      "wins": 1
+    },
+    {
+      "club": "NoValley",
+      "coach": "Torrie",
+      "draws": 1,
+      "form": "LWLD",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "407732",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B15A-Mullan",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "407736",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B15A-Leone",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407737",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B15A-Ysern",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407742",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B15A-Stein",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-OTHS turf"
+        }
+      ],
+      "goal_diff": -12,
+      "goals_against": 16,
+      "goals_for": 4,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "NoValley-B15A-Torrie",
       "wins": 1
     },
     {
@@ -312,55 +383,6 @@
       "played": 5,
       "points": 3,
       "team_raw": "Warriors-B15A-Ysern",
-      "wins": 1
-    },
-    {
-      "club": "NoValley",
-      "coach": "Torrie",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "407736",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B15A-Leone",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-Field1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407737",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B15A-Ysern",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407742",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B15A-Stein",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "NoVAL-OTHS turf"
-        }
-      ],
-      "goal_diff": -12,
-      "goals_against": 14,
-      "goals_for": 2,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "NoValley-B15A-Torrie",
       "wins": 1
     }
   ]

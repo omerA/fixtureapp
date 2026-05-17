@@ -1,14 +1,25 @@
 {
   "division": "B15D",
-  "scraped_at": "2026-05-16T07:49:04.932977Z",
+  "scraped_at": "2026-05-17T00:05:27.709270Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Belleville",
       "coach": "Valencia",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "405094",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B15D-Parks",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
         {
           "date": "2026-04-10",
           "game_number": "405098",
@@ -76,14 +87,14 @@
           "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 22,
       "goals_against": 6,
-      "goals_for": 21,
+      "goals_for": 28,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "Belleville-B15D-Valencia",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "NoArlington",
@@ -409,6 +420,17 @@
       "form": "LLLLL",
       "games": [
         {
+          "date": "2026-05-16",
+          "game_number": "405094",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B15D-Valencia",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
           "date": "2026-05-09",
           "game_number": "405096",
           "goals_against": 1,
@@ -464,11 +486,11 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 25,
+      "goal_diff": -30,
+      "goals_against": 32,
       "goals_for": 2,
-      "losses": 5,
-      "played": 5,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "HobUtd-B15D-Parks",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B10XB",
-  "scraped_at": "2026-05-16T07:46:15.098746Z",
+  "scraped_at": "2026-05-17T00:02:35.009961Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -34,8 +34,20 @@
       "club": "AviatorsHHSA",
       "coach": "DeGennaro",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "409417",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10XB-Leonard",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "WALD-HSTurf-3"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
@@ -49,8 +61,20 @@
       "club": "Warriors",
       "coach": "Leonard",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "409417",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B10XB-DeGennaro",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "WALD-HSTurf-3"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,

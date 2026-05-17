@@ -1,6 +1,6 @@
 {
   "division": "G12C",
-  "scraped_at": "2026-05-16T07:51:31.241113Z",
+  "scraped_at": "2026-05-17T00:07:57.577655Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -77,8 +77,8 @@
     {
       "club": "Paramus",
       "coach": "Buttacavoli",
-      "draws": 1,
-      "form": "WLWWD",
+      "draws": 2,
+      "form": "LWWDD",
       "games": [
         {
           "date": "2026-04-29",
@@ -125,6 +125,17 @@
           "venue_code": "HAWTHORNE-Veterans"
         },
         {
+          "date": "2026-05-16",
+          "game_number": "408794",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12C-Carbo",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
           "date": "2026-05-11",
           "game_number": "408799",
           "goals_against": 4,
@@ -140,8 +151,8 @@
       "goals_against": 9,
       "goals_for": 15,
       "losses": 1,
-      "played": 5,
-      "points": 10,
+      "played": 6,
+      "points": 11,
       "team_raw": "Paramus-G12C-Buttacavoli",
       "wins": 3
     },
@@ -408,6 +419,77 @@
       "wins": 1
     },
     {
+      "club": "Vikings",
+      "coach": "Carbo",
+      "draws": 2,
+      "form": "LLDLD",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "408780",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12C-Collins",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "408782",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12C-House",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408787",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G12C-Chakmakjian",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408792",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12C-OHara",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408794",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G12C-Buttacavoli",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        }
+      ],
+      "goal_diff": -13,
+      "goals_against": 18,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 5,
+      "points": 2,
+      "team_raw": "Vikings-G12C-Carbo",
+      "wins": 0
+    },
+    {
       "club": "Ajax",
       "coach": "Jackson",
       "draws": 1,
@@ -465,66 +547,6 @@
       "played": 4,
       "points": 1,
       "team_raw": "Ajax-G12C-Jackson",
-      "wins": 0
-    },
-    {
-      "club": "Vikings",
-      "coach": "Carbo",
-      "draws": 1,
-      "form": "LLDL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408780",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G12C-Collins",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "408782",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G12C-House",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "GLENRDGE-ForestAve"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408787",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G12C-Chakmakjian",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408792",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12C-OHara",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "MAR-MapleParkWestSm"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 18,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 4,
-      "points": 1,
-      "team_raw": "Vikings-G12C-Carbo",
       "wins": 0
     }
   ]

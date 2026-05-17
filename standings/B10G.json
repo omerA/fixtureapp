@@ -1,13 +1,13 @@
 {
   "division": "B10G",
-  "scraped_at": "2026-05-16T07:46:00.266289Z",
+  "scraped_at": "2026-05-17T00:02:18.900469Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -41,16 +41,27 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "406896",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10G-Gandolfi",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
         }
       ],
-      "goal_diff": 12,
+      "goal_diff": 15,
       "goals_against": 4,
-      "goals_for": 16,
+      "goals_for": 19,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "WoodRidge-B10G-Prior",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "WayneBG",
@@ -255,6 +266,88 @@
       "wins": 2
     },
     {
+      "club": "HobUtd",
+      "coach": "Gandolfi",
+      "draws": 0,
+      "form": "WLLLL",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "406882",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10G-Prior",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406884",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10G-Parlegreco",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406888",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10G-Camara",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406889",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10G-DeCarlo",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "EM-HSTurf3Small"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406892",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10G-Engel",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "406896",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10G-Prior",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        }
+      ],
+      "goal_diff": -13,
+      "goals_against": 28,
+      "goals_for": 15,
+      "losses": 4,
+      "played": 6,
+      "points": 6,
+      "team_raw": "HobUtd-B10G-Gandolfi",
+      "wins": 2
+    },
+    {
       "club": "Emerson",
       "coach": "DeCarlo",
       "draws": 0,
@@ -312,77 +405,6 @@
       "played": 4,
       "points": 6,
       "team_raw": "Emerson-B10G-DeCarlo",
-      "wins": 2
-    },
-    {
-      "club": "HobUtd",
-      "coach": "Gandolfi",
-      "draws": 0,
-      "form": "WWLLL",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "406882",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B10G-Prior",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406884",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B10G-Parlegreco",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406888",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B10G-Camara",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406889",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10G-DeCarlo",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "EM-HSTurf3Small"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406892",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B10G-Engel",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "HobUTD-1600Park"
-        }
-      ],
-      "goal_diff": -10,
-      "goals_against": 25,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 5,
-      "points": 6,
-      "team_raw": "HobUtd-B10G-Gandolfi",
       "wins": 2
     }
   ]

@@ -1,6 +1,6 @@
 {
   "division": "B14E",
-  "scraped_at": "2026-05-16T07:48:42.933644Z",
+  "scraped_at": "2026-05-17T00:05:05.627899Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -373,7 +373,7 @@
       "club": "Verona",
       "coach": "Colalillo",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -440,13 +440,24 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-05-14",
+          "game_number": "407671",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B14E-Einreinhof",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 16,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -10,
+      "goals_against": 19,
+      "goals_for": 9,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Verona-B14E-Colalillo",
       "wins": 2
@@ -679,7 +690,7 @@
       "club": "Lakeland",
       "coach": "Einreinhof",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLW",
       "games": [
         {
           "date": "2026-04-28",
@@ -735,16 +746,27 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-05-14",
+          "game_number": "407671",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B14E-Colalillo",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 21,
-      "goals_for": 10,
+      "goal_diff": -10,
+      "goals_against": 23,
+      "goals_for": 13,
       "losses": 4,
-      "played": 5,
-      "points": 1,
+      "played": 6,
+      "points": 4,
       "team_raw": "Lakeland-B14E-Einreinhof",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Vikings",

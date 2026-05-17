@@ -1,6 +1,6 @@
 {
   "division": "B11XB",
-  "scraped_at": "2026-05-16T07:47:04.444170Z",
+  "scraped_at": "2026-05-17T00:03:25.980788Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -31,33 +31,6 @@
       "wins": 1
     },
     {
-      "club": "Lyndhurst",
-      "coach": "Seddiki",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-15",
-          "game_number": "409419",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B11XB-Ceron",
-          "result": "L",
-          "time": "08:15 PM",
-          "venue_code": "LYND-RecCtrFld4"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Lyndhurst-B11XB-Seddiki",
-      "wins": 0
-    },
-    {
       "club": "NoArlington",
       "coach": "Ceron",
       "draws": 0,
@@ -75,13 +48,40 @@
           "venue_code": "LYND-RecCtrFld4"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 1,
+      "goals_against": 1,
+      "goals_for": 2,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "NoArlington-B11XB-Ceron",
+      "wins": 1
+    },
+    {
+      "club": "Lyndhurst",
+      "coach": "Seddiki",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-15",
+          "game_number": "409419",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11XB-Ceron",
+          "result": "L",
+          "time": "08:15 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 2,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Lyndhurst-B11XB-Seddiki",
       "wins": 0
     },
     {

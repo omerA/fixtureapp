@@ -1,13 +1,13 @@
 {
   "division": "B12EB",
-  "scraped_at": "2026-05-16T07:47:26.611301Z",
+  "scraped_at": "2026-05-17T00:03:49.050043Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Southside",
       "coach": "Oscanoa",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -32,6 +32,17 @@
           "venue_code": "Haledon-Rec-Field"
         },
         {
+          "date": "2026-05-16",
+          "game_number": "404950",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B12EB-Cabrera",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "404954",
           "goals_against": 1,
@@ -43,14 +54,14 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 13,
       "goals_against": 5,
-      "goals_for": 15,
+      "goals_for": 18,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Southside-B12EB-Oscanoa",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Rutherford",
@@ -187,7 +198,7 @@
       "club": "JerseyCity",
       "coach": "Cabrera",
       "draws": 1,
-      "form": "LWDWL",
+      "form": "WDWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -234,6 +245,17 @@
           "venue_code": "SaddleBR-VeteransFd2"
         },
         {
+          "date": "2026-05-16",
+          "game_number": "404950",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B12EB-Oscanoa",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
           "date": "2026-05-09",
           "game_number": "404953",
           "goals_against": 4,
@@ -245,11 +267,11 @@
           "venue_code": "HARR-HarrisonLtlLeag"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 10,
+      "goal_diff": -1,
+      "goals_against": 13,
       "goals_for": 12,
-      "losses": 2,
-      "played": 5,
+      "losses": 3,
+      "played": 6,
       "points": 7,
       "team_raw": "JerseyCity-B12EB-Cabrera",
       "wins": 2

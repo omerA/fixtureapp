@@ -1,6 +1,6 @@
 {
   "division": "B12D",
-  "scraped_at": "2026-05-16T07:47:23.294388Z",
+  "scraped_at": "2026-05-17T00:03:45.766794Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -335,7 +335,7 @@
       "club": "WoodRidge",
       "coach": "Mueller",
       "draws": 1,
-      "form": "LLWDW",
+      "form": "LWDWL",
       "games": [
         {
           "date": "2026-05-03",
@@ -358,6 +358,17 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408427",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B12D-Pagano",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "AMER-Presentation"
         },
         {
           "date": "2026-04-12",
@@ -393,11 +404,11 @@
           "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 12,
+      "goal_diff": -4,
+      "goals_against": 14,
       "goals_for": 10,
-      "losses": 2,
-      "played": 5,
+      "losses": 3,
+      "played": 6,
       "points": 7,
       "team_raw": "WoodRidge-B12D-Mueller",
       "wins": 2
@@ -627,6 +638,77 @@
       "wins": 1
     },
     {
+      "club": "Americans",
+      "coach": "Pagano",
+      "draws": 1,
+      "form": "LLDLW",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "404907",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12D-RicardoVaca",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "404936",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12D-Nguyen",
+          "result": "L",
+          "time": "11:15 AM",
+          "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408427",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12D-Mueller",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "408433",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12D-Molisani",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "VERONA-WhitehorneMSL"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "408439",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12D-Mullen",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "AMER-Presentation"
+        }
+      ],
+      "goal_diff": -12,
+      "goals_against": 17,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 5,
+      "points": 4,
+      "team_raw": "Americans-B12D-Pagano",
+      "wins": 1
+    },
+    {
       "club": "Dragons",
       "coach": "Perin",
       "draws": 1,
@@ -696,66 +778,6 @@
       "points": 4,
       "team_raw": "Dragons-B12D-Perin",
       "wins": 1
-    },
-    {
-      "club": "Americans",
-      "coach": "Pagano",
-      "draws": 1,
-      "form": "LLDL",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "404907",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B12D-RicardoVaca",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "AMER-Presentation"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "404936",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12D-Nguyen",
-          "result": "L",
-          "time": "11:15 AM",
-          "venue_code": "AMER-Presentation"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "408433",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B12D-Molisani",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "VERONA-WhitehorneMSL"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "408439",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12D-Mullen",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "AMER-Presentation"
-        }
-      ],
-      "goal_diff": -14,
-      "goals_against": 17,
-      "goals_for": 3,
-      "losses": 3,
-      "played": 4,
-      "points": 1,
-      "team_raw": "Americans-B12D-Pagano",
-      "wins": 0
     },
     {
       "club": "GlenRidge",

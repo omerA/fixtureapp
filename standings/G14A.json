@@ -1,6 +1,6 @@
 {
   "division": "G14A",
-  "scraped_at": "2026-05-16T07:52:14.280940Z",
+  "scraped_at": "2026-05-17T00:08:47.071975Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -146,6 +146,66 @@
       "wins": 4
     },
     {
+      "club": "Spartan",
+      "coach": "Haug",
+      "draws": 0,
+      "form": "LWWW",
+      "games": [
+        {
+          "date": "2026-04-19",
+          "game_number": "405765",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14A-Cepeda",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405766",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14A-Gandhi",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405772",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G14A-Wells",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-04-30",
+          "game_number": "405775",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G14A-Kowal",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 7,
+      "goals_for": 14,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Spartan-G14A-Haug",
+      "wins": 3
+    },
+    {
       "club": "Mahwah",
       "coach": "Kowal",
       "draws": 1,
@@ -203,55 +263,6 @@
       "played": 4,
       "points": 7,
       "team_raw": "Mahwah-G14A-Kowal",
-      "wins": 2
-    },
-    {
-      "club": "Spartan",
-      "coach": "Haug",
-      "draws": 0,
-      "form": "LWW",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "405765",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G14A-Cepeda",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405772",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G14A-Wells",
-          "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-04-30",
-          "game_number": "405775",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G14A-Kowal",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "MAHWAH-CSF"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 6,
-      "goals_for": 7,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Spartan-G14A-Haug",
       "wins": 2
     },
     {
@@ -474,6 +485,17 @@
           "venue_code": "HobUtd-SinatraPark"
         },
         {
+          "date": "2026-05-16",
+          "game_number": "405766",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G14A-Haug",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
           "date": "2026-05-03",
           "game_number": "405771",
           "goals_against": 3,
@@ -496,11 +518,11 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 21,
-      "goals_for": 3,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -24,
+      "goals_against": 28,
+      "goals_for": 4,
+      "losses": 5,
+      "played": 6,
       "points": 0,
       "team_raw": "HobUtd-G14A-Gandhi",
       "wins": 0

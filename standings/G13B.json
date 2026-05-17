@@ -1,6 +1,6 @@
 {
   "division": "G13B",
-  "scraped_at": "2026-05-17T00:08:24.760459Z",
+  "scraped_at": "2026-05-17T08:13:24.050030Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -97,10 +97,70 @@
       "wins": 4
     },
     {
+      "club": "HobUtd",
+      "coach": "Andreula",
+      "draws": 0,
+      "form": "LWWW",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "408941",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13B-Scaturro",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408949",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13B-Scaturro",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408953",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G13B-Bernhard",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408958",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13B-Scaturro",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-WayneValleyHS"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 12,
+      "goals_for": 15,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "HobUtd-G13B-Andreula",
+      "wins": 3
+    },
+    {
       "club": "BLMFLD",
       "coach": "Bernhard",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWL",
       "games": [
         {
           "date": "2026-05-10",
@@ -134,13 +194,24 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408953",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13B-Andreula",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 0,
-      "goals_for": 16,
-      "losses": 0,
-      "played": 3,
+      "goal_diff": 14,
+      "goals_against": 6,
+      "goals_for": 20,
+      "losses": 1,
+      "played": 4,
       "points": 9,
       "team_raw": "BLMFLD-G13B-Bernhard",
       "wins": 3
@@ -203,55 +274,6 @@
       "played": 4,
       "points": 6,
       "team_raw": "RiverDell-G13B-DelCorral",
-      "wins": 2
-    },
-    {
-      "club": "HobUtd",
-      "coach": "Andreula",
-      "draws": 0,
-      "form": "LWW",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "408941",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13B-Scaturro",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408949",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13B-Scaturro",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408958",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13B-Scaturro",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WYNE-WayneValleyHS"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 8,
-      "goals_for": 9,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "HobUtd-G13B-Andreula",
       "wins": 2
     },
     {

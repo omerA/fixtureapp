@@ -1,6 +1,6 @@
 {
   "division": "G12B",
-  "scraped_at": "2026-05-17T00:07:53.865056Z",
+  "scraped_at": "2026-05-17T08:12:57.188842Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -135,64 +135,86 @@
       "wins": 4
     },
     {
-      "club": "Hotspur",
-      "coach": "Roche",
+      "club": "JerseyCity",
+      "coach": "Bickford",
       "draws": 0,
-      "form": "LWLW",
+      "form": "LWLLW",
       "games": [
         {
+          "date": "2026-05-16",
+          "game_number": "408739",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G12B-Charoth",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
+        {
           "date": "2026-04-12",
-          "game_number": "408745",
+          "game_number": "408742",
           "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12B-Rugel",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408748",
+          "goals_against": 3,
           "goals_for": 0,
           "opponent_club": "Lyndhurst",
           "opponent_raw": "Lyndhurst-G12B-Bifulco",
           "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "HOT-AdornoLower"
+          "time": "06:15 PM",
+          "venue_code": "LYND-RecCtrFld4"
         },
         {
-          "date": "2026-04-19",
-          "game_number": "408749",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G12B-Kelly",
+          "date": "2026-04-26",
+          "game_number": "408753",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G12B-Williams",
           "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HOT-AdornoLower"
+          "time": "01:30 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-05-03",
-          "game_number": "408754",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12B-Rugel",
+          "game_number": "408757",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G12B-Bova",
           "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "HOT-AdornoLower"
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
         },
         {
           "date": "2026-05-10",
           "game_number": "408760",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G12B-Bickford",
-          "result": "W",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12B-Roche",
+          "result": "L",
           "time": "02:00 PM",
           "venue_code": "JC-CochraneCaven-2"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 6,
-      "goals_for": 7,
-      "losses": 2,
-      "played": 4,
-      "points": 6,
-      "team_raw": "Hotspur-G12B-Roche",
-      "wins": 2
+      "goal_diff": -2,
+      "goals_against": 18,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 6,
+      "points": 9,
+      "team_raw": "JerseyCity-G12B-Bickford",
+      "wins": 3
     },
     {
       "club": "Montclair",
@@ -277,82 +299,82 @@
       "wins": 2
     },
     {
-      "club": "JerseyCity",
-      "coach": "Bickford",
+      "club": "Hotspur",
+      "coach": "Roche",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLW",
       "games": [
         {
           "date": "2026-04-12",
-          "game_number": "408742",
+          "game_number": "408745",
           "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12B-Rugel",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408748",
-          "goals_against": 3,
           "goals_for": 0,
           "opponent_club": "Lyndhurst",
           "opponent_raw": "Lyndhurst-G12B-Bifulco",
           "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "LYND-RecCtrFld4"
+          "time": "05:30 PM",
+          "venue_code": "HOT-AdornoLower"
         },
         {
-          "date": "2026-04-26",
-          "game_number": "408753",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G12B-Williams",
+          "date": "2026-04-19",
+          "game_number": "408749",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G12B-Kelly",
           "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
         },
         {
           "date": "2026-05-03",
-          "game_number": "408757",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G12B-Bova",
+          "game_number": "408754",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12B-Rugel",
           "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "WYNE-Alps2"
+          "time": "06:00 PM",
+          "venue_code": "HOT-AdornoLower"
         },
         {
           "date": "2026-05-10",
           "game_number": "408760",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G12B-Roche",
-          "result": "L",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G12B-Bickford",
+          "result": "W",
           "time": "02:00 PM",
           "venue_code": "JC-CochraneCaven-2"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 17,
-      "goals_for": 12,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": 1,
+      "goals_against": 6,
+      "goals_for": 7,
+      "losses": 2,
+      "played": 4,
       "points": 6,
-      "team_raw": "JerseyCity-G12B-Bickford",
+      "team_raw": "Hotspur-G12B-Roche",
       "wins": 2
     },
     {
       "club": "GlobalJC",
       "coach": "Charoth",
       "draws": 0,
-      "form": "LW",
+      "form": "LWL",
       "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "408739",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G12B-Bickford",
+          "result": "L",
+          "time": "07:15 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
         {
           "date": "2026-04-19",
           "game_number": "408746",
@@ -376,11 +398,11 @@
           "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 6,
-      "goals_for": 3,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": -6,
+      "goals_against": 10,
+      "goals_for": 4,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "GlobalJC-G12B-Charoth",
       "wins": 1

@@ -1,6 +1,6 @@
 {
   "division": "G12F",
-  "scraped_at": "2026-05-17T00:08:10.273970Z",
+  "scraped_at": "2026-05-17T08:13:11.681834Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -241,9 +241,20 @@
     {
       "club": "HobUtd",
       "coach": "Patterson",
-      "draws": 0,
-      "form": "LWW",
+      "draws": 1,
+      "form": "LWWD",
       "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "408878",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G12F-Gedeon",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "COUGSC-Dehart2"
+        },
         {
           "date": "2026-04-19",
           "game_number": "408882",
@@ -279,11 +290,11 @@
         }
       ],
       "goal_diff": -1,
-      "goals_against": 7,
-      "goals_for": 6,
+      "goals_against": 10,
+      "goals_for": 9,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 7,
       "team_raw": "HobUtd-G12F-Patterson",
       "wins": 2
     },
@@ -361,8 +372,8 @@
     {
       "club": "CougarSC",
       "coach": "Gedeon",
-      "draws": 1,
-      "form": "LDWLL",
+      "draws": 2,
+      "form": "DWLLD",
       "games": [
         {
           "date": "2026-05-02",
@@ -372,6 +383,17 @@
           "opponent_club": "Americans",
           "opponent_raw": "Americans-G12F-Wunder",
           "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "COUGSC-Dehart2"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408878",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G12F-Patterson",
+          "result": "D",
           "time": "01:00 PM",
           "venue_code": "COUGSC-Dehart2"
         },
@@ -421,11 +443,11 @@
         }
       ],
       "goal_diff": -4,
-      "goals_against": 16,
-      "goals_for": 12,
+      "goals_against": 19,
+      "goals_for": 15,
       "losses": 3,
-      "played": 5,
-      "points": 4,
+      "played": 6,
+      "points": 5,
       "team_raw": "CougarSC-G12F-Gedeon",
       "wins": 1
     },

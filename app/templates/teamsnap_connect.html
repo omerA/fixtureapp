@@ -35,6 +35,14 @@
   </div>
   {% endif %}
 
+  <!-- Privacy reminder -->
+  <div class="flex items-start gap-2 bg-surface-container rounded-xl px-3 py-3 mb-5">
+    <span class="material-symbols-outlined text-sideline-grey flex-shrink-0" style="font-size:16px;">lock</span>
+    <p class="text-xs text-sideline-grey leading-relaxed">
+      Only <strong class="text-on-surface font-semibold">player names</strong> are fetched and stored — no contact info, birthdays, or addresses. Your roster is visible only to you.
+    </p>
+  </div>
+
   {% if not ts_teams %}
   <div class="fi-card p-8 text-center border-2 border-dashed border-outline-variant" style="box-shadow:none;">
     <span class="material-symbols-outlined text-sideline-grey mb-3" style="font-size:40px;display:block;">group_off</span>

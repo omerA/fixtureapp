@@ -312,6 +312,11 @@
     <!-- ── Roster tab ── -->
     {% if ts_link %}
     <div id="tab-roster" class="flex-1" style="display:none;">
+      <!-- Privacy note -->
+      <div class="flex items-center gap-2 mb-3">
+        <span class="material-symbols-outlined text-sideline-grey" style="font-size:14px;">lock</span>
+        <p class="text-[11px] text-sideline-grey">Names only · visible to you · never shared</p>
+      </div>
       <div class="fi-card p-5">
         <!-- Header row -->
         <div class="flex items-center justify-between mb-4">

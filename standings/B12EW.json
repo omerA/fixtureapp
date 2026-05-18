@@ -1,13 +1,13 @@
 {
   "division": "B12EW",
-  "scraped_at": "2026-05-17T08:08:32.537737Z",
+  "scraped_at": "2026-05-18T09:35:34.738006Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 3,
-      "form": "WWWDD",
+      "form": "WWDDW",
       "games": [
         {
           "date": "2026-04-12",
@@ -65,6 +65,17 @@
           "venue_code": "NMilford-Williams9v9"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "405541",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B12EW-Watson",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-HabernickelPk"
+        },
+        {
           "date": "2026-05-06",
           "game_number": "405544",
           "goals_against": 3,
@@ -76,20 +87,20 @@
           "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 13,
-      "goals_for": 24,
+      "goal_diff": 13,
+      "goals_against": 15,
+      "goals_for": 28,
       "losses": 0,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 15,
       "team_raw": "Maroons-B12EW-Gillies",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "GlenRock",
       "coach": "Watson",
       "draws": 2,
-      "form": "LWWWD",
+      "form": "WWWDL",
       "games": [
         {
           "date": "2026-05-02",
@@ -156,93 +167,33 @@
           "result": "D",
           "time": "05:30 PM",
           "venue_code": "SS-FaberTurfSml"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 10,
-      "goals_for": 15,
-      "losses": 1,
-      "played": 6,
-      "points": 11,
-      "team_raw": "GlenRock-B12EW-Watson",
-      "wins": 3
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Tramontano",
-      "draws": 1,
-      "form": "LWWWD",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "404971",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12EW-Lahav",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
         },
         {
-          "date": "2026-04-19",
-          "game_number": "405531",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B12EW-Watson",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NMilford-Williams9v9"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405532",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12EW-Grompone",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405535",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B12EW-Burke",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "NMilford-Williams9v9"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405539",
+          "date": "2026-05-17",
+          "game_number": "405541",
           "goals_against": 4,
-          "goals_for": 4,
+          "goals_for": 2,
           "opponent_club": "Maroons",
           "opponent_raw": "Maroons-B12EW-Gillies",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "NMilford-Williams9v9"
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-HabernickelPk"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 9,
-      "goals_for": 24,
-      "losses": 1,
-      "played": 5,
-      "points": 10,
-      "team_raw": "NMKnights-B12EW-Tramontano",
+      "goal_diff": 3,
+      "goals_against": 14,
+      "goals_for": 17,
+      "losses": 2,
+      "played": 7,
+      "points": 11,
+      "team_raw": "GlenRock-B12EW-Watson",
       "wins": 3
     },
     {
       "club": "Vikings",
       "coach": "Lahav",
       "draws": 1,
-      "form": "WLLLD",
+      "form": "LLLDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -309,16 +260,109 @@
           "result": "D",
           "time": "01:30 PM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405543",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B12EW-Tramontano",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WALD-SuperDomeOut"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 9,
-      "goals_for": 11,
+      "goal_diff": 3,
+      "goals_against": 11,
+      "goals_for": 14,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 10,
       "team_raw": "Vikings-B12EW-Lahav",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Tramontano",
+      "draws": 1,
+      "form": "WWWDL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "404971",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12EW-Lahav",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405531",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B12EW-Watson",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405532",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12EW-Grompone",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405535",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B12EW-Burke",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405539",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12EW-Gillies",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405543",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12EW-Lahav",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WALD-SuperDomeOut"
+        }
+      ],
+      "goal_diff": 14,
+      "goals_against": 12,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 6,
+      "points": 10,
+      "team_raw": "NMKnights-B12EW-Tramontano",
+      "wins": 3
     },
     {
       "club": "Emerson",

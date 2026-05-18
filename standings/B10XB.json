@@ -1,8 +1,35 @@
 {
   "division": "B10XB",
-  "scraped_at": "2026-05-17T08:07:02.636267Z",
+  "scraped_at": "2026-05-18T09:34:19.916356Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Warriors",
+      "coach": "Leonard",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "409417",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B10XB-DeGennaro",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "WALD-HSTurf-3"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 0,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Warriors-B10XB-Leonard",
+      "wins": 1
+    },
     {
       "club": "FairLawnAllSports",
       "coach": "Arcentales",
@@ -31,60 +58,6 @@
       "wins": 1
     },
     {
-      "club": "AviatorsHHSA",
-      "coach": "DeGennaro",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "409417",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B10XB-Leonard",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "WALD-HSTurf-3"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "AviatorsHHSA-B10XB-DeGennaro",
-      "wins": 0
-    },
-    {
-      "club": "Warriors",
-      "coach": "Leonard",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "409417",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B10XB-DeGennaro",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "WALD-HSTurf-3"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Warriors-B10XB-Leonard",
-      "wins": 0
-    },
-    {
       "club": "RiverDell",
       "coach": "Heydt",
       "draws": 0,
@@ -109,6 +82,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "RiverDell-B10XB-Heydt",
+      "wins": 0
+    },
+    {
+      "club": "AviatorsHHSA",
+      "coach": "DeGennaro",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "409417",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10XB-Leonard",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "WALD-HSTurf-3"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 5,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "AviatorsHHSA-B10XB-DeGennaro",
       "wins": 0
     }
   ]

@@ -1,13 +1,13 @@
 {
   "division": "B10C",
-  "scraped_at": "2026-05-17T08:06:10.314288Z",
+  "scraped_at": "2026-05-18T09:33:43.294145Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -65,6 +65,17 @@
           "venue_code": "HobUTD-1600Park"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "408285",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10C-Gjoca",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "408291",
           "goals_against": 2,
@@ -76,11 +87,11 @@
           "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 23,
-      "goals_against": 8,
-      "goals_for": 31,
-      "losses": 0,
-      "played": 6,
+      "goal_diff": 21,
+      "goals_against": 12,
+      "goals_for": 33,
+      "losses": 1,
+      "played": 7,
       "points": 16,
       "team_raw": "WoodRidge-B10C-Prior",
       "wins": 5
@@ -89,7 +100,7 @@
       "club": "Verona",
       "coach": "Moreng",
       "draws": 1,
-      "form": "DWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-05-01",
@@ -156,22 +167,33 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408286",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10C-Kenny",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 14,
-      "goals_for": 22,
+      "goal_diff": 14,
+      "goals_against": 15,
+      "goals_for": 29,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "Verona-B10C-Moreng",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "NoValley",
       "coach": "Waraska",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -227,13 +249,24 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408284",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B10C-Salik",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "PAR-WestbrkSouth-9x9"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 10,
-      "goals_for": 24,
-      "losses": 1,
-      "played": 5,
+      "goal_diff": 13,
+      "goals_against": 13,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 6,
       "points": 12,
       "team_raw": "NoValley-B10C-Waraska",
       "wins": 4
@@ -242,7 +275,7 @@
       "club": "Paramus",
       "coach": "Salik",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-05-09",
@@ -311,6 +344,17 @@
           "venue_code": "HobUTD-SinatraPkSth"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "408284",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10C-Waraska",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "PAR-WestbrkSouth-9x9"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "408291",
           "goals_against": 3,
@@ -322,20 +366,20 @@
           "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 32,
-      "goals_for": 21,
+      "goal_diff": -10,
+      "goals_against": 34,
+      "goals_for": 24,
       "losses": 4,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "Paramus-B10C-Salik",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-05-01",
@@ -402,16 +446,27 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408285",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10C-Prior",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 33,
-      "goals_for": 16,
+      "goal_diff": -15,
+      "goals_against": 35,
+      "goals_for": 20,
       "losses": 5,
-      "played": 6,
-      "points": 3,
+      "played": 7,
+      "points": 6,
       "team_raw": "Torpedoes-B10C-Gjoca",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "HobUtd",
@@ -484,13 +539,24 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408286",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10C-Moreng",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 26,
-      "goals_for": 9,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -23,
+      "goals_against": 33,
+      "goals_for": 10,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "HobUtd-B10C-Kenny",
       "wins": 0

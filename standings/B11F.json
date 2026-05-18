@@ -1,6 +1,6 @@
 {
   "division": "B11F",
-  "scraped_at": "2026-05-17T08:07:39.897439Z",
+  "scraped_at": "2026-05-18T09:34:53.086705Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -87,6 +87,17 @@
           "venue_code": "RYSA-Heights"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "407274",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B11F-Kessler",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "407291",
           "goals_against": 1,
@@ -98,20 +109,20 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": 34,
-      "goals_against": 12,
-      "goals_for": 46,
+      "goal_diff": 41,
+      "goals_against": 14,
+      "goals_for": 55,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "GlenRidge-B11F-Yucel",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "BLMFLD",
       "coach": "Pereira",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -189,98 +200,27 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "BLMFLD-LionsGate"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 16,
-      "goals_for": 29,
-      "losses": 1,
-      "played": 7,
-      "points": 18,
-      "team_raw": "BLMFLD-B11F-Pereira",
-      "wins": 6
-    },
-    {
-      "club": "Montclair",
-      "coach": "Fels",
-      "draws": 0,
-      "form": "LWWWW",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "406958",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B11F-Kessler",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "MONT-BrookdaleD"
         },
         {
-          "date": "2026-04-18",
-          "game_number": "406961",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B11F-Yucel",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "GLENRDGE-ForestAve"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406965",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11F-Gerber",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406974",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B11F-Hykey",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "LYND-RecCtrFld4"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406975",
+          "date": "2026-05-17",
+          "game_number": "407276",
           "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B11F-Hernandez",
-          "result": "W",
-          "time": "09:15 AM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407270",
-          "goals_against": 4,
           "goals_for": 5,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B11F-Grassi",
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B11F-Fels",
           "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "NoVAL-Trackside"
+          "time": "12:15 PM",
+          "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 15,
+      "goal_diff": 18,
+      "goals_against": 16,
       "goals_for": 34,
       "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "Montclair-B11F-Fels",
-      "wins": 5
+      "played": 8,
+      "points": 21,
+      "team_raw": "BLMFLD-B11F-Pereira",
+      "wins": 7
     },
     {
       "club": "NoValley",
@@ -365,10 +305,103 @@
       "wins": 5
     },
     {
+      "club": "Montclair",
+      "coach": "Fels",
+      "draws": 0,
+      "form": "WWWWL",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "406958",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B11F-Kessler",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "MONT-BrookdaleD"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "406961",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B11F-Yucel",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406965",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11F-Gerber",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406974",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B11F-Hykey",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406975",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11F-Hernandez",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407270",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11F-Grassi",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407276",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B11F-Pereira",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "GLENRDGE-WashFld"
+        }
+      ],
+      "goal_diff": 14,
+      "goals_against": 20,
+      "goals_for": 34,
+      "losses": 2,
+      "played": 7,
+      "points": 15,
+      "team_raw": "Montclair-B11F-Fels",
+      "wins": 5
+    },
+    {
       "club": "Dumont",
       "coach": "Gerber",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -446,22 +479,33 @@
           "result": "W",
           "time": "01:45 PM",
           "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407275",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B11F-Struble",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 22,
-      "goals_for": 24,
+      "goal_diff": 3,
+      "goals_against": 24,
+      "goals_for": 27,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Dumont-B11F-Gerber",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Torpedoes",
       "coach": "Dzilla",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -528,16 +572,27 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407277",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11F-Hernandez",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "TORP-Pulis4"
         }
       ],
-      "goal_diff": 8,
+      "goal_diff": 15,
       "goals_against": 13,
-      "goals_for": 21,
+      "goals_for": 28,
       "losses": 3,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 12,
       "team_raw": "Torpedoes-B11F-Dzilla",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Vikings",
@@ -625,7 +680,7 @@
       "club": "HobUtd",
       "coach": "Kessler",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -694,6 +749,17 @@
           "venue_code": "HobUTD-1600Park"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "407274",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B11F-Yucel",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
           "date": "2026-04-17",
           "game_number": "407285",
           "goals_against": 3,
@@ -705,11 +771,11 @@
           "venue_code": "LYND-RecCtrFld4"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 24,
-      "goals_for": 23,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -8,
+      "goals_against": 33,
+      "goals_for": 25,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "HobUtd-B11F-Kessler",
       "wins": 2
@@ -718,7 +784,7 @@
       "club": "NoArlington",
       "coach": "Hernandez",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-25",
@@ -785,13 +851,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407277",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B11F-Dzilla",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "TORP-Pulis4"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 34,
+      "goal_diff": -29,
+      "goals_against": 41,
       "goals_for": 12,
-      "losses": 5,
-      "played": 6,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "NoArlington-B11F-Hernandez",
       "wins": 1
@@ -800,7 +877,7 @@
       "club": "RYSA",
       "coach": "Struble",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -856,13 +933,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407275",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11F-Gerber",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 24,
-      "goals_for": 10,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -15,
+      "goals_against": 27,
+      "goals_for": 12,
+      "losses": 5,
+      "played": 6,
       "points": 1,
       "team_raw": "RYSA-B11F-Struble",
       "wins": 0

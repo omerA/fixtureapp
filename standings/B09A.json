@@ -1,13 +1,13 @@
 {
   "division": "B09A",
-  "scraped_at": "2026-05-17T08:04:50.728811Z",
+  "scraped_at": "2026-05-18T09:32:47.080175Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlobalJC",
       "coach": "Nobrega",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-25",
@@ -76,6 +76,17 @@
           "venue_code": "ARS-MemParkRidge2Sm"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "406765",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09A-Aguilar",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "407054",
           "goals_against": 2,
@@ -87,20 +98,20 @@
           "venue_code": "JC-GatewaySm1"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 14,
-      "goals_for": 28,
+      "goal_diff": 19,
+      "goals_against": 16,
+      "goals_for": 35,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "GlobalJC-B09A-Nobrega",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Dumont",
       "coach": "Aguilar",
       "draws": 0,
-      "form": "LWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -167,104 +178,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406765",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B09A-Nobrega",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 20,
-      "goals_for": 25,
-      "losses": 2,
-      "played": 6,
+      "goal_diff": 0,
+      "goals_against": 27,
+      "goals_for": 27,
+      "losses": 3,
+      "played": 7,
       "points": 12,
       "team_raw": "Dumont-B09A-Aguilar",
       "wins": 4
     },
     {
-      "club": "Arsenal",
-      "coach": "Sahin",
-      "draws": 1,
-      "form": "DWWLL",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "406745",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B09A-Nobrega",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "JC-GatewaySm1"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406750",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B09A-Chen",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406752",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09A-Villanueva",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406754",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09A-Aguilar",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "ARS-MemParkRidge2Sm"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406759",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B09A-Keddell",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406762",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B09A-Nobrega",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "ARS-MemParkRidge2Sm"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 19,
-      "goals_for": 21,
-      "losses": 2,
-      "played": 6,
-      "points": 10,
-      "team_raw": "Arsenal-B09A-Sahin",
-      "wins": 3
-    },
-    {
       "club": "Montclair",
       "coach": "Keddell",
       "draws": 2,
-      "form": "LDWWL",
+      "form": "DWWLW",
       "games": [
         {
           "date": "2026-05-01",
@@ -333,6 +273,17 @@
           "venue_code": "MONT-BrookdaleStadN"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "406763",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09A-Villanueva",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "407054",
           "goals_against": 5,
@@ -344,102 +295,113 @@
           "venue_code": "JC-GatewaySm1"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 20,
-      "goals_for": 17,
+      "goal_diff": 3,
+      "goals_against": 21,
+      "goals_for": 24,
       "losses": 3,
-      "played": 7,
-      "points": 8,
+      "played": 8,
+      "points": 11,
       "team_raw": "Montclair-B09A-Keddell",
-      "wins": 2
+      "wins": 3
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Villanueva",
-      "draws": 3,
-      "form": "DDDLL",
+      "club": "Arsenal",
+      "coach": "Sahin",
+      "draws": 1,
+      "form": "WWLLL",
       "games": [
         {
-          "date": "2026-03-29",
-          "game_number": "406747",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09A-Aguilar",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "FL-CenterRec2B"
+          "date": "2026-04-25",
+          "game_number": "406745",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B09A-Nobrega",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "JC-GatewaySm1"
         },
         {
           "date": "2026-04-12",
-          "game_number": "406748",
+          "game_number": "406750",
           "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B09A-Keddell",
-          "result": "D",
-          "time": "03:45 PM",
-          "venue_code": "MONT-BrookdaleStadS"
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09A-Chen",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "SS-FaberTurfSml"
         },
         {
           "date": "2026-04-19",
           "game_number": "406752",
           "goals_against": 3,
           "goals_for": 3,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B09A-Sahin",
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09A-Villanueva",
           "result": "D",
           "time": "06:30 PM",
           "venue_code": "FL-CenterRec2B"
         },
         {
           "date": "2026-04-26",
-          "game_number": "406756",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B09A-Chen",
-          "result": "D",
-          "time": "08:30 AM",
-          "venue_code": "SS-FaberTurfSml"
+          "game_number": "406754",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09A-Aguilar",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
         },
         {
           "date": "2026-05-03",
-          "game_number": "406758",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B09A-Nobrega",
+          "game_number": "406759",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09A-Keddell",
           "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "JC-GatewaySm1"
+          "time": "12:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         },
         {
           "date": "2026-05-10",
-          "game_number": "406761",
-          "goals_against": 8,
+          "game_number": "406762",
+          "goals_against": 5,
           "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09A-Aguilar",
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B09A-Nobrega",
           "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "DUM-GinasField"
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406764",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09A-Chen",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 23,
-      "goals_for": 11,
+      "goal_diff": 1,
+      "goals_against": 22,
+      "goals_for": 23,
       "losses": 3,
-      "played": 6,
-      "points": 3,
-      "team_raw": "FairLawnAllSports-B09A-Villanueva",
-      "wins": 0
+      "played": 7,
+      "points": 10,
+      "team_raw": "Arsenal-B09A-Sahin",
+      "wins": 3
     },
     {
       "club": "GlenRock",
       "coach": "Chen",
       "draws": 2,
-      "form": "LDDLL",
+      "form": "DDLLW",
       "games": [
         {
           "date": "2026-05-01",
@@ -506,15 +468,119 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406764",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09A-Sahin",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 14,
-      "goals_for": 8,
+      "goal_diff": -5,
+      "goals_against": 16,
+      "goals_for": 11,
       "losses": 4,
-      "played": 6,
-      "points": 2,
+      "played": 7,
+      "points": 5,
       "team_raw": "GlenRock-B09A-Chen",
+      "wins": 1
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Villanueva",
+      "draws": 3,
+      "form": "DDLLL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "406747",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09A-Aguilar",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406748",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09A-Keddell",
+          "result": "D",
+          "time": "03:45 PM",
+          "venue_code": "MONT-BrookdaleStadS"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406752",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09A-Sahin",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406756",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09A-Chen",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406758",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B09A-Nobrega",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406761",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09A-Aguilar",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406763",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09A-Keddell",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2B"
+        }
+      ],
+      "goal_diff": -18,
+      "goals_against": 30,
+      "goals_for": 12,
+      "losses": 4,
+      "played": 7,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-B09A-Villanueva",
       "wins": 0
     }
   ]

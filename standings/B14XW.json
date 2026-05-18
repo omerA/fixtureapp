@@ -1,6 +1,6 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-05-17T08:10:09.690486Z",
+  "scraped_at": "2026-05-18T09:36:57.298549Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -34,8 +34,20 @@
       "club": "CougarSC",
       "coach": "Smith",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "409449",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B14XW-Fernandez",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-OrangePark"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
@@ -49,8 +61,20 @@
       "club": "Southside",
       "coach": "Fernandez",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "409449",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14XW-Smith",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-OrangePark"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,

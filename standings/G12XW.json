@@ -1,34 +1,34 @@
 {
   "division": "G12XW",
-  "scraped_at": "2026-05-17T08:13:17.504141Z",
+  "scraped_at": "2026-05-18T09:39:53.337661Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "FairLawnAllSports",
-      "coach": "Ramirez",
+      "club": "RiverDell",
+      "coach": "Lucey",
       "draws": 0,
-      "form": "L",
+      "form": "W",
       "games": [
         {
           "date": "2026-05-16",
           "game_number": "409456",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G12XW-Lucey",
-          "result": "L",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G12XW-Ramirez",
+          "result": "W",
           "time": "01:30 PM",
           "venue_code": "FL-MemorialMS-Sm"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 1,
+      "goals_against": 2,
+      "goals_for": 3,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-G12XW-Ramirez",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "RiverDell-G12XW-Lucey",
+      "wins": 1
     },
     {
       "club": "GlenRidge",
@@ -61,30 +61,30 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Lucey",
+      "club": "FairLawnAllSports",
+      "coach": "Ramirez",
       "draws": 0,
-      "form": "W",
+      "form": "L",
       "games": [
         {
           "date": "2026-05-16",
           "game_number": "409456",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G12XW-Ramirez",
-          "result": "W",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12XW-Lucey",
+          "result": "L",
           "time": "01:30 PM",
           "venue_code": "FL-MemorialMS-Sm"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "goal_diff": -1,
+      "goals_against": 3,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "RiverDell-G12XW-Lucey",
+      "team_raw": "FairLawnAllSports-G12XW-Ramirez",
       "wins": 0
     }
   ]

@@ -1,13 +1,13 @@
 {
   "division": "B08F4",
-  "scraped_at": "2026-05-17T08:04:47.256314Z",
+  "scraped_at": "2026-05-18T09:32:43.730868Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NASA",
       "coach": "Callegari",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -19,6 +19,17 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405462",
+          "goals_against": 3,
+          "goals_for": 9,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08F4-Chambers",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "WYNE-JFK-Small"
         },
         {
           "date": "2026-04-26",
@@ -54,13 +65,95 @@
           "venue_code": "Haledon-Rec-7v7"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 8,
-      "goals_for": 26,
+      "goal_diff": 24,
+      "goals_against": 11,
+      "goals_for": 35,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "NASA-B08F4-Callegari",
+      "wins": 5
+    },
+    {
+      "club": "Hackensack",
+      "coach": "Holder",
+      "draws": 0,
+      "form": "WLWWW",
+      "games": [
+        {
+          "date": "2026-03-22",
+          "game_number": "404675",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08F4-Millar",
+          "result": "W",
+          "time": "12:00 AM",
+          "venue_code": "TBS (L)"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404692",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08F4-Dominguez",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "HACK-ColombusPark"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "404694",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08F4-Aguilar",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406712",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08F4-Corredor",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "HACK-ColombusPark"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406718",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08F4-Chambers",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAR-BenFranklinMS1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406722",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B08F4-OLeary",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": 17,
+      "goals_against": 9,
+      "goals_for": 26,
+      "losses": 1,
+      "played": 5,
+      "points": 12,
+      "team_raw": "Hackensack-B08F4-Holder",
       "wins": 4
     },
     {
@@ -124,74 +217,74 @@
       "wins": 4
     },
     {
-      "club": "Hackensack",
-      "coach": "Holder",
+      "club": "Rutherford",
+      "coach": "Dominguez",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLLWW",
       "games": [
         {
-          "date": "2026-03-22",
-          "game_number": "404675",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08F4-Millar",
+          "date": "2026-03-29",
+          "game_number": "404684",
+          "goals_against": 6,
+          "goals_for": 8,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08F4-Aguilar",
           "result": "W",
-          "time": "12:00 AM",
-          "venue_code": "TBS (L)"
+          "time": "12:00 PM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
           "date": "2026-04-12",
           "game_number": "404692",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08F4-Dominguez",
-          "result": "W",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08F4-Holder",
+          "result": "L",
           "time": "03:45 PM",
           "venue_code": "HACK-ColombusPark"
         },
         {
-          "date": "2026-04-19",
-          "game_number": "404694",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08F4-Aguilar",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "PAR-ParkwayMS7"
-        },
-        {
           "date": "2026-05-03",
-          "game_number": "406712",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B08F4-Corredor",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "HACK-ColombusPark"
+          "game_number": "406714",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B08F4-OLeary",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
           "date": "2026-05-10",
-          "game_number": "406718",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B08F4-Chambers",
+          "game_number": "406717",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08F4-Musano",
           "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "MAR-BenFranklinMS1"
+          "time": "09:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406725",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B08F4-Zamora",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 8,
-      "goals_for": 20,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": 3,
+      "goals_against": 25,
+      "goals_for": 28,
+      "losses": 2,
+      "played": 5,
       "points": 9,
-      "team_raw": "Hackensack-B08F4-Holder",
+      "team_raw": "Rutherford-B08F4-Dominguez",
       "wins": 3
     },
     {
@@ -280,7 +373,7 @@
       "club": "CougarSC",
       "coach": "OLeary",
       "draws": 1,
-      "form": "LWLWD",
+      "form": "WLWDL",
       "games": [
         {
           "date": "2026-04-19",
@@ -336,75 +429,26 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "COUGSC-Borden2"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 23,
-      "goals_for": 30,
-      "losses": 2,
-      "played": 5,
-      "points": 7,
-      "team_raw": "CougarSC-B08F4-OLeary",
-      "wins": 2
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Dominguez",
-      "draws": 0,
-      "form": "WLLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "404684",
-          "goals_against": 6,
-          "goals_for": 8,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08F4-Aguilar",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
-          "date": "2026-04-12",
-          "game_number": "404692",
-          "goals_against": 5,
-          "goals_for": 2,
+          "date": "2026-05-17",
+          "game_number": "406722",
+          "goals_against": 6,
+          "goals_for": 1,
           "opponent_club": "Hackensack",
           "opponent_raw": "Hackensack-B08F4-Holder",
           "result": "L",
-          "time": "03:45 PM",
-          "venue_code": "HACK-ColombusPark"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406714",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B08F4-OLeary",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "RUTH-Tamblyn-4v4"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406717",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08F4-Musano",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "PAR-ParkwayMS7"
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 22,
-      "goals_for": 21,
-      "losses": 2,
-      "played": 4,
-      "points": 6,
-      "team_raw": "Rutherford-B08F4-Dominguez",
+      "goal_diff": 2,
+      "goals_against": 29,
+      "goals_for": 31,
+      "losses": 3,
+      "played": 6,
+      "points": 7,
+      "team_raw": "CougarSC-B08F4-OLeary",
       "wins": 2
     },
     {
@@ -479,10 +523,92 @@
       "wins": 2
     },
     {
+      "club": "Maroons",
+      "coach": "Chambers",
+      "draws": 1,
+      "form": "LDLLW",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "404678",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B08F4-Zamora",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404687",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08F4-Millar",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405462",
+          "goals_against": 9,
+          "goals_for": 3,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B08F4-Callegari",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "406711",
+          "goals_against": 7,
+          "goals_for": 7,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08F4-Aguilar",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406718",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08F4-Holder",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAR-BenFranklinMS1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406721",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08F4-Corredor",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        }
+      ],
+      "goal_diff": -18,
+      "goals_against": 41,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 6,
+      "points": 4,
+      "team_raw": "Maroons-B08F4-Chambers",
+      "wins": 1
+    },
+    {
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-25",
@@ -538,82 +664,33 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406725",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08F4-Dominguez",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 35,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -25,
+      "goals_against": 42,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "Southside-B08F4-Zamora",
       "wins": 1
     },
     {
-      "club": "Maroons",
-      "coach": "Chambers",
-      "draws": 1,
-      "form": "LLDL",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "404678",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B08F4-Zamora",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "404687",
-          "goals_against": 9,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08F4-Millar",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "406711",
-          "goals_against": 7,
-          "goals_for": 7,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08F4-Aguilar",
-          "result": "D",
-          "time": "08:00 AM",
-          "venue_code": "PAR-ParkwayMS7"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406718",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B08F4-Holder",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "MAR-BenFranklinMS1"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 28,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 4,
-      "points": 1,
-      "team_raw": "Maroons-B08F4-Chambers",
-      "wins": 0
-    },
-    {
       "club": "RIDGFLD",
       "coach": "Corredor",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -658,13 +735,24 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "HACK-ColombusPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406721",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08F4-Chambers",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 29,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 4,
+      "goal_diff": -23,
+      "goals_against": 34,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "RIDGFLD-B08F4-Corredor",
       "wins": 0

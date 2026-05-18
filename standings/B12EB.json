@@ -1,13 +1,13 @@
 {
   "division": "B12EB",
-  "scraped_at": "2026-05-17T08:08:27.029262Z",
+  "scraped_at": "2026-05-18T09:35:31.386311Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Southside",
       "coach": "Oscanoa",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -52,22 +52,33 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404957",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B12EB-RodriguezEspinoza",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-Rec-Field"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 5,
-      "goals_for": 18,
+      "goal_diff": 18,
+      "goals_against": 6,
+      "goals_for": 24,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "Southside-B12EB-Oscanoa",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Rutherford",
       "coach": "Wendolowski",
       "draws": 0,
-      "form": "WLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -112,22 +123,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404955",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B12EB-Cabrera",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "JC-CochraneCaven-2"
         }
       ],
-      "goal_diff": 9,
+      "goal_diff": 12,
       "goals_against": 9,
-      "goals_for": 18,
+      "goals_for": 21,
       "losses": 1,
-      "played": 4,
-      "points": 9,
+      "played": 5,
+      "points": 12,
       "team_raw": "Rutherford-B12EB-Wendolowski",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Harrison",
       "coach": "RodriguezEspinoza",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -183,13 +205,24 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "HARR-HarrisonLtlLeag"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404957",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B12EB-Oscanoa",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-Rec-Field"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 18,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 5,
+      "goal_diff": -4,
+      "goals_against": 24,
+      "goals_for": 20,
+      "losses": 3,
+      "played": 6,
       "points": 9,
       "team_raw": "Harrison-B12EB-RodriguezEspinoza",
       "wins": 3
@@ -198,7 +231,7 @@
       "club": "JerseyCity",
       "coach": "Cabrera",
       "draws": 1,
-      "form": "WDWLL",
+      "form": "DWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -265,13 +298,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "HARR-HarrisonLtlLeag"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404955",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12EB-Wendolowski",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "JC-CochraneCaven-2"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 13,
+      "goal_diff": -4,
+      "goals_against": 16,
       "goals_for": 12,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "JerseyCity-B12EB-Cabrera",
       "wins": 2
@@ -279,8 +323,8 @@
     {
       "club": "SaddleBR",
       "coach": "Velazquez",
-      "draws": 0,
-      "form": "LLLW",
+      "draws": 1,
+      "form": "LLLWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -325,22 +369,33 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404956",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B12EB-Timek",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
       "goal_diff": -12,
-      "goals_against": 14,
-      "goals_for": 2,
+      "goals_against": 17,
+      "goals_for": 5,
       "losses": 3,
-      "played": 4,
-      "points": 3,
+      "played": 5,
+      "points": 4,
       "team_raw": "SaddleBR-B12EB-Velazquez",
       "wins": 1
     },
     {
       "club": "HobUtd",
       "coach": "Timek",
-      "draws": 1,
-      "form": "DLLLL",
+      "draws": 2,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-05-16",
@@ -396,14 +451,25 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404956",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B12EB-Velazquez",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
       "goal_diff": -10,
-      "goals_against": 17,
-      "goals_for": 7,
+      "goals_against": 20,
+      "goals_for": 10,
       "losses": 4,
-      "played": 5,
-      "points": 1,
+      "played": 6,
+      "points": 2,
       "team_raw": "HobUtd-B12EB-Timek",
       "wins": 0
     }

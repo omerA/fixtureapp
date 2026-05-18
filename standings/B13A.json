@@ -1,84 +1,13 @@
 {
   "division": "B13A",
-  "scraped_at": "2026-05-17T08:09:04.637022Z",
+  "scraped_at": "2026-05-18T09:36:02.261441Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "NoValley",
-      "coach": "Torrie",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "407601",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B13A-Nobrega",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "JC-GatewaySm1"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407604",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B13A-Brophy",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407607",
-          "goals_against": 7,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13A-Polevoy",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407609",
-          "goals_against": 3,
-          "goals_for": 6,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B13A-Nobrega",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "NoVAL-OTHS turf"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407681",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B13A-Krysa",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 13,
-      "goals_for": 23,
-      "losses": 1,
-      "played": 5,
-      "points": 12,
-      "team_raw": "NoValley-B13A-Torrie",
-      "wins": 4
-    },
     {
       "club": "Dumont",
       "coach": "Brophy",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-24",
@@ -134,22 +63,33 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407822",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13A-Torrie",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DUM-HS"
         }
       ],
       "goal_diff": 5,
-      "goals_against": 8,
-      "goals_for": 13,
+      "goals_against": 5,
+      "goals_for": 10,
       "losses": 1,
-      "played": 5,
-      "points": 12,
+      "played": 6,
+      "points": 9,
       "team_raw": "Dumont-B13A-Brophy",
-      "wins": 4
+      "wins": 3
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Polevoy",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-04-18",
@@ -216,16 +156,180 @@
           "result": "W",
           "time": "05:45 PM",
           "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407821",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B13A-Krysa",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 3,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 6,
-      "points": 6,
+      "goal_diff": 3,
+      "goals_against": 12,
+      "goals_for": 15,
+      "losses": 1,
+      "played": 7,
+      "points": 9,
       "team_raw": "FairLawnAllSports-B13A-Polevoy",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "NoValley",
+      "coach": "Torrie",
+      "draws": 0,
+      "form": "LWWWL",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "407601",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B13A-Nobrega",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407604",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13A-Brophy",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407607",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13A-Polevoy",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407609",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B13A-Nobrega",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407681",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B13A-Krysa",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407822",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13A-Brophy",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DUM-HS"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 13,
+      "goals_for": 17,
+      "losses": 2,
+      "played": 6,
+      "points": 9,
+      "team_raw": "NoValley-B13A-Torrie",
+      "wins": 3
+    },
+    {
+      "club": "Warriors",
+      "coach": "Krysa",
+      "draws": 1,
+      "form": "LLLLD",
+      "games": [
+        {
+          "date": "2026-04-24",
+          "game_number": "407597",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13A-Brophy",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-05-01",
+          "game_number": "407603",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13A-Brophy",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407605",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13A-Polevoy",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407681",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13A-Torrie",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407821",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13A-Polevoy",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 17,
+      "goals_for": 10,
+      "losses": 4,
+      "played": 5,
+      "points": 1,
+      "team_raw": "Warriors-B13A-Krysa",
+      "wins": 0
     },
     {
       "club": "GlobalJC",
@@ -300,73 +404,13 @@
           "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 8,
-      "goals_for": 3,
-      "losses": 2,
+      "goal_diff": -12,
+      "goals_against": 19,
+      "goals_for": 7,
+      "losses": 5,
       "played": 6,
       "points": 0,
       "team_raw": "GlobalJC-B13A-Nobrega",
-      "wins": 0
-    },
-    {
-      "club": "Warriors",
-      "coach": "Krysa",
-      "draws": 0,
-      "form": "LLLL",
-      "games": [
-        {
-          "date": "2026-04-24",
-          "game_number": "407597",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B13A-Brophy",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "DUM-HS"
-        },
-        {
-          "date": "2026-05-01",
-          "game_number": "407603",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B13A-Brophy",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "DUM-HS"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407605",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13A-Polevoy",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407681",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B13A-Torrie",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 16,
-      "goals_for": 9,
-      "losses": 4,
-      "played": 4,
-      "points": 0,
-      "team_raw": "Warriors-B13A-Krysa",
       "wins": 0
     }
   ]

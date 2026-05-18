@@ -1,13 +1,13 @@
 {
   "division": "G14CB",
-  "scraped_at": "2026-05-17T08:13:52.467734Z",
+  "scraped_at": "2026-05-18T09:40:28.540687Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoRockland",
       "coach": "Barrios",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-04-04",
@@ -65,6 +65,17 @@
           "venue_code": "MAYWOOD-MemorialPkLg"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "406205",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14CB-Videc",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "NY-NR-HaverCmplxTurf"
+        },
+        {
           "date": "2026-03-29",
           "game_number": "406208",
           "goals_against": 3,
@@ -99,19 +110,19 @@
         }
       ],
       "goal_diff": 19,
-      "goals_against": 14,
-      "goals_for": 33,
+      "goals_against": 15,
+      "goals_for": 34,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 22,
       "team_raw": "NoRockland-G14CB-Barrios",
       "wins": 7
     },
     {
       "club": "Lakeland",
       "coach": "Videc",
-      "draws": 1,
-      "form": "WDWLW",
+      "draws": 2,
+      "form": "DWLWD",
       "games": [
         {
           "date": "2026-04-25",
@@ -158,6 +169,17 @@
           "venue_code": "LKLND-LakelandHS"
         },
         {
+          "date": "2026-05-17",
+          "game_number": "406205",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G14CB-Barrios",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "NY-NR-HaverCmplxTurf"
+        },
+        {
           "date": "2026-05-09",
           "game_number": "409251",
           "goals_against": 4,
@@ -170,11 +192,11 @@
         }
       ],
       "goal_diff": 4,
-      "goals_against": 8,
-      "goals_for": 12,
+      "goals_against": 9,
+      "goals_for": 13,
       "losses": 1,
-      "played": 5,
-      "points": 10,
+      "played": 6,
+      "points": 11,
       "team_raw": "Lakeland-G14CB-Videc",
       "wins": 3
     },

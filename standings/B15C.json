@@ -1,6 +1,6 @@
 {
   "division": "B15C",
-  "scraped_at": "2026-05-17T08:10:20.074674Z",
+  "scraped_at": "2026-05-18T09:37:06.978396Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -64,70 +64,10 @@
       "wins": 3
     },
     {
-      "club": "AviatorsHHSA",
-      "coach": "Bonfrisco",
-      "draws": 2,
-      "form": "DWWD",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "405076",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B15C-Rojas",
-          "result": "D",
-          "time": "05:30 PM",
-          "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405078",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-B15C-Bernhard",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "AVIA-Hitchcock"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405079",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B15C-Guedes",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "SaddleBR-VeteransFld"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405084",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B15C-Millar",
-          "result": "D",
-          "time": "05:30 PM",
-          "venue_code": "THIS-HarveyBack FS"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 9,
-      "goals_for": 12,
-      "losses": 0,
-      "played": 4,
-      "points": 8,
-      "team_raw": "AviatorsHHSA-B15C-Bonfrisco",
-      "wins": 2
-    },
-    {
       "club": "Arsenal",
       "coach": "Rojas",
       "draws": 1,
-      "form": "DLWW",
+      "form": "DLWWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -172,22 +112,104 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405085",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B15C-Bonfrisco",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 10,
-      "goals_for": 15,
+      "goal_diff": 6,
+      "goals_against": 14,
+      "goals_for": 20,
       "losses": 1,
-      "played": 4,
-      "points": 7,
+      "played": 5,
+      "points": 10,
       "team_raw": "Arsenal-B15C-Rojas",
+      "wins": 3
+    },
+    {
+      "club": "AviatorsHHSA",
+      "coach": "Bonfrisco",
+      "draws": 2,
+      "form": "DWWDL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "405076",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B15C-Rojas",
+          "result": "D",
+          "time": "05:30 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405078",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B15C-Bernhard",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405079",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B15C-Guedes",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405084",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B15C-Millar",
+          "result": "D",
+          "time": "05:30 PM",
+          "venue_code": "THIS-HarveyBack FS"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405085",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B15C-Rojas",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-Hitchcock"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 14,
+      "goals_for": 16,
+      "losses": 1,
+      "played": 5,
+      "points": 8,
+      "team_raw": "AviatorsHHSA-B15C-Bonfrisco",
       "wins": 2
     },
     {
       "club": "BLMFLD",
       "coach": "Bernhard",
       "draws": 1,
-      "form": "DLLL",
+      "form": "DLLLW",
       "games": [
         {
           "date": "2026-04-12",
@@ -232,22 +254,33 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405086",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B15C-Guedes",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 17,
-      "goals_for": 11,
+      "goal_diff": -4,
+      "goals_against": 18,
+      "goals_for": 14,
       "losses": 3,
-      "played": 4,
-      "points": 1,
+      "played": 5,
+      "points": 4,
       "team_raw": "BLMFLD-B15C-Bernhard",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "SaddleBR",
       "coach": "Guedes",
       "draws": 1,
-      "form": "DLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -292,13 +325,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405086",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B15C-Bernhard",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 19,
-      "goals_for": 9,
-      "losses": 3,
-      "played": 4,
+      "goal_diff": -12,
+      "goals_against": 22,
+      "goals_for": 10,
+      "losses": 4,
+      "played": 5,
       "points": 1,
       "team_raw": "SaddleBR-B15C-Guedes",
       "wins": 0

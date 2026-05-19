@@ -1,6 +1,6 @@
 {
   "division": "G11E",
-  "scraped_at": "2026-05-18T09:39:16.438419Z",
+  "scraped_at": "2026-05-19T08:59:50.428335Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -99,8 +99,8 @@
     {
       "club": "Paramus",
       "coach": "Buttacavoli",
-      "draws": 1,
-      "form": "WWLDW",
+      "draws": 2,
+      "form": "WLDWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -123,6 +123,17 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-18",
+          "game_number": "408650",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11E-Goers",
+          "result": "D",
+          "time": "07:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         },
         {
           "date": "2026-04-26",
@@ -173,8 +184,8 @@
       "goals_against": 10,
       "goals_for": 20,
       "losses": 2,
-      "played": 6,
-      "points": 10,
+      "played": 7,
+      "points": 11,
       "team_raw": "Paramus-G11E-Buttacavoli",
       "wins": 3
     },
@@ -343,6 +354,99 @@
       "wins": 3
     },
     {
+      "club": "Dragons",
+      "coach": "Goers",
+      "draws": 2,
+      "form": "WLLWD",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408641",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G11E-Betamour",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408647",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G11E-Kessler",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "AYSO-CommunityField2"
+        },
+        {
+          "date": "2026-05-18",
+          "game_number": "408650",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G11E-Buttacavoli",
+          "result": "D",
+          "time": "07:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408656",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11E-Crowley",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408658",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G11E-Pawlowski",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408664",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G11E-Alexander",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "408665",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G11E-Deptula",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 14,
+      "goals_for": 13,
+      "losses": 3,
+      "played": 7,
+      "points": 8,
+      "team_raw": "Dragons-G11E-Goers",
+      "wins": 2
+    },
+    {
       "club": "GlenRidge",
       "coach": "Deptula",
       "draws": 2,
@@ -400,88 +504,6 @@
       "played": 4,
       "points": 8,
       "team_raw": "GlenRidge-G11E-Deptula",
-      "wins": 2
-    },
-    {
-      "club": "Dragons",
-      "coach": "Goers",
-      "draws": 1,
-      "form": "DWLLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408641",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G11E-Betamour",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408647",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "AYSOBergen",
-          "opponent_raw": "AYSOBergen-G11E-Kessler",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "AYSO-CommunityField2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408656",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G11E-Crowley",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408658",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G11E-Pawlowski",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408664",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G11E-Alexander",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "408665",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G11E-Deptula",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "GLENRDGE-ForestAve"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 14,
-      "goals_for": 13,
-      "losses": 3,
-      "played": 6,
-      "points": 7,
-      "team_raw": "Dragons-G11E-Goers",
       "wins": 2
     },
     {

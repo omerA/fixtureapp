@@ -1,6 +1,6 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-05-18T09:33:26.868074Z",
+  "scraped_at": "2026-05-19T08:53:59.578345Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -31,33 +31,6 @@
       "wins": 1
     },
     {
-      "club": "HobUtd",
-      "coach": "Kapur",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-17",
-          "game_number": "409414",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09XB-Snider",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "HobUTD-1600Park"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "HobUtd-B09XB-Kapur",
-      "wins": 0
-    },
-    {
       "club": "RiverDell",
       "coach": "Snider",
       "draws": 0,
@@ -75,13 +48,40 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 2,
+      "goals_against": 1,
+      "goals_for": 3,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "RiverDell-B09XB-Snider",
+      "wins": 1
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Kapur",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "409414",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09XB-Snider",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 3,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "HobUtd-B09XB-Kapur",
       "wins": 0
     },
     {

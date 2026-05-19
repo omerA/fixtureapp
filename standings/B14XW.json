@@ -1,6 +1,6 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-05-18T09:36:57.298549Z",
+  "scraped_at": "2026-05-19T08:57:30.842747Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -48,41 +48,14 @@
           "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 2,
+      "goals_against": 3,
+      "goals_for": 5,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "CougarSC-B14XW-Smith",
-      "wins": 0
-    },
-    {
-      "club": "Southside",
-      "coach": "Fernandez",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-17",
-          "game_number": "409449",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B14XW-Smith",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "COUGSC-OrangePark"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Southside-B14XW-Fernandez",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Warriors",
@@ -109,6 +82,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Warriors-B14XW-Mohorovich",
+      "wins": 0
+    },
+    {
+      "club": "Southside",
+      "coach": "Fernandez",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "409449",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14XW-Smith",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-OrangePark"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 5,
+      "goals_for": 3,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Southside-B14XW-Fernandez",
       "wins": 0
     }
   ]

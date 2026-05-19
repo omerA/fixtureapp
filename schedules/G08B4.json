@@ -3,20 +3,6 @@
   "games": [
     {
       "away_club": "Rutherford",
-      "away_score": null,
-      "away_team": "Rutherford-G08B4-Saracena",
-      "date": "2026-03-22",
-      "division": "G08B4",
-      "field": "To Be Scheduled-League",
-      "game_id": "409236",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-G08B4-Porrino",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Rutherford",
       "away_score": 4,
       "away_team": "Rutherford-G08B4-Saracena",
       "date": "2026-04-12",
@@ -185,16 +171,16 @@
     },
     {
       "away_club": "GlenRock",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "GlenRock-G08B4-LopezSerrato",
       "date": "2026-05-16",
       "division": "G08B4",
       "field": "Williams Field 4v4",
       "game_id": "406138",
       "home_club": "NMKnights",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "NMKnights-G08B4-Porrino",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "04:00 PM"
     },
     {
@@ -224,6 +210,20 @@
       "home_team": "Maroons-G08B4-Forsythe",
       "is_upcoming": false,
       "time": "06:00 PM"
+    },
+    {
+      "away_club": "Rutherford",
+      "away_score": null,
+      "away_team": "Rutherford-G08B4-Saracena",
+      "date": "2026-05-30",
+      "division": "G08B4",
+      "field": "Williams Field 4v4",
+      "game_id": "409236",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G08B4-Porrino",
+      "is_upcoming": true,
+      "time": "03:00 PM"
     },
     {
       "away_club": "NMKnights",
@@ -352,6 +352,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-05-18T09:45:17.723482Z",
+  "scraped_at": "2026-05-19T09:05:51.404797Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

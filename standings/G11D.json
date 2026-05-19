@@ -1,6 +1,6 @@
 {
   "division": "G11D",
-  "scraped_at": "2026-05-18T09:39:12.750607Z",
+  "scraped_at": "2026-05-19T08:59:46.681768Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -88,8 +88,8 @@
     {
       "club": "Rutherford",
       "coach": "Szalkiewicz",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-05-06",
@@ -147,6 +147,17 @@
           "venue_code": "RUTH-Tamblyn"
         },
         {
+          "date": "2026-05-18",
+          "game_number": "408616",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11D-Pardo",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "408621",
           "goals_against": 1,
@@ -159,11 +170,11 @@
         }
       ],
       "goal_diff": 18,
-      "goals_against": 9,
-      "goals_for": 27,
+      "goals_against": 11,
+      "goals_for": 29,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 16,
       "team_raw": "Rutherford-G11D-Szalkiewicz",
       "wins": 5
     },
@@ -312,8 +323,8 @@
     {
       "club": "Maywood",
       "coach": "Pardo",
-      "draws": 0,
-      "form": "WWW",
+      "draws": 1,
+      "form": "WWWD",
       "games": [
         {
           "date": "2026-04-19",
@@ -338,6 +349,17 @@
           "venue_code": "JC-MartucciFld"
         },
         {
+          "date": "2026-05-18",
+          "game_number": "408616",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G11D-Szalkiewicz",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "408625",
           "goals_against": 1,
@@ -350,11 +372,11 @@
         }
       ],
       "goal_diff": 11,
-      "goals_against": 5,
-      "goals_for": 16,
+      "goals_against": 7,
+      "goals_for": 18,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 10,
       "team_raw": "Maywood-G11D-Pardo",
       "wins": 3
     },

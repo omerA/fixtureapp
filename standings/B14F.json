@@ -1,6 +1,6 @@
 {
   "division": "B14F",
-  "scraped_at": "2026-05-19T08:57:25.407292Z",
+  "scraped_at": "2026-05-20T08:52:43.938225Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -182,7 +182,7 @@
       "club": "ST23",
       "coach": "Rosskamp",
       "draws": 1,
-      "form": "LLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-04-25",
@@ -240,6 +240,17 @@
           "venue_code": "ProspPk-Hofstra Park"
         },
         {
+          "date": "2026-05-19",
+          "game_number": "407716",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B14F-Salik",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "Bogota-FeigelFld"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "407721",
           "goals_against": 6,
@@ -251,14 +262,14 @@
           "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 16,
-      "goals_for": 24,
+      "goal_diff": 15,
+      "goals_against": 18,
+      "goals_for": 33,
       "losses": 2,
-      "played": 6,
-      "points": 10,
+      "played": 7,
+      "points": 13,
       "team_raw": "ST23-B14F-Rosskamp",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "ElmwoodPk",
@@ -335,7 +346,7 @@
       "club": "Paramus",
       "coach": "Salik",
       "draws": 1,
-      "form": "DLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -391,13 +402,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
+          "date": "2026-05-19",
+          "game_number": "407716",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B14F-Rosskamp",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "Bogota-FeigelFld"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 21,
-      "goals_for": 7,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -21,
+      "goals_against": 30,
+      "goals_for": 9,
+      "losses": 4,
+      "played": 6,
       "points": 4,
       "team_raw": "Paramus-B14F-Salik",
       "wins": 1

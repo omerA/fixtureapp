@@ -1,6 +1,6 @@
 {
   "division": "B12GB",
-  "scraped_at": "2026-05-19T08:56:19.202841Z",
+  "scraped_at": "2026-05-20T08:51:37.888184Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -286,7 +286,7 @@
       "club": "Montclair",
       "coach": "Spires",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -353,22 +353,33 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "WORANGE-LibertyMS"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406273",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12GB-Regan",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 14,
-      "goals_for": 15,
+      "goal_diff": 8,
+      "goals_against": 15,
+      "goals_for": 23,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "Montclair-B12GB-Spires",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Nutley",
       "coach": "Regan",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -435,13 +446,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406273",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12GB-Spires",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 25,
-      "goals_for": 16,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -16,
+      "goals_against": 33,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Nutley-B12GB-Regan",
       "wins": 2

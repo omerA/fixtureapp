@@ -1,6 +1,6 @@
 {
   "division": "B14A",
-  "scraped_at": "2026-05-19T08:57:07.253156Z",
+  "scraped_at": "2026-05-20T08:52:25.823823Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -182,7 +182,7 @@
       "club": "Maroons",
       "coach": "dePaula",
       "draws": 1,
-      "form": "WWLLD",
+      "form": "WLLDW",
       "games": [
         {
           "date": "2026-04-11",
@@ -249,16 +249,27 @@
           "result": "D",
           "time": "08:00 AM",
           "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406356",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B14A-Fabish",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": 1,
+      "goal_diff": 8,
       "goals_against": 13,
-      "goals_for": 14,
+      "goals_for": 21,
       "losses": 2,
-      "played": 6,
-      "points": 10,
+      "played": 7,
+      "points": 13,
       "team_raw": "Maroons-B14A-dePaula",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Vikings",
@@ -439,7 +450,7 @@
       "club": "Ajax",
       "coach": "Fabish",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-04-17",
@@ -506,13 +517,24 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406356",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-dePaula",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 21,
+      "goal_diff": -19,
+      "goals_against": 28,
       "goals_for": 9,
-      "losses": 5,
-      "played": 6,
+      "losses": 6,
+      "played": 7,
       "points": 1,
       "team_raw": "Ajax-B14A-Fabish",
       "wins": 0

@@ -1,14 +1,26 @@
 {
   "division": "B13XW",
-  "scraped_at": "2026-05-20T08:52:22.436954Z",
+  "scraped_at": "2026-05-21T08:54:39.799659Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dragons",
       "coach": "Neblock",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-20",
+          "game_number": "409448",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13XW-Jones",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
@@ -22,8 +34,20 @@
       "club": "GlenRidge",
       "coach": "Jones",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-20",
+          "game_number": "409448",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13XW-Neblock",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,

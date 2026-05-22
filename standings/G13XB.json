@@ -1,6 +1,6 @@
 {
   "division": "G13XB",
-  "scraped_at": "2026-05-21T08:58:26.607817Z",
+  "scraped_at": "2026-05-22T08:52:06.928689Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -48,41 +48,14 @@
           "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 1,
+      "goals_against": 3,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "Rutherford-G13XB-Zdon",
-      "wins": 0
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Scaturro",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-20",
-          "game_number": "409431",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G13XB-Zdon",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "WYNE-Alps3"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "WayneBG-G13XB-Scaturro",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "NMKnights",
@@ -109,6 +82,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "NMKnights-G13XB-Regas",
+      "wins": 0
+    },
+    {
+      "club": "WayneBG",
+      "coach": "Scaturro",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-20",
+          "game_number": "409431",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G13XB-Zdon",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "WYNE-Alps3"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 4,
+      "goals_for": 3,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "WayneBG-G13XB-Scaturro",
       "wins": 0
     }
   ]

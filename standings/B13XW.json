@@ -1,35 +1,8 @@
 {
   "division": "B13XW",
-  "scraped_at": "2026-05-21T08:54:39.799659Z",
+  "scraped_at": "2026-05-22T08:48:20.890302Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Dragons",
-      "coach": "Neblock",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-20",
-          "game_number": "409448",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B13XW-Jones",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "DRAG-WestwdHS"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dragons-B13XW-Neblock",
-      "wins": 0
-    },
     {
       "club": "GlenRidge",
       "coach": "Jones",
@@ -48,14 +21,14 @@
           "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 1,
+      "goals_against": 2,
+      "goals_for": 3,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "GlenRidge-B13XW-Jones",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "HobUtd",
@@ -85,6 +58,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "Rutherford-B13XW-Williams",
+      "wins": 0
+    },
+    {
+      "club": "Dragons",
+      "coach": "Neblock",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-20",
+          "game_number": "409448",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13XW-Jones",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 3,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Dragons-B13XW-Neblock",
       "wins": 0
     }
   ]

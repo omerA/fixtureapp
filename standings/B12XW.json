@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-05-22T08:47:49.730562Z",
+  "scraped_at": "2026-05-23T08:04:11.328900Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -58,6 +58,33 @@
       "wins": 1
     },
     {
+      "club": "Southside",
+      "coach": "Oscanoa",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-21",
+          "game_number": "409446",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B12XW-Velazquez",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "Haledon-Rec-Field"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 3,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Southside-B12XW-Oscanoa",
+      "wins": 1
+    },
+    {
       "club": "CougarUtd",
       "coach": "Camero",
       "draws": 0,
@@ -83,60 +110,6 @@
       "points": 3,
       "team_raw": "CougarUtd-B12XW-Camero",
       "wins": 1
-    },
-    {
-      "club": "SaddleBR",
-      "coach": "Velazquez",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-21",
-          "game_number": "409446",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B12XW-Oscanoa",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "Haledon-Rec-Field"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "SaddleBR-B12XW-Velazquez",
-      "wins": 0
-    },
-    {
-      "club": "Southside",
-      "coach": "Oscanoa",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-21",
-          "game_number": "409446",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B12XW-Velazquez",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "Haledon-Rec-Field"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Southside-B12XW-Oscanoa",
-      "wins": 0
     },
     {
       "club": "Emerson",
@@ -190,6 +163,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Dumont-B12XW-Burke",
+      "wins": 0
+    },
+    {
+      "club": "SaddleBR",
+      "coach": "Velazquez",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-21",
+          "game_number": "409446",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B12XW-Oscanoa",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "Haledon-Rec-Field"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 8,
+      "goals_for": 3,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "SaddleBR-B12XW-Velazquez",
       "wins": 0
     },
     {

@@ -1,6 +1,6 @@
 {
   "division": "G12F",
-  "scraped_at": "2026-05-26T09:08:32.442005Z",
+  "scraped_at": "2026-05-27T09:02:32.283300Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -193,7 +193,7 @@
       "club": "WestEssex",
       "coach": "Alexander",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -251,6 +251,17 @@
           "venue_code": "WYNE-ShaiShaknai"
         },
         {
+          "date": "2026-05-26",
+          "game_number": "408896",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G12F-Gedeon",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "COUGSC-Dehart2"
+        },
+        {
           "date": "2026-05-21",
           "game_number": "408903",
           "goals_against": 1,
@@ -262,14 +273,14 @@
           "venue_code": "WEssex-TOBeirne-9v9"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 15,
-      "goals_for": 12,
+      "goal_diff": -2,
+      "goals_against": 17,
+      "goals_for": 15,
       "losses": 2,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 12,
       "team_raw": "WestEssex-G12F-Alexander",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "HobUtd",
@@ -488,7 +499,7 @@
       "club": "CougarSC",
       "coach": "Gedeon",
       "draws": 2,
-      "form": "DWLLD",
+      "form": "WLLDL",
       "games": [
         {
           "date": "2026-05-02",
@@ -555,13 +566,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-05-26",
+          "game_number": "408896",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G12F-Alexander",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "COUGSC-Dehart2"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 19,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -5,
+      "goals_against": 22,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 7,
       "points": 5,
       "team_raw": "CougarSC-G12F-Gedeon",
       "wins": 1

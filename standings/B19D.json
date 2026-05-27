@@ -1,6 +1,6 @@
 {
   "division": "B19D",
-  "scraped_at": "2026-05-26T09:06:06.051728Z",
+  "scraped_at": "2026-05-27T09:00:21.783005Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -182,7 +182,7 @@
       "club": "Lakeland",
       "coach": "Vogel",
       "draws": 1,
-      "form": "WLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -218,6 +218,17 @@
           "venue_code": "EM-HSTurf1Full"
         },
         {
+          "date": "2026-05-26",
+          "game_number": "405151",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B19D-Davies",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "LKLND-AddicePrk"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "405155",
           "goals_against": 2,
@@ -240,20 +251,20 @@
           "venue_code": "BGFD-Vivyen"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 11,
-      "goals_for": 19,
+      "goal_diff": 9,
+      "goals_against": 15,
+      "goals_for": 24,
       "losses": 1,
-      "played": 5,
-      "points": 10,
+      "played": 6,
+      "points": 13,
       "team_raw": "Lakeland-B19D-Vogel",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Americans",
       "coach": "Davies",
       "draws": 0,
-      "form": "WWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-05-10",
@@ -289,6 +300,17 @@
           "venue_code": "AMER-LakeStTurf"
         },
         {
+          "date": "2026-05-26",
+          "game_number": "405151",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B19D-Vogel",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "LKLND-AddicePrk"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "405158",
           "goals_against": 8,
@@ -322,11 +344,11 @@
           "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 16,
-      "goals_for": 13,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -4,
+      "goals_against": 21,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 7,
       "points": 9,
       "team_raw": "Americans-B19D-Davies",
       "wins": 3

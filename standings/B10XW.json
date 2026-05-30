@@ -1,6 +1,6 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-05-29T09:01:51.531850Z",
+  "scraped_at": "2026-05-30T08:14:00.664002Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -61,7 +61,7 @@
       "club": "Rutherford",
       "coach": "Millar",
       "draws": 0,
-      "form": "W",
+      "form": "WL",
       "games": [
         {
           "date": "2026-04-29",
@@ -73,6 +73,17 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "409664",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B10XW-Paulose",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams7v7"
         }
       ],
       "goal_diff": 2,
@@ -88,7 +99,7 @@
       "club": "NMKnights",
       "coach": "Paulose",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-05-09",
@@ -99,6 +110,17 @@
           "opponent_raw": "WoodRidge-B10XW-Prior",
           "result": "W",
           "time": "06:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "409664",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10XW-Millar",
+          "result": "W",
+          "time": "06:00 PM",
           "venue_code": "NMilford-Williams7v7"
         }
       ],

@@ -1,6 +1,6 @@
 {
   "division": "B16A",
-  "scraped_at": "2026-05-30T08:17:02.341096Z",
+  "scraped_at": "2026-05-31T08:36:15.548869Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -179,10 +179,92 @@
       "wins": 5
     },
     {
+      "club": "HobUtd",
+      "coach": "Fletcher",
+      "draws": 0,
+      "form": "WWLWW",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "407352",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B16A-Morrow",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407355",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B16A-Neibart",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "407359",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B16A-Dodwell",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "407366",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B16A-Uzelac",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407372",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B16A-Car",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "407376",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B16A-Palau",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "RDGFLDFC-Willis"
+        }
+      ],
+      "goal_diff": 16,
+      "goals_against": 6,
+      "goals_for": 22,
+      "losses": 1,
+      "played": 6,
+      "points": 15,
+      "team_raw": "HobUtd-B16A-Fletcher",
+      "wins": 5
+    },
+    {
       "club": "NoValley",
       "coach": "Uzelac",
       "draws": 1,
-      "form": "WLWWD",
+      "form": "LWWDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -229,6 +311,17 @@
           "venue_code": "WYNE-ValleyHSVarsity"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "407366",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B16A-Fletcher",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "407368",
           "goals_against": 1,
@@ -251,84 +344,13 @@
           "venue_code": "WALD-HSTurf-1"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 6,
+      "goal_diff": 8,
+      "goals_against": 10,
       "goals_for": 18,
-      "losses": 1,
-      "played": 6,
+      "losses": 2,
+      "played": 7,
       "points": 13,
       "team_raw": "NoValley-B16A-Uzelac",
-      "wins": 4
-    },
-    {
-      "club": "HobUtd",
-      "coach": "Fletcher",
-      "draws": 0,
-      "form": "WWWLW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "407352",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B16A-Morrow",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407355",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B16A-Neibart",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "407359",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B16A-Dodwell",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407372",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B16A-Car",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NoBergen-HudsonCtyPk"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "407376",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B16A-Palau",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "RDGFLDFC-Willis"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 6,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 5,
-      "points": 12,
-      "team_raw": "HobUtd-B16A-Fletcher",
       "wins": 4
     },
     {

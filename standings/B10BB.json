@@ -1,84 +1,13 @@
 {
   "division": "B10BB",
-  "scraped_at": "2026-05-30T08:13:16.098672Z",
+  "scraped_at": "2026-05-31T08:32:27.080664Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Force",
-      "coach": "Darling",
-      "draws": 2,
-      "form": "DDWWW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408239",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B10BB-Heydt",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408244",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B10BB-Meyrowitz",
-          "result": "D",
-          "time": "03:45 PM",
-          "venue_code": "MONT-BrookdaleStadS"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408250",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B10BB-Contreras",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408251",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-B10BB-Martel",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408254",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B10BB-Heydt",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "RDBH-DPAC North"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 7,
-      "goals_for": 19,
-      "losses": 0,
-      "played": 5,
-      "points": 11,
-      "team_raw": "Force-B10BB-Darling",
-      "wins": 3
-    },
     {
       "club": "WorldClassFC",
       "coach": "Contreras",
       "draws": 2,
-      "form": "DLWDW",
+      "form": "LWDWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -145,22 +74,115 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408264",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10BB-Darling",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 9,
-      "goals_for": 15,
+      "goal_diff": 7,
+      "goals_against": 11,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 7,
+      "points": 14,
+      "team_raw": "WorldClassFC-B10BB-Contreras",
+      "wins": 4
+    },
+    {
+      "club": "Force",
+      "coach": "Darling",
+      "draws": 2,
+      "form": "DWWWL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "408239",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10BB-Heydt",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408244",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10BB-Meyrowitz",
+          "result": "D",
+          "time": "03:45 PM",
+          "venue_code": "MONT-BrookdaleStadS"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408250",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B10BB-Contreras",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408251",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B10BB-Martel",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408254",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10BB-Heydt",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408264",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B10BB-Contreras",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 10,
+      "goals_for": 21,
       "losses": 1,
       "played": 6,
       "points": 11,
-      "team_raw": "WorldClassFC-B10BB-Contreras",
+      "team_raw": "Force-B10BB-Darling",
       "wins": 3
     },
     {
       "club": "RiverDell",
       "coach": "Heydt",
       "draws": 1,
-      "form": "DWWL",
+      "form": "DWWLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -185,6 +207,17 @@
           "venue_code": "UNIONCITY-Marti"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "408249",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B10BB-Ventura",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "LF--MerhoffSmall2"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "408252",
           "goals_against": 2,
@@ -207,11 +240,11 @@
           "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 11,
-      "goals_for": 12,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": 0,
+      "goals_against": 14,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 5,
       "points": 7,
       "team_raw": "RiverDell-B10BB-Heydt",
       "wins": 2
@@ -384,7 +417,7 @@
       "club": "Fairview",
       "coach": "Ventura",
       "draws": 1,
-      "form": "WWLDL",
+      "form": "WLDLW",
       "games": [
         {
           "date": "2026-05-09",
@@ -420,6 +453,17 @@
           "venue_code": "LF--MerhoffSmall2"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "408249",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10BB-Heydt",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "LF--MerhoffSmall2"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "408253",
           "goals_against": 1,
@@ -442,14 +486,14 @@
           "venue_code": "LF--MerhoffSmall2"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 16,
-      "goals_for": 12,
+      "goal_diff": -3,
+      "goals_against": 18,
+      "goals_for": 15,
       "losses": 2,
-      "played": 5,
-      "points": 7,
+      "played": 6,
+      "points": 10,
       "team_raw": "Fairview-B10BB-Ventura",
-      "wins": 2
+      "wins": 3
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-05-30T08:15:53.496993Z",
+  "scraped_at": "2026-05-31T08:35:02.569541Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -9,6 +9,17 @@
       "draws": 1,
       "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "404978",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13D-Jones",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "AMER-Crestwd Upper"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404984",
@@ -76,14 +87,14 @@
           "venue_code": "AMER-Crestwd Lower"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 5,
-      "goals_for": 22,
+      "goal_diff": 18,
+      "goals_against": 6,
+      "goals_for": 24,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "Americans-B13D-Bonham",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Rutherford",
@@ -346,7 +357,7 @@
       "club": "GlenRidge",
       "coach": "Jones",
       "draws": 1,
-      "form": "WLDWW",
+      "form": "LDWWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -358,6 +369,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404978",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Bonham",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "AMER-Crestwd Upper"
         },
         {
           "date": "2026-04-18",
@@ -404,11 +426,11 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 8,
-      "goals_for": 19,
-      "losses": 1,
-      "played": 5,
+      "goal_diff": 10,
+      "goals_against": 10,
+      "goals_for": 20,
+      "losses": 2,
+      "played": 6,
       "points": 10,
       "team_raw": "GlenRidge-B13D-Jones",
       "wins": 3

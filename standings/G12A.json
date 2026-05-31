@@ -1,6 +1,6 @@
 {
   "division": "G12A",
-  "scraped_at": "2026-05-30T08:19:12.676877Z",
+  "scraped_at": "2026-05-31T08:38:26.037357Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,7 +100,7 @@
       "club": "NMKnights",
       "coach": "McAndrews",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -112,6 +112,17 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408716",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G12A-Crespo",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
         },
         {
           "date": "2026-05-02",
@@ -170,10 +181,10 @@
         }
       ],
       "goal_diff": 4,
-      "goals_against": 3,
-      "goals_for": 7,
+      "goals_against": 4,
+      "goals_for": 8,
       "losses": 1,
-      "played": 6,
+      "played": 7,
       "points": 6,
       "team_raw": "NMKnights-G12A-McAndrews",
       "wins": 2
@@ -313,8 +324,19 @@
       "club": "BLMFLD",
       "coach": "Crespo",
       "draws": 0,
-      "form": "LWDLL",
+      "form": "WDLLL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "408716",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12A-McAndrews",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        },
         {
           "date": "2026-03-29",
           "game_number": "408719",
@@ -383,10 +405,10 @@
         }
       ],
       "goal_diff": -11,
-      "goals_against": 15,
-      "goals_for": 4,
+      "goals_against": 16,
+      "goals_for": 5,
       "losses": 4,
-      "played": 6,
+      "played": 7,
       "points": 0,
       "team_raw": "BLMFLD-G12A-Crespo",
       "wins": 0

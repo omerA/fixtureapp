@@ -1,8 +1,46 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-05-30T08:14:00.664002Z",
+  "scraped_at": "2026-05-31T08:33:11.488023Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "NMKnights",
+      "coach": "Paulose",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "409437",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10XW-Prior",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "409664",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10XW-Millar",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 8,
+      "goals_for": 14,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "NMKnights-B10XW-Paulose",
+      "wins": 2
+    },
     {
       "club": "WestEssex",
       "coach": "Pajuelo",
@@ -86,51 +124,13 @@
           "venue_code": "NMilford-Williams7v7"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 2,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
+      "goal_diff": -3,
+      "goals_against": 10,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "Rutherford-B10XW-Millar",
-      "wins": 1
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Paulose",
-      "draws": 0,
-      "form": "WW",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "409437",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B10XW-Prior",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-05-29",
-          "game_number": "409664",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10XW-Millar",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 5,
-      "goals_for": 6,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "NMKnights-B10XW-Paulose",
       "wins": 1
     },
     {

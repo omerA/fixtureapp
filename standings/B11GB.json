@@ -1,6 +1,6 @@
 {
   "division": "B11GB",
-  "scraped_at": "2026-05-30T08:14:38.983961Z",
+  "scraped_at": "2026-05-31T08:33:47.961378Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -346,7 +346,7 @@
       "club": "Belleville",
       "coach": "Scotland",
       "draws": 2,
-      "form": "DLLDL",
+      "form": "LLDLW",
       "games": [
         {
           "date": "2026-05-09",
@@ -404,6 +404,17 @@
           "venue_code": "BELLE-BellePkSm"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "407478",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11GB-Bechara",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "407481",
           "goals_against": 5,
@@ -415,20 +426,20 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 24,
-      "goals_for": 13,
+      "goal_diff": -10,
+      "goals_against": 26,
+      "goals_for": 16,
       "losses": 4,
-      "played": 6,
-      "points": 2,
+      "played": 7,
+      "points": 5,
       "team_raw": "Belleville-B11GB-Scotland",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "WayneBG",
       "coach": "Bechara",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -475,6 +486,17 @@
           "venue_code": "WEssex-Volunteers"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "407478",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11GB-Scotland",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "407480",
           "goals_against": 2,
@@ -486,11 +508,11 @@
           "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 21,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -15,
+      "goals_against": 24,
+      "goals_for": 9,
+      "losses": 5,
+      "played": 6,
       "points": 1,
       "team_raw": "WayneBG-B11GB-Bechara",
       "wins": 0

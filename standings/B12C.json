@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-05-30T08:15:03.353086Z",
+  "scraped_at": "2026-05-31T08:34:12.248500Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,8 +100,19 @@
       "club": "Mahwah",
       "coach": "Fitzsimmons",
       "draws": 1,
-      "form": "LWWWD",
+      "form": "WWWDW",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "408381",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408385",
@@ -169,14 +180,14 @@
           "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 11,
-      "goals_for": 27,
+      "goal_diff": 19,
+      "goals_against": 14,
+      "goals_for": 33,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "Mahwah-B12C-Fitzsimmons",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Dragons",
@@ -521,8 +532,19 @@
       "club": "NoRockland",
       "coach": "Alexander",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "408381",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408384",
@@ -579,11 +601,11 @@
           "venue_code": "NY-NR-NRSA-3"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 20,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -9,
+      "goals_against": 26,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "NoRockland-B12C-Alexander",
       "wins": 2

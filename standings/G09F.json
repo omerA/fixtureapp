@@ -1,8 +1,101 @@
 {
   "division": "G09F",
-  "scraped_at": "2026-05-30T08:18:00.565205Z",
+  "scraped_at": "2026-05-31T08:37:14.206223Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WestEssex",
+      "coach": "Sevilla",
+      "draws": 0,
+      "form": "WWWLW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "406037",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G09F-Oscanoa",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406040",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09F-DiClemente",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406044",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09F-Angotti",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406051",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09F-Chang",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "406058",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09F-Valera",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "406060",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09F-Hicks",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406067",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G09F-Mulkeen",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        }
+      ],
+      "goal_diff": 17,
+      "goals_against": 9,
+      "goals_for": 26,
+      "losses": 1,
+      "played": 7,
+      "points": 18,
+      "team_raw": "WestEssex-G09F-Sevilla",
+      "wins": 6
+    },
     {
       "club": "Secaucus",
       "coach": "Sehirli",
@@ -95,88 +188,6 @@
       "points": 18,
       "team_raw": "Secaucus-G09F-Sehirli",
       "wins": 6
-    },
-    {
-      "club": "WestEssex",
-      "coach": "Sevilla",
-      "draws": 0,
-      "form": "WWWWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "406037",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G09F-Oscanoa",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406040",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G09F-DiClemente",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "WEssex-Volunteers"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406044",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G09F-Angotti",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406051",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G09F-Chang",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "WEssex-Volunteers"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "406058",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09F-Valera",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406067",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G09F-Mulkeen",
-          "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "SS-FaberTurfSml"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 8,
-      "goals_for": 20,
-      "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "WestEssex-G09F-Sevilla",
-      "wins": 5
     },
     {
       "club": "Tenafly",
@@ -849,7 +860,7 @@
       "club": "Maywood",
       "coach": "Hicks",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -863,6 +874,17 @@
           "venue_code": "MAYWOOD-MemPark 7v7"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "406060",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G09F-Sevilla",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406068",
           "goals_against": 7,
@@ -874,11 +896,11 @@
           "venue_code": "MAYWOOD-MemorialPkSm"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 14,
-      "goals_for": 5,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -14,
+      "goals_against": 20,
+      "goals_for": 6,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "Maywood-G09F-Hicks",
       "wins": 0

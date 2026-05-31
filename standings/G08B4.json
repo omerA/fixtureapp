@@ -1,13 +1,13 @@
 {
   "division": "G08B4",
-  "scraped_at": "2026-05-30T08:17:29.417315Z",
+  "scraped_at": "2026-05-31T08:36:43.175601Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Rutherford",
       "coach": "Saracena",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-05-17",
@@ -63,22 +63,33 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "RUTH-Tamblyn-4v4"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409236",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G08B4-Porrino",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
       "goal_diff": 14,
-      "goals_against": 16,
-      "goals_for": 30,
+      "goals_against": 18,
+      "goals_for": 32,
       "losses": 0,
-      "played": 5,
-      "points": 15,
+      "played": 6,
+      "points": 16,
       "team_raw": "Rutherford-G08B4-Saracena",
       "wins": 5
     },
     {
       "club": "NMKnights",
       "coach": "Porrino",
-      "draws": 0,
-      "form": "WLLWW",
+      "draws": 1,
+      "form": "LLWWD",
       "games": [
         {
           "date": "2026-05-17",
@@ -145,14 +156,25 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "SS-Panther"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409236",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G08B4-Saracena",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
       "goal_diff": 22,
-      "goals_against": 14,
-      "goals_for": 36,
+      "goals_against": 16,
+      "goals_for": 38,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 13,
       "team_raw": "NMKnights-G08B4-Porrino",
       "wins": 4
     },

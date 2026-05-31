@@ -1,8 +1,101 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-05-30T08:15:18.818531Z",
+  "scraped_at": "2026-05-31T08:34:27.947305Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "RiverDell",
+      "coach": "strasser",
+      "draws": 0,
+      "form": "WWWLW",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "405557",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Aschenbrand",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405566",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12F-Amaya",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405572",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12F-Hernandez",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "405574",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12F-Pereira",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405582",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12F-Drumgoole",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-04-22",
+          "game_number": "405583",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12F-DeCarlo",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405588",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B12F-Fischer",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "RDBH-DPAC South"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 14,
+      "goals_for": 26,
+      "losses": 1,
+      "played": 7,
+      "points": 18,
+      "team_raw": "RiverDell-B12F-strasser",
+      "wins": 6
+    },
     {
       "club": "Maroons",
       "coach": "Gillies",
@@ -179,88 +272,6 @@
       "wins": 5
     },
     {
-      "club": "RiverDell",
-      "coach": "strasser",
-      "draws": 0,
-      "form": "WWWWL",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "405557",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12F-Aschenbrand",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405566",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12F-Amaya",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "WYNE-ShaiShaknai"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405572",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B12F-Hernandez",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "RDBH-DPAC South"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405582",
-          "goals_against": 3,
-          "goals_for": 6,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B12F-Drumgoole",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RYSA-Heights"
-        },
-        {
-          "date": "2026-04-22",
-          "game_number": "405583",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12F-DeCarlo",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405588",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B12F-Fischer",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "RDBH-DPAC South"
-        }
-      ],
-      "goal_diff": 11,
-      "goals_against": 11,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "RiverDell-B12F-strasser",
-      "wins": 5
-    },
-    {
       "club": "Vikings",
       "coach": "Aschenbrand",
       "draws": 2,
@@ -414,6 +425,88 @@
       "wins": 3
     },
     {
+      "club": "WayneBG",
+      "coach": "Amaya",
+      "draws": 0,
+      "form": "LWLWW",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405553",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12F-Kerolous",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405566",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-strasser",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405573",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12F-Hernandez",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405581",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12F-Pereira",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405584",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12F-Drumgoole",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405592",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12F-DeCarlo",
+          "result": "W",
+          "time": "08:15 AM",
+          "venue_code": "WYNE-Alps2"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 14,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 6,
+      "points": 9,
+      "team_raw": "WayneBG-B12F-Amaya",
+      "wins": 3
+    },
+    {
       "club": "Teaneck",
       "coach": "Hernandez",
       "draws": 2,
@@ -510,7 +603,7 @@
       "club": "Hotspur",
       "coach": "Pereira",
       "draws": 1,
-      "form": "DLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -557,6 +650,17 @@
           "venue_code": "NoVAL-NorthvaleVet"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "405574",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-strasser",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
           "date": "2026-05-03",
           "game_number": "405581",
           "goals_against": 0,
@@ -579,11 +683,11 @@
           "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 15,
-      "goals_for": 10,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -6,
+      "goals_against": 19,
+      "goals_for": 13,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "Hotspur-B12F-Pereira",
       "wins": 2
@@ -592,8 +696,19 @@
       "club": "Rutherford",
       "coach": "Kerolous",
       "draws": 1,
-      "form": "LDWLW",
+      "form": "DWLWL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405553",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12F-Amaya",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
         {
           "date": "2026-03-29",
           "game_number": "405559",
@@ -661,84 +776,13 @@
           "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 22,
+      "goal_diff": -3,
+      "goals_against": 23,
       "goals_for": 20,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "Rutherford-B12F-Kerolous",
-      "wins": 2
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Amaya",
-      "draws": 0,
-      "form": "LLWLW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "405566",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12F-strasser",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "WYNE-ShaiShaknai"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405573",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B12F-Hernandez",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405581",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B12F-Pereira",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WYNE-ShaiShaknai"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405584",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B12F-Drumgoole",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "RYSA-Heights"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405592",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12F-DeCarlo",
-          "result": "W",
-          "time": "08:15 AM",
-          "venue_code": "WYNE-Alps2"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 14,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 5,
-      "points": 6,
-      "team_raw": "WayneBG-B12F-Amaya",
       "wins": 2
     },
     {

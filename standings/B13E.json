@@ -1,6 +1,6 @@
 {
   "division": "B13E",
-  "scraped_at": "2026-05-30T08:15:57.658615Z",
+  "scraped_at": "2026-05-31T08:35:06.699704Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,8 +100,19 @@
       "club": "RIDGFLD",
       "coach": "Romero",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405031",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13E-Gudovich",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405034",
@@ -169,14 +180,14 @@
           "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": 24,
+      "goal_diff": 31,
       "goals_against": 11,
-      "goals_for": 35,
+      "goals_for": 42,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "RIDGFLD-B13E-Romero",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "GlenRock",
@@ -343,6 +354,99 @@
       "wins": 3
     },
     {
+      "club": "Montclair",
+      "coach": "Reiffe",
+      "draws": 0,
+      "form": "LWLLW",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "405027",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B13E-PierreJoseph",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "405036",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B13E-Morales",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405039",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13E-Pereda",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405467",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B13E-Vinciguerra",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405606",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13E-Gudovich",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405612",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B13E-McLean",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405616",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B13E-Romero",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 25,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 7,
+      "points": 9,
+      "team_raw": "Montclair-B13E-Reiffe",
+      "wins": 3
+    },
+    {
       "club": "WoodRidge",
       "coach": "McLean",
       "draws": 0,
@@ -428,8 +532,19 @@
       "club": "FairLawnAllSports",
       "coach": "Gudovich",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405031",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B13E-Romero",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405035",
@@ -508,11 +623,11 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 33,
+      "goal_diff": -24,
+      "goals_against": 40,
       "goals_for": 16,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "FairLawnAllSports-B13E-Gudovich",
       "wins": 3
@@ -597,88 +712,6 @@
       "played": 6,
       "points": 7,
       "team_raw": "Tenafly-B13E-Pereda",
-      "wins": 2
-    },
-    {
-      "club": "Montclair",
-      "coach": "Reiffe",
-      "draws": 0,
-      "form": "LLWLL",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "405027",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B13E-PierreJoseph",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405039",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B13E-Pereda",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405467",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B13E-Vinciguerra",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405606",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13E-Gudovich",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405612",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B13E-McLean",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405616",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B13E-Romero",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 23,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 6,
-      "points": 6,
-      "team_raw": "Montclair-B13E-Reiffe",
       "wins": 2
     },
     {
@@ -781,6 +814,17 @@
           "venue_code": "SaddleBR-VeteransFld"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "405036",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B13E-Reiffe",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        },
+        {
           "date": "2026-04-19",
           "game_number": "405041",
           "goals_against": 8,
@@ -858,11 +902,11 @@
           "venue_code": "SaddleBR-SmithSchool"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 38,
-      "goals_for": 13,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -27,
+      "goals_against": 42,
+      "goals_for": 15,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "SaddleBR-B13E-Morales",
       "wins": 1

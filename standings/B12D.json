@@ -1,6 +1,6 @@
 {
   "division": "B12D",
-  "scraped_at": "2026-05-30T08:15:07.711438Z",
+  "scraped_at": "2026-05-31T08:34:16.701913Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -190,10 +190,92 @@
       "wins": 4
     },
     {
+      "club": "RIDGFLD",
+      "coach": "Romero",
+      "draws": 0,
+      "form": "WLWWW",
+      "games": [
+        {
+          "date": "2026-05-03",
+          "game_number": "404909",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12D-Shalom",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "FL-Brookdale"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "404915",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12D-Camero",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404917",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12D-Perin",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408424",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12D-Molisani",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "408431",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12D-Mullen",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408438",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12D-RicardoVaca",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "JC-Gateway-New"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 16,
+      "goals_for": 22,
+      "losses": 2,
+      "played": 6,
+      "points": 12,
+      "team_raw": "RIDGFLD-B12D-Romero",
+      "wins": 4
+    },
+    {
       "club": "Verona",
       "coach": "Molisani",
       "draws": 3,
-      "form": "DLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-05-03",
@@ -227,6 +309,17 @@
           "result": "W",
           "time": "09:45 AM",
           "venue_code": "VERONA-WhitehorneMSL"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408424",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B12D-Romero",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "VERONA-Centennial"
         },
         {
           "date": "2026-03-29",
@@ -273,11 +366,11 @@
           "venue_code": "VERONA-Freedom1"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 15,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 6,
+      "goals_against": 18,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 8,
       "points": 12,
       "team_raw": "Verona-B12D-Molisani",
       "wins": 3
@@ -285,8 +378,8 @@
     {
       "club": "CougarUtd",
       "coach": "Camero",
-      "draws": 2,
-      "form": "WDWLW",
+      "draws": 3,
+      "form": "DWLWD",
       "games": [
         {
           "date": "2026-05-03",
@@ -333,6 +426,17 @@
           "venue_code": "DRAG-Westvaleback9v9"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "408429",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12D-Nguyen",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
           "date": "2026-04-19",
           "game_number": "408440",
           "goals_against": 2,
@@ -356,84 +460,106 @@
         }
       ],
       "goal_diff": 10,
-      "goals_against": 14,
-      "goals_for": 24,
+      "goals_against": 16,
+      "goals_for": 26,
       "losses": 1,
-      "played": 6,
-      "points": 11,
+      "played": 7,
+      "points": 12,
       "team_raw": "CougarUtd-B12D-Camero",
       "wins": 3
     },
     {
-      "club": "RIDGFLD",
-      "coach": "Romero",
-      "draws": 0,
-      "form": "LWLWW",
+      "club": "Montclair",
+      "coach": "Nguyen",
+      "draws": 2,
+      "form": "LLDLD",
       "games": [
         {
           "date": "2026-05-03",
-          "game_number": "404909",
-          "goals_against": 2,
+          "game_number": "404910",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12D-Mueller",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "404913",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12D-Molisani",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "404921",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12D-Mullen",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "404936",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B12D-Pagano",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "408422",
+          "goals_against": 4,
           "goals_for": 1,
           "opponent_club": "FairLawnAllSports",
           "opponent_raw": "FairLawnAllSports-B12D-Shalom",
           "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "FL-Brookdale"
+          "time": "02:30 PM",
+          "venue_code": "MONT-BrookdaleD"
         },
         {
-          "date": "2026-05-10",
-          "game_number": "404915",
-          "goals_against": 4,
-          "goals_for": 5,
+          "date": "2026-05-30",
+          "game_number": "408429",
+          "goals_against": 2,
+          "goals_for": 2,
           "opponent_club": "CougarUtd",
           "opponent_raw": "CougarUtd-B12D-Camero",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "RDGFLDFC-Willis"
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "COUGUTD-Front"
         },
         {
-          "date": "2026-05-17",
-          "game_number": "404917",
-          "goals_against": 1,
-          "goals_for": 6,
+          "date": "2026-04-12",
+          "game_number": "408435",
+          "goals_against": 2,
+          "goals_for": 9,
           "opponent_club": "Dragons",
           "opponent_raw": "Dragons-B12D-Perin",
           "result": "W",
-          "time": "12:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "408431",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12D-Mullen",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408438",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B12D-RicardoVaca",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "JC-Gateway-New"
+          "time": "01:15 PM",
+          "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 14,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 5,
-      "points": 9,
-      "team_raw": "RIDGFLD-B12D-Romero",
-      "wins": 3
+      "goal_diff": 7,
+      "goals_against": 17,
+      "goals_for": 24,
+      "losses": 3,
+      "played": 7,
+      "points": 8,
+      "team_raw": "Montclair-B12D-Nguyen",
+      "wins": 2
     },
     {
       "club": "WoodRidge",
@@ -518,85 +644,96 @@
       "wins": 2
     },
     {
-      "club": "Montclair",
-      "coach": "Nguyen",
+      "club": "Dragons",
+      "coach": "Perin",
       "draws": 1,
-      "form": "WLLDL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-05-03",
-          "game_number": "404910",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B12D-Mueller",
-          "result": "D",
-          "time": "06:45 PM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "404913",
-          "goals_against": 4,
-          "goals_for": 2,
+          "game_number": "404911",
+          "goals_against": 2,
+          "goals_for": 4,
           "opponent_club": "Verona",
           "opponent_raw": "Verona-B12D-Molisani",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "VERONA-Freedom1"
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         },
         {
-          "date": "2026-04-25",
-          "game_number": "404921",
-          "goals_against": 4,
-          "goals_for": 2,
+          "date": "2026-05-09",
+          "game_number": "404912",
+          "goals_against": 2,
+          "goals_for": 0,
           "opponent_club": "WayneBG",
           "opponent_raw": "WayneBG-B12D-Mullen",
           "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "MONT-GlenfldPk9v9"
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
         },
         {
-          "date": "2026-04-18",
-          "game_number": "404936",
-          "goals_against": 0,
-          "goals_for": 7,
+          "date": "2026-05-17",
+          "game_number": "404917",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B12D-Romero",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404929",
+          "goals_against": 1,
+          "goals_for": 3,
           "opponent_club": "Americans",
           "opponent_raw": "Americans-B12D-Pagano",
           "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "AMER-Presentation"
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         },
         {
-          "date": "2026-04-18",
-          "game_number": "408422",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B12D-Shalom",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "MONT-BrookdaleD"
+          "date": "2026-04-11",
+          "game_number": "408426",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12D-Camero",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         },
         {
           "date": "2026-04-12",
           "game_number": "408435",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B12D-Perin",
-          "result": "W",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12D-Nguyen",
+          "result": "L",
           "time": "01:15 PM",
           "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408443",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12D-Mueller",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 15,
-      "goals_for": 22,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -12,
+      "goals_against": 26,
+      "goals_for": 14,
+      "losses": 4,
+      "played": 7,
       "points": 7,
-      "team_raw": "Montclair-B12D-Nguyen",
+      "team_raw": "Dragons-B12D-Perin",
       "wins": 2
     },
     {
@@ -696,7 +833,7 @@
       "club": "Americans",
       "coach": "Pagano",
       "draws": 1,
-      "form": "LLDLW",
+      "form": "LDLWL",
       "games": [
         {
           "date": "2026-04-25",
@@ -708,6 +845,17 @@
           "result": "D",
           "time": "01:30 PM",
           "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404929",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12D-Perin",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         },
         {
           "date": "2026-04-18",
@@ -754,95 +902,13 @@
           "venue_code": "AMER-Presentation"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 17,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 5,
-      "points": 4,
-      "team_raw": "Americans-B12D-Pagano",
-      "wins": 1
-    },
-    {
-      "club": "Dragons",
-      "coach": "Perin",
-      "draws": 1,
-      "form": "LLWLL",
-      "games": [
-        {
-          "date": "2026-05-03",
-          "game_number": "404911",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B12D-Molisani",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "404912",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12D-Mullen",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "404917",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B12D-Romero",
-          "result": "L",
-          "time": "12:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "408426",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B12D-Camero",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408435",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12D-Nguyen",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408443",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B12D-Mueller",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        }
-      ],
       "goal_diff": -14,
-      "goals_against": 25,
-      "goals_for": 11,
+      "goals_against": 20,
+      "goals_for": 6,
       "losses": 4,
       "played": 6,
       "points": 4,
-      "team_raw": "Dragons-B12D-Perin",
+      "team_raw": "Americans-B12D-Pagano",
       "wins": 1
     },
     {

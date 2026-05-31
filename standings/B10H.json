@@ -1,6 +1,6 @@
 {
   "division": "B10H",
-  "scraped_at": "2026-05-30T08:13:49.406814Z",
+  "scraped_at": "2026-05-31T08:33:00.488851Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -622,10 +622,103 @@
       "wins": 3
     },
     {
+      "club": "Hotspur",
+      "coach": "Herbst",
+      "draws": 0,
+      "form": "LLLWW",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "407224",
+          "goals_against": 6,
+          "goals_for": 8,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10H-GuevaraFuentes",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "ARS-Fieldstone3"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "407230",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10H-Capp",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407236",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B10H-Preciado",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "TEANECK-VoteeSoccerN"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407239",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B10H-Patel",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407247",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10H-Grados",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407251",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10H-Nakashian",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "407258",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B10H-Alaya",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "LKLND-Hagstrom"
+        }
+      ],
+      "goal_diff": -12,
+      "goals_against": 31,
+      "goals_for": 19,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "Hotspur-B10H-Herbst",
+      "wins": 2
+    },
+    {
       "club": "Lakeland",
       "coach": "Alaya",
       "draws": 1,
-      "form": "DLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-05-18",
@@ -683,6 +776,17 @@
           "venue_code": "AMER-WestMaple"
         },
         {
+          "date": "2026-05-29",
+          "game_number": "407258",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10H-Herbst",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "LKLND-Hagstrom"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "407261",
           "goals_against": 0,
@@ -694,92 +798,43 @@
           "venue_code": "SS-FaberLowSouth"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 28,
-      "goals_for": 18,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -17,
+      "goals_against": 36,
+      "goals_for": 19,
+      "losses": 5,
+      "played": 7,
       "points": 4,
       "team_raw": "Lakeland-B10H-Alaya",
       "wins": 1
     },
     {
-      "club": "Hotspur",
-      "coach": "Herbst",
-      "draws": 0,
-      "form": "LLLLL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "407230",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10H-Capp",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407236",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B10H-Preciado",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "TEANECK-VoteeSoccerN"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407239",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B10H-Patel",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407247",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B10H-Grados",
-          "result": "L",
-          "time": "10:15 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407251",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10H-Nakashian",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "HOT-Smith"
-        }
-      ],
-      "goal_diff": -21,
-      "goals_against": 24,
-      "goals_for": 3,
-      "losses": 5,
-      "played": 5,
-      "points": 0,
-      "team_raw": "Hotspur-B10H-Herbst",
-      "wins": 0
-    },
-    {
       "club": "Arsenal",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLWL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "407224",
+          "goals_against": 8,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10H-Herbst",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "ARS-Fieldstone3"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "407231",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10H-Ginsberg",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "ARS-Fieldstone3"
+        },
         {
           "date": "2026-04-12",
           "game_number": "407237",
@@ -836,14 +891,14 @@
           "venue_code": "ARS-MemParkRidge3Sm"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 30,
-      "goals_for": 8,
-      "losses": 5,
-      "played": 5,
-      "points": 0,
+      "goal_diff": -17,
+      "goals_against": 41,
+      "goals_for": 24,
+      "losses": 6,
+      "played": 7,
+      "points": 3,
       "team_raw": "Arsenal-B10H-GuevaraFuentes",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "GlenRock",
@@ -861,6 +916,17 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "407231",
+          "goals_against": 10,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10H-GuevaraFuentes",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "ARS-Fieldstone3"
         },
         {
           "date": "2026-04-22",
@@ -918,11 +984,11 @@
           "venue_code": "SS-FaberLowSouth"
         }
       ],
-      "goal_diff": -39,
-      "goals_against": 44,
-      "goals_for": 5,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -46,
+      "goals_against": 54,
+      "goals_for": 8,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "GlenRock-B10H-Ginsberg",
       "wins": 0

@@ -1,13 +1,13 @@
 {
   "division": "G19C",
-  "scraped_at": "2026-05-30T08:20:37.470977Z",
+  "scraped_at": "2026-05-31T08:39:50.204028Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WorldClassFC",
       "coach": "Contreras",
       "draws": 1,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -74,16 +74,76 @@
           "result": "W",
           "time": "05:45 PM",
           "venue_code": "NY-WC-Field5"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409319",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G19C-Finn",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 27,
-      "goals_against": 3,
+      "goal_diff": 24,
+      "goals_against": 6,
       "goals_for": 30,
-      "losses": 0,
-      "played": 6,
+      "losses": 1,
+      "played": 7,
       "points": 16,
       "team_raw": "WorldClassFC-G19C-Contreras",
       "wins": 5
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Finn",
+      "draws": 0,
+      "form": "WWW",
+      "games": [
+        {
+          "date": "2026-04-19",
+          "game_number": "409190",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G19C-Egoavil",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409208",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-G19C-Rodriguez",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409319",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G19C-Contreras",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "SS-LowerHS"
+        }
+      ],
+      "goal_diff": 14,
+      "goals_against": 1,
+      "goals_for": 15,
+      "losses": 0,
+      "played": 3,
+      "points": 9,
+      "team_raw": "GlenRock-G19C-Finn",
+      "wins": 3
     },
     {
       "club": "Bergenfield",
@@ -225,44 +285,6 @@
       "played": 5,
       "points": 7,
       "team_raw": "AYSOBergen-G19C-Zeigler",
-      "wins": 2
-    },
-    {
-      "club": "GlenRock",
-      "coach": "Finn",
-      "draws": 0,
-      "form": "WW",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "409190",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G19C-Egoavil",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409208",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-G19C-Rodriguez",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        }
-      ],
-      "goal_diff": 11,
-      "goals_against": 1,
-      "goals_for": 12,
-      "losses": 0,
-      "played": 2,
-      "points": 6,
-      "team_raw": "GlenRock-G19C-Finn",
       "wins": 2
     },
     {

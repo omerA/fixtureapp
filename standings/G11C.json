@@ -1,6 +1,6 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-05-30T08:18:51.398647Z",
+  "scraped_at": "2026-05-31T08:38:04.871312Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -89,7 +89,7 @@
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-24",
@@ -112,6 +112,17 @@
           "result": "W",
           "time": "10:45 AM",
           "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408548",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G11C-Diaz",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "DUM-TwinBoro"
         },
         {
           "date": "2026-04-26",
@@ -158,14 +169,14 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 11,
-      "goals_for": 20,
+      "goal_diff": 11,
+      "goals_against": 12,
+      "goals_for": 23,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Torpedoes-G11C-Gjoca",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Hotspur",
@@ -871,7 +882,7 @@
       "club": "Dumont",
       "coach": "Diaz",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-04-18",
@@ -907,6 +918,17 @@
           "venue_code": "NY-CLARK-Zukor2A"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "408548",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G11C-Gjoca",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
           "date": "2026-04-26",
           "game_number": "408555",
           "goals_against": 7,
@@ -940,11 +962,11 @@
           "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 24,
-      "goals_for": 7,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -19,
+      "goals_against": 27,
+      "goals_for": 8,
+      "losses": 6,
+      "played": 7,
       "points": 1,
       "team_raw": "Dumont-G11C-Diaz",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G19B",
-  "scraped_at": "2026-05-30T08:20:33.534445Z",
+  "scraped_at": "2026-05-31T08:39:46.290568Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -548,7 +548,7 @@
       "club": "NoBergen",
       "coach": "Peralta",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -560,6 +560,17 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409150",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G19B-Murgo",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MONT-BrookdaleStad"
         },
         {
           "date": "2026-05-03",
@@ -606,14 +617,14 @@
           "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": -17,
+      "goal_diff": -16,
       "goals_against": 21,
-      "goals_for": 4,
+      "goals_for": 5,
       "losses": 5,
-      "played": 5,
-      "points": 0,
+      "played": 6,
+      "points": 3,
       "team_raw": "NoBergen-G19B-Peralta",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Montclair",
@@ -631,6 +642,17 @@
           "result": "L",
           "time": "07:45 PM",
           "venue_code": "MONT-MSU-Sprague"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409150",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G19B-Peralta",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MONT-BrookdaleStad"
         },
         {
           "date": "2026-04-19",
@@ -688,11 +710,11 @@
           "venue_code": "MONT-MSU-Sprague"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 29,
+      "goal_diff": -29,
+      "goals_against": 30,
       "goals_for": 1,
-      "losses": 6,
-      "played": 6,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Montclair-G19B-Murgo",
       "wins": 0

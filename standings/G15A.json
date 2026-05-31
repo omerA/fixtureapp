@@ -1,6 +1,6 @@
 {
   "division": "G15A",
-  "scraped_at": "2026-05-30T08:20:19.234716Z",
+  "scraped_at": "2026-05-31T08:39:32.030983Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -166,6 +166,99 @@
       "points": 12,
       "team_raw": "Maroons-G15A-OHara",
       "wins": 4
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Heinzinger",
+      "draws": 1,
+      "form": "LDLWW",
+      "games": [
+        {
+          "date": "2026-04-11",
+          "game_number": "406593",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G15A-StPierre",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406597",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G15A-Parenti",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406598",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G15A-OHara",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "406603",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G15A-Harvey",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "406604",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G15A-Cokeley",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "RUTH-HighSchool"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406607",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G15A-StPierre",
+          "result": "D",
+          "time": "12:45 PM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406611",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G15A-Parenti",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 23,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
+      "team_raw": "RiverDell-G15A-Heinzinger",
+      "wins": 3
     },
     {
       "club": "Montclair",
@@ -354,92 +447,10 @@
       "wins": 2
     },
     {
-      "club": "RiverDell",
-      "coach": "Heinzinger",
-      "draws": 1,
-      "form": "LLDLW",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "406593",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G15A-StPierre",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406597",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G15A-Parenti",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "NA-Zadroga1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406598",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G15A-OHara",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "MAR-MaplePark"
-        },
-        {
-          "date": "2026-05-15",
-          "game_number": "406603",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G15A-Harvey",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406607",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G15A-StPierre",
-          "result": "D",
-          "time": "12:45 PM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406611",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G15A-Parenti",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "RDBH-HS-Stadium"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 22,
-      "goals_for": 13,
-      "losses": 3,
-      "played": 6,
-      "points": 7,
-      "team_raw": "RiverDell-G15A-Heinzinger",
-      "wins": 2
-    },
-    {
       "club": "Rutherford",
       "coach": "Cokeley",
       "draws": 1,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -486,6 +497,17 @@
           "venue_code": "NA-Zadroga1"
         },
         {
+          "date": "2026-05-30",
+          "game_number": "406604",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G15A-Heinzinger",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "RUTH-HighSchool"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "406608",
           "goals_against": 0,
@@ -508,11 +530,11 @@
           "venue_code": "MAR-RHS Stadium"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 14,
-      "goals_for": 3,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -15,
+      "goals_against": 19,
+      "goals_for": 4,
+      "losses": 5,
+      "played": 7,
       "points": 4,
       "team_raw": "Rutherford-G15A-Cokeley",
       "wins": 1

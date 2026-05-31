@@ -1,13 +1,13 @@
 {
   "division": "B11DB",
-  "scraped_at": "2026-05-30T08:14:21.149737Z",
+  "scraped_at": "2026-05-31T08:33:30.109123Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "RdgfldPk",
       "coach": "Doylex",
       "draws": 1,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -85,13 +85,24 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404891",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B11DB-Oualim",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": 32,
-      "goals_against": 16,
-      "goals_for": 48,
-      "losses": 0,
-      "played": 7,
+      "goal_diff": 31,
+      "goals_against": 19,
+      "goals_for": 50,
+      "losses": 1,
+      "played": 8,
       "points": 19,
       "team_raw": "RdgfldPk-B11DB-Doylex",
       "wins": 6
@@ -100,7 +111,7 @@
       "club": "Secaucus",
       "coach": "Oualim",
       "draws": 2,
-      "form": "WWLDW",
+      "form": "WLDWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -178,16 +189,27 @@
           "result": "W",
           "time": "04:15 PM",
           "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404891",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B11DB-Doylex",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 12,
-      "goals_for": 22,
+      "goal_diff": 11,
+      "goals_against": 14,
+      "goals_for": 25,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 17,
       "team_raw": "Secaucus-B11DB-Oualim",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Lyndhurst",

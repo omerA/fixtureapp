@@ -1,13 +1,13 @@
 {
   "division": "B19A",
-  "scraped_at": "2026-05-31T08:36:22.839497Z",
+  "scraped_at": "2026-06-01T11:06:57.109830Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoValley",
       "coach": "Lago",
       "draws": 1,
-      "form": "WDLWW",
+      "form": "DLWWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -76,6 +76,17 @@
           "venue_code": "NoVAL-OTHS turf"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "405493",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B19A-Grados",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
           "date": "2026-05-15",
           "game_number": "405495",
           "goals_against": 0,
@@ -87,11 +98,11 @@
           "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 6,
+      "goal_diff": 15,
+      "goals_against": 8,
       "goals_for": 23,
-      "losses": 1,
-      "played": 7,
+      "losses": 2,
+      "played": 8,
       "points": 16,
       "team_raw": "NoValley-B19A-Lago",
       "wins": 5
@@ -264,7 +275,7 @@
       "club": "Paramus",
       "coach": "Grados",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -331,104 +342,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "VERONA-Centennial"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 18,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Paramus-B19A-Grados",
-      "wins": 3
-    },
-    {
-      "club": "Lyndhurst",
-      "coach": "Mongelli",
-      "draws": 0,
-      "form": "LWLLL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "405472",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B19A-Moore",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
         },
         {
-          "date": "2026-04-12",
-          "game_number": "405473",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B19A-CardonaLopez",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "NoBergen-HudsonCtyPk"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405477",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B19A-Carter",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405481",
-          "goals_against": 7,
+          "date": "2026-05-31",
+          "game_number": "405493",
+          "goals_against": 0,
           "goals_for": 2,
           "opponent_club": "NoValley",
           "opponent_raw": "NoValley-B19A-Lago",
-          "result": "L",
-          "time": "05:00 PM",
+          "result": "W",
+          "time": "04:00 PM",
           "venue_code": "NoVAL-OTHS turf"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405488",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B19A-CardonaLopez",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-05-15",
-          "game_number": "405495",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B19A-Lago",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 32,
-      "goals_for": 10,
-      "losses": 5,
-      "played": 6,
-      "points": 3,
-      "team_raw": "Lyndhurst-B19A-Mongelli",
-      "wins": 1
+      "goal_diff": -1,
+      "goals_against": 18,
+      "goals_for": 17,
+      "losses": 3,
+      "played": 7,
+      "points": 12,
+      "team_raw": "Paramus-B19A-Grados",
+      "wins": 4
     },
     {
       "club": "WorldClassFC",
       "coach": "Carter",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -506,16 +446,120 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405491",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B19A-Mongelli",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": -20,
+      "goal_diff": -18,
       "goals_against": 27,
-      "goals_for": 7,
+      "goals_for": 9,
       "losses": 7,
-      "played": 7,
-      "points": 0,
+      "played": 8,
+      "points": 3,
       "team_raw": "WorldClassFC-B19A-Carter",
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "club": "Lyndhurst",
+      "coach": "Mongelli",
+      "draws": 0,
+      "form": "WLLLL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "405472",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B19A-Moore",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405473",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19A-CardonaLopez",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405477",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B19A-Carter",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405481",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B19A-Lago",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405488",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19A-CardonaLopez",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405491",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B19A-Carter",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "405495",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B19A-Lago",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        }
+      ],
+      "goal_diff": -24,
+      "goals_against": 34,
+      "goals_for": 10,
+      "losses": 6,
+      "played": 7,
+      "points": 3,
+      "team_raw": "Lyndhurst-B19A-Mongelli",
+      "wins": 1
     }
   ]
 }

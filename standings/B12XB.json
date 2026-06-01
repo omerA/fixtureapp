@@ -1,8 +1,35 @@
 {
   "division": "B12XB",
-  "scraped_at": "2026-05-31T08:34:44.426088Z",
+  "scraped_at": "2026-06-01T11:05:24.585358Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Breheny",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "409420",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12XB-Kolodiy",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Maroons-B12XB-Breheny",
+      "wins": 1
+    },
     {
       "club": "AviatorsHHSA",
       "coach": "Sharry",
@@ -31,60 +58,6 @@
       "wins": 1
     },
     {
-      "club": "CougarSC",
-      "coach": "Kolodiy",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "409420",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12XB-Breheny",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-B12XB-Kolodiy",
-      "wins": 0
-    },
-    {
-      "club": "Maroons",
-      "coach": "Breheny",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "409420",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B12XB-Kolodiy",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maroons-B12XB-Breheny",
-      "wins": 0
-    },
-    {
       "club": "Mahwah",
       "coach": "Fitzsimmons",
       "draws": 0,
@@ -109,6 +82,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Mahwah-B12XB-Fitzsimmons",
+      "wins": 0
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Kolodiy",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "409420",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12XB-Breheny",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 3,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "CougarSC-B12XB-Kolodiy",
       "wins": 0
     }
   ]

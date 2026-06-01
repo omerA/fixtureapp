@@ -1,106 +1,13 @@
 {
   "division": "B12B",
-  "scraped_at": "2026-05-31T08:34:08.102962Z",
+  "scraped_at": "2026-06-01T11:04:48.652702Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Ajax",
-      "coach": "Aufiero",
-      "draws": 1,
-      "form": "LDWLW",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "407788",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B12B-Hurtado",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "407792",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12B-Sullivan",
-          "result": "L",
-          "time": "05:45 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-05-08",
-          "game_number": "407794",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B12B-Yahiax",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "SECAU-CountyShetikFl"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407798",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12B-Sanchez",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "WYNE-ShaiShaknai"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407801",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B12B-Bzik",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407805",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B12B-Hurtado",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-Field4"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407808",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12B-Sullivan",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 11,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 7,
-      "points": 13,
-      "team_raw": "Ajax-B12B-Aufiero",
-      "wins": 4
-    },
     {
       "club": "WayneBG",
       "coach": "Sanchez",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -178,22 +85,33 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407810",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12B-Sullivan",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 14,
-      "goals_for": 20,
+      "goal_diff": 8,
+      "goals_against": 15,
+      "goals_for": 23,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "WayneBG-B12B-Sanchez",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Warriors",
       "coach": "Bzik",
       "draws": 2,
-      "form": "WLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -271,22 +189,137 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407809",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B12B-Hurtado",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field4"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 14,
-      "goals_for": 18,
+      "goal_diff": 6,
+      "goals_against": 15,
+      "goals_for": 21,
       "losses": 2,
-      "played": 7,
-      "points": 11,
+      "played": 8,
+      "points": 14,
       "team_raw": "Warriors-B12B-Bzik",
-      "wins": 3
+      "wins": 4
+    },
+    {
+      "club": "Ajax",
+      "coach": "Aufiero",
+      "draws": 1,
+      "form": "DWLWL",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "407788",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B12B-Hurtado",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "407792",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12B-Sullivan",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-08",
+          "game_number": "407794",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B12B-Yahiax",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407798",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12B-Sanchez",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407801",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B12B-Bzik",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407805",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B12B-Hurtado",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407808",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12B-Sullivan",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407811",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B12B-Yahiax",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 14,
+      "goals_for": 20,
+      "losses": 3,
+      "played": 8,
+      "points": 13,
+      "team_raw": "Ajax-B12B-Aufiero",
+      "wins": 4
     },
     {
       "club": "Secaucus",
       "coach": "Yahiax",
       "draws": 2,
-      "form": "DWLWD",
+      "form": "WLWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -353,22 +386,33 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407811",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B12B-Aufiero",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "SECAU-CountyShetikFl"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 17,
-      "goals_for": 14,
+      "goal_diff": -1,
+      "goals_against": 18,
+      "goals_for": 17,
       "losses": 2,
-      "played": 6,
-      "points": 8,
+      "played": 7,
+      "points": 11,
       "team_raw": "Secaucus-B12B-Yahiax",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RiverDell",
       "coach": "Sullivan",
       "draws": 1,
-      "form": "WLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -435,13 +479,24 @@
           "result": "L",
           "time": "01:45 PM",
           "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407810",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12B-Sanchez",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 13,
-      "goals_for": 8,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -7,
+      "goals_against": 16,
+      "goals_for": 9,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "RiverDell-B12B-Sullivan",
       "wins": 2
@@ -450,7 +505,7 @@
       "club": "WorldClassFC",
       "coach": "Hurtado",
       "draws": 2,
-      "form": "LLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-04-25",
@@ -528,13 +583,24 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407809",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B12B-Bzik",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field4"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 24,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -12,
+      "goals_against": 27,
+      "goals_for": 15,
+      "losses": 5,
+      "played": 8,
       "points": 5,
       "team_raw": "WorldClassFC-B12B-Hurtado",
       "wins": 1

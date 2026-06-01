@@ -1,13 +1,13 @@
 {
   "division": "G08A7",
-  "scraped_at": "2026-05-31T08:36:39.875394Z",
+  "scraped_at": "2026-06-01T11:07:14.148778Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WorldClassFC",
       "coach": "Leone",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -85,22 +85,33 @@
           "result": "D",
           "time": "03:00 PM",
           "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406122",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G08A7-Frey",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 18,
-      "goals_for": 37,
+      "goal_diff": 20,
+      "goals_against": 20,
+      "goals_for": 40,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "WorldClassFC-G08A7-Leone",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "SilverLakeAcademy",
       "coach": "Kozdrajski",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-30",
@@ -178,197 +189,33 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "SILVERLK-MillerF20"
-        }
-      ],
-      "goal_diff": 31,
-      "goals_against": 12,
-      "goals_for": 43,
-      "losses": 1,
-      "played": 7,
-      "points": 18,
-      "team_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
-      "wins": 6
-    },
-    {
-      "club": "Maroons",
-      "coach": "Forsythe",
-      "draws": 1,
-      "form": "LWLWD",
-      "games": [
-        {
-          "date": "2026-05-13",
-          "game_number": "406100",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G08A7-Silva",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "TORP-Lincoln1"
         },
         {
-          "date": "2026-04-12",
-          "game_number": "406104",
-          "goals_against": 9,
-          "goals_for": 3,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08A7-Leone",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406106",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406110",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G08A7-Frey",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406113",
-          "goals_against": 3,
+          "date": "2026-05-31",
+          "game_number": "406123",
+          "goals_against": 1,
           "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G08A7-Faruolo",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "MAR-GlenSchool"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406117",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G08A7-Silva",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "MAR-GlenSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406120",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08A7-Leone",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "MAR-GlenSchool"
-        }
-      ],
-      "goal_diff": -15,
-      "goals_against": 33,
-      "goals_for": 18,
-      "losses": 4,
-      "played": 7,
-      "points": 7,
-      "team_raw": "Maroons-G08A7-Forsythe",
-      "wins": 2
-    },
-    {
-      "club": "Nutley",
-      "coach": "Frey",
-      "draws": 0,
-      "form": "WWLLL",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "406101",
-          "goals_against": 9,
-          "goals_for": 4,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406108",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08A7-Leone",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406110",
-          "goals_against": 2,
-          "goals_for": 3,
           "opponent_club": "Maroons",
           "opponent_raw": "Maroons-G08A7-Forsythe",
           "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406114",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G08A7-Silva",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406115",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406118",
-          "goals_against": 11,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G08A7-Faruolo",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "VIK-Wakelee3"
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens SS2"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 36,
-      "goals_for": 17,
-      "losses": 4,
-      "played": 6,
-      "points": 6,
-      "team_raw": "Nutley-G08A7-Frey",
-      "wins": 2
+      "goal_diff": 35,
+      "goals_against": 13,
+      "goals_for": 48,
+      "losses": 1,
+      "played": 8,
+      "points": 21,
+      "team_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
+      "wins": 7
     },
     {
       "club": "Vikings",
       "coach": "Faruolo",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -435,22 +282,230 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "VIK-Wakelee3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406121",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A7-Silva",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 30,
-      "goals_for": 27,
+      "goal_diff": -1,
+      "goals_against": 33,
+      "goals_for": 32,
       "losses": 4,
-      "played": 6,
-      "points": 5,
+      "played": 7,
+      "points": 8,
       "team_raw": "Vikings-G08A7-Faruolo",
+      "wins": 3
+    },
+    {
+      "club": "Maroons",
+      "coach": "Forsythe",
+      "draws": 1,
+      "form": "WLWDL",
+      "games": [
+        {
+          "date": "2026-05-13",
+          "game_number": "406100",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A7-Silva",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406104",
+          "goals_against": 9,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08A7-Leone",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406106",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406110",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G08A7-Frey",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406113",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08A7-Faruolo",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406117",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A7-Silva",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406120",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08A7-Leone",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406123",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens SS2"
+        }
+      ],
+      "goal_diff": -19,
+      "goals_against": 38,
+      "goals_for": 19,
+      "losses": 5,
+      "played": 8,
+      "points": 7,
+      "team_raw": "Maroons-G08A7-Forsythe",
+      "wins": 2
+    },
+    {
+      "club": "Nutley",
+      "coach": "Frey",
+      "draws": 0,
+      "form": "WLLLL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "406101",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406108",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08A7-Leone",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406110",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08A7-Forsythe",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406114",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A7-Silva",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406115",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G08A7-Kozdrajski",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406118",
+          "goals_against": 11,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08A7-Faruolo",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-Wakelee3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406122",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08A7-Leone",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        }
+      ],
+      "goal_diff": -20,
+      "goals_against": 39,
+      "goals_for": 19,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "Nutley-G08A7-Frey",
       "wins": 2
     },
     {
       "club": "Torpedoes",
       "coach": "Silva",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-05-13",
@@ -528,13 +583,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406121",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08A7-Faruolo",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 33,
-      "goals_for": 20,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -15,
+      "goals_against": 38,
+      "goals_for": 23,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Torpedoes-G08A7-Silva",
       "wins": 1

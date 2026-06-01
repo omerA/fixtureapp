@@ -1,13 +1,13 @@
 {
   "division": "G14CW",
-  "scraped_at": "2026-05-31T08:39:28.633283Z",
+  "scraped_at": "2026-06-01T11:10:04.821970Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Montclair",
       "coach": "Smith",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -74,22 +74,126 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406584",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14CW-Mylan",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MONT-WatsessingPk"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 9,
-      "goals_for": 21,
+      "goal_diff": 16,
+      "goals_against": 10,
+      "goals_for": 26,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Montclair-G14CW-Smith",
-      "wins": 5
+      "wins": 6
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Knause",
+      "draws": 1,
+      "form": "LLWWD",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "406566",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14CW-Mylan",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406568",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G14CW-Dobson",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406572",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G14CW-Smith",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406575",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G14CW-Crollo",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406579",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G14CW-Rojas",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406582",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14CW-Mylan",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406585",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G14CW-Dobson",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 13,
+      "goals_for": 15,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
+      "team_raw": "Tenafly-G14CW-Knause",
+      "wins": 3
     },
     {
       "club": "Arsenal",
       "coach": "Rojas",
-      "draws": 0,
-      "form": "WLLWL",
+      "draws": 1,
+      "form": "LLWLD",
       "games": [
         {
           "date": "2026-04-12",
@@ -156,104 +260,33 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "NoVAL-OTHS UpperTurf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406583",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G14CW-Crollo",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "ARS-PHHS1"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 12,
-      "goals_for": 12,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Arsenal-G14CW-Rojas",
-      "wins": 3
-    },
-    {
-      "club": "NoValley",
-      "coach": "Dobson",
-      "draws": 0,
-      "form": "LWWLW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "406567",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-G14CW-Rojas",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406568",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G14CW-Knause",
-          "result": "L",
-          "time": "09:45 AM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406573",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G14CW-Crollo",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-OTHS turf"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "406574",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G14CW-Mylan",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406577",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G14CW-Smith",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "MONT-MSU-Sprague"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406581",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-G14CW-Rojas",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "NoVAL-OTHS UpperTurf"
-        }
-      ],
-      "goal_diff": -2,
       "goals_against": 13,
-      "goals_for": 11,
+      "goals_for": 13,
       "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "NoValley-G14CW-Dobson",
+      "played": 7,
+      "points": 10,
+      "team_raw": "Arsenal-G14CW-Rojas",
       "wins": 3
     },
     {
       "club": "Spartan",
       "coach": "Crollo",
-      "draws": 0,
-      "form": "LLWWW",
+      "draws": 1,
+      "form": "LWWWD",
       "games": [
         {
           "date": "2026-04-18",
@@ -320,61 +353,39 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406583",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G14CW-Rojas",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "ARS-PHHS1"
         }
       ],
       "goal_diff": 4,
-      "goals_against": 14,
-      "goals_for": 18,
+      "goals_against": 15,
+      "goals_for": 19,
       "losses": 3,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 10,
       "team_raw": "Spartan-G14CW-Crollo",
       "wins": 3
     },
     {
-      "club": "Tenafly",
-      "coach": "Knause",
-      "draws": 0,
-      "form": "WLLLW",
+      "club": "NoValley",
+      "coach": "Dobson",
+      "draws": 1,
+      "form": "WWLWD",
       "games": [
         {
-          "date": "2026-04-19",
-          "game_number": "406568",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G14CW-Dobson",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406572",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G14CW-Smith",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406575",
+          "date": "2026-04-12",
+          "game_number": "406567",
           "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G14CW-Crollo",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406579",
-          "goals_against": 2,
-          "goals_for": 0,
+          "goals_for": 2,
           "opponent_club": "Arsenal",
           "opponent_raw": "Arsenal-G14CW-Rojas",
           "result": "L",
@@ -382,32 +393,98 @@
           "venue_code": "ARS-PHHS1"
         },
         {
-          "date": "2026-05-17",
-          "game_number": "406582",
+          "date": "2026-04-19",
+          "game_number": "406568",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G14CW-Knause",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406573",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G14CW-Crollo",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "406574",
           "goals_against": 0,
-          "goals_for": 3,
+          "goals_for": 4,
           "opponent_club": "HobUtd",
           "opponent_raw": "HobUtd-G14CW-Mylan",
           "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "TEN-Municipal"
+          "time": "01:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406577",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G14CW-Smith",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MONT-MSU-Sprague"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406581",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G14CW-Rojas",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406585",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G14CW-Knause",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 10,
-      "goals_for": 9,
+      "goal_diff": -2,
+      "goals_against": 15,
+      "goals_for": 13,
       "losses": 3,
-      "played": 5,
-      "points": 6,
-      "team_raw": "Tenafly-G14CW-Knause",
-      "wins": 2
+      "played": 7,
+      "points": 10,
+      "team_raw": "NoValley-G14CW-Dobson",
+      "wins": 3
     },
     {
       "club": "HobUtd",
       "coach": "Mylan",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "406566",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G14CW-Knause",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
         {
           "date": "2026-04-19",
           "game_number": "406570",
@@ -462,13 +539,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406584",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G14CW-Smith",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MONT-WatsessingPk"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 15,
-      "goals_for": 2,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -20,
+      "goals_against": 24,
+      "goals_for": 4,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "HobUtd-G14CW-Mylan",
       "wins": 1

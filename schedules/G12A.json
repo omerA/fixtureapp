@@ -100,20 +100,6 @@
       "time": "03:00 PM"
     },
     {
-      "away_club": "Tenafly",
-      "away_score": null,
-      "away_team": "Tenafly-G12A-Pak",
-      "date": "2026-04-26",
-      "division": "G12A",
-      "field": "TBS Postponed",
-      "game_id": "408725",
-      "home_club": "RYSA",
-      "home_score": null,
-      "home_team": "RYSA-G12A-Deubel",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "NMKnights",
       "away_score": 0,
       "away_team": "NMKnights-G12A-McAndrews",
@@ -255,17 +241,31 @@
     },
     {
       "away_club": "Tenafly",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Tenafly-G12A-Pak",
       "date": "2026-05-31",
       "division": "G12A",
       "field": "Lionsgate Turf",
       "game_id": "408733",
       "home_club": "BLMFLD",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "BLMFLD-G12A-Crespo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:30 PM"
+    },
+    {
+      "away_club": "Tenafly",
+      "away_score": null,
+      "away_team": "Tenafly-G12A-Pak",
+      "date": "2026-06-05",
+      "division": "G12A",
+      "field": "Heights School",
+      "game_id": "408725",
+      "home_club": "RYSA",
+      "home_score": null,
+      "home_team": "RYSA-G12A-Deubel",
+      "is_upcoming": true,
+      "time": "06:30 PM"
     },
     {
       "away_club": "RYSA",
@@ -352,6 +352,6 @@
       "time": "05:15 PM"
     }
   ],
-  "scraped_at": "2026-05-31T08:45:38.327404Z",
+  "scraped_at": "2026-06-01T11:16:10.384555Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

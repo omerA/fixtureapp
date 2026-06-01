@@ -1,8 +1,35 @@
 {
   "division": "G10XB",
-  "scraped_at": "2026-05-31T08:37:49.567990Z",
+  "scraped_at": "2026-06-01T11:08:23.552004Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Mahwah",
+      "coach": "Hill",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "409426",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G10XB-Meranus",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-Trinity"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 1,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Mahwah-G10XB-Hill",
+      "wins": 1
+    },
     {
       "club": "WoodRidge",
       "coach": "Squeo",
@@ -31,33 +58,6 @@
       "wins": 1
     },
     {
-      "club": "Mahwah",
-      "coach": "Hill",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "409426",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G10XB-Meranus",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "MAHWAH-Trinity"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Mahwah-G10XB-Hill",
-      "wins": 0
-    },
-    {
       "club": "Montclair",
       "coach": "Meranus",
       "draws": 0,
@@ -75,11 +75,11 @@
           "venue_code": "MAHWAH-Trinity"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "goal_diff": -2,
+      "goals_against": 3,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Montclair-G10XB-Meranus",
       "wins": 0

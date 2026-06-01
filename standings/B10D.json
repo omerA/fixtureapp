@@ -1,13 +1,13 @@
 {
   "division": "B10D",
-  "scraped_at": "2026-05-31T08:32:34.807935Z",
+  "scraped_at": "2026-06-01T11:03:11.208953Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Belleville",
       "coach": "Martinez",
       "draws": 2,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -85,22 +85,33 @@
           "result": "D",
           "time": "03:00 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408470",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10D-Westemeyer",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 15,
-      "goals_for": 28,
+      "goal_diff": 20,
+      "goals_against": 16,
+      "goals_for": 36,
       "losses": 0,
-      "played": 7,
-      "points": 17,
+      "played": 8,
+      "points": 20,
       "team_raw": "Belleville-B10D-Martinez",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "NoBergen",
       "coach": "Percontino",
-      "draws": 2,
-      "form": "WWWWD",
+      "draws": 3,
+      "form": "WWWDD",
       "games": [
         {
           "date": "2026-03-29",
@@ -178,16 +189,131 @@
           "result": "D",
           "time": "06:15 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408472",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10D-Cheshenko",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "VIK-Myrtle"
         }
       ],
       "goal_diff": 9,
-      "goals_against": 20,
-      "goals_for": 29,
+      "goals_against": 23,
+      "goals_for": 32,
       "losses": 0,
-      "played": 7,
-      "points": 17,
+      "played": 8,
+      "points": 18,
       "team_raw": "NoBergen-B10D-Percontino",
       "wins": 5
+    },
+    {
+      "club": "Bergenfield",
+      "coach": "Blanco",
+      "draws": 2,
+      "form": "DLDLW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408297",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B10D-Civitarese",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408305",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10D-Westemeyer",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408449",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10D-Cheshenko",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408450",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B10D-Percontino",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408456",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B10D-Martinez",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408463",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B10D-Piccione",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408467",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10D-Pajuelo",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408474",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10D-Bello",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2A"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 26,
+      "goals_for": 36,
+      "losses": 2,
+      "played": 8,
+      "points": 14,
+      "team_raw": "Bergenfield-B10D-Blanco",
+      "wins": 4
     },
     {
       "club": "WestEssex",
@@ -283,103 +409,10 @@
       "wins": 4
     },
     {
-      "club": "Bergenfield",
-      "coach": "Blanco",
-      "draws": 2,
-      "form": "WDLDL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408297",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B10D-Civitarese",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408305",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B10D-Westemeyer",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "LYND-RecCtrFld1A"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408449",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10D-Cheshenko",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408450",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B10D-Percontino",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408456",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B10D-Martinez",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408463",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B10D-Piccione",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "RYSA-HighMtn"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408467",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-B10D-Pajuelo",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "BGFD-RoyBrown"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 24,
-      "goals_for": 32,
-      "losses": 2,
-      "played": 7,
-      "points": 11,
-      "team_raw": "Bergenfield-B10D-Blanco",
-      "wins": 3
-    },
-    {
       "club": "Dragons",
       "coach": "Civitarese",
       "draws": 1,
-      "form": "LLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -457,16 +490,27 @@
           "result": "D",
           "time": "06:15 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408473",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B10D-Piccione",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 24,
-      "goals_for": 27,
+      "goal_diff": 4,
+      "goals_against": 29,
+      "goals_for": 33,
       "losses": 3,
-      "played": 7,
-      "points": 10,
+      "played": 8,
+      "points": 13,
       "team_raw": "Dragons-B10D-Civitarese",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Maywood",
@@ -554,7 +598,7 @@
       "club": "FairLawnAllSports",
       "coach": "Bello",
       "draws": 2,
-      "form": "DLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -632,13 +676,24 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408474",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B10D-Blanco",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2A"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 21,
-      "goals_for": 21,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -2,
+      "goals_against": 25,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 8,
       "points": 8,
       "team_raw": "FairLawnAllSports-B10D-Bello",
       "wins": 2
@@ -647,7 +702,7 @@
       "club": "RYSA",
       "coach": "Piccione",
       "draws": 1,
-      "form": "LWLDW",
+      "form": "WLDWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -714,13 +769,24 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408473",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B10D-Civitarese",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 16,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": 0,
+      "goals_against": 22,
+      "goals_for": 22,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "RYSA-B10D-Piccione",
       "wins": 2
@@ -728,8 +794,8 @@
     {
       "club": "Vikings",
       "coach": "Cheshenko",
-      "draws": 0,
-      "form": "LLLLW",
+      "draws": 1,
+      "form": "LLLWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -807,14 +873,25 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408472",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B10D-Percontino",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "VIK-Myrtle"
         }
       ],
       "goal_diff": -9,
-      "goals_against": 26,
-      "goals_for": 17,
+      "goals_against": 29,
+      "goals_for": 20,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "Vikings-B10D-Cheshenko",
       "wins": 1
     },
@@ -900,13 +977,24 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408470",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B10D-Martinez",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": -31,
-      "goals_against": 50,
-      "goals_for": 19,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -38,
+      "goals_against": 58,
+      "goals_for": 20,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Lyndhurst-B10D-Westemeyer",
       "wins": 0

@@ -1,13 +1,13 @@
 {
   "division": "G13B",
-  "scraped_at": "2026-05-31T08:38:56.778890Z",
+  "scraped_at": "2026-06-01T11:09:33.135324Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "HobUtd",
       "coach": "Andreula",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-05-30",
@@ -54,6 +54,17 @@
           "venue_code": "HobUtd-SinatraPark"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "408957",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13B-Gsellmeier",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "408958",
           "goals_against": 1,
@@ -65,96 +76,14 @@
           "venue_code": "WYNE-WayneValleyHS"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 12,
+      "goal_diff": 8,
+      "goals_against": 9,
       "goals_for": 17,
-      "losses": 1,
-      "played": 5,
-      "points": 12,
-      "team_raw": "HobUtd-G13B-Andreula",
-      "wins": 4
-    },
-    {
-      "club": "BLMFLD",
-      "coach": "Bernhard",
-      "draws": 0,
-      "form": "WWLWL",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "408938",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G13B-Andreula",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "BLMFLD-Foley"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408940",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G13B-Gsellmeier",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-WestwdHS"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408945",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G13B-Gsellmeier",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-WestwdHS"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408947",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13B-Scaturro",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "BLMFLD-Foley"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "408953",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G13B-Andreula",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408954",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G13B-Gsellmeier",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "BLMFLD-Foley"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 2,
-      "goals_for": 12,
       "losses": 0,
       "played": 6,
-      "points": 9,
-      "team_raw": "BLMFLD-G13B-Bernhard",
-      "wins": 3
+      "points": 13,
+      "team_raw": "HobUtd-G13B-Andreula",
+      "wins": 4
     },
     {
       "club": "RiverDell",
@@ -228,10 +157,103 @@
       "wins": 3
     },
     {
+      "club": "BLMFLD",
+      "coach": "Bernhard",
+      "draws": 0,
+      "form": "WLWLL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "408938",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13B-Andreula",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408940",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13B-Gsellmeier",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408945",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13B-Gsellmeier",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408947",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13B-Scaturro",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "408953",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13B-Andreula",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408954",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13B-Gsellmeier",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408956",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13B-Scaturro",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 13,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 7,
+      "points": 9,
+      "team_raw": "BLMFLD-G13B-Bernhard",
+      "wins": 3
+    },
+    {
       "club": "WayneBG",
       "coach": "Scaturro",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -311,6 +333,17 @@
           "venue_code": "RDBH-HS-Stadium"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "408956",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G13B-Bernhard",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "408958",
           "goals_against": 4,
@@ -322,20 +355,20 @@
           "venue_code": "WYNE-WayneValleyHS"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 2,
-      "goals_for": 6,
-      "losses": 1,
-      "played": 8,
-      "points": 3,
+      "goal_diff": 3,
+      "goals_against": 8,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 9,
+      "points": 6,
       "team_raw": "WayneBG-G13B-Scaturro",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Dragons",
       "coach": "Gsellmeier",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-05-10",
@@ -402,14 +435,25 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408957",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13B-Andreula",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
       "goal_diff": -14,
-      "goals_against": 16,
-      "goals_for": 2,
+      "goals_against": 19,
+      "goals_for": 5,
       "losses": 3,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 1,
       "team_raw": "Dragons-G13B-Gsellmeier",
       "wins": 0
     }

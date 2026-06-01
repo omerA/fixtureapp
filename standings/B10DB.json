@@ -1,13 +1,13 @@
 {
   "division": "B10DB",
-  "scraped_at": "2026-05-31T08:32:38.186956Z",
+  "scraped_at": "2026-06-01T11:03:14.541058Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Nutley",
       "coach": "Sceppaguercio",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -85,22 +85,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408501",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B10DB-Mobley",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 15,
-      "goals_for": 39,
+      "goal_diff": 31,
+      "goals_against": 17,
+      "goals_for": 48,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "Nutley-B10DB-Sceppaguercio",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "NMKnights",
       "coach": "Paulose",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -178,22 +189,33 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "WYNE-PioneerAcadSchl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408503",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B10DB-Valles",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm1"
         }
       ],
-      "goal_diff": 8,
+      "goal_diff": 11,
       "goals_against": 21,
-      "goals_for": 29,
+      "goals_for": 32,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "NMKnights-B10DB-Paulose",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Montclair",
       "coach": "Gurkoff",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -271,13 +293,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "JC-CochraneCaven-3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408502",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B10DB-Callegari",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "WYNE-JFK-Small"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 26,
-      "goals_for": 25,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -5,
+      "goals_against": 31,
+      "goals_for": 26,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "Montclair-B10DB-Gurkoff",
       "wins": 3
@@ -286,7 +319,7 @@
       "club": "JerseyCity",
       "coach": "Mobley",
       "draws": 0,
-      "form": "LWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -364,13 +397,24 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "JC-CochraneCaven-3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408501",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B10DB-Sceppaguercio",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 33,
-      "goals_for": 22,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -18,
+      "goals_against": 42,
+      "goals_for": 24,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "JerseyCity-B10DB-Mobley",
       "wins": 3
@@ -379,7 +423,7 @@
       "club": "GlobalJC",
       "coach": "Valles",
       "draws": 1,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -457,13 +501,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408503",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B10DB-Paulose",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm1"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 28,
+      "goal_diff": -13,
+      "goals_against": 31,
       "goals_for": 18,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "GlobalJC-B10DB-Valles",
       "wins": 2
@@ -472,7 +527,7 @@
       "club": "NASA",
       "coach": "Callegari",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -550,16 +605,27 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "WYNE-PioneerAcadSchl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408502",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10DB-Gurkoff",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "WYNE-JFK-Small"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 25,
-      "goals_for": 15,
+      "goal_diff": -6,
+      "goals_against": 26,
+      "goals_for": 20,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 6,
       "team_raw": "NASA-B10DB-Callegari",
-      "wins": 1
+      "wins": 2
     }
   ]
 }

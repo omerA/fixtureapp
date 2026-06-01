@@ -1,8 +1,35 @@
 {
   "division": "G10XW",
-  "scraped_at": "2026-05-31T08:37:52.558173Z",
+  "scraped_at": "2026-06-01T11:08:26.494272Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Rutherford",
+      "coach": "Gino",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "409452",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G10XW-Mezzina",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Rutherford-G10XW-Gino",
+      "wins": 1
+    },
     {
       "club": "Thistle",
       "coach": "Millar",
@@ -31,60 +58,6 @@
       "wins": 1
     },
     {
-      "club": "Rutherford",
-      "coach": "Gino",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "409452",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G10XW-Mezzina",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "UNIONCITY-Marti"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-G10XW-Gino",
-      "wins": 0
-    },
-    {
-      "club": "UnionCity",
-      "coach": "Mezzina",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "409452",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G10XW-Gino",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "UNIONCITY-Marti"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "UnionCity-G10XW-Mezzina",
-      "wins": 0
-    },
-    {
       "club": "NMKnights",
       "coach": "Duque",
       "draws": 0,
@@ -109,6 +82,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "NMKnights-G10XW-Duque",
+      "wins": 0
+    },
+    {
+      "club": "UnionCity",
+      "coach": "Mezzina",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "409452",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G10XW-Gino",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 3,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "UnionCity-G10XW-Mezzina",
       "wins": 0
     }
   ]

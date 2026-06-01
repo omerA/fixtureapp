@@ -1,13 +1,13 @@
 {
   "division": "B19D",
-  "scraped_at": "2026-05-31T08:36:33.158379Z",
+  "scraped_at": "2026-06-01T11:07:07.479274Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "AviatorsHHSA",
       "coach": "McGill",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-05-10",
@@ -74,22 +74,33 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405161",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B19D-Vogel",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 2,
-      "goals_for": 23,
+      "goal_diff": 25,
+      "goals_against": 4,
+      "goals_for": 29,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "AviatorsHHSA-B19D-McGill",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Emerson",
       "coach": "Gray",
       "draws": 2,
-      "form": "WDDWW",
+      "form": "DDWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -167,22 +178,33 @@
           "result": "W",
           "time": "07:30 PM",
           "venue_code": "AMER-LakeStTurf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405160",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B19D-Zotaj",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": 23,
-      "goals_against": 12,
-      "goals_for": 35,
+      "goal_diff": 29,
+      "goals_against": 13,
+      "goals_for": 42,
       "losses": 0,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Emerson-B19D-Gray",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Lakeland",
       "coach": "Vogel",
       "draws": 1,
-      "form": "LDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -249,13 +271,24 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "BGFD-Vivyen"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405161",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B19D-McGill",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 15,
-      "goals_for": 24,
-      "losses": 1,
-      "played": 6,
+      "goal_diff": 5,
+      "goals_against": 21,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 7,
       "points": 13,
       "team_raw": "Lakeland-B19D-Vogel",
       "wins": 4
@@ -264,7 +297,7 @@
       "club": "Americans",
       "coach": "Davies",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-05-10",
@@ -287,6 +320,17 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "EM-HSTurf1Full"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405145",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B19D-Esteban",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "BGFD-Vivyen"
         },
         {
           "date": "2026-04-26",
@@ -344,20 +388,20 @@
           "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 21,
-      "goals_for": 17,
+      "goal_diff": 2,
+      "goals_against": 22,
+      "goals_for": 24,
       "losses": 4,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "Americans-B19D-Davies",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -426,6 +470,17 @@
           "venue_code": "DUM-HS"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "405160",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B19D-Gray",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "DUM-HS"
+        },
+        {
           "date": "2026-05-08",
           "game_number": "405164",
           "goals_against": 3,
@@ -437,11 +492,11 @@
           "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 22,
-      "goals_for": 7,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -21,
+      "goals_against": 29,
+      "goals_for": 8,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Dumont-B19D-Zotaj",
       "wins": 1
@@ -473,6 +528,17 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "LKLND-LakelandHS"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405145",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B19D-Davies",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "BGFD-Vivyen"
         },
         {
           "date": "2026-04-26",
@@ -530,11 +596,11 @@
           "venue_code": "AMER-LakeStTurf"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 42,
-      "goals_for": 8,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -40,
+      "goals_against": 49,
+      "goals_for": 9,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Bergenfield-B19D-Esteban",
       "wins": 0

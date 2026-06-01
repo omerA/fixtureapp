@@ -1,106 +1,13 @@
 {
   "division": "B13FW",
-  "scraped_at": "2026-05-31T08:35:13.420328Z",
+  "scraped_at": "2026-06-01T11:05:53.438666Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Spartan",
-      "coach": "Hegyi",
-      "draws": 3,
-      "form": "WWWDD",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "405660",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13FW-Severs",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "405661",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B13FW-Toomin",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405665",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B13FW-Holder",
-          "result": "D",
-          "time": "10:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "406287",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B13FW-Iamurri",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "NY-CLARK-Germonds"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406289",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B13FW-Awes",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406292",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13FW-Severs",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "DRAG-WestwdHS"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406294",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B13FW-Toomin",
-          "result": "D",
-          "time": "08:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 8,
-      "goals_for": 22,
-      "losses": 0,
-      "played": 7,
-      "points": 15,
-      "team_raw": "Spartan-B13FW-Hegyi",
-      "wins": 4
-    },
     {
       "club": "Hackensack",
       "coach": "Holder",
       "draws": 2,
-      "form": "DLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -178,22 +85,33 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "NY-CLARK-ZukorMain"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406297",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13FW-Hegyi",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": 11,
+      "goal_diff": 14,
       "goals_against": 10,
-      "goals_for": 21,
+      "goals_for": 24,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 17,
       "team_raw": "Hackensack-B13FW-Holder",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Clarkstown",
       "coach": "Iamurri",
       "draws": 1,
-      "form": "LWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -273,6 +191,17 @@
           "venue_code": "NY-CLARK-ZukorMain"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "406299",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13FW-Awes",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "NY-CLARK-ZukorMain"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "406305",
           "goals_against": 1,
@@ -284,20 +213,124 @@
           "venue_code": "NY-CLARK-ZukorMain"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 13,
       "goals_against": 14,
-      "goals_for": 24,
+      "goals_for": 27,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "Clarkstown-B13FW-Iamurri",
+      "wins": 5
+    },
+    {
+      "club": "Spartan",
+      "coach": "Hegyi",
+      "draws": 3,
+      "form": "WWDDL",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "405660",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13FW-Severs",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "405661",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13FW-Toomin",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405665",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B13FW-Holder",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "406287",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13FW-Iamurri",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-CLARK-Germonds"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406289",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13FW-Awes",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406292",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13FW-Severs",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406294",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13FW-Toomin",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406297",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B13FW-Holder",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 11,
+      "goals_for": 22,
+      "losses": 1,
+      "played": 8,
+      "points": 15,
+      "team_raw": "Spartan-B13FW-Hegyi",
       "wins": 4
     },
     {
       "club": "Dragons",
       "coach": "Severs",
       "draws": 1,
-      "form": "LWLDW",
+      "form": "WLDWL",
       "games": [
         {
           "date": "2026-05-09",
@@ -377,6 +410,17 @@
           "venue_code": "VIK-NVRHS Turf"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "406298",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13FW-Toomin",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "406305",
           "goals_against": 4,
@@ -388,11 +432,11 @@
           "venue_code": "NY-CLARK-ZukorMain"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 22,
-      "goals_for": 22,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -7,
+      "goals_against": 31,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "Dragons-B13FW-Severs",
       "wins": 4
@@ -401,7 +445,7 @@
       "club": "NoValley",
       "coach": "Toomin",
       "draws": 1,
-      "form": "WLLDL",
+      "form": "LLDLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -479,16 +523,27 @@
           "result": "D",
           "time": "08:00 AM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406298",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13FW-Severs",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-OTHS UpperTurf"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 28,
-      "goals_for": 11,
+      "goal_diff": -10,
+      "goals_against": 30,
+      "goals_for": 20,
       "losses": 5,
-      "played": 7,
-      "points": 4,
+      "played": 8,
+      "points": 7,
       "team_raw": "NoValley-B13FW-Toomin",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Vikings",
@@ -572,13 +627,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406299",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13FW-Iamurri",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "NY-CLARK-ZukorMain"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 34,
+      "goal_diff": -21,
+      "goals_against": 37,
       "goals_for": 16,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Vikings-B13FW-Awes",
       "wins": 1

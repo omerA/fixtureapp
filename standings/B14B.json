@@ -1,13 +1,13 @@
 {
   "division": "B14B",
-  "scraped_at": "2026-05-31T08:35:29.533339Z",
+  "scraped_at": "2026-06-01T11:06:06.466307Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Hotspur",
       "coach": "Tedeschi",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-29",
@@ -74,22 +74,33 @@
           "result": "W",
           "time": "07:45 PM",
           "venue_code": "HOT-HS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406456",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B14B-Burucuoglu",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "HOT-HS Turf 2"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 19,
       "goals_against": 8,
-      "goals_for": 23,
+      "goals_for": 27,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Hotspur-B14B-Tedeschi",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "WorldClassFC",
       "coach": "JeanCharles",
       "draws": 1,
-      "form": "WLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-04-18",
@@ -167,22 +178,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "AMER-Crestwd Lower"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406455",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B14B-Ramirez",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 14,
-      "goals_for": 18,
+      "goal_diff": 5,
+      "goals_against": 16,
+      "goals_for": 21,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "WorldClassFC-B14B-JeanCharles",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Americans",
       "coach": "Everett",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-05-29",
@@ -260,22 +282,33 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "AMER-Crestwd Lower"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406457",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B14B-Jang",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "AMER-LionsSouthFull"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 18,
-      "goals_for": 15,
+      "goal_diff": -1,
+      "goals_against": 20,
+      "goals_for": 19,
       "losses": 4,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "Americans-B14B-Everett",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "CougarUtd",
       "coach": "Jang",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -353,13 +386,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406457",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B14B-Everett",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "AMER-LionsSouthFull"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 21,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -8,
+      "goals_against": 25,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "CougarUtd-B14B-Jang",
       "wins": 3
@@ -368,7 +412,7 @@
       "club": "GlobalJC",
       "coach": "Ramirez",
       "draws": 1,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -435,13 +479,24 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406455",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B14B-JeanCharles",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 18,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -4,
+      "goals_against": 21,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "GlobalJC-B14B-Ramirez",
       "wins": 2
@@ -450,7 +505,7 @@
       "club": "Spartan",
       "coach": "Burucuoglu",
       "draws": 2,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -528,13 +583,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406456",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B14B-Tedeschi",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "HOT-HS Turf 2"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 21,
+      "goal_diff": -11,
+      "goals_against": 25,
       "goals_for": 14,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 5,
       "team_raw": "Spartan-B14B-Burucuoglu",
       "wins": 1

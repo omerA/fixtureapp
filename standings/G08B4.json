@@ -1,13 +1,13 @@
 {
   "division": "G08B4",
-  "scraped_at": "2026-05-31T08:36:43.175601Z",
+  "scraped_at": "2026-06-01T11:07:17.456910Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Rutherford",
       "coach": "Saracena",
-      "draws": 1,
-      "form": "WWWWD",
+      "draws": 2,
+      "form": "WWWDD",
       "games": [
         {
           "date": "2026-05-17",
@@ -18,6 +18,17 @@
           "opponent_raw": "Montclair-G08B4-Pierson",
           "result": "W",
           "time": "12:00 PM",
+          "venue_code": "RUTH-Tamblyn-4v4"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405676",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08B4-Forsythe",
+          "result": "D",
+          "time": "01:15 PM",
           "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
@@ -77,11 +88,11 @@
         }
       ],
       "goal_diff": 14,
-      "goals_against": 18,
-      "goals_for": 32,
+      "goals_against": 24,
+      "goals_for": 38,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 17,
       "team_raw": "Rutherford-G08B4-Saracena",
       "wins": 5
     },
@@ -89,7 +100,7 @@
       "club": "NMKnights",
       "coach": "Porrino",
       "draws": 1,
-      "form": "LLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-05-17",
@@ -101,6 +112,17 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405675",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G08B4-LopezSerrato",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "SS-Panther"
         },
         {
           "date": "2026-05-02",
@@ -169,20 +191,20 @@
           "venue_code": "NMilford-Williams4v4"
         }
       ],
-      "goal_diff": 22,
+      "goal_diff": 26,
       "goals_against": 16,
-      "goals_for": 38,
+      "goals_for": 42,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "NMKnights-G08B4-Porrino",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Maroons",
       "coach": "Forsythe",
-      "draws": 0,
-      "form": "LWWLW",
+      "draws": 1,
+      "form": "WWLDW",
       "games": [
         {
           "date": "2026-05-17",
@@ -194,6 +216,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405676",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G08B4-Saracena",
+          "result": "D",
+          "time": "01:15 PM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
           "date": "2026-05-02",
@@ -241,11 +274,11 @@
         }
       ],
       "goal_diff": -1,
-      "goals_against": 27,
-      "goals_for": 26,
+      "goals_against": 33,
+      "goals_for": 32,
       "losses": 2,
-      "played": 5,
-      "points": 9,
+      "played": 6,
+      "points": 10,
       "team_raw": "Maroons-G08B4-Forsythe",
       "wins": 3
     },
@@ -338,6 +371,17 @@
       "form": "LLLLL",
       "games": [
         {
+          "date": "2026-05-31",
+          "game_number": "405675",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G08B4-Porrino",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "SS-Panther"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "406138",
           "goals_against": 7,
@@ -404,11 +448,11 @@
           "venue_code": "MAR-BenFranklinMS1"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 40,
+      "goal_diff": -26,
+      "goals_against": 44,
       "goals_for": 18,
-      "losses": 6,
-      "played": 6,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "GlenRock-G08B4-LopezSerrato",
       "wins": 0

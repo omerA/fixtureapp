@@ -1,13 +1,13 @@
 {
   "division": "B15F",
-  "scraped_at": "2026-05-31T08:36:11.374370Z",
+  "scraped_at": "2026-06-01T11:06:46.504293Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Americans",
       "coach": "Lee",
       "draws": 1,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -85,22 +85,33 @@
           "result": "W",
           "time": "07:30 PM",
           "venue_code": "AMER-LakeStFootball"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406423",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B15F-Romero",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "AMER-LionsSouthFull"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 8,
-      "goals_for": 24,
+      "goal_diff": 18,
+      "goals_against": 10,
+      "goals_for": 28,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Americans-B15F-Lee",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Gonzales",
       "draws": 1,
-      "form": "WWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -178,16 +189,27 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "NWK-Riverbank"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406422",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B15F-Secillano",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 16,
-      "goals_for": 18,
+      "goal_diff": 6,
+      "goals_against": 17,
+      "goals_for": 23,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "FairLawnAllSports-B15F-Gonzales",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WestEssex",
@@ -286,7 +308,7 @@
       "club": "RIDGFLD",
       "coach": "Romero",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -364,13 +386,24 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "BGFD-Vivyen"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406423",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B15F-Lee",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "AMER-LionsSouthFull"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 11,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": 4,
+      "goals_against": 15,
+      "goals_for": 19,
+      "losses": 4,
+      "played": 8,
       "points": 12,
       "team_raw": "RIDGFLD-B15F-Romero",
       "wins": 4
@@ -472,7 +505,7 @@
       "club": "Bergenfield",
       "coach": "Secillano",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -550,13 +583,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "BGFD-Vivyen"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406422",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B15F-Gonzales",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 26,
-      "goals_for": 11,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -19,
+      "goals_against": 31,
+      "goals_for": 12,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Bergenfield-B15F-Secillano",
       "wins": 1

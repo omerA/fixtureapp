@@ -1,95 +1,13 @@
 {
   "division": "G19A",
-  "scraped_at": "2026-05-31T08:39:42.141759Z",
+  "scraped_at": "2026-06-01T11:10:18.273103Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Mazzola",
-      "draws": 3,
-      "form": "DWWDD",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "409126",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G19A-Martin",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "409128",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G19A-Montillo",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "FL-CenterRec1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "409129",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G19A-Till",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "MONT-MSU-Sprague"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "409133",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G19A-OHara",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "409135",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G19A-Martin",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409137",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G19A-Montillo",
-          "result": "D",
-          "time": "08:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 2,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 6,
-      "points": 12,
-      "team_raw": "FairLawnAllSports-G19A-Mazzola",
-      "wins": 3
-    },
     {
       "club": "Maroons",
       "coach": "OHara",
       "draws": 0,
-      "form": "WWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-04-19",
@@ -134,16 +52,27 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "WALD-HSNorth"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409139",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G19A-Montillo",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAR-RHS Stadium"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 5,
-      "goals_for": 8,
+      "goal_diff": 4,
+      "goals_against": 6,
+      "goals_for": 10,
       "losses": 1,
-      "played": 4,
-      "points": 9,
+      "played": 5,
+      "points": 12,
       "team_raw": "Maroons-G19A-OHara",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Warriors",
@@ -217,10 +146,174 @@
       "wins": 1
     },
     {
+      "club": "FairLawnAllSports",
+      "coach": "Mazzola",
+      "draws": 1,
+      "form": "WWDDW",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "409126",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G19A-Martin",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "409128",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G19A-Montillo",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "FL-CenterRec1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "409129",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G19A-Till",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "MONT-MSU-Sprague"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "409133",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G19A-OHara",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "409135",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G19A-Martin",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409137",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G19A-Montillo",
+          "result": "D",
+          "time": "08:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409140",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G19A-Till",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 0,
+      "goals_for": 1,
+      "losses": 0,
+      "played": 7,
+      "points": 4,
+      "team_raw": "FairLawnAllSports-G19A-Mazzola",
+      "wins": 1
+    },
+    {
+      "club": "Montclair",
+      "coach": "Till",
+      "draws": 2,
+      "form": "DLDLL",
+      "games": [
+        {
+          "date": "2026-04-19",
+          "game_number": "409129",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G19A-Mazzola",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "MONT-MSU-Sprague"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409132",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G19A-OHara",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "409134",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G19A-Martin",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "409136",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G19A-Montillo",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MONT-WatsessingPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409140",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G19A-Mazzola",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 5,
+      "goals_for": 1,
+      "losses": 3,
+      "played": 5,
+      "points": 2,
+      "team_raw": "Montclair-G19A-Till",
+      "wins": 0
+    },
+    {
       "club": "Lyndhurst",
       "coach": "Montillo",
       "draws": 1,
-      "form": "LLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-04-12",
@@ -276,75 +369,26 @@
           "result": "D",
           "time": "08:00 PM",
           "venue_code": "LYND-RecCtrFld1"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 5,
-      "goals_for": 2,
-      "losses": 3,
-      "played": 5,
-      "points": 4,
-      "team_raw": "Lyndhurst-G19A-Montillo",
-      "wins": 1
-    },
-    {
-      "club": "Montclair",
-      "coach": "Till",
-      "draws": 2,
-      "form": "DLDL",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "409129",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G19A-Mazzola",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "MONT-MSU-Sprague"
         },
         {
-          "date": "2026-04-26",
-          "game_number": "409132",
-          "goals_against": 1,
-          "goals_for": 0,
+          "date": "2026-05-31",
+          "game_number": "409139",
+          "goals_against": 2,
+          "goals_for": 1,
           "opponent_club": "Maroons",
           "opponent_raw": "Maroons-G19A-OHara",
           "result": "L",
-          "time": "09:45 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "409134",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G19A-Martin",
-          "result": "D",
-          "time": "06:45 PM",
-          "venue_code": "MONT-BrookdaleStad"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "409136",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G19A-Montillo",
-          "result": "L",
           "time": "10:00 AM",
-          "venue_code": "MONT-WatsessingPk"
+          "venue_code": "MAR-RHS Stadium"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
-      "losses": 2,
-      "played": 4,
-      "points": 2,
-      "team_raw": "Montclair-G19A-Till",
+      "goal_diff": -1,
+      "goals_against": 1,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 6,
+      "points": 1,
+      "team_raw": "Lyndhurst-G19A-Montillo",
       "wins": 0
     }
   ]

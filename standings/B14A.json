@@ -1,13 +1,13 @@
 {
   "division": "B14A",
-  "scraped_at": "2026-05-31T08:35:24.666480Z",
+  "scraped_at": "2026-06-01T11:06:03.124888Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlenRock",
       "coach": "Lynch",
       "draws": 1,
-      "form": "LWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-04-17",
@@ -85,16 +85,27 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406359",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14A-Reichman",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 9,
-      "goals_for": 19,
+      "goal_diff": 12,
+      "goals_against": 10,
+      "goals_for": 22,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "GlenRock-B14A-Lynch",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "NoBergen",
@@ -286,7 +297,7 @@
       "club": "Vikings",
       "coach": "Reichman",
       "draws": 1,
-      "form": "LWWDL",
+      "form": "WWDLL",
       "games": [
         {
           "date": "2026-04-11",
@@ -364,13 +375,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406359",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14A-Lynch",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 15,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -3,
+      "goals_against": 18,
+      "goals_for": 15,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Vikings-B14A-Reichman",
       "wins": 3

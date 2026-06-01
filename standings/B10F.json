@@ -1,13 +1,13 @@
 {
   "division": "B10F",
-  "scraped_at": "2026-05-31T08:32:45.989811Z",
+  "scraped_at": "2026-06-01T11:03:22.243268Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Nutley",
       "coach": "Kapusinski",
       "draws": 2,
-      "form": "DWWWD",
+      "form": "WWWDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -85,13 +85,24 @@
           "result": "D",
           "time": "08:00 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405464",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B10F-Ulloa",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 16,
-      "goals_for": 42,
-      "losses": 0,
-      "played": 7,
+      "goal_diff": 21,
+      "goals_against": 23,
+      "goals_for": 44,
+      "losses": 1,
+      "played": 8,
       "points": 17,
       "team_raw": "Nutley-B10F-Kapusinski",
       "wins": 5
@@ -100,7 +111,7 @@
       "club": "GlenRock",
       "coach": "Oakland",
       "draws": 1,
-      "form": "LWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-04-11",
@@ -167,22 +178,33 @@
           "result": "D",
           "time": "08:00 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406843",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B10F-DeGennaro",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 11,
-      "goals_for": 24,
+      "goal_diff": 15,
+      "goals_against": 13,
+      "goals_for": 28,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "GlenRock-B10F-Oakland",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Belleville",
       "coach": "Ulloa",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -249,22 +271,33 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405464",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B10F-Kapusinski",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 13,
-      "goals_for": 34,
+      "goal_diff": 26,
+      "goals_against": 15,
+      "goals_for": 41,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "Belleville-B10F-Ulloa",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "CougarSC",
       "coach": "Sloan",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -342,22 +375,33 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "AVIA-HitchcockSmall"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406842",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10F-Maupin",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 15,
-      "goals_for": 26,
+      "goal_diff": 14,
+      "goals_against": 18,
+      "goals_for": 32,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "CougarSC-B10F-Sloan",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Montclair",
       "coach": "Maupin",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-04-11",
@@ -435,13 +479,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406842",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10F-Sloan",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": -26,
-      "goals_against": 36,
-      "goals_for": 10,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -29,
+      "goals_against": 42,
+      "goals_for": 13,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Montclair-B10F-Maupin",
       "wins": 1
@@ -528,13 +583,24 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "AVIA-HitchcockSmall"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406843",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10F-Oakland",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -45,
-      "goals_against": 58,
-      "goals_for": 13,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -47,
+      "goals_against": 62,
+      "goals_for": 15,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "AviatorsHHSA-B10F-DeGennaro",
       "wins": 0

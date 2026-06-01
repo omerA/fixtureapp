@@ -1,13 +1,13 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-05-31T08:34:04.716360Z",
+  "scraped_at": "2026-06-01T11:04:45.314818Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
       "coach": "Breheny",
-      "draws": 1,
-      "form": "WWDLW",
+      "draws": 2,
+      "form": "WDLWD",
       "games": [
         {
           "date": "2026-04-12",
@@ -74,22 +74,33 @@
           "result": "W",
           "time": "09:45 AM",
           "venue_code": "MAR-HabernickelPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407781",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12A-Kolodiy",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
         }
       ],
       "goal_diff": 9,
-      "goals_against": 9,
-      "goals_for": 18,
+      "goals_against": 11,
+      "goals_for": 20,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 14,
       "team_raw": "Maroons-B12A-Breheny",
       "wins": 4
     },
     {
       "club": "CougarSC",
       "coach": "Kolodiy",
-      "draws": 0,
-      "form": "WWLWW",
+      "draws": 1,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-04-23",
@@ -156,104 +167,33 @@
           "result": "W",
           "time": "08:30 AM",
           "venue_code": "COUGSC-LightningSml"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 19,
-      "goals_for": 28,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
-      "team_raw": "CougarSC-B12A-Kolodiy",
-      "wins": 4
-    },
-    {
-      "club": "Tenafly",
-      "coach": "Schwartzberg",
-      "draws": 3,
-      "form": "DWLDW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "407760",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B12A-Rake",
-          "result": "D",
-          "time": "03:45 PM",
-          "venue_code": "TEN-Municipal"
         },
         {
-          "date": "2026-04-12",
-          "game_number": "407761",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12A-Brown",
-          "result": "D",
-          "time": "04:15 PM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407765",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B12A-Clifford",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407769",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B12A-Kolodiy",
-          "result": "L",
-          "time": "08:30 AM",
-          "venue_code": "COUGSC-LightningSml"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407771",
+          "date": "2026-05-31",
+          "game_number": "407781",
           "goals_against": 2,
           "goals_for": 2,
           "opponent_club": "Maroons",
           "opponent_raw": "Maroons-B12A-Breheny",
           "result": "D",
-          "time": "09:45 AM",
-          "venue_code": "MAR-MapleParkWestSm"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407776",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12A-Brown",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "TEN-Municipal"
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 16,
-      "goals_for": 16,
-      "losses": 1,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Tenafly-B12A-Schwartzberg",
-      "wins": 2
+      "goal_diff": 9,
+      "goals_against": 21,
+      "goals_for": 30,
+      "losses": 2,
+      "played": 7,
+      "points": 13,
+      "team_raw": "CougarSC-B12A-Kolodiy",
+      "wins": 4
     },
     {
       "club": "Nutley",
       "coach": "Clifford",
       "draws": 1,
-      "form": "LWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-04-19",
@@ -309,22 +249,33 @@
           "result": "L",
           "time": "08:30 AM",
           "venue_code": "COUGSC-LightningSml"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407779",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12A-Schwartzberg",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 17,
-      "goals_for": 14,
+      "goal_diff": -2,
+      "goals_against": 20,
+      "goals_for": 18,
       "losses": 2,
-      "played": 5,
-      "points": 7,
+      "played": 6,
+      "points": 10,
       "team_raw": "Nutley-B12A-Clifford",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Rake",
       "draws": 1,
-      "form": "LWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -391,22 +342,126 @@
           "result": "L",
           "time": "09:45 AM",
           "venue_code": "MAR-HabernickelPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407780",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12A-Brown",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MONT-BrookdaleD"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 13,
-      "goals_for": 15,
+      "goal_diff": 3,
+      "goals_against": 16,
+      "goals_for": 19,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 10,
       "team_raw": "FairLawnAllSports-B12A-Rake",
+      "wins": 3
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Schwartzberg",
+      "draws": 3,
+      "form": "WLDWL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "407760",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12A-Rake",
+          "result": "D",
+          "time": "03:45 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407761",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12A-Brown",
+          "result": "D",
+          "time": "04:15 PM",
+          "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407765",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Clifford",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407769",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12A-Kolodiy",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407771",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12A-Breheny",
+          "result": "D",
+          "time": "09:45 AM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407776",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12A-Brown",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407779",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Clifford",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 20,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 7,
+      "points": 9,
+      "team_raw": "Tenafly-B12A-Schwartzberg",
       "wins": 2
     },
     {
       "club": "Montclair",
       "coach": "Brown",
       "draws": 2,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-04-23",
@@ -484,13 +539,24 @@
           "result": "L",
           "time": "04:15 PM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407780",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12A-Rake",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MONT-BrookdaleD"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 27,
-      "goals_for": 10,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -18,
+      "goals_against": 31,
+      "goals_for": 13,
+      "losses": 6,
+      "played": 8,
       "points": 2,
       "team_raw": "Montclair-B12A-Brown",
       "wins": 0

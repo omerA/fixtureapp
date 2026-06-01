@@ -1,13 +1,13 @@
 {
   "division": "B09E",
-  "scraped_at": "2026-05-31T08:31:49.115372Z",
+  "scraped_at": "2026-06-01T11:02:26.773409Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlenRock",
       "coach": "Mayell",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-15",
@@ -85,104 +85,33 @@
           "result": "W",
           "time": "01:45 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408204",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09E-Cilia",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
       "goal_diff": 29,
-      "goals_against": 8,
-      "goals_for": 37,
+      "goals_against": 9,
+      "goals_for": 38,
       "losses": 0,
-      "played": 7,
+      "played": 8,
       "points": 19,
       "team_raw": "GlenRock-B09E-Mayell",
       "wins": 6
     },
     {
-      "club": "UnionCity",
-      "coach": "Marante",
-      "draws": 0,
-      "form": "WWWWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408176",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B09E-OConnell",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408182",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09E-Delasandro",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408188",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09E-Cilia",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408193",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09E-vanGulikX",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408197",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B09E-Brown",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408199",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B09E-Mayell",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "SS-FaberTurfSml"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 17,
-      "goals_for": 27,
-      "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "UnionCity-B09E-Marante",
-      "wins": 5
-    },
-    {
       "club": "Paramus",
       "coach": "Kaynar",
       "draws": 1,
-      "form": "WDLWW",
+      "form": "DLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -249,22 +178,126 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408205",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09E-Brown",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-McCoogPark"
         }
       ],
-      "goal_diff": 12,
+      "goal_diff": 11,
       "goals_against": 13,
-      "goals_for": 25,
+      "goals_for": 24,
       "losses": 1,
-      "played": 6,
+      "played": 7,
       "points": 13,
       "team_raw": "Paramus-B09E-Kaynar",
       "wins": 4
     },
     {
+      "club": "UnionCity",
+      "coach": "Marante",
+      "draws": 1,
+      "form": "WWWLD",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408176",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B09E-OConnell",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408182",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09E-Delasandro",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408188",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09E-Cilia",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408193",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09E-vanGulikX",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408197",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09E-Brown",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408199",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09E-Mayell",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408203",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B09E-OConnell",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 20,
+      "goals_for": 27,
+      "losses": 1,
+      "played": 7,
+      "points": 13,
+      "team_raw": "UnionCity-B09E-Marante",
+      "wins": 4
+    },
+    {
       "club": "Secaucus",
       "coach": "OConnell",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -342,14 +375,25 @@
           "result": "W",
           "time": "01:15 PM",
           "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408203",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B09E-Marante",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "SECAU-CountyShetikFl"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 16,
       "goals_against": 17,
-      "goals_for": 30,
-      "losses": 3,
-      "played": 7,
-      "points": 12,
+      "goals_for": 33,
+      "losses": 2,
+      "played": 8,
+      "points": 13,
       "team_raw": "Secaucus-B09E-OConnell",
       "wins": 4
     },
@@ -357,7 +401,7 @@
       "club": "Dumont",
       "coach": "Delasandro",
       "draws": 1,
-      "form": "LWLDL",
+      "form": "WLDLW",
       "games": [
         {
           "date": "2026-04-12",
@@ -424,22 +468,241 @@
           "result": "D",
           "time": "04:30 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408202",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09E-vanGulikX",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 22,
-      "goals_for": 11,
+      "goal_diff": -10,
+      "goals_against": 25,
+      "goals_for": 15,
       "losses": 4,
-      "played": 6,
-      "points": 4,
+      "played": 7,
+      "points": 7,
       "team_raw": "Dumont-B09E-Delasandro",
+      "wins": 2
+    },
+    {
+      "club": "Maroons",
+      "coach": "vanGulikX",
+      "draws": 1,
+      "form": "DLLLL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "408178",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09E-Cilia",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408184",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09E-Mayell",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408189",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09E-Brown",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408193",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B09E-Marante",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "408196",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B09E-OConnell",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408200",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B09E-Kaynar",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408202",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09E-Delasandro",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "408207",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09E-Cilia",
+          "result": "D",
+          "time": "07:15 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        }
+      ],
+      "goal_diff": -18,
+      "goals_against": 31,
+      "goals_for": 13,
+      "losses": 5,
+      "played": 8,
+      "points": 4,
+      "team_raw": "Maroons-B09E-vanGulikX",
+      "wins": 1
+    },
+    {
+      "club": "WayneBG",
+      "coach": "Brown",
+      "draws": 1,
+      "form": "DLLLL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408174",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B09E-Kaynar",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408180",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09E-Delasandro",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408183",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09E-Cilia",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408189",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09E-vanGulikX",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408191",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09E-Mayell",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408197",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B09E-Marante",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408198",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B09E-OConnell",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408205",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B09E-Kaynar",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-McCoogPark"
+        }
+      ],
+      "goal_diff": -21,
+      "goals_against": 27,
+      "goals_for": 6,
+      "losses": 5,
+      "played": 8,
+      "points": 4,
+      "team_raw": "WayneBG-B09E-Brown",
       "wins": 1
     },
     {
       "club": "RiverDell",
       "coach": "Cilia",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-05-15",
@@ -516,6 +779,17 @@
           "opponent_raw": "Dumont-B09E-Delasandro",
           "result": "D",
           "time": "04:30 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408204",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09E-Mayell",
+          "result": "L",
+          "time": "09:00 AM",
           "venue_code": "RDBH-MS-Sm"
         },
         {
@@ -531,198 +805,12 @@
         }
       ],
       "goal_diff": -14,
-      "goals_against": 30,
-      "goals_for": 16,
+      "goals_against": 31,
+      "goals_for": 17,
       "losses": 5,
-      "played": 8,
+      "played": 9,
       "points": 4,
       "team_raw": "RiverDell-B09E-Cilia",
-      "wins": 1
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Brown",
-      "draws": 1,
-      "form": "LDLLL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408174",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-B09E-Kaynar",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-ShaiShaknai"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408180",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09E-Delasandro",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408183",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09E-Cilia",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408189",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09E-vanGulikX",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408191",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B09E-Mayell",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408197",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-B09E-Marante",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408198",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B09E-OConnell",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "SECAU-CountyShetikFl"
-        }
-      ],
-      "goal_diff": -22,
-      "goals_against": 28,
-      "goals_for": 6,
-      "losses": 5,
-      "played": 7,
-      "points": 4,
-      "team_raw": "WayneBG-B09E-Brown",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "vanGulikX",
-      "draws": 1,
-      "form": "LDLLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408178",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09E-Cilia",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408184",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B09E-Mayell",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408189",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B09E-Brown",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408193",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-B09E-Marante",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "408196",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B09E-OConnell",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408200",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-B09E-Kaynar",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "MAR-Stevens SS1"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "408207",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09E-Cilia",
-          "result": "D",
-          "time": "07:15 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        }
-      ],
-      "goal_diff": -17,
-      "goals_against": 27,
-      "goals_for": 10,
-      "losses": 4,
-      "played": 7,
-      "points": 4,
-      "team_raw": "Maroons-B09E-vanGulikX",
       "wins": 1
     }
   ]

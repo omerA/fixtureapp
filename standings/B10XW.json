@@ -1,8 +1,46 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-05-31T08:33:11.488023Z",
+  "scraped_at": "2026-06-01T11:03:50.024180Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Force",
+      "coach": "Darling",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "409436",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B10XW-Martinez",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409663",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10XW-Pajuelo",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WEssex-Volunteers"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 4,
+      "goals_for": 12,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "Force-B10XW-Darling",
+      "wins": 2
+    },
     {
       "club": "NMKnights",
       "coach": "Paulose",
@@ -45,7 +83,7 @@
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 0,
-      "form": "W",
+      "form": "WL",
       "games": [
         {
           "date": "2026-05-08",
@@ -57,42 +95,26 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409663",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10XW-Darling",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WEssex-Volunteers"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 0,
-      "goals_for": 5,
-      "losses": 0,
-      "played": 1,
+      "goal_diff": 4,
+      "goals_against": 3,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "WestEssex-B10XW-Pajuelo",
-      "wins": 1
-    },
-    {
-      "club": "Force",
-      "coach": "Darling",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "409436",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B10XW-Martinez",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "BELLE-BellePkSm"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 2,
-      "goals_for": 9,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Force-B10XW-Darling",
       "wins": 1
     },
     {

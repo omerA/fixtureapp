@@ -1,6 +1,6 @@
 {
   "division": "B15D",
-  "scraped_at": "2026-05-31T08:36:04.704122Z",
+  "scraped_at": "2026-06-01T11:06:39.858832Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -87,6 +87,17 @@
           "venue_code": "NA-Zadroga1"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "406363",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B15D-Cambareri",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "DUM-HS"
+        },
+        {
           "date": "2026-05-08",
           "game_number": "406365",
           "goals_against": 1,
@@ -98,20 +109,20 @@
           "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": 24,
+      "goal_diff": 31,
       "goals_against": 7,
-      "goals_for": 31,
+      "goals_for": 38,
       "losses": 0,
-      "played": 8,
-      "points": 22,
+      "played": 9,
+      "points": 25,
       "team_raw": "Belleville-B15D-Valencia",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "NoArlington",
       "coach": "Saldanha",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -189,22 +200,137 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406361",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B15D-Sweeny",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "NA-Zadroga1"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 22,
       "goals_against": 12,
-      "goals_for": 27,
+      "goals_for": 34,
       "losses": 2,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 18,
       "team_raw": "NoArlington-B15D-Saldanha",
-      "wins": 5
+      "wins": 6
+    },
+    {
+      "club": "Harrison",
+      "coach": "SolisRisco",
+      "draws": 1,
+      "form": "LLDWW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "405095",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B15D-Sweeny",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "LKLND-LakelandHS"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405097",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B15D-Cambareri",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HARR-HarrisonHigh"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "405101",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B15D-Parks",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405102",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B15D-Saldanha",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "405105",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B15D-Valencia",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405109",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B15D-Sweeny",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406360",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B15D-Cambareri",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406362",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B15D-Parks",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "HobUtd-SinatraPark"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 12,
+      "goals_for": 24,
+      "losses": 3,
+      "played": 8,
+      "points": 13,
+      "team_raw": "Harrison-B15D-SolisRisco",
+      "wins": 4
     },
     {
       "club": "Lakeland",
       "coach": "Sweeny",
       "draws": 3,
-      "form": "DLWDW",
+      "form": "LWDWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -284,6 +410,17 @@
           "venue_code": "LKLND-LakelandHS"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "406361",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B15D-Saldanha",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "NA-Zadroga1"
+        },
+        {
           "date": "2026-05-08",
           "game_number": "406365",
           "goals_against": 2,
@@ -295,113 +432,20 @@
           "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 18,
+      "goal_diff": -8,
+      "goals_against": 25,
       "goals_for": 17,
-      "losses": 2,
-      "played": 8,
+      "losses": 3,
+      "played": 9,
       "points": 12,
       "team_raw": "Lakeland-B15D-Sweeny",
-      "wins": 3
-    },
-    {
-      "club": "Harrison",
-      "coach": "SolisRisco",
-      "draws": 1,
-      "form": "WLLDW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "405095",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B15D-Sweeny",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "LKLND-LakelandHS"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405097",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B15D-Cambareri",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HARR-HarrisonHigh"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "405101",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B15D-Parks",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405102",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B15D-Saldanha",
-          "result": "L",
-          "time": "03:45 PM",
-          "venue_code": "NA-Zadroga1"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "405105",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B15D-Valencia",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "405109",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B15D-Sweeny",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406360",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B15D-Cambareri",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "DUM-HS"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 10,
-      "goals_for": 19,
-      "losses": 3,
-      "played": 7,
-      "points": 10,
-      "team_raw": "Harrison-B15D-SolisRisco",
       "wins": 3
     },
     {
       "club": "Dumont",
       "coach": "Cambareri",
       "draws": 1,
-      "form": "LWDLL",
+      "form": "WDLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -479,13 +523,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406363",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B15D-Valencia",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 22,
+      "goal_diff": -21,
+      "goals_against": 29,
       "goals_for": 8,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Dumont-B15D-Cambareri",
       "wins": 1
@@ -572,13 +627,24 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "LKLND-LakelandHS"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406362",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B15D-SolisRisco",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 37,
-      "goals_for": 4,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -36,
+      "goals_against": 42,
+      "goals_for": 6,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "HobUtd-B15D-Parks",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-05-31T08:37:09.850915Z",
+  "scraped_at": "2026-06-01T11:07:43.986594Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -85,16 +85,27 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406021",
+          "goals_against": 5,
+          "goals_for": 10,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G09E-Pacheco",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 8,
-      "goals_for": 36,
+      "goal_diff": 33,
+      "goals_against": 13,
+      "goals_for": 46,
       "losses": 0,
-      "played": 7,
-      "points": 21,
+      "played": 8,
+      "points": 24,
       "team_raw": "Lyndhurst-G09E-Bifulco",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "UnionCity",
@@ -179,92 +190,10 @@
       "wins": 5
     },
     {
-      "club": "GlenRock",
-      "coach": "Pacheco",
-      "draws": 2,
-      "form": "WLDWL",
-      "games": [
-        {
-          "date": "2026-04-04",
-          "game_number": "406001",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09E-Medeiros",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406003",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G09E-Patel",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406007",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G09E-Bifulco",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406011",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G09E-Balch",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406015",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09E-Medeiros",
-          "result": "W",
-          "time": "08:30 AM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406019",
-          "goals_against": 10,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G09E-Patel",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "VIK-HaworthTurf"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 20,
-      "goals_for": 16,
-      "losses": 2,
-      "played": 6,
-      "points": 8,
-      "team_raw": "GlenRock-G09E-Pacheco",
-      "wins": 2
-    },
-    {
       "club": "Vikings",
       "coach": "Patel",
       "draws": 1,
-      "form": "WLDLW",
+      "form": "LDLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -342,22 +271,126 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "VIK-HaworthTurf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406022",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09E-Balch",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 27,
-      "goals_for": 19,
+      "goal_diff": -3,
+      "goals_against": 29,
+      "goals_for": 26,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 10,
       "team_raw": "Vikings-G09E-Patel",
+      "wins": 3
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Pacheco",
+      "draws": 2,
+      "form": "LDWLL",
+      "games": [
+        {
+          "date": "2026-04-04",
+          "game_number": "406001",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Medeiros",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406003",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09E-Patel",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406007",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G09E-Bifulco",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406011",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09E-Balch",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406015",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Medeiros",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406019",
+          "goals_against": 10,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09E-Patel",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "VIK-HaworthTurf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406021",
+          "goals_against": 10,
+          "goals_for": 5,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G09E-Bifulco",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "LYND-RecCtrFld1A"
+        }
+      ],
+      "goal_diff": -9,
+      "goals_against": 30,
+      "goals_for": 21,
+      "losses": 3,
+      "played": 7,
+      "points": 8,
+      "team_raw": "GlenRock-G09E-Pacheco",
       "wins": 2
     },
     {
       "club": "Hotspur",
       "coach": "Balch",
       "draws": 1,
-      "form": "LWDLL",
+      "form": "WDLLL",
       "games": [
         {
           "date": "2026-04-17",
@@ -435,13 +468,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406022",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09E-Patel",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 34,
-      "goals_for": 10,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -29,
+      "goals_against": 41,
+      "goals_for": 12,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Hotspur-G09E-Balch",
       "wins": 1

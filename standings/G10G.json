@@ -1,13 +1,117 @@
 {
   "division": "G10G",
-  "scraped_at": "2026-05-31T08:37:42.838101Z",
+  "scraped_at": "2026-06-01T11:08:16.865268Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Dragons",
+      "coach": "Letizia",
+      "draws": 1,
+      "form": "WWLWW",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "405332",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10G-Vaquero",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "405337",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10G-Ghai",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405339",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10G-Daniell",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "LKLND-Hagstrom"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405341",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10G-Romero",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "405346",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10G-Hsia",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405349",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10G-Vaquero",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405351",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10G-Ghai",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405353",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10G-Daniell",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        }
+      ],
+      "goal_diff": 17,
+      "goals_against": 19,
+      "goals_for": 36,
+      "losses": 1,
+      "played": 8,
+      "points": 19,
+      "team_raw": "Dragons-G10G-Letizia",
+      "wins": 6
+    },
     {
       "club": "Lakeland",
       "coach": "Daniell",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -87,6 +191,17 @@
           "venue_code": "LKLND-Hagstrom"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "405353",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10G-Letizia",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "405357",
           "goals_against": 2,
@@ -98,107 +213,14 @@
           "venue_code": "LKLND-Hagstrom"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 18,
-      "goals_for": 35,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 10,
+      "goals_against": 26,
+      "goals_for": 36,
+      "losses": 3,
+      "played": 9,
       "points": 18,
       "team_raw": "Lakeland-G10G-Daniell",
       "wins": 6
-    },
-    {
-      "club": "Dragons",
-      "coach": "Letizia",
-      "draws": 1,
-      "form": "WWWLW",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "405332",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10G-Vaquero",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-15",
-          "game_number": "405337",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G10G-Ghai",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405339",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10G-Daniell",
-          "result": "W",
-          "time": "05:45 PM",
-          "venue_code": "LKLND-Hagstrom"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405341",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G10G-Romero",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "405346",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G10G-Hsia",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405349",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10G-Vaquero",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405351",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G10G-Ghai",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "HobUTD-1600Park"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 18,
-      "goals_for": 28,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
-      "team_raw": "Dragons-G10G-Letizia",
-      "wins": 5
     },
     {
       "club": "Maroons",
@@ -286,7 +308,7 @@
       "club": "CougarSC",
       "coach": "Hsia",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-04-25",
@@ -353,16 +375,27 @@
           "result": "L",
           "time": "02:45 PM",
           "venue_code": "LKLND-Hagstrom"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405354",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10G-Romero",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -8,
+      "goal_diff": -5,
       "goals_against": 18,
-      "goals_for": 10,
+      "goals_for": 13,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "CougarSC-G10G-Hsia",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "HobUtd",
@@ -472,7 +505,7 @@
       "club": "FairLawnAllSports",
       "coach": "Romero",
       "draws": 1,
-      "form": "WDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -550,13 +583,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "MAR-Stevens SS2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405354",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10G-Hsia",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 26,
+      "goal_diff": -17,
+      "goals_against": 29,
       "goals_for": 12,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "FairLawnAllSports-G10G-Romero",
       "wins": 1

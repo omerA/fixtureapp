@@ -1,6 +1,6 @@
 {
   "division": "B12GW",
-  "scraped_at": "2026-05-31T08:34:38.122858Z",
+  "scraped_at": "2026-06-01T11:05:18.339099Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -74,22 +74,33 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407559",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12GW-Rangrez",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 12,
-      "goals_for": 30,
+      "goal_diff": 19,
+      "goals_against": 13,
+      "goals_for": 32,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "FF-B12GW-Lezcano",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Tenafly",
       "coach": "Rangrez",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-04-24",
@@ -156,16 +167,131 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407559",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B12GW-Lezcano",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 13,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 6,
+      "goal_diff": 4,
+      "goals_against": 15,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 7,
       "points": 13,
       "team_raw": "Tenafly-B12GW-Rangrez",
       "wins": 4
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Kagan",
+      "draws": 2,
+      "form": "WDLWW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "406285",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B12GW-Lezcano",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407542",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12GW-Bonfrisco",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "ARS-MemParkRdg1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407543",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12GW-Siddiqi",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407548",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12GW-Gillies",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407549",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12GW-Rangrez",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407552",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B12GW-Lezcano",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407556",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12GW-Bonfrisco",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "FL-Brookdale"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407560",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12GW-Siddiqi",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec1A"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 18,
+      "goals_for": 17,
+      "losses": 3,
+      "played": 8,
+      "points": 11,
+      "team_raw": "FairLawnAllSports-B12GW-Kagan",
+      "wins": 3
     },
     {
       "club": "Maroons",
@@ -264,7 +390,7 @@
       "club": "Vikings",
       "coach": "Siddiqi",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-04-11",
@@ -331,109 +457,27 @@
           "result": "L",
           "time": "02:45 PM",
           "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407560",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12GW-Kagan",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 9,
-      "goals_for": 12,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": 2,
+      "goals_against": 12,
+      "goals_for": 14,
+      "losses": 4,
+      "played": 7,
       "points": 9,
       "team_raw": "Vikings-B12GW-Siddiqi",
       "wins": 3
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Kagan",
-      "draws": 2,
-      "form": "LWDLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "406285",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B12GW-Lezcano",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407542",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B12GW-Bonfrisco",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "ARS-MemParkRdg1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407543",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12GW-Siddiqi",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407548",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12GW-Gillies",
-          "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407549",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B12GW-Rangrez",
-          "result": "D",
-          "time": "08:30 AM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407552",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B12GW-Lezcano",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407556",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B12GW-Bonfrisco",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "FL-Brookdale"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 16,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 7,
-      "points": 8,
-      "team_raw": "FairLawnAllSports-B12GW-Kagan",
-      "wins": 2
     },
     {
       "club": "Arsenal",

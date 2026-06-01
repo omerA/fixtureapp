@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-05-31T08:34:12.248500Z",
+  "scraped_at": "2026-06-01T11:04:52.843590Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,7 +100,7 @@
       "club": "Mahwah",
       "coach": "Fitzsimmons",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-05-30",
@@ -178,22 +178,33 @@
           "result": "D",
           "time": "11:45 AM",
           "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408416",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MAHWAH-RamCollMid4"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 14,
-      "goals_for": 33,
+      "goal_diff": 24,
+      "goals_against": 15,
+      "goals_for": 39,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Mahwah-B12C-Fitzsimmons",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Dragons",
       "coach": "Wein",
       "draws": 2,
-      "form": "LDWDW",
+      "form": "DWDWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -260,16 +271,27 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408415",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Birnie",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": 5,
+      "goal_diff": 9,
       "goals_against": 11,
-      "goals_for": 16,
+      "goals_for": 20,
       "losses": 1,
-      "played": 6,
-      "points": 11,
+      "played": 7,
+      "points": 14,
       "team_raw": "Dragons-B12C-Wein",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Force",
@@ -357,7 +379,7 @@
       "club": "NoValley",
       "coach": "Birnie",
       "draws": 1,
-      "form": "LWLWD",
+      "form": "WLWDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -435,13 +457,24 @@
           "result": "D",
           "time": "11:45 AM",
           "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408415",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 14,
+      "goal_diff": -1,
+      "goals_against": 18,
       "goals_for": 17,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "NoValley-B12C-Birnie",
       "wins": 3
@@ -531,8 +564,8 @@
     {
       "club": "NoRockland",
       "coach": "Alexander",
-      "draws": 0,
-      "form": "WLLWL",
+      "draws": 1,
+      "form": "LLWLD",
       "games": [
         {
           "date": "2026-05-30",
@@ -599,14 +632,25 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408414",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B12C-Campoverde",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
         }
       ],
       "goal_diff": -9,
-      "goals_against": 26,
-      "goals_for": 17,
+      "goals_against": 30,
+      "goals_for": 21,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 7,
       "team_raw": "NoRockland-B12C-Alexander",
       "wins": 2
     },
@@ -696,7 +740,7 @@
       "club": "Bergenfield",
       "coach": "Camino",
       "draws": 1,
-      "form": "DLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -752,13 +796,24 @@
           "result": "L",
           "time": "04:45 PM",
           "venue_code": "BGFD-Hickory"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408416",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MAHWAH-RamCollMid4"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 14,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -12,
+      "goals_against": 20,
+      "goals_for": 8,
+      "losses": 5,
+      "played": 6,
       "points": 1,
       "team_raw": "Bergenfield-B12C-Camino",
       "wins": 0
@@ -766,8 +821,8 @@
     {
       "club": "NoBergen",
       "coach": "Campoverde",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-04-25",
@@ -834,14 +889,25 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408414",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
         }
       ],
       "goal_diff": -16,
-      "goals_against": 26,
-      "goals_for": 10,
+      "goals_against": 30,
+      "goals_for": 14,
       "losses": 6,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 1,
       "team_raw": "NoBergen-B12C-Campoverde",
       "wins": 0
     }

@@ -1,14 +1,25 @@
 {
   "division": "B15A",
-  "scraped_at": "2026-05-31T08:35:54.984921Z",
+  "scraped_at": "2026-06-01T11:06:30.195955Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WorldClassFC",
       "coach": "Leone",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "405044",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B15A-Stein",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NY-WC-Field1"
+        },
         {
           "date": "2026-05-17",
           "game_number": "406982",
@@ -87,174 +98,32 @@
           "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": 27,
+      "goal_diff": 30,
       "goals_against": 4,
-      "goals_for": 31,
+      "goals_for": 34,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "WorldClassFC-B15A-Leone",
-      "wins": 6
-    },
-    {
-      "club": "Hotspur",
-      "coach": "Dallara",
-      "draws": 0,
-      "form": "WWLLW",
-      "games": [
-        {
-          "date": "2026-05-17",
-          "game_number": "405043",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B15A-Ysern",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "407733",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B15A-Stein",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407735",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B15A-Ysern",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "HOT-HS Turf"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407739",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B15A-Mullan",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407740",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B15A-Leone",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "NY-WC-Field1"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 18,
-      "goals_for": 12,
-      "losses": 2,
-      "played": 5,
-      "points": 9,
-      "team_raw": "Hotspur-B15A-Dallara",
-      "wins": 3
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Stein",
-      "draws": 0,
-      "form": "LWWWL",
-      "games": [
-        {
-          "date": "2026-05-17",
-          "game_number": "406981",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B15A-Mullan",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "407733",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B15A-Dallara",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "407734",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B15A-Mullan",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407738",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B15A-Leone",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407742",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B15A-Torrie",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "NoVAL-OTHS turf"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407744",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B15A-Ysern",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 15,
-      "goals_for": 23,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "RiverDell-B15A-Stein",
-      "wins": 3
+      "wins": 7
     },
     {
       "club": "Force",
       "coach": "Mullan",
       "draws": 1,
-      "form": "LLDLW",
+      "form": "LDLWW",
       "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "405045",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B15A-Dallara",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "NY-MW-CentralVal15"
+        },
         {
           "date": "2026-05-17",
           "game_number": "406981",
@@ -322,21 +191,32 @@
           "venue_code": "NY-MW-CentralVal3"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 13,
-      "goals_for": 16,
+      "goal_diff": 4,
+      "goals_against": 15,
+      "goals_for": 19,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 10,
       "team_raw": "Force-B15A-Mullan",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "NoValley",
       "coach": "Torrie",
       "draws": 1,
-      "form": "LWLDW",
+      "form": "WLDWW",
       "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "405046",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B15A-Ysern",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
         {
           "date": "2026-05-17",
           "game_number": "406982",
@@ -393,20 +273,195 @@
           "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 17,
-      "goals_for": 6,
+      "goal_diff": -9,
+      "goals_against": 18,
+      "goals_for": 9,
       "losses": 2,
-      "played": 5,
-      "points": 7,
+      "played": 6,
+      "points": 10,
       "team_raw": "NoValley-B15A-Torrie",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Dallara",
+      "draws": 0,
+      "form": "WLLWL",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "405043",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B15A-Ysern",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405045",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B15A-Mullan",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "NY-MW-CentralVal15"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "407733",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B15A-Stein",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407735",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B15A-Ysern",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "HOT-HS Turf"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407739",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B15A-Mullan",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407740",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B15A-Leone",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "NY-WC-Field1"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 21,
+      "goals_for": 14,
+      "losses": 3,
+      "played": 6,
+      "points": 9,
+      "team_raw": "Hotspur-B15A-Dallara",
+      "wins": 3
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Stein",
+      "draws": 0,
+      "form": "WWWLL",
+      "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "405044",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B15A-Leone",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406981",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B15A-Mullan",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "407733",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B15A-Dallara",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "407734",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B15A-Mullan",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407738",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B15A-Leone",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407742",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B15A-Torrie",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407744",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B15A-Ysern",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 18,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 7,
+      "points": 9,
+      "team_raw": "RiverDell-B15A-Stein",
+      "wins": 3
     },
     {
       "club": "Warriors",
       "coach": "Ysern",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-05-17",
@@ -418,6 +473,17 @@
           "result": "L",
           "time": "08:00 PM",
           "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405046",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B15A-Torrie",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-OTHS turf"
         },
         {
           "date": "2026-03-29",
@@ -486,11 +552,11 @@
           "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 27,
-      "goals_for": 6,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -23,
+      "goals_against": 30,
+      "goals_for": 7,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Warriors-B15A-Ysern",
       "wins": 1

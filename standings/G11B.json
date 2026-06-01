@@ -1,13 +1,13 @@
 {
   "division": "G11B",
-  "scraped_at": "2026-05-31T08:38:00.501957Z",
+  "scraped_at": "2026-06-01T11:08:34.435043Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Montclair",
       "coach": "Duffy",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-25",
@@ -74,13 +74,24 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408525",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G11B-Chiosie",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": 14,
+      "goal_diff": 12,
       "goals_against": 7,
-      "goals_for": 21,
+      "goals_for": 19,
       "losses": 1,
-      "played": 6,
+      "played": 7,
       "points": 15,
       "team_raw": "Montclair-G11B-Duffy",
       "wins": 5
@@ -88,8 +99,8 @@
     {
       "club": "Emerson",
       "coach": "Dillow",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -156,23 +167,45 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408524",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G11B-Villagomez",
+          "result": "D",
+          "time": "10:15 AM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 9,
       "goals_against": 5,
-      "goals_for": 15,
+      "goals_for": 14,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 13,
       "team_raw": "Emerson-G11B-Dillow",
-      "wins": 5
+      "wins": 4
     },
     {
       "club": "HobUtd",
       "coach": "Cashman",
-      "draws": 1,
-      "form": "WWWWL",
+      "draws": 2,
+      "form": "WWWLD",
       "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "405444",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11B-Harrison",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "MAR-GlenSchool"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405449",
@@ -240,20 +273,20 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 5,
-      "goals_for": 12,
+      "goal_diff": 6,
+      "goals_against": 7,
+      "goals_for": 13,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 11,
       "team_raw": "HobUtd-G11B-Cashman",
-      "wins": 4
+      "wins": 3
     },
     {
       "club": "WorldClassFC",
       "coach": "Kaghado",
       "draws": 2,
-      "form": "DWWLD",
+      "form": "WWLDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -320,22 +353,33 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408526",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G11B-Longheira",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 11,
-      "goals_for": 20,
-      "losses": 1,
-      "played": 6,
-      "points": 11,
+      "goal_diff": 1,
+      "goals_against": 12,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 7,
+      "points": 8,
       "team_raw": "WorldClassFC-G11B-Kaghado",
-      "wins": 3
+      "wins": 2
     },
     {
       "club": "UnionCity",
       "coach": "Villagomez",
-      "draws": 2,
-      "form": "WLLLD",
+      "draws": 3,
+      "form": "LLLDD",
       "games": [
         {
           "date": "2026-03-29",
@@ -413,105 +457,45 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "UNIONCITY-Marti"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 10,
-      "goals_for": 5,
-      "losses": 4,
-      "played": 7,
-      "points": 5,
-      "team_raw": "UnionCity-G11B-Villagomez",
-      "wins": 1
-    },
-    {
-      "club": "Force",
-      "coach": "Chiosie",
-      "draws": 1,
-      "form": "WLLLL",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "405446",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G11B-Duffy",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-WMombasha"
         },
         {
-          "date": "2026-04-12",
-          "game_number": "405450",
+          "date": "2026-05-31",
+          "game_number": "408524",
           "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G11B-Villagomez",
-          "result": "D",
-          "time": "10:45 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405453",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G11B-Harrison",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405460",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G11B-Kaghado",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408515",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G11B-Cashman",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408520",
-          "goals_against": 3,
           "goals_for": 0,
           "opponent_club": "Emerson",
           "opponent_raw": "Emerson-G11B-Dillow",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-WMombasha"
+          "result": "D",
+          "time": "10:15 AM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 20,
-      "goals_for": 6,
-      "losses": 4,
-      "played": 6,
-      "points": 4,
-      "team_raw": "Force-G11B-Chiosie",
+      "goal_diff": -4,
+      "goals_against": 9,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 8,
+      "points": 6,
+      "team_raw": "UnionCity-G11B-Villagomez",
       "wins": 1
     },
     {
       "club": "Maroons",
       "coach": "Harrison",
-      "draws": 1,
-      "form": "LLWLD",
+      "draws": 2,
+      "form": "LWLDD",
       "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "405444",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G11B-Cashman",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "MAR-GlenSchool"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405447",
@@ -579,12 +563,12 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 21,
-      "goals_for": 9,
-      "losses": 4,
-      "played": 6,
-      "points": 4,
+      "goal_diff": -11,
+      "goals_against": 22,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 7,
+      "points": 5,
       "team_raw": "Maroons-G11B-Harrison",
       "wins": 1
     },
@@ -592,7 +576,7 @@
       "club": "AviatorsHHSA",
       "coach": "Longheira",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -648,16 +632,120 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408526",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11B-Kaghado",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 16,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 5,
-      "points": 1,
+      "goal_diff": -1,
+      "goals_against": 9,
+      "goals_for": 8,
+      "losses": 3,
+      "played": 6,
+      "points": 4,
       "team_raw": "AviatorsHHSA-G11B-Longheira",
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "club": "Force",
+      "coach": "Chiosie",
+      "draws": 1,
+      "form": "LLLLL",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "405446",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G11B-Duffy",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405450",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G11B-Villagomez",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405453",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11B-Harrison",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405460",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11B-Kaghado",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408515",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G11B-Cashman",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408520",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G11B-Dillow",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408525",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G11B-Duffy",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "GLENRDGE-WashFld"
+        }
+      ],
+      "goal_diff": -12,
+      "goals_against": 18,
+      "goals_for": 6,
+      "losses": 4,
+      "played": 7,
+      "points": 4,
+      "team_raw": "Force-G11B-Chiosie",
+      "wins": 1
     }
   ]
 }

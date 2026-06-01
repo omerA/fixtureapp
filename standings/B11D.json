@@ -1,6 +1,6 @@
 {
   "division": "B11D",
-  "scraped_at": "2026-05-31T08:33:26.750519Z",
+  "scraped_at": "2026-06-01T11:04:06.179853Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -30,6 +30,17 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404847",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11D-Allen",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "AMER-Presentation"
         },
         {
           "date": "2026-05-30",
@@ -87,21 +98,32 @@
           "venue_code": "PAR-WestbrkSouth-9x9"
         }
       ],
-      "goal_diff": 20,
+      "goal_diff": 21,
       "goals_against": 9,
-      "goals_for": 29,
+      "goals_for": 30,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "Americans-B11D-Dlug",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "RiverDell",
       "coach": "Allen",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWL",
       "games": [
+        {
+          "date": "2026-05-31",
+          "game_number": "404847",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11D-Dlug",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "AMER-Presentation"
+        },
         {
           "date": "2026-05-02",
           "game_number": "408348",
@@ -169,11 +191,11 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 23,
-      "goals_against": 6,
+      "goal_diff": 22,
+      "goals_against": 7,
       "goals_for": 29,
-      "losses": 0,
-      "played": 6,
+      "losses": 1,
+      "played": 7,
       "points": 16,
       "team_raw": "RiverDell-B11D-Allen",
       "wins": 5
@@ -181,8 +203,8 @@
     {
       "club": "NMKnights",
       "coach": "Melki",
-      "draws": 0,
-      "form": "WWWWL",
+      "draws": 1,
+      "form": "WWWLD",
       "games": [
         {
           "date": "2026-05-10",
@@ -205,6 +227,17 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404848",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B11D-Salik",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "NMilford-Williams9v9"
         },
         {
           "date": "2026-05-02",
@@ -263,13 +296,314 @@
         }
       ],
       "goal_diff": 4,
-      "goals_against": 14,
-      "goals_for": 18,
+      "goals_against": 16,
+      "goals_for": 20,
       "losses": 2,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 16,
       "team_raw": "NMKnights-B11D-Melki",
       "wins": 5
+    },
+    {
+      "club": "CougarUtd",
+      "coach": "DePiccioto",
+      "draws": 1,
+      "form": "WDWLW",
+      "games": [
+        {
+          "date": "2026-05-10",
+          "game_number": "404840",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11D-Reichman",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404844",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B11D-Melki",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404850",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B11D-Chudzik",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "408354",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11D-DeLucca",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-05-08",
+          "game_number": "408357",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B11D-Bautista",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408365",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11D-Allen",
+          "result": "L",
+          "time": "02:45 PM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408369",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11D-Dlug",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408373",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11D-Dickins",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "COUGUTD-Front"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 21,
+      "goals_for": 23,
+      "losses": 3,
+      "played": 8,
+      "points": 13,
+      "team_raw": "CougarUtd-B11D-DePiccioto",
+      "wins": 4
+    },
+    {
+      "club": "Maywood",
+      "coach": "Bautista",
+      "draws": 1,
+      "form": "DWWLW",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "404845",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11D-Dlug",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404849",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11D-Dickins",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "ARS-MemParkRdg1"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "404853",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11D-Reichman",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408350",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B11D-Chudzik",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "408353",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B11D-Stratton",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "WALD-HSTurf-3"
+        },
+        {
+          "date": "2026-05-08",
+          "game_number": "408357",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11D-DePiccioto",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408366",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B11D-Salik",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "PAR-WestbrkSouth-9x9"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408367",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11D-DeLucca",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "WYNE-JFK-Small"
+        }
+      ],
+      "goal_diff": 13,
+      "goals_against": 23,
+      "goals_for": 36,
+      "losses": 3,
+      "played": 8,
+      "points": 13,
+      "team_raw": "Maywood-B11D-Bautista",
+      "wins": 4
+    },
+    {
+      "club": "Paramus",
+      "coach": "Salik",
+      "draws": 2,
+      "form": "DLWWD",
+      "games": [
+        {
+          "date": "2026-05-17",
+          "game_number": "404842",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11D-Reichman",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "PAR-WestbrkSouth-9x9"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404848",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B11D-Melki",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407679",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11D-Dickins",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "ARS-MemParkRdg1"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408360",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11D-DeLucca",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408366",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B11D-Bautista",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "PAR-WestbrkSouth-9x9"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408368",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11D-Allen",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408376",
+          "goals_against": 10,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11D-Dlug",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "PAR-WestbrkSouth-9x9"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 25,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 7,
+      "points": 11,
+      "team_raw": "Paramus-B11D-Salik",
+      "wins": 3
     },
     {
       "club": "WayneBG",
@@ -362,274 +696,6 @@
       "played": 7,
       "points": 10,
       "team_raw": "WayneBG-B11D-DeLucca",
-      "wins": 3
-    },
-    {
-      "club": "Maywood",
-      "coach": "Bautista",
-      "draws": 1,
-      "form": "LDWWL",
-      "games": [
-        {
-          "date": "2026-05-17",
-          "game_number": "404845",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B11D-Dlug",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "404853",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B11D-Reichman",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408350",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B11D-Chudzik",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "408353",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B11D-Stratton",
-          "result": "W",
-          "time": "12:15 PM",
-          "venue_code": "WALD-HSTurf-3"
-        },
-        {
-          "date": "2026-05-08",
-          "game_number": "408357",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B11D-DePiccioto",
-          "result": "D",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408366",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-B11D-Salik",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "PAR-WestbrkSouth-9x9"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408367",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B11D-DeLucca",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "WYNE-JFK-Small"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 21,
-      "goals_for": 29,
-      "losses": 3,
-      "played": 7,
-      "points": 10,
-      "team_raw": "Maywood-B11D-Bautista",
-      "wins": 3
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "DePiccioto",
-      "draws": 1,
-      "form": "WWDWL",
-      "games": [
-        {
-          "date": "2026-05-10",
-          "game_number": "404840",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B11D-Reichman",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "WALD-SuperDomeOut"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "404844",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B11D-Melki",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "COUGUTD-Front"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "408354",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B11D-DeLucca",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "COUGUTD-Front"
-        },
-        {
-          "date": "2026-05-08",
-          "game_number": "408357",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B11D-Bautista",
-          "result": "D",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408365",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B11D-Allen",
-          "result": "L",
-          "time": "02:45 PM",
-          "venue_code": "COUGUTD-Front"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408369",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B11D-Dlug",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "AMER-Presentation"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408373",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11D-Dickins",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "COUGUTD-Front"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 21,
-      "goals_for": 16,
-      "losses": 3,
-      "played": 7,
-      "points": 10,
-      "team_raw": "CougarUtd-B11D-DePiccioto",
-      "wins": 3
-    },
-    {
-      "club": "Paramus",
-      "coach": "Salik",
-      "draws": 1,
-      "form": "WDLWW",
-      "games": [
-        {
-          "date": "2026-05-17",
-          "game_number": "404842",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B11D-Reichman",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "PAR-WestbrkSouth-9x9"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407679",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11D-Dickins",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "ARS-MemParkRdg1"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408360",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B11D-DeLucca",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408366",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B11D-Bautista",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "PAR-WestbrkSouth-9x9"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408368",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B11D-Allen",
-          "result": "D",
-          "time": "11:30 AM",
-          "venue_code": "RDBH-DPAC South"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408376",
-          "goals_against": 10,
-          "goals_for": 4,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B11D-Dlug",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "PAR-WestbrkSouth-9x9"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 23,
-      "goals_for": 22,
-      "losses": 2,
-      "played": 6,
-      "points": 10,
-      "team_raw": "Paramus-B11D-Salik",
       "wins": 3
     },
     {
@@ -833,7 +899,7 @@
       "club": "AviatorsHHSA",
       "coach": "Chudzik",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-05-17",
@@ -845,6 +911,17 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "WALD-HSTurf-3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404850",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11D-DePiccioto",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
         },
         {
           "date": "2026-05-10",
@@ -913,11 +990,11 @@
           "venue_code": "AVIA-HitchcockSmall"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 19,
+      "goal_diff": -20,
+      "goals_against": 26,
       "goals_for": 6,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "AviatorsHHSA-B11D-Chudzik",
       "wins": 1
@@ -938,6 +1015,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404849",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B11D-Bautista",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "ARS-MemParkRdg1"
         },
         {
           "date": "2026-05-10",
@@ -1006,11 +1094,11 @@
           "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 24,
-      "goals_for": 9,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -20,
+      "goals_against": 31,
+      "goals_for": 11,
+      "losses": 7,
+      "played": 8,
       "points": 1,
       "team_raw": "Arsenal-B11D-Dickins",
       "wins": 0

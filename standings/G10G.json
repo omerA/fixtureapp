@@ -1,6 +1,6 @@
 {
   "division": "G10G",
-  "scraped_at": "2026-06-01T11:08:16.865268Z",
+  "scraped_at": "2026-06-02T10:01:49.008211Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -226,7 +226,7 @@
       "club": "Maroons",
       "coach": "Vaquero",
       "draws": 0,
-      "form": "WLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-05-16",
@@ -293,16 +293,27 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "MAR-Stevens SS2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405355",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10G-Ghai",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 10,
-      "goals_for": 18,
+      "goal_diff": 10,
+      "goals_against": 11,
+      "goals_for": 21,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 15,
       "team_raw": "Maroons-G10G-Vaquero",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "CougarSC",
@@ -401,7 +412,7 @@
       "club": "HobUtd",
       "coach": "Ghai",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-04-25",
@@ -481,6 +492,17 @@
           "venue_code": "HobUTD-1600Park"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "405355",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10G-Vaquero",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "405357",
           "goals_against": 9,
@@ -492,11 +514,11 @@
           "venue_code": "LKLND-Hagstrom"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 36,
-      "goals_for": 23,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -15,
+      "goals_against": 39,
+      "goals_for": 24,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "HobUtd-G10G-Ghai",
       "wins": 2

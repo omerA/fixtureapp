@@ -1,13 +1,106 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-06-01T11:08:09.720032Z",
+  "scraped_at": "2026-06-02T10:01:41.939931Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Torpedoes",
+      "coach": "Grados",
+      "draws": 2,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-04-18",
+          "game_number": "405254",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G10E-Jackson",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405262",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G10E-Nuzzi",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-01",
+          "game_number": "405270",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G10E-Fisher",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405271",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G10E-Millar",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "405278",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "ElmwoodPk",
+          "opponent_raw": "ElmwoodPk-G10E-Meneses",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405283",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10E-Egbert",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "LKLND-Hagstrom"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405287",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G10E-Hyndman",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "TORP-Pulis3"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 12,
+      "goals_for": 24,
+      "losses": 0,
+      "played": 7,
+      "points": 17,
+      "team_raw": "Torpedoes-G10E-Grados",
+      "wins": 5
+    },
     {
       "club": "GlenRidge",
       "coach": "Fisher",
       "draws": 1,
-      "form": "DWWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-04-23",
@@ -41,6 +134,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "EP-BoroughFld-Sml"
+        },
+        {
+          "date": "2026-06-01",
+          "game_number": "405270",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G10E-Grados",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "GLENRDGE-Carteret"
         },
         {
           "date": "2026-05-03",
@@ -87,11 +191,11 @@
           "venue_code": "GLENRDGE-Carteret"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 15,
-      "goals_for": 26,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 9,
+      "goals_against": 19,
+      "goals_for": 28,
+      "losses": 2,
+      "played": 8,
       "points": 16,
       "team_raw": "GlenRidge-G10E-Fisher",
       "wins": 5
@@ -198,88 +302,6 @@
       "played": 8,
       "points": 14,
       "team_raw": "Ajax-G10E-Jackson",
-      "wins": 4
-    },
-    {
-      "club": "Torpedoes",
-      "coach": "Grados",
-      "draws": 2,
-      "form": "DWWWW",
-      "games": [
-        {
-          "date": "2026-04-18",
-          "game_number": "405254",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G10E-Jackson",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405262",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G10E-Nuzzi",
-          "result": "D",
-          "time": "11:30 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405271",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G10E-Millar",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "405278",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "ElmwoodPk",
-          "opponent_raw": "ElmwoodPk-G10E-Meneses",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "EP-BoroughFld-Sml"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405283",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10E-Egbert",
-          "result": "W",
-          "time": "01:15 PM",
-          "venue_code": "LKLND-Hagstrom"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405287",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G10E-Hyndman",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "TORP-Pulis3"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 10,
-      "goals_for": 20,
-      "losses": 0,
-      "played": 6,
-      "points": 14,
-      "team_raw": "Torpedoes-G10E-Grados",
       "wins": 4
     },
     {

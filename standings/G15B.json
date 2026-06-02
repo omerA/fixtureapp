@@ -1,6 +1,6 @@
 {
   "division": "G15B",
-  "scraped_at": "2026-06-01T11:10:11.583791Z",
+  "scraped_at": "2026-06-02T10:03:45.769660Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -214,8 +214,8 @@
     {
       "club": "Hackensack",
       "coach": "Santacruz",
-      "draws": 0,
-      "form": "WLWWL",
+      "draws": 1,
+      "form": "LWWLD",
       "games": [
         {
           "date": "2026-04-25",
@@ -282,22 +282,33 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "WALD-HSNorth"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409082",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G15B-Saenz",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
       "goal_diff": 4,
-      "goals_against": 13,
-      "goals_for": 17,
+      "goals_against": 16,
+      "goals_for": 20,
       "losses": 3,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 10,
       "team_raw": "Hackensack-G15B-Santacruz",
       "wins": 3
     },
     {
       "club": "WayneBG",
       "coach": "Saenz",
-      "draws": 1,
-      "form": "LLLWD",
+      "draws": 2,
+      "form": "LLWDD",
       "games": [
         {
           "date": "2026-04-12",
@@ -364,14 +375,25 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409082",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G15B-Santacruz",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
       "goal_diff": -6,
-      "goals_against": 11,
-      "goals_for": 5,
+      "goals_against": 14,
+      "goals_for": 8,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 8,
       "team_raw": "WayneBG-G15B-Saenz",
       "wins": 2
     },

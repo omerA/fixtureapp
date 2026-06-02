@@ -1,6 +1,6 @@
 {
   "division": "B13C",
-  "scraped_at": "2026-06-01T11:05:38.258140Z",
+  "scraped_at": "2026-06-02T09:59:07.682784Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -215,7 +215,7 @@
       "club": "BLMFLD",
       "coach": "Lopez",
       "draws": 2,
-      "form": "WWLLD",
+      "form": "WLLDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -293,13 +293,24 @@
           "result": "D",
           "time": "02:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407882",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13C-Amaya",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 18,
+      "goal_diff": 0,
+      "goals_against": 19,
       "goals_for": 19,
-      "losses": 2,
-      "played": 7,
+      "losses": 3,
+      "played": 8,
       "points": 11,
       "team_raw": "BLMFLD-B13C-Lopez",
       "wins": 3
@@ -412,7 +423,7 @@
       "club": "NoBergen",
       "coach": "Amaya",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -490,16 +501,27 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407882",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B13C-Lopez",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": -8,
+      "goal_diff": -7,
       "goals_against": 28,
-      "goals_for": 20,
+      "goals_for": 21,
       "losses": 5,
-      "played": 7,
-      "points": 6,
+      "played": 8,
+      "points": 9,
       "team_raw": "NoBergen-B13C-Amaya",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RiverDell",

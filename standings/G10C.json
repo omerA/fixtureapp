@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-06-01T11:08:02.189269Z",
+  "scraped_at": "2026-06-02T10:01:34.378352Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,7 +111,7 @@
       "club": "Bayonne",
       "coach": "Henriquez",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-05-09",
@@ -189,13 +189,24 @@
           "result": "D",
           "time": "09:15 AM",
           "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405216",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G10C-Vinces",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "BAY-SGreggQuad-Small"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 14,
       "goals_against": 8,
-      "goals_for": 21,
+      "goals_for": 22,
       "losses": 1,
-      "played": 7,
+      "played": 8,
       "points": 16,
       "team_raw": "Bayonne-G10C-Henriquez",
       "wins": 5
@@ -494,7 +505,7 @@
       "club": "WayneBG",
       "coach": "Vinces",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-05-09",
@@ -572,13 +583,24 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405216",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G10C-Henriquez",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BAY-SGreggQuad-Small"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 22,
+      "goal_diff": 0,
+      "goals_against": 23,
       "goals_for": 23,
       "losses": 4,
-      "played": 7,
+      "played": 8,
       "points": 9,
       "team_raw": "WayneBG-G10C-Vinces",
       "wins": 3

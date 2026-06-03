@@ -1,6 +1,6 @@
 {
   "division": "B10FB",
-  "scraped_at": "2026-06-02T09:56:59.308002Z",
+  "scraped_at": "2026-06-03T10:28:52.857023Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -308,8 +308,19 @@
       "club": "Maroons",
       "coach": "Lawrence",
       "draws": 2,
-      "form": "DLLDL",
+      "form": "LLDWL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "406850",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B10FB-Pardo",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406854",
@@ -388,14 +399,14 @@
           "venue_code": "NY-CLARK-Zukor2B"
         }
       ],
-      "goal_diff": -3,
+      "goal_diff": -2,
       "goals_against": 20,
-      "goals_for": 17,
+      "goals_for": 18,
       "losses": 4,
-      "played": 7,
-      "points": 5,
+      "played": 8,
+      "points": 8,
       "team_raw": "Maroons-B10FB-Lawrence",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "GlenRock",
@@ -494,8 +505,19 @@
       "club": "Hackensack",
       "coach": "Pardo",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "406850 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10FB-Lawrence",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406855",
@@ -574,11 +596,11 @@
           "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 35,
+      "goal_diff": -30,
+      "goals_against": 36,
       "goals_for": 6,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Hackensack-B10FB-Pardo",
       "wins": 1

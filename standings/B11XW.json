@@ -1,8 +1,46 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-06-02T09:58:11.296012Z",
+  "scraped_at": "2026-06-03T10:30:04.761865Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maywood",
+      "coach": "Bautista",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "409441",
+          "goals_against": 4,
+          "goals_for": 8,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11XW-Pocovnicu",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-26",
+          "game_number": "409680",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B11XW-James",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "COUGSC-Dehart2"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 4,
+      "goals_for": 13,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "Maywood-B11XW-Bautista",
+      "wins": 2
+    },
     {
       "club": "Rutherford",
       "coach": "Carlstein",
@@ -40,33 +78,6 @@
       "points": 6,
       "team_raw": "Rutherford-B11XW-Carlstein",
       "wins": 2
-    },
-    {
-      "club": "CougarSC",
-      "coach": "James",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-04-30",
-          "game_number": "409442",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B11XW-Melki",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "COUGSC-Dehart2"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 1,
-      "goals_for": 2,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "CougarSC-B11XW-James",
-      "wins": 1
     },
     {
       "club": "RiverDell",
@@ -107,34 +118,42 @@
       "wins": 1
     },
     {
-      "club": "Maywood",
-      "coach": "Bautista",
+      "club": "CougarSC",
+      "coach": "James",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maywood-B11XW-Bautista",
-      "wins": 0
-    },
-    {
-      "club": "NoValley",
-      "coach": "Pocovnicu",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "NoValley-B11XW-Pocovnicu",
-      "wins": 0
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-04-30",
+          "game_number": "409442",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B11XW-Melki",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "COUGSC-Dehart2"
+        },
+        {
+          "date": "2026-05-26",
+          "game_number": "409680",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B11XW-Bautista",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "COUGSC-Dehart2"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 6,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 2,
+      "points": 3,
+      "team_raw": "CougarSC-B11XW-James",
+      "wins": 1
     },
     {
       "club": "NMKnights",
@@ -215,6 +234,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Warriors-B11XW-Stratton",
+      "wins": 0
+    },
+    {
+      "club": "NoValley",
+      "coach": "Pocovnicu",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "409441",
+          "goals_against": 8,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B11XW-Bautista",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Trackside"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 8,
+      "goals_for": 4,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "NoValley-B11XW-Pocovnicu",
       "wins": 0
     }
   ]

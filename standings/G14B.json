@@ -1,6 +1,6 @@
 {
   "division": "G14B",
-  "scraped_at": "2026-06-03T10:35:18.369390Z",
+  "scraped_at": "2026-06-04T09:45:44.594839Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -401,7 +401,7 @@
       "club": "Southside",
       "coach": "Oscanoa",
       "draws": 1,
-      "form": "LWDLW",
+      "form": "WDLWL",
       "games": [
         {
           "date": "2026-05-04",
@@ -413,6 +413,17 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-06-03",
+          "game_number": "405798",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G14B-Jacob",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
         },
         {
           "date": "2026-04-12",
@@ -481,11 +492,11 @@
           "venue_code": "Haledon-MnchstHS-Lrg"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 12,
-      "goals_for": 11,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -6,
+      "goals_against": 20,
+      "goals_for": 14,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Southside-G14B-Oscanoa",
       "wins": 3
@@ -737,6 +748,99 @@
       "wins": 2
     },
     {
+      "club": "AYSOBergen",
+      "coach": "Jacob",
+      "draws": 0,
+      "form": "LLLLW",
+      "games": [
+        {
+          "date": "2026-06-03",
+          "game_number": "405798",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G14B-Oscanoa",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405805",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G14B-Connolly",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406152",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-MacKeen",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "AYSO-Community-Large"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406159",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G14B-Mayers",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406161",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G14B-Mulhern",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "AYSO-Community-Large"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406168",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G14B-Azille",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406170",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G14B-Cosgrove",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AYSO-Community-Large"
+        }
+      ],
+      "goal_diff": -8,
+      "goals_against": 29,
+      "goals_for": 21,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "AYSOBergen-G14B-Jacob",
+      "wins": 2
+    },
+    {
       "club": "CougarSC",
       "coach": "Connolly",
       "draws": 1,
@@ -931,88 +1035,6 @@
       "played": 7,
       "points": 4,
       "team_raw": "WOrange-G14B-Azille",
-      "wins": 1
-    },
-    {
-      "club": "AYSOBergen",
-      "coach": "Jacob",
-      "draws": 0,
-      "form": "LLLLL",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "405805",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G14B-Connolly",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "COUGSC-OrangePark"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406152",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G14B-MacKeen",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "AYSO-Community-Large"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406159",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G14B-Mayers",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "BLMFLD-Foley"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406161",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G14B-Mulhern",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "AYSO-Community-Large"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406168",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G14B-Azille",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "WORANGE-Lincoln-Lrg"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406170",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G14B-Cosgrove",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "AYSO-Community-Large"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 26,
-      "goals_for": 13,
-      "losses": 5,
-      "played": 6,
-      "points": 3,
-      "team_raw": "AYSOBergen-G14B-Jacob",
       "wins": 1
     }
   ]

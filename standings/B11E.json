@@ -1,6 +1,6 @@
 {
   "division": "B11E",
-  "scraped_at": "2026-06-03T10:29:37.149574Z",
+  "scraped_at": "2026-06-04T09:40:04.334134Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -275,8 +275,19 @@
       "club": "Verona",
       "coach": "Berinato",
       "draws": 2,
-      "form": "LLDWD",
+      "form": "LDWDW",
       "games": [
+        {
+          "date": "2026-06-03",
+          "game_number": "404893",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11E-Mrkulic",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404897",
@@ -344,21 +355,32 @@
           "venue_code": "VERONA-Freedom1"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 26,
-      "goals_for": 18,
+      "goal_diff": -6,
+      "goals_against": 27,
+      "goals_for": 21,
       "losses": 3,
-      "played": 6,
-      "points": 5,
+      "played": 7,
+      "points": 8,
       "team_raw": "Verona-B11E-Berinato",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Mrkulic",
       "draws": 1,
-      "form": "WLLDL",
+      "form": "LLDLL",
       "games": [
+        {
+          "date": "2026-06-03",
+          "game_number": "404893",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B11E-Berinato",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404895",
@@ -426,11 +448,11 @@
           "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 34,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -21,
+      "goals_against": 37,
+      "goals_for": 16,
+      "losses": 5,
+      "played": 7,
       "points": 4,
       "team_raw": "FairLawnAllSports-B11E-Mrkulic",
       "wins": 1

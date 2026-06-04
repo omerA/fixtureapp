@@ -1,6 +1,6 @@
 {
   "division": "B12EW",
-  "scraped_at": "2026-06-03T10:30:26.734834Z",
+  "scraped_at": "2026-06-04T09:40:53.838423Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -296,8 +296,8 @@
     {
       "club": "Vikings",
       "coach": "Lahav",
-      "draws": 1,
-      "form": "LLLDW",
+      "draws": 2,
+      "form": "LLDWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -375,22 +375,33 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405546",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B12EW-Burke",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
       "goal_diff": 3,
-      "goals_against": 11,
-      "goals_for": 14,
+      "goals_against": 16,
+      "goals_for": 19,
       "losses": 3,
-      "played": 7,
-      "points": 10,
+      "played": 8,
+      "points": 11,
       "team_raw": "Vikings-B12EW-Lahav",
       "wins": 3
     },
     {
       "club": "Dumont",
       "coach": "Burke",
-      "draws": 1,
-      "form": "LLLDW",
+      "draws": 2,
+      "form": "LLDWD",
       "games": [
         {
           "date": "2026-05-02",
@@ -468,14 +479,25 @@
           "result": "W",
           "time": "05:45 PM",
           "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405546",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12EW-Lahav",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
       "goal_diff": -17,
-      "goals_against": 29,
-      "goals_for": 12,
+      "goals_against": 34,
+      "goals_for": 17,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 8,
       "team_raw": "Dumont-B12EW-Burke",
       "wins": 2
     },

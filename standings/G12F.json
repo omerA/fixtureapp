@@ -1,6 +1,6 @@
 {
   "division": "G12F",
-  "scraped_at": "2026-06-04T09:45:07.158908Z",
+  "scraped_at": "2026-06-05T09:06:41.192158Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,8 +100,19 @@
       "club": "WestEssex",
       "coach": "Alexander",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "LWWWW",
       "games": [
+        {
+          "date": "2026-06-04",
+          "game_number": "408873",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G12F-Patterson",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408876",
@@ -191,11 +202,11 @@
           "venue_code": "WEssex-TOBeirne-9v9"
         }
       ],
-      "goal_diff": 5,
+      "goal_diff": 1,
       "goals_against": 17,
-      "goals_for": 22,
+      "goals_for": 18,
       "losses": 2,
-      "played": 8,
+      "played": 9,
       "points": 15,
       "team_raw": "WestEssex-G12F-Alexander",
       "wins": 5
@@ -319,8 +330,19 @@
       "club": "HobUtd",
       "coach": "Patterson",
       "draws": 1,
-      "form": "WWDLL",
+      "form": "WDLLL",
       "games": [
+        {
+          "date": "2026-06-04",
+          "game_number": "408873",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G12F-Alexander",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
+        },
         {
           "date": "2026-05-16",
           "game_number": "408878",
@@ -388,11 +410,11 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 20,
+      "goal_diff": -5,
+      "goals_against": 16,
       "goals_for": 11,
       "losses": 3,
-      "played": 6,
+      "played": 7,
       "points": 7,
       "team_raw": "HobUtd-G12F-Patterson",
       "wins": 2

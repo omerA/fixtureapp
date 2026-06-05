@@ -1,79 +1,8 @@
 {
   "division": "B15B",
-  "scraped_at": "2026-06-04T09:42:23.241930Z",
+  "scraped_at": "2026-06-05T09:03:53.905971Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Maroons",
-      "coach": "dePaula",
-      "draws": 1,
-      "form": "DWLWL",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "405053",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B15B-Solano",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "COUGUTD-HolyAngelFld"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405057",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B15B-Pardo",
-          "result": "D",
-          "time": "08:00 AM",
-          "venue_code": "MAR-HawesSchool"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405060",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B15B-Feldman",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405062",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B15B-Barschow",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "MAR-HawesSchool"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405064",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B15B-Solano",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 8,
-      "goals_for": 13,
-      "losses": 2,
-      "played": 5,
-      "points": 7,
-      "team_raw": "Maroons-B15B-dePaula",
-      "wins": 2
-    },
     {
       "club": "CougarUtd",
       "coach": "Solano",
@@ -158,14 +87,178 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 0,
-      "goals_for": 13,
+      "goal_diff": 27,
+      "goals_against": 2,
+      "goals_for": 29,
       "losses": 0,
       "played": 7,
-      "points": 6,
+      "points": 18,
       "team_raw": "CougarUtd-B15B-Solano",
-      "wins": 2
+      "wins": 6
+    },
+    {
+      "club": "Maroons",
+      "coach": "dePaula",
+      "draws": 2,
+      "form": "WLWLD",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "405053",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B15B-Solano",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405057",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B15B-Pardo",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "MAR-HawesSchool"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405060",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B15B-Feldman",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405062",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B15B-Barschow",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-HawesSchool"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405064",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B15B-Solano",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405068",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B15B-Pardo",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 8,
+      "goals_for": 9,
+      "losses": 2,
+      "played": 6,
+      "points": 5,
+      "team_raw": "Maroons-B15B-dePaula",
+      "wins": 1
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Feldman",
+      "draws": 0,
+      "form": "LLWWL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "405055",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B15B-Barschow",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "FL-Vanderplatt"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405058",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B15B-Solano",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405060",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B15B-dePaula",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405061",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B15B-Pardo",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405066",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B15B-Barschow",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405067",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B15B-Solano",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": -14,
+      "goals_against": 18,
+      "goals_for": 4,
+      "losses": 3,
+      "played": 6,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-B15B-Feldman",
+      "wins": 1
     },
     {
       "club": "Lyndhurst",
@@ -241,8 +334,8 @@
     {
       "club": "Hackensack",
       "coach": "Pardo",
-      "draws": 1,
-      "form": "LDLLL",
+      "draws": 2,
+      "form": "DLLLD",
       "games": [
         {
           "date": "2026-04-12",
@@ -298,97 +391,26 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "COUGUTD-HolyAngelFld"
-        }
-      ],
-      "goal_diff": -15,
-      "goals_against": 17,
-      "goals_for": 2,
-      "losses": 4,
-      "played": 5,
-      "points": 1,
-      "team_raw": "Hackensack-B15B-Pardo",
-      "wins": 0
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Feldman",
-      "draws": 0,
-      "form": "LLWWL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "405055",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B15B-Barschow",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "FL-Vanderplatt"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405058",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B15B-Solano",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "COUGUTD-HolyAngelFld"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405060",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B15B-dePaula",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405061",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B15B-Pardo",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405066",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B15B-Barschow",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
         },
         {
           "date": "2026-05-31",
-          "game_number": "405067",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B15B-Solano",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "FL-FLHS Turf"
+          "game_number": "405068",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B15B-dePaula",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 13,
-      "goals_for": 0,
-      "losses": 2,
+      "goal_diff": -14,
+      "goals_against": 18,
+      "goals_for": 4,
+      "losses": 3,
       "played": 6,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-B15B-Feldman",
+      "points": 2,
+      "team_raw": "Hackensack-B15B-Pardo",
       "wins": 0
     }
   ]

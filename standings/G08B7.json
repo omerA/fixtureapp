@@ -1,8 +1,101 @@
 {
   "division": "G08B7",
-  "scraped_at": "2026-06-04T09:43:11.104917Z",
+  "scraped_at": "2026-06-05T09:04:42.803121Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WoodRidge",
+      "coach": "Cartagena",
+      "draws": 0,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "405683",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08B7-Esposto",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "405691",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08B7-DeSanctis",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "VIK-HaworthTurf"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405696",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G08B7-Fisher",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "THIS-HarveyBackSS2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405701",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08B7-STJOHN",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405712",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G08B7-Connolly",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405718",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08B7-Valdes",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-04",
+          "game_number": "405722",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G08B7-Denberg",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        }
+      ],
+      "goal_diff": 32,
+      "goals_against": 13,
+      "goals_for": 45,
+      "losses": 1,
+      "played": 7,
+      "points": 18,
+      "team_raw": "WoodRidge-G08B7-Cartagena",
+      "wins": 6
+    },
     {
       "club": "Vikings",
       "coach": "DeSanctis",
@@ -176,88 +269,6 @@
       "played": 6,
       "points": 15,
       "team_raw": "HobUtd-G08B7-Esposto",
-      "wins": 5
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Cartagena",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "405683",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G08B7-Esposto",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "405691",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G08B7-DeSanctis",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "VIK-HaworthTurf"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405696",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G08B7-Fisher",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "THIS-HarveyBackSS2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405701",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G08B7-STJOHN",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405712",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G08B7-Connolly",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405718",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08B7-Valdes",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "NY-WC-Field3"
-        }
-      ],
-      "goal_diff": 25,
-      "goals_against": 13,
-      "goals_for": 38,
-      "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "WoodRidge-G08B7-Cartagena",
       "wins": 5
     },
     {
@@ -532,7 +543,7 @@
       "club": "Tenafly",
       "coach": "Denberg",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -610,13 +621,24 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-06-04",
+          "game_number": "405722",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G08B7-Cartagena",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 33,
+      "goal_diff": -27,
+      "goals_against": 40,
       "goals_for": 13,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Tenafly-G08B7-Denberg",
       "wins": 2

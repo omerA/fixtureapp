@@ -1,6 +1,6 @@
 {
   "division": "B19D",
-  "scraped_at": "2026-06-04T09:42:57.170650Z",
+  "scraped_at": "2026-06-05T09:04:28.500988Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -204,8 +204,19 @@
       "club": "Lakeland",
       "coach": "Vogel",
       "draws": 1,
-      "form": "DWWWL",
+      "form": "WWWLL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405141",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B19D-Zotaj",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "LKLND-AddicePrk"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405143",
@@ -284,11 +295,11 @@
           "venue_code": "AVIA-Hitchcock"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 21,
-      "goals_for": 26,
-      "losses": 2,
-      "played": 7,
+      "goal_diff": 4,
+      "goals_against": 25,
+      "goals_for": 29,
+      "losses": 3,
+      "played": 8,
       "points": 13,
       "team_raw": "Lakeland-B19D-Vogel",
       "wins": 4
@@ -401,8 +412,19 @@
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLWL",
       "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405141",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B19D-Vogel",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "LKLND-AddicePrk"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405142",
@@ -492,14 +514,14 @@
           "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 29,
-      "goals_for": 8,
+      "goal_diff": -20,
+      "goals_against": 32,
+      "goals_for": 12,
       "losses": 7,
-      "played": 8,
-      "points": 3,
+      "played": 9,
+      "points": 6,
       "team_raw": "Dumont-B19D-Zotaj",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Bergenfield",

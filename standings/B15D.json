@@ -1,6 +1,6 @@
 {
   "division": "B15D",
-  "scraped_at": "2026-06-04T09:42:29.741865Z",
+  "scraped_at": "2026-06-05T09:04:00.546807Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -121,8 +121,8 @@
     {
       "club": "NoArlington",
       "coach": "Saldanha",
-      "draws": 0,
-      "form": "WWWLW",
+      "draws": 1,
+      "form": "WWLDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -211,22 +211,33 @@
           "result": "W",
           "time": "03:45 PM",
           "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-05-23",
+          "game_number": "406364",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B15D-SolisRisco",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
         }
       ],
       "goal_diff": 22,
-      "goals_against": 12,
-      "goals_for": 34,
+      "goals_against": 15,
+      "goals_for": 37,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 19,
       "team_raw": "NoArlington-B15D-Saldanha",
       "wins": 6
     },
     {
       "club": "Harrison",
       "coach": "SolisRisco",
-      "draws": 1,
-      "form": "LLDWW",
+      "draws": 2,
+      "form": "LDWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -315,14 +326,25 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-05-23",
+          "game_number": "406364",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B15D-Saldanha",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
         }
       ],
       "goal_diff": 12,
-      "goals_against": 12,
-      "goals_for": 24,
+      "goals_against": 15,
+      "goals_for": 27,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 14,
       "team_raw": "Harrison-B15D-SolisRisco",
       "wins": 4
     },

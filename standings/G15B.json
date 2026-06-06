@@ -1,6 +1,6 @@
 {
   "division": "G15B",
-  "scraped_at": "2026-06-05T09:07:33.072283Z",
+  "scraped_at": "2026-06-06T08:27:33.863985Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -215,8 +215,19 @@
       "club": "Hackensack",
       "coach": "Santacruz",
       "draws": 1,
-      "form": "LWWLD",
+      "form": "WWLDL",
       "games": [
+        {
+          "date": "2026-06-05",
+          "game_number": "406624",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
         {
           "date": "2026-04-25",
           "game_number": "406626",
@@ -295,11 +306,11 @@
           "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 16,
-      "goals_for": 20,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": 1,
+      "goals_against": 22,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Hackensack-G15B-Santacruz",
       "wins": 3
@@ -401,8 +412,19 @@
       "club": "FairLawnAllSports",
       "coach": "Showfety",
       "draws": 2,
-      "form": "WDLDL",
+      "form": "DLDLW",
       "games": [
+        {
+          "date": "2026-06-05",
+          "game_number": "406624",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G15B-Santacruz",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406625",
@@ -481,14 +503,14 @@
           "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 14,
-      "goals_for": 10,
+      "goal_diff": -1,
+      "goals_against": 17,
+      "goals_for": 16,
       "losses": 4,
-      "played": 7,
-      "points": 5,
+      "played": 8,
+      "points": 8,
       "team_raw": "FairLawnAllSports-G15B-Showfety",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "UnionCity",

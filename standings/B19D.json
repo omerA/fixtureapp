@@ -1,6 +1,6 @@
 {
   "division": "B19D",
-  "scraped_at": "2026-06-05T09:04:28.500988Z",
+  "scraped_at": "2026-06-06T08:24:28.471393Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -412,7 +412,7 @@
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-05-30",
@@ -512,16 +512,27 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "405166",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B19D-Esteban",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -20,
+      "goal_diff": -18,
       "goals_against": 32,
-      "goals_for": 12,
+      "goals_for": 14,
       "losses": 7,
-      "played": 9,
-      "points": 6,
+      "played": 10,
+      "points": 9,
       "team_raw": "Dumont-B19D-Zotaj",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Bergenfield",
@@ -616,13 +627,24 @@
           "result": "L",
           "time": "07:30 PM",
           "venue_code": "AMER-LakeStTurf"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "405166",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B19D-Zotaj",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -40,
-      "goals_against": 49,
+      "goal_diff": -42,
+      "goals_against": 51,
       "goals_for": 9,
-      "losses": 8,
-      "played": 8,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "Bergenfield-B19D-Esteban",
       "wins": 0

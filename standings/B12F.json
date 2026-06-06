@@ -1,8 +1,101 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-06-05T09:02:27.185208Z",
+  "scraped_at": "2026-06-06T08:22:26.191689Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Gillies",
+      "draws": 1,
+      "form": "WWWDW",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "405554",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12F-Pereira",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "405561",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12F-Drumgoole",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405567",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12F-DeCarlo",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "EM-HSTurf3Small"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405569",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B12F-Fischer",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "MAR-HabernickelPk"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405578",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B12F-Buttacavoli",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "405587",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12F-Kerolous",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405590",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Aschenbrand",
+          "result": "D",
+          "time": "12:15 PM",
+          "venue_code": "WALD-SuperDomeOut"
+        }
+      ],
+      "goal_diff": 24,
+      "goals_against": 13,
+      "goals_for": 37,
+      "losses": 0,
+      "played": 7,
+      "points": 19,
+      "team_raw": "Maroons-B12F-Gillies",
+      "wins": 6
+    },
     {
       "club": "Thistle",
       "coach": "Fischer",
@@ -201,88 +294,6 @@
       "wins": 6
     },
     {
-      "club": "Maroons",
-      "coach": "Gillies",
-      "draws": 1,
-      "form": "WWWWD",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "405554",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B12F-Pereira",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405567",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12F-DeCarlo",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "EM-HSTurf3Small"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405569",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B12F-Fischer",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "MAR-HabernickelPk"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405578",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-B12F-Buttacavoli",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "HAWTHORNE-Veterans"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "405587",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B12F-Kerolous",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405590",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12F-Aschenbrand",
-          "result": "D",
-          "time": "12:15 PM",
-          "venue_code": "WALD-SuperDomeOut"
-        }
-      ],
-      "goal_diff": 18,
-      "goals_against": 13,
-      "goals_for": 31,
-      "losses": 0,
-      "played": 6,
-      "points": 16,
-      "team_raw": "Maroons-B12F-Gillies",
-      "wins": 5
-    },
-    {
       "club": "Vikings",
       "coach": "Aschenbrand",
       "draws": 2,
@@ -379,7 +390,7 @@
       "club": "RYSA",
       "coach": "Drumgoole",
       "draws": 0,
-      "form": "WLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -391,6 +402,17 @@
           "result": "L",
           "time": "02:45 PM",
           "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "405561",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-OrchardSchool"
         },
         {
           "date": "2026-04-12",
@@ -448,11 +470,11 @@
           "venue_code": "RYSA-Heights"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 15,
+      "goal_diff": 10,
+      "goals_against": 21,
       "goals_for": 31,
-      "losses": 2,
-      "played": 6,
+      "losses": 3,
+      "played": 7,
       "points": 12,
       "team_raw": "RYSA-B12F-Drumgoole",
       "wins": 4
@@ -655,6 +677,99 @@
       "wins": 3
     },
     {
+      "club": "Rutherford",
+      "coach": "Kerolous",
+      "draws": 1,
+      "form": "DWLWL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405553",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12F-Amaya",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "405559",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12F-Hernandez",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405565",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12F-Pereira",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405576",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12F-DeCarlo",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405580",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B12F-Fischer",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "405587",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405589",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B12F-Buttacavoli",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "RUTH-Tamblyn"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 23,
+      "goals_for": 20,
+      "losses": 4,
+      "played": 7,
+      "points": 7,
+      "team_raw": "Rutherford-B12F-Kerolous",
+      "wins": 2
+    },
+    {
       "club": "Hotspur",
       "coach": "Pereira",
       "draws": 1,
@@ -756,99 +871,6 @@
       "played": 8,
       "points": 7,
       "team_raw": "Hotspur-B12F-Pereira",
-      "wins": 2
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Kerolous",
-      "draws": 1,
-      "form": "DWLWL",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "405553",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12F-Amaya",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "405559",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B12F-Hernandez",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405565",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B12F-Pereira",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405576",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12F-DeCarlo",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405580",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B12F-Fischer",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "405587",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12F-Gillies",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405589",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-B12F-Buttacavoli",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "RUTH-Tamblyn"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 23,
-      "goals_for": 20,
-      "losses": 4,
-      "played": 7,
-      "points": 7,
-      "team_raw": "Rutherford-B12F-Kerolous",
       "wins": 2
     },
     {

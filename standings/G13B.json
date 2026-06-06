@@ -1,13 +1,13 @@
 {
   "division": "G13B",
-  "scraped_at": "2026-06-05T09:06:53.812387Z",
+  "scraped_at": "2026-06-06T08:26:54.896097Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "HobUtd",
       "coach": "Andreula",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-05-30",
@@ -74,16 +74,27 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "WYNE-WayneValleyHS"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "408960",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13B-DelCorral",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
         }
       ],
       "goal_diff": 8,
-      "goals_against": 9,
-      "goals_for": 17,
-      "losses": 0,
-      "played": 6,
-      "points": 13,
+      "goals_against": 16,
+      "goals_for": 24,
+      "losses": 1,
+      "played": 7,
+      "points": 16,
       "team_raw": "HobUtd-G13B-Andreula",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WayneBG",
@@ -191,14 +202,14 @@
           "venue_code": "WYNE-WayneValleyHS"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 12,
-      "goals_for": 15,
+      "goal_diff": 10,
+      "goals_against": 15,
+      "goals_for": 25,
       "losses": 4,
       "played": 9,
-      "points": 9,
+      "points": 15,
       "team_raw": "WayneBG-G13B-Scaturro",
-      "wins": 3
+      "wins": 5
     },
     {
       "club": "BLMFLD",
@@ -284,20 +295,20 @@
           "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 10,
       "goals_against": 13,
-      "goals_for": 16,
+      "goals_for": 23,
       "losses": 3,
       "played": 7,
-      "points": 9,
+      "points": 12,
       "team_raw": "BLMFLD-G13B-Bernhard",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "RiverDell",
       "coach": "DelCorral",
       "draws": 1,
-      "form": "LLWWD",
+      "form": "LWWDL",
       "games": [
         {
           "date": "2026-05-28",
@@ -364,16 +375,27 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "408960",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13B-Andreula",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 5,
-      "goals_for": 9,
-      "losses": 1,
-      "played": 6,
-      "points": 7,
+      "goal_diff": 0,
+      "goals_against": 14,
+      "goals_for": 14,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
       "team_raw": "RiverDell-G13B-DelCorral",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Dragons",
@@ -470,10 +492,10 @@
           "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 24,
-      "goals_for": 6,
-      "losses": 4,
+      "goal_diff": -28,
+      "goals_against": 35,
+      "goals_for": 7,
+      "losses": 6,
       "played": 8,
       "points": 2,
       "team_raw": "Dragons-G13B-Gsellmeier",

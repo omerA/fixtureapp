@@ -1,112 +1,8 @@
 {
   "division": "B09D",
-  "scraped_at": "2026-06-05T08:59:42.869934Z",
+  "scraped_at": "2026-06-06T08:19:37.941902Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Ensuncho",
-      "draws": 3,
-      "form": "WWDDW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408002",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B09D-Campos",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "NA-Zadroga2"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408007",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B09D-Martinez",
-          "result": "D",
-          "time": "03:45 PM",
-          "venue_code": "FL-Brookdale"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408011",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B09D-Asadi",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408013",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B09D-Sharry",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408016",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B09D-Musano",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "FL-Berdan"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408022",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B09D-Liu",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "JC-CochraneCaven-3"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408024",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B09D-Duka",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408167",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B09D-Campos",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "FL-CenterRec2B"
-        }
-      ],
-      "goal_diff": 22,
-      "goals_against": 14,
-      "goals_for": 36,
-      "losses": 0,
-      "played": 8,
-      "points": 15,
-      "team_raw": "FairLawnAllSports-B09D-Ensuncho",
-      "wins": 4
-    },
     {
       "club": "Belleville",
       "coach": "Martinez",
@@ -202,14 +98,14 @@
           "venue_code": "PAR-WestbrkSmall"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 12,
-      "goals_for": 21,
+      "goal_diff": 14,
+      "goals_against": 13,
+      "goals_for": 27,
       "losses": 1,
       "played": 8,
-      "points": 14,
+      "points": 17,
       "team_raw": "Belleville-B09D-Martinez",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "NoArlington",
@@ -306,13 +202,117 @@
           "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 25,
-      "goals_for": 27,
+      "goal_diff": 3,
+      "goals_against": 30,
+      "goals_for": 33,
       "losses": 3,
       "played": 8,
-      "points": 12,
+      "points": 15,
       "team_raw": "NoArlington-B09D-Campos",
+      "wins": 5
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Ensuncho",
+      "draws": 3,
+      "form": "WWDDW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408002",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B09D-Campos",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408007",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09D-Martinez",
+          "result": "D",
+          "time": "03:45 PM",
+          "venue_code": "FL-Brookdale"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408011",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B09D-Asadi",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408013",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B09D-Sharry",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408016",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09D-Musano",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "FL-Berdan"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408022",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B09D-Liu",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "JC-CochraneCaven-3"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408024",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09D-Duka",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408167",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B09D-Campos",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2B"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 20,
+      "goals_for": 41,
+      "losses": 1,
+      "played": 8,
+      "points": 15,
+      "team_raw": "FairLawnAllSports-B09D-Ensuncho",
       "wins": 4
     },
     {
@@ -410,14 +410,14 @@
           "venue_code": "AVIA-HitchcockSmall"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 17,
-      "goals_for": 16,
+      "goal_diff": 3,
+      "goals_against": 20,
+      "goals_for": 23,
       "losses": 3,
       "played": 8,
-      "points": 10,
+      "points": 13,
       "team_raw": "JerseyCity-B09D-Liu",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Torpedoes",
@@ -514,14 +514,14 @@
           "venue_code": "BGFD-RoyBrown"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 26,
-      "goals_for": 27,
+      "goal_diff": 6,
+      "goals_against": 29,
+      "goals_for": 35,
       "losses": 3,
       "played": 8,
-      "points": 10,
+      "points": 13,
       "team_raw": "Torpedoes-B09D-Duka",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Bergenfield",
@@ -618,10 +618,10 @@
           "venue_code": "BGFD-RoyBrown"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 19,
-      "goals_for": 16,
-      "losses": 4,
+      "goal_diff": -8,
+      "goals_against": 27,
+      "goals_for": 19,
+      "losses": 5,
       "played": 8,
       "points": 9,
       "team_raw": "Bergenfield-B09D-Asadi",
@@ -722,10 +722,10 @@
           "venue_code": "PAR-WestbrkSmall"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 33,
-      "goals_for": 17,
-      "losses": 5,
+      "goal_diff": -21,
+      "goals_against": 39,
+      "goals_for": 18,
+      "losses": 6,
       "played": 8,
       "points": 6,
       "team_raw": "Spartan-B09D-Musano",
@@ -826,10 +826,10 @@
           "venue_code": "AVIA-HitchcockSmall"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 27,
-      "goals_for": 13,
-      "losses": 5,
+      "goal_diff": -18,
+      "goals_against": 34,
+      "goals_for": 16,
+      "losses": 6,
       "played": 8,
       "points": 4,
       "team_raw": "AviatorsHHSA-B09D-Sharry",

@@ -1,6 +1,6 @@
 {
   "division": "G12C",
-  "scraped_at": "2026-06-05T09:06:30.333328Z",
+  "scraped_at": "2026-06-06T08:26:31.310163Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -97,88 +97,6 @@
       "wins": 7
     },
     {
-      "club": "Dragons",
-      "coach": "Collins",
-      "draws": 0,
-      "form": "LWWWL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408780",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12C-Carbo",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "408789",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G12C-Jackson",
-          "result": "W",
-          "time": "10:15 AM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408791",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G12C-Buttacavoli",
-          "result": "L",
-          "time": "05:45 PM",
-          "venue_code": "HAWTHORNE-Veterans"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408797",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G12C-House",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408798",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G12C-Chakmakjian",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "VERONA-Freedom1"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408805",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12C-OHara",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "MAR-GlenSchool"
-        }
-      ],
-      "goal_diff": 4,
-      "goals_against": 11,
-      "goals_for": 15,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
-      "team_raw": "Dragons-G12C-Collins",
-      "wins": 4
-    },
-    {
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 2,
@@ -262,14 +180,96 @@
           "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 9,
       "goals_against": 9,
-      "goals_for": 16,
+      "goals_for": 18,
       "losses": 1,
       "played": 7,
-      "points": 11,
+      "points": 14,
       "team_raw": "Paramus-G12C-Buttacavoli",
-      "wins": 3
+      "wins": 4
+    },
+    {
+      "club": "Dragons",
+      "coach": "Collins",
+      "draws": 0,
+      "form": "LWWWL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "408780",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12C-Carbo",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408789",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G12C-Jackson",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408791",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G12C-Buttacavoli",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408797",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12C-House",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408798",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G12C-Chakmakjian",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408805",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12C-OHara",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "MAR-GlenSchool"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 11,
+      "goals_for": 15,
+      "losses": 2,
+      "played": 6,
+      "points": 12,
+      "team_raw": "Dragons-G12C-Collins",
+      "wins": 4
     },
     {
       "club": "GlenRidge",
@@ -366,14 +366,14 @@
           "venue_code": "VERONA-Centennial"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 18,
-      "goals_for": 20,
+      "goal_diff": 3,
+      "goals_against": 19,
+      "goals_for": 22,
       "losses": 2,
       "played": 8,
-      "points": 9,
+      "points": 12,
       "team_raw": "GlenRidge-G12C-House",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Verona",
@@ -459,10 +459,10 @@
           "venue_code": "VERONA-Centennial"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 13,
-      "goals_for": 14,
-      "losses": 3,
+      "goal_diff": 0,
+      "goals_against": 15,
+      "goals_for": 15,
+      "losses": 4,
       "played": 7,
       "points": 7,
       "team_raw": "Verona-G12C-Chakmakjian",
@@ -552,10 +552,10 @@
           "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 13,
+      "goal_diff": -5,
+      "goals_against": 15,
       "goals_for": 10,
-      "losses": 3,
+      "losses": 4,
       "played": 7,
       "points": 7,
       "team_raw": "Mahwah-G12C-Shah",

@@ -1,6 +1,6 @@
 {
   "division": "G10F",
-  "scraped_at": "2026-06-06T08:25:35.360882Z",
+  "scraped_at": "2026-06-07T08:47:29.869754Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -187,6 +187,99 @@
       "played": 8,
       "points": 14,
       "team_raw": "Fairview-G10F-Hernandez",
+      "wins": 4
+    },
+    {
+      "club": "Maroons",
+      "coach": "Vaquero",
+      "draws": 1,
+      "form": "DLWWW",
+      "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "405297",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G10F-Hojo",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405306",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-G10F-Schweizer",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405311",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10F-Iemma",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405315",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10F-Timmerman",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "EM-HSTurf3Small"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405318",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G10F-Hernandez",
+          "result": "D",
+          "time": "09:15 AM",
+          "venue_code": "MAR-Stevens SS2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405322",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10F-Cohen",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "MAR-Stevens SS2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405324",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G10F-Hojo",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-AlpineField"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 11,
+      "goals_for": 30,
+      "losses": 2,
+      "played": 7,
+      "points": 13,
+      "team_raw": "Maroons-G10F-Vaquero",
       "wins": 4
     },
     {
@@ -469,170 +562,6 @@
       "wins": 4
     },
     {
-      "club": "Maroons",
-      "coach": "Vaquero",
-      "draws": 1,
-      "form": "LDLWW",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "405306",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-G10F-Schweizer",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "RYSA-HighMtn"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405311",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G10F-Iemma",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405315",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G10F-Timmerman",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "EM-HSTurf3Small"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405318",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G10F-Hernandez",
-          "result": "D",
-          "time": "09:15 AM",
-          "venue_code": "MAR-Stevens SS2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405322",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10F-Cohen",
-          "result": "W",
-          "time": "09:15 AM",
-          "venue_code": "MAR-Stevens SS2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405324",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G10F-Hojo",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "TEN-AlpineField"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 11,
-      "goals_for": 23,
-      "losses": 2,
-      "played": 6,
-      "points": 10,
-      "team_raw": "Maroons-G10F-Vaquero",
-      "wins": 3
-    },
-    {
-      "club": "Tenafly",
-      "coach": "Hojo",
-      "draws": 1,
-      "form": "LLDLL",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "405302",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G10F-Iemma",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "TEN-AlpineField"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405304",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G10F-Timmerman",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "EM-HSTurf3Small"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405309",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G10F-Hernandez",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "TEN-AlpineField"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405314",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10F-Cohen",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405323",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G10F-Lodato",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "VERONA-ForestAve"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405324",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10F-Vaquero",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "TEN-AlpineField"
-        }
-      ],
-      "goal_diff": -30,
-      "goals_against": 33,
-      "goals_for": 3,
-      "losses": 5,
-      "played": 6,
-      "points": 1,
-      "team_raw": "Tenafly-G10F-Hojo",
-      "wins": 0
-    },
-    {
       "club": "Vikings",
       "coach": "Cohen",
       "draws": 1,
@@ -723,6 +652,99 @@
       "played": 7,
       "points": 1,
       "team_raw": "Vikings-G10F-Cohen",
+      "wins": 0
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Hojo",
+      "draws": 1,
+      "form": "LDLLL",
+      "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "405297",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10F-Vaquero",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "405302",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10F-Iemma",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405304",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10F-Timmerman",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "EM-HSTurf3Small"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405309",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G10F-Hernandez",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405314",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10F-Cohen",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405323",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G10F-Lodato",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405324",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10F-Vaquero",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "TEN-AlpineField"
+        }
+      ],
+      "goal_diff": -37,
+      "goals_against": 40,
+      "goals_for": 3,
+      "losses": 6,
+      "played": 7,
+      "points": 1,
+      "team_raw": "Tenafly-G10F-Hojo",
       "wins": 0
     }
   ]

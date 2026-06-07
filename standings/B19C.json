@@ -1,6 +1,6 @@
 {
   "division": "B19C",
-  "scraped_at": "2026-06-06T08:24:25.037797Z",
+  "scraped_at": "2026-06-07T08:46:18.827441Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -110,8 +110,8 @@
     {
       "club": "WoodRidge",
       "coach": "Vazquez",
-      "draws": 1,
-      "form": "WDLLW",
+      "draws": 2,
+      "form": "DLLWD",
       "games": [
         {
           "date": "2026-04-19",
@@ -191,6 +191,17 @@
           "venue_code": "WDRDG-AthleticComp"
         },
         {
+          "date": "2026-06-06",
+          "game_number": "406083",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B19C-Olivo",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
           "date": "2026-04-12",
           "game_number": "406085",
           "goals_against": 3,
@@ -203,11 +214,11 @@
         }
       ],
       "goal_diff": 0,
-      "goals_against": 17,
-      "goals_for": 17,
+      "goals_against": 18,
+      "goals_for": 18,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 14,
       "team_raw": "WoodRidge-B19C-Vazquez",
       "wins": 4
     },
@@ -318,8 +329,8 @@
     {
       "club": "Rutherford",
       "coach": "Olivo",
-      "draws": 1,
-      "form": "LWDWL",
+      "draws": 2,
+      "form": "WDWLD",
       "games": [
         {
           "date": "2026-04-12",
@@ -397,14 +408,25 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406083",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B19C-Vazquez",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
         }
       ],
       "goal_diff": -15,
-      "goals_against": 32,
-      "goals_for": 17,
+      "goals_against": 33,
+      "goals_for": 18,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 8,
       "team_raw": "Rutherford-B19C-Olivo",
       "wins": 2
     },

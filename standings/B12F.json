@@ -1,13 +1,13 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-06-06T08:22:26.191689Z",
+  "scraped_at": "2026-06-07T08:44:21.508766Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -85,16 +85,27 @@
           "result": "D",
           "time": "12:15 PM",
           "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "405594",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-strasser",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-OrchardSchool"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 13,
-      "goals_for": 37,
+      "goal_diff": 28,
+      "goals_against": 15,
+      "goals_for": 43,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "Maroons-B12F-Gillies",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Thistle",
@@ -204,7 +215,7 @@
       "club": "RiverDell",
       "coach": "strasser",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -282,13 +293,24 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "405594",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-OrchardSchool"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 14,
-      "goals_for": 26,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 8,
+      "goals_against": 20,
+      "goals_for": 28,
+      "losses": 2,
+      "played": 8,
       "points": 18,
       "team_raw": "RiverDell-B12F-strasser",
       "wins": 6

@@ -1,6 +1,6 @@
 {
   "division": "B08B7",
-  "scraped_at": "2026-06-06T08:18:57.960563Z",
+  "scraped_at": "2026-06-07T08:41:00.836350Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,8 +111,19 @@
       "club": "Fairview",
       "coach": "Macias",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406681",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08B7-Blum",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "LF-MerhoffSmall3"
+        },
         {
           "date": "2026-03-29",
           "game_number": "406687",
@@ -202,21 +213,32 @@
           "venue_code": "LF--MerhoffSmall2"
         }
       ],
-      "goal_diff": 28,
+      "goal_diff": 35,
       "goals_against": 23,
-      "goals_for": 51,
+      "goals_for": 58,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "Fairview-B08B7-Macias",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Rutherford",
       "coach": "Seaman",
       "draws": 1,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406679",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B08B7-Antell",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
         {
           "date": "2026-03-29",
           "game_number": "406685",
@@ -295,14 +317,118 @@
           "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 10,
-      "goals_for": 31,
+      "goal_diff": 24,
+      "goals_against": 13,
+      "goals_for": 37,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Rutherford-B08B7-Seaman",
-      "wins": 5
+      "wins": 6
+    },
+    {
+      "club": "Tenafly",
+      "coach": "DORON",
+      "draws": 0,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406680",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B08B7-Sevilla",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "406687",
+          "goals_against": 12,
+          "goals_for": 5,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B08B7-Macias",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406693",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08B7-Rodriguez",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406695",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08B7-Blum",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406987",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B08B7-Cifuentes",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "406996",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08B7-Seaman",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406999",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B08B7-Zamora",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407003",
+          "goals_against": 5,
+          "goals_for": 10,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B08B7-MongeCalderon",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "TEN-AlpineField"
+        }
+      ],
+      "goal_diff": 22,
+      "goals_against": 34,
+      "goals_for": 56,
+      "losses": 2,
+      "played": 8,
+      "points": 18,
+      "team_raw": "Tenafly-B08B7-DORON",
+      "wins": 6
     },
     {
       "club": "WorldClassFC",
@@ -409,104 +535,22 @@
       "wins": 5
     },
     {
-      "club": "Tenafly",
-      "coach": "DORON",
-      "draws": 0,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "406687",
-          "goals_against": 12,
-          "goals_for": 5,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B08B7-Macias",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "TEN-AlpineField"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406693",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B08B7-Rodriguez",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "TORP-Lincoln1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406695",
-          "goals_against": 4,
-          "goals_for": 10,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B08B7-Blum",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "TEN-AlpineField"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406987",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B08B7-Cifuentes",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "406996",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08B7-Seaman",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "TEN-AlpineField"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406999",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B08B7-Zamora",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407003",
-          "goals_against": 5,
-          "goals_for": 10,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B08B7-MongeCalderon",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "TEN-AlpineField"
-        }
-      ],
-      "goal_diff": 15,
-      "goals_against": 33,
-      "goals_for": 48,
-      "losses": 2,
-      "played": 7,
-      "points": 15,
-      "team_raw": "Tenafly-B08B7-DORON",
-      "wins": 5
-    },
-    {
       "club": "Nutley",
       "coach": "Antell",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406679",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08B7-Seaman",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
         {
           "date": "2026-03-29",
           "game_number": "406686",
@@ -585,11 +629,11 @@
           "venue_code": "COUGUTD-ReganSmall1"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 25,
-      "goals_for": 23,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -5,
+      "goals_against": 31,
+      "goals_for": 26,
+      "losses": 4,
+      "played": 8,
       "points": 12,
       "team_raw": "Nutley-B08B7-Antell",
       "wins": 4
@@ -798,6 +842,17 @@
       "form": "LLLLL",
       "games": [
         {
+          "date": "2026-06-06",
+          "game_number": "406681",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B08B7-Macias",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "LF-MerhoffSmall3"
+        },
+        {
           "date": "2026-05-16",
           "game_number": "406688",
           "goals_against": 8,
@@ -875,11 +930,11 @@
           "venue_code": "COUGUTD-ReganSmall1"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 54,
+      "goal_diff": -41,
+      "goals_against": 61,
       "goals_for": 20,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "CougarUtd-B08B7-Blum",
       "wins": 1
@@ -995,6 +1050,17 @@
       "form": "LLLLL",
       "games": [
         {
+          "date": "2026-06-06",
+          "game_number": "406680",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B08B7-DORON",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
           "date": "2026-03-29",
           "game_number": "406684",
           "goals_against": 9,
@@ -1072,11 +1138,11 @@
           "venue_code": "LF--MerhoffSmall2"
         }
       ],
-      "goal_diff": -32,
-      "goals_against": 40,
-      "goals_for": 8,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -39,
+      "goals_against": 48,
+      "goals_for": 9,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "WestEssex-B08B7-Sevilla",
       "wins": 0

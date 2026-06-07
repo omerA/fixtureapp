@@ -1,14 +1,25 @@
 {
   "division": "B11A",
-  "scraped_at": "2026-06-06T08:21:12.031977Z",
+  "scraped_at": "2026-06-07T08:43:07.828306Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dumont",
       "coach": "Prepis",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "407894",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11A-Santosh",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-AlpineField"
+        },
         {
           "date": "2026-05-26",
           "game_number": "407896",
@@ -98,14 +109,14 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 21,
-      "goals_for": 36,
+      "goal_diff": 20,
+      "goals_against": 24,
+      "goals_for": 44,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "Dumont-B11A-Prepis",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Nutley",
@@ -214,8 +225,8 @@
     {
       "club": "GlenRock",
       "coach": "Naranjo",
-      "draws": 0,
-      "form": "LWWLW",
+      "draws": 1,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-05-29",
@@ -295,6 +306,17 @@
           "venue_code": "SS-FaberTurfSml"
         },
         {
+          "date": "2026-06-06",
+          "game_number": "407915",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Triger",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "407921",
           "goals_against": 4,
@@ -307,11 +329,11 @@
         }
       ],
       "goal_diff": 3,
-      "goals_against": 15,
-      "goals_for": 18,
+      "goals_against": 19,
+      "goals_for": 22,
       "losses": 3,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 16,
       "team_raw": "GlenRock-B11A-Naranjo",
       "wins": 5
     },
@@ -422,8 +444,8 @@
     {
       "club": "CougarUtd",
       "coach": "Triger",
-      "draws": 0,
-      "form": "LLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-04-11",
@@ -501,14 +523,25 @@
           "result": "L",
           "time": "07:15 PM",
           "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407915",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11A-Naranjo",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
       "goal_diff": -12,
-      "goals_against": 29,
-      "goals_for": 17,
+      "goals_against": 33,
+      "goals_for": 21,
       "losses": 5,
-      "played": 7,
-      "points": 6,
+      "played": 8,
+      "points": 7,
       "team_raw": "CougarUtd-B11A-Triger",
       "wins": 2
     },
@@ -518,6 +551,17 @@
       "draws": 0,
       "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "407894",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Prepis",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "TEN-AlpineField"
+        },
         {
           "date": "2026-04-25",
           "game_number": "407895",
@@ -596,11 +640,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 27,
-      "goals_for": 12,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -20,
+      "goals_against": 35,
+      "goals_for": 15,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Tenafly-B11A-Santosh",
       "wins": 1

@@ -1,6 +1,6 @@
 {
   "division": "B11GB",
-  "scraped_at": "2026-06-06T08:21:45.670456Z",
+  "scraped_at": "2026-06-07T08:43:41.153276Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -9,6 +9,17 @@
       "draws": 0,
       "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "407325",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B11GB-James",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "COUGSC-Dehart2"
+        },
         {
           "date": "2026-04-12",
           "game_number": "407327",
@@ -76,21 +87,32 @@
           "venue_code": "WEssex-Volunteers"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 15,
-      "goals_for": 35,
+      "goal_diff": 21,
+      "goals_against": 18,
+      "goals_for": 39,
       "losses": 0,
-      "played": 6,
-      "points": 18,
+      "played": 7,
+      "points": 21,
       "team_raw": "Clarkstown-B11GB-MongeCalderon",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "CougarSC",
       "coach": "James",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLL",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "407325",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B11GB-MongeCalderon",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "COUGSC-Dehart2"
+        },
         {
           "date": "2026-04-12",
           "game_number": "407326",
@@ -169,11 +191,11 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 19,
-      "goals_for": 27,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": 7,
+      "goals_against": 23,
+      "goals_for": 30,
+      "losses": 4,
+      "played": 8,
       "points": 12,
       "team_raw": "CougarSC-B11GB-James",
       "wins": 4

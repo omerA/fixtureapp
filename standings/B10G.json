@@ -1,6 +1,6 @@
 {
   "division": "B10G",
-  "scraped_at": "2026-06-06T08:20:49.598869Z",
+  "scraped_at": "2026-06-07T08:42:45.442359Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,7 +100,7 @@
       "club": "Emerson",
       "coach": "DeCarlo",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -158,6 +158,17 @@
           "venue_code": "WYNE-McCoogPark"
         },
         {
+          "date": "2026-06-06",
+          "game_number": "406897",
+          "goals_against": 4,
+          "goals_for": 11,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10G-Parlegreco",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406899",
           "goals_against": 2,
@@ -180,20 +191,113 @@
           "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 33,
-      "goals_for": 40,
+      "goal_diff": 14,
+      "goals_against": 37,
+      "goals_for": 51,
+      "losses": 3,
+      "played": 8,
+      "points": 15,
+      "team_raw": "Emerson-B10G-DeCarlo",
+      "wins": 5
+    },
+    {
+      "club": "GlenRidge",
+      "coach": "Engel",
+      "draws": 0,
+      "form": "WLLWW",
+      "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406881",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10G-Camara",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "406885",
+          "goals_against": 10,
+          "goals_for": 5,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10G-DeCarlo",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "406886",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10G-Parlegreco",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406892",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10G-Gandolfi",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406895",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10G-Camara",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406899",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10G-DeCarlo",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406903",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10G-Parlegreco",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "GLENRDGE-Carteret"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 32,
+      "goals_for": 33,
       "losses": 3,
       "played": 7,
       "points": 12,
-      "team_raw": "Emerson-B10G-DeCarlo",
+      "team_raw": "GlenRidge-B10G-Engel",
       "wins": 4
     },
     {
       "club": "Ajax",
       "coach": "Parlegreco",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -251,6 +355,17 @@
           "venue_code": "AJAX-MPHS-Stadium"
         },
         {
+          "date": "2026-06-06",
+          "game_number": "406897",
+          "goals_against": 11,
+          "goals_for": 4,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10G-DeCarlo",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406900",
           "goals_against": 3,
@@ -273,11 +388,11 @@
           "venue_code": "GLENRDGE-Carteret"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 31,
-      "goals_for": 30,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -8,
+      "goals_against": 42,
+      "goals_for": 34,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "Ajax-B10G-Parlegreco",
       "wins": 3
@@ -387,93 +502,22 @@
       "wins": 3
     },
     {
-      "club": "GlenRidge",
-      "coach": "Engel",
-      "draws": 0,
-      "form": "LWLLW",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "406885",
-          "goals_against": 10,
-          "goals_for": 5,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10G-DeCarlo",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "406886",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B10G-Parlegreco",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406892",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10G-Gandolfi",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406895",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B10G-Camara",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406899",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10G-DeCarlo",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "GLENRDGE-Carteret"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406903",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B10G-Parlegreco",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "GLENRDGE-Carteret"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 30,
-      "goals_for": 27,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "GlenRidge-B10G-Engel",
-      "wins": 3
-    },
-    {
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406881",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10G-Engel",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406883",
@@ -552,11 +596,11 @@
           "venue_code": "WYNE-McCoogPark"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 29,
-      "goals_for": 14,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -19,
+      "goals_against": 35,
+      "goals_for": 16,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "WayneBG-B10G-Camara",
       "wins": 2

@@ -1,13 +1,13 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-06-06T08:23:01.300806Z",
+  "scraped_at": "2026-06-07T08:44:56.295851Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Americans",
       "coach": "Bonham",
       "draws": 1,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-30",
@@ -87,6 +87,17 @@
           "venue_code": "AMER-Crestwd Lower"
         },
         {
+          "date": "2026-06-06",
+          "game_number": "405021",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13D-Astill",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
           "date": "2026-06-05",
           "game_number": "406357",
           "goals_against": 0,
@@ -98,14 +109,129 @@
           "venue_code": "HOT-HS Turf"
         }
       ],
-      "goal_diff": 23,
-      "goals_against": 6,
-      "goals_for": 29,
-      "losses": 0,
-      "played": 8,
+      "goal_diff": 22,
+      "goals_against": 8,
+      "goals_for": 30,
+      "losses": 1,
+      "played": 9,
       "points": 22,
       "team_raw": "Americans-B13D-Bonham",
       "wins": 7
+    },
+    {
+      "club": "Vikings",
+      "coach": "Astill",
+      "draws": 2,
+      "form": "DWWWW",
+      "games": [
+        {
+          "date": "2026-04-04",
+          "game_number": "404976",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13D-Williams",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RUTH-HighSchool"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "404982",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13D-Jones",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "404990",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B13D-Prestigiacomo",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "404994",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B13D-Wells",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "404998",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B13D-Sanford",
+          "result": "D",
+          "time": "02:15 PM",
+          "venue_code": "NY-WC-StThomas"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405005",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13D-Herrera",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405009",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13D-Taylor",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405015",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-B13D-Garcia",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "AYSO-Community-Large"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "405021",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Bonham",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 12,
+      "goals_for": 31,
+      "losses": 1,
+      "played": 9,
+      "points": 20,
+      "team_raw": "Vikings-B13D-Astill",
+      "wins": 6
     },
     {
       "club": "Rutherford",
@@ -199,110 +325,6 @@
       "points": 19,
       "team_raw": "Rutherford-B13D-Williams",
       "wins": 6
-    },
-    {
-      "club": "Vikings",
-      "coach": "Astill",
-      "draws": 2,
-      "form": "WDWWW",
-      "games": [
-        {
-          "date": "2026-04-04",
-          "game_number": "404976",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B13D-Williams",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RUTH-HighSchool"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "404982",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B13D-Jones",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "GLENRDGE-ForestAve"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "404990",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B13D-Prestigiacomo",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "404994",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B13D-Wells",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "AVIA-Hitchcock"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "404998",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B13D-Sanford",
-          "result": "D",
-          "time": "02:15 PM",
-          "venue_code": "NY-WC-StThomas"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405005",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B13D-Herrera",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405009",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13D-Taylor",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405015",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "AYSOBergen",
-          "opponent_raw": "AYSOBergen-B13D-Garcia",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "AYSO-Community-Large"
-        }
-      ],
-      "goal_diff": 18,
-      "goals_against": 11,
-      "goals_for": 29,
-      "losses": 1,
-      "played": 8,
-      "points": 17,
-      "team_raw": "Vikings-B13D-Astill",
-      "wins": 5
     },
     {
       "club": "GlenRidge",

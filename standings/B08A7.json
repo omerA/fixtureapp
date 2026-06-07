@@ -1,8 +1,123 @@
 {
   "division": "B08A7",
-  "scraped_at": "2026-06-06T08:18:50.056331Z",
+  "scraped_at": "2026-06-07T08:40:53.089919Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Chambers",
+      "draws": 1,
+      "form": "WDWWW",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "404588",
+          "goals_against": 6,
+          "goals_for": 8,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08A7-Kaghado",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "404594",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B08A7-Munting",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404600",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B08A7-Gunther",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "404603",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B08A7-Salcido",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "404611",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-B08A7-Ribeiro",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404615",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08A7-Edry",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "404622",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B08A7-Battista",
+          "result": "D",
+          "time": "05:15 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404624",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B08A7-Boucher",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406643",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B08A7-Zamora",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Sml"
+        }
+      ],
+      "goal_diff": 20,
+      "goals_against": 29,
+      "goals_for": 49,
+      "losses": 1,
+      "played": 9,
+      "points": 22,
+      "team_raw": "Maroons-B08A7-Chambers",
+      "wins": 7
+    },
     {
       "club": "Clarkstown",
       "coach": "Munting",
@@ -100,7 +215,7 @@
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-09",
@@ -189,120 +304,142 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "JC-CochraneCaven-4"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406643",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08A7-Chambers",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Sml"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 24,
+      "goal_diff": 12,
+      "goals_against": 28,
       "goals_for": 40,
-      "losses": 1,
-      "played": 8,
+      "losses": 2,
+      "played": 9,
       "points": 21,
       "team_raw": "Southside-B08A7-Zamora",
       "wins": 7
     },
     {
-      "club": "Maroons",
-      "coach": "Chambers",
-      "draws": 1,
-      "form": "WWDWW",
+      "club": "SilverLakeAcademy",
+      "coach": "Ribeiro",
+      "draws": 2,
+      "form": "DWLLW",
       "games": [
         {
+          "date": "2026-05-16",
+          "game_number": "404597",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08A7-Edry",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
           "date": "2026-05-02",
-          "game_number": "404588",
-          "goals_against": 6,
-          "goals_for": 8,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B08A7-Kaghado",
+          "game_number": "404602",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B08A7-Battista",
           "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "404594",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B08A7-Munting",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "404600",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B08A7-Gunther",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "TEN-AlpineField"
+          "time": "12:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
         },
         {
           "date": "2026-04-19",
-          "game_number": "404603",
-          "goals_against": 3,
-          "goals_for": 7,
+          "game_number": "404605",
+          "goals_against": 2,
+          "goals_for": 4,
           "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B08A7-Salcido",
+          "opponent_raw": "JerseyCity-B08A7-Boucher",
           "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "MAR-MapleParkWestSm"
+          "time": "02:00 PM",
+          "venue_code": "JC-CochraneCaven-4"
         },
         {
           "date": "2026-04-26",
           "game_number": "404611",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-B08A7-Ribeiro",
-          "result": "W",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08A7-Chambers",
+          "result": "L",
           "time": "03:00 PM",
           "venue_code": "SILVERLK-MillerF20"
         },
         {
           "date": "2026-05-30",
-          "game_number": "404615",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B08A7-Edry",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
+          "game_number": "404614",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B08A7-Zamora",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "Haledon-MnchstHS-Sml"
         },
         {
           "date": "2026-05-10",
-          "game_number": "404622",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B08A7-Battista",
+          "game_number": "404618",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08A7-Coulson",
           "result": "D",
-          "time": "05:15 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
+          "time": "01:30 PM",
+          "venue_code": "SILVERLK-MillerF20"
         },
         {
           "date": "2026-05-17",
-          "game_number": "404624",
+          "game_number": "405461",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08A7-Kaghado",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406636",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B08A7-Munting",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406645",
           "goals_against": 3,
           "goals_for": 4,
           "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B08A7-Boucher",
+          "opponent_raw": "JerseyCity-B08A7-Salcido",
           "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "MAR-GlenSchool"
+          "time": "12:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
         }
       ],
-      "goal_diff": 16,
+      "goal_diff": -1,
       "goals_against": 29,
-      "goals_for": 45,
-      "losses": 1,
-      "played": 8,
-      "points": 19,
-      "team_raw": "Maroons-B08A7-Chambers",
-      "wins": 6
+      "goals_for": 28,
+      "losses": 3,
+      "played": 9,
+      "points": 14,
+      "team_raw": "SilverLakeAcademy-B08A7-Ribeiro",
+      "wins": 4
     },
     {
       "club": "GlobalJC",
@@ -420,110 +557,6 @@
       "wins": 3
     },
     {
-      "club": "SilverLakeAcademy",
-      "coach": "Ribeiro",
-      "draws": 2,
-      "form": "DDWLL",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "404597",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B08A7-Edry",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "404602",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B08A7-Battista",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "404605",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B08A7-Boucher",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "JC-CochraneCaven-4"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "404611",
-          "goals_against": 7,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B08A7-Chambers",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "404614",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B08A7-Zamora",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "Haledon-MnchstHS-Sml"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "404618",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B08A7-Coulson",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405461",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B08A7-Kaghado",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406636",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B08A7-Munting",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 26,
-      "goals_for": 24,
-      "losses": 3,
-      "played": 8,
-      "points": 11,
-      "team_raw": "SilverLakeAcademy-B08A7-Ribeiro",
-      "wins": 3
-    },
-    {
       "club": "HobUtd",
       "coach": "Battista",
       "draws": 2,
@@ -630,8 +663,8 @@
     {
       "club": "CougarUtd",
       "coach": "Edry",
-      "draws": 2,
-      "form": "LDDLW",
+      "draws": 3,
+      "form": "DDLWD",
       "games": [
         {
           "date": "2026-04-18",
@@ -665,6 +698,17 @@
           "result": "L",
           "time": "07:30 PM",
           "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "404612",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B08A7-Boucher",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "COUGUTD-ReganSmall1"
         },
         {
           "date": "2026-05-30",
@@ -712,19 +756,19 @@
         }
       ],
       "goal_diff": -13,
-      "goals_against": 30,
-      "goals_for": 17,
+      "goals_against": 36,
+      "goals_for": 23,
       "losses": 3,
-      "played": 7,
-      "points": 8,
+      "played": 8,
+      "points": 9,
       "team_raw": "CougarUtd-B08A7-Edry",
       "wins": 2
     },
     {
       "club": "JerseyCity",
       "coach": "Boucher",
-      "draws": 1,
-      "form": "LWDLL",
+      "draws": 2,
+      "form": "WDLLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -758,6 +802,17 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "JC-CochraneCaven-4"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "404612",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08A7-Edry",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "COUGUTD-ReganSmall1"
         },
         {
           "date": "2026-05-03",
@@ -805,11 +860,11 @@
         }
       ],
       "goal_diff": -4,
-      "goals_against": 26,
-      "goals_for": 22,
+      "goals_against": 32,
+      "goals_for": 28,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 8,
       "team_raw": "JerseyCity-B08A7-Boucher",
       "wins": 2
     },
@@ -992,7 +1047,7 @@
       "club": "JerseyCity",
       "coach": "Salcido",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-04-18",
@@ -1092,13 +1147,24 @@
           "result": "D",
           "time": "12:30 PM",
           "venue_code": "JC-CochraneCaven-3"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406645",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-B08A7-Ribeiro",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 46,
-      "goals_for": 22,
-      "losses": 8,
-      "played": 9,
+      "goal_diff": -25,
+      "goals_against": 50,
+      "goals_for": 25,
+      "losses": 9,
+      "played": 10,
       "points": 1,
       "team_raw": "JerseyCity-B08A7-Salcido",
       "wins": 0

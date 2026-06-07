@@ -1,40 +1,13 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-06-06T08:20:10.301955Z",
+  "scraped_at": "2026-06-07T08:42:09.562356Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "CougarSC",
-      "coach": "James",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-01",
-          "game_number": "409434",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B09XW-Fitzpatrick",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "MAHWAH-Trinity"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 0,
-      "goals_for": 7,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "CougarSC-B09XW-James",
-      "wins": 1
-    },
     {
       "club": "Belleville",
       "coach": "Martinez",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-05-09",
@@ -46,6 +19,17 @@
           "result": "W",
           "time": "08:30 AM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409724",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09XW-James",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
         }
       ],
       "goal_diff": 1,
@@ -55,6 +39,44 @@
       "played": 1,
       "points": 3,
       "team_raw": "Belleville-B09XW-Martinez",
+      "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "James",
+      "draws": 0,
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-05-01",
+          "game_number": "409434",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B09XW-Fitzpatrick",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "MAHWAH-Trinity"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409724",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09XW-Martinez",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "CougarSC-B09XW-James",
       "wins": 1
     },
     {

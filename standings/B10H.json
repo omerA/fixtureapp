@@ -1,13 +1,128 @@
 {
   "division": "B10H",
-  "scraped_at": "2026-06-06T08:20:57.444388Z",
+  "scraped_at": "2026-06-07T08:42:53.272364Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "NoValley",
+      "coach": "Steinman",
+      "draws": 2,
+      "form": "WWDDW",
+      "games": [
+        {
+          "date": "2026-05-01",
+          "game_number": "407228",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10H-Ginsberg",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407237",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10H-GuevaraFuentes",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407243",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10H-Capp",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407245",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B10H-Preciado",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccerS"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407253",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B10H-Patel",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407254",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10H-Grados",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407259",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10H-Nakashian",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407404",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B10H-Alaya",
+          "result": "D",
+          "time": "01:15 PM",
+          "venue_code": "LKLND-Hagstrom"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407410",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B10H-Bell",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        }
+      ],
+      "goal_diff": 31,
+      "goals_against": 24,
+      "goals_for": 55,
+      "losses": 1,
+      "played": 9,
+      "points": 20,
+      "team_raw": "NoValley-B10H-Steinman",
+      "wins": 6
+    },
     {
       "club": "Americans",
       "coach": "Bell",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-06",
@@ -74,13 +189,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "AMER-WestMaple"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407410",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10H-Steinman",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 16,
-      "goals_for": 31,
-      "losses": 0,
-      "played": 6,
+      "goal_diff": 11,
+      "goals_against": 21,
+      "goals_for": 32,
+      "losses": 1,
+      "played": 7,
       "points": 18,
       "team_raw": "Americans-B10H-Bell",
       "wins": 6
@@ -188,110 +314,6 @@
       "points": 18,
       "team_raw": "Torpedoes-B10H-Grados",
       "wins": 6
-    },
-    {
-      "club": "NoValley",
-      "coach": "Steinman",
-      "draws": 2,
-      "form": "WWWDD",
-      "games": [
-        {
-          "date": "2026-05-01",
-          "game_number": "407228",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B10H-Ginsberg",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407237",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B10H-GuevaraFuentes",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "ARS-MemParkRidge3Sm"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407243",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10H-Capp",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407245",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B10H-Preciado",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "TEANECK-VoteeSoccerS"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407253",
-          "goals_against": 4,
-          "goals_for": 10,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B10H-Patel",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407254",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B10H-Grados",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407259",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10H-Nakashian",
-          "result": "D",
-          "time": "10:00 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407404",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B10H-Alaya",
-          "result": "D",
-          "time": "01:15 PM",
-          "venue_code": "LKLND-Hagstrom"
-        }
-      ],
-      "goal_diff": 27,
-      "goals_against": 23,
-      "goals_for": 50,
-      "losses": 1,
-      "played": 8,
-      "points": 17,
-      "team_raw": "NoValley-B10H-Steinman",
-      "wins": 5
     },
     {
       "club": "Teaneck",

@@ -1,6 +1,6 @@
 {
   "division": "G12B",
-  "scraped_at": "2026-06-06T08:26:27.443264Z",
+  "scraped_at": "2026-06-07T08:48:20.978549Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -505,7 +505,7 @@
       "club": "GlobalJC",
       "coach": "Charoth",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-05-16",
@@ -517,6 +517,17 @@
           "result": "L",
           "time": "07:15 PM",
           "venue_code": "JC-CochraneCaven"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "408744",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G12B-Williams",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "JC-GatewaySm1"
         },
         {
           "date": "2026-04-19",
@@ -574,13 +585,106 @@
           "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 18,
-      "goals_for": 9,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -10,
+      "goals_against": 21,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "GlobalJC-G12B-Charoth",
+      "wins": 2
+    },
+    {
+      "club": "Nutley",
+      "coach": "Williams",
+      "draws": 0,
+      "form": "LLLLW",
+      "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "408744",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G12B-Charoth",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408747",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12B-Rugel",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408753",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G12B-Bickford",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408755",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G12B-Bifulco",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408761",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G12B-Bova",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408762",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12B-Roche",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408769",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G12B-Kelly",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS9"
+        }
+      ],
+      "goal_diff": -11,
+      "goals_against": 25,
+      "goals_for": 14,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "Nutley-G12B-Williams",
       "wins": 2
     },
     {
@@ -663,88 +767,6 @@
       "played": 6,
       "points": 4,
       "team_raw": "Spartan-G12B-Kelly",
-      "wins": 1
-    },
-    {
-      "club": "Nutley",
-      "coach": "Williams",
-      "draws": 0,
-      "form": "LLLLL",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "408747",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12B-Rugel",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408753",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G12B-Bickford",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408755",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G12B-Bifulco",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "LYND-RecCtrFld4"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408761",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G12B-Bova",
-          "result": "L",
-          "time": "05:45 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408762",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G12B-Roche",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408769",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G12B-Kelly",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "PAR-ParkwayMS9"
-        }
-      ],
-      "goal_diff": -12,
-      "goals_against": 23,
-      "goals_for": 11,
-      "losses": 5,
-      "played": 6,
-      "points": 3,
-      "team_raw": "Nutley-G12B-Williams",
       "wins": 1
     }
   ]

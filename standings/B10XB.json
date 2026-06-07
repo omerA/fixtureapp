@@ -1,13 +1,13 @@
 {
   "division": "B10XB",
-  "scraped_at": "2026-06-06T08:21:04.786741Z",
+  "scraped_at": "2026-06-07T08:43:00.589352Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Warriors",
       "coach": "Leonard",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-05-16",
@@ -19,6 +19,17 @@
           "result": "W",
           "time": "04:45 PM",
           "venue_code": "WALD-HSTurf-3"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409715",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10XB-Arcentales",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
         }
       ],
       "goal_diff": 5,
@@ -34,7 +45,7 @@
       "club": "FairLawnAllSports",
       "coach": "Arcentales",
       "draws": 0,
-      "form": "W",
+      "form": "WL",
       "games": [
         {
           "date": "2026-05-02",
@@ -46,6 +57,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "FL-Brookdale"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409715",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10XB-Leonard",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
         }
       ],
       "goal_diff": 4,

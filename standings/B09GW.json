@@ -1,14 +1,25 @@
 {
   "division": "B09GW",
-  "scraped_at": "2026-06-06T08:19:59.134607Z",
+  "scraped_at": "2026-06-07T08:41:59.428280Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Torpedoes",
       "coach": "Grados",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406832",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09GW-Brufau",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "TORP-Pulis3"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406834",
@@ -88,11 +99,11 @@
         }
       ],
       "goal_diff": 40,
-      "goals_against": 13,
-      "goals_for": 53,
+      "goals_against": 17,
+      "goals_for": 57,
       "losses": 0,
-      "played": 7,
-      "points": 21,
+      "played": 8,
+      "points": 22,
       "team_raw": "Torpedoes-B09GW-Grados",
       "wins": 7
     },
@@ -204,7 +215,7 @@
       "club": "Maroons",
       "coach": "Harrison",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -216,6 +227,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406836",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09GW-Hughes",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         },
         {
           "date": "2026-04-19",
@@ -284,11 +306,11 @@
           "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 27,
-      "goals_for": 38,
-      "losses": 2,
-      "played": 7,
+      "goal_diff": 7,
+      "goals_against": 32,
+      "goals_for": 39,
+      "losses": 3,
+      "played": 8,
       "points": 15,
       "team_raw": "Maroons-B09GW-Harrison",
       "wins": 5
@@ -297,7 +319,7 @@
       "club": "WoodRidge",
       "coach": "Hughes",
       "draws": 2,
-      "form": "WLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-04-24",
@@ -309,6 +331,17 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "FL-MemorialMS-Sm"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406836",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09GW-Harrison",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         },
         {
           "date": "2026-04-19",
@@ -366,20 +399,20 @@
           "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 15,
-      "goals_for": 21,
+      "goal_diff": 10,
+      "goals_against": 16,
+      "goals_for": 26,
       "losses": 1,
-      "played": 6,
-      "points": 11,
+      "played": 7,
+      "points": 14,
       "team_raw": "WoodRidge-B09GW-Hughes",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Force",
       "coach": "PierreJoseph",
       "draws": 1,
-      "form": "WWWLD",
+      "form": "WWLDW",
       "games": [
         {
           "date": "2026-04-12",
@@ -402,6 +435,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407128",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09GW-Parra",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NY-MWU-Gonzaga"
         },
         {
           "date": "2026-05-03",
@@ -448,20 +492,20 @@
           "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 25,
-      "goals_for": 42,
+      "goal_diff": 21,
+      "goals_against": 26,
+      "goals_for": 47,
       "losses": 2,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 12,
       "team_raw": "Force-B09GW-PierreJoseph",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "WayneBG",
       "coach": "Parra",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -484,6 +528,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407128",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B09GW-PierreJoseph",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NY-MWU-Gonzaga"
         },
         {
           "date": "2026-05-03",
@@ -519,11 +574,11 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 18,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -8,
+      "goals_against": 23,
+      "goals_for": 15,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "WayneBG-B09GW-Parra",
       "wins": 2
@@ -728,9 +783,20 @@
     {
       "club": "WOrange",
       "coach": "Brufau",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "406832",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09GW-Grados",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "TORP-Pulis3"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406835",
@@ -810,11 +876,11 @@
         }
       ],
       "goal_diff": -26,
-      "goals_against": 43,
-      "goals_for": 17,
+      "goals_against": 47,
+      "goals_for": 21,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "WOrange-B09GW-Brufau",
       "wins": 1
     },

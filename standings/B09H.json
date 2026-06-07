@@ -1,6 +1,6 @@
 {
   "division": "B09H",
-  "scraped_at": "2026-06-06T08:20:03.454604Z",
+  "scraped_at": "2026-06-07T08:42:03.609223Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -201,6 +201,99 @@
       "wins": 5
     },
     {
+      "club": "FF",
+      "coach": "Lezcano",
+      "draws": 0,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "407163",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B09H-Rosskamp",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407170",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09H-Niland",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407174",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B09H-Mackenzie",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407179",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09H-Musano",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407183",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09H-Coughlin",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407191",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09H-Callegari",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407193",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09H-McGee",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        }
+      ],
+      "goal_diff": 17,
+      "goals_against": 14,
+      "goals_for": 31,
+      "losses": 2,
+      "played": 7,
+      "points": 15,
+      "team_raw": "FF-B09H-Lezcano",
+      "wins": 5
+    },
+    {
       "club": "ST23",
       "coach": "Rosskamp",
       "draws": 1,
@@ -291,88 +384,6 @@
       "played": 7,
       "points": 13,
       "team_raw": "ST23-B09H-Rosskamp",
-      "wins": 4
-    },
-    {
-      "club": "FF",
-      "coach": "Lezcano",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "407163",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B09H-Rosskamp",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407170",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09H-Niland",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407179",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B09H-Musano",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407183",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09H-Coughlin",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407191",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B09H-Callegari",
-          "result": "W",
-          "time": "12:15 PM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407193",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09H-McGee",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-MS-Sm"
-        }
-      ],
-      "goal_diff": 15,
-      "goals_against": 11,
-      "goals_for": 26,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
-      "team_raw": "FF-B09H-Lezcano",
       "wins": 4
     },
     {
@@ -658,7 +669,7 @@
       "club": "Tenafly",
       "coach": "Mackenzie",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -694,6 +705,17 @@
           "venue_code": "RDBH-MS-Sm"
         },
         {
+          "date": "2026-06-06",
+          "game_number": "407174",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B09H-Lezcano",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
           "date": "2026-05-03",
           "game_number": "407180",
           "goals_against": 2,
@@ -727,11 +749,11 @@
           "venue_code": "TEN-AlpineField"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 18,
-      "goals_for": 20,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": 0,
+      "goals_against": 23,
+      "goals_for": 23,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Tenafly-B09H-Mackenzie",
       "wins": 2

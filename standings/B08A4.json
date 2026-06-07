@@ -1,14 +1,25 @@
 {
   "division": "B08A4",
-  "scraped_at": "2026-06-06T08:18:45.492685Z",
+  "scraped_at": "2026-06-07T08:40:48.679448Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Montclair",
       "coach": "Santillan",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "404559",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B08A4-Hughes",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404561",
@@ -87,14 +98,14 @@
           "venue_code": "MONT-Brookdale4v4"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 34,
-      "goals_for": 52,
+      "goal_diff": 21,
+      "goals_against": 37,
+      "goals_for": 58,
       "losses": 2,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 18,
       "team_raw": "Montclair-B08A4-Santillan",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Verona",
@@ -505,8 +516,19 @@
       "club": "WoodRidge",
       "coach": "Hughes",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "404559",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08A4-Santillan",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404563",
@@ -574,11 +596,11 @@
           "venue_code": "WDRDG-Athletic-W4v4B"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 35,
-      "goals_for": 18,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -20,
+      "goals_against": 41,
+      "goals_for": 21,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "WoodRidge-B08A4-Hughes",
       "wins": 1

@@ -1,6 +1,6 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-06-07T08:41:04.127142Z",
+  "scraped_at": "2026-06-08T10:09:38.319294Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Hackensack",
       "coach": "Holder",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-25",
@@ -145,6 +145,17 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407027",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C4-Sisson",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
         },
         {
           "date": "2026-05-03",
@@ -178,22 +189,44 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "HACK-ColombusPark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407043",
+          "goals_against": 6,
+          "goals_for": 14,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C4-Sisson",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-DemarestHS-Upper"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409223",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08C4-Karsch",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "HACK-ColombusPark"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 18,
-      "goals_for": 26,
+      "goal_diff": 24,
+      "goals_against": 28,
+      "goals_for": 52,
       "losses": 1,
-      "played": 5,
-      "points": 12,
+      "played": 8,
+      "points": 20,
       "team_raw": "Hackensack-B08C4-Holder",
-      "wins": 4
+      "wins": 7
     },
     {
       "club": "Arsenal",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -262,6 +295,17 @@
           "venue_code": "MONT-Brookdale4v4"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "407041",
+          "goals_against": 6,
+          "goals_for": 12,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08C4-Karsch",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
           "date": "2026-04-18",
           "game_number": "409224",
           "goals_against": 10,
@@ -284,20 +328,20 @@
           "venue_code": "ARS-Dorchester1"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 50,
-      "goals_for": 40,
+      "goal_diff": -4,
+      "goals_against": 56,
+      "goals_for": 52,
       "losses": 4,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 15,
       "team_raw": "Arsenal-B08C4-GuevaraFuentes",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Vikings",
       "coach": "Sisson",
       "draws": 1,
-      "form": "DLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -333,6 +377,17 @@
           "venue_code": "VIK-DemarestHS-Upper"
         },
         {
+          "date": "2026-04-26",
+          "game_number": "407027",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08C4-Holder",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "407034",
           "goals_against": 10,
@@ -366,6 +421,17 @@
           "venue_code": "MONT-Brookdale4v4"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "407043",
+          "goals_against": 14,
+          "goals_for": 6,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08C4-Holder",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-DemarestHS-Upper"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "409227",
           "goals_against": 7,
@@ -377,11 +443,11 @@
           "venue_code": "ARS-Dorchester1"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 61,
-      "goals_for": 46,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -24,
+      "goals_against": 80,
+      "goals_for": 56,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Vikings-B08C4-Sisson",
       "wins": 1
@@ -459,6 +525,28 @@
           "venue_code": "HACK-ColombusPark"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "407041",
+          "goals_against": 12,
+          "goals_for": 6,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B08C4-GuevaraFuentes",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409223",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08C4-Holder",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "HACK-ColombusPark"
+        },
+        {
           "date": "2026-04-11",
           "game_number": "409226",
           "goals_against": 8,
@@ -470,11 +558,11 @@
           "venue_code": "AMER-StLuke"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 55,
-      "goals_for": 38,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -30,
+      "goals_against": 74,
+      "goals_for": 44,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "Americans-B08C4-Karsch",
       "wins": 1

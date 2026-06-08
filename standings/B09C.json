@@ -1,13 +1,13 @@
 {
   "division": "B09C",
-  "scraped_at": "2026-06-07T08:41:34.898160Z",
+  "scraped_at": "2026-06-08T10:10:24.327137Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NMKnights",
       "coach": "Mohr",
       "draws": 2,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -107,22 +107,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407994",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09C-James",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "NMilford-Williams7v7"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 12,
-      "goals_for": 40,
+      "goal_diff": 32,
+      "goals_against": 13,
+      "goals_for": 45,
       "losses": 0,
-      "played": 9,
-      "points": 23,
+      "played": 10,
+      "points": 26,
       "team_raw": "NMKnights-B09C-Mohr",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "WorldClassFC",
       "coach": "Mun",
       "draws": 1,
-      "form": "WDWLW",
+      "form": "DWLWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -211,15 +222,141 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407993",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B09C-Anari",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 17,
-      "goals_for": 41,
+      "goal_diff": 29,
+      "goals_against": 18,
+      "goals_for": 47,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "WorldClassFC-B09C-Mun",
+      "wins": 7
+    },
+    {
+      "club": "WOrange",
+      "coach": "Brufau",
+      "draws": 2,
+      "form": "WDWLW",
+      "games": [
+        {
+          "date": "2026-04-11",
+          "game_number": "407113",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09C-James",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "407120",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09C-Mohr",
+          "result": "D",
+          "time": "04:15 PM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "407958",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09C-Kapur",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407965",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09C-Hirsh",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407973",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B09C-Anari",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407976",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09C-Goers",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407984",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09C-Mun",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407989",
+          "goals_against": 10,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B09C-Rosental",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407990",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B09C-Dahan",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "WORANGE-LibertyMS2"
+        }
+      ],
+      "goal_diff": 18,
+      "goals_against": 25,
+      "goals_for": 43,
+      "losses": 1,
+      "played": 9,
+      "points": 20,
+      "team_raw": "WOrange-B09C-Brufau",
       "wins": 6
     },
     {
@@ -338,114 +475,10 @@
       "wins": 5
     },
     {
-      "club": "WOrange",
-      "coach": "Brufau",
-      "draws": 2,
-      "form": "WWDWL",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "407113",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09C-James",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "407120",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B09C-Mohr",
-          "result": "D",
-          "time": "04:15 PM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "407958",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B09C-Kapur",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407965",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B09C-Hirsh",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407973",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B09C-Anari",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-Lincoln-Lrg"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407976",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B09C-Goers",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407984",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09C-Mun",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407989",
-          "goals_against": 10,
-          "goals_for": 3,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B09C-Rosental",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 23,
-      "goals_for": 35,
-      "losses": 1,
-      "played": 8,
-      "points": 17,
-      "team_raw": "WOrange-B09C-Brufau",
-      "wins": 5
-    },
-    {
       "club": "CougarUtd",
       "coach": "Rosental",
       "draws": 1,
-      "form": "LDLWW",
+      "form": "DLWWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -534,22 +567,33 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407991",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09C-Hirsh",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": 22,
-      "goals_against": 20,
-      "goals_for": 42,
+      "goal_diff": 24,
+      "goals_against": 23,
+      "goals_for": 47,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "CougarUtd-B09C-Rosental",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "CougarSC",
       "coach": "James",
       "draws": 3,
-      "form": "LDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-04-11",
@@ -638,230 +682,33 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407994",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09C-Mohr",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "NMilford-Williams7v7"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 16,
-      "goals_for": 26,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 6,
+      "goals_against": 21,
+      "goals_for": 27,
+      "losses": 3,
+      "played": 9,
       "points": 12,
       "team_raw": "CougarSC-B09C-James",
       "wins": 3
     },
     {
-      "club": "Hotspur",
-      "coach": "Anari",
-      "draws": 3,
-      "form": "WLWDL",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "407114",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B09C-Dahan",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "407118",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B09C-Gomez",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "BELLE-BellePkSm"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407890",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09C-James",
-          "result": "D",
-          "time": "10:30 AM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407963",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B09C-Mohr",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407966",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B09C-Kapur",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407973",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B09C-Brufau",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-Lincoln-Lrg"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407977",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B09C-Hirsh",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407985",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B09C-Goers",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 32,
-      "goals_for": 30,
-      "losses": 3,
-      "played": 8,
-      "points": 9,
-      "team_raw": "Hotspur-B09C-Anari",
-      "wins": 2
-    },
-    {
-      "club": "Montclair",
-      "coach": "Hirsh",
-      "draws": 1,
-      "form": "WLDWL",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "407116",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B09C-Gomez",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "MONT-BrookdaleC"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407119",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09C-James",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "COUGSC-Borden2"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407123",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B09C-Mohr",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407964",
-          "goals_against": 7,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B09C-Kapur",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407965",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B09C-Brufau",
-          "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407977",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B09C-Anari",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407983",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B09C-Goers",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407987",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09C-Mun",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NY-WC-Field3"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 33,
-      "goals_for": 20,
-      "losses": 5,
-      "played": 8,
-      "points": 7,
-      "team_raw": "Montclair-B09C-Hirsh",
-      "wins": 2
-    },
-    {
       "club": "HobUtd",
       "coach": "Kapur",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -950,22 +797,263 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407992",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09C-Gomez",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 48,
-      "goals_for": 21,
+      "goal_diff": -26,
+      "goals_against": 51,
+      "goals_for": 25,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 9,
       "team_raw": "HobUtd-B09C-Kapur",
+      "wins": 3
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Anari",
+      "draws": 3,
+      "form": "LWDLL",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "407114",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B09C-Dahan",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "407118",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09C-Gomez",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407890",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09C-James",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407963",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09C-Mohr",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407966",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09C-Kapur",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407973",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09C-Brufau",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407977",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09C-Hirsh",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407985",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09C-Goers",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407993",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09C-Mun",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 38,
+      "goals_for": 31,
+      "losses": 4,
+      "played": 9,
+      "points": 9,
+      "team_raw": "Hotspur-B09C-Anari",
+      "wins": 2
+    },
+    {
+      "club": "Montclair",
+      "coach": "Hirsh",
+      "draws": 1,
+      "form": "LDWLL",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "407116",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09C-Gomez",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407119",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09C-James",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "COUGSC-Borden2"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407123",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09C-Mohr",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407964",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09C-Kapur",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407965",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09C-Brufau",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407977",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B09C-Anari",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407983",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09C-Goers",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407987",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09C-Mun",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407991",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B09C-Rosental",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        }
+      ],
+      "goal_diff": -15,
+      "goals_against": 38,
+      "goals_for": 23,
+      "losses": 6,
+      "played": 9,
+      "points": 7,
+      "team_raw": "Montclair-B09C-Hirsh",
       "wins": 2
     },
     {
       "club": "Belleville",
       "coach": "Gomez",
       "draws": 1,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -1054,13 +1142,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407992",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09C-Kapur",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 34,
-      "goals_for": 19,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -16,
+      "goals_against": 38,
+      "goals_for": 22,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Belleville-B09C-Gomez",
       "wins": 1
@@ -1158,13 +1257,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407990",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09C-Brufau",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "WORANGE-LibertyMS2"
         }
       ],
-      "goal_diff": -54,
-      "goals_against": 63,
-      "goals_for": 9,
-      "losses": 8,
-      "played": 8,
+      "goal_diff": -60,
+      "goals_against": 71,
+      "goals_for": 11,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "Verona-B09C-Dahan",
       "wins": 0

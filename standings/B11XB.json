@@ -1,13 +1,13 @@
 {
   "division": "B11XB",
-  "scraped_at": "2026-06-07T08:43:50.856658Z",
+  "scraped_at": "2026-06-08T10:12:45.334792Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlobalJC",
       "coach": "Valles",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-05-02",
@@ -19,6 +19,17 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409716",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11XB-Ceron",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "MAHWAH-RamCollSmall3"
         }
       ],
       "goal_diff": 1,
@@ -34,7 +45,7 @@
       "club": "NoArlington",
       "coach": "Ceron",
       "draws": 0,
-      "form": "W",
+      "form": "WL",
       "games": [
         {
           "date": "2026-05-15",
@@ -46,6 +57,17 @@
           "result": "W",
           "time": "08:15 PM",
           "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409716",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B11XB-Valles",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "MAHWAH-RamCollSmall3"
         }
       ],
       "goal_diff": 1,

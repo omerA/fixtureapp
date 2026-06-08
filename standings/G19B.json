@@ -1,6 +1,6 @@
 {
   "division": "G19B",
-  "scraped_at": "2026-06-07T08:49:38.037248Z",
+  "scraped_at": "2026-06-08T10:18:42.638970Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,7 +111,7 @@
       "club": "Harrison",
       "coach": "Guevara",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -189,22 +189,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409177",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G19B-Buttacavoli",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 6,
-      "goals_for": 27,
+      "goal_diff": 27,
+      "goals_against": 7,
+      "goals_for": 34,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "Harrison-G19B-Guevara",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-05-08",
@@ -282,22 +293,126 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409177",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-G19B-Guevara",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 8,
-      "goals_for": 32,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 18,
+      "goals_against": 15,
+      "goals_for": 33,
+      "losses": 2,
+      "played": 8,
       "points": 18,
       "team_raw": "Paramus-G19B-Buttacavoli",
       "wins": 6
     },
     {
+      "club": "Maroons",
+      "coach": "Breheny",
+      "draws": 0,
+      "form": "WLWLW",
+      "games": [
+        {
+          "date": "2026-04-11",
+          "game_number": "409147",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G19B-Herrera",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "MAR-HawesSchool"
+        },
+        {
+          "date": "2026-06-02",
+          "game_number": "409156",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G19B-Cala",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409157",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-G19B-Guevara",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "409162",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G19B-Murgo",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409171",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G19B-Buttacavoli",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409175",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G19B-Peralta",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409178",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G19B-McNamara",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "ARS-PHHS1"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 11,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 7,
+      "points": 12,
+      "team_raw": "Maroons-G19B-Breheny",
+      "wins": 4
+    },
+    {
       "club": "Arsenal",
       "coach": "McNamara",
       "draws": 1,
-      "form": "DLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-05-12",
@@ -375,13 +490,24 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409178",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G19B-Breheny",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "ARS-PHHS1"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 19,
-      "goals_for": 18,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -3,
+      "goals_against": 24,
+      "goals_for": 21,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Arsenal-G19B-McNamara",
       "wins": 3
@@ -390,7 +516,7 @@
       "club": "WoodRidge",
       "coach": "Cala",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-05-12",
@@ -468,104 +594,33 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "WDRDG-AthleticComp"
-        }
-      ],
-      "goal_diff": -14,
-      "goals_against": 20,
-      "goals_for": 6,
-      "losses": 4,
-      "played": 7,
-      "points": 9,
-      "team_raw": "WoodRidge-G19B-Cala",
-      "wins": 3
-    },
-    {
-      "club": "Maroons",
-      "coach": "Breheny",
-      "draws": 0,
-      "form": "LWLWL",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "409147",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G19B-Herrera",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "MAR-HawesSchool"
         },
         {
-          "date": "2026-06-02",
-          "game_number": "409156",
+          "date": "2026-06-07",
+          "game_number": "409179",
           "goals_against": 1,
           "goals_for": 0,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G19B-Cala",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "409157",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-G19B-Guevara",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "409162",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G19B-Murgo",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "MONT-BrookdaleStad"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409171",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G19B-Buttacavoli",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "HAWTHORNE-Veterans"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "409175",
-          "goals_against": 0,
-          "goals_for": 1,
           "opponent_club": "NoBergen",
           "opponent_raw": "NoBergen-G19B-Peralta",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "MAR-RHS Stadium"
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 8,
-      "goals_for": 13,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -15,
+      "goals_against": 21,
+      "goals_for": 6,
+      "losses": 5,
+      "played": 8,
       "points": 9,
-      "team_raw": "Maroons-G19B-Breheny",
+      "team_raw": "WoodRidge-G19B-Cala",
       "wins": 3
     },
     {
       "club": "Lakeland",
       "coach": "Zahr",
       "draws": 1,
-      "form": "DWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-04-12",
@@ -632,22 +687,33 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409180",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G19B-Murgo",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "LKLND-LakelandHS"
         }
       ],
-      "goal_diff": -7,
+      "goal_diff": -1,
       "goals_against": 17,
-      "goals_for": 10,
+      "goals_for": 16,
       "losses": 4,
-      "played": 6,
-      "points": 4,
+      "played": 7,
+      "points": 7,
       "team_raw": "Lakeland-G19B-Zahr",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "NoBergen",
       "coach": "Peralta",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -725,16 +791,27 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409179",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G19B-Cala",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": -17,
+      "goal_diff": -16,
       "goals_against": 22,
-      "goals_for": 5,
+      "goals_for": 6,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 6,
       "team_raw": "NoBergen-G19B-Peralta",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Montclair",
@@ -818,13 +895,24 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "MONT-MSU-Sprague"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409180",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G19B-Zahr",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "LKLND-LakelandHS"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 30,
+      "goal_diff": -35,
+      "goals_against": 36,
       "goals_for": 1,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Montclair-G19B-Murgo",
       "wins": 0

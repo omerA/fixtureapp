@@ -1,6 +1,6 @@
 {
   "division": "B12H",
-  "scraped_at": "2026-06-07T08:44:35.050920Z",
+  "scraped_at": "2026-06-08T10:13:31.197085Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -215,7 +215,7 @@
       "club": "Southside",
       "coach": "Chowdhury",
       "draws": 1,
-      "form": "WLDLW",
+      "form": "LDLWW",
       "games": [
         {
           "date": "2026-04-25",
@@ -304,22 +304,33 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407592",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12H-Clinch",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "Haledon-MnchstHS-Sml"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 26,
-      "goals_for": 21,
+      "goal_diff": -3,
+      "goals_against": 28,
+      "goals_for": 25,
       "losses": 4,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 13,
       "team_raw": "Southside-B12H-Chowdhury",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Spartan",
       "coach": "Bosco",
       "draws": 2,
-      "form": "WDLLD",
+      "form": "DLLDW",
       "games": [
         {
           "date": "2026-04-25",
@@ -397,22 +408,33 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407591",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B12H-Gjoca",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 23,
-      "goals_for": 14,
+      "goal_diff": -8,
+      "goals_against": 24,
+      "goals_for": 16,
       "losses": 3,
-      "played": 7,
-      "points": 8,
+      "played": 8,
+      "points": 11,
       "team_raw": "Spartan-B12H-Bosco",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RiverDell",
       "coach": "Clinch",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-18",
@@ -501,13 +523,24 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407592",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B12H-Chowdhury",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "Haledon-MnchstHS-Sml"
         }
       ],
-      "goal_diff": -32,
-      "goals_against": 44,
-      "goals_for": 12,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -34,
+      "goals_against": 48,
+      "goals_for": 14,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "RiverDell-B12H-Clinch",
       "wins": 1
@@ -516,7 +549,7 @@
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -594,13 +627,24 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407591",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12H-Bosco",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 34,
-      "goals_for": 13,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -22,
+      "goals_against": 36,
+      "goals_for": 14,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Torpedoes-B12H-Gjoca",
       "wins": 1

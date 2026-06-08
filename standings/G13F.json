@@ -1,13 +1,13 @@
 {
   "division": "G13F",
-  "scraped_at": "2026-06-07T08:49:02.664043Z",
+  "scraped_at": "2026-06-08T10:18:06.496259Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WOrange",
       "coach": "Mault",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-05-10",
@@ -41,6 +41,17 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "BELLE-BelleHS-Full"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405753",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G13F-Spear",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
         },
         {
           "date": "2026-03-29",
@@ -98,217 +109,20 @@
           "venue_code": "WORANGE-Lincoln-Lrg"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 12,
+      "goal_diff": 23,
+      "goals_against": 14,
       "goals_for": 37,
-      "losses": 1,
-      "played": 8,
+      "losses": 2,
+      "played": 9,
       "points": 21,
       "team_raw": "WOrange-G13F-Mault",
       "wins": 7
     },
     {
-      "club": "Nutley",
-      "coach": "Frey",
-      "draws": 1,
-      "form": "LWWWD",
-      "games": [
-        {
-          "date": "2026-05-10",
-          "game_number": "405741",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G13F-hamilton",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405742",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G13F-Spear",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "COUGSC-OrangePark"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405749",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13F-Martelli",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "409059",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-G13F-DAngelo",
-          "result": "D",
-          "time": "02:45 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "409062",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G13F-Daddis",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "409068",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G13F-Casella",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "409070",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G13F-Mault",
-          "result": "L",
-          "time": "07:45 PM",
-          "venue_code": "WORANGE-Lincoln-Lrg"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 11,
-      "goals_for": 20,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
-      "team_raw": "Nutley-G13F-Frey",
-      "wins": 5
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "Casella",
-      "draws": 1,
-      "form": "LDWWL",
-      "games": [
-        {
-          "date": "2026-05-03",
-          "game_number": "405737",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G13F-hamilton",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "WEssex-Veterans"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405740",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G13F-Spear",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "COUGUTD-HolyAngelFld"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405744",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13F-Martelli",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "COUGUTD-HolyAngelFld"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405746",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-G13F-DAngelo",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "SaddleBR-VeteransFld"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "409054",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-G13F-DAngelo",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "COUGUTD-HolyAngelFld"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "409057",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G13F-Daddis",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "COUGUTD-HolyAngelFld"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "409063",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G13F-Mault",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "WORANGE-Lincoln-Lrg"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "409068",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G13F-Frey",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 24,
-      "goals_for": 29,
-      "losses": 3,
-      "played": 8,
-      "points": 13,
-      "team_raw": "CougarUtd-G13F-Casella",
-      "wins": 4
-    },
-    {
       "club": "SaddleBR",
       "coach": "DAngelo",
       "draws": 1,
-      "form": "LWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-05-10",
@@ -342,6 +156,17 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405752",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G13F-Frey",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
         },
         {
           "date": "2026-03-29",
@@ -399,20 +224,239 @@
           "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": 14,
+      "goal_diff": 18,
       "goals_against": 16,
-      "goals_for": 30,
+      "goals_for": 34,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "SaddleBR-G13F-DAngelo",
-      "wins": 4
+      "wins": 5
+    },
+    {
+      "club": "Nutley",
+      "coach": "Frey",
+      "draws": 1,
+      "form": "WWWDL",
+      "games": [
+        {
+          "date": "2026-05-10",
+          "game_number": "405741",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G13F-hamilton",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405742",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G13F-Spear",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405749",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13F-Martelli",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405752",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G13F-DAngelo",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409059",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G13F-DAngelo",
+          "result": "D",
+          "time": "02:45 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "409062",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G13F-Daddis",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409068",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G13F-Casella",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "409070",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G13F-Mault",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 15,
+      "goals_for": 20,
+      "losses": 2,
+      "played": 8,
+      "points": 16,
+      "team_raw": "Nutley-G13F-Frey",
+      "wins": 5
+    },
+    {
+      "club": "CougarUtd",
+      "coach": "Casella",
+      "draws": 1,
+      "form": "DWWLW",
+      "games": [
+        {
+          "date": "2026-05-03",
+          "game_number": "405737",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G13F-hamilton",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "WEssex-Veterans"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405740",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G13F-Spear",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405744",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13F-Martelli",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405746",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G13F-DAngelo",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405751",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G13F-Daddis",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "BELLE-BelleHS-Full"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "409054",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G13F-DAngelo",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "409057",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G13F-Daddis",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGUTD-HolyAngelFld"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "409063",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G13F-Mault",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409068",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G13F-Frey",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 25,
+      "goals_for": 35,
+      "losses": 3,
+      "played": 9,
+      "points": 16,
+      "team_raw": "CougarUtd-G13F-Casella",
+      "wins": 5
     },
     {
       "club": "Vikings",
       "coach": "Martelli",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-05-10",
@@ -446,6 +490,17 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405750",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G13F-hamilton",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "WEssex-Veterans"
         },
         {
           "date": "2026-04-12",
@@ -492,20 +547,20 @@
           "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 15,
-      "goals_for": 17,
+      "goal_diff": 4,
+      "goals_against": 17,
+      "goals_for": 21,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Vikings-G13F-Martelli",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "CougarSC",
       "coach": "Spear",
       "draws": 1,
-      "form": "WDLLW",
+      "form": "DLLWW",
       "games": [
         {
           "date": "2026-05-10",
@@ -539,6 +594,17 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405753",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G13F-Mault",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
         },
         {
           "date": "2026-04-12",
@@ -585,20 +651,20 @@
           "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": -3,
+      "goal_diff": -1,
       "goals_against": 21,
-      "goals_for": 18,
+      "goals_for": 20,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 10,
       "team_raw": "CougarSC-G13F-Spear",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Belleville",
       "coach": "Daddis",
       "draws": 1,
-      "form": "WDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-05-10",
@@ -629,6 +695,17 @@
           "goals_for": 0,
           "opponent_club": "WOrange",
           "opponent_raw": "WOrange-G13F-Mault",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "BELLE-BelleHS-Full"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405751",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G13F-Casella",
           "result": "L",
           "time": "03:15 PM",
           "venue_code": "BELLE-BelleHS-Full"
@@ -689,11 +766,11 @@
           "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 29,
-      "goals_for": 4,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -30,
+      "goals_against": 35,
+      "goals_for": 5,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Belleville-G13F-Daddis",
       "wins": 1
@@ -702,7 +779,7 @@
       "club": "WestEssex",
       "coach": "hamilton",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-05-03",
@@ -749,6 +826,17 @@
           "venue_code": "COUGSC-OrangePark"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "405750",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13F-Martelli",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "WEssex-Veterans"
+        },
+        {
           "date": "2026-04-12",
           "game_number": "409058",
           "goals_against": 4,
@@ -782,11 +870,11 @@
           "venue_code": "WEssex-Veterans"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 34,
-      "goals_for": 7,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -29,
+      "goals_against": 38,
+      "goals_for": 9,
+      "losses": 7,
+      "played": 8,
       "points": 1,
       "team_raw": "WestEssex-G13F-hamilton",
       "wins": 0

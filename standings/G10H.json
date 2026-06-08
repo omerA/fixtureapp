@@ -1,6 +1,6 @@
 {
   "division": "G10H",
-  "scraped_at": "2026-06-07T08:47:37.081442Z",
+  "scraped_at": "2026-06-08T10:16:36.036974Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -41,6 +41,17 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405374",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-G10H-Sehirli",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "NY-NR-NRSA-5"
         },
         {
           "date": "2026-05-03",
@@ -98,20 +109,20 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 33,
-      "goals_against": 9,
-      "goals_for": 42,
+      "goal_diff": 36,
+      "goals_against": 12,
+      "goals_for": 48,
       "losses": 0,
-      "played": 8,
-      "points": 24,
+      "played": 9,
+      "points": 27,
       "team_raw": "NoRockland-G10H-Mavrorasakis",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "Secaucus",
       "coach": "Sehirli",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -145,6 +156,17 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405374",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G10H-Mavrorasakis",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "NY-NR-NRSA-5"
         },
         {
           "date": "2026-05-03",
@@ -191,14 +213,118 @@
           "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 9,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 5,
+      "goals_against": 15,
+      "goals_for": 20,
+      "losses": 2,
+      "played": 8,
       "points": 18,
       "team_raw": "Secaucus-G10H-Sehirli",
       "wins": 6
+    },
+    {
+      "club": "NoValley",
+      "coach": "Beezer",
+      "draws": 0,
+      "form": "WWWLW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "405362",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G10H-Mavrorasakis",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405371",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G10H-Tome",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-20",
+          "game_number": "405377",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G10H-Eliasaf",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405379",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-G10H-Sehirli",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405385",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10H-Kelly",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405386",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G10H-Hordern",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405393",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G10H-Mavrorasakis",
+          "result": "L",
+          "time": "02:45 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405396",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G10H-Carrion",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "NoVAL-Northvale"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 17,
+      "goals_for": 28,
+      "losses": 3,
+      "played": 8,
+      "points": 15,
+      "team_raw": "NoValley-G10H-Beezer",
+      "wins": 5
     },
     {
       "club": "GlenRock",
@@ -313,99 +439,6 @@
       "played": 9,
       "points": 13,
       "team_raw": "GlenRock-G10H-Kelly",
-      "wins": 4
-    },
-    {
-      "club": "NoValley",
-      "coach": "Beezer",
-      "draws": 0,
-      "form": "LWWWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "405362",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-G10H-Mavrorasakis",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405371",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G10H-Tome",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-20",
-          "game_number": "405377",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G10H-Eliasaf",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405379",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-G10H-Sehirli",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "SECAU-CountyShetikFl"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405385",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G10H-Kelly",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405386",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-G10H-Hordern",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "DUM-GinasField"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405393",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-G10H-Mavrorasakis",
-          "result": "L",
-          "time": "02:45 PM",
-          "venue_code": "NY-NR-NRSA-5"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 17,
-      "goals_for": 27,
-      "losses": 3,
-      "played": 7,
-      "points": 12,
-      "team_raw": "NoValley-G10H-Beezer",
       "wins": 4
     },
     {
@@ -780,13 +813,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "AYSO-CommunityField2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405396",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G10H-Beezer",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 6,
+      "goal_diff": -7,
+      "goals_against": 7,
       "goals_for": 0,
-      "losses": 6,
-      "played": 6,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "AYSOBergen-G10H-Carrion",
       "wins": 0

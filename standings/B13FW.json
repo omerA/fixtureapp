@@ -1,13 +1,13 @@
 {
   "division": "B13FW",
-  "scraped_at": "2026-06-07T08:45:07.278052Z",
+  "scraped_at": "2026-06-08T10:14:03.949079Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Hackensack",
       "coach": "Holder",
       "draws": 2,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,16 +96,27 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406300",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13FW-Severs",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 17,
       "goals_against": 9,
-      "goals_for": 24,
+      "goals_for": 26,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 20,
       "team_raw": "Hackensack-B13FW-Holder",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Clarkstown",
@@ -330,7 +341,7 @@
       "club": "Dragons",
       "coach": "Severs",
       "draws": 1,
-      "form": "WLDWL",
+      "form": "LDWLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -421,6 +432,17 @@
           "venue_code": "NoVAL-OTHS UpperTurf"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "406300",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B13FW-Holder",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "406305",
           "goals_against": 4,
@@ -432,11 +454,11 @@
           "venue_code": "NY-CLARK-ZukorMain"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 31,
+      "goal_diff": -9,
+      "goals_against": 33,
       "goals_for": 24,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "points": 13,
       "team_raw": "Dragons-B13FW-Severs",
       "wins": 4
@@ -445,7 +467,7 @@
       "club": "NoValley",
       "coach": "Toomin",
       "draws": 1,
-      "form": "LLDLW",
+      "form": "LDLWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -534,13 +556,24 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "NoVAL-OTHS UpperTurf"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406302",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13FW-Awes",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 30,
+      "goal_diff": -14,
+      "goals_against": 34,
       "goals_for": 20,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "NoValley-B13FW-Toomin",
       "wins": 2
@@ -549,7 +582,7 @@
       "club": "Vikings",
       "coach": "Awes",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -638,16 +671,27 @@
           "result": "L",
           "time": "07:30 PM",
           "venue_code": "NY-CLARK-ZukorMain"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406302",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13FW-Toomin",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": -21,
+      "goal_diff": -17,
       "goals_against": 37,
-      "goals_for": 16,
+      "goals_for": 20,
       "losses": 7,
-      "played": 8,
-      "points": 3,
+      "played": 9,
+      "points": 6,
       "team_raw": "Vikings-B13FW-Awes",
-      "wins": 1
+      "wins": 2
     }
   ]
 }

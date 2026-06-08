@@ -1,13 +1,13 @@
 {
   "division": "B08C7",
-  "scraped_at": "2026-06-07T08:41:07.534828Z",
+  "scraped_at": "2026-06-08T10:09:41.638007Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Thistle",
       "coach": "Roemer",
       "draws": 1,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,22 +96,33 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "SS-FaberLowSouth"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408116",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B08C7-Arbaiza",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "THIS-HarveyBackSS2"
         }
       ],
-      "goal_diff": 27,
+      "goal_diff": 33,
       "goals_against": 16,
-      "goals_for": 43,
+      "goals_for": 49,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Thistle-B08C7-Roemer",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Vikings",
       "coach": "An",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -189,22 +200,33 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408115",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B08C7-Castro",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-Wakelee3"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 16,
-      "goals_for": 45,
+      "goal_diff": 32,
+      "goals_against": 18,
+      "goals_for": 50,
       "losses": 1,
-      "played": 7,
-      "points": 17,
+      "played": 8,
+      "points": 20,
       "team_raw": "Vikings-B08C7-An",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "GlenRock",
       "coach": "Castro",
       "draws": 2,
-      "form": "WWDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-05-30",
@@ -282,126 +304,33 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "SS-FaberLowSouth"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408115",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C7-An",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "VIK-Wakelee3"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 14,
-      "goals_for": 29,
-      "losses": 0,
-      "played": 7,
+      "goal_diff": 12,
+      "goals_against": 19,
+      "goals_for": 31,
+      "losses": 1,
+      "played": 8,
       "points": 17,
       "team_raw": "GlenRock-B08C7-Castro",
       "wins": 5
     },
     {
-      "club": "Maywood",
-      "coach": "Arbaiza",
-      "draws": 0,
-      "form": "LLLWW",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "407048",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B08C7-Castro",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-29",
-          "game_number": "407050",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B08C7-An",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "408098",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B08C7-Belgiovine",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408100",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B08C7-Roemer",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "THIS-Gunnell8"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "408104",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B08C7-Duka",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "TORP-Pulis1"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408105",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B08C7-Castro",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408108",
-          "goals_against": 9,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B08C7-An",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "VIK-Wakelee3"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408112",
-          "goals_against": 3,
-          "goals_for": 6,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B08C7-Belgiovine",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MAYWOOD-MemorialPkSm"
-        }
-      ],
-      "goal_diff": -33,
-      "goals_against": 46,
-      "goals_for": 13,
-      "losses": 6,
-      "played": 8,
-      "points": 6,
-      "team_raw": "Maywood-B08C7-Arbaiza",
-      "wins": 2
-    },
-    {
       "club": "Torpedoes",
       "coach": "Duka",
       "draws": 1,
-      "form": "LDWLL",
+      "form": "DWLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -490,16 +419,142 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408114",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B08C7-Belgiovine",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 38,
-      "goals_for": 25,
+      "goal_diff": -12,
+      "goals_against": 42,
+      "goals_for": 30,
       "losses": 6,
-      "played": 8,
-      "points": 4,
+      "played": 9,
+      "points": 7,
       "team_raw": "Torpedoes-B08C7-Duka",
-      "wins": 1
+      "wins": 2
+    },
+    {
+      "club": "Maywood",
+      "coach": "Arbaiza",
+      "draws": 0,
+      "form": "LLWWL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "407048",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B08C7-Castro",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "407050",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C7-An",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "408098",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B08C7-Belgiovine",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408100",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B08C7-Roemer",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "THIS-Gunnell8"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "408104",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08C7-Duka",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408105",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B08C7-Castro",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408108",
+          "goals_against": 9,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C7-An",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "VIK-Wakelee3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408112",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B08C7-Belgiovine",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkSm"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408116",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B08C7-Roemer",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "THIS-HarveyBackSS2"
+        }
+      ],
+      "goal_diff": -39,
+      "goals_against": 52,
+      "goals_for": 13,
+      "losses": 7,
+      "played": 9,
+      "points": 6,
+      "team_raw": "Maywood-B08C7-Arbaiza",
+      "wins": 2
     },
     {
       "club": "SaddleBR",
@@ -594,13 +649,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "MAYWOOD-MemorialPkSm"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408114",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08C7-Duka",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 50,
-      "goals_for": 25,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -26,
+      "goals_against": 55,
+      "goals_for": 29,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "SaddleBR-B08C7-Belgiovine",
       "wins": 1

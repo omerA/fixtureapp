@@ -1,6 +1,6 @@
 {
   "division": "B12GB",
-  "scraped_at": "2026-06-07T08:44:28.262464Z",
+  "scraped_at": "2026-06-08T10:13:24.458640Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -214,8 +214,8 @@
     {
       "club": "Verona",
       "coach": "Heimerle",
-      "draws": 1,
-      "form": "DWLWW",
+      "draws": 2,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -293,22 +293,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406279",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12GB-Spires",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Freedom1"
         }
       ],
       "goal_diff": 3,
       "goals_against": 24,
       "goals_for": 27,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 14,
       "team_raw": "Verona-B12GB-Heimerle",
       "wins": 4
     },
     {
       "club": "Montclair",
       "coach": "Spires",
-      "draws": 0,
-      "form": "LWLWL",
+      "draws": 1,
+      "form": "WLWLD",
       "games": [
         {
           "date": "2026-04-18",
@@ -397,14 +408,25 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406279",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12GB-Heimerle",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Freedom1"
         }
       ],
       "goal_diff": 4,
       "goals_against": 20,
       "goals_for": 24,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 10,
       "team_raw": "Montclair-B12GB-Spires",
       "wins": 3
     },
@@ -412,7 +434,7 @@
       "club": "Nutley",
       "coach": "Regan",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -490,13 +512,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406278",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B12GB-Guerra",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 33,
-      "goals_for": 17,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -17,
+      "goals_against": 36,
+      "goals_for": 19,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Nutley-B12GB-Regan",
       "wins": 2
@@ -505,7 +538,7 @@
       "club": "HobUtd",
       "coach": "Guerra",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -594,16 +627,27 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "WORANGE-LibertyMS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406278",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12GB-Regan",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -37,
-      "goals_against": 53,
-      "goals_for": 16,
+      "goal_diff": -36,
+      "goals_against": 55,
+      "goals_for": 19,
       "losses": 8,
-      "played": 8,
-      "points": 0,
+      "played": 9,
+      "points": 3,
       "team_raw": "HobUtd-B12GB-Guerra",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

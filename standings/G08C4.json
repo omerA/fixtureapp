@@ -1,13 +1,13 @@
 {
   "division": "G08C4",
-  "scraped_at": "2026-06-07T08:46:39.877273Z",
+  "scraped_at": "2026-06-08T10:15:35.492683Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Gendusa",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-05-07",
@@ -96,16 +96,27 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405827",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G08C4-Contreras",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WDRDG-Athletic-W4v4B"
         }
       ],
-      "goal_diff": 30,
-      "goals_against": 17,
-      "goals_for": 47,
+      "goal_diff": 37,
+      "goals_against": 18,
+      "goals_for": 55,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "WoodRidge-G08C4-Gendusa",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Warriors",
@@ -204,7 +215,7 @@
       "club": "Rutherford",
       "coach": "Wirtshafter",
       "draws": 1,
-      "form": "WDLLW",
+      "form": "DLLWW",
       "games": [
         {
           "date": "2026-05-07",
@@ -282,22 +293,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "RUTH-Tamblyn-4v4"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405828",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G08C4-Contreras",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AMER-Bogert"
         }
       ],
-      "goal_diff": 16,
+      "goal_diff": 21,
       "goals_against": 23,
-      "goals_for": 39,
+      "goals_for": 44,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "Rutherford-G08C4-Wirtshafter",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Americans",
       "coach": "Contreras",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-04-25",
@@ -331,13 +353,24 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "WDRDG-Athletic-W4v4A"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405827",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G08C4-Gendusa",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WDRDG-Athletic-W4v4B"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 17,
-      "goals_for": 17,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -7,
+      "goals_against": 25,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Americans-G08C4-Contreras",
       "wins": 1
@@ -346,7 +379,7 @@
       "club": "Maroons",
       "coach": "Forsythe",
       "draws": 1,
-      "form": "WLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-05-16",
@@ -402,13 +435,24 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405829",
+          "goals_against": 7,
+          "goals_for": 6,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G08C4-Guzman",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WDRDG-Athletic-W4v4B"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 21,
-      "goals_for": 18,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -4,
+      "goals_against": 28,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 6,
       "points": 4,
       "team_raw": "Maroons-G08C4-Forsythe",
       "wins": 1
@@ -417,7 +461,7 @@
       "club": "WoodRidge",
       "coach": "Guzman",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-04-02",
@@ -506,16 +550,27 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "RUTH-Tamblyn-4v4"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405829",
+          "goals_against": 6,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08C4-Forsythe",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WDRDG-Athletic-W4v4B"
         }
       ],
-      "goal_diff": -42,
-      "goals_against": 55,
-      "goals_for": 13,
+      "goal_diff": -41,
+      "goals_against": 61,
+      "goals_for": 20,
       "losses": 8,
-      "played": 8,
-      "points": 0,
+      "played": 9,
+      "points": 3,
       "team_raw": "WoodRidge-G08C4-Guzman",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

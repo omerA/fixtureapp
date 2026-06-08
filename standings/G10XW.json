@@ -1,40 +1,13 @@
 {
   "division": "G10XW",
-  "scraped_at": "2026-06-07T08:47:42.983234Z",
+  "scraped_at": "2026-06-08T10:16:41.861247Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Rutherford",
-      "coach": "Gino",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "409452",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G10XW-Mezzina",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "UNIONCITY-Marti"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 0,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Rutherford-G10XW-Gino",
-      "wins": 1
-    },
     {
       "club": "Thistle",
       "coach": "Millar",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-05-09",
@@ -46,15 +19,64 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409730",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G10XW-Gino",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 2,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "Thistle-G10XW-Millar",
+      "wins": 2
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Gino",
+      "draws": 0,
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "409452",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G10XW-Mezzina",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409730",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G10XW-Millar",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
         }
       ],
       "goal_diff": 2,
-      "goals_against": 1,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
+      "goals_against": 2,
+      "goals_for": 4,
+      "losses": 1,
+      "played": 2,
       "points": 3,
-      "team_raw": "Thistle-G10XW-Millar",
+      "team_raw": "Rutherford-G10XW-Gino",
       "wins": 1
     },
     {

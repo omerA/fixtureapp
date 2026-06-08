@@ -1,6 +1,6 @@
 {
   "division": "B11G",
-  "scraped_at": "2026-06-07T08:43:37.793241Z",
+  "scraped_at": "2026-06-08T10:12:31.539650Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -85,22 +85,33 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407317",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B11G-Goodman",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WYNE-JFK-Small"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 14,
-      "goals_for": 39,
+      "goal_diff": 27,
+      "goals_against": 16,
+      "goals_for": 43,
       "losses": 0,
-      "played": 7,
-      "points": 21,
+      "played": 8,
+      "points": 24,
       "team_raw": "NASA-B11G-Callegari",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "CougarUtd",
       "coach": "Cohen",
       "draws": 1,
-      "form": "WLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-04-25",
@@ -189,22 +200,126 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407319",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-B11G-Jimenez",
+          "result": "W",
+          "time": "12:00 AM",
+          "venue_code": "TEAM DROPPED"
         }
       ],
-      "goal_diff": 1,
+      "goal_diff": 4,
       "goals_against": 26,
-      "goals_for": 27,
+      "goals_for": 30,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "CougarUtd-B11G-Cohen",
+      "wins": 5
+    },
+    {
+      "club": "ST23",
+      "coach": "Pedro",
+      "draws": 1,
+      "form": "WDWLW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "407295",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B11G-Goodman",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "JC-CochraneCaven-2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407300",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B11G-Callegari",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WYNE-PioneerAcadSchl"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407304",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11G-Smalley",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "407306",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11G-Cohen",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407309",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B11G-Goodman",
+          "result": "D",
+          "time": "03:45 PM",
+          "venue_code": "JC-CochraneCaven-2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407314",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B11G-Callegari",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407318",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11G-Smalley",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "TEN-AlpineField"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 16,
+      "goals_for": 35,
+      "losses": 2,
+      "played": 7,
+      "points": 13,
+      "team_raw": "ST23-B11G-Pedro",
       "wins": 4
     },
     {
       "club": "JerseyCity",
       "coach": "Goodman",
       "draws": 2,
-      "form": "LWDLW",
+      "form": "WDLWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -293,83 +408,12 @@
           "result": "W",
           "time": "12:00 AM",
           "venue_code": "TEAM DROPPED"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 20,
-      "goals_for": 18,
-      "losses": 3,
-      "played": 8,
-      "points": 11,
-      "team_raw": "JerseyCity-B11G-Goodman",
-      "wins": 3
-    },
-    {
-      "club": "ST23",
-      "coach": "Pedro",
-      "draws": 1,
-      "form": "LWDWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "407295",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B11G-Goodman",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "JC-CochraneCaven-2"
         },
         {
-          "date": "2026-04-19",
-          "game_number": "407300",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B11G-Callegari",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "WYNE-PioneerAcadSchl"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407304",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11G-Smalley",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "407306",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B11G-Cohen",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "COUGUTD-Front"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407309",
+          "date": "2026-06-07",
+          "game_number": "407317",
           "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B11G-Goodman",
-          "result": "D",
-          "time": "03:45 PM",
-          "venue_code": "JC-CochraneCaven-2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407314",
-          "goals_against": 5,
-          "goals_for": 4,
+          "goals_for": 2,
           "opponent_club": "NASA",
           "opponent_raw": "NASA-B11G-Callegari",
           "result": "L",
@@ -377,20 +421,20 @@
           "venue_code": "WYNE-JFK-Small"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 15,
-      "goals_for": 27,
-      "losses": 2,
-      "played": 6,
-      "points": 10,
-      "team_raw": "ST23-B11G-Pedro",
+      "goal_diff": -4,
+      "goals_against": 24,
+      "goals_for": 20,
+      "losses": 4,
+      "played": 9,
+      "points": 11,
+      "team_raw": "JerseyCity-B11G-Goodman",
       "wins": 3
     },
     {
       "club": "AYSOBergen",
       "coach": "Jimenez",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-04-19",
@@ -424,13 +468,24 @@
           "result": "L",
           "time": "12:00 AM",
           "venue_code": "TEAM DROPPED"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407319",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11G-Cohen",
+          "result": "L",
+          "time": "12:00 AM",
+          "venue_code": "TEAM DROPPED"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 5,
+      "goal_diff": -8,
+      "goals_against": 8,
       "goals_for": 0,
-      "losses": 3,
-      "played": 3,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "AYSOBergen-B11G-Jimenez",
       "wins": 0
@@ -506,13 +561,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407318",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B11G-Pedro",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "TEN-AlpineField"
         }
       ],
-      "goal_diff": -31,
-      "goals_against": 36,
-      "goals_for": 5,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -38,
+      "goals_against": 44,
+      "goals_for": 6,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Tenafly-B11G-Smalley",
       "wins": 0

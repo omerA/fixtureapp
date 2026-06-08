@@ -1,13 +1,13 @@
 {
   "division": "B09B",
-  "scraped_at": "2026-06-07T08:41:30.430406Z",
+  "scraped_at": "2026-06-08T10:10:17.117786Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Nutley",
       "coach": "Crespo",
       "draws": 1,
-      "form": "DWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -98,6 +98,17 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "407106",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09B-Snider",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
           "date": "2026-06-06",
           "game_number": "407109",
           "goals_against": 2,
@@ -109,20 +120,20 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": 12,
+      "goal_diff": 17,
       "goals_against": 20,
-      "goals_for": 32,
+      "goals_for": 37,
       "losses": 1,
-      "played": 9,
-      "points": 22,
+      "played": 10,
+      "points": 25,
       "team_raw": "Nutley-B09B-Crespo",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "NoValley",
       "coach": "Lenihan",
       "draws": 2,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-31",
@@ -211,22 +222,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407103",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09B-Callegari",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 32,
-      "goals_for": 43,
+      "goal_diff": 15,
+      "goals_against": 33,
+      "goals_for": 48,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 20,
       "team_raw": "NoValley-B09B-Lenihan",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "NASA",
       "coach": "Callegari",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDL",
       "games": [
         {
           "date": "2026-04-04",
@@ -304,13 +326,24 @@
           "result": "D",
           "time": "12:30 PM",
           "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407103",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B09B-Lenihan",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 17,
-      "goals_for": 25,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 4,
+      "goals_against": 22,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 8,
       "points": 16,
       "team_raw": "NASA-B09B-Callegari",
       "wins": 5
@@ -433,8 +466,8 @@
     {
       "club": "Vikings",
       "coach": "Lee",
-      "draws": 1,
-      "form": "WWDWL",
+      "draws": 2,
+      "form": "WDWLD",
       "games": [
         {
           "date": "2026-05-21",
@@ -523,22 +556,33 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407104",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B09B-Dominguez",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
       "goal_diff": 3,
-      "goals_against": 17,
-      "goals_for": 20,
+      "goals_against": 18,
+      "goals_for": 21,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 14,
       "team_raw": "Vikings-B09B-Lee",
       "wins": 4
     },
     {
       "club": "Clarkstown",
       "coach": "Dominguez",
-      "draws": 1,
-      "form": "WDWWL",
+      "draws": 2,
+      "form": "DWWLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -616,14 +660,25 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407104",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09B-Lee",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
       "goal_diff": 5,
-      "goals_against": 20,
-      "goals_for": 25,
+      "goals_against": 21,
+      "goals_for": 26,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 14,
       "team_raw": "Clarkstown-B09B-Dominguez",
       "wins": 4
     },
@@ -741,6 +796,110 @@
       "points": 12,
       "team_raw": "Americans-B09B-DelCorral",
       "wins": 4
+    },
+    {
+      "club": "Fairview",
+      "coach": "Ventura",
+      "draws": 2,
+      "form": "LLDDW",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "407071",
+          "goals_against": 5,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B09B-Lenihan",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407077",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B09B-Dominguez",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "LF--MerhoffSmall2"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "407079",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09B-Snider",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407087",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B09B-DelCorral",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "LF-MerhoffSmall3"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407088",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09B-Crespo",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407093",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09B-Lee",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "LF-MerhoffSmall3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407099",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09B-Callegari",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407105",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B09B-Sarr",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "LF--MerhoffSmall2"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 24,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 8,
+      "points": 8,
+      "team_raw": "Fairview-B09B-Ventura",
+      "wins": 2
     },
     {
       "club": "Harrison",
@@ -861,7 +1020,7 @@
       "club": "RiverDell",
       "coach": "Snider",
       "draws": 1,
-      "form": "LWDLL",
+      "form": "WDLLL",
       "games": [
         {
           "date": "2026-04-04",
@@ -950,109 +1109,27 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "AMER-WestMaple"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 27,
-      "goals_for": 24,
-      "losses": 5,
-      "played": 8,
-      "points": 7,
-      "team_raw": "RiverDell-B09B-Snider",
-      "wins": 2
-    },
-    {
-      "club": "Fairview",
-      "coach": "Ventura",
-      "draws": 2,
-      "form": "LLLDD",
-      "games": [
+        },
         {
-          "date": "2026-04-12",
-          "game_number": "407071",
+          "date": "2026-06-07",
+          "game_number": "407106",
           "goals_against": 5,
-          "goals_for": 7,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B09B-Lenihan",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407077",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B09B-Dominguez",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "LF--MerhoffSmall2"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "407079",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09B-Snider",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407087",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B09B-DelCorral",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "LF-MerhoffSmall3"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407088",
-          "goals_against": 3,
           "goals_for": 0,
           "opponent_club": "Nutley",
           "opponent_raw": "Nutley-B09B-Crespo",
           "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407093",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09B-Lee",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "LF-MerhoffSmall3"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407099",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B09B-Callegari",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "WYNE-JFK-Small"
+          "time": "11:00 AM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 23,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 7,
-      "points": 5,
-      "team_raw": "Fairview-B09B-Ventura",
-      "wins": 1
+      "goal_diff": -8,
+      "goals_against": 32,
+      "goals_for": 24,
+      "losses": 6,
+      "played": 9,
+      "points": 7,
+      "team_raw": "RiverDell-B09B-Snider",
+      "wins": 2
     },
     {
       "club": "GlobalJC",
@@ -1136,13 +1213,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "JC-GatewaySm2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407105",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B09B-Ventura",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "LF--MerhoffSmall2"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 28,
-      "goals_for": 4,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -28,
+      "goals_against": 33,
+      "goals_for": 5,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "GlobalJC-B09B-Sarr",
       "wins": 0

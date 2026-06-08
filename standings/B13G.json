@@ -1,6 +1,6 @@
 {
   "division": "B13G",
-  "scraped_at": "2026-06-07T08:45:10.642951Z",
+  "scraped_at": "2026-06-08T10:14:07.309385Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,7 +100,7 @@
       "club": "WayneBG",
       "coach": "Alom",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -178,6 +178,17 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406332",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13G-Taylor",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
         }
       ],
       "goal_diff": 26,
@@ -193,7 +204,7 @@
       "club": "Arsenal",
       "coach": "McDermott",
       "draws": 1,
-      "form": "WLDLW",
+      "form": "LDLWL",
       "games": [
         {
           "date": "2026-04-11",
@@ -282,22 +293,137 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406330",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13G-Recanati",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 23,
-      "goals_for": 29,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": 4,
+      "goals_against": 27,
+      "goals_for": 31,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "Arsenal-B13G-McDermott",
       "wins": 4
     },
     {
+      "club": "RiverDell",
+      "coach": "Recanati",
+      "draws": 0,
+      "form": "WLLLW",
+      "games": [
+        {
+          "date": "2026-05-02",
+          "game_number": "406308",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13G-Puglia",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406310",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13G-Taylor",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406314",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13G-Alom",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406315",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13G-McDermott",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406318",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B13G-Uribe",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406326",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13G-Taylor",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "MAR-HawesSchool"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406328",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13G-Alom",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406330",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13G-McDermott",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        }
+      ],
+      "goal_diff": -6,
+      "goals_against": 23,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 8,
+      "points": 9,
+      "team_raw": "RiverDell-B13G-Recanati",
+      "wins": 3
+    },
+    {
       "club": "Maroons",
       "coach": "Taylor",
       "draws": 1,
-      "form": "LWDWL",
+      "form": "WDWLL",
       "games": [
         {
           "date": "2026-04-11",
@@ -386,108 +512,26 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406332",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13G-Alom",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 21,
+      "goal_diff": -13,
+      "goals_against": 24,
       "goals_for": 11,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "Maroons-B13G-Taylor",
-      "wins": 2
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Recanati",
-      "draws": 0,
-      "form": "LWLLL",
-      "games": [
-        {
-          "date": "2026-05-02",
-          "game_number": "406308",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13G-Puglia",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "COUGSC-OrangePark"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406310",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13G-Taylor",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406314",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B13G-Alom",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406315",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B13G-McDermott",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406318",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B13G-Uribe",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "RDGFLDPK-McKeown"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406326",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13G-Taylor",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "MAR-HawesSchool"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406328",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B13G-Alom",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        }
-      ],
-      "goal_diff": -8,
-      "goals_against": 21,
-      "goals_for": 13,
-      "losses": 5,
-      "played": 7,
-      "points": 6,
-      "team_raw": "RiverDell-B13G-Recanati",
       "wins": 2
     },
     {

@@ -1,13 +1,13 @@
 {
   "division": "B11A",
-  "scraped_at": "2026-06-07T08:43:07.828306Z",
+  "scraped_at": "2026-06-08T10:12:02.009726Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dumont",
       "coach": "Prepis",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-06-06",
@@ -98,6 +98,17 @@
           "venue_code": "DUM-TwinBoro"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "407916",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11A-Benevento",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "407921",
           "goals_against": 2,
@@ -110,123 +121,19 @@
         }
       ],
       "goal_diff": 20,
-      "goals_against": 24,
-      "goals_for": 44,
+      "goals_against": 26,
+      "goals_for": 46,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 22,
       "team_raw": "Dumont-B11A-Prepis",
       "wins": 7
-    },
-    {
-      "club": "Nutley",
-      "coach": "Benevento",
-      "draws": 1,
-      "form": "WDWWW",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "407892",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B11A-Triger",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407897",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11A-Naranjo",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407899",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11A-Santosh",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407901",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11A-Prepis",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407906",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B11A-Seddiki",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "LYND-RecCtrFld4"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407909",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B11A-Triger",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407911",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11A-Naranjo",
-          "result": "W",
-          "time": "10:15 AM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407913",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11A-Santosh",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 16,
-      "goals_for": 28,
-      "losses": 2,
-      "played": 8,
-      "points": 16,
-      "team_raw": "Nutley-B11A-Benevento",
-      "wins": 5
     },
     {
       "club": "GlenRock",
       "coach": "Naranjo",
       "draws": 1,
-      "form": "WWLWD",
+      "form": "WLWDW",
       "games": [
         {
           "date": "2026-05-29",
@@ -317,6 +224,17 @@
           "venue_code": "SS-FaberTurfSml"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "407917",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11A-Santosh",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
           "date": "2026-05-02",
           "game_number": "407921",
           "goals_against": 4,
@@ -328,124 +246,135 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 7,
       "goals_against": 19,
-      "goals_for": 22,
+      "goals_for": 26,
       "losses": 3,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 19,
       "team_raw": "GlenRock-B11A-Naranjo",
-      "wins": 5
+      "wins": 6
     },
     {
-      "club": "Lyndhurst",
-      "coach": "Seddiki",
-      "draws": 1,
-      "form": "DLWLL",
+      "club": "Nutley",
+      "coach": "Benevento",
+      "draws": 2,
+      "form": "DWWWD",
       "games": [
         {
-          "date": "2026-05-29",
-          "game_number": "407893",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11A-Naranjo",
+          "date": "2026-04-11",
+          "game_number": "407892",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Triger",
           "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "SS-FaberTurfSml"
+          "time": "01:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
-          "date": "2026-04-25",
-          "game_number": "407895",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11A-Santosh",
+          "date": "2026-04-12",
+          "game_number": "407897",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11A-Naranjo",
           "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "LYND-RecCtrFld4"
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-04-19",
-          "game_number": "407900",
-          "goals_against": 5,
+          "game_number": "407899",
+          "goals_against": 3,
           "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11A-Prepis",
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11A-Santosh",
           "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "LYND-RecCtrFld4"
+          "time": "04:45 PM",
+          "venue_code": "TEN-Municipal"
         },
         {
           "date": "2026-04-26",
-          "game_number": "407902",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B11A-Triger",
+          "game_number": "407901",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Prepis",
           "result": "W",
-          "time": "03:45 PM",
-          "venue_code": "LYND-RecCtrFld4"
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-05-03",
           "game_number": "407906",
           "goals_against": 2,
           "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B11A-Benevento",
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B11A-Seddiki",
           "result": "D",
           "time": "11:00 AM",
           "venue_code": "LYND-RecCtrFld4"
         },
         {
           "date": "2026-05-10",
-          "game_number": "407907",
+          "game_number": "407909",
           "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11A-Naranjo",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "LYND-RecCtrFld4"
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Triger",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-05-17",
-          "game_number": "407910",
+          "game_number": "407911",
           "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11A-Santosh",
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11A-Naranjo",
           "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "TEN-Municipal"
+          "time": "10:15 AM",
+          "venue_code": "SS-FaberTurfSml"
         },
         {
           "date": "2026-05-31",
-          "game_number": "407914",
-          "goals_against": 9,
+          "game_number": "407913",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11A-Santosh",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407916",
+          "goals_against": 2,
           "goals_for": 2,
           "opponent_club": "Dumont",
           "opponent_raw": "Dumont-B11A-Prepis",
-          "result": "L",
-          "time": "12:15 PM",
+          "result": "D",
+          "time": "02:00 PM",
           "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 27,
-      "goals_for": 24,
-      "losses": 4,
-      "played": 8,
-      "points": 10,
-      "team_raw": "Lyndhurst-B11A-Seddiki",
-      "wins": 3
+      "goal_diff": 12,
+      "goals_against": 18,
+      "goals_for": 30,
+      "losses": 2,
+      "played": 9,
+      "points": 17,
+      "team_raw": "Nutley-B11A-Benevento",
+      "wins": 5
     },
     {
       "club": "CougarUtd",
       "coach": "Triger",
       "draws": 1,
-      "form": "LWLLD",
+      "form": "WLLDW",
       "games": [
         {
           "date": "2026-04-11",
@@ -534,16 +463,142 @@
           "result": "D",
           "time": "01:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407918",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B11A-Seddiki",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 33,
-      "goals_for": 21,
+      "goal_diff": -7,
+      "goals_against": 34,
+      "goals_for": 27,
       "losses": 5,
-      "played": 8,
-      "points": 7,
+      "played": 9,
+      "points": 10,
       "team_raw": "CougarUtd-B11A-Triger",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "Lyndhurst",
+      "coach": "Seddiki",
+      "draws": 1,
+      "form": "LWLLL",
+      "games": [
+        {
+          "date": "2026-05-29",
+          "game_number": "407893",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11A-Naranjo",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "407895",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11A-Santosh",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407900",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Prepis",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407902",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Triger",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407906",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11A-Benevento",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407907",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11A-Naranjo",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407910",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11A-Santosh",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407914",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Prepis",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407918",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Triger",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "COUGUTD-Front"
+        }
+      ],
+      "goal_diff": -8,
+      "goals_against": 33,
+      "goals_for": 25,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Lyndhurst-B11A-Seddiki",
+      "wins": 3
     },
     {
       "club": "Tenafly",
@@ -638,13 +693,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407917",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11A-Naranjo",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 35,
+      "goal_diff": -24,
+      "goals_against": 39,
       "goals_for": 15,
-      "losses": 7,
-      "played": 8,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "Tenafly-B11A-Santosh",
       "wins": 1

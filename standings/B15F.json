@@ -1,13 +1,13 @@
 {
   "division": "B15F",
-  "scraped_at": "2026-06-07T08:46:01.063687Z",
+  "scraped_at": "2026-06-08T10:14:57.116885Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Americans",
       "coach": "Lee",
-      "draws": 1,
-      "form": "WWWWW",
+      "draws": 2,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-04-18",
@@ -96,14 +96,25 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "AMER-LionsSouthFull"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406425",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "DenofLions",
+          "opponent_raw": "DenofLions-B15F-Trindadex",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NWK-Riverbank"
         }
       ],
       "goal_diff": 18,
-      "goals_against": 10,
-      "goals_for": 28,
+      "goals_against": 11,
+      "goals_for": 29,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 20,
       "team_raw": "Americans-B15F-Lee",
       "wins": 6
     },
@@ -111,7 +122,7 @@
       "club": "FairLawnAllSports",
       "coach": "Gonzales",
       "draws": 1,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -200,16 +211,27 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407339",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B15F-Romero",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 17,
-      "goals_for": 23,
+      "goal_diff": 10,
+      "goals_against": 19,
+      "goals_for": 29,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "FairLawnAllSports-B15F-Gonzales",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "WestEssex",
@@ -319,7 +341,7 @@
       "club": "RIDGFLD",
       "coach": "Romero",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -408,13 +430,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "AMER-LionsSouthFull"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407339",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B15F-Gonzales",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 15,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": 0,
+      "goals_against": 21,
+      "goals_for": 21,
+      "losses": 5,
+      "played": 9,
       "points": 12,
       "team_raw": "RIDGFLD-B15F-Romero",
       "wins": 4
@@ -422,8 +455,8 @@
     {
       "club": "DenofLions",
       "coach": "Trindadex",
-      "draws": 0,
-      "form": "LLLWL",
+      "draws": 1,
+      "form": "LLWLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -512,14 +545,25 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "WEssex-Veterans"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406425",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B15F-Lee",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NWK-Riverbank"
         }
       ],
       "goal_diff": -14,
-      "goals_against": 27,
-      "goals_for": 13,
+      "goals_against": 28,
+      "goals_for": 14,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 7,
       "team_raw": "DenofLions-B15F-Trindadex",
       "wins": 2
     },

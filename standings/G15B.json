@@ -1,13 +1,13 @@
 {
   "division": "G15B",
-  "scraped_at": "2026-06-07T08:49:27.131082Z",
+  "scraped_at": "2026-06-08T10:18:31.751678Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dragons",
       "coach": "Cassai",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,22 +96,33 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409084",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G15B-Santacruz",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 10,
-      "goals_for": 27,
+      "goal_diff": 18,
+      "goals_against": 12,
+      "goals_for": 30,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "Dragons-G15B-Cassai",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Warriors",
       "coach": "Kiely",
       "draws": 2,
-      "form": "WDWWD",
+      "form": "DWWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -200,219 +211,33 @@
           "result": "D",
           "time": "11:45 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409086",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G15B-Saenz",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WALD-HSTurf-1"
         }
       ],
-      "goal_diff": 6,
+      "goal_diff": 7,
       "goals_against": 17,
-      "goals_for": 23,
+      "goals_for": 24,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 20,
       "team_raw": "Warriors-G15B-Kiely",
-      "wins": 5
-    },
-    {
-      "club": "Hackensack",
-      "coach": "Santacruz",
-      "draws": 1,
-      "form": "WWLDL",
-      "games": [
-        {
-          "date": "2026-06-05",
-          "game_number": "406624",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "406626",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G15B-Kiely",
-          "result": "L",
-          "time": "12:15 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406630",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G15B-Saenz",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "406631",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G15B-Cassai",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-WestwdHS"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "409072",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G15B-Viveros",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "409076",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "MAYWOOD-FoschiniSml"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409080",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G15B-Kiely",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "WALD-HSNorth"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "409082",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G15B-Saenz",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 22,
-      "goals_for": 23,
-      "losses": 4,
-      "played": 8,
-      "points": 10,
-      "team_raw": "Hackensack-G15B-Santacruz",
-      "wins": 3
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Saenz",
-      "draws": 2,
-      "form": "LLWDD",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "406625",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406630",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G15B-Santacruz",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406632",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G15B-Kiely",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "409074",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G15B-Cassai",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "409075",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G15B-Viveros",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409078",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "409082",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G15B-Santacruz",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 14,
-      "goals_for": 8,
-      "losses": 3,
-      "played": 7,
-      "points": 8,
-      "team_raw": "WayneBG-G15B-Saenz",
-      "wins": 2
+      "wins": 6
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Showfety",
       "draws": 2,
-      "form": "DLDLW",
+      "form": "LDLWW",
       "games": [
         {
           "date": "2026-06-05",
@@ -501,22 +326,252 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409085",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15B-Viveros",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 17,
-      "goals_for": 16,
+      "goal_diff": 0,
+      "goals_against": 19,
+      "goals_for": 19,
+      "losses": 4,
+      "played": 9,
+      "points": 11,
+      "team_raw": "FairLawnAllSports-G15B-Showfety",
+      "wins": 3
+    },
+    {
+      "club": "Hackensack",
+      "coach": "Santacruz",
+      "draws": 1,
+      "form": "WLDLL",
+      "games": [
+        {
+          "date": "2026-06-05",
+          "game_number": "406624",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "406626",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G15B-Kiely",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406630",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G15B-Saenz",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "406631",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G15B-Cassai",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "409072",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15B-Viveros",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "409076",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "MAYWOOD-FoschiniSml"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409080",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G15B-Kiely",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WALD-HSNorth"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409082",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G15B-Saenz",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409084",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G15B-Cassai",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 25,
+      "goals_for": 25,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Hackensack-G15B-Santacruz",
+      "wins": 3
+    },
+    {
+      "club": "WayneBG",
+      "coach": "Saenz",
+      "draws": 2,
+      "form": "LWDDL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "406625",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406630",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G15B-Santacruz",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406632",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G15B-Kiely",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "409074",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G15B-Cassai",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "409075",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15B-Viveros",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409078",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409082",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G15B-Santacruz",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409086",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G15B-Kiely",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WALD-HSTurf-1"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 15,
+      "goals_for": 8,
       "losses": 4,
       "played": 8,
       "points": 8,
-      "team_raw": "FairLawnAllSports-G15B-Showfety",
+      "team_raw": "WayneBG-G15B-Saenz",
       "wins": 2
     },
     {
       "club": "UnionCity",
       "coach": "Viveros",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-04-12",
@@ -594,13 +649,24 @@
           "result": "D",
           "time": "11:45 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409085",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15B-Showfety",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 29,
-      "goals_for": 12,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -18,
+      "goals_against": 32,
+      "goals_for": 14,
+      "losses": 7,
+      "played": 8,
       "points": 1,
       "team_raw": "UnionCity-G15B-Viveros",
       "wins": 0

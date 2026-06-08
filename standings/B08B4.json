@@ -1,6 +1,6 @@
 {
   "division": "B08B4",
-  "scraped_at": "2026-06-07T08:40:56.418169Z",
+  "scraped_at": "2026-06-08T10:09:26.365555Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -297,7 +297,7 @@
       "club": "Americans",
       "coach": "Falciglia",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -388,6 +388,17 @@
           "venue_code": "AMER-Bogert"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "406675",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08B4-King",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NMilford-Williams4v4"
+        },
+        {
           "date": "2026-06-06",
           "game_number": "406677",
           "goals_against": 10,
@@ -399,20 +410,20 @@
           "venue_code": "MONT-Brookdale4v4"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 70,
-      "goals_for": 55,
+      "goal_diff": -12,
+      "goals_against": 73,
+      "goals_for": 61,
       "losses": 6,
-      "played": 9,
-      "points": 9,
+      "played": 10,
+      "points": 12,
       "team_raw": "Americans-B08B4-Falciglia",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "NMKnights",
       "coach": "King",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-18",
@@ -490,13 +501,24 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406675",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08B4-Falciglia",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
-      "goal_diff": -30,
-      "goals_against": 50,
-      "goals_for": 20,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -33,
+      "goals_against": 56,
+      "goals_for": 23,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "NMKnights-B08B4-King",
       "wins": 1

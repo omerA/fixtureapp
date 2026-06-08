@@ -1,13 +1,13 @@
 {
   "division": "B11B",
-  "scraped_at": "2026-06-07T08:43:11.233059Z",
+  "scraped_at": "2026-06-08T10:12:05.350738Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "FairLawnAllSports",
       "coach": "DeFina",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -85,22 +85,33 @@
           "result": "D",
           "time": "03:30 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407947",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B11B-Sietsma",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "FL-Brookdale"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 11,
-      "goals_for": 35,
+      "goal_diff": 25,
+      "goals_against": 12,
+      "goals_for": 37,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "FairLawnAllSports-B11B-DeFina",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Hotspur",
       "coach": "Rotolo",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -189,13 +200,24 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407948",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B11B-McCormack",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 21,
-      "goals_for": 34,
-      "losses": 1,
-      "played": 8,
+      "goal_diff": 12,
+      "goals_against": 26,
+      "goals_for": 38,
+      "losses": 2,
+      "played": 9,
       "points": 19,
       "team_raw": "Hotspur-B11B-Rotolo",
       "wins": 6
@@ -204,7 +226,7 @@
       "club": "Spartan",
       "coach": "McCormack",
       "draws": 1,
-      "form": "LLLWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -216,6 +238,17 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407926",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11B-Percio",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "BELLE-BellePkSm"
         },
         {
           "date": "2026-04-19",
@@ -282,22 +315,33 @@
           "result": "W",
           "time": "10:45 AM",
           "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407948",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11B-Rotolo",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 22,
-      "goals_for": 23,
+      "goal_diff": 9,
+      "goals_against": 27,
+      "goals_for": 36,
       "losses": 3,
-      "played": 7,
-      "points": 10,
+      "played": 9,
+      "points": 16,
       "team_raw": "Spartan-B11B-McCormack",
-      "wins": 3
+      "wins": 5
     },
     {
       "club": "NoArlington",
       "coach": "Ceron",
       "draws": 0,
-      "form": "LWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -375,16 +419,27 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407946",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11B-Percio",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": -1,
+      "goal_diff": 6,
       "goals_against": 23,
-      "goals_for": 22,
+      "goals_for": 29,
       "losses": 4,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "NoArlington-B11B-Ceron",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "RYSA",
@@ -479,13 +534,24 @@
           "result": "L",
           "time": "10:45 AM",
           "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407947",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11B-DeFina",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "FL-Brookdale"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 42,
-      "goals_for": 23,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -20,
+      "goals_against": 44,
+      "goals_for": 24,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "RYSA-B11B-Sietsma",
       "wins": 1
@@ -494,7 +560,7 @@
       "club": "Belleville",
       "coach": "Percio",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-18",
@@ -506,6 +572,17 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "FL-Brookdale"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407926",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B11B-McCormack",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "BELLE-BellePkSm"
         },
         {
           "date": "2026-04-19",
@@ -572,13 +649,24 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407946",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11B-Ceron",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 39,
-      "goals_for": 21,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -32,
+      "goals_against": 54,
+      "goals_for": 22,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "Belleville-B11B-Percio",
       "wins": 1

@@ -1,13 +1,13 @@
 {
   "division": "B13C",
-  "scraped_at": "2026-06-07T08:44:51.856041Z",
+  "scraped_at": "2026-06-08T10:13:47.749904Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dragons",
       "coach": "Neblock",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,13 +96,24 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407883",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B13C-Algieri",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 17,
-      "goals_for": 36,
-      "losses": 1,
-      "played": 8,
+      "goal_diff": 17,
+      "goals_against": 21,
+      "goals_for": 38,
+      "losses": 2,
+      "played": 9,
       "points": 21,
       "team_raw": "Dragons-B13C-Neblock",
       "wins": 7
@@ -111,7 +122,7 @@
       "club": "AviatorsHHSA",
       "coach": "Sharry",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -200,13 +211,24 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407884",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B13C-Lopez",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 24,
-      "goals_for": 31,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": 4,
+      "goals_against": 29,
+      "goals_for": 33,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "AviatorsHHSA-B13C-Sharry",
       "wins": 5
@@ -215,7 +237,7 @@
       "club": "BLMFLD",
       "coach": "Lopez",
       "draws": 2,
-      "form": "WLLDL",
+      "form": "LLDLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -304,22 +326,33 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407884",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B13C-Sharry",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 19,
-      "goals_for": 19,
+      "goal_diff": 3,
+      "goals_against": 21,
+      "goals_for": 24,
       "losses": 3,
-      "played": 8,
-      "points": 11,
+      "played": 9,
+      "points": 14,
       "team_raw": "BLMFLD-B13C-Lopez",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Nutley",
       "coach": "Algieri",
       "draws": 2,
-      "form": "LWWDL",
+      "form": "WWDLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -408,22 +441,33 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407883",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13C-Neblock",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 24,
-      "goals_for": 21,
+      "goal_diff": -1,
+      "goals_against": 26,
+      "goals_for": 25,
       "losses": 3,
-      "played": 8,
-      "points": 11,
+      "played": 9,
+      "points": 14,
       "team_raw": "Nutley-B13C-Algieri",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "NoBergen",
       "coach": "Amaya",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -512,22 +556,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407885",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13C-Kim",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 28,
-      "goals_for": 21,
+      "goal_diff": -6,
+      "goals_against": 29,
+      "goals_for": 23,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "NoBergen-B13C-Amaya",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "RiverDell",
       "coach": "Kim",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -616,13 +671,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407885",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13C-Amaya",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 39,
-      "goals_for": 23,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -17,
+      "goals_against": 41,
+      "goals_for": 24,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "RiverDell-B13C-Kim",
       "wins": 1

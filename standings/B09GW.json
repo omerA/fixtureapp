@@ -1,13 +1,13 @@
 {
   "division": "B09GW",
-  "scraped_at": "2026-06-07T08:41:59.428280Z",
+  "scraped_at": "2026-06-08T10:10:53.208539Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Torpedoes",
       "coach": "Grados",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-06-06",
@@ -96,22 +96,33 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407154",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09GW-Parra",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-McCoogPark"
         }
       ],
-      "goal_diff": 40,
-      "goals_against": 17,
-      "goals_for": 57,
+      "goal_diff": 46,
+      "goals_against": 19,
+      "goals_for": 65,
       "losses": 0,
-      "played": 8,
-      "points": 22,
+      "played": 9,
+      "points": 25,
       "team_raw": "Torpedoes-B09GW-Grados",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "RYSA",
       "coach": "Vanderbeck",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-05-02",
@@ -200,22 +211,137 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407156",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09GW-Hughes",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "RYSA-HighMtn"
         }
       ],
       "goal_diff": 26,
-      "goals_against": 11,
-      "goals_for": 37,
+      "goals_against": 13,
+      "goals_for": 39,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 22,
       "team_raw": "RYSA-B09GW-Vanderbeck",
       "wins": 7
+    },
+    {
+      "club": "Force",
+      "coach": "PierreJoseph",
+      "draws": 1,
+      "form": "WLDWW",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "406834",
+          "goals_against": 11,
+          "goals_for": 8,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09GW-Grados",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407125",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09GW-Mellie",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "407128",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09GW-Parra",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407136",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09GW-Brufau",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407140",
+          "goals_against": 5,
+          "goals_for": 13,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09GW-Gudovich",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407142",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B09GW-Vanderbeck",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407150",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09GW-Hughes",
+          "result": "D",
+          "time": "05:30 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407153",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09GW-Harrison",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        }
+      ],
+      "goal_diff": 26,
+      "goals_against": 28,
+      "goals_for": 54,
+      "losses": 2,
+      "played": 8,
+      "points": 15,
+      "team_raw": "Force-B09GW-PierreJoseph",
+      "wins": 5
     },
     {
       "club": "Maroons",
       "coach": "Harrison",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -304,13 +430,24 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407153",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B09GW-PierreJoseph",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 32,
-      "goals_for": 39,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": 2,
+      "goals_against": 39,
+      "goals_for": 41,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "Maroons-B09GW-Harrison",
       "wins": 5
@@ -318,8 +455,8 @@
     {
       "club": "WoodRidge",
       "coach": "Hughes",
-      "draws": 2,
-      "form": "LWWDW",
+      "draws": 3,
+      "form": "WWDWD",
       "games": [
         {
           "date": "2026-04-24",
@@ -397,115 +534,137 @@
           "result": "D",
           "time": "05:30 PM",
           "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407156",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B09GW-Vanderbeck",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "RYSA-HighMtn"
         }
       ],
       "goal_diff": 10,
-      "goals_against": 16,
-      "goals_for": 26,
+      "goals_against": 18,
+      "goals_for": 28,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 15,
       "team_raw": "WoodRidge-B09GW-Hughes",
       "wins": 4
     },
     {
-      "club": "Force",
-      "coach": "PierreJoseph",
+      "club": "GlenRock",
+      "coach": "Reese",
       "draws": 1,
-      "form": "WWLDW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-04-12",
-          "game_number": "406834",
-          "goals_against": 11,
-          "goals_for": 8,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B09GW-Grados",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407125",
-          "goals_against": 4,
-          "goals_for": 10,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B09GW-Mellie",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "407128",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B09GW-Parra",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407136",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B09GW-Brufau",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407140",
-          "goals_against": 5,
-          "goals_for": 13,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09GW-Gudovich",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407142",
-          "goals_against": 2,
-          "goals_for": 1,
+          "game_number": "406837",
+          "goals_against": 6,
+          "goals_for": 2,
           "opponent_club": "RYSA",
           "opponent_raw": "RYSA-B09GW-Vanderbeck",
           "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NY-MWU-Gonzaga"
+          "time": "01:00 PM",
+          "venue_code": "RYSA-HighMtn"
         },
         {
-          "date": "2026-05-31",
-          "game_number": "407150",
-          "goals_against": 2,
-          "goals_for": 2,
+          "date": "2026-04-19",
+          "game_number": "406839",
+          "goals_against": 1,
+          "goals_for": 1,
           "opponent_club": "WoodRidge",
           "opponent_raw": "WoodRidge-B09GW-Hughes",
           "result": "D",
-          "time": "05:30 PM",
-          "venue_code": "WDRDG-AthComp Sm B"
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "407130",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09GW-Harrison",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407133",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09GW-Gudovich",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "FL-Berdan"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407139",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09GW-Grados",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407146",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09GW-Mellie",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407147",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09GW-Parra",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407155",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09GW-Brufau",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 26,
-      "goals_for": 47,
-      "losses": 2,
-      "played": 7,
-      "points": 12,
-      "team_raw": "Force-B09GW-PierreJoseph",
-      "wins": 4
+      "goal_diff": -17,
+      "goals_against": 36,
+      "goals_for": 19,
+      "losses": 5,
+      "played": 8,
+      "points": 7,
+      "team_raw": "GlenRock-B09GW-Reese",
+      "wins": 2
     },
     {
       "club": "WayneBG",
       "coach": "Parra",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -572,22 +731,137 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407154",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09GW-Grados",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WYNE-McCoogPark"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 23,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -14,
+      "goals_against": 31,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "WayneBG-B09GW-Parra",
+      "wins": 2
+    },
+    {
+      "club": "Nutley",
+      "coach": "Mellie",
+      "draws": 0,
+      "form": "LLWLW",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "406835",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09GW-Brufau",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407125",
+          "goals_against": 10,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B09GW-PierreJoseph",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407129",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B09GW-Vanderbeck",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407134",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09GW-Hughes",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "407138",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09GW-Harrison",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407146",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09GW-Reese",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407148",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09GW-Grados",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407152",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09GW-Gudovich",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2A"
+        }
+      ],
+      "goal_diff": -26,
+      "goals_against": 48,
+      "goals_for": 22,
+      "losses": 6,
+      "played": 8,
+      "points": 6,
+      "team_raw": "Nutley-B09GW-Mellie",
       "wins": 2
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Gudovich",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-04-24",
@@ -676,115 +950,33 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407152",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09GW-Mellie",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2A"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 56,
-      "goals_for": 32,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -25,
+      "goals_against": 61,
+      "goals_for": 36,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "FairLawnAllSports-B09GW-Gudovich",
       "wins": 2
     },
     {
-      "club": "GlenRock",
-      "coach": "Reese",
-      "draws": 1,
-      "form": "LLLLW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "406837",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B09GW-Vanderbeck",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "RYSA-HighMtn"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406839",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B09GW-Hughes",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "407130",
-          "goals_against": 8,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09GW-Harrison",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407133",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09GW-Gudovich",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "FL-Berdan"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407139",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B09GW-Grados",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407146",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B09GW-Mellie",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407147",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B09GW-Parra",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        }
-      ],
-      "goal_diff": -19,
-      "goals_against": 34,
-      "goals_for": 15,
-      "losses": 5,
-      "played": 7,
-      "points": 4,
-      "team_raw": "GlenRock-B09GW-Reese",
-      "wins": 1
-    },
-    {
       "club": "WOrange",
       "coach": "Brufau",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-06-06",
@@ -873,108 +1065,26 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "MAR-GlenSchool"
-        }
-      ],
-      "goal_diff": -26,
-      "goals_against": 47,
-      "goals_for": 21,
-      "losses": 6,
-      "played": 8,
-      "points": 4,
-      "team_raw": "WOrange-B09GW-Brufau",
-      "wins": 1
-    },
-    {
-      "club": "Nutley",
-      "coach": "Mellie",
-      "draws": 0,
-      "form": "LLLWL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "406835",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B09GW-Brufau",
-          "result": "L",
-          "time": "04:15 PM",
-          "venue_code": "WORANGE-LibertyMS2"
         },
         {
-          "date": "2026-04-19",
-          "game_number": "407125",
-          "goals_against": 10,
-          "goals_for": 4,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B09GW-PierreJoseph",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407129",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B09GW-Vanderbeck",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407134",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B09GW-Hughes",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "407138",
-          "goals_against": 7,
+          "date": "2026-06-07",
+          "game_number": "407155",
+          "goals_against": 4,
           "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09GW-Harrison",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407146",
-          "goals_against": 2,
-          "goals_for": 4,
           "opponent_club": "GlenRock",
           "opponent_raw": "GlenRock-B09GW-Reese",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407148",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B09GW-Grados",
           "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "TORP-Pulis3"
+          "time": "10:30 AM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 44,
-      "goals_for": 17,
-      "losses": 6,
-      "played": 7,
-      "points": 3,
-      "team_raw": "Nutley-B09GW-Mellie",
+      "goal_diff": -28,
+      "goals_against": 51,
+      "goals_for": 23,
+      "losses": 7,
+      "played": 9,
+      "points": 4,
+      "team_raw": "WOrange-B09GW-Brufau",
       "wins": 1
     }
   ]

@@ -1,13 +1,13 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-06-07T08:44:05.875895Z",
+  "scraped_at": "2026-06-08T10:12:59.994242Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Arsenal",
       "coach": "McDermott",
-      "draws": 1,
-      "form": "WWWWW",
+      "draws": 2,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-04-25",
@@ -85,14 +85,25 @@
           "result": "W",
           "time": "04:45 PM",
           "venue_code": "BGFD-Hickory"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408419",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B12C-Dam",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "NY-MW-WMombasha"
         }
       ],
       "goal_diff": 11,
-      "goals_against": 9,
-      "goals_for": 20,
+      "goals_against": 10,
+      "goals_for": 21,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 20,
       "team_raw": "Arsenal-B12C-McDermott",
       "wins": 6
     },
@@ -294,10 +305,103 @@
       "wins": 4
     },
     {
+      "club": "Belleville",
+      "coach": "Chavarria",
+      "draws": 0,
+      "form": "WWLWW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408379",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Birnie",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408385",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408387",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "408398",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "BGFD-Hickory"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408404",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12C-McDermott",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408411",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12C-Valle",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408420",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B12C-Campoverde",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "BELLE-BellePkSm"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 21,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 7,
+      "points": 12,
+      "team_raw": "Belleville-B12C-Chavarria",
+      "wins": 4
+    },
+    {
       "club": "Force",
       "coach": "Dam",
-      "draws": 2,
-      "form": "WWWLD",
+      "draws": 3,
+      "form": "WWLDD",
       "games": [
         {
           "date": "2026-04-12",
@@ -364,14 +468,25 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408419",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12C-McDermott",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "NY-MW-WMombasha"
         }
       ],
       "goal_diff": 3,
-      "goals_against": 18,
-      "goals_for": 21,
+      "goals_against": 19,
+      "goals_for": 22,
       "losses": 1,
-      "played": 6,
-      "points": 11,
+      "played": 7,
+      "points": 12,
       "team_raw": "Force-B12C-Dam",
       "wins": 3
     },
@@ -477,88 +592,6 @@
       "played": 8,
       "points": 10,
       "team_raw": "NoValley-B12C-Birnie",
-      "wins": 3
-    },
-    {
-      "club": "Belleville",
-      "coach": "Chavarria",
-      "draws": 0,
-      "form": "LWWLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408379",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B12C-Birnie",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "BELLE-BellePkSm"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408385",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408387",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B12C-Wein",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "BELLE-BellePkSm"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "408398",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B12C-Camino",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "BGFD-Hickory"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408404",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B12C-McDermott",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "BELLE-BellePkSm"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408411",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B12C-Valle",
-          "result": "W",
-          "time": "03:45 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 17,
-      "goals_for": 11,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Belleville-B12C-Chavarria",
       "wins": 3
     },
     {
@@ -822,7 +855,7 @@
       "club": "NoBergen",
       "coach": "Campoverde",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-04-25",
@@ -900,13 +933,24 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408420",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Chavarria",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 30,
-      "goals_for": 14,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -17,
+      "goals_against": 35,
+      "goals_for": 18,
+      "losses": 7,
+      "played": 8,
       "points": 1,
       "team_raw": "NoBergen-B12C-Campoverde",
       "wins": 0

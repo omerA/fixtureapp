@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-06-07T08:47:17.430219Z",
+  "scraped_at": "2026-06-08T10:16:17.387223Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -214,8 +214,8 @@
     {
       "club": "HobUtd",
       "coach": "Trinkwalder",
-      "draws": 1,
-      "form": "LWWLW",
+      "draws": 2,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-05-16",
@@ -304,14 +304,25 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405220",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G10C-Hunter",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         }
       ],
       "goal_diff": -4,
-      "goals_against": 21,
-      "goals_for": 17,
+      "goals_against": 24,
+      "goals_for": 20,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 14,
       "team_raw": "HobUtd-G10C-Trinkwalder",
       "wins": 4
     },
@@ -319,7 +330,7 @@
       "club": "Americans",
       "coach": "DePierro",
       "draws": 1,
-      "form": "LLWDW",
+      "form": "LWDWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -397,16 +408,27 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "AMER-WestMaple"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405219",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G10C-Vinces",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 14,
-      "goals_for": 15,
+      "goal_diff": 4,
+      "goals_against": 17,
+      "goals_for": 21,
       "losses": 3,
-      "played": 7,
-      "points": 10,
+      "played": 8,
+      "points": 13,
       "team_raw": "Americans-G10C-DePierro",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Maroons",
@@ -505,7 +527,7 @@
       "club": "WayneBG",
       "coach": "Vinces",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -594,16 +616,142 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "BAY-SGreggQuad-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405219",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G10C-DePierro",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 26,
-      "goals_for": 25,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -4,
+      "goals_against": 32,
+      "goals_for": 28,
+      "losses": 6,
+      "played": 9,
       "points": 9,
       "team_raw": "WayneBG-G10C-Vinces",
       "wins": 3
+    },
+    {
+      "club": "Montclair",
+      "coach": "Hunter",
+      "draws": 3,
+      "form": "WLLDD",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "405188",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G10C-Reed",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405192",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10C-Trinkwalder",
+          "result": "D",
+          "time": "03:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405195",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10C-vanGulikX",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405197",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G10C-Henriquez",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "BAY-SGreggQuad-Small"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405202",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G10C-Vinces",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405205",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G10C-DePierro",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AMER-GuardianAngel"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405210",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10C-DePinho",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405215",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G10C-Reed",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405220",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10C-Trinkwalder",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        }
+      ],
+      "goal_diff": -15,
+      "goals_against": 26,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 9,
+      "points": 6,
+      "team_raw": "Montclair-G10C-Hunter",
+      "wins": 1
     },
     {
       "club": "Warriors",
@@ -707,110 +855,6 @@
       "played": 8,
       "points": 5,
       "team_raw": "Warriors-G10C-Reed",
-      "wins": 1
-    },
-    {
-      "club": "Montclair",
-      "coach": "Hunter",
-      "draws": 2,
-      "form": "LWLLD",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "405188",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G10C-Reed",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "MONT-BrookdaleC"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405192",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G10C-Trinkwalder",
-          "result": "D",
-          "time": "03:45 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405195",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10C-vanGulikX",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405197",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-G10C-Henriquez",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "BAY-SGreggQuad-Small"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405202",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G10C-Vinces",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405205",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G10C-DePierro",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "AMER-GuardianAngel"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405210",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G10C-DePinho",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405215",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G10C-Reed",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "WALD-HSTurf-2"
-        }
-      ],
-      "goal_diff": -15,
-      "goals_against": 23,
-      "goals_for": 8,
-      "losses": 5,
-      "played": 8,
-      "points": 5,
-      "team_raw": "Montclair-G10C-Hunter",
       "wins": 1
     }
   ]

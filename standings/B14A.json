@@ -1,117 +1,13 @@
 {
   "division": "B14A",
-  "scraped_at": "2026-06-07T08:45:17.047445Z",
+  "scraped_at": "2026-06-08T10:14:13.594174Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "GlenRock",
-      "coach": "Lynch",
-      "draws": 1,
-      "form": "WWWDW",
-      "games": [
-        {
-          "date": "2026-04-17",
-          "game_number": "406336",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B14A-Fabish",
-          "result": "W",
-          "time": "07:15 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406341",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B14A-FernandezSosa",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406343",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B14A-Reichman",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "VIK-WintonWhiteStad"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406345",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B14A-dePaula",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-05-22",
-          "game_number": "406350",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B14A-Galvez",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406353",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B14A-Fabish",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406355",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B14A-FernandezSosa",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "NoBergen-HudsonCtyPk"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406359",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B14A-Reichman",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "SS-LowerHS"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 10,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 8,
-      "points": 19,
-      "team_raw": "GlenRock-B14A-Lynch",
-      "wins": 6
-    },
     {
       "club": "NoBergen",
       "coach": "FernandezSosa",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -200,22 +96,148 @@
           "result": "W",
           "time": "04:15 PM",
           "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406429",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14A-Reichman",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 13,
+      "goals_for": 25,
+      "losses": 2,
+      "played": 9,
+      "points": 21,
+      "team_raw": "NoBergen-B14A-FernandezSosa",
+      "wins": 7
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Lynch",
+      "draws": 1,
+      "form": "WWDWL",
+      "games": [
+        {
+          "date": "2026-04-17",
+          "game_number": "406336",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B14A-Fabish",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406341",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14A-FernandezSosa",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406343",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14A-Reichman",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "VIK-WintonWhiteStad"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406345",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-dePaula",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-05-22",
+          "game_number": "406350",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14A-Galvez",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406353",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B14A-Fabish",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406355",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14A-FernandezSosa",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406359",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14A-Reichman",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406428",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-dePaula",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-RHS Stadium"
         }
       ],
       "goal_diff": 9,
-      "goals_against": 11,
-      "goals_for": 20,
+      "goals_against": 13,
+      "goals_for": 22,
       "losses": 2,
-      "played": 8,
-      "points": 18,
-      "team_raw": "NoBergen-B14A-FernandezSosa",
+      "played": 9,
+      "points": 19,
+      "team_raw": "GlenRock-B14A-Lynch",
       "wins": 6
     },
     {
       "club": "Maroons",
       "coach": "dePaula",
       "draws": 1,
-      "form": "LLDWL",
+      "form": "LDWLW",
       "games": [
         {
           "date": "2026-04-11",
@@ -304,126 +326,33 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "RDBH-HS-Stadium"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 16,
-      "goals_for": 22,
-      "losses": 3,
-      "played": 8,
-      "points": 13,
-      "team_raw": "Maroons-B14A-dePaula",
-      "wins": 4
-    },
-    {
-      "club": "Vikings",
-      "coach": "Reichman",
-      "draws": 1,
-      "form": "WWDLL",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "406338",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B14A-dePaula",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
         },
         {
-          "date": "2026-05-09",
-          "game_number": "406339",
+          "date": "2026-06-07",
+          "game_number": "406428",
           "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B14A-Galvez",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406343",
-          "goals_against": 2,
-          "goals_for": 4,
+          "goals_for": 3,
           "opponent_club": "GlenRock",
           "opponent_raw": "GlenRock-B14A-Lynch",
           "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "VIK-WintonWhiteStad"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406347",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B14A-FernandezSosa",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "NoBergen-HudsonCtyPk"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406349",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B14A-Fabish",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406352",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B14A-dePaula",
-          "result": "D",
           "time": "08:00 AM",
           "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406354",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B14A-Galvez",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406359",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B14A-Lynch",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 18,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 8,
-      "points": 10,
-      "team_raw": "Vikings-B14A-Reichman",
-      "wins": 3
+      "goal_diff": 9,
+      "goals_against": 16,
+      "goals_for": 25,
+      "losses": 3,
+      "played": 9,
+      "points": 16,
+      "team_raw": "Maroons-B14A-dePaula",
+      "wins": 5
     },
     {
       "club": "RiverDell",
       "coach": "Galvez",
       "draws": 2,
-      "form": "LLWDW",
+      "form": "LWDWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -512,22 +441,148 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406430",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B14A-Fabish",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 19,
-      "goals_for": 17,
+      "goal_diff": 3,
+      "goals_against": 20,
+      "goals_for": 23,
       "losses": 4,
-      "played": 8,
-      "points": 8,
+      "played": 9,
+      "points": 11,
       "team_raw": "RiverDell-B14A-Galvez",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "Vikings",
+      "coach": "Reichman",
+      "draws": 1,
+      "form": "WDLLL",
+      "games": [
+        {
+          "date": "2026-04-11",
+          "game_number": "406338",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-dePaula",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "406339",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14A-Galvez",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406343",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14A-Lynch",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VIK-WintonWhiteStad"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406347",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14A-FernandezSosa",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406349",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B14A-Fabish",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406352",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-dePaula",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406354",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14A-Galvez",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406359",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14A-Lynch",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406429",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14A-FernandezSosa",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        }
+      ],
+      "goal_diff": -6,
+      "goals_against": 23,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Vikings-B14A-Reichman",
+      "wins": 3
     },
     {
       "club": "Ajax",
       "coach": "Fabish",
       "draws": 1,
-      "form": "DLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-17",
@@ -616,13 +671,24 @@
           "result": "L",
           "time": "04:15 PM",
           "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406430",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14A-Galvez",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 33,
-      "goals_for": 11,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -27,
+      "goals_against": 39,
+      "goals_for": 12,
+      "losses": 8,
+      "played": 9,
       "points": 1,
       "team_raw": "Ajax-B14A-Fabish",
       "wins": 0

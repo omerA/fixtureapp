@@ -1,13 +1,139 @@
 {
   "division": "B10AB",
-  "scraped_at": "2026-06-07T08:42:16.418894Z",
+  "scraped_at": "2026-06-08T10:11:10.350713Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "AviatorsHHSA",
+      "coach": "DeGennaro",
+      "draws": 2,
+      "form": "LWWLW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408065",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B10AB-DaSilva",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408069",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B10AB-Yahiax",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408071",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10AB-Cengarle",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408075",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B10AB-Williams",
+          "result": "D",
+          "time": "02:15 PM",
+          "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408078",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B10AB-Hayden",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408082",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B10AB-DaSilva",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408085",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B10AB-Yahiax",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408088",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10AB-Cengarle",
+          "result": "L",
+          "time": "12:00 AM",
+          "venue_code": "TBS (GC)"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408091",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B10AB-Williams",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "408092",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B10AB-Hayden",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DUM-GinasField"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 21,
+      "goals_for": 27,
+      "losses": 2,
+      "played": 9,
+      "points": 17,
+      "team_raw": "AviatorsHHSA-B10AB-DeGennaro",
+      "wins": 5
+    },
     {
       "club": "Dumont",
       "coach": "Hayden",
       "draws": 2,
-      "form": "WWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -98,6 +224,17 @@
           "venue_code": "DUM-GinasField"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "408090",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10AB-Cengarle",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
           "date": "2026-05-15",
           "game_number": "408092",
           "goals_against": 6,
@@ -109,135 +246,20 @@
           "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 26,
-      "goals_for": 45,
-      "losses": 2,
-      "played": 9,
+      "goal_diff": 13,
+      "goals_against": 33,
+      "goals_for": 46,
+      "losses": 3,
+      "played": 10,
       "points": 17,
       "team_raw": "Dumont-B10AB-Hayden",
       "wins": 5
     },
     {
-      "club": "AviatorsHHSA",
-      "coach": "DeGennaro",
-      "draws": 2,
-      "form": "LLWWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408065",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B10AB-DaSilva",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408069",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B10AB-Yahiax",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408071",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B10AB-Cengarle",
-          "result": "D",
-          "time": "08:00 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408075",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B10AB-Williams",
-          "result": "D",
-          "time": "02:15 PM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408078",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B10AB-Hayden",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408082",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B10AB-DaSilva",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "NA-Zadroga2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408085",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B10AB-Yahiax",
-          "result": "W",
-          "time": "03:45 PM",
-          "venue_code": "SECAU-CountyShetikFl"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408088",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B10AB-Cengarle",
-          "result": "L",
-          "time": "12:00 AM",
-          "venue_code": "TBS (GC)"
-        },
-        {
-          "date": "2026-05-15",
-          "game_number": "408092",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B10AB-Hayden",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DUM-GinasField"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 20,
-      "goals_for": 25,
-      "losses": 2,
-      "played": 8,
-      "points": 14,
-      "team_raw": "AviatorsHHSA-B10AB-DeGennaro",
-      "wins": 4
-    },
-    {
       "club": "WOrange",
       "coach": "Williams",
       "draws": 3,
-      "form": "DWDLW",
+      "form": "WDLWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -315,13 +337,24 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408091",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B10AB-DeGennaro",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 18,
-      "goals_for": 23,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 4,
+      "goals_against": 20,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 8,
       "points": 12,
       "team_raw": "WOrange-B10AB-Williams",
       "wins": 3
@@ -330,7 +363,7 @@
       "club": "Hotspur",
       "coach": "Cengarle",
       "draws": 2,
-      "form": "LLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -408,22 +441,33 @@
           "result": "W",
           "time": "12:00 AM",
           "venue_code": "TBS (GC)"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408090",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B10AB-Hayden",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 10,
-      "goals_for": 11,
+      "goal_diff": 7,
+      "goals_against": 11,
+      "goals_for": 18,
       "losses": 2,
-      "played": 6,
-      "points": 8,
+      "played": 7,
+      "points": 11,
       "team_raw": "Hotspur-B10AB-Cengarle",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "NoArlington",
       "coach": "DaSilva",
-      "draws": 1,
-      "form": "LWLLW",
+      "draws": 2,
+      "form": "WLLWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -512,22 +556,33 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408089",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B10AB-Yahiax",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "SECAU-CountyShetikFl"
         }
       ],
       "goal_diff": -6,
-      "goals_against": 19,
-      "goals_for": 13,
+      "goals_against": 23,
+      "goals_for": 17,
       "losses": 5,
-      "played": 8,
-      "points": 7,
+      "played": 9,
+      "points": 8,
       "team_raw": "NoArlington-B10AB-DaSilva",
       "wins": 2
     },
     {
       "club": "Secaucus",
       "coach": "Yahiax",
-      "draws": 0,
-      "form": "WLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -616,14 +671,25 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "WORANGE-LibertyMS2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408089",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B10AB-DaSilva",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "SECAU-CountyShetikFl"
         }
       ],
       "goal_diff": -24,
-      "goals_against": 49,
-      "goals_for": 25,
+      "goals_against": 53,
+      "goals_for": 29,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 7,
       "team_raw": "Secaucus-B10AB-Yahiax",
       "wins": 2
     }

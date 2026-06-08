@@ -325,16 +325,16 @@
     },
     {
       "away_club": "Montclair",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Montclair-G15A-StPierre",
       "date": "2026-06-07",
       "division": "G15A",
       "field": "Stevens Field",
       "game_id": "406618",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Maroons-G15A-OHara",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:00 AM"
     },
     {
@@ -353,31 +353,17 @@
     },
     {
       "away_club": "RiverDell",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "RiverDell-G15A-Heinzinger",
       "date": "2026-06-07",
       "division": "G15A",
       "field": "Foley Field",
       "game_id": "406617",
       "home_club": "BLMFLD",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "BLMFLD-G15A-Harvey",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
-    },
-    {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-G15A-OHara",
-      "date": "2026-06-08",
-      "division": "G15A",
-      "field": "James Zadroga Soccer Field",
-      "game_id": "406592",
-      "home_club": "NoArlington",
-      "home_score": null,
-      "home_team": "NoArlington-G15A-Parenti",
-      "is_upcoming": true,
-      "time": "07:15 PM"
     },
     {
       "away_club": "Rutherford",
@@ -420,8 +406,22 @@
       "home_team": "BLMFLD-G15A-Harvey",
       "is_upcoming": true,
       "time": "06:00 PM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-G15A-OHara",
+      "date": "2026-06-15",
+      "division": "G15A",
+      "field": "James Zadroga Soccer Field",
+      "game_id": "406592",
+      "home_club": "NoArlington",
+      "home_score": null,
+      "home_team": "NoArlington-G15A-Parenti",
+      "is_upcoming": true,
+      "time": "07:15 PM"
     }
   ],
-  "scraped_at": "2026-06-07T08:56:25.851839Z",
+  "scraped_at": "2026-06-08T10:25:31.845615Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

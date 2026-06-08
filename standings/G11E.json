@@ -1,13 +1,13 @@
 {
   "division": "G11E",
-  "scraped_at": "2026-06-07T08:48:03.589292Z",
+  "scraped_at": "2026-06-08T10:17:05.830589Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 2,
-      "form": "LDWDW",
+      "form": "DWDWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,22 +96,33 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408674",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11E-Crowley",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 10,
-      "goals_for": 22,
+      "goal_diff": 14,
+      "goals_against": 11,
+      "goals_for": 25,
       "losses": 2,
-      "played": 8,
-      "points": 14,
+      "played": 9,
+      "points": 17,
       "team_raw": "Paramus-G11E-Buttacavoli",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "GlenRidge",
       "coach": "Deptula",
       "draws": 2,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-04-25",
@@ -178,126 +189,33 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408676",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G11E-Pawlowski",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": 12,
+      "goal_diff": 18,
       "goals_against": 12,
-      "goals_for": 24,
+      "goals_for": 30,
       "losses": 0,
-      "played": 6,
-      "points": 14,
+      "played": 7,
+      "points": 17,
       "team_raw": "GlenRidge-G11E-Deptula",
-      "wins": 4
-    },
-    {
-      "club": "NoValley",
-      "coach": "Pawlowski",
-      "draws": 1,
-      "form": "WWWDL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408644",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G11E-Buttacavoli",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "408648",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G11E-Deptula",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "GLENRDGE-ForestAve"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408651",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G11E-Crowley",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408653",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G11E-Betamour",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408658",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G11E-Goers",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408661",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "AYSOBergen",
-          "opponent_raw": "AYSOBergen-G11E-Kessler",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "AYSO-CommunityField1"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408666",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G11E-Alexander",
-          "result": "D",
-          "time": "04:15 PM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408671",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G11E-Buttacavoli",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "HAWTHORNE-Veterans"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 12,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 8,
-      "points": 13,
-      "team_raw": "NoValley-G11E-Pawlowski",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Southside",
       "coach": "Betamour",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -375,115 +293,148 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408673",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G11E-Alexander",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WEssex-Egan"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 15,
-      "goals_for": 10,
+      "goal_diff": -4,
+      "goals_against": 18,
+      "goals_for": 14,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Southside-G11E-Betamour",
-      "wins": 4
+      "wins": 5
     },
     {
-      "club": "WestEssex",
-      "coach": "Alexander",
+      "club": "NoValley",
+      "coach": "Pawlowski",
       "draws": 1,
-      "form": "LWWDL",
+      "form": "WWDLL",
       "games": [
         {
-          "date": "2026-04-12",
-          "game_number": "408646",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G11E-Betamour",
-          "result": "L",
-          "time": "08:30 AM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408649",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "AYSOBergen",
-          "opponent_raw": "AYSOBergen-G11E-Kessler",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "WEssex-Volunteers"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408655",
-          "goals_against": 3,
+          "date": "2026-03-29",
+          "game_number": "408644",
+          "goals_against": 0,
           "goals_for": 2,
           "opponent_club": "Paramus",
           "opponent_raw": "Paramus-G11E-Buttacavoli",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "408648",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G11E-Deptula",
           "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "WEssex-TOBeirne-9v9"
+          "time": "04:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408651",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11E-Crowley",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408653",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G11E-Betamour",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-Rec-Field"
         },
         {
           "date": "2026-05-03",
-          "game_number": "408660",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G11E-Crowley",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "WEssex-Egan"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408664",
+          "game_number": "408658",
           "goals_against": 0,
           "goals_for": 2,
           "opponent_club": "Dragons",
           "opponent_raw": "Dragons-G11E-Goers",
           "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408661",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G11E-Kessler",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "AYSO-CommunityField1"
         },
         {
           "date": "2026-05-17",
           "game_number": "408666",
           "goals_against": 2,
           "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G11E-Pawlowski",
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G11E-Alexander",
           "result": "D",
           "time": "04:15 PM",
           "venue_code": "NoVAL-Trackside"
         },
         {
           "date": "2026-05-31",
-          "game_number": "408670",
+          "game_number": "408671",
           "goals_against": 2,
-          "goals_for": 1,
+          "goals_for": 0,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G11E-Buttacavoli",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408676",
+          "goals_against": 6,
+          "goals_for": 0,
           "opponent_club": "GlenRidge",
           "opponent_raw": "GlenRidge-G11E-Deptula",
           "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "GLENRDGE-ForestAve"
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 14,
-      "goals_for": 16,
-      "losses": 3,
-      "played": 7,
-      "points": 10,
-      "team_raw": "WestEssex-G11E-Alexander",
-      "wins": 3
+      "goal_diff": -1,
+      "goals_against": 18,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 9,
+      "points": 13,
+      "team_raw": "NoValley-G11E-Pawlowski",
+      "wins": 4
     },
     {
       "club": "Dragons",
       "coach": "Goers",
       "draws": 2,
-      "form": "LLWDL",
+      "form": "LWDLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -572,22 +523,137 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408675",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G11E-Kessler",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 16,
-      "goals_for": 14,
+      "goal_diff": -1,
+      "goals_against": 19,
+      "goals_for": 18,
+      "losses": 4,
+      "played": 9,
+      "points": 11,
+      "team_raw": "Dragons-G11E-Goers",
+      "wins": 3
+    },
+    {
+      "club": "WestEssex",
+      "coach": "Alexander",
+      "draws": 1,
+      "form": "WWDLL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "408646",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G11E-Betamour",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408649",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G11E-Kessler",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408655",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G11E-Buttacavoli",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408660",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11E-Crowley",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "WEssex-Egan"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408664",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11E-Goers",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408666",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G11E-Pawlowski",
+          "result": "D",
+          "time": "04:15 PM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408670",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G11E-Deptula",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408673",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G11E-Betamour",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WEssex-Egan"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 18,
+      "goals_for": 19,
       "losses": 4,
       "played": 8,
-      "points": 8,
-      "team_raw": "Dragons-G11E-Goers",
-      "wins": 2
+      "points": 10,
+      "team_raw": "WestEssex-G11E-Alexander",
+      "wins": 3
     },
     {
       "club": "Vikings",
       "coach": "Crowley",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -665,13 +731,24 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "AYSO-CommunityField1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408674",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G11E-Buttacavoli",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 28,
-      "goals_for": 12,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -18,
+      "goals_against": 31,
+      "goals_for": 13,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Vikings-G11E-Crowley",
       "wins": 2
@@ -680,7 +757,7 @@
       "club": "AYSOBergen",
       "coach": "Kessler",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-05-17",
@@ -736,13 +813,24 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "AYSO-CommunityField1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408675",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11E-Goers",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 18,
-      "goals_for": 10,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -9,
+      "goals_against": 22,
+      "goals_for": 13,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "AYSOBergen-G11E-Kessler",
       "wins": 1

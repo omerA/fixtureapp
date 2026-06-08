@@ -1,13 +1,13 @@
 {
   "division": "G13C",
-  "scraped_at": "2026-06-07T08:48:51.750077Z",
+  "scraped_at": "2026-06-08T10:17:54.701193Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Vikings",
       "coach": "Sampson",
-      "draws": 1,
-      "form": "WWWLD",
+      "draws": 2,
+      "form": "WWLDD",
       "games": [
         {
           "date": "2026-05-17",
@@ -85,104 +85,33 @@
           "result": "D",
           "time": "04:15 PM",
           "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408983",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G13C-Zdon",
+          "result": "D",
+          "time": "05:15 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": 8,
       "goals_against": 10,
       "goals_for": 18,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 17,
       "team_raw": "Vikings-G13C-Sampson",
       "wins": 5
-    },
-    {
-      "club": "Warriors",
-      "coach": "Clark",
-      "draws": 1,
-      "form": "DLWLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "408964",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G13C-Zdon",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "WALD-HSNorth"
-        },
-        {
-          "date": "2026-05-07",
-          "game_number": "408968",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G13C-Key",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "NY-MWU-HudsonComplex"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408973",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G13C-Gallagher",
-          "result": "D",
-          "time": "08:00 PM",
-          "venue_code": "WALD-HSNorth"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408976",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13C-Sampson",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408977",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G13C-Key",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408980",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G13C-Zdon",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 13,
-      "goals_for": 15,
-      "losses": 2,
-      "played": 6,
-      "points": 10,
-      "team_raw": "Warriors-G13C-Clark",
-      "wins": 3
     },
     {
       "club": "JerseyCity",
       "coach": "Gallagher",
       "draws": 3,
-      "form": "DDLWD",
+      "form": "DLWDW",
       "games": [
         {
           "date": "2026-05-17",
@@ -260,16 +189,120 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408984",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G13C-Clark",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "JC-CochraneCaven"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 17,
-      "goals_for": 15,
+      "goal_diff": 0,
+      "goals_against": 19,
+      "goals_for": 19,
       "losses": 2,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "JerseyCity-G13C-Gallagher",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "Warriors",
+      "coach": "Clark",
+      "draws": 1,
+      "form": "LWLWL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "408964",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G13C-Zdon",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "WALD-HSNorth"
+        },
+        {
+          "date": "2026-05-07",
+          "game_number": "408968",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G13C-Key",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408973",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G13C-Gallagher",
+          "result": "D",
+          "time": "08:00 PM",
+          "venue_code": "WALD-HSNorth"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408976",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13C-Sampson",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408977",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G13C-Key",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408980",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G13C-Zdon",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408984",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G13C-Gallagher",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "JC-CochraneCaven"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 17,
+      "goals_for": 17,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
+      "team_raw": "Warriors-G13C-Clark",
+      "wins": 3
     },
     {
       "club": "Force",
@@ -356,8 +389,8 @@
     {
       "club": "Rutherford",
       "coach": "Zdon",
-      "draws": 2,
-      "form": "DLLLD",
+      "draws": 3,
+      "form": "LLLDD",
       "games": [
         {
           "date": "2026-03-29",
@@ -424,14 +457,25 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408983",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13C-Sampson",
+          "result": "D",
+          "time": "05:15 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": -5,
       "goals_against": 14,
       "goals_for": 9,
       "losses": 4,
-      "played": 6,
-      "points": 2,
+      "played": 7,
+      "points": 3,
       "team_raw": "Rutherford-G13C-Zdon",
       "wins": 0
     }

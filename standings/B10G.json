@@ -1,13 +1,13 @@
 {
   "division": "B10G",
-  "scraped_at": "2026-06-07T08:42:45.442359Z",
+  "scraped_at": "2026-06-08T10:11:39.912472Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-05-09",
@@ -85,22 +85,33 @@
           "result": "L",
           "time": "11:45 AM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406905",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10G-Engel",
+          "result": "W",
+          "time": "08:45 AM",
+          "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 12,
-      "goals_for": 36,
+      "goal_diff": 28,
+      "goals_against": 13,
+      "goals_for": 41,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "WoodRidge-B10G-Prior",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Emerson",
       "coach": "DeCarlo",
       "draws": 0,
-      "form": "LWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -189,22 +200,33 @@
           "result": "W",
           "time": "11:45 AM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406904",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10G-Gandolfi",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 37,
-      "goals_for": 51,
+      "goal_diff": 20,
+      "goals_against": 39,
+      "goals_for": 59,
       "losses": 3,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "Emerson-B10G-DeCarlo",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "GlenRidge",
       "coach": "Engel",
       "draws": 0,
-      "form": "WLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-06-06",
@@ -282,13 +304,24 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406905",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10G-Prior",
+          "result": "L",
+          "time": "08:45 AM",
+          "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 32,
-      "goals_for": 33,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -3,
+      "goals_against": 37,
+      "goals_for": 34,
+      "losses": 4,
+      "played": 8,
       "points": 12,
       "team_raw": "GlenRidge-B10G-Engel",
       "wins": 4
@@ -297,7 +330,7 @@
       "club": "Ajax",
       "coach": "Parlegreco",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -386,22 +419,33 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406906",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10G-Camara",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 42,
-      "goals_for": 34,
+      "goal_diff": -4,
+      "goals_against": 43,
+      "goals_for": 39,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "Ajax-B10G-Parlegreco",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "HobUtd",
       "coach": "Gandolfi",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-05-09",
@@ -490,13 +534,24 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406904",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10G-DeCarlo",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 33,
-      "goals_for": 21,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -18,
+      "goals_against": 41,
+      "goals_for": 23,
+      "losses": 6,
+      "played": 9,
       "points": 9,
       "team_raw": "HobUtd-B10G-Gandolfi",
       "wins": 3
@@ -505,7 +560,7 @@
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-06-06",
@@ -594,13 +649,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406906",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10G-Parlegreco",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 35,
-      "goals_for": 16,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -23,
+      "goals_against": 40,
+      "goals_for": 17,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "WayneBG-B10G-Camara",
       "wins": 2

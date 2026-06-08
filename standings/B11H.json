@@ -1,13 +1,13 @@
 {
   "division": "B11H",
-  "scraped_at": "2026-06-07T08:43:44.521551Z",
+  "scraped_at": "2026-06-08T10:12:38.193400Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
-      "coach": "Cotter",
+      "coach": "AustinX",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -96,16 +96,27 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407517",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11H-Monroe",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 17,
-      "goals_for": 46,
+      "goal_diff": 36,
+      "goals_against": 19,
+      "goals_for": 55,
       "losses": 1,
-      "played": 8,
-      "points": 21,
-      "team_raw": "Maroons-B11H-Cotter",
-      "wins": 7
+      "played": 9,
+      "points": 24,
+      "team_raw": "Maroons-B11H-AustinX",
+      "wins": 8
     },
     {
       "club": "Americans",
@@ -212,6 +223,121 @@
       "wins": 6
     },
     {
+      "club": "Dragons",
+      "coach": "Dean",
+      "draws": 1,
+      "form": "LLWWW",
+      "games": [
+        {
+          "date": "2026-06-06",
+          "game_number": "407493",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11H-Ditaban",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "AMER-Crestwd Lower"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407495",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-AustinX",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407499",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11H-Monroe",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407500",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11H-Pocovnicu",
+          "result": "D",
+          "time": "02:15 PM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407503",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11H-Farevaag",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407507",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11H-Ditaban",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407511",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-AustinX",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407513",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11H-Monroe",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407515",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11H-Pocovnicu",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
+      "goal_diff": -17,
+      "goals_against": 37,
+      "goals_for": 20,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Dragons-B11H-Dean",
+      "wins": 3
+    },
+    {
       "club": "RiverDell",
       "coach": "Farevaag",
       "draws": 0,
@@ -305,114 +431,10 @@
       "wins": 3
     },
     {
-      "club": "Dragons",
-      "coach": "Dean",
-      "draws": 1,
-      "form": "LLLWW",
-      "games": [
-        {
-          "date": "2026-06-06",
-          "game_number": "407493",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B11H-Ditaban",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "AMER-Crestwd Lower"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407495",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B11H-AustinX",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407499",
-          "goals_against": 8,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B11H-Monroe",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407500",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B11H-Pocovnicu",
-          "result": "D",
-          "time": "02:15 PM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407503",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B11H-Farevaag",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407507",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B11H-Ditaban",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407511",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B11H-AustinX",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "MAR-GlenSchool"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407513",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B11H-Monroe",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HOT-AdornoLower"
-        }
-      ],
-      "goal_diff": -21,
-      "goals_against": 36,
-      "goals_for": 15,
-      "losses": 5,
-      "played": 8,
-      "points": 7,
-      "team_raw": "Dragons-B11H-Dean",
-      "wins": 2
-    },
-    {
       "club": "Hotspur",
       "coach": "Monroe",
       "draws": 1,
-      "form": "LWLDL",
+      "form": "WLDLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -501,13 +523,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407517",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-AustinX",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 30,
-      "goals_for": 21,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -16,
+      "goals_against": 39,
+      "goals_for": 23,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "Hotspur-B11H-Monroe",
       "wins": 2
@@ -516,7 +549,7 @@
       "club": "NoValley",
       "coach": "Pocovnicu",
       "draws": 1,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -594,16 +627,131 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407515",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B11H-Dean",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 40,
-      "goals_for": 19,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -25,
+      "goals_against": 45,
+      "goals_for": 20,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "NoValley-B11H-Pocovnicu",
       "wins": 1
+    },
+    {
+      "club": "Maroons",
+      "coach": "Cotter",
+      "draws": 0,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "407491",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11H-Pocovnicu",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407495",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B11H-Dean",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407497",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11H-Farevaag",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407501",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11H-Monroe",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "407504",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11H-Ditaban",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407508",
+          "goals_against": 4,
+          "goals_for": 11,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11H-Pocovnicu",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407511",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B11H-Dean",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407514",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11H-Farevaag",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": 29,
+      "goals_against": 17,
+      "goals_for": 46,
+      "losses": 1,
+      "played": 8,
+      "points": 21,
+      "team_raw": "Maroons-B11H-Cotter",
+      "wins": 7
     }
   ]
 }

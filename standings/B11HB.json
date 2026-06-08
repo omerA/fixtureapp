@@ -1,13 +1,13 @@
 {
   "division": "B11HB",
-  "scraped_at": "2026-06-07T08:43:47.909101Z",
+  "scraped_at": "2026-06-08T10:12:41.520215Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "RIDGFLD",
       "coach": "Salinas",
       "draws": 1,
-      "form": "WWLDW",
+      "form": "WLDWW",
       "games": [
         {
           "date": "2026-05-16",
@@ -96,22 +96,33 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407754",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B11HB-Henderson",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": 32,
-      "goals_against": 8,
-      "goals_for": 40,
+      "goal_diff": 35,
+      "goals_against": 11,
+      "goals_for": 46,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "RIDGFLD-B11HB-Salinas",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Secaucus",
       "coach": "Elachejai",
       "draws": 0,
-      "form": "LWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-05-16",
@@ -200,13 +211,24 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407752",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B11HB-Lainee",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "Haledon-MnchstHS-Sml"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 27,
-      "goals_for": 42,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 14,
+      "goals_against": 29,
+      "goals_for": 43,
+      "losses": 3,
+      "played": 9,
       "points": 18,
       "team_raw": "Secaucus-B11HB-Elachejai",
       "wins": 6
@@ -215,7 +237,7 @@
       "club": "Spartan",
       "coach": "Crollo",
       "draws": 1,
-      "form": "WWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -304,22 +326,33 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407753",
+          "goals_against": 6,
+          "goals_for": 8,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-B11HB-Zamudio",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 30,
-      "goals_for": 29,
+      "goal_diff": 1,
+      "goals_against": 36,
+      "goals_for": 37,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "Spartan-B11HB-Crollo",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Southside",
       "coach": "Lainee",
       "draws": 3,
-      "form": "LLDDW",
+      "form": "LDDWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -408,22 +441,33 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407752",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B11HB-Elachejai",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "Haledon-MnchstHS-Sml"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 19,
-      "goals_for": 18,
+      "goal_diff": 0,
+      "goals_against": 20,
+      "goals_for": 20,
       "losses": 3,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "Southside-B11HB-Lainee",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Bayonne",
       "coach": "Zamudio",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -512,13 +556,24 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407753",
+          "goals_against": 8,
+          "goals_for": 6,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B11HB-Crollo",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": -31,
-      "goals_against": 52,
-      "goals_for": 21,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -33,
+      "goals_against": 60,
+      "goals_for": 27,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "Bayonne-B11HB-Zamudio",
       "wins": 2
@@ -527,7 +582,7 @@
       "club": "Rutherford",
       "coach": "Henderson",
       "draws": 1,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -616,13 +671,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407754",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B11HB-Salinas",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 32,
-      "goals_for": 18,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -17,
+      "goals_against": 38,
+      "goals_for": 21,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Rutherford-B11HB-Henderson",
       "wins": 1

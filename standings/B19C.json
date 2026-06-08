@@ -1,13 +1,13 @@
 {
   "division": "B19C",
-  "scraped_at": "2026-06-07T08:46:18.827441Z",
+  "scraped_at": "2026-06-08T10:15:14.753126Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoBergen",
       "coach": "POTOSI",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-04-19",
@@ -76,6 +76,17 @@
           "venue_code": "NA-Zadroga1"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "405134",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B19C-Olivo",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
           "date": "2026-05-15",
           "game_number": "406084",
           "goals_against": 1,
@@ -98,14 +109,14 @@
           "venue_code": "WDRDG-AthleticComp"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 14,
-      "goals_for": 27,
+      "goal_diff": 14,
+      "goals_against": 16,
+      "goals_for": 30,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "NoBergen-B19C-POTOSI",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "WoodRidge",
@@ -226,7 +237,7 @@
       "club": "NoArlington",
       "coach": "Hughes",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -306,6 +317,17 @@
           "venue_code": "NA-Zadroga1"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "405133",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B19C-Kahn",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
           "date": "2026-04-18",
           "game_number": "405530",
           "goals_against": 5,
@@ -317,20 +339,20 @@
           "venue_code": "NA-Zadroga1"
         }
       ],
-      "goal_diff": -6,
+      "goal_diff": -3,
       "goals_against": 29,
-      "goals_for": 23,
+      "goals_for": 26,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "NoArlington-B19C-Hughes",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Rutherford",
       "coach": "Olivo",
       "draws": 2,
-      "form": "WDWLD",
+      "form": "DWLDL",
       "games": [
         {
           "date": "2026-04-12",
@@ -399,6 +421,17 @@
           "venue_code": "RUTH-Tryon"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "405134",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19C-POTOSI",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
           "date": "2026-05-03",
           "game_number": "405138",
           "goals_against": 4,
@@ -421,11 +454,11 @@
           "venue_code": "WDRDG-AthleticComp"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 33,
-      "goals_for": 18,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -16,
+      "goals_against": 36,
+      "goals_for": 20,
+      "losses": 5,
+      "played": 9,
       "points": 8,
       "team_raw": "Rutherford-B19C-Olivo",
       "wins": 2
@@ -503,6 +536,17 @@
           "venue_code": "WDRDG-AthleticComp"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "405133",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B19C-Hughes",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
           "date": "2026-05-03",
           "game_number": "405138",
           "goals_against": 5,
@@ -525,11 +569,11 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 36,
+      "goal_diff": -23,
+      "goals_against": 39,
       "goals_for": 16,
-      "losses": 7,
-      "played": 8,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "Hotspur-B19C-Kahn",
       "wins": 1

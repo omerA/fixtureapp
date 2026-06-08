@@ -1,13 +1,13 @@
 {
   "division": "B19D",
-  "scraped_at": "2026-06-07T08:46:22.208798Z",
+  "scraped_at": "2026-06-08T10:15:18.060705Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "AviatorsHHSA",
       "coach": "McGill",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-05-10",
@@ -85,16 +85,27 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405165",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B19D-Esteban",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "BGFD-Vivyen"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 4,
-      "goals_for": 29,
+      "goal_diff": 26,
+      "goals_against": 5,
+      "goals_for": 31,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "AviatorsHHSA-B19D-McGill",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Emerson",
@@ -629,6 +640,17 @@
           "venue_code": "AMER-LakeStTurf"
         },
         {
+          "date": "2026-06-07",
+          "game_number": "405165",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B19D-McGill",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "BGFD-Vivyen"
+        },
+        {
           "date": "2026-06-05",
           "game_number": "405166",
           "goals_against": 2,
@@ -640,11 +662,11 @@
           "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -42,
-      "goals_against": 51,
-      "goals_for": 9,
-      "losses": 9,
-      "played": 9,
+      "goal_diff": -43,
+      "goals_against": 53,
+      "goals_for": 10,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "Bergenfield-B19D-Esteban",
       "wins": 0

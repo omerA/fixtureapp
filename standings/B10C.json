@@ -1,6 +1,6 @@
 {
   "division": "B10C",
-  "scraped_at": "2026-06-07T08:42:23.196245Z",
+  "scraped_at": "2026-06-08T10:11:17.085398Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Verona",
       "coach": "Moreng",
       "draws": 1,
-      "form": "WWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-05-01",
@@ -211,16 +211,27 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408292",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10C-Waraska",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 19,
-      "goals_for": 32,
+      "goal_diff": 16,
+      "goals_against": 21,
+      "goals_for": 37,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "Verona-B10C-Moreng",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Paramus",
@@ -341,7 +352,7 @@
       "club": "NoValley",
       "coach": "Waraska",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -430,13 +441,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408292",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10C-Moreng",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 22,
-      "goals_for": 37,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": 12,
+      "goals_against": 27,
+      "goals_for": 39,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "NoValley-B10C-Waraska",
       "wins": 5
@@ -445,7 +467,7 @@
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-05-01",
@@ -534,16 +556,27 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408290",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10C-Kenny",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 39,
-      "goals_for": 22,
+      "goal_diff": -12,
+      "goals_against": 40,
+      "goals_for": 28,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 9,
       "team_raw": "Torpedoes-B10C-Gjoca",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "HobUtd",
@@ -638,13 +671,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408290",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10C-Gjoca",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 40,
-      "goals_for": 12,
-      "losses": 8,
-      "played": 8,
+      "goal_diff": -33,
+      "goals_against": 46,
+      "goals_for": 13,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "HobUtd-B10C-Kenny",
       "wins": 0

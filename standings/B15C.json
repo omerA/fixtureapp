@@ -1,6 +1,6 @@
 {
   "division": "B15C",
-  "scraped_at": "2026-06-07T08:45:50.932947Z",
+  "scraped_at": "2026-06-08T10:14:47.161356Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -181,8 +181,8 @@
     {
       "club": "AviatorsHHSA",
       "coach": "Bonfrisco",
-      "draws": 2,
-      "form": "WWDLL",
+      "draws": 3,
+      "form": "WDLLD",
       "games": [
         {
           "date": "2026-04-12",
@@ -249,14 +249,25 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405090",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B15C-Guedes",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
       "goal_diff": 1,
-      "goals_against": 17,
-      "goals_for": 18,
+      "goals_against": 20,
+      "goals_for": 21,
       "losses": 2,
-      "played": 6,
-      "points": 8,
+      "played": 7,
+      "points": 9,
       "team_raw": "AviatorsHHSA-B15C-Bonfrisco",
       "wins": 2
     },
@@ -356,8 +367,8 @@
     {
       "club": "SaddleBR",
       "coach": "Guedes",
-      "draws": 2,
-      "form": "LLLLD",
+      "draws": 3,
+      "form": "LLLDD",
       "games": [
         {
           "date": "2026-05-30",
@@ -424,14 +435,25 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405090",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B15C-Bonfrisco",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-Hitchcock"
         }
       ],
       "goal_diff": -12,
-      "goals_against": 23,
-      "goals_for": 11,
+      "goals_against": 26,
+      "goals_for": 14,
       "losses": 4,
-      "played": 6,
-      "points": 2,
+      "played": 7,
+      "points": 3,
       "team_raw": "SaddleBR-B15C-Guedes",
       "wins": 0
     }

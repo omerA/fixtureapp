@@ -1,6 +1,6 @@
 {
   "division": "G11D",
-  "scraped_at": "2026-06-07T08:47:59.775661Z",
+  "scraped_at": "2026-06-08T10:17:01.248620Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,7 +111,7 @@
       "club": "GlenRock",
       "coach": "Hughes",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-05-30",
@@ -200,13 +200,24 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408632",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G11D-Coylex",
+          "result": "L",
+          "time": "08:45 AM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 23,
-      "goals_against": 11,
+      "goal_diff": 20,
+      "goals_against": 14,
       "goals_for": 34,
-      "losses": 1,
-      "played": 8,
+      "losses": 2,
+      "played": 9,
       "points": 21,
       "team_raw": "GlenRock-G11D-Hughes",
       "wins": 7
@@ -215,7 +226,7 @@
       "club": "Rutherford",
       "coach": "Szalkiewicz",
       "draws": 1,
-      "form": "WWWDL",
+      "form": "WWDLW",
       "games": [
         {
           "date": "2026-05-06",
@@ -304,22 +315,33 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408633",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G11D-OBrien",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 13,
-      "goals_for": 29,
+      "goal_diff": 21,
+      "goals_against": 14,
+      "goals_for": 35,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "Rutherford-G11D-Szalkiewicz",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Mahwah",
       "coach": "Cullaro",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -386,22 +408,33 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408631",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G11D-DeRosa",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 11,
-      "goals_for": 22,
+      "goal_diff": 16,
+      "goals_against": 12,
+      "goals_for": 28,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Mahwah-G11D-Cullaro",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Maywood",
       "coach": "Pardo",
       "draws": 1,
-      "form": "WWDLL",
+      "form": "WDLLW",
       "games": [
         {
           "date": "2026-04-19",
@@ -468,15 +501,108 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408634",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G11D-Lennon",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 16,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 7,
+      "points": 13,
+      "team_raw": "Maywood-G11D-Pardo",
+      "wins": 4
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Coylex",
+      "draws": 0,
+      "form": "WLWLW",
+      "games": [
+        {
+          "date": "2026-04-19",
+          "game_number": "408602",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G11D-Cullaro",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408610",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G11D-OBrien",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408613",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11D-Neblock",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408619",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G11D-Hong",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408621",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G11D-Szalkiewicz",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408632",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11D-Hughes",
+          "result": "W",
+          "time": "08:45 AM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
       "goal_diff": 8,
-      "goals_against": 16,
-      "goals_for": 24,
-      "losses": 2,
+      "goals_against": 17,
+      "goals_for": 25,
+      "losses": 3,
       "played": 6,
-      "points": 10,
-      "team_raw": "Maywood-G11D-Pardo",
+      "points": 9,
+      "team_raw": "NMKnights-G11D-Coylex",
       "wins": 3
     },
     {
@@ -573,77 +699,6 @@
       "wins": 3
     },
     {
-      "club": "NMKnights",
-      "coach": "Coylex",
-      "draws": 0,
-      "form": "LWLWL",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "408602",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G11D-Cullaro",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408610",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G11D-OBrien",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "NMilford-Williams9v9"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408613",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G11D-Neblock",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408619",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G11D-Hong",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "NMilford-Williams9v9"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408621",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G11D-Szalkiewicz",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "RUTH-Tamblyn"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 17,
-      "goals_for": 22,
-      "losses": 3,
-      "played": 5,
-      "points": 6,
-      "team_raw": "NMKnights-G11D-Coylex",
-      "wins": 2
-    },
-    {
       "club": "RiverDell",
       "coach": "Lennon",
       "draws": 0,
@@ -736,13 +791,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "COUGSC-Dehart2"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408634",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11D-Pardo",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 25,
+      "goal_diff": -14,
+      "goals_against": 27,
       "goals_for": 13,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "RiverDell-G11D-Lennon",
       "wins": 2
@@ -751,7 +817,7 @@
       "club": "Hotspur",
       "coach": "DeRosa",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-05-31",
@@ -818,13 +884,24 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408631",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G11D-Cullaro",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 12,
-      "goals_for": 3,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -14,
+      "goals_against": 18,
+      "goals_for": 4,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "Hotspur-G11D-DeRosa",
       "wins": 1
@@ -833,7 +910,7 @@
       "club": "Americans",
       "coach": "OBrien",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-05-30",
@@ -922,13 +999,24 @@
           "result": "W",
           "time": "04:45 PM",
           "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408633",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G11D-Szalkiewicz",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 40,
-      "goals_for": 15,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -30,
+      "goals_against": 46,
+      "goals_for": 16,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "Americans-G11D-OBrien",
       "wins": 1

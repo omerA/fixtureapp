@@ -1,13 +1,13 @@
 {
   "division": "B11C",
-  "scraped_at": "2026-06-08T10:12:09.490207Z",
+  "scraped_at": "2026-06-09T08:56:06.579218Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Montclair",
       "coach": "Baffico",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -96,16 +96,27 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "MONT-BrookdaleD"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408346",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B11C-Budko",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
-      "goal_diff": 24,
+      "goal_diff": 28,
       "goals_against": 9,
-      "goals_for": 33,
+      "goals_for": 37,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "Montclair-B11C-Baffico",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "RIDGFLD",
@@ -226,7 +237,7 @@
       "club": "BLMFLD",
       "coach": "Budko",
       "draws": 3,
-      "form": "WWDDL",
+      "form": "WDDLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -315,13 +326,24 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408346",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B11C-Baffico",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 14,
+      "goal_diff": 3,
+      "goals_against": 18,
       "goals_for": 21,
-      "losses": 1,
-      "played": 8,
+      "losses": 2,
+      "played": 9,
       "points": 15,
       "team_raw": "BLMFLD-B11C-Budko",
       "wins": 4

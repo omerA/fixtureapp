@@ -1,6 +1,6 @@
 {
   "division": "G13E",
-  "scraped_at": "2026-06-08T10:18:02.701613Z",
+  "scraped_at": "2026-06-09T09:01:48.173875Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,7 +111,7 @@
       "club": "Harrison",
       "coach": "Flores",
       "draws": 1,
-      "form": "LWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -200,16 +200,27 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "409052",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G13E-Bianco",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
         }
       ],
-      "goal_diff": 16,
+      "goal_diff": 17,
       "goals_against": 8,
-      "goals_for": 24,
+      "goals_for": 25,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "Harrison-G13E-Flores",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Maroons",
@@ -431,99 +442,6 @@
       "wins": 2
     },
     {
-      "club": "Hotspur",
-      "coach": "Bianco",
-      "draws": 1,
-      "form": "WLLDL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "409028",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G13E-Canales",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "409029",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G13E-Forsythe",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "MAR-Stevens"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "409034",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G13E-Marks",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-06-05",
-          "game_number": "409035",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-G13E-Flores",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409042",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G13E-Canales",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "409046",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G13E-Forsythe",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "409048",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G13E-Marks",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "LKLND-AddicePrk"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 16,
-      "goals_for": 12,
-      "losses": 5,
-      "played": 7,
-      "points": 4,
-      "team_raw": "Hotspur-G13E-Bianco",
-      "wins": 1
-    },
-    {
       "club": "RdgfldPk",
       "coach": "Ramos",
       "draws": 1,
@@ -603,6 +521,110 @@
       "played": 6,
       "points": 4,
       "team_raw": "RdgfldPk-G13E-Ramos",
+      "wins": 1
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Bianco",
+      "draws": 1,
+      "form": "LLDLL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "409028",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G13E-Canales",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "409029",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13E-Forsythe",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409034",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G13E-Marks",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "409035",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-G13E-Flores",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409042",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G13E-Canales",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409046",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13E-Forsythe",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409048",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G13E-Marks",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "LKLND-AddicePrk"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "409052 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-G13E-Flores",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 17,
+      "goals_for": 12,
+      "losses": 6,
+      "played": 8,
+      "points": 4,
+      "team_raw": "Hotspur-G13E-Bianco",
       "wins": 1
     }
   ]

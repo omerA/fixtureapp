@@ -1,6 +1,6 @@
 {
   "division": "G12C",
-  "scraped_at": "2026-06-08T10:17:27.746333Z",
+  "scraped_at": "2026-06-09T09:01:14.539873Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -442,6 +442,121 @@
       "wins": 3
     },
     {
+      "club": "Ajax",
+      "coach": "Jackson",
+      "draws": 1,
+      "form": "LLWWW",
+      "games": [
+        {
+          "date": "2026-06-08",
+          "game_number": "408775",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12C-Carbo",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408778",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G12C-Shah",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408784",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G12C-Buttacavoli",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408789",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12C-Collins",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408793",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12C-House",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408796",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G12C-Chakmakjian",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408800",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12C-OHara",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408802",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12C-Carbo",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408807",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G12C-Shah",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        }
+      ],
+      "goal_diff": -8,
+      "goals_against": 24,
+      "goals_for": 16,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Ajax-G12C-Jackson",
+      "wins": 3
+    },
+    {
       "club": "Mahwah",
       "coach": "Shah",
       "draws": 1,
@@ -672,115 +787,22 @@
       "wins": 2
     },
     {
-      "club": "Ajax",
-      "coach": "Jackson",
-      "draws": 1,
-      "form": "LLLWW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408778",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G12C-Shah",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408784",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G12C-Buttacavoli",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "HAWTHORNE-Veterans"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "408789",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G12C-Collins",
-          "result": "L",
-          "time": "10:15 AM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408793",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G12C-House",
-          "result": "D",
-          "time": "04:45 PM",
-          "venue_code": "GLENRDGE-ForestAve"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408796",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G12C-Chakmakjian",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408800",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12C-OHara",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408802",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12C-Carbo",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "408807",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G12C-Shah",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        }
-      ],
-      "goal_diff": -10,
-      "goals_against": 24,
-      "goals_for": 14,
-      "losses": 5,
-      "played": 8,
-      "points": 7,
-      "team_raw": "Ajax-G12C-Jackson",
-      "wins": 2
-    },
-    {
       "club": "Vikings",
       "coach": "Carbo",
       "draws": 2,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
+        {
+          "date": "2026-06-08",
+          "game_number": "408775",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G12C-Jackson",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408780",
@@ -870,11 +892,11 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 28,
+      "goal_diff": -23,
+      "goals_against": 30,
       "goals_for": 7,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 2,
       "team_raw": "Vikings-G12C-Carbo",
       "wins": 0

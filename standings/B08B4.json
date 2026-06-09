@@ -1,8 +1,123 @@
 {
   "division": "B08B4",
-  "scraped_at": "2026-06-08T10:09:26.365555Z",
+  "scraped_at": "2026-06-09T08:53:45.351783Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Montclair",
+      "coach": "Goldberg",
+      "draws": 0,
+      "form": "WLWWW",
+      "games": [
+        {
+          "date": "2026-04-18",
+          "game_number": "406649",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08B4-King",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406654",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08B4-Hegyi",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "406656",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B08B4-Kaynar",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406658",
+          "goals_against": 6,
+          "goals_for": 7,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B4-Whalen",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406663",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08B4-Falciglia",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406668",
+          "goals_against": 10,
+          "goals_for": 5,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08B4-Hegyi",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406670",
+          "goals_against": 4,
+          "goals_for": 9,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B08B4-Kaynar",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406673",
+          "goals_against": 7,
+          "goals_for": 12,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B4-Whalen",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406677",
+          "goals_against": 5,
+          "goals_for": 10,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08B4-Falciglia",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "MONT-Brookdale4v4"
+        }
+      ],
+      "goal_diff": 24,
+      "goals_against": 40,
+      "goals_for": 64,
+      "losses": 1,
+      "played": 9,
+      "points": 24,
+      "team_raw": "Montclair-B08B4-Goldberg",
+      "wins": 8
+    },
     {
       "club": "Spartan",
       "coach": "Hegyi",
@@ -111,7 +226,7 @@
       "club": "GlobalJC",
       "coach": "Whalen",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -200,98 +315,27 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406673",
+          "goals_against": 12,
+          "goals_for": 7,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08B4-Goldberg",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
         }
       ],
-      "goal_diff": 30,
-      "goals_against": 38,
-      "goals_for": 68,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 25,
+      "goals_against": 50,
+      "goals_for": 75,
+      "losses": 3,
+      "played": 9,
       "points": 18,
       "team_raw": "GlobalJC-B08B4-Whalen",
       "wins": 6
-    },
-    {
-      "club": "Montclair",
-      "coach": "Goldberg",
-      "draws": 0,
-      "form": "WWWLW",
-      "games": [
-        {
-          "date": "2026-04-18",
-          "game_number": "406649",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B08B4-King",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "NMilford-Williams4v4"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406654",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08B4-Hegyi",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "MONT-Brookdale4v4"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406658",
-          "goals_against": 6,
-          "goals_for": 7,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B08B4-Whalen",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MONT-Brookdale4v4"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406663",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08B4-Falciglia",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "AMER-Bogert"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406668",
-          "goals_against": 10,
-          "goals_for": 5,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08B4-Hegyi",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "PAR-ParkwayMS7"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "406677",
-          "goals_against": 5,
-          "goals_for": 10,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08B4-Falciglia",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "MONT-Brookdale4v4"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 29,
-      "goals_for": 42,
-      "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "Montclair-B08B4-Goldberg",
-      "wins": 5
     },
     {
       "club": "Americans",
@@ -552,6 +596,17 @@
           "venue_code": "AMER-StLuke"
         },
         {
+          "date": "2026-05-16",
+          "game_number": "406656 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08B4-Goldberg",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
           "date": "2026-04-26",
           "game_number": "406660",
           "goals_against": 5,
@@ -594,13 +649,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "AMER-StLuke"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406670",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08B4-Goldberg",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "MONT-Brookdale4v4"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 48,
-      "goals_for": 15,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -39,
+      "goals_against": 58,
+      "goals_for": 19,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Paramus-B08B4-Kaynar",
       "wins": 0

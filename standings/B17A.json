@@ -1,6 +1,6 @@
 {
   "division": "B17A",
-  "scraped_at": "2026-06-08T10:15:04.428996Z",
+  "scraped_at": "2026-06-09T08:58:59.278781Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -250,93 +250,22 @@
       "wins": 2
     },
     {
-      "club": "Warriors",
-      "coach": "Gabriele",
-      "draws": 2,
-      "form": "LDDLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "407390",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B17A-Antunes",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407393",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B17A-Guevara",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407395",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B17A-Nylander",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407396",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B17A-Uribe",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "RDGFLDPK-McKeown"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "407401",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B17A-Antunes",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407402",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B17A-Guevara",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 21,
-      "goals_for": 12,
-      "losses": 4,
-      "played": 6,
-      "points": 2,
-      "team_raw": "Warriors-B17A-Gabriele",
-      "wins": 0
-    },
-    {
       "club": "Arsenal",
       "coach": "Nylander",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLW",
       "games": [
+        {
+          "date": "2026-06-07",
+          "game_number": "406983",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B17A-Gabriele",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
         {
           "date": "2026-03-29",
           "game_number": "407388",
@@ -404,13 +333,106 @@
           "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 22,
-      "goals_for": 9,
+      "goal_diff": -9,
+      "goals_against": 23,
+      "goals_for": 14,
       "losses": 5,
-      "played": 6,
-      "points": 1,
+      "played": 7,
+      "points": 4,
       "team_raw": "Arsenal-B17A-Nylander",
+      "wins": 1
+    },
+    {
+      "club": "Warriors",
+      "coach": "Gabriele",
+      "draws": 2,
+      "form": "DDLLL",
+      "games": [
+        {
+          "date": "2026-06-07",
+          "game_number": "406983",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B17A-Nylander",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407390",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B17A-Antunes",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407393",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B17A-Guevara",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407395",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B17A-Nylander",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407396",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B17A-Uribe",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "407401",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B17A-Antunes",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407402",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B17A-Guevara",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        }
+      ],
+      "goal_diff": -13,
+      "goals_against": 26,
+      "goals_for": 13,
+      "losses": 5,
+      "played": 7,
+      "points": 2,
+      "team_raw": "Warriors-B17A-Gabriele",
       "wins": 0
     }
   ]

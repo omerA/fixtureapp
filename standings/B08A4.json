@@ -1,6 +1,6 @@
 {
   "division": "B08A4",
-  "scraped_at": "2026-06-08T10:09:15.936257Z",
+  "scraped_at": "2026-06-09T08:53:37.555848Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -455,8 +455,8 @@
     {
       "club": "GlobalJC",
       "coach": "Sarr",
-      "draws": 1,
-      "form": "WLLLL",
+      "draws": 2,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -545,22 +545,33 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "ARS-Dorchester1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "404583",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B08A4-Hughes",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 30,
-      "goals_for": 30,
+      "goals_against": 32,
+      "goals_for": 32,
       "losses": 4,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 11,
       "team_raw": "GlobalJC-B08A4-Sarr",
       "wins": 3
     },
     {
       "club": "WoodRidge",
       "coach": "Hughes",
-      "draws": 0,
-      "form": "LLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-06-06",
@@ -638,14 +649,25 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "WDRDG-Athletic-W4v4B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "404583",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08A4-Sarr",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
         }
       ],
       "goal_diff": -20,
-      "goals_against": 41,
-      "goals_for": 21,
+      "goals_against": 43,
+      "goals_for": 23,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "WoodRidge-B08A4-Hughes",
       "wins": 1
     }

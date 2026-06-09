@@ -1,6 +1,6 @@
 {
   "division": "B11H",
-  "scraped_at": "2026-06-08T10:12:38.193400Z",
+  "scraped_at": "2026-06-09T08:56:35.606675Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Americans",
       "coach": "Ditaban",
       "draws": 1,
-      "form": "WWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-06-06",
@@ -211,16 +211,27 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407516",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11H-Farevaag",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "AMER-Crestwd Lower"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 16,
-      "goals_for": 40,
+      "goal_diff": 26,
+      "goals_against": 17,
+      "goals_for": 43,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Americans-B11H-Ditaban",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Dragons",
@@ -341,7 +352,7 @@
       "club": "RiverDell",
       "coach": "Farevaag",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -419,13 +430,24 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407516",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11H-Ditaban",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "AMER-Crestwd Lower"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 21,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -4,
+      "goals_against": 24,
+      "goals_for": 20,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "RiverDell-B11H-Farevaag",
       "wins": 3

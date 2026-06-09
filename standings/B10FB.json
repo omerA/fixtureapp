@@ -1,6 +1,6 @@
 {
   "division": "B10FB",
-  "scraped_at": "2026-06-08T10:11:36.540472Z",
+  "scraped_at": "2026-06-09T08:55:33.162621Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -352,7 +352,7 @@
       "club": "Maroons",
       "coach": "Lawrence",
       "draws": 2,
-      "form": "LLDWL",
+      "form": "LDWLW",
       "games": [
         {
           "date": "2026-05-30",
@@ -441,22 +441,33 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406876",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10FB-Irwin",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 20,
-      "goals_for": 18,
+      "goal_diff": 5,
+      "goals_against": 21,
+      "goals_for": 26,
       "losses": 4,
-      "played": 8,
-      "points": 8,
+      "played": 9,
+      "points": 11,
       "team_raw": "Maroons-B10FB-Lawrence",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "GlenRock",
       "coach": "Irwin",
       "draws": 1,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-05-09",
@@ -545,13 +556,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406876",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10FB-Lawrence",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": -26,
-      "goals_against": 44,
-      "goals_for": 18,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -33,
+      "goals_against": 52,
+      "goals_for": 19,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "GlenRock-B10FB-Irwin",
       "wins": 1

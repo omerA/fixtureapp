@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-06-08T10:12:59.994242Z",
+  "scraped_at": "2026-06-09T08:56:56.873361Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -691,7 +691,7 @@
       "club": "Teaneck",
       "coach": "Valle",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -758,13 +758,24 @@
           "result": "L",
           "time": "03:45 PM",
           "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-06-08",
+          "game_number": "408417",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 19,
-      "goals_for": 16,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -4,
+      "goals_against": 22,
+      "goals_for": 18,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Teaneck-B12C-Valle",
       "wins": 2
@@ -773,7 +784,7 @@
       "club": "Bergenfield",
       "coach": "Camino",
       "draws": 1,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-04-12",
@@ -840,16 +851,27 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "MAHWAH-RamCollMid4"
+        },
+        {
+          "date": "2026-06-08",
+          "game_number": "408417",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12C-Valle",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 20,
-      "goals_for": 8,
+      "goal_diff": -11,
+      "goals_against": 22,
+      "goals_for": 11,
       "losses": 5,
-      "played": 6,
-      "points": 1,
+      "played": 7,
+      "points": 4,
       "team_raw": "Bergenfield-B12C-Camino",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "NoBergen",

@@ -1,13 +1,13 @@
 {
   "division": "B12GB",
-  "scraped_at": "2026-06-08T10:13:24.458640Z",
+  "scraped_at": "2026-06-09T08:57:19.055711Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Broncos",
       "coach": "Chaves",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,13 +96,24 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406280",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B12GB-Hoffer",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "CLIF-Latteri"
         }
       ],
-      "goal_diff": 41,
-      "goals_against": 6,
-      "goals_for": 47,
-      "losses": 0,
-      "played": 8,
+      "goal_diff": 40,
+      "goals_against": 10,
+      "goals_for": 50,
+      "losses": 1,
+      "played": 9,
       "points": 24,
       "team_raw": "Broncos-B12GB-Chaves",
       "wins": 8
@@ -111,7 +122,7 @@
       "club": "WOrange",
       "coach": "Hoffer",
       "draws": 1,
-      "form": "LWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -200,22 +211,33 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "WORANGE-LibertyMS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406280",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B12GB-Chaves",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "CLIF-Latteri"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 23,
-      "goals_for": 28,
+      "goal_diff": 6,
+      "goals_against": 26,
+      "goals_for": 32,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "WOrange-B12GB-Hoffer",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Verona",
       "coach": "Heimerle",
-      "draws": 2,
-      "form": "WLWWD",
+      "draws": 3,
+      "form": "LWWDD",
       "games": [
         {
           "date": "2026-03-29",
@@ -295,6 +317,17 @@
           "venue_code": "VERONA-Freedom1"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "406275",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12GB-Regan",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "406279",
           "goals_against": 0,
@@ -307,11 +340,11 @@
         }
       ],
       "goal_diff": 3,
-      "goals_against": 24,
-      "goals_for": 27,
+      "goals_against": 27,
+      "goals_for": 30,
       "losses": 2,
-      "played": 8,
-      "points": 14,
+      "played": 9,
+      "points": 15,
       "team_raw": "Verona-B12GB-Heimerle",
       "wins": 4
     },
@@ -433,8 +466,8 @@
     {
       "club": "Nutley",
       "coach": "Regan",
-      "draws": 0,
-      "form": "WLLLL",
+      "draws": 1,
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -514,6 +547,17 @@
           "venue_code": "GLENRDGE-WashFld"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "406275",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12GB-Heimerle",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "406278",
           "goals_against": 3,
@@ -526,11 +570,11 @@
         }
       ],
       "goal_diff": -17,
-      "goals_against": 36,
-      "goals_for": 19,
+      "goals_against": 39,
+      "goals_for": 22,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 7,
       "team_raw": "Nutley-B12GB-Regan",
       "wins": 2
     },

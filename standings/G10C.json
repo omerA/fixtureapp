@@ -1,13 +1,13 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-06-08T10:16:17.387223Z",
+  "scraped_at": "2026-06-09T09:00:08.253278Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Bayonne",
       "coach": "Henriquez",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -96,22 +96,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "BAY-SGreggQuad-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405217",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10C-DePinho",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "WORANGE-LibertyMS2"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 10,
-      "goals_for": 25,
+      "goal_diff": 16,
+      "goals_against": 12,
+      "goals_for": 28,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Bayonne-G10C-Henriquez",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "WOrange",
       "coach": "DePinho",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-05-16",
@@ -200,13 +211,24 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405217",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G10C-Henriquez",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "WORANGE-LibertyMS2"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 17,
-      "goals_for": 24,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 6,
+      "goals_against": 20,
+      "goals_for": 26,
+      "losses": 3,
+      "played": 9,
       "points": 18,
       "team_raw": "WOrange-G10C-DePinho",
       "wins": 6

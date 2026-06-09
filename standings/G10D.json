@@ -1,6 +1,6 @@
 {
   "division": "G10D",
-  "scraped_at": "2026-06-08T10:16:20.729166Z",
+  "scraped_at": "2026-06-09T09:00:11.637200Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -226,7 +226,7 @@
       "club": "SilverLakeAcademy",
       "coach": "Donegan",
       "draws": 2,
-      "form": "WWDLD",
+      "form": "WDLDW",
       "games": [
         {
           "date": "2026-04-12",
@@ -293,16 +293,27 @@
           "result": "D",
           "time": "04:45 PM",
           "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405245",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-Laskowski",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": -3,
+      "goal_diff": -2,
       "goals_against": 16,
-      "goals_for": 13,
+      "goals_for": 14,
       "losses": 2,
-      "played": 6,
-      "points": 8,
+      "played": 7,
+      "points": 11,
       "team_raw": "SilverLakeAcademy-G10D-Donegan",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Rutherford",
@@ -594,13 +605,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405245",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 36,
+      "goal_diff": -25,
+      "goals_against": 37,
       "goals_for": 12,
-      "losses": 8,
-      "played": 8,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "Clarkstown-G10D-Laskowski",
       "wins": 0

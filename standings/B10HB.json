@@ -1,6 +1,6 @@
 {
   "division": "B10HB",
-  "scraped_at": "2026-06-09T08:55:48.702737Z",
+  "scraped_at": "2026-06-10T09:36:28.491239Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -1030,9 +1030,20 @@
     {
       "club": "Verona",
       "coach": "Ostendorp",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
+        {
+          "date": "2026-06-08",
+          "game_number": "407419",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10HB-Chambers",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "VERONA-Centennial"
+        },
         {
           "date": "2026-03-29",
           "game_number": "407423",
@@ -1112,20 +1123,31 @@
         }
       ],
       "goal_diff": -26,
-      "goals_against": 39,
-      "goals_for": 13,
+      "goals_against": 44,
+      "goals_for": 18,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "Verona-B10HB-Ostendorp",
       "wins": 1
     },
     {
       "club": "Maroons",
       "coach": "Chambers",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
+        {
+          "date": "2026-06-08",
+          "game_number": "407419",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10HB-Ostendorp",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "VERONA-Centennial"
+        },
         {
           "date": "2026-04-11",
           "game_number": "407426",
@@ -1205,11 +1227,11 @@
         }
       ],
       "goal_diff": -26,
-      "goals_against": 48,
-      "goals_for": 22,
+      "goals_against": 53,
+      "goals_for": 27,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "Maroons-B10HB-Chambers",
       "wins": 1
     }

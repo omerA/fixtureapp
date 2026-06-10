@@ -1,6 +1,6 @@
 {
   "division": "B15D",
-  "scraped_at": "2026-06-09T08:58:45.164401Z",
+  "scraped_at": "2026-06-10T09:39:23.233298Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -467,7 +467,7 @@
       "club": "Dumont",
       "coach": "Cambareri",
       "draws": 1,
-      "form": "WDLLL",
+      "form": "DLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -556,16 +556,27 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406366",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B15D-Parks",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 29,
-      "goals_for": 8,
+      "goal_diff": -17,
+      "goals_against": 30,
+      "goals_for": 13,
       "losses": 6,
-      "played": 8,
-      "points": 4,
+      "played": 9,
+      "points": 7,
       "team_raw": "Dumont-B15D-Cambareri",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "HobUtd",
@@ -660,13 +671,24 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406366",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B15D-Cambareri",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -36,
-      "goals_against": 42,
-      "goals_for": 6,
-      "losses": 8,
-      "played": 8,
+      "goal_diff": -40,
+      "goals_against": 47,
+      "goals_for": 7,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "HobUtd-B15D-Parks",
       "wins": 0

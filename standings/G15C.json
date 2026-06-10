@@ -1,8 +1,112 @@
 {
   "division": "G15C",
-  "scraped_at": "2026-06-09T09:02:20.306773Z",
+  "scraped_at": "2026-06-10T09:42:56.241670Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Verona",
+      "coach": "Davila",
+      "draws": 1,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "409096",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G15C-Parris",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "409100",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-G15C-Garcia",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "409102",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G15C-Lulic",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-StThomas"
+        },
+        {
+          "date": "2026-06-09",
+          "game_number": "409107",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G15C-Marks",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "409110",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G15C-Collins",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "409115",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-G15C-Hernandez",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409116",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G15C-Parris",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "409120",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-G15C-Garcia",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "BGFD-Vivyen"
+        }
+      ],
+      "goal_diff": 36,
+      "goals_against": 2,
+      "goals_for": 38,
+      "losses": 0,
+      "played": 8,
+      "points": 22,
+      "team_raw": "Verona-G15C-Davila",
+      "wins": 7
+    },
     {
       "club": "Vikings",
       "coach": "Lulic",
@@ -106,99 +210,6 @@
       "points": 21,
       "team_raw": "Vikings-G15C-Lulic",
       "wins": 7
-    },
-    {
-      "club": "Verona",
-      "coach": "Davila",
-      "draws": 1,
-      "form": "DWWWW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "409096",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G15C-Parris",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "BLMFLD-Foley"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "409100",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-G15C-Garcia",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "VERONA-Freedom1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "409102",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G15C-Lulic",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-StThomas"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "409110",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G15C-Collins",
-          "result": "D",
-          "time": "11:30 AM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "409115",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-G15C-Hernandez",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "VERONA-Freedom1"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "409116",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G15C-Parris",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "VERONA-Freedom1"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "409120",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-G15C-Garcia",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "BGFD-Vivyen"
-        }
-      ],
-      "goal_diff": 30,
-      "goals_against": 2,
-      "goals_for": 32,
-      "losses": 0,
-      "played": 7,
-      "points": 19,
-      "team_raw": "Verona-G15C-Davila",
-      "wins": 6
     },
     {
       "club": "BLMFLD",
@@ -319,7 +330,7 @@
       "club": "Lakeland",
       "coach": "Marks",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -366,6 +377,17 @@
           "venue_code": "LKLND-LakelandHS"
         },
         {
+          "date": "2026-06-09",
+          "game_number": "409107",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G15C-Davila",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "409114",
           "goals_against": 2,
@@ -399,11 +421,11 @@
           "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 15,
+      "goal_diff": 0,
+      "goals_against": 21,
       "goals_for": 21,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "points": 12,
       "team_raw": "Lakeland-G15C-Marks",
       "wins": 4

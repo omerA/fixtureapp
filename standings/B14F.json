@@ -1,6 +1,6 @@
 {
   "division": "B14F",
-  "scraped_at": "2026-06-09T08:58:26.195942Z",
+  "scraped_at": "2026-06-10T09:39:04.358679Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -434,7 +434,7 @@
       "club": "Paramus",
       "coach": "Salik",
       "draws": 1,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -512,13 +512,24 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407728",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-B14F-Montufar",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 31,
-      "goals_for": 11,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -25,
+      "goals_against": 37,
+      "goals_for": 12,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "Paramus-B14F-Salik",
       "wins": 2
@@ -724,7 +735,7 @@
       "club": "Bayonne",
       "coach": "Montufar",
       "draws": 2,
-      "form": "WLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -802,16 +813,27 @@
           "result": "W",
           "time": "06:15 PM",
           "venue_code": "ProspPk-Hofstra Park"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407728",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B14F-Salik",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 18,
-      "goals_for": 29,
+      "goal_diff": 16,
+      "goals_against": 19,
+      "goals_for": 35,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 17,
       "team_raw": "Bayonne-B14F-Montufar",
-      "wins": 4
+      "wins": 5
     }
   ]
 }

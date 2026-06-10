@@ -86,20 +86,6 @@
       "time": "06:15 PM"
     },
     {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-G12B-Roche",
-      "date": "2026-04-26",
-      "division": "G12B",
-      "field": "TBS Postponed",
-      "game_id": "408751",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-G12B-Charoth",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Montclair",
       "away_score": 0,
       "away_team": "Montclair-G12B-Rugel",
@@ -493,19 +479,33 @@
     },
     {
       "away_club": "WayneBG",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "WayneBG-G12B-Bova",
       "date": "2026-06-09",
       "division": "G12B",
       "field": "Parkway Middle School 9",
       "game_id": "408743",
       "home_club": "Spartan",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Spartan-G12B-Kelly",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:30 PM"
+    },
+    {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-G12B-Roche",
+      "date": "2026-06-18",
+      "division": "G12B",
+      "field": "Gateway Field",
+      "game_id": "408751",
+      "home_club": "GlobalJC",
+      "home_score": null,
+      "home_team": "GlobalJC-G12B-Charoth",
+      "is_upcoming": true,
+      "time": "06:30 PM"
     }
   ],
-  "scraped_at": "2026-06-09T09:08:23.961127Z",
+  "scraped_at": "2026-06-10T09:48:59.770737Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

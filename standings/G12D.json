@@ -1,8 +1,123 @@
 {
   "division": "G12D",
-  "scraped_at": "2026-06-09T09:01:18.352751Z",
+  "scraped_at": "2026-06-10T09:41:54.815128Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "NoValley",
+      "coach": "Mamalian",
+      "draws": 1,
+      "form": "LWDWW",
+      "games": [
+        {
+          "date": "2026-04-11",
+          "game_number": "408812",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12D-Wexler",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408815",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G12D-Macias",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "LF-MerhoffSmall1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408818",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G12D-Gray",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-26",
+          "game_number": "408824",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12D-Lucey",
+          "result": "D",
+          "time": "06:15 PM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "408829",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G12D-Ramirez",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408833",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-G12D-Valle",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408835",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G12D-Gonzalez",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408839",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12D-Wexler",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408842",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G12D-Macias",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NoVAL-Trackside"
+        }
+      ],
+      "goal_diff": 30,
+      "goals_against": 12,
+      "goals_for": 42,
+      "losses": 1,
+      "played": 9,
+      "points": 22,
+      "team_raw": "NoValley-G12D-Mamalian",
+      "wins": 7
+    },
     {
       "club": "Teaneck",
       "coach": "Valle",
@@ -106,110 +221,6 @@
       "points": 21,
       "team_raw": "Teaneck-G12D-Valle",
       "wins": 7
-    },
-    {
-      "club": "NoValley",
-      "coach": "Mamalian",
-      "draws": 1,
-      "form": "WLWDW",
-      "games": [
-        {
-          "date": "2026-04-11",
-          "game_number": "408812",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G12D-Wexler",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408815",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G12D-Macias",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "LF-MerhoffSmall1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408818",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G12D-Gray",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-26",
-          "game_number": "408824",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G12D-Lucey",
-          "result": "D",
-          "time": "06:15 PM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "408829",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G12D-Ramirez",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408833",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-G12D-Valle",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408835",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G12D-Gonzalez",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "LYND-RecCtrFld4"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408839",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G12D-Wexler",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "HOT-AdornoLower"
-        }
-      ],
-      "goal_diff": 23,
-      "goals_against": 12,
-      "goals_for": 35,
-      "losses": 1,
-      "played": 8,
-      "points": 19,
-      "team_raw": "NoValley-G12D-Mamalian",
-      "wins": 6
     },
     {
       "club": "Hotspur",
@@ -549,7 +560,7 @@
       "club": "Fairview",
       "coach": "Macias",
       "draws": 1,
-      "form": "WDLWW",
+      "form": "DLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -627,13 +638,24 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408842",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G12D-Mamalian",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 17,
+      "goal_diff": -3,
+      "goals_against": 24,
       "goals_for": 21,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Fairview-G12D-Macias",
       "wins": 3

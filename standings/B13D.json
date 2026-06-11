@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-06-10T09:38:25.714222Z",
+  "scraped_at": "2026-06-11T10:01:04.501667Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -237,7 +237,7 @@
       "club": "Rutherford",
       "coach": "Williams",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-04-04",
@@ -315,13 +315,24 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-06-10",
+          "game_number": "405019",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-B13D-Garcia",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-HighSchool"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 7,
-      "goals_for": 35,
-      "losses": 0,
-      "played": 7,
+      "goal_diff": 27,
+      "goals_against": 11,
+      "goals_for": 38,
+      "losses": 1,
+      "played": 8,
       "points": 19,
       "team_raw": "Rutherford-B13D-Williams",
       "wins": 6
@@ -434,7 +445,7 @@
       "club": "AYSOBergen",
       "coach": "Garcia",
       "draws": 0,
-      "form": "WWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-04-12",
@@ -512,16 +523,27 @@
           "result": "L",
           "time": "02:45 PM",
           "venue_code": "AYSO-Community-Large"
+        },
+        {
+          "date": "2026-06-10",
+          "game_number": "405019",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13D-Williams",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-HighSchool"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 19,
-      "goals_for": 31,
+      "goal_diff": 13,
+      "goals_against": 22,
+      "goals_for": 35,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "AYSOBergen-B13D-Garcia",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "GlenRock",

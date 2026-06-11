@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-06-10T09:37:35.981557Z",
+  "scraped_at": "2026-06-11T10:00:14.788661Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -110,8 +110,8 @@
     {
       "club": "Mahwah",
       "coach": "Fitzsimmons",
-      "draws": 1,
-      "form": "WWDWW",
+      "draws": 2,
+      "form": "WDWWD",
       "games": [
         {
           "date": "2026-05-30",
@@ -200,22 +200,33 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "MAHWAH-RamCollMid4"
+        },
+        {
+          "date": "2026-06-10",
+          "game_number": "408421",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "D",
+          "time": "05:45 PM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
       "goal_diff": 24,
-      "goals_against": 15,
-      "goals_for": 39,
+      "goals_against": 17,
+      "goals_for": 41,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 20,
       "team_raw": "Mahwah-B12C-Fitzsimmons",
       "wins": 6
     },
     {
       "club": "Dragons",
       "coach": "Wein",
-      "draws": 2,
-      "form": "DWDWW",
+      "draws": 3,
+      "form": "WDWWD",
       "games": [
         {
           "date": "2026-04-12",
@@ -293,14 +304,25 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-06-10",
+          "game_number": "408421",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "D",
+          "time": "05:45 PM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
       "goal_diff": 9,
-      "goals_against": 11,
-      "goals_for": 20,
+      "goals_against": 13,
+      "goals_for": 22,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 15,
       "team_raw": "Dragons-B12C-Wein",
       "wins": 4
     },

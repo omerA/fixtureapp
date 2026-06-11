@@ -1,6 +1,6 @@
 {
   "division": "B10BB",
-  "scraped_at": "2026-06-10T09:35:51.128681Z",
+  "scraped_at": "2026-06-11T09:58:30.767032Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -226,8 +226,19 @@
       "club": "RiverDell",
       "coach": "Heydt",
       "draws": 2,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
+        {
+          "date": "2026-06-10",
+          "game_number": "408238",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10BB-Meyrowitz",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408239",
@@ -317,11 +328,11 @@
           "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 28,
-      "goals_for": 22,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -7,
+      "goals_against": 30,
+      "goals_for": 23,
+      "losses": 5,
+      "played": 9,
       "points": 8,
       "team_raw": "RiverDell-B10BB-Heydt",
       "wins": 2
@@ -330,8 +341,19 @@
       "club": "Montclair",
       "coach": "Meyrowitz",
       "draws": 2,
-      "form": "DLLWL",
+      "form": "LLWLW",
       "games": [
+        {
+          "date": "2026-06-10",
+          "game_number": "408238",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10BB-Heydt",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408240",
@@ -410,14 +432,14 @@
           "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 21,
-      "goals_for": 19,
+      "goal_diff": -1,
+      "goals_against": 22,
+      "goals_for": 21,
       "losses": 4,
-      "played": 7,
-      "points": 5,
+      "played": 8,
+      "points": 8,
       "team_raw": "Montclair-B10BB-Meyrowitz",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "UnionCity",

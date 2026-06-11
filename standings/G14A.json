@@ -1,6 +1,6 @@
 {
   "division": "G14A",
-  "scraped_at": "2026-06-10T09:42:34.936033Z",
+  "scraped_at": "2026-06-11T10:05:10.366732Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,7 +111,7 @@
       "club": "FairLawnAllSports",
       "coach": "Cepeda",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -158,6 +158,17 @@
           "venue_code": "AVIA-Hitchcock"
         },
         {
+          "date": "2026-06-10",
+          "game_number": "405770",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G14A-Kowal",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "405776",
           "goals_against": 1,
@@ -202,20 +213,20 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 9,
+      "goal_diff": 12,
       "goals_against": 13,
-      "goals_for": 22,
+      "goals_for": 25,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "FairLawnAllSports-G14A-Cepeda",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Mahwah",
       "coach": "Kowal",
       "draws": 1,
-      "form": "WLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-04-11",
@@ -262,6 +273,17 @@
           "venue_code": "HAWTHORNE-Veterans"
         },
         {
+          "date": "2026-06-10",
+          "game_number": "405770",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14A-Cepeda",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
           "date": "2026-04-30",
           "game_number": "405775",
           "goals_against": 5,
@@ -295,11 +317,11 @@
           "venue_code": "MAR-Stevens"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 18,
+      "goal_diff": 2,
+      "goals_against": 21,
       "goals_for": 23,
-      "losses": 2,
-      "played": 7,
+      "losses": 3,
+      "played": 8,
       "points": 13,
       "team_raw": "Mahwah-G14A-Kowal",
       "wins": 4

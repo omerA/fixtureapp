@@ -1,13 +1,13 @@
 {
   "division": "B11B",
-  "scraped_at": "2026-06-11T09:59:21.047363Z",
+  "scraped_at": "2026-06-12T09:51:38.292831Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "FairLawnAllSports",
       "coach": "DeFina",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -87,6 +87,17 @@
           "venue_code": "FL-CenterRec1A"
         },
         {
+          "date": "2026-06-11",
+          "game_number": "407943",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11B-Ceron",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "407947",
           "goals_against": 1,
@@ -98,11 +109,11 @@
           "venue_code": "FL-Brookdale"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 12,
-      "goals_for": 37,
-      "losses": 0,
-      "played": 8,
+      "goal_diff": 21,
+      "goals_against": 18,
+      "goals_for": 39,
+      "losses": 1,
+      "played": 9,
       "points": 22,
       "team_raw": "FairLawnAllSports-B11B-DeFina",
       "wins": 7
@@ -341,7 +352,7 @@
       "club": "NoArlington",
       "coach": "Ceron",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -421,6 +432,17 @@
           "venue_code": "NA-Zadroga2"
         },
         {
+          "date": "2026-06-11",
+          "game_number": "407943",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11B-DeFina",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "407946",
           "goals_against": 0,
@@ -432,14 +454,14 @@
           "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 23,
-      "goals_for": 29,
+      "goal_diff": 10,
+      "goals_against": 25,
+      "goals_for": 35,
       "losses": 4,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 15,
       "team_raw": "NoArlington-B11B-Ceron",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "RYSA",

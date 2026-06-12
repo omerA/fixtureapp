@@ -1,8 +1,112 @@
 {
   "division": "G09C",
-  "scraped_at": "2026-06-11T10:02:57.258195Z",
+  "scraped_at": "2026-06-12T09:55:16.091267Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Clarkstown",
+      "coach": "JuarezOsorio",
+      "draws": 1,
+      "form": "WDWWW",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "405900",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G09C-Coulson",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "JC-GatewaySm2"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405906",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G09C-Trentacosti",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405909",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G09C-Fontalvo",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405918",
+          "goals_against": 6,
+          "goals_for": 8,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09C-Dzilla",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "405921",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G09C-Matos",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
+          "date": "2026-06-11",
+          "game_number": "405928",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G09C-Pajuelo",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405930",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09C-Horgan",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "VIK-HaworthTurf"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "405943",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G09C-Kivlehan",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-3"
+        }
+      ],
+      "goal_diff": 15,
+      "goals_against": 21,
+      "goals_for": 36,
+      "losses": 0,
+      "played": 8,
+      "points": 22,
+      "team_raw": "Clarkstown-G09C-JuarezOsorio",
+      "wins": 7
+    },
     {
       "club": "WorldClassFC",
       "coach": "Leone",
@@ -111,7 +215,7 @@
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 1,
-      "form": "WLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -169,6 +273,17 @@
           "venue_code": "WEssex-Volunteers"
         },
         {
+          "date": "2026-06-11",
+          "game_number": "405928",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G09C-JuarezOsorio",
+          "result": "L",
+          "time": "07:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "405932",
           "goals_against": 0,
@@ -202,106 +317,13 @@
           "venue_code": "WEssex-Volunteers"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 13,
-      "goals_for": 27,
-      "losses": 1,
-      "played": 8,
+      "goal_diff": 12,
+      "goals_against": 18,
+      "goals_for": 30,
+      "losses": 2,
+      "played": 9,
       "points": 19,
       "team_raw": "WestEssex-G09C-Pajuelo",
-      "wins": 6
-    },
-    {
-      "club": "Clarkstown",
-      "coach": "JuarezOsorio",
-      "draws": 1,
-      "form": "WWDWW",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "405900",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G09C-Coulson",
-          "result": "D",
-          "time": "02:30 PM",
-          "venue_code": "JC-GatewaySm2"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405906",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G09C-Trentacosti",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405909",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-G09C-Fontalvo",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405918",
-          "goals_against": 6,
-          "goals_for": 8,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09C-Dzilla",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "405921",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G09C-Matos",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "NA-Zadroga3"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405930",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G09C-Horgan",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "VIK-HaworthTurf"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "405943",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G09C-Kivlehan",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "WALD-HSTurf-3"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 18,
-      "goals_for": 31,
-      "losses": 0,
-      "played": 7,
-      "points": 19,
-      "team_raw": "Clarkstown-G09C-JuarezOsorio",
       "wins": 6
     },
     {

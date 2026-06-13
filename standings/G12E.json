@@ -1,112 +1,8 @@
 {
   "division": "G12E",
-  "scraped_at": "2026-06-12T09:56:53.525927Z",
+  "scraped_at": "2026-06-13T08:49:56.248881Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Dumont",
-      "coach": "Hegel",
-      "draws": 2,
-      "form": "LWDWW",
-      "games": [
-        {
-          "date": "2026-04-18",
-          "game_number": "408846",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12E-Markh",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "DUM-TwinBoro"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "408848",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G12E-Kunz",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "408852",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12E-Markh",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "DUM-TwinBoro"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408853",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G12E-Kunz",
-          "result": "W",
-          "time": "12:45 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408857",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G12E-Orozco",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "DUM-TwinBoro"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408860",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12E-Flanagan",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "NoVAL-NorthvaleVet"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408861",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12E-Markh",
-          "result": "W",
-          "time": "12:15 PM",
-          "venue_code": "GLENRDGE-WashFld"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408864",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G12E-Kunz",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "DUM-TwinBoro"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 10,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 8,
-      "points": 17,
-      "team_raw": "Dumont-G12E-Hegel",
-      "wins": 5
-    },
     {
       "club": "Vikings",
       "coach": "Flanagan",
@@ -202,19 +98,19 @@
           "venue_code": "NoVAL-NorthvaleVet"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 10,
-      "goals_for": 18,
+      "goal_diff": 6,
+      "goals_against": 9,
+      "goals_for": 15,
       "losses": 2,
       "played": 8,
-      "points": 16,
+      "points": 13,
       "team_raw": "Vikings-G12E-Flanagan",
-      "wins": 5
+      "wins": 4
     },
     {
       "club": "Warriors",
       "coach": "Orozco",
-      "draws": 2,
+      "draws": 1,
       "form": "DWLWW",
       "games": [
         {
@@ -307,18 +203,122 @@
         }
       ],
       "goal_diff": 9,
-      "goals_against": 13,
-      "goals_for": 22,
+      "goals_against": 10,
+      "goals_for": 19,
       "losses": 2,
       "played": 8,
-      "points": 14,
+      "points": 13,
       "team_raw": "Warriors-G12E-Orozco",
       "wins": 4
     },
     {
+      "club": "Dumont",
+      "coach": "Hegel",
+      "draws": 2,
+      "form": "LWDWW",
+      "games": [
+        {
+          "date": "2026-04-18",
+          "game_number": "408846",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12E-Markh",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "408848",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G12E-Kunz",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "408852",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12E-Markh",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408853",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G12E-Kunz",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408857",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12E-Orozco",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408860",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12E-Flanagan",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408861",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12E-Markh",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "GLENRDGE-WashFld"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408864",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G12E-Kunz",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 8,
+      "goals_for": 12,
+      "losses": 1,
+      "played": 8,
+      "points": 11,
+      "team_raw": "Dumont-G12E-Hegel",
+      "wins": 3
+    },
+    {
       "club": "Montclair",
       "coach": "Markh",
-      "draws": 0,
+      "draws": 1,
       "form": "WLLLD",
       "games": [
         {
@@ -421,19 +421,19 @@
           "venue_code": "MONT-BrookdleStad9v9"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 0,
-      "goals_for": 1,
-      "losses": 0,
+      "goal_diff": -5,
+      "goals_against": 16,
+      "goals_for": 11,
+      "losses": 4,
       "played": 9,
-      "points": 3,
+      "points": 7,
       "team_raw": "Montclair-G12E-Markh",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Clarkstown",
       "coach": "Kunz",
-      "draws": 0,
+      "draws": 1,
       "form": "DWLLL",
       "games": [
         {
@@ -536,14 +536,14 @@
           "venue_code": "NoVAL-NorthvaleVet"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 1,
-      "goals_for": 0,
-      "losses": 1,
+      "goal_diff": -14,
+      "goals_against": 18,
+      "goals_for": 4,
+      "losses": 5,
       "played": 9,
-      "points": 0,
+      "points": 4,
       "team_raw": "Clarkstown-G12E-Kunz",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

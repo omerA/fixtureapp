@@ -1,6 +1,6 @@
 {
   "division": "B09F",
-  "scraped_at": "2026-06-12T09:50:19.784205Z",
+  "scraped_at": "2026-06-13T08:42:34.943340Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -133,8 +133,19 @@
       "club": "WestEssex",
       "coach": "Scorciolla",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
+        {
+          "date": "2026-06-11",
+          "game_number": "404708",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B09F-Balmos",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "WEssex-TOBeirne-Sml"
+        },
         {
           "date": "2026-03-29",
           "game_number": "404710",
@@ -235,118 +246,14 @@
           "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 43,
-      "goals_against": 16,
-      "goals_for": 59,
-      "losses": 1,
-      "played": 9,
-      "points": 24,
-      "team_raw": "WestEssex-B09F-Scorciolla",
-      "wins": 8
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Balmos",
-      "draws": 2,
-      "form": "DWLWW",
-      "games": [
-        {
-          "date": "2026-05-03",
-          "game_number": "404711",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09F-Mankey",
-          "result": "D",
-          "time": "10:00 AM",
-          "venue_code": "COUGSC-Borden2"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "404720",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09F-Ayesteran",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "404722",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B09F-Henriques",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "404731",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B09F-Bravo",
-          "result": "D",
-          "time": "02:30 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-06-10",
-          "game_number": "404742",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B09F-Mancheno",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "404751",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-B09F-Elachejai",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "SECAU-CountyShetikFl"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "404756",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B09F-Duka",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "404761",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B09F-Green",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "AMER-WestMaple"
-        }
-      ],
-      "goal_diff": 14,
+      "goal_diff": 45,
       "goals_against": 18,
-      "goals_for": 32,
+      "goals_for": 63,
       "losses": 1,
-      "played": 8,
-      "points": 17,
-      "team_raw": "Rutherford-B09F-Balmos",
-      "wins": 5
+      "played": 10,
+      "points": 27,
+      "team_raw": "WestEssex-B09F-Scorciolla",
+      "wins": 9
     },
     {
       "club": "CougarSC",
@@ -472,6 +379,121 @@
       "played": 10,
       "points": 17,
       "team_raw": "CougarSC-B09F-Mankey",
+      "wins": 5
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Balmos",
+      "draws": 2,
+      "form": "WLWWL",
+      "games": [
+        {
+          "date": "2026-06-11",
+          "game_number": "404708",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B09F-Scorciolla",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "WEssex-TOBeirne-Sml"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "404711",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09F-Mankey",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "COUGSC-Borden2"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404720",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09F-Ayesteran",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "404722",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09F-Henriques",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "404731",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B09F-Bravo",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-10",
+          "game_number": "404742",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09F-Mancheno",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404751",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-B09F-Elachejai",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404756",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09F-Duka",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "404761",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B09F-Green",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AMER-WestMaple"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 22,
+      "goals_for": 34,
+      "losses": 2,
+      "played": 9,
+      "points": 17,
+      "team_raw": "Rutherford-B09F-Balmos",
       "wins": 5
     },
     {

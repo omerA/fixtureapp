@@ -1,6 +1,6 @@
 {
   "division": "G13A",
-  "scraped_at": "2026-06-12T09:57:06.518771Z",
+  "scraped_at": "2026-06-13T08:50:09.329012Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -319,7 +319,7 @@
       "club": "NMKnights",
       "coach": "Regas",
       "draws": 3,
-      "form": "WLDWD",
+      "form": "LDWDL",
       "games": [
         {
           "date": "2026-06-08",
@@ -397,13 +397,24 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-06-12",
+          "game_number": "408934",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G13A-Murillo",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NMilford-NMHS-Main"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 5,
+      "goal_diff": 3,
+      "goals_against": 6,
       "goals_for": 9,
-      "losses": 1,
-      "played": 7,
+      "losses": 2,
+      "played": 8,
       "points": 12,
       "team_raw": "NMKnights-G13A-Regas",
       "wins": 3
@@ -527,7 +538,7 @@
       "club": "NoBergen",
       "coach": "Murillo",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -616,16 +627,27 @@
           "result": "W",
           "time": "04:15 PM",
           "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-06-12",
+          "game_number": "408934",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G13A-Regas",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NMilford-NMHS-Main"
         }
       ],
-      "goal_diff": -8,
+      "goal_diff": -7,
       "goals_against": 23,
-      "goals_for": 15,
+      "goals_for": 16,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 9,
       "team_raw": "NoBergen-G13A-Murillo",
-      "wins": 2
+      "wins": 3
     }
   ]
 }

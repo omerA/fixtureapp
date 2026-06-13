@@ -1,6 +1,6 @@
 {
   "division": "G11D",
-  "scraped_at": "2026-06-12T09:56:22.457261Z",
+  "scraped_at": "2026-06-13T08:49:05.160924Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -434,8 +434,19 @@
       "club": "Maywood",
       "coach": "Pardo",
       "draws": 1,
-      "form": "WDLLW",
+      "form": "DLLWW",
       "games": [
+        {
+          "date": "2026-06-12",
+          "game_number": "408595",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G11D-Coylex",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
         {
           "date": "2026-04-19",
           "game_number": "408603",
@@ -514,14 +525,14 @@
           "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 16,
-      "goals_for": 26,
+      "goal_diff": 11,
+      "goals_against": 18,
+      "goals_for": 29,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "Maywood-G11D-Pardo",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "CougarSC",
@@ -631,8 +642,19 @@
       "club": "NMKnights",
       "coach": "Coylex",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWL",
       "games": [
+        {
+          "date": "2026-06-12",
+          "game_number": "408595",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11D-Pardo",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
         {
           "date": "2026-04-19",
           "game_number": "408602",
@@ -700,11 +722,11 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 17,
-      "goals_for": 25,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": 7,
+      "goals_against": 20,
+      "goals_for": 27,
+      "losses": 4,
+      "played": 7,
       "points": 9,
       "team_raw": "NMKnights-G11D-Coylex",
       "wins": 3

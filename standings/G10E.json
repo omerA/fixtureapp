@@ -1,13 +1,13 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-06-12T09:55:49.302119Z",
+  "scraped_at": "2026-06-13T08:48:31.888632Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Torpedoes",
       "coach": "Grados",
       "draws": 2,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -18,6 +18,17 @@
           "opponent_raw": "Ajax-G10E-Jackson",
           "result": "D",
           "time": "04:30 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-12",
+          "game_number": "405256",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G10E-Squeo",
+          "result": "L",
+          "time": "06:00 PM",
           "venue_code": "TORP-Pulis3"
         },
         {
@@ -98,11 +109,11 @@
           "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 14,
+      "goal_diff": 14,
+      "goals_against": 15,
       "goals_for": 29,
-      "losses": 0,
-      "played": 8,
+      "losses": 1,
+      "played": 9,
       "points": 20,
       "team_raw": "Torpedoes-G10E-Grados",
       "wins": 6
@@ -453,6 +464,110 @@
       "wins": 5
     },
     {
+      "club": "WoodRidge",
+      "coach": "Squeo",
+      "draws": 0,
+      "form": "WWLLW",
+      "games": [
+        {
+          "date": "2026-06-12",
+          "game_number": "405256",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G10E-Grados",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405264",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G10E-Hyndman",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405267",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G10E-Mezzina",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405275",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G10E-Jackson",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405279",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10E-Egbert",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405281",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G10E-Nuzzi",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405289",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G10E-Fisher",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405292",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G10E-Millar",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 12,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 8,
+      "points": 15,
+      "team_raw": "WoodRidge-G10E-Squeo",
+      "wins": 5
+    },
+    {
       "club": "BLMFLD",
       "coach": "Nuzzi",
       "draws": 4,
@@ -566,99 +681,6 @@
       "points": 13,
       "team_raw": "BLMFLD-G10E-Nuzzi",
       "wins": 3
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Squeo",
-      "draws": 0,
-      "form": "LWWLL",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "405264",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G10E-Hyndman",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405267",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G10E-Mezzina",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405275",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G10E-Jackson",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405279",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10E-Egbert",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405281",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G10E-Nuzzi",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "WDRDG-AthComp Sm B"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405289",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G10E-Fisher",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "GLENRDGE-Carteret"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405292",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G10E-Millar",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "WDRDG-AthComp Sm B"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 12,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 7,
-      "points": 12,
-      "team_raw": "WoodRidge-G10E-Squeo",
-      "wins": 4
     },
     {
       "club": "UnionCity",

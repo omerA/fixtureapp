@@ -1,6 +1,6 @@
 {
   "division": "B09G",
-  "scraped_at": "2026-06-13T08:42:39.258482Z",
+  "scraped_at": "2026-06-14T08:58:44.003684Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -237,7 +237,7 @@
       "club": "NoRockland",
       "coach": "Mavrorasakis",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-04-09",
@@ -284,6 +284,17 @@
           "venue_code": "NY-NR-NRSA-5"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "406798",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B09G-Salinas",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
           "date": "2026-05-03",
           "game_number": "406799",
           "goals_against": 0,
@@ -328,14 +339,129 @@
           "venue_code": "FF-KnightsColumbus"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 12,
-      "goals_for": 41,
+      "goal_diff": 31,
+      "goals_against": 16,
+      "goals_for": 47,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "NoRockland-B09G-Mavrorasakis",
-      "wins": 6
+      "wins": 7
+    },
+    {
+      "club": "NoValley",
+      "coach": "Hutson",
+      "draws": 1,
+      "form": "WWLDW",
+      "games": [
+        {
+          "date": "2026-04-09",
+          "game_number": "406777",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B09G-Mavrorasakis",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "406780",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09G-Gioffre",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406784",
+          "goals_against": 3,
+          "goals_for": 9,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-B09G-Pinho",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406793",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B09G-Lezcano",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406794",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B09G-Huss",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406806",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09G-Fishbein",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406812",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B09G-Fitzpatrick",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406816",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B09G-Rice",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406820",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B09G-Salinas",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 35,
+      "goals_for": 43,
+      "losses": 3,
+      "played": 9,
+      "points": 16,
+      "team_raw": "NoValley-B09G-Hutson",
+      "wins": 5
     },
     {
       "club": "Bayonne",
@@ -453,110 +579,6 @@
       "wins": 5
     },
     {
-      "club": "NoValley",
-      "coach": "Hutson",
-      "draws": 1,
-      "form": "LWWLD",
-      "games": [
-        {
-          "date": "2026-04-09",
-          "game_number": "406777",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B09G-Mavrorasakis",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "406780",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B09G-Gioffre",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406784",
-          "goals_against": 3,
-          "goals_for": 9,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-B09G-Pinho",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406793",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B09G-Lezcano",
-          "result": "L",
-          "time": "12:15 PM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406806",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09G-Fishbein",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406812",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B09G-Fitzpatrick",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406816",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B09G-Rice",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "406820",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B09G-Salinas",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-Northvale"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 31,
-      "goals_for": 38,
-      "losses": 3,
-      "played": 8,
-      "points": 13,
-      "team_raw": "NoValley-B09G-Hutson",
-      "wins": 4
-    },
-    {
       "club": "Mahwah",
       "coach": "Fitzpatrick",
       "draws": 1,
@@ -664,7 +686,7 @@
       "club": "RIDGFLD",
       "coach": "Salinas",
       "draws": 1,
-      "form": "LLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-05-16",
@@ -698,6 +720,17 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406798",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B09G-Mavrorasakis",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "RDGFLDFC-Willis"
         },
         {
           "date": "2026-05-03",
@@ -755,11 +788,11 @@
           "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 24,
-      "goals_for": 16,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -10,
+      "goals_against": 30,
+      "goals_for": 20,
+      "losses": 5,
+      "played": 9,
       "points": 10,
       "team_raw": "RIDGFLD-B09G-Salinas",
       "wins": 3
@@ -768,7 +801,7 @@
       "club": "Maywood",
       "coach": "Huss",
       "draws": 1,
-      "form": "DLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-05-04",
@@ -802,6 +835,17 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406794",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B09G-Hutson",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "NoVAL-Trackside"
         },
         {
           "date": "2026-05-03",
@@ -859,11 +903,11 @@
           "venue_code": "COUGUTD-ReganSmall1"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 26,
-      "goals_for": 16,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -11,
+      "goals_against": 31,
+      "goals_for": 20,
+      "losses": 5,
+      "played": 9,
       "points": 10,
       "team_raw": "Maywood-B09G-Huss",
       "wins": 3

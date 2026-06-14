@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-06-13T08:45:44.691322Z",
+  "scraped_at": "2026-06-14T09:02:40.620122Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Vikings",
       "coach": "Astill",
       "draws": 2,
-      "form": "DWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-04-04",
@@ -134,6 +134,17 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "RUTH-HighSchool"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "404979",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         },
         {
           "date": "2026-04-18",
@@ -224,11 +235,11 @@
           "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 12,
-      "goals_for": 31,
-      "losses": 1,
-      "played": 9,
+      "goal_diff": 18,
+      "goals_against": 15,
+      "goals_for": 33,
+      "losses": 2,
+      "played": 10,
       "points": 20,
       "team_raw": "Vikings-B13D-Astill",
       "wins": 6
@@ -568,6 +579,110 @@
       "wins": 5
     },
     {
+      "club": "Hotspur",
+      "coach": "Petrie",
+      "draws": 1,
+      "form": "LLLDW",
+      "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "404979",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13D-Astill",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404985",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13D-Williams",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "HOT-HS Turf"
+        },
+        {
+          "date": "2026-05-27",
+          "game_number": "404992",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13D-Jones",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405003",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B13D-Wells",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405011",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B13D-Sanford",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "405016",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13D-Herrera",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405017",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13D-Taylor",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-06-05",
+          "game_number": "406357",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Bonham",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "HOT-HS Turf"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 22,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 8,
+      "points": 10,
+      "team_raw": "Hotspur-B13D-Petrie",
+      "wins": 3
+    },
+    {
       "club": "GlenRock",
       "coach": "Prestigiacomo",
       "draws": 4,
@@ -751,99 +866,6 @@
       "played": 8,
       "points": 7,
       "team_raw": "Maroons-B13D-Taylor",
-      "wins": 2
-    },
-    {
-      "club": "Hotspur",
-      "coach": "Petrie",
-      "draws": 1,
-      "form": "WLLLD",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "404985",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B13D-Williams",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "HOT-HS Turf"
-        },
-        {
-          "date": "2026-05-27",
-          "game_number": "404992",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B13D-Jones",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "MONT-BrookdaleStad"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405003",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B13D-Wells",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "AVIA-Hitchcock"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405011",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B13D-Sanford",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "405016",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B13D-Herrera",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405017",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13D-Taylor",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-06-05",
-          "game_number": "406357",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B13D-Bonham",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "HOT-HS Turf"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 20,
-      "goals_for": 21,
-      "losses": 4,
-      "played": 7,
-      "points": 7,
-      "team_raw": "Hotspur-B13D-Petrie",
       "wins": 2
     },
     {

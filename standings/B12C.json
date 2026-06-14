@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-06-13T08:44:48.206741Z",
+  "scraped_at": "2026-06-14T09:01:34.713512Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -226,8 +226,19 @@
       "club": "Dragons",
       "coach": "Wein",
       "draws": 3,
-      "form": "WDWWD",
+      "form": "DWWDW",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408378",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "BGFD-Hickory"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408384",
@@ -317,20 +328,20 @@
           "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": 9,
+      "goal_diff": 13,
       "goals_against": 13,
-      "goals_for": 22,
+      "goals_for": 26,
       "losses": 1,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "Dragons-B12C-Wein",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Belleville",
       "coach": "Chavarria",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -364,6 +375,17 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "408395",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
         },
         {
           "date": "2026-05-02",
@@ -410,14 +432,14 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 21,
-      "goals_for": 16,
+      "goal_diff": -4,
+      "goals_against": 24,
+      "goals_for": 20,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Belleville-B12C-Chavarria",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Force",
@@ -620,7 +642,7 @@
       "club": "NoRockland",
       "coach": "Alexander",
       "draws": 1,
-      "form": "LLWLD",
+      "form": "LWLDL",
       "games": [
         {
           "date": "2026-05-30",
@@ -653,6 +675,17 @@
           "opponent_raw": "Bergenfield-B12C-Camino",
           "result": "W",
           "time": "04:45 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "408395",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Chavarria",
+          "result": "L",
+          "time": "04:00 PM",
           "venue_code": "NY-NR-NRSA-3"
         },
         {
@@ -700,11 +733,11 @@
           "venue_code": "NY-NR-NRSA-3"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 30,
-      "goals_for": 21,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -10,
+      "goals_against": 34,
+      "goals_for": 24,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "NoRockland-B12C-Alexander",
       "wins": 2
@@ -806,8 +839,19 @@
       "club": "Bergenfield",
       "coach": "Camino",
       "draws": 1,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408378",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "BGFD-Hickory"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408386",
@@ -886,11 +930,11 @@
           "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 22,
+      "goal_diff": -15,
+      "goals_against": 26,
       "goals_for": 11,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Bergenfield-B12C-Camino",
       "wins": 1

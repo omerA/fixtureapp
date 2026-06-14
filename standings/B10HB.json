@@ -1,14 +1,25 @@
 {
   "division": "B10HB",
-  "scraped_at": "2026-06-13T08:43:40.633213Z",
+  "scraped_at": "2026-06-14T09:00:05.355224Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "ST23",
       "coach": "Rosskamp",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWL",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "407420",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B10HB-Chavez",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "CLIF-Latteri"
+        },
         {
           "date": "2026-04-11",
           "game_number": "407426",
@@ -109,11 +120,11 @@
           "venue_code": "SILVERLK-MillerF20"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 20,
-      "goals_for": 46,
-      "losses": 0,
-      "played": 9,
+      "goal_diff": 25,
+      "goals_against": 23,
+      "goals_for": 48,
+      "losses": 1,
+      "played": 10,
       "points": 25,
       "team_raw": "ST23-B10HB-Rosskamp",
       "wins": 8
@@ -122,7 +133,7 @@
       "club": "SilverLakeAcademy",
       "coach": "RODRIGUEZ",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -134,6 +145,17 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "407432",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10HB-Chambers",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
         },
         {
           "date": "2026-04-19",
@@ -224,14 +246,14 @@
           "venue_code": "SILVERLK-MillerF20"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 25,
-      "goals_for": 39,
+      "goal_diff": 17,
+      "goals_against": 29,
+      "goals_for": 46,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "SilverLakeAcademy-B10HB-RODRIGUEZ",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Southside",
@@ -579,6 +601,121 @@
       "wins": 4
     },
     {
+      "club": "Broncos",
+      "coach": "Chavez",
+      "draws": 1,
+      "form": "LWWDW",
+      "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "407420",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B10HB-Rosskamp",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "407427",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-B10HB-RODRIGUEZ",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407434",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10HB-Chambers",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "MAR-Stevens SS2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407442",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-B10HB-Zamudio",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "407445",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B10HB-Zamora",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "Haledon-MnchstHS-Sml"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407451",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B10HB-Avila",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407453",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10HB-Angelees",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407462",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B10HB-Cortez",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407464",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10HB-Ward",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 27,
+      "goals_for": 22,
+      "losses": 4,
+      "played": 9,
+      "points": 13,
+      "team_raw": "Broncos-B10HB-Chavez",
+      "wins": 4
+    },
+    {
       "club": "RIDGFLD",
       "coach": "Avila",
       "draws": 0,
@@ -703,110 +840,6 @@
       "points": 12,
       "team_raw": "RIDGFLD-B10HB-Avila",
       "wins": 4
-    },
-    {
-      "club": "Broncos",
-      "coach": "Chavez",
-      "draws": 1,
-      "form": "LLWWD",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "407427",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-B10HB-RODRIGUEZ",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "CLIF-Latteri"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407434",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B10HB-Chambers",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "MAR-Stevens SS2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407442",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-B10HB-Zamudio",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "CLIF-Latteri"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "407445",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B10HB-Zamora",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "Haledon-MnchstHS-Sml"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407451",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B10HB-Avila",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "CLIF-Latteri"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407453",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B10HB-Angelees",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407462",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B10HB-Cortez",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "CLIF-Latteri"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "407464",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B10HB-Ward",
-          "result": "D",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 25,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 8,
-      "points": 10,
-      "team_raw": "Broncos-B10HB-Chavez",
-      "wins": 3
     },
     {
       "club": "Bayonne",
@@ -1135,7 +1168,7 @@
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-06-08",
@@ -1158,6 +1191,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "407432",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-B10HB-RODRIGUEZ",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
         },
         {
           "date": "2026-04-19",
@@ -1226,11 +1270,11 @@
           "venue_code": "FF-KnightsColumbus"
         }
       ],
-      "goal_diff": -26,
-      "goals_against": 53,
-      "goals_for": 27,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -29,
+      "goals_against": 60,
+      "goals_for": 31,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Maroons-B10HB-Chambers",
       "wins": 1

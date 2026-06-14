@@ -1,6 +1,6 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-06-13T08:49:00.815034Z",
+  "scraped_at": "2026-06-14T09:06:33.913008Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -445,8 +445,19 @@
       "club": "Hotspur",
       "coach": "Peterfriend",
       "draws": 1,
-      "form": "LWWDL",
+      "form": "WWDLW",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408531",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G11C-Helm",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-03-29",
           "game_number": "408537",
@@ -536,14 +547,14 @@
           "venue_code": "VIK-NVCentral9v9"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 21,
-      "goals_for": 21,
+      "goal_diff": 6,
+      "goals_against": 22,
+      "goals_for": 28,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "Hotspur-G11C-Peterfriend",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Clarkstown",
@@ -779,8 +790,19 @@
       "club": "Nutley",
       "coach": "Helm",
       "draws": 1,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408531",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G11C-Peterfriend",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-03-29",
           "game_number": "408538",
@@ -870,11 +892,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 32,
-      "goals_for": 19,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -19,
+      "goals_against": 39,
+      "goals_for": 20,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "Nutley-G11C-Helm",
       "wins": 2

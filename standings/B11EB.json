@@ -1,13 +1,13 @@
 {
   "division": "B11EB",
-  "scraped_at": "2026-06-13T08:44:12.646974Z",
+  "scraped_at": "2026-06-14T09:00:47.883909Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
       "coach": "Harrison",
-      "draws": 0,
-      "form": "LWLWW",
+      "draws": 1,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-05-16",
@@ -107,14 +107,25 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "MAR-GlenSchool"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406952",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B11EB-Lezcano",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
       "goal_diff": 9,
-      "goals_against": 16,
-      "goals_for": 25,
+      "goals_against": 18,
+      "goals_for": 27,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 22,
       "team_raw": "Maroons-B11EB-Harrison",
       "wins": 7
     },
@@ -236,8 +247,8 @@
     {
       "club": "FF",
       "coach": "Lezcano",
-      "draws": 2,
-      "form": "LLWDW",
+      "draws": 3,
+      "form": "LWDWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -337,14 +348,25 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406952",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11EB-Harrison",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
       "goal_diff": 12,
-      "goals_against": 15,
-      "goals_for": 27,
+      "goals_against": 17,
+      "goals_for": 29,
       "losses": 3,
-      "played": 9,
-      "points": 14,
+      "played": 10,
+      "points": 15,
       "team_raw": "FF-B11EB-Lezcano",
       "wins": 4
     },

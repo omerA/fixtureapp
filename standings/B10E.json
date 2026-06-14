@@ -1,6 +1,6 @@
 {
   "division": "B10E",
-  "scraped_at": "2026-06-13T08:43:18.548123Z",
+  "scraped_at": "2026-06-14T08:59:36.383594Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -117,6 +117,121 @@
       "points": 21,
       "team_raw": "Maroons-B10E-Chambers",
       "wins": 7
+    },
+    {
+      "club": "FF",
+      "coach": "Cortez",
+      "draws": 0,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-05-09",
+          "game_number": "404766",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10E-Perez",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WALD-SprDomeIndoor1"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404775",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10E-Iacono",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "404781",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10E-Ingoglia",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "404783",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10E-Millar",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "404791",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B10E-Hanna",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "MAHWAH-JoyceKilmer"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "404792",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10E-Camara",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404797",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B10E-Avila",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404803",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10E-Chambers",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404809",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B10E-Tynio",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "LKLND-Hagstrom"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 23,
+      "goals_for": 32,
+      "losses": 3,
+      "played": 9,
+      "points": 18,
+      "team_raw": "FF-B10E-Cortez",
+      "wins": 6
     },
     {
       "club": "RIDGFLD",
@@ -453,108 +568,119 @@
       "wins": 5
     },
     {
-      "club": "FF",
-      "coach": "Cortez",
-      "draws": 0,
-      "form": "LWWWW",
+      "club": "Spartan",
+      "coach": "Hegyi",
+      "draws": 2,
+      "form": "DLDLW",
       "games": [
         {
-          "date": "2026-05-09",
-          "game_number": "404766",
+          "date": "2026-03-29",
+          "game_number": "404768",
           "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10E-Perez",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WALD-SprDomeIndoor1"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "404775",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B10E-Iacono",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "LYND-RecCtrFld1A"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "404781",
-          "goals_against": 4,
-          "goals_for": 6,
+          "goals_for": 4,
           "opponent_club": "HobUtd",
           "opponent_raw": "HobUtd-B10E-Ingoglia",
           "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "FF-KnightsColumbus"
+          "time": "09:30 AM",
+          "venue_code": "PAR-WestbrkSmall"
         },
         {
-          "date": "2026-04-26",
-          "game_number": "404783",
-          "goals_against": 4,
-          "goals_for": 2,
+          "date": "2026-05-09",
+          "game_number": "404774",
+          "goals_against": 3,
+          "goals_for": 3,
           "opponent_club": "Rutherford",
           "opponent_raw": "Rutherford-B10E-Millar",
-          "result": "L",
+          "result": "D",
           "time": "04:00 PM",
           "venue_code": "RUTH-Tamblyn"
         },
         {
-          "date": "2026-05-03",
-          "game_number": "404791",
-          "goals_against": 3,
-          "goals_for": 2,
+          "date": "2026-04-19",
+          "game_number": "404777",
+          "goals_against": 1,
+          "goals_for": 3,
           "opponent_club": "Mahwah",
           "opponent_raw": "Mahwah-B10E-Hanna",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "404785",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10E-Camara",
           "result": "L",
-          "time": "10:15 AM",
-          "venue_code": "MAHWAH-JoyceKilmer"
+          "time": "12:00 PM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "404789",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B10E-Avila",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "404796",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10E-Chambers",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAR-GlenSchool"
         },
         {
           "date": "2026-05-17",
-          "game_number": "404797",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B10E-Avila",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "404803",
+          "game_number": "404798",
           "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B10E-Chambers",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "MAR-Stevens SS1"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "404809",
-          "goals_against": 2,
-          "goals_for": 4,
+          "goals_for": 3,
           "opponent_club": "Lakeland",
           "opponent_raw": "Lakeland-B10E-Tynio",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "404811",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10E-Perez",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "408510",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10E-Iacono",
           "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "LKLND-Hagstrom"
+          "time": "12:30 PM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 23,
-      "goals_for": 28,
-      "losses": 3,
-      "played": 8,
-      "points": 15,
-      "team_raw": "FF-B10E-Cortez",
-      "wins": 5
+      "goal_diff": -4,
+      "goals_against": 27,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 9,
+      "points": 11,
+      "team_raw": "Spartan-B10E-Hegyi",
+      "wins": 3
     },
     {
       "club": "Lakeland",
@@ -672,218 +798,10 @@
       "wins": 3
     },
     {
-      "club": "HobUtd",
-      "coach": "Ingoglia",
-      "draws": 1,
-      "form": "WWLWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "404768",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B10E-Hegyi",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "404772",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10E-Perez",
-          "result": "D",
-          "time": "05:15 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "404781",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B10E-Cortez",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "FF-KnightsColumbus"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "404782",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B10E-Iacono",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "404794",
-          "goals_against": 7,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10E-Millar",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "404804",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B10E-Camara",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "404808",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B10E-Avila",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "407334",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B10E-Tynio",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "HobUTD-1600Park"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 28,
-      "goals_for": 30,
-      "losses": 4,
-      "played": 8,
-      "points": 10,
-      "team_raw": "HobUtd-B10E-Ingoglia",
-      "wins": 3
-    },
-    {
-      "club": "Spartan",
-      "coach": "Hegyi",
-      "draws": 2,
-      "form": "LDLDL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "404768",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10E-Ingoglia",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "404774",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10E-Millar",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "404777",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B10E-Hanna",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "404785",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B10E-Camara",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-McCoogPark"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "404789",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B10E-Avila",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "404796",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B10E-Chambers",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "MAR-GlenSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "404798",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B10E-Tynio",
-          "result": "D",
-          "time": "10:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "404811",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10E-Perez",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "VIK-Myrtle"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 26,
-      "goals_for": 21,
-      "losses": 4,
-      "played": 8,
-      "points": 8,
-      "team_raw": "Spartan-B10E-Hegyi",
-      "wins": 2
-    },
-    {
       "club": "Mahwah",
       "coach": "Hanna",
       "draws": 1,
-      "form": "WLWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-04-18",
@@ -952,6 +870,17 @@
           "venue_code": "MAHWAH-Trinity"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "404800",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10E-Ingoglia",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
           "date": "2026-05-31",
           "game_number": "404802",
           "goals_against": 3,
@@ -974,20 +903,135 @@
           "venue_code": "MAHWAH-MemorialMah"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 19,
-      "goals_for": 13,
+      "goal_diff": -4,
+      "goals_against": 20,
+      "goals_for": 16,
       "losses": 5,
-      "played": 8,
-      "points": 7,
+      "played": 9,
+      "points": 10,
       "team_raw": "Mahwah-B10E-Hanna",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Ingoglia",
+      "draws": 1,
+      "form": "WLWLL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "404768",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10E-Hegyi",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "404772",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10E-Perez",
+          "result": "D",
+          "time": "05:15 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "404781",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B10E-Cortez",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "404782",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10E-Iacono",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "404794",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10E-Millar",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "404800",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B10E-Hanna",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404804",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10E-Camara",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "404808",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B10E-Avila",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "407334",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B10E-Tynio",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "HobUTD-1600Park"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 31,
+      "goals_for": 31,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "HobUtd-B10E-Ingoglia",
+      "wins": 3
     },
     {
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-06-06",
@@ -1045,6 +1089,17 @@
           "venue_code": "VIK-Myrtle"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "404792",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B10E-Cortez",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "404801",
           "goals_against": 2,
@@ -1078,11 +1133,11 @@
           "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 39,
+      "goal_diff": -24,
+      "goals_against": 43,
       "goals_for": 19,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "WayneBG-B10E-Camara",
       "wins": 2
@@ -1091,7 +1146,7 @@
       "club": "Lyndhurst",
       "coach": "Iacono",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -1180,13 +1235,24 @@
           "result": "L",
           "time": "04:45 PM",
           "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "408510",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10E-Hegyi",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 38,
-      "goals_for": 14,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -25,
+      "goals_against": 40,
+      "goals_for": 15,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "Lyndhurst-B10E-Iacono",
       "wins": 2

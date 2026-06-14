@@ -1,6 +1,6 @@
 {
   "division": "G10G",
-  "scraped_at": "2026-06-13T08:48:38.914795Z",
+  "scraped_at": "2026-06-14T09:06:05.118049Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Maroons",
       "coach": "Vaquero",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-05-16",
@@ -156,6 +156,17 @@
           "result": "W",
           "time": "09:45 AM",
           "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405342",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10G-Hsia",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-05-03",
@@ -213,14 +224,14 @@
           "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": 11,
+      "goal_diff": 12,
       "goals_against": 13,
-      "goals_for": 24,
+      "goals_for": 25,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "Maroons-G10G-Vaquero",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Lakeland",
@@ -341,7 +352,7 @@
       "club": "CougarSC",
       "coach": "Hsia",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-04-25",
@@ -375,6 +386,17 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405342",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10G-Vaquero",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-05-09",
@@ -432,11 +454,11 @@
           "venue_code": "MAR-GlenSchool"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 21,
+      "goal_diff": -7,
+      "goals_against": 22,
       "goals_for": 15,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 9,
       "team_raw": "CougarSC-G10G-Hsia",
       "wins": 3

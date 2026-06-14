@@ -1,6 +1,6 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-06-13T08:45:03.718844Z",
+  "scraped_at": "2026-06-14T09:01:54.840494Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -363,7 +363,7 @@
       "club": "Vikings",
       "coach": "Aschenbrand",
       "draws": 2,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -375,6 +375,17 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405560",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12F-Amaya",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
         },
         {
           "date": "2026-04-12",
@@ -454,20 +465,20 @@
           "venue_code": "VIK-NVCentral9v9"
         }
       ],
-      "goal_diff": 22,
+      "goal_diff": 27,
       "goals_against": 12,
-      "goals_for": 34,
+      "goals_for": 39,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 20,
       "team_raw": "Vikings-B12F-Aschenbrand",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "RYSA",
       "coach": "Drumgoole",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-05-02",
@@ -501,6 +512,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405568",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12F-Kerolous",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RUTH-Tamblyn"
         },
         {
           "date": "2026-05-03",
@@ -547,14 +569,14 @@
           "venue_code": "RYSA-Heights"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 21,
-      "goals_for": 31,
+      "goal_diff": 13,
+      "goals_against": 22,
+      "goals_for": 35,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "RYSA-B12F-Drumgoole",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Teaneck",
@@ -675,7 +697,7 @@
       "club": "WayneBG",
       "coach": "Amaya",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-05-30",
@@ -687,6 +709,17 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405560",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Aschenbrand",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "NoVAL-NorthvaleVet"
         },
         {
           "date": "2026-04-12",
@@ -766,118 +799,14 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 23,
+      "goal_diff": -11,
+      "goals_against": 28,
       "goals_for": 17,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 9,
       "team_raw": "WayneBG-B12F-Amaya",
       "wins": 3
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Kerolous",
-      "draws": 1,
-      "form": "WLWLL",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "405553",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12F-Amaya",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "405559",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B12F-Hernandez",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405565",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B12F-Pereira",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405576",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12F-DeCarlo",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405580",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B12F-Fischer",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "405587",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12F-Gillies",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405589",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-B12F-Buttacavoli",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "406218",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12F-Aschenbrand",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "VIK-NVCentral9v9"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 28,
-      "goals_for": 21,
-      "losses": 5,
-      "played": 8,
-      "points": 7,
-      "team_raw": "Rutherford-B12F-Kerolous",
-      "wins": 2
     },
     {
       "club": "Hotspur",
@@ -992,6 +921,121 @@
       "played": 9,
       "points": 7,
       "team_raw": "Hotspur-B12F-Pereira",
+      "wins": 2
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Kerolous",
+      "draws": 1,
+      "form": "LWLLL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405553",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12F-Amaya",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "405559",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12F-Hernandez",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405565",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12F-Pereira",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405568",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12F-Drumgoole",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405576",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12F-DeCarlo",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405580",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B12F-Fischer",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "405587",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405589",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B12F-Buttacavoli",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406218",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Aschenbrand",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "VIK-NVCentral9v9"
+        }
+      ],
+      "goal_diff": -10,
+      "goals_against": 32,
+      "goals_for": 22,
+      "losses": 6,
+      "played": 9,
+      "points": 7,
+      "team_raw": "Rutherford-B12F-Kerolous",
       "wins": 2
     },
     {

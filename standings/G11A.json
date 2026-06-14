@@ -1,6 +1,6 @@
 {
   "division": "G11A",
-  "scraped_at": "2026-06-13T08:48:52.712525Z",
+  "scraped_at": "2026-06-14T09:06:23.447032Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -136,6 +136,17 @@
           "venue_code": "RDBH-DPAC North"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "405416",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G11A-Lanz",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "WALD-HSTurf-2"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "405419",
           "goals_against": 2,
@@ -180,14 +191,14 @@
           "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 18,
       "goals_against": 9,
-      "goals_for": 22,
+      "goals_for": 27,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "RiverDell-G11A-Sayilik",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Thistle",
@@ -308,7 +319,7 @@
       "club": "WayneBG",
       "coach": "DeCarlo",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -397,15 +408,141 @@
           "result": "L",
           "time": "06:45 PM",
           "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405438",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G11A-Oscanoa",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 14,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -4,
+      "goals_against": 19,
+      "goals_for": 15,
+      "losses": 5,
+      "played": 9,
       "points": 12,
       "team_raw": "WayneBG-G11A-DeCarlo",
+      "wins": 4
+    },
+    {
+      "club": "Southside",
+      "coach": "Oscanoa",
+      "draws": 0,
+      "form": "WLWLW",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405399",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11A-Leichte",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405407",
+          "goals_against": 5,
+          "goals_for": 7,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11A-Pardo",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "405412",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G11A-Lanz",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405413",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11A-Schneider",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405419",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G11A-Sayilik",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-03-28",
+          "game_number": "405426",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G11A-Crispin",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "THIS-HarveyMain2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405430",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11A-Johnson",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405437",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11A-Londono",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405438",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11A-DeCarlo",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 20,
+      "goals_for": 25,
+      "losses": 5,
+      "played": 9,
+      "points": 12,
+      "team_raw": "Southside-G11A-Oscanoa",
       "wins": 4
     },
     {
@@ -732,114 +869,10 @@
       "wins": 3
     },
     {
-      "club": "Southside",
-      "coach": "Oscanoa",
-      "draws": 0,
-      "form": "LWLWL",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "405399",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G11A-Leichte",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405407",
-          "goals_against": 5,
-          "goals_for": 7,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G11A-Pardo",
-          "result": "W",
-          "time": "10:15 AM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "405412",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G11A-Lanz",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405413",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G11A-Schneider",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "WALD-SuperDomeOut"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405419",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G11A-Sayilik",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-03-28",
-          "game_number": "405426",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G11A-Crispin",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "THIS-HarveyMain2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405430",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G11A-Johnson",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405437",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G11A-Londono",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "FL-CenterRec1A"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 19,
-      "goals_for": 20,
-      "losses": 5,
-      "played": 8,
-      "points": 9,
-      "team_raw": "Southside-G11A-Oscanoa",
-      "wins": 3
-    },
-    {
       "club": "Warriors",
       "coach": "Lanz",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -862,6 +895,17 @@
           "result": "L",
           "time": "10:45 AM",
           "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405416",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G11A-Sayilik",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WALD-HSTurf-2"
         },
         {
           "date": "2026-05-09",
@@ -919,11 +963,11 @@
           "venue_code": "THIS-HarveyMain2"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 16,
+      "goal_diff": -8,
+      "goals_against": 21,
       "goals_for": 13,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Warriors-G11A-Lanz",
       "wins": 2

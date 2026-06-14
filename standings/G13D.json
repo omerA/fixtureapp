@@ -1,13 +1,13 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-06-13T08:50:32.945640Z",
+  "scraped_at": "2026-06-14T09:07:52.360995Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Verona",
       "coach": "Luftglass",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -96,16 +96,27 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "409021",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G13D-Dam",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "NY-MW-CentralVal3"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 8,
-      "goals_for": 26,
+      "goal_diff": 16,
+      "goals_against": 6,
+      "goals_for": 22,
       "losses": 0,
-      "played": 8,
-      "points": 22,
+      "played": 9,
+      "points": 19,
       "team_raw": "Verona-G13D-Luftglass",
-      "wins": 7
+      "wins": 6
     },
     {
       "club": "GlenRock",
@@ -213,14 +224,107 @@
           "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 22,
+      "goal_diff": 14,
       "goals_against": 12,
-      "goals_for": 34,
+      "goals_for": 26,
       "losses": 2,
       "played": 9,
-      "points": 19,
+      "points": 13,
       "team_raw": "GlenRock-G13D-Mulkeen",
-      "wins": 6
+      "wins": 4
+    },
+    {
+      "club": "Force",
+      "coach": "Dam",
+      "draws": 2,
+      "form": "DWWLL",
+      "games": [
+        {
+          "date": "2026-06-10",
+          "game_number": "408993",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G13D-Luftglass",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408996",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G13D-Puzino",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409002",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G13D-Fisher",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "409010",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G13D-Mulkeen",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-16",
+          "game_number": "409011",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G13D-MongeCalderon",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NY-CLARK-Germonds"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "409018",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G13D-Andersen",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "409021",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G13D-Luftglass",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 7,
+      "goals_for": 14,
+      "losses": 1,
+      "played": 7,
+      "points": 11,
+      "team_raw": "Force-G13D-Dam",
+      "wins": 3
     },
     {
       "club": "FairLawnAllSports",
@@ -328,95 +432,13 @@
           "venue_code": "THIS-HarveyMain"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 20,
-      "goals_for": 19,
-      "losses": 5,
+      "goal_diff": -3,
+      "goals_against": 19,
+      "goals_for": 16,
+      "losses": 4,
       "played": 9,
-      "points": 12,
+      "points": 9,
       "team_raw": "FairLawnAllSports-G13D-Puzino",
-      "wins": 4
-    },
-    {
-      "club": "Force",
-      "coach": "Dam",
-      "draws": 2,
-      "form": "DDWWL",
-      "games": [
-        {
-          "date": "2026-06-10",
-          "game_number": "408993",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G13D-Luftglass",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408996",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G13D-Puzino",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "409002",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G13D-Fisher",
-          "result": "D",
-          "time": "02:30 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "409010",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G13D-Mulkeen",
-          "result": "D",
-          "time": "10:45 AM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-16",
-          "game_number": "409011",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G13D-MongeCalderon",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "NY-CLARK-Germonds"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "409018",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G13D-Andersen",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "AVIA-Hitchcock"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 8,
-      "goals_for": 15,
-      "losses": 1,
-      "played": 6,
-      "points": 11,
-      "team_raw": "Force-G13D-Dam",
       "wins": 3
     },
     {
@@ -525,14 +547,14 @@
           "venue_code": "EP United-HS Large"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 15,
-      "goals_for": 12,
-      "losses": 4,
+      "goal_diff": -7,
+      "goals_against": 14,
+      "goals_for": 7,
+      "losses": 3,
       "played": 9,
-      "points": 11,
+      "points": 8,
       "team_raw": "Clarkstown-G13D-MongeCalderon",
-      "wins": 3
+      "wins": 2
     },
     {
       "club": "AviatorsHHSA",
@@ -629,10 +651,10 @@
           "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 26,
+      "goal_diff": -7,
+      "goals_against": 19,
       "goals_for": 12,
-      "losses": 4,
+      "losses": 3,
       "played": 8,
       "points": 8,
       "team_raw": "AviatorsHHSA-G13D-Andersen",
@@ -733,14 +755,14 @@
           "venue_code": "THIS-HarveyMain"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 18,
-      "goals_for": 12,
-      "losses": 4,
+      "goal_diff": -5,
+      "goals_against": 15,
+      "goals_for": 10,
+      "losses": 3,
       "played": 8,
-      "points": 8,
+      "points": 5,
       "team_raw": "Thistle-G13D-Fisher",
-      "wins": 2
+      "wins": 1
     },
     {
       "club": "ElmwoodPk",
@@ -826,10 +848,10 @@
           "venue_code": "EP United-HS Large"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 28,
+      "goal_diff": -15,
+      "goals_against": 20,
       "goals_for": 5,
-      "losses": 7,
+      "losses": 5,
       "played": 7,
       "points": 0,
       "team_raw": "ElmwoodPk-G13D-Ceballos",

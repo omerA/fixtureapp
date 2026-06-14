@@ -1,6 +1,6 @@
 {
   "division": "B09F",
-  "scraped_at": "2026-06-13T08:42:34.943340Z",
+  "scraped_at": "2026-06-14T08:58:38.500594Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -982,8 +982,19 @@
       "club": "Dragons",
       "coach": "Friedman",
       "draws": 1,
-      "form": "WDLWL",
+      "form": "DLWLL",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "404707",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09F-Ayesteran",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FL-CenterRec2B"
+        },
         {
           "date": "2026-05-30",
           "game_number": "404715",
@@ -1084,11 +1095,11 @@
           "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 39,
-      "goals_for": 35,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -8,
+      "goals_against": 44,
+      "goals_for": 36,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "Dragons-B09F-Friedman",
       "wins": 3
@@ -1097,8 +1108,19 @@
       "club": "FairLawnAllSports",
       "coach": "Ayesteran",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LWLWW",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "404707",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09F-Friedman",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FL-CenterRec2B"
+        },
         {
           "date": "2026-03-29",
           "game_number": "404710",
@@ -1186,16 +1208,27 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "404764",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B09F-Green",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 39,
-      "goals_for": 19,
+      "goal_diff": -13,
+      "goals_against": 40,
+      "goals_for": 27,
       "losses": 7,
-      "played": 8,
-      "points": 3,
+      "played": 10,
+      "points": 9,
       "team_raw": "FairLawnAllSports-B09F-Ayesteran",
-      "wins": 1
+      "wins": 3
     },
     {
       "club": "Americans",
@@ -1312,13 +1345,24 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "AMER-WestMaple"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "404764",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09F-Ayesteran",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": -46,
-      "goals_against": 80,
+      "goal_diff": -49,
+      "goals_against": 83,
       "goals_for": 34,
-      "losses": 9,
-      "played": 10,
+      "losses": 10,
+      "played": 11,
       "points": 3,
       "team_raw": "Americans-B09F-Green",
       "wins": 1

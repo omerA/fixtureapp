@@ -1,6 +1,6 @@
 {
   "division": "G10B",
-  "scraped_at": "2026-06-13T08:48:20.610196Z",
+  "scraped_at": "2026-06-14T09:05:40.924300Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -54,6 +54,17 @@
           "venue_code": "AVIA-HitchcockSmall2"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "406552",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10B-Ramirez",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "MAHWAH-Trinity"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406554",
           "goals_against": 1,
@@ -87,14 +98,14 @@
           "venue_code": "MAHWAH-MemorialMah"
         }
       ],
-      "goal_diff": 19,
+      "goal_diff": 23,
       "goals_against": 9,
-      "goals_for": 28,
+      "goals_for": 32,
       "losses": 0,
-      "played": 7,
-      "points": 21,
+      "played": 8,
+      "points": 24,
       "team_raw": "Mahwah-G10B-Hill",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "AviatorsHHSA",
@@ -212,6 +223,121 @@
       "wins": 6
     },
     {
+      "club": "WorldClassFC",
+      "coach": "Brownell",
+      "draws": 1,
+      "form": "WDWLW",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "406537",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10B-Vaquerox",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406541",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10B-Pajuelo",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406542",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G10B-Emara",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "AVIA-HitchcockSmall2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406547",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G10B-Hill",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-12",
+          "game_number": "406548",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10B-Ramirez",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406551",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10B-Vaquerox",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406555",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10B-Pajuelo",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406559",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G10B-Emara",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406561",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G10B-Hill",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "MAHWAH-MemorialMah"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 27,
+      "goals_for": 26,
+      "losses": 4,
+      "played": 9,
+      "points": 13,
+      "team_raw": "WorldClassFC-G10B-Brownell",
+      "wins": 4
+    },
+    {
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 2,
@@ -313,110 +439,6 @@
       "played": 8,
       "points": 11,
       "team_raw": "WestEssex-G10B-Pajuelo",
-      "wins": 3
-    },
-    {
-      "club": "WorldClassFC",
-      "coach": "Brownell",
-      "draws": 1,
-      "form": "WWDWL",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "406537",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G10B-Vaquerox",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406541",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G10B-Pajuelo",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "WEssex-Volunteers"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406542",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G10B-Emara",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "AVIA-HitchcockSmall2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406547",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G10B-Hill",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406551",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G10B-Vaquerox",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406555",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G10B-Pajuelo",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406559",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G10B-Emara",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "406561",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G10B-Hill",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "MAHWAH-MemorialMah"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 24,
-      "goals_for": 20,
-      "losses": 4,
-      "played": 8,
-      "points": 10,
-      "team_raw": "WorldClassFC-G10B-Brownell",
       "wins": 3
     },
     {
@@ -585,6 +607,28 @@
           "venue_code": "WEssex-TOBeirne-Sml"
         },
         {
+          "date": "2026-06-12",
+          "game_number": "406548",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10B-Brownell",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406552",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G10B-Hill",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "MAHWAH-Trinity"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406556",
           "goals_against": 4,
@@ -618,11 +662,11 @@
           "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 32,
-      "goals_for": 10,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -29,
+      "goals_against": 42,
+      "goals_for": 13,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "FairLawnAllSports-G10B-Ramirez",
       "wins": 0

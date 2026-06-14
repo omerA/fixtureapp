@@ -1,8 +1,123 @@
 {
   "division": "G08B7",
-  "scraped_at": "2026-06-13T08:47:43.609090Z",
+  "scraped_at": "2026-06-14T09:04:52.085970Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WoodRidge",
+      "coach": "Cartagena",
+      "draws": 1,
+      "form": "WWWWD",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "405683",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08B7-Esposto",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-03-29",
+          "game_number": "405691",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08B7-DeSanctis",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "VIK-HaworthTurf"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405693",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08B7-Esposto",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405696",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G08B7-Fisher",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "THIS-HarveyBackSS2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405701",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08B7-STJOHN",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-06-11",
+          "game_number": "405710",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G08B7-Bresnan",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405712",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G08B7-Connolly",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405718",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08B7-Valdes",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-04",
+          "game_number": "405722",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G08B7-Denberg",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        }
+      ],
+      "goal_diff": 42,
+      "goals_against": 10,
+      "goals_for": 52,
+      "losses": 0,
+      "played": 9,
+      "points": 22,
+      "team_raw": "WoodRidge-G08B7-Cartagena",
+      "wins": 7
+    },
     {
       "club": "Vikings",
       "coach": "DeSanctis",
@@ -109,20 +224,20 @@
           "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 17,
-      "goals_for": 43,
+      "goal_diff": 20,
+      "goals_against": 16,
+      "goals_for": 36,
       "losses": 1,
       "played": 9,
-      "points": 24,
+      "points": 21,
       "team_raw": "Vikings-G08B7-DeSanctis",
-      "wins": 8
+      "wins": 7
     },
     {
       "club": "HobUtd",
       "coach": "Esposto",
-      "draws": 0,
-      "form": "WWLWW",
+      "draws": 1,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-04-25",
@@ -145,6 +260,17 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405693",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G08B7-Cartagena",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "WDRDG-AthComp Sm A"
         },
         {
           "date": "2026-04-19",
@@ -213,118 +339,14 @@
           "venue_code": "THIS-HarveyBackSS2"
         }
       ],
-      "goal_diff": 31,
+      "goal_diff": 28,
       "goals_against": 9,
-      "goals_for": 40,
+      "goals_for": 37,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 19,
       "team_raw": "HobUtd-G08B7-Esposto",
-      "wins": 7
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Cartagena",
-      "draws": 0,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "405683",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G08B7-Esposto",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-03-29",
-          "game_number": "405691",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G08B7-DeSanctis",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "VIK-HaworthTurf"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405696",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G08B7-Fisher",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "THIS-HarveyBackSS2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405701",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G08B7-STJOHN",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        },
-        {
-          "date": "2026-06-11",
-          "game_number": "405710",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G08B7-Bresnan",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405712",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G08B7-Connolly",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405718",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08B7-Valdes",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-06-04",
-          "game_number": "405722",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G08B7-Denberg",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
-        }
-      ],
-      "goal_diff": 39,
-      "goals_against": 13,
-      "goals_for": 52,
-      "losses": 1,
-      "played": 8,
-      "points": 21,
-      "team_raw": "WoodRidge-G08B7-Cartagena",
-      "wins": 7
+      "wins": 6
     },
     {
       "club": "CougarSC",
@@ -432,14 +454,14 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 25,
-      "goals_for": 25,
+      "goal_diff": -5,
+      "goals_against": 23,
+      "goals_for": 18,
       "losses": 3,
       "played": 9,
-      "points": 16,
+      "points": 13,
       "team_raw": "CougarSC-G08B7-Connolly",
-      "wins": 5
+      "wins": 4
     },
     {
       "club": "WorldClassFC",
@@ -651,10 +673,10 @@
           "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 33,
-      "goals_for": 16,
-      "losses": 6,
+      "goal_diff": -11,
+      "goals_against": 26,
+      "goals_for": 15,
+      "losses": 5,
       "played": 9,
       "points": 9,
       "team_raw": "Warriors-G08B7-Bresnan",
@@ -766,10 +788,10 @@
           "venue_code": "WDRDG-AthleticComp-W"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 41,
-      "goals_for": 13,
-      "losses": 7,
+      "goal_diff": -23,
+      "goals_against": 34,
+      "goals_for": 11,
+      "losses": 6,
       "played": 9,
       "points": 6,
       "team_raw": "Tenafly-G08B7-Denberg",
@@ -881,14 +903,14 @@
           "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -29,
+      "goal_diff": -32,
       "goals_against": 45,
-      "goals_for": 16,
+      "goals_for": 13,
       "losses": 7,
       "played": 9,
-      "points": 6,
+      "points": 3,
       "team_raw": "Torpedoes-G08B7-STJOHN",
-      "wins": 2
+      "wins": 1
     },
     {
       "club": "Thistle",
@@ -996,10 +1018,10 @@
           "venue_code": "THIS-HarveyBackSS2"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 40,
+      "goal_diff": -30,
+      "goals_against": 37,
       "goals_for": 7,
-      "losses": 9,
+      "losses": 8,
       "played": 9,
       "points": 0,
       "team_raw": "Thistle-G08B7-Fisher",

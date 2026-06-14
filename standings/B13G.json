@@ -1,107 +1,25 @@
 {
   "division": "B13G",
-  "scraped_at": "2026-06-13T08:45:58.833758Z",
+  "scraped_at": "2026-06-14T09:02:59.343744Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "RdgfldPk",
-      "coach": "Uribe",
-      "draws": 0,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "406311",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B13G-McDermott",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406312",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13G-Taylor",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406317",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13G-Puglia",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "RDGFLDPK-McKeown"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406318",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B13G-Recanati",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "RDGFLDPK-McKeown"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "406321",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B13G-Alom",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406325",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B13G-McDermott",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "RDGFLDPK-McKeown"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406329",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13G-Taylor",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "RDGFLDPK-McKeown"
-        }
-      ],
-      "goal_diff": 30,
-      "goals_against": 3,
-      "goals_for": 33,
-      "losses": 0,
-      "played": 7,
-      "points": 21,
-      "team_raw": "RdgfldPk-B13G-Uribe",
-      "wins": 7
-    },
     {
       "club": "WayneBG",
       "coach": "Alom",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "406307",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B13G-Uribe",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406309",
@@ -191,13 +109,117 @@
           "venue_code": "MAR-MaplePark"
         }
       ],
-      "goal_diff": 29,
+      "goal_diff": 31,
       "goals_against": 9,
-      "goals_for": 38,
+      "goals_for": 40,
+      "losses": 1,
+      "played": 9,
+      "points": 24,
+      "team_raw": "WayneBG-B13G-Alom",
+      "wins": 8
+    },
+    {
+      "club": "RdgfldPk",
+      "coach": "Uribe",
+      "draws": 0,
+      "form": "WWWWL",
+      "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "406307",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13G-Alom",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406311",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13G-McDermott",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406312",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13G-Taylor",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406317",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13G-Puglia",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406318",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13G-Recanati",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "406321",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13G-Alom",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406325",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13G-McDermott",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406329",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13G-Taylor",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        }
+      ],
+      "goal_diff": 28,
+      "goals_against": 5,
+      "goals_for": 33,
       "losses": 1,
       "played": 8,
       "points": 21,
-      "team_raw": "WayneBG-B13G-Alom",
+      "team_raw": "RdgfldPk-B13G-Uribe",
       "wins": 7
     },
     {
@@ -319,7 +341,7 @@
       "club": "RiverDell",
       "coach": "Recanati",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -377,6 +399,17 @@
           "venue_code": "RDGFLDPK-McKeown"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "406322",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13G-Puglia",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406326",
           "goals_against": 4,
@@ -410,14 +443,14 @@
           "venue_code": "RDBH-HS-Stadium"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 23,
-      "goals_for": 17,
+      "goal_diff": -4,
+      "goals_against": 26,
+      "goals_for": 22,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "RiverDell-B13G-Recanati",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Maroons",
@@ -596,6 +629,17 @@
           "venue_code": "MAR-MaplePark"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "406322",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13G-Recanati",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "406324",
           "goals_against": 9,
@@ -618,11 +662,11 @@
           "venue_code": "ARS-PHHS1"
         }
       ],
-      "goal_diff": -44,
-      "goals_against": 51,
-      "goals_for": 7,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -46,
+      "goals_against": 56,
+      "goals_for": 10,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "CougarSC-B13G-Puglia",
       "wins": 0

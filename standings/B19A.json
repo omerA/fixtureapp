@@ -1,14 +1,25 @@
 {
   "division": "B19A",
-  "scraped_at": "2026-06-13T08:47:19.463975Z",
+  "scraped_at": "2026-06-14T09:04:19.836293Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoBergen",
       "coach": "CardonaLopez",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "405471",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B19A-Lago",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405473",
@@ -99,11 +110,11 @@
         }
       ],
       "goal_diff": 20,
-      "goals_against": 12,
-      "goals_for": 32,
+      "goals_against": 14,
+      "goals_for": 34,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 22,
       "team_raw": "NoBergen-B19A-CardonaLopez",
       "wins": 7
     },
@@ -351,9 +362,20 @@
     {
       "club": "NoValley",
       "coach": "Lago",
-      "draws": 1,
-      "form": "DLWWL",
+      "draws": 2,
+      "form": "LWWLD",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "405471",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19A-CardonaLopez",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405475",
@@ -444,11 +466,11 @@
         }
       ],
       "goal_diff": 15,
-      "goals_against": 8,
-      "goals_for": 23,
+      "goals_against": 10,
+      "goals_for": 25,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 17,
       "team_raw": "NoValley-B19A-Lago",
       "wins": 5
     },

@@ -1,6 +1,6 @@
 {
   "division": "B15E",
-  "scraped_at": "2026-06-13T08:46:58.689187Z",
+  "scraped_at": "2026-06-14T09:04:01.242456Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -100,7 +100,7 @@
       "club": "WayneBG",
       "coach": "Michaels",
       "draws": 2,
-      "form": "WWLWD",
+      "form": "WLWDW",
       "games": [
         {
           "date": "2026-04-19",
@@ -123,6 +123,17 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "WYNE-WayneValleyHS"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406379",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B15E-Schmidt",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         },
         {
           "date": "2026-05-03",
@@ -169,14 +180,14 @@
           "venue_code": "RUTH-Tryon"
         }
       ],
-      "goal_diff": 8,
+      "goal_diff": 14,
       "goals_against": 13,
-      "goals_for": 21,
+      "goals_for": 27,
       "losses": 1,
-      "played": 6,
-      "points": 11,
+      "played": 7,
+      "points": 14,
       "team_raw": "WayneBG-B15E-Michaels",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "NoValley",
@@ -368,7 +379,7 @@
       "club": "Rutherford",
       "coach": "Schmidt",
       "draws": 2,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-05-02",
@@ -402,6 +413,17 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "RUTH-HighSchool"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406379",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B15E-Michaels",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         },
         {
           "date": "2026-05-10",
@@ -448,11 +470,11 @@
           "venue_code": "RUTH-Tryon"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 25,
+      "goal_diff": -18,
+      "goals_against": 31,
       "goals_for": 13,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 5,
       "team_raw": "Rutherford-B15E-Schmidt",
       "wins": 1

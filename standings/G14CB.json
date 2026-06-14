@@ -1,6 +1,6 @@
 {
   "division": "G14CB",
-  "scraped_at": "2026-06-13T08:50:54.317180Z",
+  "scraped_at": "2026-06-14T09:08:20.754455Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -110,13 +110,13 @@
         }
       ],
       "goal_diff": 19,
-      "goals_against": 15,
-      "goals_for": 34,
-      "losses": 1,
+      "goals_against": 7,
+      "goals_for": 26,
+      "losses": 0,
       "played": 9,
-      "points": 22,
+      "points": 19,
       "team_raw": "NoRockland-G14CB-Barrios",
-      "wins": 7
+      "wins": 6
     },
     {
       "club": "Lakeland",
@@ -224,14 +224,118 @@
           "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 15,
-      "goals_for": 29,
+      "goal_diff": 9,
+      "goals_against": 11,
+      "goals_for": 20,
       "losses": 1,
       "played": 9,
-      "points": 20,
+      "points": 14,
       "team_raw": "Lakeland-G14CB-Videc",
-      "wins": 6
+      "wins": 4
+    },
+    {
+      "club": "Vikings",
+      "coach": "Ernst",
+      "draws": 3,
+      "form": "DWLLD",
+      "games": [
+        {
+          "date": "2026-04-25",
+          "game_number": "406187",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14CB-Videc",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406192",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14CB-Glynn",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406196",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G14CB-Anderson",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406198",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G14CB-Barrios",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NY-NR-NRSA-1"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406201",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14CB-Videc",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "LKLND-LakelandHS"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "406210",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G14CB-Anderson",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "409250",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G14CB-Anderson",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "409252",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14CB-Glynn",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 7,
+      "goals_for": 8,
+      "losses": 2,
+      "played": 8,
+      "points": 9,
+      "team_raw": "Vikings-G14CB-Ernst",
+      "wins": 2
     },
     {
       "club": "NMKnights",
@@ -340,117 +444,13 @@
         }
       ],
       "goal_diff": -8,
-      "goals_against": 25,
-      "goals_for": 17,
-      "losses": 4,
-      "played": 9,
-      "points": 9,
-      "team_raw": "NMKnights-G14CB-Anderson",
-      "wins": 2
-    },
-    {
-      "club": "Vikings",
-      "coach": "Ernst",
-      "draws": 3,
-      "form": "DWLLD",
-      "games": [
-        {
-          "date": "2026-04-25",
-          "game_number": "406187",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G14CB-Videc",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406192",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G14CB-Glynn",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406196",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G14CB-Anderson",
-          "result": "D",
-          "time": "10:00 AM",
-          "venue_code": "NMilford-NMHS-Main"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406198",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-G14CB-Barrios",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "NY-NR-NRSA-1"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406201",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G14CB-Videc",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "LKLND-LakelandHS"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "406210",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G14CB-Anderson",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "409250",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G14CB-Anderson",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "NMilford-NMHS-Main"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "409252",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G14CB-Glynn",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 11,
-      "goals_for": 8,
+      "goals_against": 18,
+      "goals_for": 10,
       "losses": 3,
-      "played": 8,
-      "points": 9,
-      "team_raw": "Vikings-G14CB-Ernst",
-      "wins": 2
+      "played": 9,
+      "points": 6,
+      "team_raw": "NMKnights-G14CB-Anderson",
+      "wins": 1
     },
     {
       "club": "Maywood",
@@ -558,10 +558,10 @@
           "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 33,
-      "goals_for": 11,
-      "losses": 8,
+      "goal_diff": -21,
+      "goals_against": 29,
+      "goals_for": 8,
+      "losses": 7,
       "played": 9,
       "points": 1,
       "team_raw": "Maywood-G14CB-Glynn",

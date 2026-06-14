@@ -1,13 +1,13 @@
 {
   "division": "B10G",
-  "scraped_at": "2026-06-13T08:43:28.494583Z",
+  "scraped_at": "2026-06-14T08:59:49.862734Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -41,6 +41,17 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406891",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10G-Engel",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "GLENRDGE-Carteret"
         },
         {
           "date": "2026-05-03",
@@ -98,14 +109,14 @@
           "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 13,
-      "goals_for": 41,
+      "goal_diff": 33,
+      "goals_against": 15,
+      "goals_for": 48,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "WoodRidge-B10G-Prior",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Emerson",
@@ -226,7 +237,7 @@
       "club": "GlenRidge",
       "coach": "Engel",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-06-06",
@@ -260,6 +271,17 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406891",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10G-Prior",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "GLENRDGE-Carteret"
         },
         {
           "date": "2026-05-03",
@@ -317,11 +339,11 @@
           "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 37,
-      "goals_for": 34,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -8,
+      "goals_against": 44,
+      "goals_for": 36,
+      "losses": 5,
+      "played": 9,
       "points": 12,
       "team_raw": "GlenRidge-B10G-Engel",
       "wins": 4

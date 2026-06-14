@@ -1,14 +1,25 @@
 {
   "division": "G09D",
-  "scraped_at": "2026-06-13T08:48:02.896193Z",
+  "scraped_at": "2026-06-14T09:05:17.305491Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Mahwah",
       "coach": "Palmer",
       "draws": 2,
-      "form": "DWWDW",
+      "form": "WWDWW",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "405948",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-Schuster",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
         {
           "date": "2026-03-28",
           "game_number": "405951",
@@ -109,14 +120,14 @@
           "venue_code": "MAHWAH-MemorialMah"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 12,
-      "goals_for": 27,
+      "goal_diff": 19,
+      "goals_against": 13,
+      "goals_for": 32,
       "losses": 1,
-      "played": 9,
-      "points": 20,
+      "played": 10,
+      "points": 23,
       "team_raw": "Mahwah-G09D-Palmer",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Emerson",
@@ -145,6 +156,17 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405964",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09D-OConnor",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
         },
         {
           "date": "2026-05-03",
@@ -202,20 +224,20 @@
           "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 9,
-      "goals_for": 26,
+      "goal_diff": 19,
+      "goals_against": 11,
+      "goals_for": 30,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "Emerson-G09D-Reynoso",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Force",
       "coach": "OConnor",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -262,6 +284,17 @@
           "venue_code": "GLENRDGE-Carteret"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "405964",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09D-Reynoso",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "405976",
           "goals_against": 2,
@@ -306,11 +339,11 @@
           "venue_code": "NY-MWU-Gonzaga"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 17,
-      "goals_for": 26,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": 7,
+      "goals_against": 21,
+      "goals_for": 28,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "Force-G09D-OConnor",
       "wins": 5
@@ -538,8 +571,19 @@
       "club": "GlenRidge",
       "coach": "Schuster",
       "draws": 1,
-      "form": "DWWLW",
+      "form": "WWLWL",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "405948",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G09D-Palmer",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
         {
           "date": "2026-06-06",
           "game_number": "405957",
@@ -629,11 +673,11 @@
           "venue_code": "GLENRDGE-Carteret"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 20,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -9,
+      "goals_against": 25,
+      "goals_for": 16,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "GlenRidge-G09D-Schuster",
       "wins": 4

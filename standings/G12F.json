@@ -1,6 +1,6 @@
 {
   "division": "G12F",
-  "scraped_at": "2026-06-13T08:50:00.005308Z",
+  "scraped_at": "2026-06-14T09:07:25.982127Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -98,14 +98,14 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 17,
-      "goals_for": 33,
+      "goal_diff": 15,
+      "goals_against": 15,
+      "goals_for": 30,
       "losses": 1,
       "played": 8,
-      "points": 21,
+      "points": 18,
       "team_raw": "WayneBG-G12F-Nahorniak",
-      "wins": 7
+      "wins": 6
     },
     {
       "club": "WestEssex",
@@ -213,14 +213,14 @@
           "venue_code": "WEssex-TOBeirne-9v9"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 18,
-      "goals_for": 28,
+      "goal_diff": 1,
+      "goals_against": 17,
+      "goals_for": 18,
       "losses": 2,
       "played": 9,
-      "points": 21,
+      "points": 15,
       "team_raw": "WestEssex-G12F-Alexander",
-      "wins": 7
+      "wins": 5
     },
     {
       "club": "Lakeland",
@@ -328,10 +328,10 @@
           "venue_code": "WEssex-TOBeirne-9v9"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 24,
-      "goals_for": 29,
-      "losses": 4,
+      "goal_diff": 8,
+      "goals_against": 18,
+      "goals_for": 26,
+      "losses": 2,
       "played": 9,
       "points": 13,
       "team_raw": "Lakeland-G12F-Gray",
@@ -340,9 +340,20 @@
     {
       "club": "Spartan",
       "coach": "Kelly",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408872",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12F-Herbert",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
         {
           "date": "2026-04-19",
           "game_number": "408879",
@@ -421,19 +432,134 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 2,
+      "goal_diff": 0,
       "goals_against": 15,
-      "goals_for": 17,
+      "goals_for": 15,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 10,
       "team_raw": "Spartan-G12F-Kelly",
-      "wins": 4
+      "wins": 3
+    },
+    {
+      "club": "Maroons",
+      "coach": "Herbert",
+      "draws": 1,
+      "form": "LLWLD",
+      "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408872",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G12F-Kelly",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408875",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G12F-Wunder",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "AMER-Presentation"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "408881",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G12F-Gedeon",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "COUGSC-Dehart2"
+        },
+        {
+          "date": "2026-05-15",
+          "game_number": "408886",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G12F-Nahorniak",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-05-04",
+          "game_number": "408890",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G12F-Alexander",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "408893",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G12F-Patterson",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "408897",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G12F-Gray",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "LKLND-Hagstrom"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "408899",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G12F-Kelly",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408904",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G12F-Wunder",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-HabernickelPk"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 19,
+      "goals_for": 22,
+      "losses": 3,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Maroons-G12F-Herbert",
+      "wins": 3
     },
     {
       "club": "CougarSC",
       "coach": "Gedeon",
-      "draws": 2,
+      "draws": 1,
       "form": "LDLWW",
       "games": [
         {
@@ -536,123 +662,19 @@
           "venue_code": "COUGSC-Dehart2"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 22,
-      "goals_for": 23,
+      "goal_diff": -2,
+      "goals_against": 18,
+      "goals_for": 16,
       "losses": 4,
       "played": 9,
-      "points": 11,
+      "points": 7,
       "team_raw": "CougarSC-G12F-Gedeon",
-      "wins": 3
-    },
-    {
-      "club": "Maroons",
-      "coach": "Herbert",
-      "draws": 0,
-      "form": "LLLWL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408875",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G12F-Wunder",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "AMER-Presentation"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "408881",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G12F-Gedeon",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "COUGSC-Dehart2"
-        },
-        {
-          "date": "2026-05-15",
-          "game_number": "408886",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G12F-Nahorniak",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-05-04",
-          "game_number": "408890",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G12F-Alexander",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WEssex-Volunteers"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "408893",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G12F-Patterson",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "408897",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G12F-Gray",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "LKLND-Hagstrom"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "408899",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G12F-Kelly",
-          "result": "L",
-          "time": "12:45 PM",
-          "venue_code": "PAR-ParkwayMS9"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "408904",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G12F-Wunder",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "MAR-HabernickelPk"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 25,
-      "goals_for": 25,
-      "losses": 5,
-      "played": 8,
-      "points": 9,
-      "team_raw": "Maroons-G12F-Herbert",
-      "wins": 3
+      "wins": 2
     },
     {
       "club": "HobUtd",
       "coach": "Patterson",
-      "draws": 1,
+      "draws": 0,
       "form": "LLLLL",
       "games": [
         {
@@ -755,12 +777,12 @@
           "venue_code": "COUGSC-Dehart2"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 31,
-      "goals_for": 14,
-      "losses": 6,
+      "goal_diff": -10,
+      "goals_against": 21,
+      "goals_for": 11,
+      "losses": 5,
       "played": 9,
-      "points": 7,
+      "points": 6,
       "team_raw": "HobUtd-G12F-Patterson",
       "wins": 2
     },
@@ -870,14 +892,14 @@
           "venue_code": "MAR-HabernickelPk"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 30,
-      "goals_for": 13,
-      "losses": 7,
+      "goal_diff": -15,
+      "goals_against": 23,
+      "goals_for": 8,
+      "losses": 6,
       "played": 9,
-      "points": 6,
+      "points": 3,
       "team_raw": "Americans-G12F-Wunder",
-      "wins": 2
+      "wins": 1
     }
   ]
 }

@@ -1,14 +1,25 @@
 {
   "division": "G13E",
-  "scraped_at": "2026-06-13T08:50:36.242234Z",
+  "scraped_at": "2026-06-14T09:07:56.871197Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "UnionCity",
       "coach": "Canales",
-      "draws": 0,
-      "form": "WWWLW",
+      "draws": 1,
+      "form": "WWLDW",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "409023",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13E-Forsythe",
+          "result": "D",
+          "time": "07:15 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-04-12",
           "game_number": "409028",
@@ -113,8 +124,8 @@
       "goals_against": 8,
       "goals_for": 23,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 25,
       "team_raw": "UnionCity-G13E-Canales",
       "wins": 8
     },
@@ -236,9 +247,20 @@
     {
       "club": "Maroons",
       "coach": "Forsythe",
-      "draws": 3,
-      "form": "WLDDW",
+      "draws": 4,
+      "form": "LDDWD",
       "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "409023",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G13E-Canales",
+          "result": "D",
+          "time": "07:15 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-04-12",
           "game_number": "409027",
@@ -332,8 +354,8 @@
       "goals_against": 13,
       "goals_for": 24,
       "losses": 1,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 16,
       "team_raw": "Maroons-G13E-Forsythe",
       "wins": 4
     },

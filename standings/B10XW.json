@@ -1,13 +1,13 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-06-14T09:00:14.278561Z",
+  "scraped_at": "2026-06-15T11:40:21.335550Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Force",
       "coach": "Darling",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -30,22 +30,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409725",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B10XW-Paulose",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
         }
       ],
-      "goal_diff": 8,
+      "goal_diff": 11,
       "goals_against": 4,
-      "goals_for": 12,
+      "goals_for": 15,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "Force-B10XW-Darling",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "NMKnights",
       "coach": "Paulose",
       "draws": 0,
-      "form": "WW",
+      "form": "WWL",
       "games": [
         {
           "date": "2026-05-09",
@@ -68,13 +79,24 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "409725",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10XW-Darling",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "MAHWAH-RamCollBBMid6"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 8,
+      "goal_diff": 3,
+      "goals_against": 11,
       "goals_for": 14,
-      "losses": 0,
-      "played": 2,
+      "losses": 1,
+      "played": 3,
       "points": 6,
       "team_raw": "NMKnights-B10XW-Paulose",
       "wins": 2

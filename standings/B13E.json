@@ -1,6 +1,6 @@
 {
   "division": "B13E",
-  "scraped_at": "2026-06-14T09:02:45.924124Z",
+  "scraped_at": "2026-06-15T11:42:54.739420Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -341,7 +341,7 @@
       "club": "NoArlington",
       "coach": "McSorley",
       "draws": 2,
-      "form": "WDWDW",
+      "form": "DWDWW",
       "games": [
         {
           "date": "2026-05-16",
@@ -375,6 +375,17 @@
           "result": "W",
           "time": "07:15 PM",
           "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405602",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B13E-McLean",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
         },
         {
           "date": "2026-05-03",
@@ -432,20 +443,20 @@
           "venue_code": "MONT-WatsessingPk"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 16,
-      "goals_for": 29,
+      "goal_diff": 14,
+      "goals_against": 19,
+      "goals_for": 33,
       "losses": 2,
-      "played": 8,
-      "points": 14,
+      "played": 9,
+      "points": 17,
       "team_raw": "NoArlington-B13E-McSorley",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WoodRidge",
       "coach": "McLean",
       "draws": 0,
-      "form": "LWWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -479,6 +490,17 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405602",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B13E-McSorley",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
         },
         {
           "date": "2026-05-03",
@@ -536,11 +558,11 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 31,
-      "goals_for": 27,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -5,
+      "goals_against": 35,
+      "goals_for": 30,
+      "losses": 5,
+      "played": 9,
       "points": 12,
       "team_raw": "WoodRidge-B13E-McLean",
       "wins": 4

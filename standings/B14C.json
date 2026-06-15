@@ -1,13 +1,13 @@
 {
   "division": "B14C",
-  "scraped_at": "2026-06-14T09:03:17.332754Z",
+  "scraped_at": "2026-06-15T11:43:26.033219Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "CougarSC",
       "coach": "Smith",
       "draws": 1,
-      "form": "WLWDW",
+      "form": "LWDWW",
       "games": [
         {
           "date": "2026-05-02",
@@ -107,22 +107,33 @@
           "result": "D",
           "time": "01:30 PM",
           "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406493",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B14C-Luongo",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 15,
       "goals_against": 14,
-      "goals_for": 27,
+      "goals_for": 29,
       "losses": 1,
-      "played": 9,
-      "points": 22,
+      "played": 10,
+      "points": 25,
       "team_raw": "CougarSC-B14C-Smith",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "HobUtd",
       "coach": "Luongo",
       "draws": 1,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-06-13",
@@ -222,13 +233,24 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406493",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14C-Smith",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 16,
+      "goal_diff": 18,
+      "goals_against": 18,
       "goals_for": 36,
-      "losses": 1,
-      "played": 9,
+      "losses": 2,
+      "played": 10,
       "points": 22,
       "team_raw": "HobUtd-B14C-Luongo",
       "wins": 7
@@ -237,7 +259,7 @@
       "club": "Warriors",
       "coach": "Mohorovich",
       "draws": 1,
-      "form": "WLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -337,16 +359,142 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406491",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B14C-Fernandez",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 18,
-      "goals_for": 20,
-      "losses": 4,
-      "played": 9,
+      "goal_diff": 1,
+      "goals_against": 21,
+      "goals_for": 22,
+      "losses": 5,
+      "played": 10,
       "points": 13,
       "team_raw": "Warriors-B14C-Mohorovich",
       "wins": 4
+    },
+    {
+      "club": "Southside",
+      "coach": "Fernandez",
+      "draws": 0,
+      "form": "WWLLW",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "406464",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14C-Antell",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406468",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14C-Smith",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "406470",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B14C-Luongo",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "ProspPk-Hofstra Park"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406474",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B14C-Dam",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "406477",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B14C-Mohorovich",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WALD-HSNorth"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406481",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14C-Antell",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406484",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14C-Smith",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "ProspPk-Hofstra Park"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "406487",
+          "goals_against": 10,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B14C-Luongo",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406491",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B14C-Mohorovich",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        }
+      ],
+      "goal_diff": -16,
+      "goals_against": 34,
+      "goals_for": 18,
+      "losses": 6,
+      "played": 9,
+      "points": 9,
+      "team_raw": "Southside-B14C-Fernandez",
+      "wins": 3
     },
     {
       "club": "Nutley",
@@ -461,110 +609,6 @@
       "played": 9,
       "points": 9,
       "team_raw": "Nutley-B14C-Antell",
-      "wins": 2
-    },
-    {
-      "club": "Southside",
-      "coach": "Fernandez",
-      "draws": 0,
-      "form": "LWWLL",
-      "games": [
-        {
-          "date": "2026-05-30",
-          "game_number": "406464",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B14C-Antell",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "Haledon-MnchstHS-Lrg"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406468",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B14C-Smith",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "COUGSC-OrangePark"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "406470",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B14C-Luongo",
-          "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "ProspPk-Hofstra Park"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406474",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B14C-Dam",
-          "result": "L",
-          "time": "04:15 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "406477",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B14C-Mohorovich",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "WALD-HSNorth"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406481",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B14C-Antell",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-06-13",
-          "game_number": "406484",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B14C-Smith",
-          "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "ProspPk-Hofstra Park"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "406487",
-          "goals_against": 10,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B14C-Luongo",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "HobUtd-SinatraPark"
-        }
-      ],
-      "goal_diff": -17,
-      "goals_against": 32,
-      "goals_for": 15,
-      "losses": 6,
-      "played": 8,
-      "points": 6,
-      "team_raw": "Southside-B14C-Fernandez",
       "wins": 2
     },
     {

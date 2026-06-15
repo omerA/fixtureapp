@@ -1,13 +1,13 @@
 {
   "division": "G13C",
-  "scraped_at": "2026-06-14T09:07:47.394214Z",
+  "scraped_at": "2026-06-15T11:48:40.191704Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Vikings",
       "coach": "Sampson",
       "draws": 2,
-      "form": "WWLDD",
+      "form": "WLDDW",
       "games": [
         {
           "date": "2026-05-17",
@@ -96,15 +96,130 @@
           "result": "D",
           "time": "05:15 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408985",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G13C-Clark",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WALD-HSTurf-1"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 10,
-      "goals_for": 13,
+      "goal_diff": 4,
+      "goals_against": 12,
+      "goals_for": 16,
       "losses": 1,
-      "played": 8,
-      "points": 14,
+      "played": 9,
+      "points": 17,
       "team_raw": "Vikings-G13C-Sampson",
+      "wins": 5
+    },
+    {
+      "club": "Force",
+      "coach": "Key",
+      "draws": 1,
+      "form": "LWDWW",
+      "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408965",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G13C-Gallagher",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-07",
+          "game_number": "408968",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G13C-Clark",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408970",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G13C-Gallagher",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408971",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13C-Sampson",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408975",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G13C-Zdon",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408977",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G13C-Clark",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408982",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13C-Sampson",
+          "result": "D",
+          "time": "04:15 PM",
+          "venue_code": "NY-MW-CentralVal3"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408986",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G13C-Zdon",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RUTH-Tryon"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 13,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 8,
+      "points": 13,
+      "team_raw": "Force-G13C-Key",
       "wins": 4
     },
     {
@@ -223,103 +338,10 @@
       "wins": 3
     },
     {
-      "club": "Force",
-      "coach": "Key",
-      "draws": 1,
-      "form": "WLWDW",
-      "games": [
-        {
-          "date": "2026-06-13",
-          "game_number": "408965",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G13C-Gallagher",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-07",
-          "game_number": "408968",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G13C-Clark",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "NY-MWU-HudsonComplex"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408970",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G13C-Gallagher",
-          "result": "L",
-          "time": "04:15 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408971",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13C-Sampson",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408975",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G13C-Zdon",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408977",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G13C-Clark",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-CentralVal3"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408982",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13C-Sampson",
-          "result": "D",
-          "time": "04:15 PM",
-          "venue_code": "NY-MW-CentralVal3"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 13,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 7,
-      "points": 10,
-      "team_raw": "Force-G13C-Key",
-      "wins": 3
-    },
-    {
       "club": "Warriors",
       "coach": "Clark",
       "draws": 1,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -397,13 +419,24 @@
           "result": "L",
           "time": "08:30 AM",
           "venue_code": "JC-CochraneCaven"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408985",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13C-Sampson",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WALD-HSTurf-1"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 17,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -1,
+      "goals_against": 20,
+      "goals_for": 19,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Warriors-G13C-Clark",
       "wins": 3
@@ -412,7 +445,7 @@
       "club": "Rutherford",
       "coach": "Zdon",
       "draws": 3,
-      "form": "LLLDD",
+      "form": "LLDDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -490,13 +523,24 @@
           "result": "D",
           "time": "05:15 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408986",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G13C-Key",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RUTH-Tryon"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 14,
+      "goal_diff": -9,
+      "goals_against": 18,
       "goals_for": 9,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 3,
       "team_raw": "Rutherford-G13C-Zdon",
       "wins": 0

@@ -1,8 +1,112 @@
 {
   "division": "G13A",
-  "scraped_at": "2026-06-14T09:07:38.673178Z",
+  "scraped_at": "2026-06-15T11:48:30.178715Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Spartan",
+      "coach": "Auriemmma",
+      "draws": 1,
+      "form": "WWWDW",
+      "games": [
+        {
+          "date": "2026-06-08",
+          "game_number": "408909",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G13A-Regas",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408915",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G13A-Simone",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-08",
+          "game_number": "408916",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G13A-Principalli",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408919",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G13A-Lehman",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408927",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G13A-Murillo",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408929",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G13A-Simone",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408931",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G13A-Principalli",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408936",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G13A-Lehman",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 14,
+      "goals_for": 25,
+      "losses": 2,
+      "played": 8,
+      "points": 16,
+      "team_raw": "Spartan-G13A-Auriemmma",
+      "wins": 5
+    },
     {
       "club": "NMKnights",
       "coach": "Regas",
@@ -119,103 +223,10 @@
       "wins": 4
     },
     {
-      "club": "Spartan",
-      "coach": "Auriemmma",
-      "draws": 1,
-      "form": "LWWWD",
-      "games": [
-        {
-          "date": "2026-06-08",
-          "game_number": "408909",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G13A-Regas",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NMilford-NMHS-Main"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408915",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G13A-Simone",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-05-08",
-          "game_number": "408916",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G13A-Principalli",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "NY-WC-Field1"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408919",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G13A-Lehman",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408927",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-G13A-Murillo",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "NoBergen-HudsonCtyPk"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408929",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G13A-Simone",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "NA-Zadroga1"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "408931",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G13A-Principalli",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 14,
-      "goals_for": 23,
-      "losses": 2,
-      "played": 7,
-      "points": 13,
-      "team_raw": "Spartan-G13A-Auriemmma",
-      "wins": 4
-    },
-    {
       "club": "WorldClassFC",
       "coach": "Principalli",
-      "draws": 1,
-      "form": "WLDLL",
+      "draws": 2,
+      "form": "LDLLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -315,22 +326,33 @@
           "result": "L",
           "time": "11:45 AM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408935",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G13A-Simone",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "NY-WC-Field1"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 13,
-      "goals_for": 13,
+      "goals_against": 15,
+      "goals_for": 15,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 14,
       "team_raw": "WorldClassFC-G13A-Principalli",
       "wins": 4
     },
     {
       "club": "NoArlington",
       "coach": "Simone",
-      "draws": 1,
-      "form": "WLLDL",
+      "draws": 2,
+      "form": "LLDLD",
       "games": [
         {
           "date": "2026-05-18",
@@ -430,14 +452,25 @@
           "result": "L",
           "time": "04:15 PM",
           "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408935",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G13A-Principalli",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "NY-WC-Field1"
         }
       ],
       "goal_diff": -3,
-      "goals_against": 20,
-      "goals_for": 17,
+      "goals_against": 22,
+      "goals_for": 19,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 14,
       "team_raw": "NoArlington-G13A-Simone",
       "wins": 4
     },
@@ -445,7 +478,7 @@
       "club": "Montclair",
       "coach": "Lehman",
       "draws": 2,
-      "form": "WDWWL",
+      "form": "DWWLL",
       "games": [
         {
           "date": "2026-05-18",
@@ -545,13 +578,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408936",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G13A-Auriemmma",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MONT-BrookdaleStad"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 13,
+      "goal_diff": -5,
+      "goals_against": 15,
       "goals_for": 10,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "points": 11,
       "team_raw": "Montclair-G13A-Lehman",
       "wins": 3

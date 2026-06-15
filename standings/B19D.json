@@ -1,13 +1,13 @@
 {
   "division": "B19D",
-  "scraped_at": "2026-06-14T09:04:33.464769Z",
+  "scraped_at": "2026-06-15T11:44:48.994728Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "AviatorsHHSA",
       "coach": "McGill",
-      "draws": 1,
-      "form": "WWWWW",
+      "draws": 2,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-05-10",
@@ -107,22 +107,33 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "BGFD-Vivyen"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405167",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B19D-Gray",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "EM-HSTurf1Full"
         }
       ],
       "goal_diff": 30,
-      "goals_against": 6,
-      "goals_for": 36,
+      "goals_against": 7,
+      "goals_for": 37,
       "losses": 0,
-      "played": 9,
-      "points": 25,
+      "played": 10,
+      "points": 26,
       "team_raw": "AviatorsHHSA-B19D-McGill",
       "wins": 8
     },
     {
       "club": "Emerson",
       "coach": "Gray",
-      "draws": 2,
-      "form": "DWWWW",
+      "draws": 3,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -222,14 +233,25 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "LKLND-AddicePrk"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405167",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B19D-McGill",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "EM-HSTurf1Full"
         }
       ],
       "goal_diff": 31,
-      "goals_against": 15,
-      "goals_for": 46,
+      "goals_against": 16,
+      "goals_for": 47,
       "losses": 0,
-      "played": 9,
-      "points": 22,
+      "played": 10,
+      "points": 23,
       "team_raw": "Emerson-B19D-Gray",
       "wins": 7
     },
@@ -237,7 +259,7 @@
       "club": "Lakeland",
       "coach": "Vogel",
       "draws": 1,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-05-30",
@@ -337,22 +359,33 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "LKLND-AddicePrk"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405168",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B19D-Davies",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "AMER-LakeStTurf"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 29,
-      "goals_for": 31,
+      "goal_diff": 4,
+      "goals_against": 31,
+      "goals_for": 35,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 16,
       "team_raw": "Lakeland-B19D-Vogel",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Americans",
       "coach": "Davies",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-05-10",
@@ -452,13 +485,24 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405168",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B19D-Vogel",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "AMER-LakeStTurf"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 27,
-      "goals_for": 25,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -4,
+      "goals_against": 31,
+      "goals_for": 27,
+      "losses": 6,
+      "played": 10,
       "points": 12,
       "team_raw": "Americans-B19D-Davies",
       "wins": 4

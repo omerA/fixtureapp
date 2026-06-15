@@ -1,13 +1,13 @@
 {
   "division": "G09A",
-  "scraped_at": "2026-06-14T09:05:01.452012Z",
+  "scraped_at": "2026-06-15T11:45:16.783352Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WorldClassFC",
       "coach": "VanDyke",
       "draws": 2,
-      "form": "WDWLW",
+      "form": "DWLWW",
       "games": [
         {
           "date": "2026-04-11",
@@ -107,22 +107,33 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405860",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G09A-Szucs",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 19,
+      "goal_diff": 20,
       "goals_against": 20,
-      "goals_for": 39,
+      "goals_for": 40,
       "losses": 1,
-      "played": 9,
-      "points": 20,
+      "played": 10,
+      "points": 23,
       "team_raw": "WorldClassFC-G09A-VanDyke",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Dragons",
       "coach": "Donohue",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -222,22 +233,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405861",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09A-Maringola",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 32,
-      "goals_for": 44,
+      "goal_diff": 18,
+      "goals_against": 33,
+      "goals_for": 51,
       "losses": 2,
-      "played": 9,
-      "points": 19,
+      "played": 10,
+      "points": 22,
       "team_raw": "Dragons-G09A-Donohue",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Montclair",
       "coach": "Juarez",
       "draws": 3,
-      "form": "DDLWL",
+      "form": "DLWLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -337,22 +359,33 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405862",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G09A-Winner",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 20,
-      "goals_for": 25,
+      "goal_diff": 6,
+      "goals_against": 21,
+      "goals_for": 27,
       "losses": 3,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 15,
       "team_raw": "Montclair-G09A-Juarez",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "GlenRock",
       "coach": "Winner",
       "draws": 1,
-      "form": "WLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-04-11",
@@ -452,13 +485,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405862",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G09A-Juarez",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 43,
-      "goals_for": 21,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -23,
+      "goals_against": 45,
+      "goals_for": 22,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "GlenRock-G09A-Winner",
       "wins": 3
@@ -467,7 +511,7 @@
       "club": "Maywood",
       "coach": "Maringola",
       "draws": 3,
-      "form": "DDLWD",
+      "form": "DLWDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -556,13 +600,24 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "JC-CochraneCaven-4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405861",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09A-Donohue",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 20,
-      "goals_for": 23,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -3,
+      "goals_against": 27,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 9,
       "points": 9,
       "team_raw": "Maywood-G09A-Maringola",
       "wins": 2
@@ -571,7 +626,7 @@
       "club": "JerseyCity",
       "coach": "Szucs",
       "draws": 2,
-      "form": "LLDLD",
+      "form": "LDLDL",
       "games": [
         {
           "date": "2026-03-29",
@@ -660,13 +715,24 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "JC-CochraneCaven-4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405860",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09A-VanDyke",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 28,
+      "goal_diff": -18,
+      "goals_against": 29,
       "goals_for": 11,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 2,
       "team_raw": "JerseyCity-G09A-Szucs",
       "wins": 0

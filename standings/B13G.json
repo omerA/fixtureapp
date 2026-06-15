@@ -1,13 +1,13 @@
 {
   "division": "B13G",
-  "scraped_at": "2026-06-14T09:02:59.343744Z",
+  "scraped_at": "2026-06-15T11:43:08.206704Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WayneBG",
       "coach": "Alom",
-      "draws": 0,
-      "form": "WLWWW",
+      "draws": 1,
+      "form": "LWWWD",
       "games": [
         {
           "date": "2026-06-13",
@@ -107,14 +107,25 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406334",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13G-McDermott",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "ARS-Fieldstone1"
         }
       ],
       "goal_diff": 31,
-      "goals_against": 9,
-      "goals_for": 40,
+      "goals_against": 11,
+      "goals_for": 42,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 25,
       "team_raw": "WayneBG-B13G-Alom",
       "wins": 8
     },
@@ -122,7 +133,7 @@
       "club": "RdgfldPk",
       "coach": "Uribe",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-06-13",
@@ -211,22 +222,33 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406335",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13G-Recanati",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 5,
-      "goals_for": 33,
+      "goal_diff": 30,
+      "goals_against": 6,
+      "goals_for": 36,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "RdgfldPk-B13G-Uribe",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Arsenal",
       "coach": "McDermott",
-      "draws": 1,
-      "form": "LDLWL",
+      "draws": 2,
+      "form": "DLWLD",
       "games": [
         {
           "date": "2026-04-11",
@@ -326,14 +348,25 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406334",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13G-Alom",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "ARS-Fieldstone1"
         }
       ],
       "goal_diff": 4,
-      "goals_against": 27,
-      "goals_for": 31,
+      "goals_against": 29,
+      "goals_for": 33,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 14,
       "team_raw": "Arsenal-B13G-McDermott",
       "wins": 4
     },
@@ -341,7 +374,7 @@
       "club": "RiverDell",
       "coach": "Recanati",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -441,13 +474,24 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406335",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B13G-Uribe",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 26,
-      "goals_for": 22,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -6,
+      "goals_against": 29,
+      "goals_for": 23,
+      "losses": 6,
+      "played": 10,
       "points": 12,
       "team_raw": "RiverDell-B13G-Recanati",
       "wins": 4

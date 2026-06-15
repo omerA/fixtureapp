@@ -1,6 +1,6 @@
 {
   "division": "B08B4",
-  "scraped_at": "2026-06-14T08:57:28.389707Z",
+  "scraped_at": "2026-06-15T11:37:34.855658Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -222,22 +222,44 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406674",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B08B4-Kaynar",
+          "result": "W",
+          "time": "12:00 AM",
+          "venue_code": "TBS (F)"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406678",
+          "goals_against": 5,
+          "goals_for": 9,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B4-Whalen",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "PAR-ParkwayMS7"
         }
       ],
-      "goal_diff": 35,
-      "goals_against": 27,
-      "goals_for": 62,
+      "goal_diff": 39,
+      "goals_against": 32,
+      "goals_for": 71,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "Spartan-B08B4-Hegyi",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "GlobalJC",
       "coach": "Whalen",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -337,13 +359,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "JC-GatewayLL4v4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406678",
+          "goals_against": 9,
+          "goals_for": 5,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08B4-Hegyi",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "PAR-ParkwayMS7"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 50,
-      "goals_for": 75,
-      "losses": 3,
-      "played": 9,
+      "goal_diff": 21,
+      "goals_against": 59,
+      "goals_for": 80,
+      "losses": 4,
+      "played": 10,
       "points": 18,
       "team_raw": "GlobalJC-B08B4-Whalen",
       "wins": 6
@@ -478,7 +511,7 @@
       "club": "NMKnights",
       "coach": "King",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-04-18",
@@ -578,13 +611,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406676",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B08B4-Kaynar",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
-      "goal_diff": -40,
-      "goals_against": 64,
-      "goals_for": 24,
-      "losses": 8,
-      "played": 9,
+      "goal_diff": -44,
+      "goals_against": 71,
+      "goals_for": 27,
+      "losses": 9,
+      "played": 10,
       "points": 3,
       "team_raw": "NMKnights-B08B4-King",
       "wins": 1
@@ -593,7 +637,7 @@
       "club": "Paramus",
       "coach": "Kaynar",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -682,16 +726,38 @@
           "result": "L",
           "time": "01:15 PM",
           "venue_code": "MONT-Brookdale4v4"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406674 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08B4-Hegyi",
+          "result": "L",
+          "time": "12:00 AM",
+          "venue_code": "TBS (F)"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406676",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08B4-King",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
-      "goal_diff": -39,
-      "goals_against": 58,
-      "goals_for": 19,
+      "goal_diff": -35,
+      "goals_against": 61,
+      "goals_for": 26,
       "losses": 8,
-      "played": 8,
-      "points": 0,
+      "played": 9,
+      "points": 3,
       "team_raw": "Paramus-B08B4-Kaynar",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

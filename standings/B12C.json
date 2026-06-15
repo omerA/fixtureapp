@@ -1,13 +1,13 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-06-14T09:01:34.713512Z",
+  "scraped_at": "2026-06-15T11:41:43.493700Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Arsenal",
       "coach": "McDermott",
-      "draws": 2,
-      "form": "WWWWD",
+      "draws": 3,
+      "form": "WWWDD",
       "games": [
         {
           "date": "2026-04-25",
@@ -87,6 +87,17 @@
           "venue_code": "BGFD-Hickory"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "408413",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12C-Valle",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "ARS-Fieldstone1"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "408419",
           "goals_against": 1,
@@ -99,11 +110,11 @@
         }
       ],
       "goal_diff": 11,
-      "goals_against": 10,
-      "goals_for": 21,
+      "goals_against": 14,
+      "goals_for": 25,
       "losses": 0,
-      "played": 8,
-      "points": 20,
+      "played": 9,
+      "points": 21,
       "team_raw": "Arsenal-B12C-McDermott",
       "wins": 6
     },
@@ -442,103 +453,10 @@
       "wins": 5
     },
     {
-      "club": "Force",
-      "coach": "Dam",
-      "draws": 3,
-      "form": "WWLDD",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408386",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B12C-Camino",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408389",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B12C-Campoverde",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "408393",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B12C-Birnie",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408400",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408406",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B12C-Wein",
-          "result": "D",
-          "time": "05:15 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-04-24",
-          "game_number": "408410",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B12C-Alexander",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "NY-NR-NRSA-3"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "408419",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B12C-McDermott",
-          "result": "D",
-          "time": "02:30 PM",
-          "venue_code": "NY-MW-WMombasha"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 19,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 7,
-      "points": 12,
-      "team_raw": "Force-B12C-Dam",
-      "wins": 3
-    },
-    {
       "club": "NoValley",
       "coach": "Birnie",
       "draws": 1,
-      "form": "WLWDL",
+      "form": "LWDLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -627,22 +545,252 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408418",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 18,
-      "goals_for": 17,
+      "goal_diff": 4,
+      "goals_against": 19,
+      "goals_for": 23,
       "losses": 4,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 13,
       "team_raw": "NoValley-B12C-Birnie",
+      "wins": 4
+    },
+    {
+      "club": "Force",
+      "coach": "Dam",
+      "draws": 3,
+      "form": "WLDDL",
+      "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "408377",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12C-Valle",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408386",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408389",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B12C-Campoverde",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "408393",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Birnie",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408400",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408406",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "D",
+          "time": "05:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-04-24",
+          "game_number": "408410",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408419",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12C-McDermott",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "NY-MW-WMombasha"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 21,
+      "goals_for": 23,
+      "losses": 2,
+      "played": 8,
+      "points": 12,
+      "team_raw": "Force-B12C-Dam",
+      "wins": 3
+    },
+    {
+      "club": "Teaneck",
+      "coach": "Valle",
+      "draws": 1,
+      "form": "LLLDW",
+      "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "408377",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B12C-Dam",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408383",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B12C-Campoverde",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408390",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Birnie",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-04-27",
+          "game_number": "408394",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408399",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408403",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408411",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Chavarria",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408413",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12C-McDermott",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "ARS-Fieldstone1"
+        },
+        {
+          "date": "2026-06-08",
+          "game_number": "408417",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 27,
+      "goals_for": 24,
+      "losses": 5,
+      "played": 9,
+      "points": 10,
+      "team_raw": "Teaneck-B12C-Valle",
       "wins": 3
     },
     {
       "club": "NoRockland",
       "coach": "Alexander",
       "draws": 1,
-      "form": "LWLDL",
+      "form": "WLDLL",
       "games": [
         {
           "date": "2026-05-30",
@@ -731,219 +879,33 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408418",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Birnie",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "NoVAL-Trackside"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 34,
-      "goals_for": 24,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -15,
+      "goals_against": 40,
+      "goals_for": 25,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "NoRockland-B12C-Alexander",
       "wins": 2
     },
     {
-      "club": "Teaneck",
-      "coach": "Valle",
-      "draws": 0,
-      "form": "LLLLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "408383",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B12C-Campoverde",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408390",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B12C-Birnie",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-04-27",
-          "game_number": "408394",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408399",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B12C-Wein",
-          "result": "L",
-          "time": "04:15 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408403",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B12C-Alexander",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "NY-NR-NRSA-3"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408411",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12C-Chavarria",
-          "result": "L",
-          "time": "03:45 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-06-08",
-          "game_number": "408417",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B12C-Camino",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 22,
-      "goals_for": 18,
-      "losses": 5,
-      "played": 7,
-      "points": 6,
-      "team_raw": "Teaneck-B12C-Valle",
-      "wins": 2
-    },
-    {
-      "club": "Bergenfield",
-      "coach": "Camino",
-      "draws": 1,
-      "form": "LLLWL",
-      "games": [
-        {
-          "date": "2026-06-13",
-          "game_number": "408378",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B12C-Wein",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "BGFD-Hickory"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "408386",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B12C-Dam",
-          "result": "D",
-          "time": "12:30 PM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408391",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B12C-Alexander",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "NY-NR-NRSA-3"
-        },
-        {
-          "date": "2026-05-02",
-          "game_number": "408398",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12C-Chavarria",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "BGFD-Hickory"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "408405",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B12C-Birnie",
-          "result": "L",
-          "time": "09:15 AM",
-          "venue_code": "NoVAL-Trackside"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "408409",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B12C-McDermott",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "BGFD-Hickory"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "408416",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "MAHWAH-RamCollMid4"
-        },
-        {
-          "date": "2026-06-08",
-          "game_number": "408417",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Teaneck",
-          "opponent_raw": "Teaneck-B12C-Valle",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        }
-      ],
-      "goal_diff": -15,
-      "goals_against": 26,
-      "goals_for": 11,
-      "losses": 6,
-      "played": 8,
-      "points": 4,
-      "team_raw": "Bergenfield-B12C-Camino",
-      "wins": 1
-    },
-    {
       "club": "NoBergen",
       "coach": "Campoverde",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLW",
       "games": [
         {
           "date": "2026-04-25",
@@ -977,6 +939,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408392",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12C-Camino",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         },
         {
           "date": "2026-05-03",
@@ -1034,14 +1007,129 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 35,
-      "goals_for": 18,
+      "goal_diff": -16,
+      "goals_against": 36,
+      "goals_for": 20,
       "losses": 7,
-      "played": 8,
-      "points": 1,
+      "played": 9,
+      "points": 4,
       "team_raw": "NoBergen-B12C-Campoverde",
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "club": "Bergenfield",
+      "coach": "Camino",
+      "draws": 1,
+      "form": "LLWLL",
+      "games": [
+        {
+          "date": "2026-06-13",
+          "game_number": "408378",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B12C-Wein",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "BGFD-Hickory"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "408386",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B12C-Dam",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408391",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12C-Alexander",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408392",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B12C-Campoverde",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-05-02",
+          "game_number": "408398",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Chavarria",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "BGFD-Hickory"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "408405",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Birnie",
+          "result": "L",
+          "time": "09:15 AM",
+          "venue_code": "NoVAL-Trackside"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "408409",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12C-McDermott",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "BGFD-Hickory"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408416",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12C-Fitzsimmons",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MAHWAH-RamCollMid4"
+        },
+        {
+          "date": "2026-06-08",
+          "game_number": "408417",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B12C-Valle",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        }
+      ],
+      "goal_diff": -16,
+      "goals_against": 28,
+      "goals_for": 12,
+      "losses": 7,
+      "played": 9,
+      "points": 4,
+      "team_raw": "Bergenfield-B12C-Camino",
+      "wins": 1
     }
   ]
 }

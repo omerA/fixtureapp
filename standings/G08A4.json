@@ -1,13 +1,13 @@
 {
   "division": "G08A4",
-  "scraped_at": "2026-06-14T09:04:37.875658Z",
+  "scraped_at": "2026-06-15T11:44:53.405351Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Fairview",
       "coach": "Macias",
       "draws": 2,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -65,6 +65,17 @@
           "venue_code": "LF-Merhoff4v4"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406098",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G08A4-Brown",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
           "date": "2026-04-11",
           "game_number": "409229",
           "goals_against": 4,
@@ -76,14 +87,14 @@
           "venue_code": "LF-Merhoff4v4"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 15,
-      "goals_for": 30,
+      "goal_diff": 16,
+      "goals_against": 17,
+      "goals_for": 33,
       "losses": 0,
-      "played": 6,
-      "points": 14,
+      "played": 7,
+      "points": 17,
       "team_raw": "Fairview-G08A4-Macias",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "JerseyCity",
@@ -182,7 +193,7 @@
       "club": "GlobalJC",
       "coach": "Charoth",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -262,6 +273,17 @@
           "venue_code": "JC-GatewayLL4v4"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406099",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G08A4-Thorwarth",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
           "date": "2026-05-09",
           "game_number": "409228",
           "goals_against": 8,
@@ -284,113 +306,20 @@
           "venue_code": "AMER-StLuke"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 38,
-      "goals_for": 24,
-      "losses": 5,
-      "played": 9,
-      "points": 9,
+      "goal_diff": -12,
+      "goals_against": 37,
+      "goals_for": 25,
+      "losses": 4,
+      "played": 10,
+      "points": 12,
       "team_raw": "GlobalJC-G08A4-Charoth",
-      "wins": 3
-    },
-    {
-      "club": "Americans",
-      "coach": "Thorwarth",
-      "draws": 2,
-      "form": "LWDLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "405174",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G08A4-Brown",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "MONT-Brookdale4v4"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405180",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G08A4-Mcnally",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "AMER-Bogert"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405181",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G08A4-Charoth",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "JC-GatewayLL4v4"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406087",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G08A4-Macias",
-          "result": "D",
-          "time": "11:30 AM",
-          "venue_code": "AMER-Bogert"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406089",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G08A4-Brown",
-          "result": "L",
-          "time": "09:45 AM",
-          "venue_code": "AMER-Bogert"
-        },
-        {
-          "date": "2026-04-11",
-          "game_number": "409229",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G08A4-Macias",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "LF-Merhoff4v4"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "409231",
-          "goals_against": 9,
-          "goals_for": 8,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G08A4-Charoth",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "AMER-StLuke"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 29,
-      "goals_for": 27,
-      "losses": 3,
-      "played": 7,
-      "points": 8,
-      "team_raw": "Americans-G08A4-Thorwarth",
-      "wins": 2
+      "wins": 4
     },
     {
       "club": "Montclair",
       "coach": "Brown",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -470,6 +399,17 @@
           "venue_code": "JC-GatewayLL4v4"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406098",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G08A4-Macias",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
           "date": "2026-05-09",
           "game_number": "409228",
           "goals_against": 2,
@@ -492,14 +432,118 @@
           "venue_code": "MONT-Brookdale4v4"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 26,
-      "goals_for": 20,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -7,
+      "goals_against": 29,
+      "goals_for": 22,
+      "losses": 6,
+      "played": 10,
       "points": 6,
       "team_raw": "Montclair-G08A4-Brown",
       "wins": 2
+    },
+    {
+      "club": "Americans",
+      "coach": "Thorwarth",
+      "draws": 2,
+      "form": "WDLLL",
+      "games": [
+        {
+          "date": "2026-04-12",
+          "game_number": "405174",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G08A4-Brown",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "MONT-Brookdale4v4"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405180",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G08A4-Mcnally",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405181",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G08A4-Charoth",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406087",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G08A4-Macias",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406089",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G08A4-Brown",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406099",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G08A4-Charoth",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "AMER-Bogert"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "409229",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G08A4-Macias",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "LF-Merhoff4v4"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "409231",
+          "goals_against": 9,
+          "goals_for": 8,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G08A4-Charoth",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "AMER-StLuke"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 30,
+      "goals_for": 26,
+      "losses": 4,
+      "played": 8,
+      "points": 5,
+      "team_raw": "Americans-G08A4-Thorwarth",
+      "wins": 1
     }
   ]
 }

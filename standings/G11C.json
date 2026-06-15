@@ -1,13 +1,13 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-06-14T09:06:33.913008Z",
+  "scraped_at": "2026-06-15T11:47:08.687404Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Prior",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-06-06",
@@ -96,14 +96,25 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "NY-CLARK-Zukor2C"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408581",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G11C-Hecht",
+          "result": "D",
+          "time": "11:45 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
       "goal_diff": 46,
-      "goals_against": 3,
-      "goals_for": 49,
+      "goals_against": 5,
+      "goals_for": 51,
       "losses": 0,
-      "played": 8,
-      "points": 24,
+      "played": 9,
+      "points": 25,
       "team_raw": "WoodRidge-G11C-Prior",
       "wins": 8
     },
@@ -111,7 +122,7 @@
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-04-24",
@@ -200,13 +211,24 @@
           "result": "W",
           "time": "03:45 PM",
           "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408582",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G11C-Laskowski",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "TORP-Pulis4"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 12,
-      "goals_for": 25,
-      "losses": 1,
-      "played": 8,
+      "goal_diff": 12,
+      "goals_against": 14,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 9,
       "points": 21,
       "team_raw": "Torpedoes-G11C-Gjoca",
       "wins": 7
@@ -214,8 +236,8 @@
     {
       "club": "Montclair",
       "coach": "Kim",
-      "draws": 1,
-      "form": "LWWWW",
+      "draws": 2,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-06-06",
@@ -315,22 +337,33 @@
           "result": "W",
           "time": "12:15 PM",
           "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408584",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G11C-Peterfriend",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
         }
       ],
       "goal_diff": 8,
-      "goals_against": 21,
-      "goals_for": 29,
+      "goals_against": 24,
+      "goals_for": 32,
       "losses": 2,
-      "played": 9,
-      "points": 19,
+      "played": 10,
+      "points": 20,
       "team_raw": "Montclair-G11C-Kim",
       "wins": 6
     },
     {
       "club": "CougarUtd",
       "coach": "Hecht",
-      "draws": 1,
-      "form": "WLWDW",
+      "draws": 2,
+      "form": "LWDWD",
       "games": [
         {
           "date": "2026-06-06",
@@ -430,22 +463,33 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "WORANGE-LibertyMS"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408581",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G11C-Prior",
+          "result": "D",
+          "time": "11:45 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
       "goal_diff": 15,
-      "goals_against": 21,
-      "goals_for": 36,
+      "goals_against": 23,
+      "goals_for": 38,
       "losses": 2,
-      "played": 9,
-      "points": 19,
+      "played": 10,
+      "points": 20,
       "team_raw": "CougarUtd-G11C-Hecht",
       "wins": 6
     },
     {
       "club": "Hotspur",
       "coach": "Peterfriend",
-      "draws": 1,
-      "form": "WWDLW",
+      "draws": 2,
+      "form": "WDLWD",
       "games": [
         {
           "date": "2026-06-13",
@@ -545,14 +589,25 @@
           "result": "L",
           "time": "06:45 PM",
           "venue_code": "VIK-NVCentral9v9"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408584",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G11C-Kim",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
         }
       ],
       "goal_diff": 6,
-      "goals_against": 22,
-      "goals_for": 28,
+      "goals_against": 25,
+      "goals_for": 31,
       "losses": 3,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 17,
       "team_raw": "Hotspur-G11C-Peterfriend",
       "wins": 5
     },
@@ -560,7 +615,7 @@
       "club": "Clarkstown",
       "coach": "Laskowski",
       "draws": 1,
-      "form": "WWLLD",
+      "form": "WLLDW",
       "games": [
         {
           "date": "2026-06-06",
@@ -660,22 +715,33 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "NY-CLARK-Zukor2C"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408582",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G11C-Gjoca",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "TORP-Pulis4"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 16,
-      "goals_for": 13,
+      "goal_diff": -2,
+      "goals_against": 17,
+      "goals_for": 15,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 16,
       "team_raw": "Clarkstown-G11C-Laskowski",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WOrange",
       "coach": "Tutalo",
-      "draws": 0,
-      "form": "WLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-04-18",
@@ -775,22 +841,33 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "WORANGE-LibertyMS"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408583",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G11C-Gargiulo",
+          "result": "D",
+          "time": "10:15 AM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
       "goal_diff": -7,
       "goals_against": 22,
       "goals_for": 15,
       "losses": 5,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 13,
       "team_raw": "WOrange-G11C-Tutalo",
       "wins": 4
     },
     {
       "club": "Nutley",
       "coach": "Helm",
-      "draws": 1,
-      "form": "LLLWL",
+      "draws": 2,
+      "form": "LLWLD",
       "games": [
         {
           "date": "2026-06-13",
@@ -890,14 +967,25 @@
           "result": "W",
           "time": "10:45 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408585",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G11C-Diaz",
+          "result": "D",
+          "time": "12:15 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
       "goal_diff": -19,
-      "goals_against": 39,
-      "goals_for": 20,
+      "goals_against": 40,
+      "goals_for": 21,
       "losses": 6,
-      "played": 9,
-      "points": 7,
+      "played": 10,
+      "points": 8,
       "team_raw": "Nutley-G11C-Helm",
       "wins": 2
     },
@@ -1030,8 +1118,8 @@
     {
       "club": "Dumont",
       "coach": "Diaz",
-      "draws": 1,
-      "form": "LDLWL",
+      "draws": 2,
+      "form": "DLWLD",
       "games": [
         {
           "date": "2026-04-18",
@@ -1131,22 +1219,33 @@
           "result": "L",
           "time": "12:15 PM",
           "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408585",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G11C-Helm",
+          "result": "D",
+          "time": "12:15 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
       "goal_diff": -19,
-      "goals_against": 28,
-      "goals_for": 9,
+      "goals_against": 29,
+      "goals_for": 10,
       "losses": 7,
-      "played": 9,
-      "points": 4,
+      "played": 10,
+      "points": 5,
       "team_raw": "Dumont-G11C-Diaz",
       "wins": 1
     },
     {
       "club": "BLMFLD",
       "coach": "Gargiulo",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-06-06",
@@ -1246,14 +1345,25 @@
           "result": "L",
           "time": "10:45 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408583",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G11C-Tutalo",
+          "result": "D",
+          "time": "10:15 AM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
       "goal_diff": -22,
       "goals_against": 34,
       "goals_for": 12,
       "losses": 8,
-      "played": 9,
-      "points": 3,
+      "played": 10,
+      "points": 4,
       "team_raw": "BLMFLD-G11C-Gargiulo",
       "wins": 1
     }

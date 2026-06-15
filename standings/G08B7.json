@@ -1,13 +1,13 @@
 {
   "division": "G08B7",
-  "scraped_at": "2026-06-14T09:04:52.085970Z",
+  "scraped_at": "2026-06-15T11:45:07.535746Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Cartagena",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-04-25",
@@ -107,13 +107,24 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405727",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08B7-DeSanctis",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
         }
       ],
-      "goal_diff": 42,
-      "goals_against": 10,
-      "goals_for": 52,
+      "goal_diff": 43,
+      "goals_against": 11,
+      "goals_for": 54,
       "losses": 0,
-      "played": 9,
+      "played": 10,
       "points": 22,
       "team_raw": "WoodRidge-G08B7-Cartagena",
       "wins": 7
@@ -122,7 +133,7 @@
       "club": "Vikings",
       "coach": "DeSanctis",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-06-06",
@@ -222,13 +233,24 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405727",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G08B7-Cartagena",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 16,
-      "goals_for": 36,
+      "goal_diff": 19,
+      "goals_against": 18,
+      "goals_for": 37,
       "losses": 1,
-      "played": 9,
+      "played": 10,
       "points": 21,
       "team_raw": "Vikings-G08B7-DeSanctis",
       "wins": 7
@@ -237,7 +259,7 @@
       "club": "HobUtd",
       "coach": "Esposto",
       "draws": 1,
-      "form": "WLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-04-25",
@@ -337,13 +359,24 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "THIS-HarveyBackSS2"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405726",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08B7-STJOHN",
+          "result": "W",
+          "time": "08:45 AM",
+          "venue_code": "TORP-Pulis3"
         }
       ],
       "goal_diff": 28,
       "goals_against": 9,
       "goals_for": 37,
       "losses": 1,
-      "played": 9,
+      "played": 10,
       "points": 19,
       "team_raw": "HobUtd-G08B7-Esposto",
       "wins": 6
@@ -351,8 +384,8 @@
     {
       "club": "CougarSC",
       "coach": "Connolly",
-      "draws": 1,
-      "form": "LDWLW",
+      "draws": 0,
+      "form": "DWLWW",
       "games": [
         {
           "date": "2026-04-12",
@@ -452,22 +485,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405725",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08B7-Valdes",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 23,
-      "goals_for": 18,
+      "goal_diff": 0,
+      "goals_against": 22,
+      "goals_for": 22,
       "losses": 3,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 15,
       "team_raw": "CougarSC-G08B7-Connolly",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WorldClassFC",
       "coach": "Valdes",
-      "draws": 1,
-      "form": "WWDLW",
+      "draws": 0,
+      "form": "WDLWL",
       "games": [
         {
           "date": "2026-05-30",
@@ -556,14 +600,25 @@
           "result": "W",
           "time": "10:45 AM",
           "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405725",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G08B7-Connolly",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 29,
-      "goals_for": 40,
-      "losses": 3,
-      "played": 8,
-      "points": 13,
+      "goal_diff": 6,
+      "goals_against": 33,
+      "goals_for": 39,
+      "losses": 4,
+      "played": 9,
+      "points": 12,
       "team_raw": "WorldClassFC-G08B7-Valdes",
       "wins": 4
     },
@@ -571,7 +626,7 @@
       "club": "Warriors",
       "coach": "Bresnan",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-06-06",
@@ -671,13 +726,24 @@
           "result": "L",
           "time": "10:45 AM",
           "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405724",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G08B7-Denberg",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": -11,
+      "goal_diff": -10,
       "goals_against": 26,
-      "goals_for": 15,
+      "goals_for": 16,
       "losses": 5,
-      "played": 9,
+      "played": 10,
       "points": 9,
       "team_raw": "Warriors-G08B7-Bresnan",
       "wins": 3
@@ -686,7 +752,7 @@
       "club": "Tenafly",
       "coach": "Denberg",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -786,13 +852,24 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405724",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G08B7-Bresnan",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 34,
+      "goal_diff": -24,
+      "goals_against": 35,
       "goals_for": 11,
       "losses": 6,
-      "played": 9,
+      "played": 10,
       "points": 6,
       "team_raw": "Tenafly-G08B7-Denberg",
       "wins": 2
@@ -801,7 +878,7 @@
       "club": "Torpedoes",
       "coach": "STJOHN",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-05-30",
@@ -901,13 +978,24 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405726",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08B7-Esposto",
+          "result": "L",
+          "time": "08:45 AM",
+          "venue_code": "TORP-Pulis3"
         }
       ],
       "goal_diff": -32,
       "goals_against": 45,
       "goals_for": 13,
       "losses": 7,
-      "played": 9,
+      "played": 10,
       "points": 3,
       "team_raw": "Torpedoes-G08B7-STJOHN",
       "wins": 1

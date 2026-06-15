@@ -1,13 +1,13 @@
 {
   "division": "G08B4",
-  "scraped_at": "2026-06-14T09:04:46.853793Z",
+  "scraped_at": "2026-06-15T11:45:02.380599Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Rutherford",
       "coach": "Saracena",
       "draws": 2,
-      "form": "WDDWW",
+      "form": "DDWWW",
       "games": [
         {
           "date": "2026-05-17",
@@ -29,6 +29,17 @@
           "opponent_raw": "Maroons-G08B4-Forsythe",
           "result": "D",
           "time": "01:15 PM",
+          "venue_code": "RUTH-Tamblyn-4v4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405682",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G08B4-Porrino",
+          "result": "W",
+          "time": "12:00 PM",
           "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
@@ -110,10 +121,10 @@
         }
       ],
       "goal_diff": 17,
-      "goals_against": 28,
-      "goals_for": 45,
+      "goals_against": 30,
+      "goals_for": 47,
       "losses": 0,
-      "played": 9,
+      "played": 10,
       "points": 20,
       "team_raw": "Rutherford-G08B4-Saracena",
       "wins": 6
@@ -122,7 +133,7 @@
       "club": "NMKnights",
       "coach": "Porrino",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-05-17",
@@ -156,6 +167,17 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405682",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G08B4-Saracena",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
           "date": "2026-05-02",
@@ -225,10 +247,10 @@
         }
       ],
       "goal_diff": 25,
-      "goals_against": 17,
-      "goals_for": 42,
+      "goals_against": 19,
+      "goals_for": 44,
       "losses": 2,
-      "played": 9,
+      "played": 10,
       "points": 16,
       "team_raw": "NMKnights-G08B4-Porrino",
       "wins": 5
@@ -237,7 +259,7 @@
       "club": "Montclair",
       "coach": "Pierson",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-05-17",
@@ -260,6 +282,17 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405681",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G08B4-LopezSerrato",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "MONT-Brookdale4v4"
         },
         {
           "date": "2026-06-06",
@@ -328,11 +361,11 @@
           "venue_code": "MONT-Brookdale4v4"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 41,
-      "goals_for": 29,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -15,
+      "goals_against": 46,
+      "goals_for": 31,
+      "losses": 5,
+      "played": 9,
       "points": 9,
       "team_raw": "Montclair-G08B4-Pierson",
       "wins": 3
@@ -445,7 +478,7 @@
       "club": "GlenRock",
       "coach": "LopezSerrato",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-05-31",
@@ -457,6 +490,17 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "SS-Panther"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405681",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G08B4-Pierson",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "MONT-Brookdale4v4"
         },
         {
           "date": "2026-06-07",
@@ -536,14 +580,14 @@
           "venue_code": "MAR-BenFranklinMS1"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 41,
-      "goals_for": 20,
+      "goal_diff": -18,
+      "goals_against": 43,
+      "goals_for": 25,
       "losses": 6,
-      "played": 8,
-      "points": 3,
+      "played": 9,
+      "points": 6,
       "team_raw": "GlenRock-G08B4-LopezSerrato",
-      "wins": 1
+      "wins": 2
     }
   ]
 }

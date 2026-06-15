@@ -1,14 +1,25 @@
 {
   "division": "G12C",
-  "scraped_at": "2026-06-14T09:07:11.828351Z",
+  "scraped_at": "2026-06-15T11:47:52.655686Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
       "coach": "OHara",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "408774",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12C-Collins",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408779",
@@ -98,14 +109,14 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 10,
-      "goals_for": 30,
+      "goal_diff": 16,
+      "goals_against": 11,
+      "goals_for": 27,
       "losses": 0,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 19,
       "team_raw": "Maroons-G12C-OHara",
-      "wins": 7
+      "wins": 6
     },
     {
       "club": "Paramus",
@@ -225,9 +236,20 @@
     {
       "club": "Dragons",
       "coach": "Collins",
-      "draws": 0,
-      "form": "WWLLW",
+      "draws": 1,
+      "form": "WLLWD",
       "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "408774",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12C-OHara",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408780",
@@ -317,12 +339,12 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 13,
-      "goals_for": 13,
-      "losses": 3,
-      "played": 8,
-      "points": 12,
+      "goal_diff": 4,
+      "goals_against": 10,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 9,
+      "points": 13,
       "team_raw": "Dragons-G12C-Collins",
       "wins": 4
     },

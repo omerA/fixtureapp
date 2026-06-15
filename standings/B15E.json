@@ -1,13 +1,13 @@
 {
   "division": "B15E",
-  "scraped_at": "2026-06-14T09:04:01.242456Z",
+  "scraped_at": "2026-06-15T11:44:13.367630Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WOrange",
       "coach": "Lighty",
       "draws": 2,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-04-19",
@@ -85,22 +85,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406397",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B15E-Cortez",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 20,
       "goals_against": 12,
-      "goals_for": 27,
+      "goals_for": 32,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 17,
       "team_raw": "WOrange-B15E-Lighty",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WayneBG",
       "coach": "Michaels",
       "draws": 2,
-      "form": "WLWDW",
+      "form": "LWDWW",
       "games": [
         {
           "date": "2026-04-19",
@@ -178,22 +189,33 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406398",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B15E-Leyden",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 13,
-      "goals_for": 27,
+      "goal_diff": 19,
+      "goals_against": 14,
+      "goals_for": 33,
       "losses": 1,
-      "played": 7,
-      "points": 14,
+      "played": 8,
+      "points": 17,
       "team_raw": "WayneBG-B15E-Michaels",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "NoValley",
       "coach": "Leyden",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-04-12",
@@ -271,13 +293,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406398",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B15E-Michaels",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 22,
-      "goals_for": 21,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -6,
+      "goals_against": 28,
+      "goals_for": 22,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "NoValley-B15E-Leyden",
       "wins": 3
@@ -286,7 +319,7 @@
       "club": "FF",
       "coach": "Cortez",
       "draws": 2,
-      "form": "LDWWL",
+      "form": "DWWLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -364,13 +397,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406397",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B15E-Lighty",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WORANGE-Lincoln-Lrg"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 20,
+      "goal_diff": -15,
+      "goals_against": 25,
       "goals_for": 10,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "points": 8,
       "team_raw": "FF-B15E-Cortez",
       "wins": 2

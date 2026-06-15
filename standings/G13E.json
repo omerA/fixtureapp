@@ -1,6 +1,6 @@
 {
   "division": "G13E",
-  "scraped_at": "2026-06-14T09:07:56.871197Z",
+  "scraped_at": "2026-06-15T11:48:52.893037Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -247,8 +247,8 @@
     {
       "club": "Maroons",
       "coach": "Forsythe",
-      "draws": 4,
-      "form": "LDDWD",
+      "draws": 5,
+      "form": "DDWDD",
       "games": [
         {
           "date": "2026-06-13",
@@ -348,22 +348,33 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "MAR-HawesSchool"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "409050",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G13E-Marks",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "LKLND-AddicePrk"
         }
       ],
       "goal_diff": 11,
-      "goals_against": 13,
-      "goals_for": 24,
+      "goals_against": 14,
+      "goals_for": 25,
       "losses": 1,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 17,
       "team_raw": "Maroons-G13E-Forsythe",
       "wins": 4
     },
     {
       "club": "Lakeland",
       "coach": "Marks",
-      "draws": 0,
-      "form": "LLWWL",
+      "draws": 1,
+      "form": "LWWLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -463,14 +474,25 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "LKLND-AddicePrk"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "409050",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13E-Forsythe",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "LKLND-AddicePrk"
         }
       ],
       "goal_diff": -26,
-      "goals_against": 34,
-      "goals_for": 8,
+      "goals_against": 35,
+      "goals_for": 9,
       "losses": 7,
-      "played": 9,
-      "points": 6,
+      "played": 10,
+      "points": 7,
       "team_raw": "Lakeland-G13E-Marks",
       "wins": 2
     },

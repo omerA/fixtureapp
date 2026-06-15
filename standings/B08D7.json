@@ -1,6 +1,6 @@
 {
   "division": "B08D7",
-  "scraped_at": "2026-06-14T08:57:52.193108Z",
+  "scraped_at": "2026-06-15T11:37:58.856963Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -352,7 +352,7 @@
       "club": "GlenRock",
       "coach": "Sheil",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-05-03",
@@ -441,16 +441,142 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "SS-FaberLowSouth"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "408164",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08D7-Toubroukji",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 21,
-      "goals_for": 21,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": -1,
+      "goals_against": 25,
+      "goals_for": 24,
+      "losses": 3,
+      "played": 9,
       "points": 12,
       "team_raw": "GlenRock-B08D7-Sheil",
       "wins": 4
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Toubroukji",
+      "draws": 0,
+      "form": "LLLWW",
+      "games": [
+        {
+          "date": "2026-05-10",
+          "game_number": "404630",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B08D7-Grunauer",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "404636",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08D7-Corredor",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "404639",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B08D7-Reilly",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "404642",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B08D7-Fischer",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "THIS-HarveyBackSS2"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "408153",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B08D7-Reilly",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-04-18",
+          "game_number": "408154",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B08D7-Fischer",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "THIS-HarveyMain3"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "408159",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08D7-Duka",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "408164",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B08D7-Sheil",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "408166",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B08D7-McGinnis",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": -13,
+      "goals_against": 36,
+      "goals_for": 23,
+      "losses": 4,
+      "played": 9,
+      "points": 9,
+      "team_raw": "NMKnights-B08D7-Toubroukji",
+      "wins": 3
     },
     {
       "club": "Torpedoes",
@@ -680,110 +806,6 @@
       "played": 9,
       "points": 6,
       "team_raw": "Warriors-B08D7-McGinnis",
-      "wins": 2
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Toubroukji",
-      "draws": 0,
-      "form": "LLLLW",
-      "games": [
-        {
-          "date": "2026-05-10",
-          "game_number": "404630",
-          "goals_against": 8,
-          "goals_for": 2,
-          "opponent_club": "Broncos",
-          "opponent_raw": "Broncos-B08D7-Grunauer",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "404636",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B08D7-Corredor",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "404639",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B08D7-Reilly",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "404642",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B08D7-Fischer",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "THIS-HarveyBackSS2"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "408153",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B08D7-Reilly",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "GLENRDGE-Carteret"
-        },
-        {
-          "date": "2026-04-18",
-          "game_number": "408154",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B08D7-Fischer",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "THIS-HarveyMain3"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "408159",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B08D7-Duka",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "408166",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B08D7-McGinnis",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "WALD-Hopper"
-        }
-      ],
-      "goal_diff": -14,
-      "goals_against": 33,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 8,
-      "points": 6,
-      "team_raw": "NMKnights-B08D7-Toubroukji",
       "wins": 2
     },
     {

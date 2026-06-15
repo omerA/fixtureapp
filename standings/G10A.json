@@ -1,6 +1,6 @@
 {
   "division": "G10A",
-  "scraped_at": "2026-06-14T09:05:36.413866Z",
+  "scraped_at": "2026-06-15T11:46:02.541935Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -582,7 +582,7 @@
       "club": "Vikings",
       "coach": "Schneiderman",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-05-02",
@@ -629,6 +629,17 @@
           "venue_code": "WALD-SprDomeIndoor1"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406518",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G10A-Mapes",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "406521",
           "goals_against": 0,
@@ -673,14 +684,14 @@
           "venue_code": "NY-WC-Field2A"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 34,
-      "goals_for": 7,
+      "goal_diff": -24,
+      "goals_against": 35,
+      "goals_for": 11,
       "losses": 5,
-      "played": 8,
-      "points": 3,
+      "played": 9,
+      "points": 6,
       "team_raw": "Vikings-G10A-Schneiderman",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "BLMFLD",
@@ -801,7 +812,7 @@
       "club": "RiverDell",
       "coach": "Mapes",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-05-15",
@@ -848,6 +859,17 @@
           "venue_code": "NY-CLARK-Zukor2C"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406518",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10A-Schneiderman",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
           "date": "2026-05-10",
           "game_number": "406520",
           "goals_against": 7,
@@ -892,11 +914,11 @@
           "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": -32,
-      "goals_against": 37,
-      "goals_for": 5,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -35,
+      "goals_against": 41,
+      "goals_for": 6,
+      "losses": 6,
+      "played": 9,
       "points": 1,
       "team_raw": "RiverDell-G10A-Mapes",
       "wins": 0

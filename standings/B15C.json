@@ -1,6 +1,6 @@
 {
   "division": "B15C",
-  "scraped_at": "2026-06-14T09:03:52.308544Z",
+  "scraped_at": "2026-06-15T11:44:04.443292Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -88,8 +88,8 @@
     {
       "club": "Arsenal",
       "coach": "Rojas",
-      "draws": 3,
-      "form": "WWWDD",
+      "draws": 4,
+      "form": "WWDDD",
       "games": [
         {
           "date": "2026-05-30",
@@ -167,14 +167,25 @@
           "result": "D",
           "time": "05:30 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405092",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B15C-Bernhard",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-Foley"
         }
       ],
       "goal_diff": 6,
-      "goals_against": 18,
-      "goals_for": 24,
+      "goals_against": 22,
+      "goals_for": 28,
       "losses": 1,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 13,
       "team_raw": "Arsenal-B15C-Rojas",
       "wins": 3
     },
@@ -274,8 +285,8 @@
     {
       "club": "BLMFLD",
       "coach": "Bernhard",
-      "draws": 1,
-      "form": "LLWLW",
+      "draws": 2,
+      "form": "LWLWD",
       "games": [
         {
           "date": "2026-04-12",
@@ -353,14 +364,25 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "THIS-Kearny HS"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405092",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B15C-Rojas",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "BLMFLD-Foley"
         }
       ],
       "goal_diff": -5,
-      "goals_against": 22,
-      "goals_for": 17,
+      "goals_against": 26,
+      "goals_for": 21,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 8,
       "team_raw": "BLMFLD-B15C-Bernhard",
       "wins": 2
     },

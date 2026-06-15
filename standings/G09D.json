@@ -1,8 +1,123 @@
 {
   "division": "G09D",
-  "scraped_at": "2026-06-14T09:05:17.305491Z",
+  "scraped_at": "2026-06-15T11:45:38.784644Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Emerson",
+      "coach": "Reynoso",
+      "draws": 0,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-03-28",
+          "game_number": "405951",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G09D-Palmer",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "MAHWAH-Trinity"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "405957",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-Schuster",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405964",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09D-OConnor",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405972",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G09D-Tutalo",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "EM-HSTurf3Small"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405975",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09D-Rothman",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405983",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09D-Lehman",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405988",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G09D-LopezViamonte",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "BAY-SGreggQuad-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405989",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09D-Samaniego",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405998",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09D-RayRochkind",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 11,
+      "goals_for": 32,
+      "losses": 1,
+      "played": 9,
+      "points": 24,
+      "team_raw": "Emerson-G09D-Reynoso",
+      "wins": 8
+    },
     {
       "club": "Mahwah",
       "coach": "Palmer",
@@ -130,114 +245,10 @@
       "wins": 7
     },
     {
-      "club": "Emerson",
-      "coach": "Reynoso",
-      "draws": 0,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-03-28",
-          "game_number": "405951",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G09D-Palmer",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "MAHWAH-Trinity"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "405957",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G09D-Schuster",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-06-13",
-          "game_number": "405964",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G09D-OConnor",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405972",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G09D-Tutalo",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "EM-HSTurf3Small"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405975",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G09D-Rothman",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405983",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G09D-Lehman",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405988",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-G09D-LopezViamonte",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "BAY-SGreggQuad-Small"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405989",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G09D-Samaniego",
-          "result": "W",
-          "time": "12:15 PM",
-          "venue_code": "EM-HSTurf2Small"
-        }
-      ],
-      "goal_diff": 19,
-      "goals_against": 11,
-      "goals_for": 30,
-      "losses": 1,
-      "played": 8,
-      "points": 21,
-      "team_raw": "Emerson-G09D-Reynoso",
-      "wins": 7
-    },
-    {
       "club": "Force",
       "coach": "OConnor",
       "draws": 0,
-      "form": "WLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-05-02",
@@ -337,241 +348,33 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "NY-MWU-Gonzaga"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 21,
-      "goals_for": 28,
-      "losses": 4,
-      "played": 9,
-      "points": 15,
-      "team_raw": "Force-G09D-OConnor",
-      "wins": 5
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Samaniego",
-      "draws": 0,
-      "form": "WWLLL",
-      "games": [
-        {
-          "date": "2026-04-18",
-          "game_number": "405945",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G09D-Tutalo",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "WORANGE-LibertyMS2"
         },
         {
-          "date": "2026-04-25",
-          "game_number": "405952",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G09D-Rothman",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405958",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G09D-Lehman",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405960",
-          "goals_against": 3,
-          "goals_for": 9,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-G09D-LopezViamonte",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405969",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G09D-RayRochkind",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "COUGSC-Borden2"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "405978",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G09D-Dominguez",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405981",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G09D-Palmer",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "MAHWAH-JoyceKilmer"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405985",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G09D-Schuster",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405989",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G09D-Reynoso",
-          "result": "L",
-          "time": "12:15 PM",
-          "venue_code": "EM-HSTurf2Small"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 24,
-      "goals_for": 24,
-      "losses": 4,
-      "played": 9,
-      "points": 15,
-      "team_raw": "FairLawnAllSports-G09D-Samaniego",
-      "wins": 5
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Dominguez",
-      "draws": 0,
-      "form": "WWLWL",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "405950",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G09D-OConnor",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405956",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G09D-Tutalo",
-          "result": "L",
-          "time": "05:45 PM",
-          "venue_code": "WORANGE-LibertyMS2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "405959",
+          "date": "2026-06-14",
+          "game_number": "405996",
           "goals_against": 2,
           "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G09D-Rothman",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405967",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G09D-Lehman",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405971",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-G09D-LopezViamonte",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "405978",
-          "goals_against": 5,
-          "goals_for": 2,
           "opponent_club": "FairLawnAllSports",
           "opponent_raw": "FairLawnAllSports-G09D-Samaniego",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405980",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G09D-RayRochkind",
           "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405993",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G09D-Palmer",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "MAHWAH-MemorialMah"
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 27,
-      "goals_for": 30,
-      "losses": 3,
-      "played": 8,
-      "points": 15,
-      "team_raw": "Rutherford-G09D-Dominguez",
-      "wins": 5
+      "goal_diff": 8,
+      "goals_against": 23,
+      "goals_for": 31,
+      "losses": 4,
+      "played": 10,
+      "points": 18,
+      "team_raw": "Force-G09D-OConnor",
+      "wins": 6
     },
     {
       "club": "GlenRidge",
       "coach": "Schuster",
       "draws": 1,
-      "form": "WWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-06-13",
@@ -671,137 +474,274 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405997",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09D-Dominguez",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 25,
-      "goals_for": 16,
+      "goal_diff": -8,
+      "goals_against": 29,
+      "goals_for": 21,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 16,
       "team_raw": "GlenRidge-G09D-Schuster",
-      "wins": 4
+      "wins": 5
     },
     {
-      "club": "HobUtd",
-      "coach": "Rothman",
+      "club": "FairLawnAllSports",
+      "coach": "Samaniego",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "WLLLL",
       "games": [
         {
-          "date": "2026-05-30",
-          "game_number": "405946",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Bayonne",
-          "opponent_raw": "Bayonne-G09D-LopezViamonte",
+          "date": "2026-04-18",
+          "game_number": "405945",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G09D-Tutalo",
           "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "HobUTD-1600Park"
+          "time": "01:00 PM",
+          "venue_code": "WORANGE-LibertyMS2"
         },
         {
           "date": "2026-04-25",
           "game_number": "405952",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G09D-Samaniego",
-          "result": "L",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09D-Rothman",
+          "result": "W",
           "time": "04:00 PM",
           "venue_code": "FL-CenterRec2A"
         },
         {
           "date": "2026-04-12",
-          "game_number": "405955",
+          "game_number": "405958",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09D-Lehman",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405960",
+          "goals_against": 3,
+          "goals_for": 9,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G09D-LopezViamonte",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405969",
           "goals_against": 0,
-          "goals_for": 6,
+          "goals_for": 3,
           "opponent_club": "CougarSC",
           "opponent_raw": "CougarSC-G09D-RayRochkind",
           "result": "W",
-          "time": "03:45 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
+          "time": "01:00 PM",
+          "venue_code": "COUGSC-Borden2"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "405978",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09D-Dominguez",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405981",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G09D-Palmer",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAHWAH-JoyceKilmer"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405985",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-Schuster",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405989",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09D-Reynoso",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405996",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09D-OConnor",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 27,
+      "goals_for": 26,
+      "losses": 5,
+      "played": 10,
+      "points": 15,
+      "team_raw": "FairLawnAllSports-G09D-Samaniego",
+      "wins": 5
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Dominguez",
+      "draws": 0,
+      "form": "WLWLL",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "405950",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09D-OConnor",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405956",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G09D-Tutalo",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "WORANGE-LibertyMS2"
         },
         {
           "date": "2026-04-19",
           "game_number": "405959",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G09D-Dominguez",
-          "result": "L",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09D-Rothman",
+          "result": "W",
           "time": "01:45 PM",
           "venue_code": "RUTH-Tamblyn"
         },
         {
-          "date": "2026-04-11",
-          "game_number": "405966",
+          "date": "2026-04-26",
+          "game_number": "405967",
           "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G09D-Palmer",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09D-Lehman",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "DRAG-JessieGeoSch"
         },
         {
           "date": "2026-05-03",
-          "game_number": "405973",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G09D-Schuster",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "GLENRDGE-Carteret"
+          "game_number": "405971",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G09D-LopezViamonte",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RUTH-Tamblyn"
         },
         {
-          "date": "2026-05-10",
-          "game_number": "405975",
+          "date": "2026-05-09",
+          "game_number": "405978",
           "goals_against": 5,
           "goals_for": 2,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G09D-Reynoso",
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09D-Samaniego",
           "result": "L",
-          "time": "06:45 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
         },
         {
           "date": "2026-05-17",
-          "game_number": "405982",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G09D-OConnor",
+          "game_number": "405980",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09D-RayRochkind",
           "result": "W",
           "time": "09:00 AM",
-          "venue_code": "NY-MWU-Gonzaga"
+          "venue_code": "RUTH-Tamblyn"
         },
         {
-          "date": "2026-05-31",
-          "game_number": "405984",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G09D-Tutalo",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
+          "date": "2026-06-07",
+          "game_number": "405993",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G09D-Palmer",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "MAHWAH-MemorialMah"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405997",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-Schuster",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 16,
-      "goals_for": 19,
-      "losses": 5,
+      "goal_diff": 2,
+      "goals_against": 32,
+      "goals_for": 34,
+      "losses": 4,
       "played": 9,
-      "points": 12,
-      "team_raw": "HobUtd-G09D-Rothman",
-      "wins": 4
+      "points": 15,
+      "team_raw": "Rutherford-G09D-Dominguez",
+      "wins": 5
     },
     {
       "club": "Dragons",
       "coach": "Lehman",
       "draws": 3,
-      "form": "DDLLD",
+      "form": "DLLDW",
       "games": [
         {
           "date": "2026-03-29",
@@ -901,22 +841,33 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405995",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09D-Rothman",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 19,
-      "goals_for": 25,
+      "goal_diff": 7,
+      "goals_against": 20,
+      "goals_for": 27,
       "losses": 3,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 15,
       "team_raw": "Dragons-G09D-Lehman",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "WOrange",
       "coach": "Tutalo",
       "draws": 1,
-      "form": "LLLLD",
+      "form": "LLLDW",
       "games": [
         {
           "date": "2026-04-18",
@@ -1016,16 +967,153 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405994",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G09D-LopezViamonte",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "BAY-SGreggQuad-Small"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 16,
-      "goals_for": 19,
+      "goal_diff": 5,
+      "goals_against": 18,
+      "goals_for": 23,
       "losses": 5,
-      "played": 9,
-      "points": 10,
+      "played": 10,
+      "points": 13,
       "team_raw": "WOrange-G09D-Tutalo",
-      "wins": 3
+      "wins": 4
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Rothman",
+      "draws": 0,
+      "form": "LWWWL",
+      "games": [
+        {
+          "date": "2026-05-30",
+          "game_number": "405946",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G09D-LopezViamonte",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "405952",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09D-Samaniego",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405955",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09D-RayRochkind",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "405959",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09D-Dominguez",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-11",
+          "game_number": "405966",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G09D-Palmer",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405973",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-Schuster",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405975",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09D-Reynoso",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405982",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09D-OConnor",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405984",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G09D-Tutalo",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405995",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09D-Lehman",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 18,
+      "goals_for": 20,
+      "losses": 6,
+      "played": 10,
+      "points": 12,
+      "team_raw": "HobUtd-G09D-Rothman",
+      "wins": 4
     },
     {
       "club": "Bayonne",
@@ -1131,13 +1219,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405994",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G09D-Tutalo",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "BAY-SGreggQuad-Small"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 43,
-      "goals_for": 22,
-      "losses": 7,
-      "played": 9,
+      "goal_diff": -23,
+      "goals_against": 47,
+      "goals_for": 24,
+      "losses": 8,
+      "played": 10,
       "points": 6,
       "team_raw": "Bayonne-G09D-LopezViamonte",
       "wins": 2
@@ -1146,7 +1245,7 @@
       "club": "CougarSC",
       "coach": "RayRochkind",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -1246,13 +1345,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "GLENRDGE-Carteret"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405998",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09D-Reynoso",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -30,
-      "goals_against": 37,
+      "goal_diff": -32,
+      "goals_against": 39,
       "goals_for": 7,
-      "losses": 8,
-      "played": 9,
+      "losses": 9,
+      "played": 10,
       "points": 1,
       "team_raw": "CougarSC-G09D-RayRochkind",
       "wins": 0

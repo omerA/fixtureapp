@@ -1,13 +1,13 @@
 {
   "division": "B14A",
-  "scraped_at": "2026-06-14T09:03:08.028698Z",
+  "scraped_at": "2026-06-15T11:43:16.846502Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoBergen",
       "coach": "FernandezSosa",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -107,22 +107,33 @@
           "result": "W",
           "time": "01:45 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406433",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-dePaula",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 13,
-      "goals_for": 25,
+      "goal_diff": 14,
+      "goals_against": 15,
+      "goals_for": 29,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "NoBergen-B14A-FernandezSosa",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "GlenRock",
       "coach": "Lynch",
       "draws": 1,
-      "form": "WWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-04-17",
@@ -222,22 +233,33 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406432",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14A-Galvez",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 9,
+      "goal_diff": 10,
       "goals_against": 13,
-      "goals_for": 22,
+      "goals_for": 23,
       "losses": 2,
-      "played": 9,
-      "points": 19,
+      "played": 10,
+      "points": 22,
       "team_raw": "GlenRock-B14A-Lynch",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Maroons",
       "coach": "dePaula",
       "draws": 1,
-      "form": "LDWLW",
+      "form": "DWLWL",
       "games": [
         {
           "date": "2026-04-11",
@@ -337,13 +359,24 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406433",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14A-FernandezSosa",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NoBergen-HudsonCtyPk"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 16,
-      "goals_for": 25,
-      "losses": 3,
-      "played": 9,
+      "goal_diff": 7,
+      "goals_against": 20,
+      "goals_for": 27,
+      "losses": 4,
+      "played": 10,
       "points": 16,
       "team_raw": "Maroons-B14A-dePaula",
       "wins": 5
@@ -352,7 +385,7 @@
       "club": "RiverDell",
       "coach": "Galvez",
       "draws": 2,
-      "form": "LWDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -452,13 +485,24 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406432",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14A-Lynch",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 20,
+      "goal_diff": 2,
+      "goals_against": 21,
       "goals_for": 23,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "points": 11,
       "team_raw": "RiverDell-B14A-Galvez",
       "wins": 3
@@ -467,7 +511,7 @@
       "club": "Vikings",
       "coach": "Reichman",
       "draws": 1,
-      "form": "WDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-04-11",
@@ -567,13 +611,24 @@
           "result": "L",
           "time": "01:45 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406431",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B14A-Fabish",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 23,
-      "goals_for": 17,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -12,
+      "goals_against": 31,
+      "goals_for": 19,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "Vikings-B14A-Reichman",
       "wins": 3
@@ -582,7 +637,7 @@
       "club": "Ajax",
       "coach": "Fabish",
       "draws": 1,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-04-17",
@@ -682,16 +737,27 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406431",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14A-Reichman",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 39,
-      "goals_for": 12,
+      "goal_diff": -21,
+      "goals_against": 41,
+      "goals_for": 20,
       "losses": 8,
-      "played": 9,
-      "points": 1,
+      "played": 10,
+      "points": 4,
       "team_raw": "Ajax-B14A-Fabish",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

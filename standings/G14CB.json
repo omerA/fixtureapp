@@ -1,13 +1,13 @@
 {
   "division": "G14CB",
-  "scraped_at": "2026-06-14T09:08:20.754455Z",
+  "scraped_at": "2026-06-15T11:49:21.730364Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoRockland",
       "coach": "Barrios",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDL",
       "games": [
         {
           "date": "2026-04-04",
@@ -87,6 +87,17 @@
           "venue_code": "NMilford-HSCafeteria"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406212",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14CB-Ernst",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
           "date": "2026-05-09",
           "game_number": "409251",
           "goals_against": 1,
@@ -109,11 +120,11 @@
           "venue_code": "NY-NR-NRSA-1"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 7,
-      "goals_for": 26,
-      "losses": 0,
-      "played": 9,
+      "goal_diff": 18,
+      "goals_against": 9,
+      "goals_for": 27,
+      "losses": 1,
+      "played": 10,
       "points": 19,
       "team_raw": "NoRockland-G14CB-Barrios",
       "wins": 6
@@ -237,7 +248,7 @@
       "club": "Vikings",
       "coach": "Ernst",
       "draws": 3,
-      "form": "DWLLD",
+      "form": "WLLDW",
       "games": [
         {
           "date": "2026-04-25",
@@ -306,6 +317,17 @@
           "venue_code": "VIK-NVRHS Turf"
         },
         {
+          "date": "2026-06-14",
+          "game_number": "406212",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G14CB-Barrios",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
           "date": "2026-04-12",
           "game_number": "409250",
           "goals_against": 4,
@@ -328,14 +350,14 @@
           "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 7,
-      "goals_for": 8,
+      "goal_diff": 2,
+      "goals_against": 8,
+      "goals_for": 10,
       "losses": 2,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "Vikings-G14CB-Ernst",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "NMKnights",

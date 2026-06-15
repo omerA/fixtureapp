@@ -1,13 +1,13 @@
 {
   "division": "B10GB",
-  "scraped_at": "2026-06-14T08:59:54.321310Z",
+  "scraped_at": "2026-06-15T11:40:01.448227Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoRockland",
       "coach": "Mavrorasakis",
       "draws": 2,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-05-30",
@@ -107,22 +107,33 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407221",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10GB-Xu",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "TEN-AlpineField"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 17,
-      "goals_for": 38,
+      "goal_diff": 23,
+      "goals_against": 20,
+      "goals_for": 43,
       "losses": 0,
-      "played": 9,
-      "points": 23,
+      "played": 10,
+      "points": 26,
       "team_raw": "NoRockland-B10GB-Mavrorasakis",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Clarkstown",
       "coach": "Rolston",
-      "draws": 2,
-      "form": "LWWDW",
+      "draws": 3,
+      "form": "WWDWD",
       "games": [
         {
           "date": "2026-03-29",
@@ -222,22 +233,33 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407222",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10GB-Rojas",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
         }
       ],
       "goal_diff": 30,
-      "goals_against": 24,
-      "goals_for": 54,
+      "goals_against": 28,
+      "goals_for": 58,
       "losses": 1,
-      "played": 9,
-      "points": 20,
+      "played": 10,
+      "points": 21,
       "team_raw": "Clarkstown-B10GB-Rolston",
       "wins": 6
     },
     {
       "club": "Arsenal",
       "coach": "Rojas",
-      "draws": 2,
-      "form": "DWLLW",
+      "draws": 3,
+      "form": "WLLWD",
       "games": [
         {
           "date": "2026-05-30",
@@ -337,14 +359,25 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "AYSO-CommunityField1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407222",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B10GB-Rolston",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
         }
       ],
       "goal_diff": 22,
-      "goals_against": 23,
-      "goals_for": 45,
+      "goals_against": 27,
+      "goals_for": 49,
       "losses": 2,
-      "played": 9,
-      "points": 17,
+      "played": 10,
+      "points": 18,
       "team_raw": "Arsenal-B10GB-Rojas",
       "wins": 5
     },
@@ -352,7 +385,7 @@
       "club": "Tenafly",
       "coach": "Xu",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -419,22 +452,44 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "ARS-MemParkRidge3Sm"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407219",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10GB-Benton",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407221",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B10GB-Mavrorasakis",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "TEN-AlpineField"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 31,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 6,
-      "points": 6,
+      "goal_diff": -13,
+      "goals_against": 38,
+      "goals_for": 25,
+      "losses": 5,
+      "played": 8,
+      "points": 9,
       "team_raw": "Tenafly-B10GB-Xu",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RiverDell",
       "coach": "Benton",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -523,16 +578,38 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "407219",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10GB-Xu",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "TEN-AlpineField"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407223",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-B10GB-Carrion",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 47,
-      "goals_for": 24,
-      "losses": 7,
-      "played": 8,
-      "points": 3,
+      "goal_diff": -17,
+      "goals_against": 52,
+      "goals_for": 35,
+      "losses": 8,
+      "played": 10,
+      "points": 6,
       "team_raw": "RiverDell-B10GB-Benton",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "AYSOBergen",
@@ -616,13 +693,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "AYSO-CommunityField1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407223",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10GB-Benton",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -38,
-      "goals_against": 45,
-      "goals_for": 7,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -45,
+      "goals_against": 54,
+      "goals_for": 9,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "AYSOBergen-B10GB-Carrion",
       "wins": 0

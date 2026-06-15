@@ -1,6 +1,6 @@
 {
   "division": "B08D4",
-  "scraped_at": "2026-06-14T08:57:47.287895Z",
+  "scraped_at": "2026-06-15T11:37:53.917386Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -222,16 +222,27 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408147",
+          "goals_against": 4,
+          "goals_for": 8,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B08D4-Rea",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 45,
-      "goals_for": 62,
+      "goal_diff": 21,
+      "goals_against": 49,
+      "goals_for": 70,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "Maroons-B08D4-Chambers",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "GlobalJC",
@@ -489,7 +500,7 @@
       "club": "Dumont",
       "coach": "Rea",
       "draws": 1,
-      "form": "LWWDL",
+      "form": "WWDLL",
       "games": [
         {
           "date": "2026-05-02",
@@ -589,13 +600,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408147",
+          "goals_against": 8,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08D4-Chambers",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 71,
-      "goals_for": 37,
-      "losses": 6,
-      "played": 9,
+      "goal_diff": -38,
+      "goals_against": 79,
+      "goals_for": 41,
+      "losses": 7,
+      "played": 10,
       "points": 7,
       "team_raw": "Dumont-B08D4-Rea",
       "wins": 2

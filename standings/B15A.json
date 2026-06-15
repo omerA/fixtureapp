@@ -1,13 +1,13 @@
 {
   "division": "B15A",
-  "scraped_at": "2026-06-14T09:03:43.700542Z",
+  "scraped_at": "2026-06-15T11:43:55.822866Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WorldClassFC",
       "coach": "Leone",
       "draws": 1,
-      "form": "WWLWD",
+      "form": "WLWDW",
       "games": [
         {
           "date": "2026-05-31",
@@ -30,6 +30,17 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405051",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B15A-Mullan",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field1"
         },
         {
           "date": "2026-05-17",
@@ -109,14 +120,14 @@
           "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": 30,
+      "goal_diff": 31,
       "goals_against": 4,
-      "goals_for": 34,
+      "goals_for": 35,
       "losses": 1,
-      "played": 9,
-      "points": 22,
+      "played": 10,
+      "points": 25,
       "team_raw": "WorldClassFC-B15A-Leone",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "RiverDell",
@@ -248,7 +259,7 @@
       "club": "Force",
       "coach": "Mullan",
       "draws": 1,
-      "form": "DLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-05-31",
@@ -271,6 +282,17 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405051",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B15A-Leone",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field1"
         },
         {
           "date": "2026-05-17",
@@ -339,11 +361,11 @@
           "venue_code": "NY-MW-CentralVal3"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 17,
+      "goal_diff": 4,
+      "goals_against": 18,
       "goals_for": 22,
-      "losses": 3,
-      "played": 8,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "Force-B15A-Mullan",
       "wins": 4
@@ -352,7 +374,7 @@
       "club": "NoValley",
       "coach": "Torrie",
       "draws": 1,
-      "form": "LDWWL",
+      "form": "DWWLW",
       "games": [
         {
           "date": "2026-05-31",
@@ -375,6 +397,17 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405052",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B15A-Dallara",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         },
         {
           "date": "2026-05-17",
@@ -432,20 +465,20 @@
           "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 22,
-      "goals_for": 9,
+      "goal_diff": -12,
+      "goals_against": 23,
+      "goals_for": 11,
       "losses": 3,
-      "played": 7,
-      "points": 10,
+      "played": 8,
+      "points": 13,
       "team_raw": "NoValley-B15A-Torrie",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Hotspur",
       "coach": "Dallara",
       "draws": 1,
-      "form": "LWLLD",
+      "form": "WLLDL",
       "games": [
         {
           "date": "2026-05-17",
@@ -479,6 +512,17 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405052",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B15A-Torrie",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         },
         {
           "date": "2026-03-29",
@@ -536,11 +580,11 @@
           "venue_code": "HOT-HS Turf"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 25,
-      "goals_for": 16,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -10,
+      "goals_against": 27,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 9,
       "points": 10,
       "team_raw": "Hotspur-B15A-Dallara",
       "wins": 3

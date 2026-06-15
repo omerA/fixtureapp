@@ -1,6 +1,6 @@
 {
   "division": "G12E",
-  "scraped_at": "2026-06-14T09:07:21.052132Z",
+  "scraped_at": "2026-06-15T11:48:01.888244Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -122,7 +122,7 @@
       "club": "Dumont",
       "coach": "Hegel",
       "draws": 2,
-      "form": "LWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-04-18",
@@ -211,22 +211,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408869",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12E-Flanagan",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 8,
-      "goals_for": 12,
+      "goal_diff": 5,
+      "goals_against": 9,
+      "goals_for": 14,
       "losses": 1,
-      "played": 8,
-      "points": 11,
+      "played": 9,
+      "points": 14,
       "team_raw": "Dumont-G12E-Hegel",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Vikings",
       "coach": "Flanagan",
       "draws": 1,
-      "form": "WLDWL",
+      "form": "LDWLL",
       "games": [
         {
           "date": "2026-06-13",
@@ -326,13 +337,24 @@
           "result": "W",
           "time": "11:45 AM",
           "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408869",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12E-Hegel",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 10,
-      "goals_for": 12,
-      "losses": 3,
-      "played": 9,
+      "goal_diff": 1,
+      "goals_against": 12,
+      "goals_for": 13,
+      "losses": 4,
+      "played": 10,
       "points": 10,
       "team_raw": "Vikings-G12E-Flanagan",
       "wins": 3
@@ -340,8 +362,8 @@
     {
       "club": "Montclair",
       "coach": "Markh",
-      "draws": 1,
-      "form": "WLLLD",
+      "draws": 2,
+      "form": "LLLDD",
       "games": [
         {
           "date": "2026-04-18",
@@ -441,22 +463,33 @@
           "result": "D",
           "time": "03:30 PM",
           "venue_code": "MONT-BrookdleStad9v9"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408870",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G12E-Kunz",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "NY-CLARK-Zukor2C"
         }
       ],
       "goal_diff": -5,
-      "goals_against": 16,
-      "goals_for": 11,
+      "goals_against": 18,
+      "goals_for": 13,
       "losses": 4,
-      "played": 9,
-      "points": 7,
+      "played": 10,
+      "points": 8,
       "team_raw": "Montclair-G12E-Markh",
       "wins": 2
     },
     {
       "club": "Clarkstown",
       "coach": "Kunz",
-      "draws": 1,
-      "form": "DWLLL",
+      "draws": 2,
+      "form": "WLLLD",
       "games": [
         {
           "date": "2026-05-09",
@@ -556,14 +589,25 @@
           "result": "L",
           "time": "11:45 AM",
           "venue_code": "NoVAL-NorthvaleVet"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "408870",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12E-Markh",
+          "result": "D",
+          "time": "12:30 PM",
+          "venue_code": "NY-CLARK-Zukor2C"
         }
       ],
       "goal_diff": -14,
-      "goals_against": 18,
-      "goals_for": 4,
+      "goals_against": 20,
+      "goals_for": 6,
       "losses": 5,
-      "played": 9,
-      "points": 4,
+      "played": 10,
+      "points": 5,
       "team_raw": "Clarkstown-G12E-Kunz",
       "wins": 1
     }

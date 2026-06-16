@@ -1,13 +1,13 @@
 {
   "division": "G12E",
-  "scraped_at": "2026-06-15T11:48:01.888244Z",
+  "scraped_at": "2026-06-16T10:57:19.423076Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Warriors",
       "coach": "Orozco",
       "draws": 1,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-06-13",
@@ -107,22 +107,33 @@
           "result": "W",
           "time": "03:45 PM",
           "venue_code": "NY-CLARK-Zukor2C"
+        },
+        {
+          "date": "2026-06-15",
+          "game_number": "408868",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12E-Hegel",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 14,
       "goals_against": 7,
-      "goals_for": 20,
+      "goals_for": 21,
       "losses": 1,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 19,
       "team_raw": "Warriors-G12E-Orozco",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Dumont",
       "coach": "Hegel",
       "draws": 2,
-      "form": "WDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -213,6 +224,17 @@
           "venue_code": "DUM-TwinBoro"
         },
         {
+          "date": "2026-06-15",
+          "game_number": "408868",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12E-Orozco",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
           "date": "2026-06-14",
           "game_number": "408869",
           "goals_against": 1,
@@ -224,11 +246,11 @@
           "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 9,
+      "goal_diff": 4,
+      "goals_against": 10,
       "goals_for": 14,
-      "losses": 1,
-      "played": 9,
+      "losses": 2,
+      "played": 10,
       "points": 14,
       "team_raw": "Dumont-G12E-Hegel",
       "wins": 4

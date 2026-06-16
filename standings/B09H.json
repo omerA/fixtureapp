@@ -1,6 +1,6 @@
 {
   "division": "B09H",
-  "scraped_at": "2026-06-15T11:39:01.622906Z",
+  "scraped_at": "2026-06-16T10:48:53.262401Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -467,8 +467,19 @@
       "club": "FF",
       "coach": "Lezcano",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLL",
       "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "407157",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09H-Janeski",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
         {
           "date": "2026-04-12",
           "game_number": "407163",
@@ -558,14 +569,129 @@
           "venue_code": "WORANGE-Lincoln-Lrg"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 20,
-      "goals_for": 34,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": 12,
+      "goals_against": 23,
+      "goals_for": 35,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "FF-B09H-Lezcano",
       "wins": 5
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Janeski",
+      "draws": 2,
+      "form": "LDLLW",
+      "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "407157",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B09H-Lezcano",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407166",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B09H-Hoffer",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407169",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B09H-Rosskamp",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "407173",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09H-Niland",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407180",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B09H-Mackenzie",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407186",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09H-Musano",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407190",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09H-Coughlin",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "407192",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09H-Callegari",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "408032",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09H-McGee",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 13,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 9,
+      "points": 14,
+      "team_raw": "CougarSC-B09H-Janeski",
+      "wins": 4
     },
     {
       "club": "RiverDell",
@@ -681,110 +807,6 @@
       "points": 12,
       "team_raw": "RiverDell-B09H-McGee",
       "wins": 4
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Janeski",
-      "draws": 2,
-      "form": "WLDLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "407166",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B09H-Hoffer",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407169",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B09H-Rosskamp",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "407173",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09H-Niland",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407180",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B09H-Mackenzie",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407186",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B09H-Musano",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407190",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09H-Coughlin",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "407192",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B09H-Callegari",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "WYNE-JFK-Small"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "408032",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B09H-McGee",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 12,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 8,
-      "points": 11,
-      "team_raw": "CougarSC-B09H-Janeski",
-      "wins": 3
     },
     {
       "club": "Tenafly",

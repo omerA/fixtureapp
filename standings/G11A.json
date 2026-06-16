@@ -1,6 +1,6 @@
 {
   "division": "G11A",
-  "scraped_at": "2026-06-15T11:46:58.089259Z",
+  "scraped_at": "2026-06-16T10:56:21.669557Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -121,8 +121,8 @@
     {
       "club": "Dragons",
       "coach": "Johnson",
-      "draws": 0,
-      "form": "WWWWL",
+      "draws": 1,
+      "form": "WWWLD",
       "games": [
         {
           "date": "2026-05-08",
@@ -211,14 +211,25 @@
           "result": "W",
           "time": "06:45 PM",
           "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-06-15",
+          "game_number": "405440",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11A-Pardo",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
       "goal_diff": 29,
-      "goals_against": 4,
-      "goals_for": 33,
+      "goals_against": 7,
+      "goals_for": 36,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 22,
       "team_raw": "Dragons-G11A-Johnson",
       "wins": 7
     },
@@ -453,6 +464,121 @@
       "wins": 5
     },
     {
+      "club": "Maywood",
+      "coach": "Pardo",
+      "draws": 1,
+      "form": "WLLWD",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "405398",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11A-DeCarlo",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405407",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G11A-Oscanoa",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-05-09",
+          "game_number": "405410",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11A-Schneider",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-29",
+          "game_number": "405414",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G11A-Crispin",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "THIS-Harvey Back SS"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405421",
+          "goals_against": 5,
+          "goals_for": 10,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11A-Londono",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405427",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11A-Leichte",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-04",
+          "game_number": "405431",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G11A-Lanz",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405433",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G11A-Sayilik",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-06-15",
+          "game_number": "405440",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11A-Johnson",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 31,
+      "goals_for": 40,
+      "losses": 4,
+      "played": 9,
+      "points": 13,
+      "team_raw": "Maywood-G11A-Pardo",
+      "wins": 4
+    },
+    {
       "club": "Southside",
       "coach": "Oscanoa",
       "draws": 0,
@@ -680,110 +806,6 @@
       "played": 9,
       "points": 12,
       "team_raw": "WayneBG-G11A-DeCarlo",
-      "wins": 4
-    },
-    {
-      "club": "Maywood",
-      "coach": "Pardo",
-      "draws": 0,
-      "form": "WWLLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "405398",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G11A-DeCarlo",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "WYNE-ShaiShaknai"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405407",
-          "goals_against": 7,
-          "goals_for": 5,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G11A-Oscanoa",
-          "result": "L",
-          "time": "10:15 AM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-05-09",
-          "game_number": "405410",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G11A-Schneider",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-05-29",
-          "game_number": "405414",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G11A-Crispin",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "THIS-Harvey Back SS"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405421",
-          "goals_against": 5,
-          "goals_for": 10,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G11A-Londono",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405427",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G11A-Leichte",
-          "result": "W",
-          "time": "07:15 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-06-04",
-          "game_number": "405431",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G11A-Lanz",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "WALD-HSTurf-2"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405433",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G11A-Sayilik",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "RDBH-DPAC North"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 28,
-      "goals_for": 37,
-      "losses": 4,
-      "played": 8,
-      "points": 12,
-      "team_raw": "Maywood-G11A-Pardo",
       "wins": 4
     },
     {

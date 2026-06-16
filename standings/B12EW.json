@@ -1,14 +1,25 @@
 {
   "division": "B12EW",
-  "scraped_at": "2026-06-15T11:41:58.001891Z",
+  "scraped_at": "2026-06-16T10:51:47.816141Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NMKnights",
       "coach": "Tramontano",
       "draws": 1,
-      "form": "DLWWW",
+      "form": "LWWWW",
       "games": [
+        {
+          "date": "2026-06-15",
+          "game_number": "404969",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12EW-Gillies",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404971",
@@ -109,21 +120,32 @@
           "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 17,
-      "goals_for": 37,
+      "goal_diff": 21,
+      "goals_against": 19,
+      "goals_for": 40,
       "losses": 2,
-      "played": 9,
-      "points": 19,
+      "played": 10,
+      "points": 22,
       "team_raw": "NMKnights-B12EW-Tramontano",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 3,
-      "form": "DDWLW",
+      "form": "DWLWL",
       "games": [
+        {
+          "date": "2026-06-15",
+          "game_number": "404969",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B12EW-Tramontano",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-04-12",
           "game_number": "404970",
@@ -224,11 +246,11 @@
           "venue_code": "MAR-HabernickelPk"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 21,
-      "goals_for": 31,
-      "losses": 1,
-      "played": 9,
+      "goal_diff": 9,
+      "goals_against": 24,
+      "goals_for": 33,
+      "losses": 2,
+      "played": 10,
       "points": 18,
       "team_raw": "Maroons-B12EW-Gillies",
       "wins": 5

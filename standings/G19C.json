@@ -1,6 +1,6 @@
 {
   "division": "G19C",
-  "scraped_at": "2026-06-15T11:49:56.715616Z",
+  "scraped_at": "2026-06-16T10:58:52.298360Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -111,7 +111,7 @@
       "club": "GlenRock",
       "coach": "Finn",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-06-14",
@@ -123,6 +123,17 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-06-15",
+          "game_number": "409188",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "AYSOBergen",
+          "opponent_raw": "AYSOBergen-G19C-Zeigler",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "AYSO-Community-Large"
         },
         {
           "date": "2026-04-19",
@@ -191,21 +202,32 @@
           "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 6,
-      "goals_for": 26,
+      "goal_diff": 21,
+      "goals_against": 7,
+      "goals_for": 28,
       "losses": 1,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 18,
       "team_raw": "GlenRock-G19C-Finn",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "AYSOBergen",
       "coach": "Zeigler",
       "draws": 1,
-      "form": "LWDWW",
+      "form": "WDWWL",
       "games": [
+        {
+          "date": "2026-06-15",
+          "game_number": "409188",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G19C-Finn",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "AYSO-Community-Large"
+        },
         {
           "date": "2026-04-19",
           "game_number": "409191",
@@ -284,11 +306,11 @@
           "venue_code": "BGFD-Vivyen"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 9,
-      "goals_for": 27,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 17,
+      "goals_against": 11,
+      "goals_for": 28,
+      "losses": 2,
+      "played": 8,
       "points": 13,
       "team_raw": "AYSOBergen-G19C-Zeigler",
       "wins": 4

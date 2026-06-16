@@ -1,6 +1,6 @@
 {
   "division": "B14C",
-  "scraped_at": "2026-06-15T11:43:26.033219Z",
+  "scraped_at": "2026-06-16T10:53:15.560928Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -500,7 +500,7 @@
       "club": "Nutley",
       "coach": "Antell",
       "draws": 3,
-      "form": "LLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-05-30",
@@ -600,13 +600,24 @@
           "result": "D",
           "time": "01:30 PM",
           "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406492",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B14C-Dam",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 25,
-      "goals_for": 16,
-      "losses": 4,
-      "played": 9,
+      "goal_diff": -11,
+      "goals_against": 28,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 10,
       "points": 9,
       "team_raw": "Nutley-B14C-Antell",
       "wins": 2
@@ -615,7 +626,7 @@
       "club": "Force",
       "coach": "Dam",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-06-13",
@@ -704,16 +715,27 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "NY-MW-CentralVal15"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406492",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14C-Antell",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 27,
-      "goals_for": 18,
+      "goal_diff": -7,
+      "goals_against": 28,
+      "goals_for": 21,
       "losses": 7,
-      "played": 8,
-      "points": 3,
+      "played": 9,
+      "points": 6,
       "team_raw": "Force-B14C-Dam",
-      "wins": 1
+      "wins": 2
     }
   ]
 }

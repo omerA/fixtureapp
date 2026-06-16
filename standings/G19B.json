@@ -1,6 +1,6 @@
 {
   "division": "G19B",
-  "scraped_at": "2026-06-15T11:49:49.430361Z",
+  "scraped_at": "2026-06-16T10:58:47.179031Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -319,7 +319,7 @@
       "club": "Maroons",
       "coach": "Breheny",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-04-11",
@@ -366,6 +366,17 @@
           "venue_code": "MONT-BrookdaleStad"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "409165",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G19B-Zahr",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "MAR-HawesSchool"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "409171",
           "goals_against": 3,
@@ -399,14 +410,14 @@
           "venue_code": "ARS-PHHS1"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 8,
       "goals_against": 11,
-      "goals_for": 18,
+      "goals_for": 19,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Maroons-G19B-Breheny",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Arsenal",
@@ -620,7 +631,7 @@
       "club": "Lakeland",
       "coach": "Zahr",
       "draws": 1,
-      "form": "WLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -667,6 +678,17 @@
           "venue_code": "LKLND-AddicePrk"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "409165",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G19B-Breheny",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "MAR-HawesSchool"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "409170",
           "goals_against": 2,
@@ -700,11 +722,11 @@
           "venue_code": "LKLND-LakelandHS"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 17,
+      "goal_diff": -2,
+      "goals_against": 18,
       "goals_for": 16,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "Lakeland-G19B-Zahr",
       "wins": 2

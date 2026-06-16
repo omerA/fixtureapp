@@ -1,6 +1,6 @@
 {
   "division": "G10B",
-  "scraped_at": "2026-06-15T11:46:07.052246Z",
+  "scraped_at": "2026-06-16T10:55:39.005389Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -362,9 +362,20 @@
     {
       "club": "WorldClassFC",
       "coach": "Brownell",
-      "draws": 1,
-      "form": "WDWLW",
+      "draws": 2,
+      "form": "DWLWD",
       "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "405184",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10B-Ramirez",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
         {
           "date": "2026-05-16",
           "game_number": "406537",
@@ -466,11 +477,11 @@
         }
       ],
       "goal_diff": -1,
-      "goals_against": 27,
-      "goals_for": 26,
+      "goals_against": 29,
+      "goals_for": 28,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 14,
       "team_raw": "WorldClassFC-G10B-Brownell",
       "wins": 4
     },
@@ -603,9 +614,20 @@
     {
       "club": "FairLawnAllSports",
       "coach": "Ramirez",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
+        {
+          "date": "2026-06-14",
+          "game_number": "405184",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10B-Brownell",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
         {
           "date": "2026-04-17",
           "game_number": "406538",
@@ -707,11 +729,11 @@
         }
       ],
       "goal_diff": -29,
-      "goals_against": 42,
-      "goals_for": 13,
+      "goals_against": 44,
+      "goals_for": 15,
       "losses": 9,
-      "played": 9,
-      "points": 0,
+      "played": 10,
+      "points": 1,
       "team_raw": "FairLawnAllSports-G10B-Ramirez",
       "wins": 0
     }

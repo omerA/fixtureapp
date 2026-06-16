@@ -1,6 +1,6 @@
 {
   "division": "B13B",
-  "scraped_at": "2026-06-15T11:42:39.267687Z",
+  "scraped_at": "2026-06-16T10:52:29.000378Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -133,7 +133,7 @@
       "club": "Vikings",
       "coach": "Adeboye",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-03-29",
@@ -233,22 +233,33 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407856",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B13B-Klobe",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "JC-CochraneCaven"
         }
       ],
-      "goal_diff": 16,
+      "goal_diff": 20,
       "goals_against": 16,
-      "goals_for": 32,
+      "goals_for": 36,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "Vikings-B13B-Adeboye",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "JerseyCity",
       "coach": "Klobe",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-03-29",
@@ -348,13 +359,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "JC-CochraneCaven"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407856",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13B-Adeboye",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "JC-CochraneCaven"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 23,
+      "goal_diff": 9,
+      "goals_against": 27,
       "goals_for": 36,
-      "losses": 3,
-      "played": 9,
+      "losses": 4,
+      "played": 10,
       "points": 18,
       "team_raw": "JerseyCity-B13B-Klobe",
       "wins": 6

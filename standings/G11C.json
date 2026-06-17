@@ -1,13 +1,13 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-06-16T10:56:32.219518Z",
+  "scraped_at": "2026-06-17T10:29:27.071758Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-06-06",
@@ -98,6 +98,17 @@
           "venue_code": "NY-CLARK-Zukor2C"
         },
         {
+          "date": "2026-06-16",
+          "game_number": "408579",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G11C-Gjoca",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-WoodrdgHS-SmB"
+        },
+        {
           "date": "2026-06-14",
           "game_number": "408581",
           "goals_against": 2,
@@ -109,20 +120,20 @@
           "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": 46,
-      "goals_against": 5,
-      "goals_for": 51,
+      "goal_diff": 51,
+      "goals_against": 7,
+      "goals_for": 58,
       "losses": 0,
-      "played": 9,
-      "points": 25,
+      "played": 10,
+      "points": 28,
       "team_raw": "WoodRidge-G11C-Prior",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-04-24",
@@ -213,6 +224,17 @@
           "venue_code": "TORP-Pulis4"
         },
         {
+          "date": "2026-06-16",
+          "game_number": "408579",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G11C-Prior",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-WoodrdgHS-SmB"
+        },
+        {
           "date": "2026-06-14",
           "game_number": "408582",
           "goals_against": 2,
@@ -224,11 +246,11 @@
           "venue_code": "TORP-Pulis4"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 14,
-      "goals_for": 26,
-      "losses": 2,
-      "played": 9,
+      "goal_diff": 7,
+      "goals_against": 21,
+      "goals_for": 28,
+      "losses": 3,
+      "played": 10,
       "points": 21,
       "team_raw": "Torpedoes-G11C-Gjoca",
       "wins": 7

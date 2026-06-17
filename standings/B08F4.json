@@ -1,6 +1,6 @@
 {
   "division": "B08F4",
-  "scraped_at": "2026-06-16T10:48:01.230699Z",
+  "scraped_at": "2026-06-17T10:20:49.396849Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -741,7 +741,7 @@
       "club": "Rutherford",
       "coach": "Dominguez",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -764,6 +764,17 @@
           "result": "L",
           "time": "03:45 PM",
           "venue_code": "HACK-ColombusPark"
+        },
+        {
+          "date": "2026-06-16",
+          "game_number": "406702",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08F4-Corredor",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
           "date": "2026-06-13",
@@ -843,14 +854,14 @@
           "venue_code": "RUTH-Tamblyn-4v4"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 49,
-      "goals_for": 44,
+      "goal_diff": 0,
+      "goals_against": 51,
+      "goals_for": 51,
       "losses": 6,
-      "played": 9,
-      "points": 9,
+      "played": 10,
+      "points": 12,
       "team_raw": "Rutherford-B08F4-Dominguez",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Spartan",
@@ -982,7 +993,7 @@
       "club": "RIDGFLD",
       "coach": "Corredor",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-05-02",
@@ -1004,6 +1015,17 @@
           "opponent_raw": "Rutherford-B08F4-Millar",
           "result": "L",
           "time": "09:30 AM",
+          "venue_code": "RUTH-Tamblyn-4v4"
+        },
+        {
+          "date": "2026-06-16",
+          "game_number": "406702",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08F4-Dominguez",
+          "result": "L",
+          "time": "05:30 PM",
           "venue_code": "RUTH-Tamblyn-4v4"
         },
         {
@@ -1062,11 +1084,11 @@
           "venue_code": "RDGFLDFC-WillisSml"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 46,
-      "goals_for": 18,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -33,
+      "goals_against": 53,
+      "goals_for": 20,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "RIDGFLD-B08F4-Corredor",
       "wins": 1

@@ -86,20 +86,6 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "NASA",
-      "away_score": null,
-      "away_team": "NASA-B08F4-Callegari",
-      "date": "2026-04-12",
-      "division": "B08F4",
-      "field": "Willis Field  Upper Field",
-      "game_id": "404688",
-      "home_club": "RIDGFLD",
-      "home_score": null,
-      "home_team": "RIDGFLD-B08F4-Corredor",
-      "is_upcoming": true,
-      "time": "12:30 PM"
-    },
-    {
       "away_club": "Rutherford",
       "away_score": 2,
       "away_team": "Rutherford-B08F4-Dominguez",
@@ -759,19 +745,33 @@
     },
     {
       "away_club": "RIDGFLD",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "RIDGFLD-B08F4-Corredor",
       "date": "2026-06-16",
       "division": "B08F4",
       "field": "Rutherford-Tamblyn U8 Field",
       "game_id": "406702",
       "home_club": "Rutherford",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Rutherford-B08F4-Dominguez",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:30 PM"
+    },
+    {
+      "away_club": "NASA",
+      "away_score": null,
+      "away_team": "NASA-B08F4-Callegari",
+      "date": "2026-06-22",
+      "division": "B08F4",
+      "field": "Willis Field",
+      "game_id": "404688",
+      "home_club": "RIDGFLD",
+      "home_score": null,
+      "home_team": "RIDGFLD-B08F4-Corredor",
+      "is_upcoming": true,
+      "time": "06:30 PM"
     }
   ],
-  "scraped_at": "2026-06-16T10:59:18.554569Z",
+  "scraped_at": "2026-06-17T10:32:13.198790Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

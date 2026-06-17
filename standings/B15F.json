@@ -1,6 +1,6 @@
 {
   "division": "B15F",
-  "scraped_at": "2026-06-16T10:54:03.814434Z",
+  "scraped_at": "2026-06-17T10:26:54.796990Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -384,8 +384,8 @@
     {
       "club": "RIDGFLD",
       "coach": "Romero",
-      "draws": 0,
-      "form": "WLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -485,22 +485,33 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407340",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "DenofLions",
+          "opponent_raw": "DenofLions-B15F-Trindadex",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NWK-Riverbank"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 21,
-      "goals_for": 21,
+      "goals_against": 25,
+      "goals_for": 25,
       "losses": 5,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 13,
       "team_raw": "RIDGFLD-B15F-Romero",
       "wins": 4
     },
     {
       "club": "DenofLions",
       "coach": "Trindadex",
-      "draws": 1,
-      "form": "LLWLD",
+      "draws": 2,
+      "form": "LWLDD",
       "games": [
         {
           "date": "2026-03-29",
@@ -600,14 +611,25 @@
           "result": "D",
           "time": "11:00 AM",
           "venue_code": "NWK-Riverbank"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "407340",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B15F-Romero",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NWK-Riverbank"
         }
       ],
       "goal_diff": -14,
-      "goals_against": 28,
-      "goals_for": 14,
+      "goals_against": 32,
+      "goals_for": 18,
       "losses": 6,
-      "played": 9,
-      "points": 7,
+      "played": 10,
+      "points": 8,
       "team_raw": "DenofLions-B15F-Trindadex",
       "wins": 2
     },

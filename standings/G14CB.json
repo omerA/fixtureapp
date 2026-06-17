@@ -1,6 +1,6 @@
 {
   "division": "G14CB",
-  "scraped_at": "2026-06-16T10:58:19.303594Z",
+  "scraped_at": "2026-06-17T10:31:14.193789Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -248,7 +248,7 @@
       "club": "Vikings",
       "coach": "Ernst",
       "draws": 3,
-      "form": "WLLDW",
+      "form": "LLDWL",
       "games": [
         {
           "date": "2026-04-25",
@@ -306,6 +306,17 @@
           "venue_code": "LKLND-LakelandHS"
         },
         {
+          "date": "2026-06-16",
+          "game_number": "406206",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14CB-Glynn",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
           "date": "2026-05-30",
           "game_number": "406210",
           "goals_against": 1,
@@ -350,14 +361,14 @@
           "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 8,
-      "goals_for": 10,
-      "losses": 2,
-      "played": 9,
-      "points": 12,
+      "goal_diff": -3,
+      "goals_against": 9,
+      "goals_for": 6,
+      "losses": 3,
+      "played": 10,
+      "points": 9,
       "team_raw": "Vikings-G14CB-Ernst",
-      "wins": 3
+      "wins": 2
     },
     {
       "club": "NMKnights",
@@ -478,7 +489,7 @@
       "club": "Maywood",
       "coach": "Glynn",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLW",
       "games": [
         {
           "date": "2026-04-04",
@@ -547,6 +558,17 @@
           "venue_code": "NMilford-NMHS-Main"
         },
         {
+          "date": "2026-06-16",
+          "game_number": "406206",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14CB-Ernst",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
           "date": "2026-05-29",
           "game_number": "406209",
           "goals_against": 4,
@@ -580,14 +602,14 @@
           "venue_code": "LKLND-AddicePrk"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 29,
-      "goals_for": 8,
-      "losses": 7,
-      "played": 9,
-      "points": 1,
+      "goal_diff": -16,
+      "goals_against": 25,
+      "goals_for": 9,
+      "losses": 6,
+      "played": 10,
+      "points": 4,
       "team_raw": "Maywood-G14CB-Glynn",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

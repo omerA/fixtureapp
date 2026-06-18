@@ -1,6 +1,6 @@
 {
   "division": "G14B",
-  "scraped_at": "2026-06-17T10:31:09.779352Z",
+  "scraped_at": "2026-06-18T10:18:00.987968Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -248,7 +248,7 @@
       "club": "Bayonne",
       "coach": "Farrell",
       "draws": 1,
-      "form": "WLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-05-16",
@@ -348,16 +348,27 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-06-17",
+          "game_number": "406184",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G14B-Mulhern",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": 2,
+      "goal_diff": 5,
       "goals_against": 18,
-      "goals_for": 20,
+      "goals_for": 23,
       "losses": 3,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 19,
       "team_raw": "Bayonne-G14B-Farrell",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Southside",
@@ -489,7 +500,7 @@
       "club": "Emerson",
       "coach": "Mulhern",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-03-22",
@@ -589,13 +600,24 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "EM-HSTurf1Full"
+        },
+        {
+          "date": "2026-06-17",
+          "game_number": "406184",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Bayonne",
+          "opponent_raw": "Bayonne-G14B-Farrell",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 28,
+      "goal_diff": -5,
+      "goals_against": 31,
       "goals_for": 26,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "points": 15,
       "team_raw": "Emerson-G14B-Mulhern",
       "wins": 5

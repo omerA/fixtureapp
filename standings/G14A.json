@@ -1,6 +1,6 @@
 {
   "division": "G14A",
-  "scraped_at": "2026-06-17T10:31:04.159689Z",
+  "scraped_at": "2026-06-18T10:17:51.392228Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -467,7 +467,7 @@
       "club": "Mahwah",
       "coach": "Kowal",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-04-11",
@@ -536,6 +536,17 @@
           "venue_code": "MAHWAH-CSF"
         },
         {
+          "date": "2026-06-16",
+          "game_number": "405781",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G14A-Wells",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
           "date": "2026-05-31",
           "game_number": "405784",
           "goals_against": 0,
@@ -558,14 +569,14 @@
           "venue_code": "MAR-Stevens"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 20,
-      "goals_for": 17,
+      "goal_diff": 2,
+      "goals_against": 22,
+      "goals_for": 24,
       "losses": 3,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "Mahwah-G14A-Kowal",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Nutley",
@@ -686,7 +697,7 @@
       "club": "AviatorsHHSA",
       "coach": "Wells",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-05-30",
@@ -755,6 +766,17 @@
           "venue_code": "AVIA-Hitchcock"
         },
         {
+          "date": "2026-06-16",
+          "game_number": "405781",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G14A-Kowal",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
           "date": "2026-05-31",
           "game_number": "405782",
           "goals_against": 2,
@@ -777,11 +799,11 @@
           "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 20,
-      "goals_for": 8,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -17,
+      "goals_against": 27,
+      "goals_for": 10,
+      "losses": 6,
+      "played": 9,
       "points": 3,
       "team_raw": "AviatorsHHSA-G14A-Wells",
       "wins": 1

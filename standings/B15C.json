@@ -1,13 +1,13 @@
 {
   "division": "B15C",
-  "scraped_at": "2026-06-18T10:10:51.739951Z",
+  "scraped_at": "2026-06-19T10:14:45.880962Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Thistle",
       "coach": "Millar",
       "draws": 2,
-      "form": "WDWDW",
+      "form": "DWDWW",
       "games": [
         {
           "date": "2026-06-15",
@@ -85,16 +85,27 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "THIS-Kearny HS"
+        },
+        {
+          "date": "2026-06-18",
+          "game_number": "405091",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B15C-Guedes",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "SaddleBR-VeteransFld"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 12,
-      "goals_for": 28,
+      "goal_diff": 18,
+      "goals_against": 13,
+      "goals_for": 31,
       "losses": 0,
-      "played": 7,
-      "points": 17,
+      "played": 8,
+      "points": 20,
       "team_raw": "Thistle-B15C-Millar",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Arsenal",
@@ -412,7 +423,7 @@
       "club": "SaddleBR",
       "coach": "Guedes",
       "draws": 3,
-      "form": "LLLDD",
+      "form": "LLDDL",
       "games": [
         {
           "date": "2026-05-30",
@@ -490,13 +501,24 @@
           "result": "D",
           "time": "10:30 AM",
           "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-06-18",
+          "game_number": "405091",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B15C-Millar",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "SaddleBR-VeteransFld"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 26,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -14,
+      "goals_against": 29,
+      "goals_for": 15,
+      "losses": 5,
+      "played": 8,
       "points": 3,
       "team_raw": "SaddleBR-B15C-Guedes",
       "wins": 0

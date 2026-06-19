@@ -1,6 +1,6 @@
 {
   "division": "B10H",
-  "scraped_at": "2026-06-18T10:04:30.773371Z",
+  "scraped_at": "2026-06-19T10:10:49.365365Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -259,7 +259,7 @@
       "club": "Teaneck",
       "coach": "Preciado",
       "draws": 1,
-      "form": "LDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-05-18",
@@ -339,6 +339,17 @@
           "venue_code": "TEANECK-VoteeSoccerN"
         },
         {
+          "date": "2026-06-18",
+          "game_number": "407335",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B10H-Patel",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "407411",
           "goals_against": 1,
@@ -361,11 +372,11 @@
           "venue_code": "VIK-Myrtle"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 17,
-      "goals_for": 42,
-      "losses": 1,
-      "played": 9,
+      "goal_diff": 23,
+      "goals_against": 22,
+      "goals_for": 45,
+      "losses": 2,
+      "played": 10,
       "points": 22,
       "team_raw": "Teaneck-B10H-Preciado",
       "wins": 7
@@ -484,6 +495,110 @@
       "points": 18,
       "team_raw": "Torpedoes-B10H-Grados",
       "wins": 6
+    },
+    {
+      "club": "SaddleBR",
+      "coach": "Patel",
+      "draws": 1,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-05-16",
+          "game_number": "407226",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10H-Nakashian",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "SaddleBR-VeteransFd3"
+        },
+        {
+          "date": "2026-04-17",
+          "game_number": "407232",
+          "goals_against": 7,
+          "goals_for": 7,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B10H-Alaya",
+          "result": "D",
+          "time": "06:15 PM",
+          "venue_code": "LKLND-Hagstrom"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "407235",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B10H-Bell",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "407239",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10H-Herbst",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "407253",
+          "goals_against": 10,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10H-Steinman",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "407255",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10H-GuevaraFuentes",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "407262",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10H-Capp",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-06-18",
+          "game_number": "407335",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Teaneck",
+          "opponent_raw": "Teaneck-B10H-Preciado",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        }
+      ],
+      "goal_diff": 15,
+      "goals_against": 32,
+      "goals_for": 47,
+      "losses": 2,
+      "played": 8,
+      "points": 16,
+      "team_raw": "SaddleBR-B10H-Patel",
+      "wins": 5
     },
     {
       "club": "Vikings",
@@ -609,99 +724,6 @@
       "played": 10,
       "points": 14,
       "team_raw": "Vikings-B10H-Nakashian",
-      "wins": 4
-    },
-    {
-      "club": "SaddleBR",
-      "coach": "Patel",
-      "draws": 1,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-05-16",
-          "game_number": "407226",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10H-Nakashian",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "SaddleBR-VeteransFd3"
-        },
-        {
-          "date": "2026-04-17",
-          "game_number": "407232",
-          "goals_against": 7,
-          "goals_for": 7,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B10H-Alaya",
-          "result": "D",
-          "time": "06:15 PM",
-          "venue_code": "LKLND-Hagstrom"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "407235",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B10H-Bell",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "407239",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B10H-Herbst",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "407253",
-          "goals_against": 10,
-          "goals_for": 4,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B10H-Steinman",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "407255",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B10H-GuevaraFuentes",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "407262",
-          "goals_against": 3,
-          "goals_for": 6,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10H-Capp",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "EM-HSTurf2Small"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 29,
-      "goals_for": 42,
-      "losses": 2,
-      "played": 7,
-      "points": 13,
-      "team_raw": "SaddleBR-B10H-Patel",
       "wins": 4
     },
     {

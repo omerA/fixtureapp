@@ -1,6 +1,6 @@
 {
   "division": "B10BB",
-  "scraped_at": "2026-06-19T10:09:46.467008Z",
+  "scraped_at": "2026-06-20T08:38:14.014779Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -133,8 +133,19 @@
       "club": "Force",
       "coach": "Darling",
       "draws": 3,
-      "form": "WWLWD",
+      "form": "WLWDW",
       "games": [
+        {
+          "date": "2026-06-19",
+          "game_number": "408096",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B10BB-Martel",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408239",
@@ -224,14 +235,14 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 10,
-      "goals_for": 27,
+      "goal_diff": 23,
+      "goals_against": 12,
+      "goals_for": 35,
       "losses": 1,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "Force-B10BB-Darling",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "RiverDell",
@@ -489,8 +500,19 @@
       "club": "UnionCity",
       "coach": "Martel",
       "draws": 1,
-      "form": "LLLDW",
+      "form": "LLDWL",
       "games": [
+        {
+          "date": "2026-06-19",
+          "game_number": "408096",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10BB-Darling",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
         {
           "date": "2026-04-12",
           "game_number": "408241",
@@ -591,11 +613,11 @@
           "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 40,
-      "goals_for": 27,
-      "losses": 6,
-      "played": 9,
+      "goal_diff": -19,
+      "goals_against": 48,
+      "goals_for": 29,
+      "losses": 7,
+      "played": 10,
       "points": 7,
       "team_raw": "UnionCity-B10BB-Martel",
       "wins": 2

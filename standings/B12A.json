@@ -1,14 +1,25 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-06-19T10:12:18.462184Z",
+  "scraped_at": "2026-06-20T08:40:22.516341Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maroons",
       "coach": "Breheny",
       "draws": 2,
-      "form": "LWDWL",
+      "form": "WDWLW",
       "games": [
+        {
+          "date": "2026-06-19",
+          "game_number": "407758",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Clifford",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-04-12",
           "game_number": "407762",
@@ -109,21 +120,32 @@
           "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 15,
-      "goals_for": 23,
+      "goal_diff": 10,
+      "goals_against": 18,
+      "goals_for": 28,
       "losses": 2,
-      "played": 9,
-      "points": 17,
+      "played": 10,
+      "points": 20,
       "team_raw": "Maroons-B12A-Breheny",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Nutley",
       "coach": "Clifford",
       "draws": 1,
-      "form": "WLWWW",
+      "form": "LWWWL",
       "games": [
+        {
+          "date": "2026-06-19",
+          "game_number": "407758",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12A-Breheny",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-04-19",
           "game_number": "407765",
@@ -213,11 +235,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 22,
-      "goals_for": 27,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 3,
+      "goals_against": 27,
+      "goals_for": 30,
+      "losses": 3,
+      "played": 9,
       "points": 16,
       "team_raw": "Nutley-B12A-Clifford",
       "wins": 5

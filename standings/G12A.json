@@ -1,6 +1,6 @@
 {
   "division": "G12A",
-  "scraped_at": "2026-06-19T10:17:56.326839Z",
+  "scraped_at": "2026-06-20T08:45:59.839439Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -98,6 +98,17 @@
           "venue_code": "FL-CenterRec2"
         },
         {
+          "date": "2026-06-18",
+          "game_number": "408735",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12A-McAndrews",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
           "date": "2026-06-14",
           "game_number": "408736",
           "goals_against": 1,
@@ -109,20 +120,20 @@
           "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": 22,
-      "goals_against": 6,
-      "goals_for": 28,
+      "goal_diff": 24,
+      "goals_against": 7,
+      "goals_for": 31,
       "losses": 0,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "FairLawnAllSports-G12A-Rand",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "NMKnights",
       "coach": "McAndrews",
       "draws": 0,
-      "form": "WLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -200,13 +211,24 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-06-18",
+          "game_number": "408735",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G12A-Rand",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "NMilford-Williams9v9"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 6,
-      "goals_for": 12,
-      "losses": 2,
-      "played": 7,
+      "goal_diff": 4,
+      "goals_against": 9,
+      "goals_for": 13,
+      "losses": 3,
+      "played": 8,
       "points": 12,
       "team_raw": "NMKnights-G12A-McAndrews",
       "wins": 4

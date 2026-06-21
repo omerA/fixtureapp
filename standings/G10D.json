@@ -1,13 +1,13 @@
 {
   "division": "G10D",
-  "scraped_at": "2026-06-20T08:44:47.759040Z",
+  "scraped_at": "2026-06-21T09:39:09.772741Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Clarkstown",
       "coach": "JuarezOsorio",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-04-20",
@@ -30,6 +30,17 @@
           "result": "W",
           "time": "03:45 PM",
           "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-06-17",
+          "game_number": "405227",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G10D-Duque",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NMilford-Williams7v7"
         },
         {
           "date": "2026-04-26",
@@ -109,14 +120,14 @@
           "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": 23,
+      "goal_diff": 24,
       "goals_against": 17,
-      "goals_for": 40,
+      "goals_for": 41,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 27,
       "team_raw": "Clarkstown-G10D-JuarezOsorio",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "Hotspur",
@@ -248,8 +259,19 @@
       "club": "SilverLakeAcademy",
       "coach": "Donegan",
       "draws": 2,
-      "form": "DLDWW",
+      "form": "DWWWL",
       "games": [
+        {
+          "date": "2026-06-20",
+          "game_number": "405221",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G10D-Duque",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NMilford-Williams7v7"
+        },
         {
           "date": "2026-04-12",
           "game_number": "405226",
@@ -260,6 +282,17 @@
           "result": "L",
           "time": "03:45 PM",
           "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405228",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G10D-Gino",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "SILVERLK-MillerF20"
         },
         {
           "date": "2026-05-02",
@@ -340,232 +373,13 @@
         }
       ],
       "goal_diff": -1,
-      "goals_against": 19,
-      "goals_for": 18,
-      "losses": 2,
-      "played": 8,
-      "points": 14,
+      "goals_against": 22,
+      "goals_for": 21,
+      "losses": 3,
+      "played": 10,
+      "points": 17,
       "team_raw": "SilverLakeAcademy-G10D-Donegan",
-      "wins": 4
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Gino",
-      "draws": 2,
-      "form": "WLDLW",
-      "games": [
-        {
-          "date": "2026-03-29",
-          "game_number": "405223",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-Laskowski",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "405224",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G10D-Mulanaphy",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405232",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-05-06",
-          "game_number": "405234",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G10D-Duque",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405237",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-Laskowski",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405239",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G10D-Mulanaphy",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405242",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
-          "result": "D",
-          "time": "04:45 PM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405246",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "RUTH-Tamblyn"
-        },
-        {
-          "date": "2026-06-14",
-          "game_number": "405248",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G10D-Duque",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "RUTH-Tamblyn"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 33,
-      "goals_for": 29,
-      "losses": 4,
-      "played": 9,
-      "points": 11,
-      "team_raw": "Rutherford-G10D-Gino",
-      "wins": 3
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Duque",
-      "draws": 2,
-      "form": "DWLLL",
-      "games": [
-        {
-          "date": "2026-04-12",
-          "game_number": "405225",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-Laskowski",
-          "result": "W",
-          "time": "12:45 PM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405231",
-          "goals_against": 9,
-          "goals_for": 4,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G10D-Mulanaphy",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "HOT-Smith"
-        },
-        {
-          "date": "2026-05-06",
-          "game_number": "405234",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G10D-Gino",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405238",
-          "goals_against": 6,
-          "goals_for": 6,
-          "opponent_club": "SilverLakeAcademy",
-          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "SILVERLK-MillerF20"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405241",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-Laskowski",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405244",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "405247",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G10D-Mulanaphy",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-06-14",
-          "game_number": "405248",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G10D-Gino",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "RUTH-Tamblyn"
-        }
-      ],
-      "goal_diff": -11,
-      "goals_against": 38,
-      "goals_for": 27,
-      "losses": 4,
-      "played": 8,
-      "points": 8,
-      "team_raw": "NMKnights-G10D-Duque",
-      "wins": 2
+      "wins": 5
     },
     {
       "club": "Clarkstown",
@@ -692,6 +506,258 @@
       "points": 0,
       "team_raw": "Clarkstown-G10D-Laskowski",
       "wins": 0
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Gino",
+      "draws": 2,
+      "form": "LDLLW",
+      "games": [
+        {
+          "date": "2026-03-29",
+          "game_number": "405223",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-Laskowski",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405224",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10D-Mulanaphy",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "405228 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405232",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-05-06",
+          "game_number": "405234",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G10D-Duque",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405237",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-Laskowski",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405239",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10D-Mulanaphy",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405242",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405246",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "RUTH-Tamblyn"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405248",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G10D-Duque",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RUTH-Tamblyn"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 34,
+      "goals_for": 29,
+      "losses": 5,
+      "played": 10,
+      "points": 11,
+      "team_raw": "Rutherford-G10D-Gino",
+      "wins": 3
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Duque",
+      "draws": 2,
+      "form": "LLLLW",
+      "games": [
+        {
+          "date": "2026-06-20",
+          "game_number": "405221",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "405225",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-Laskowski",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-06-17",
+          "game_number": "405227 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405231",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10D-Mulanaphy",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "HOT-Smith"
+        },
+        {
+          "date": "2026-05-06",
+          "game_number": "405234",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G10D-Gino",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405238",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "SilverLakeAcademy",
+          "opponent_raw": "SilverLakeAcademy-G10D-Donegan",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "SILVERLK-MillerF20"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405241",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-Laskowski",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405244",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10D-JuarezOsorio",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "405247",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10D-Mulanaphy",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405248",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G10D-Gino",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RUTH-Tamblyn"
+        }
+      ],
+      "goal_diff": -11,
+      "goals_against": 41,
+      "goals_for": 30,
+      "losses": 5,
+      "played": 10,
+      "points": 11,
+      "team_raw": "NMKnights-G10D-Duque",
+      "wins": 3
     }
   ]
 }

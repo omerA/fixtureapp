@@ -1,13 +1,13 @@
 {
   "division": "G13A",
-  "scraped_at": "2026-06-20T08:46:36.678425Z",
+  "scraped_at": "2026-06-21T09:40:58.520321Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Spartan",
       "coach": "Auriemmma",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-06-08",
@@ -19,6 +19,17 @@
           "result": "D",
           "time": "06:00 PM",
           "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-06-19",
+          "game_number": "408911",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G13A-Murillo",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         },
         {
           "date": "2026-04-19",
@@ -51,6 +62,17 @@
           "opponent_raw": "Montclair-G13A-Lehman",
           "result": "W",
           "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-06-20",
+          "game_number": "408923",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G13A-Regas",
+          "result": "W",
+          "time": "02:00 PM",
           "venue_code": "PAR-ParkwayMS11"
         },
         {
@@ -98,20 +120,20 @@
           "venue_code": "MONT-BrookdaleStad"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 14,
-      "goals_for": 25,
+      "goal_diff": 13,
+      "goals_against": 17,
+      "goals_for": 30,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 10,
+      "points": 22,
       "team_raw": "Spartan-G13A-Auriemmma",
-      "wins": 5
+      "wins": 7
     },
     {
       "club": "NMKnights",
       "coach": "Regas",
       "draws": 3,
-      "form": "DWDLW",
+      "form": "WDLWL",
       "games": [
         {
           "date": "2026-06-08",
@@ -169,6 +191,17 @@
           "venue_code": "NoBergen-HudsonPk2"
         },
         {
+          "date": "2026-06-20",
+          "game_number": "408923",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G13A-Auriemmma",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "408925",
           "goals_against": 1,
@@ -213,11 +246,11 @@
           "venue_code": "NMilford-NMHS-Main"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 6,
-      "goals_for": 10,
-      "losses": 2,
-      "played": 9,
+      "goal_diff": 3,
+      "goals_against": 8,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 10,
       "points": 15,
       "team_raw": "NMKnights-G13A-Regas",
       "wins": 4
@@ -604,7 +637,7 @@
       "club": "NoBergen",
       "coach": "Murillo",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-03-29",
@@ -616,6 +649,17 @@
           "result": "L",
           "time": "08:30 AM",
           "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-06-19",
+          "game_number": "408911",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G13A-Auriemmma",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         },
         {
           "date": "2026-04-19",
@@ -706,11 +750,11 @@
           "venue_code": "NMilford-NMHS-Main"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 23,
-      "goals_for": 16,
-      "losses": 6,
-      "played": 9,
+      "goal_diff": -8,
+      "goals_against": 26,
+      "goals_for": 18,
+      "losses": 7,
+      "played": 10,
       "points": 9,
       "team_raw": "NoBergen-G13A-Murillo",
       "wins": 3

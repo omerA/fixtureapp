@@ -1,6 +1,6 @@
 {
   "division": "G09F",
-  "scraped_at": "2026-06-20T08:44:24.678282Z",
+  "scraped_at": "2026-06-21T09:38:46.745527Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -763,7 +763,7 @@
       "club": "RiverDell",
       "coach": "Valera",
       "draws": 1,
-      "form": "LWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-05-09",
@@ -775,6 +775,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-06-20",
+          "game_number": "406042",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09F-Hicks",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         },
         {
           "date": "2026-04-19",
@@ -865,14 +876,14 @@
           "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 29,
-      "goals_for": 13,
+      "goal_diff": -13,
+      "goals_against": 30,
+      "goals_for": 17,
       "losses": 5,
-      "played": 9,
-      "points": 10,
+      "played": 10,
+      "points": 13,
       "team_raw": "RiverDell-G09F-Valera",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Southside",
@@ -987,6 +998,132 @@
       "played": 9,
       "points": 6,
       "team_raw": "Southside-G09F-Oscanoa",
+      "wins": 2
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Angotti",
+      "draws": 0,
+      "form": "LLLLW",
+      "games": [
+        {
+          "date": "2026-06-20",
+          "game_number": "406029",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09F-Hicks",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-06-13",
+          "game_number": "406035",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G09F-Mulkeen",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-04-25",
+          "game_number": "406041",
+          "goals_against": 6,
+          "goals_for": 7,
+          "opponent_club": "Secaucus",
+          "opponent_raw": "Secaucus-G09F-Sehirli",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "SECAU-CountyShetikFl"
+        },
+        {
+          "date": "2026-04-19",
+          "game_number": "406044",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G09F-Sevilla",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "406052",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09F-Ianni",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "406056",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09F-vanGulikX",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "406063",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G09F-Oscanoa",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "406065",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09F-DiClemente",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-06-07",
+          "game_number": "406078",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09F-Chang",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "406498",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09F-Valera",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        }
+      ],
+      "goal_diff": -35,
+      "goals_against": 53,
+      "goals_for": 18,
+      "losses": 8,
+      "played": 10,
+      "points": 6,
+      "team_raw": "FairLawnAllSports-G09F-Angotti",
       "wins": 2
     },
     {
@@ -1116,126 +1253,22 @@
       "wins": 1
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Angotti",
-      "draws": 0,
-      "form": "LLLLL",
-      "games": [
-        {
-          "date": "2026-06-13",
-          "game_number": "406035",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G09F-Mulkeen",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-04-25",
-          "game_number": "406041",
-          "goals_against": 6,
-          "goals_for": 7,
-          "opponent_club": "Secaucus",
-          "opponent_raw": "Secaucus-G09F-Sehirli",
-          "result": "W",
-          "time": "03:45 PM",
-          "venue_code": "SECAU-CountyShetikFl"
-        },
-        {
-          "date": "2026-04-19",
-          "game_number": "406044",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G09F-Sevilla",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "406052",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G09F-Ianni",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "406056",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G09F-vanGulikX",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "406063",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G09F-Oscanoa",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "406065",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G09F-DiClemente",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        },
-        {
-          "date": "2026-06-07",
-          "game_number": "406078",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G09F-Chang",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        },
-        {
-          "date": "2026-06-14",
-          "game_number": "406498",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09F-Valera",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        }
-      ],
-      "goal_diff": -36,
-      "goals_against": 51,
-      "goals_for": 15,
-      "losses": 8,
-      "played": 9,
-      "points": 3,
-      "team_raw": "FairLawnAllSports-G09F-Angotti",
-      "wins": 1
-    },
-    {
       "club": "Maywood",
       "coach": "Hicks",
       "draws": 2,
-      "form": "LDLLD",
+      "form": "LLDLL",
       "games": [
+        {
+          "date": "2026-06-20",
+          "game_number": "406029",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09F-Angotti",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
         {
           "date": "2026-06-14",
           "game_number": "406036",
@@ -1246,6 +1279,17 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-06-20",
+          "game_number": "406042",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09F-Valera",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         },
         {
           "date": "2026-06-07",
@@ -1314,11 +1358,11 @@
           "venue_code": "TEN-AlpineField"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 38,
-      "goals_for": 15,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -27,
+      "goals_against": 45,
+      "goals_for": 18,
+      "losses": 7,
+      "played": 9,
       "points": 2,
       "team_raw": "Maywood-G09F-Hicks",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B12G",
-  "scraped_at": "2026-06-20T08:40:56.804153Z",
+  "scraped_at": "2026-06-21T09:35:19.160061Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -248,8 +248,19 @@
       "club": "AviatorsHHSA",
       "coach": "Pusaver",
       "draws": 1,
-      "form": "WWLWD",
+      "form": "WLWDL",
       "games": [
+        {
+          "date": "2026-06-20",
+          "game_number": "406225",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12G-DAmbrosio",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406229",
@@ -350,11 +361,11 @@
           "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 40,
-      "goals_for": 47,
-      "losses": 3,
-      "played": 9,
+      "goal_diff": 6,
+      "goals_against": 43,
+      "goals_for": 49,
+      "losses": 4,
+      "played": 10,
       "points": 16,
       "team_raw": "AviatorsHHSA-B12G-Pusaver",
       "wins": 5
@@ -363,8 +374,19 @@
       "club": "Mahwah",
       "coach": "DAmbrosio",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLW",
       "games": [
+        {
+          "date": "2026-06-20",
+          "game_number": "406225",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B12G-Pusaver",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
         {
           "date": "2026-04-12",
           "game_number": "406227",
@@ -454,14 +476,14 @@
           "venue_code": "COUGSC-Dehart2"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 36,
-      "goals_for": 25,
+      "goal_diff": -10,
+      "goals_against": 38,
+      "goals_for": 28,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "Mahwah-B12G-DAmbrosio",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Bergenfield",

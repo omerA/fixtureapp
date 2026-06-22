@@ -1,6 +1,6 @@
 {
   "division": "G09A",
-  "scraped_at": "2026-06-21T09:38:20.878557Z",
+  "scraped_at": "2026-06-22T11:33:42.160985Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -510,8 +510,8 @@
     {
       "club": "Maywood",
       "coach": "Maringola",
-      "draws": 3,
-      "form": "DLWDL",
+      "draws": 4,
+      "form": "LWDLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -545,6 +545,17 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-06-20",
+          "game_number": "405843",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G09A-Szucs",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         },
         {
           "date": "2026-05-03",
@@ -614,19 +625,19 @@
         }
       ],
       "goal_diff": -3,
-      "goals_against": 27,
-      "goals_for": 24,
+      "goals_against": 29,
+      "goals_for": 26,
       "losses": 4,
-      "played": 9,
-      "points": 9,
+      "played": 10,
+      "points": 10,
       "team_raw": "Maywood-G09A-Maringola",
       "wins": 2
     },
     {
       "club": "JerseyCity",
       "coach": "Szucs",
-      "draws": 2,
-      "form": "LDLDL",
+      "draws": 3,
+      "form": "DLDLD",
       "games": [
         {
           "date": "2026-03-29",
@@ -660,6 +671,17 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "JC-CochraneCaven-3"
+        },
+        {
+          "date": "2026-06-20",
+          "game_number": "405843",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09A-Maringola",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         },
         {
           "date": "2026-05-03",
@@ -729,11 +751,11 @@
         }
       ],
       "goal_diff": -18,
-      "goals_against": 29,
-      "goals_for": 11,
+      "goals_against": 31,
+      "goals_for": 13,
       "losses": 7,
-      "played": 9,
-      "points": 2,
+      "played": 10,
+      "points": 3,
       "team_raw": "JerseyCity-G09A-Szucs",
       "wins": 0
     }

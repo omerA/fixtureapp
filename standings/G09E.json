@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-06-22T11:34:02.677531Z",
+  "scraped_at": "2026-06-23T08:59:56.452031Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -133,7 +133,7 @@
       "club": "UnionCity",
       "coach": "Sellitti",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-03-29",
@@ -213,6 +213,17 @@
           "venue_code": "UNIONCITY-Marti"
         },
         {
+          "date": "2026-06-20",
+          "game_number": "406020",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Medeiros",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "406023",
           "goals_against": 3,
@@ -235,14 +246,14 @@
           "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 24,
-      "goals_for": 33,
+      "goal_diff": 10,
+      "goals_against": 29,
+      "goals_for": 39,
       "losses": 4,
-      "played": 9,
-      "points": 15,
+      "played": 10,
+      "points": 18,
       "team_raw": "UnionCity-G09E-Sellitti",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "GlenRock",
@@ -626,7 +637,7 @@
       "club": "RiverDell",
       "coach": "Medeiros",
       "draws": 2,
-      "form": "DLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-04-04",
@@ -706,6 +717,17 @@
           "venue_code": "RDBH-MS-Sm"
         },
         {
+          "date": "2026-06-20",
+          "game_number": "406020",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G09E-Sellitti",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "406024",
           "goals_against": 2,
@@ -728,11 +750,11 @@
           "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 23,
-      "goals_for": 12,
-      "losses": 6,
-      "played": 9,
+      "goal_diff": -12,
+      "goals_against": 29,
+      "goals_for": 17,
+      "losses": 7,
+      "played": 10,
       "points": 5,
       "team_raw": "RiverDell-G09E-Medeiros",
       "wins": 1

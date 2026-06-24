@@ -1,6 +1,6 @@
 {
   "division": "G12A",
-  "scraped_at": "2026-06-23T09:01:36.674526Z",
+  "scraped_at": "2026-06-24T08:57:15.815282Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -132,8 +132,8 @@
     {
       "club": "NMKnights",
       "coach": "McAndrews",
-      "draws": 0,
-      "form": "LLWWL",
+      "draws": 1,
+      "form": "WWDWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -202,6 +202,17 @@
           "venue_code": "FL-CenterRec1A"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "408729",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G12A-Pak",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
           "date": "2026-05-17",
           "game_number": "408730",
           "goals_against": 1,
@@ -211,6 +222,17 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "408732",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-G12A-Deubel",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "RYSA-Heights"
         },
         {
           "date": "2026-06-18",
@@ -224,12 +246,12 @@
           "venue_code": "NMilford-Williams9v9"
         }
       ],
-      "goal_diff": 4,
+      "goal_diff": 3,
       "goals_against": 9,
-      "goals_for": 13,
+      "goals_for": 12,
       "losses": 3,
-      "played": 8,
-      "points": 12,
+      "played": 10,
+      "points": 13,
       "team_raw": "NMKnights-G12A-McAndrews",
       "wins": 4
     },
@@ -363,7 +385,7 @@
       "club": "Tenafly",
       "coach": "Pak",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-04-18",
@@ -410,6 +432,17 @@
           "venue_code": "TEN-Municipal"
         },
         {
+          "date": "2026-06-13",
+          "game_number": "408729",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12A-McAndrews",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
           "date": "2026-05-31",
           "game_number": "408733",
           "goals_against": 1,
@@ -443,11 +476,11 @@
           "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 16,
+      "goal_diff": -6,
+      "goals_against": 15,
       "goals_for": 9,
       "losses": 5,
-      "played": 7,
+      "played": 8,
       "points": 6,
       "team_raw": "Tenafly-G12A-Pak",
       "wins": 2
@@ -455,8 +488,8 @@
     {
       "club": "RYSA",
       "coach": "Deubel",
-      "draws": 1,
-      "form": "LDLWL",
+      "draws": 2,
+      "form": "DLDWL",
       "games": [
         {
           "date": "2026-04-18",
@@ -514,6 +547,17 @@
           "venue_code": "FL-CenterRec2"
         },
         {
+          "date": "2026-05-31",
+          "game_number": "408732",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12A-McAndrews",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "RYSA-Heights"
+        },
+        {
           "date": "2026-06-07",
           "game_number": "408734",
           "goals_against": 2,
@@ -540,8 +584,8 @@
       "goals_against": 18,
       "goals_for": 8,
       "losses": 4,
-      "played": 7,
-      "points": 4,
+      "played": 8,
+      "points": 5,
       "team_raw": "RYSA-G12A-Deubel",
       "wins": 1
     }

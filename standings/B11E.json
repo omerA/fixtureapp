@@ -1,6 +1,6 @@
 {
   "division": "B11E",
-  "scraped_at": "2026-06-23T08:55:17.695904Z",
+  "scraped_at": "2026-06-24T08:50:58.516969Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -133,7 +133,7 @@
       "club": "Maroons",
       "coach": "Cotter",
       "draws": 1,
-      "form": "LDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-05-30",
@@ -224,6 +224,17 @@
           "venue_code": "VERONA-Freedom1"
         },
         {
+          "date": "2026-06-23",
+          "game_number": "406921",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11E-Mrkulic",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "FL-Brookdale"
+        },
+        {
           "date": "2026-06-14",
           "game_number": "406922",
           "goals_against": 0,
@@ -235,11 +246,11 @@
           "venue_code": "BAY-SGreggQuad-Large"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 23,
-      "goals_for": 34,
-      "losses": 1,
-      "played": 9,
+      "goal_diff": 6,
+      "goals_against": 30,
+      "goals_for": 36,
+      "losses": 2,
+      "played": 10,
       "points": 22,
       "team_raw": "Maroons-B11E-Cotter",
       "wins": 7
@@ -626,7 +637,7 @@
       "club": "FairLawnAllSports",
       "coach": "Mrkulic",
       "draws": 1,
-      "form": "DLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-06-03",
@@ -717,6 +728,17 @@
           "venue_code": "FL-CenterRec2A"
         },
         {
+          "date": "2026-06-23",
+          "game_number": "406921",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11E-Cotter",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "FL-Brookdale"
+        },
+        {
           "date": "2026-06-14",
           "game_number": "406923",
           "goals_against": 7,
@@ -728,14 +750,14 @@
           "venue_code": "RUTH-Tamblyn"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 51,
-      "goals_for": 17,
+      "goal_diff": -29,
+      "goals_against": 53,
+      "goals_for": 24,
       "losses": 7,
-      "played": 9,
-      "points": 4,
+      "played": 10,
+      "points": 7,
       "team_raw": "FairLawnAllSports-B11E-Mrkulic",
-      "wins": 1
+      "wins": 2
     }
   ]
 }

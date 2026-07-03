@@ -1,6 +1,6 @@
 {
   "division": "B19C",
-  "scraped_at": "2026-07-02T08:46:58.762471Z",
+  "scraped_at": "2026-07-03T08:48:34.255047Z",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
@@ -130,10 +130,136 @@
       "wins": 7
     },
     {
+      "club": "WoodRidge",
+      "coach": "Vazquez",
+      "draws": 2,
+      "form": "LLWDW",
+      "games": [
+        {
+          "date": "2026-04-19",
+          "game_number": "405117",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B19C-Kahn",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-04-26",
+          "game_number": "405119",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B19C-Scibilia",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-05-03",
+          "game_number": "405123",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B19C-Hughes",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-05-10",
+          "game_number": "405124",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B19C-Olivo",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-05-17",
+          "game_number": "405127",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19C-POTOSI",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "NoBergen-HudsonCtyPk"
+        },
+        {
+          "date": "2026-05-31",
+          "game_number": "405131",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B19C-Kahn",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-05-30",
+          "game_number": "405135",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B19C-Scibilia",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-06-14",
+          "game_number": "405137",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B19C-Hughes",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-06-06",
+          "game_number": "406083",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B19C-Olivo",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-04-12",
+          "game_number": "406085",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B19C-POTOSI",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 18,
+      "goals_for": 19,
+      "losses": 3,
+      "played": 10,
+      "points": 17,
+      "team_raw": "WoodRidge-B19C-Vazquez",
+      "wins": 5
+    },
+    {
       "club": "NoArlington",
       "coach": "Hughes",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-04-12",
@@ -226,11 +352,11 @@
         {
           "date": "2026-06-14",
           "game_number": "405137",
-          "goals_against": 0,
-          "goals_for": 1,
+          "goals_against": 1,
+          "goals_for": 0,
           "opponent_club": "WoodRidge",
           "opponent_raw": "WoodRidge-B19C-Vazquez",
-          "result": "W",
+          "result": "L",
           "time": "07:15 PM",
           "venue_code": "NA-Zadroga1"
         },
@@ -246,139 +372,13 @@
           "venue_code": "NA-Zadroga1"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 29,
-      "goals_for": 27,
-      "losses": 5,
+      "goal_diff": -4,
+      "goals_against": 30,
+      "goals_for": 26,
+      "losses": 6,
       "played": 10,
-      "points": 15,
+      "points": 12,
       "team_raw": "NoArlington-B19C-Hughes",
-      "wins": 5
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Vazquez",
-      "draws": 2,
-      "form": "LLWDL",
-      "games": [
-        {
-          "date": "2026-04-19",
-          "game_number": "405117",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B19C-Kahn",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-04-26",
-          "game_number": "405119",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B19C-Scibilia",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-05-03",
-          "game_number": "405123",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B19C-Hughes",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-05-10",
-          "game_number": "405124",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B19C-Olivo",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "RUTH-Tryon"
-        },
-        {
-          "date": "2026-05-17",
-          "game_number": "405127",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B19C-POTOSI",
-          "result": "L",
-          "time": "08:30 AM",
-          "venue_code": "NoBergen-HudsonCtyPk"
-        },
-        {
-          "date": "2026-05-31",
-          "game_number": "405131",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B19C-Kahn",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-05-30",
-          "game_number": "405135",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B19C-Scibilia",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-06-14",
-          "game_number": "405137",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B19C-Hughes",
-          "result": "L",
-          "time": "07:15 PM",
-          "venue_code": "NA-Zadroga1"
-        },
-        {
-          "date": "2026-06-06",
-          "game_number": "406083",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B19C-Olivo",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        },
-        {
-          "date": "2026-04-12",
-          "game_number": "406085",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B19C-POTOSI",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "WDRDG-AthleticComp"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 19,
-      "goals_for": 18,
-      "losses": 4,
-      "played": 10,
-      "points": 14,
-      "team_raw": "WoodRidge-B19C-Vazquez",
       "wins": 4
     },
     {

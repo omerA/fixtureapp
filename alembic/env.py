@@ -13,7 +13,7 @@ if config.config_file_name is not None:
 
 # ── App metadata ──────────────────────────────────────────────────────────
 # Import all models so SQLAlchemy registers them against Base.metadata
-from app.db import Base  # noqa: E402
+from app.db import Base, normalize_db_url  # noqa: E402
 from app.models import Subscription, User  # noqa: E402, F401
 
 target_metadata = Base.metadata
@@ -23,8 +23,7 @@ target_metadata = Base.metadata
 def _get_url() -> str:
     url = os.getenv("DATABASE_URL")
     if url:
-        # Railway (and older Heroku) emit postgres:// which SQLAlchemy 1.4+ rejects
-        return url.replace("postgres://", "postgresql://", 1)
+        return normalize_db_url(url)
     # Local fallback: SQLite next to the project root
     from pathlib import Path
     db_path = Path(__file__).parent.parent / "app.db"

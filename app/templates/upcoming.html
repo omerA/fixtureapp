@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% block title %}Upcoming games — Fixture{% endblock %}
+
+{% block content %}
+
+<!-- Page header -->
+<div class="flex items-end justify-between mb-8">
+  <div>
+    <p class="text-xs font-bold text-sideline-grey uppercase tracking-widest mb-1">
+      {{ team_count }} team{{ '' if team_count == 1 else 's' }}
+    </p>
+    <h1 class="font-headline font-bold text-on-surface" style="font-size:2rem;letter-spacing:-0.03em;line-height:1.15;">Upcoming games</h1>
+  </div>
+</div>
+
+{% if needs_repick %}
+<a href="/dashboard" class="fi-card flex items-center gap-3 px-4 py-3 mb-6 text-sm text-on-surface" style="text-decoration:none;">
+  <span class="material-symbols-outlined text-primary" style="font-size:20px;">autorenew</span>
+  <span class="flex-1">Some teams you followed last season need to be picked again before their games show here.</span>
+  <span class="text-xs font-bold text-primary">Pick teams</span>
+</a>
+{% endif %}
+
+{% if days or tbd %}
+<div class="flex flex-col gap-6">
+
+  {% for day in days %}
+  <section data-day="{{ day.date }}">
+    <div class="flex items-center gap-2 mb-3">
+      <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-widest bg-surface-container-low py-1 px-3 rounded inline-block">
+        {{ day.label }}
+      </div>
+      {% if day.badge %}
+      <span class="text-[9px] font-bold text-on-primary bg-primary px-2 py-0.5 rounded uppercase tracking-wide">{{ day.badge }}</span>
+      {% endif %}
+    </div>
+
+    <div class="fi-card overflow-hidden">
+      {% for game in day.games %}
+      <div class="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-4 px-4 py-4 {% if not loop.last %}border-b border-outline-variant{% endif %}"
+           data-game="{{ game.game_id }}">
+
+        <!-- Times -->
+        <div class="flex sm:flex-col items-baseline sm:items-start gap-3 sm:gap-0 sm:w-28 flex-shrink-0 sm:border-r sm:border-outline-variant sm:pr-3">
+          <div>
+            <div class="text-[9px] font-bold text-sideline-grey uppercase tracking-wide">Kickoff</div>
+            <div class="font-headline font-bold text-on-surface text-lg leading-tight" data-kickoff>{{ game.kickoff }}</div>
+          </div>
+          {% if game.arrive_by %}
+          <div class="sm:mt-2">
+            <div class="text-[9px] font-bold text-sideline-grey uppercase tracking-wide">Warm-up</div>
+            <div class="text-sm font-bold text-primary leading-tight" data-arrive
+                 title="{{ warmup_minutes }} minutes before kickoff">{{ game.arrive_by }}</div>
+          </div>
+          {% endif %}
+        </div>
+
+        <!-- Teams -->
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-[9px] font-bold text-primary bg-surface-container px-1.5 py-0.5 rounded uppercase tracking-wide">
+              {{ 'Home' if game.is_home else 'Away' }}
+            </span>
+            <a href="/team/{{ game.sub.team_key | urlencode }}" class="text-[11px] font-bold text-sideline-grey truncate" style="text-decoration:none;">
+              {{ game.team_title }} · {{ game.team_subtitle }}
+            </a>
+          </div>
+          <div class="font-bold text-on-surface text-sm">vs {{ game.opponent_club }}</div>
+          {% if game.also_following %}
+          <div class="text-[11px] text-sideline-grey">You also follow {{ game.also_following }} in this game.</div>
+          {% endif %}
+        </div>
+
+        <!-- Location -->
+        <div class="sm:w-64 flex-shrink-0 min-w-0">
+          <div class="flex items-start gap-1.5">
+            <span class="material-symbols-outlined text-sideline-grey flex-shrink-0" style="font-size:16px;margin-top:1px;">location_on</span>
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-on-surface">{{ game.field or 'Field not listed' }}</div>
+              {% if game.address %}
+              <a href="{{ game.maps_url }}" target="_blank" rel="noopener"
+                 class="block text-[11px] leading-snug text-primary font-semibold" data-address>{{ game.address }}</a>
+              {% endif %}
+              {% if game.field_details %}
+              <div class="text-[10px] text-sideline-grey uppercase tracking-wide mt-0.5">{{ game.field_details }}</div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  {% if tbd %}
+  <section>
+    <div class="text-[10px] font-bold text-sideline-grey uppercase tracking-widest mb-3 bg-surface-container-low py-1 px-3 rounded inline-block">
+      To be scheduled
+    </div>
+    <div class="fi-card overflow-hidden">
+      {% for game in tbd %}
+      <div class="flex items-center gap-4 px-4 py-3 {% if not loop.last %}border-b border-outline-variant{% endif %}">
+        <div class="w-11 text-center flex-shrink-0 border-r border-outline-variant pr-3">
+          <span class="material-symbols-outlined text-sideline-grey" style="font-size:22px;opacity:0.5;">event</span>
+        </div>
+        <div class="flex-1 min-w-0">
+          <div class="text-[11px] font-bold text-sideline-grey truncate">{{ game.team_title }} · {{ game.team_subtitle }}</div>
+          <div class="font-bold text-on-surface text-sm">vs {{ game.opponent_club }}</div>
+        </div>
+        <span class="text-[9px] font-bold text-sideline-grey bg-surface-container px-2 py-1 rounded uppercase tracking-wide flex-shrink-0">Postponed</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+</div>
+
+<p class="text-[11px] text-sideline-grey mt-6">
+  Warm-up is {{ warmup_minutes }} minutes before kickoff. Times and addresses are as listed by the league and refresh daily.
+</p>
+
+{% else %}
+<div class="fi-card p-8 text-center text-sideline-grey text-sm border-2 border-dashed border-outline-variant"
+     style="box-shadow:none;">
+  No upcoming games found. Schedule data refreshes daily.
+</div>
+{% endif %}
+
+{% include "partials/team_renamed.html" %}
+
+{% endblock %}

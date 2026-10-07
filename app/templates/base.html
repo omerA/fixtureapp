@@ -102,6 +102,10 @@
         <span class="material-symbols-outlined" style="font-size:20px;">groups</span>
         My Teams
       </a>
+      <a href="/upcoming" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sideline-grey hover:bg-surface-container transition-all text-sm font-semibold" style="text-decoration:none;">
+        <span class="material-symbols-outlined" style="font-size:20px;">calendar_month</span>
+        Upcoming
+      </a>
       <a href="/onboard" class="flex items-center gap-3 px-4 py-3 rounded-lg text-sideline-grey hover:bg-surface-container transition-all text-sm font-semibold" style="text-decoration:none;">
         <span class="material-symbols-outlined" style="font-size:20px;">manage_search</span>
         Find Teams
@@ -145,6 +149,7 @@
         {% if user %}
         <div class="flex items-center gap-4 md:hidden">
           <a href="/dashboard" class="text-sm font-semibold text-sideline-grey" style="text-decoration:none;">Teams</a>
+          <a href="/upcoming" class="text-sm font-semibold text-sideline-grey" style="text-decoration:none;">Games</a>
           <a href="/onboard" class="text-sm font-semibold text-sideline-grey" style="text-decoration:none;">Find</a>
           <form method="post" action="/logout" class="inline">
             <button type="submit" class="text-sm font-semibold text-sideline-grey" style="background:transparent;border:none;cursor:pointer;padding:0;">Out</button>

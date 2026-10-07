@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-10-07T00:21:31.715047Z",
+  "scraped_at": "2026-10-07T01:10:23.528013Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -180,6 +180,17 @@
       "form": "DLWD",
       "games": [
         {
+          "date": "2026-10-04",
+          "game_number": "417311",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12C-DePiccioto",
+          "result": "D",
+          "time": "05:45 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-09-19",
           "game_number": "417317",
           "goals_against": 6,
@@ -211,17 +222,6 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "417311",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B12C-DePiccioto",
-          "result": "D",
-          "time": "05:45 PM",
-          "venue_code": "SS-FaberTurfSml"
         }
       ],
       "goal_diff": -2,
@@ -240,17 +240,6 @@
       "form": "WD",
       "games": [
         {
-          "date": "2026-09-19",
-          "game_number": "417314",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12C-Percio",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
           "date": "2026-10-04",
           "game_number": "417311",
           "goals_against": 4,
@@ -260,6 +249,17 @@
           "result": "D",
           "time": "05:45 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417314",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Percio",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "BELLE-BellePkFull"
         }
       ],
       "goal_diff": 3,

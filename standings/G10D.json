@@ -1,6 +1,6 @@
 {
   "division": "G10D",
-  "scraped_at": "2026-10-07T00:21:32.539700Z",
+  "scraped_at": "2026-10-07T01:10:24.515873Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -10,6 +10,17 @@
       "draws": 0,
       "form": "WWWL",
       "games": [
+        {
+          "date": "2026-09-26",
+          "game_number": "414475",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10D-Donohue",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
         {
           "date": "2026-09-13",
           "game_number": "414481",
@@ -28,17 +39,6 @@
           "goals_for": 2,
           "opponent_club": "Rutherford",
           "opponent_raw": "Rutherford-G10D-Traganos",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "LKLND-BBeach-Sml-7v7"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414475",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G10D-Donohue",
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "LKLND-BBeach-Sml-7v7"
@@ -375,17 +375,6 @@
       "form": "LL",
       "games": [
         {
-          "date": "2026-09-20",
-          "game_number": "414484",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "FL-MemorialMS-Sm"
-        },
-        {
           "date": "2026-09-26",
           "game_number": "414475",
           "goals_against": 4,
@@ -395,6 +384,17 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414484",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "FL-MemorialMS-Sm"
         }
       ],
       "goal_diff": -5,

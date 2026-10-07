@@ -6,8 +6,8 @@ Pure module: HTML in, Python dicts out. No network, no file I/O.
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass, asdict
-from datetime import datetime
+from dataclasses import dataclass, asdict, field
+from datetime import datetime, timezone
 from typing import Any, Optional
 
 from parser import EmptyDivisionError  # noqa: F401  (re-exported for callers)
@@ -24,6 +24,7 @@ class ScheduledGame:
     field: str          # full field name from data-field
     home_score: Optional[int]   # None if not yet played
     away_score: Optional[int]
+    field_id: str = ""  # key into DivisionSchedule.fields, "" if the site gave none
 
     @property
     def is_upcoming(self) -> bool:
@@ -49,6 +50,9 @@ class DivisionSchedule:
     scraped_at: str
     source_url: str
     games: list[ScheduledGame]
+    # field_id -> {"name", "address", "details", "size", "comments"}, as the
+    # league lists them. Addresses are the league's own and are not verified.
+    fields: dict[str, dict[str, str]] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -56,6 +60,7 @@ class DivisionSchedule:
             "scraped_at": self.scraped_at,
             "source_url": self.source_url,
             "games": [g.to_dict() for g in self.games],
+            "fields": self.fields,
         }
 
 
@@ -88,6 +93,41 @@ def _cell_text(td) -> str:
     return _strip_label(cell.get_text(" ", strip=True))
 
 
+def _info_value(li) -> str:
+    """Text of one line of the field pop-up, without its bold 'Label:' title."""
+    item = li.__copy__()
+    for junk in item.find_all(["span", "a"]):
+        junk.decompose()
+    for br in item.find_all("br"):
+        br.replace_with(", ")
+    return re.sub(r"\s+,", ",", _strip_label(item.get_text(" ", strip=True)))
+
+
+def _parse_field_info(tr, name: str) -> dict[str, str]:
+    """
+    Read the field pop-up that each schedule row carries in td.game_field
+    (address, surface, size, comments). Missing lines come back as "".
+    """
+    info = {"name": name, "address": "", "details": "", "size": "", "comments": ""}
+    cell = tr.find("td", class_="game_field")
+    box = cell.find("div", class_="more_info") if cell else None
+    if not box:
+        return info
+    for li in box.find_all("li"):
+        classes = li.get("class") or []
+        title = li.find("span", class_="title")
+        label = _strip_label(title.get_text()) if title else ""
+        if "field_address" in classes:
+            info["address"] = _info_value(li)
+        elif "field_size" in classes:
+            info["size"] = _info_value(li)
+        elif "field_comments" in classes:
+            info["comments"] = _info_value(li)
+        elif label.startswith("Field Details"):
+            info["details"] = _info_value(li)
+    return info
+
+
 def _parse_score(text: str) -> Optional[int]:
     text = text.strip()
     if text == "" or text == "-":
@@ -112,6 +152,7 @@ def parse_schedule(html: str, division: str, source_url: str = "") -> DivisionSc
         raise EmptyDivisionError("No schedule_table found in HTML")
 
     games: list[ScheduledGame] = []
+    fields: dict[str, dict[str, str]] = {}
     tbody = table.find("tbody") or table
     row_bgs = {"#FFFFFF", "#FBFBFB", "#ffffff", "#fbfbfb"}
 
@@ -127,12 +168,16 @@ def parse_schedule(html: str, division: str, source_url: str = "") -> DivisionSc
         game_id = btn.get("data-game-id", "").strip()
         raw_date = btn.get("data-date", "").strip()
         game_time = btn.get("data-time", "").strip()
-        field = btn.get("data-field", "").strip()
+        field_name = btn.get("data-field", "").strip()
+        field_id = btn.get("data-field-id", "").strip()
         home_team = btn.get("data-home-team", "").strip()
         away_team = btn.get("data-away-team", "").strip()
 
         if not game_id:
             continue
+
+        if field_id and field_id not in fields:
+            fields[field_id] = _parse_field_info(tr, field_name)
 
         # Scores from td cells (more reliable than button attrs for played games)
         home_score_td = tr.find("td", class_="game_home_score")
@@ -152,14 +197,16 @@ def parse_schedule(html: str, division: str, source_url: str = "") -> DivisionSc
             time=game_time,
             home_team=home_team,
             away_team=away_team,
-            field=field,
+            field=field_name,
             home_score=home_score,
             away_score=away_score,
+            field_id=field_id,
         ))
 
     return DivisionSchedule(
         division=division,
-        scraped_at=datetime.utcnow().isoformat() + "Z",
+        scraped_at=datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
         source_url=source_url,
         games=games,
+        fields=fields,
     )

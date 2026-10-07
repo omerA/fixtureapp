@@ -24,8 +24,10 @@ import os
 import re
 from collections import Counter
 from contextlib import asynccontextmanager
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote_plus
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from fastapi import Depends, FastAPI, Form, HTTPException, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
@@ -45,6 +47,14 @@ from .search import division_label, division_short, search_teams
 PROJECT_ROOT = Path(__file__).parent.parent
 STANDINGS_DIR = PROJECT_ROOT / "standings"
 SCHEDULES_DIR = PROJECT_ROOT / "schedules"
+
+# Parents are told to arrive this long before kickoff
+WARMUP_MINUTES = 30
+
+try:
+    LEAGUE_TZ = ZoneInfo("America/New_York")
+except ZoneInfoNotFoundError:  # no tz database on this machine
+    LEAGUE_TZ = timezone.utc
 
 _team_index: dict = {}
 
@@ -375,6 +385,90 @@ def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
     return sorted(upcoming, key=lambda g: (g.get("date", ""), g.get("time", "")))
 
 
+def _today():
+    """Today's date where the league plays (a UTC date rolls over mid-evening there)."""
+    return datetime.now(LEAGUE_TZ).date()
+
+
+def _clock(time_str: str) -> datetime | None:
+    """Parse the site's '04:15 PM' into a datetime (date part is meaningless)."""
+    try:
+        return datetime.strptime(time_str.strip(), "%I:%M %p")
+    except (ValueError, AttributeError):
+        return None
+
+
+def _show_time(t: datetime) -> str:
+    return t.strftime("%I:%M %p").lstrip("0")
+
+
+def _load_fields(division: str) -> dict:
+    """field_id -> field info for a division; {} for schedule files scraped before fields were kept."""
+    path = SCHEDULES_DIR / f"{division}.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text()).get("fields", {})
+
+
+def _maps_url(address: str) -> str:
+    return "https://www.google.com/maps/search/?api=1&query=" + quote_plus(address)
+
+
+def _upcoming_for(subs: list[Subscription]) -> tuple[list[dict], list[dict]]:
+    """
+    Every upcoming game across the given subscriptions, as
+    (days, tbd): days is a list of {"date", "label", "badge", "games"} in
+    calendar order with games in kickoff order; tbd holds postponed games.
+    """
+    today = _today()
+    by_date: dict[str, list[dict]] = {}
+    tbd: list[dict] = []
+    seen: dict[tuple[str, str], dict] = {}
+
+    for sub in subs:
+        fields = _load_fields(sub.division)
+        title = f"{_division_short(sub.division)}-{sub.coach}"
+        for g in _annotate_upcoming(_load_upcoming_games(sub.division, sub.team_key), sub.team_key):
+            key = (g.get("division", sub.division), g.get("game_id", ""))
+            if key in seen:
+                # The parent follows both sides of this game: one row, both teams
+                seen[key]["also_following"] = title
+                continue
+            kickoff = _clock(g.get("time", ""))
+            place = fields.get(g.get("field_id", ""), {})
+            game = {
+                **g,
+                "sub": sub,
+                "team_title": title,
+                "team_subtitle": sub.club,
+                "kickoff": _show_time(kickoff) if kickoff else g.get("time", ""),
+                "arrive_by": _show_time(kickoff - timedelta(minutes=WARMUP_MINUTES)) if kickoff else "",
+                "sort_minutes": kickoff.hour * 60 + kickoff.minute if kickoff else 24 * 60,
+                "address": place.get("address", ""),
+                "maps_url": _maps_url(place["address"]) if place.get("address") else "",
+                "field_details": place.get("details", ""),
+                "field_comments": place.get("comments", ""),
+            }
+            seen[key] = game
+            if g["is_tbd"]:
+                tbd.append(game)
+            else:
+                by_date.setdefault(g["date"], []).append(game)
+
+    days = []
+    for date_str in sorted(by_date):
+        d = datetime.strptime(date_str, "%Y-%m-%d").date()
+        gap = (d - today).days
+        days.append({
+            "date": date_str,
+            "label": f"{d.strftime('%A, %B')} {d.day}",
+            "badge": "Today" if gap == 0 else "Tomorrow" if gap == 1 else "",
+            "games": sorted(by_date[date_str], key=lambda x: (x["sort_minutes"], x["team_title"])),
+        })
+    tbd.sort(key=lambda x: (x["team_title"], x.get("opponent_club", "")))
+    return days, tbd
+
+
 def _tr(request: Request, name: str, ctx: dict | None = None, **kwargs):
     context = ctx or {}
     context.update(kwargs)
@@ -383,7 +477,7 @@ def _tr(request: Request, name: str, ctx: dict | None = None, **kwargs):
 
 def _annotate_upcoming(games: list[dict], team_raw: str) -> list[dict]:
     """Add is_home, formatted date fields, and is_tbd flag to upcoming schedule games."""
-    today = datetime.utcnow().date().isoformat()
+    today = _today().isoformat()
     result = []
     for g in games:
         try:
@@ -665,6 +759,27 @@ async def dashboard(request: Request, db: Session = Depends(get_db)):
 
 
 # ---------------------------------------------------------------------------
+# Upcoming games across all followed teams
+# ---------------------------------------------------------------------------
+
+@app.get("/upcoming")
+async def upcoming(request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    active = _active_subs(user)
+    if not active:
+        return RedirectResponse("/onboard", status_code=302)
+
+    # Teams that are gone this season have no schedule; the dashboard handles them
+    current = [s for s in active if not _is_orphaned(s)]
+    days, tbd = _upcoming_for(current)
+    return _tr(request, "upcoming.html", user=user, days=days, tbd=tbd,
+               team_count=len(current), warmup_minutes=WARMUP_MINUTES,
+               needs_repick=len(current) < len(active))
+
+
+# ---------------------------------------------------------------------------
 # Season rollover: re-pick / stop following
 # ---------------------------------------------------------------------------
 
@@ -740,7 +855,7 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
         return RedirectResponse("/dashboard", status_code=302)
 
     card = _build_card(sub)
-    today = datetime.utcnow().date().isoformat()
+    today = _today().isoformat()
     return _tr(request, "team_detail.html", user=user, card=card, today=today)
 
 

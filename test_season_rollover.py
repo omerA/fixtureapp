@@ -68,7 +68,8 @@ NEW_SEASON = [
 OLD_TEAM = "Tenafly-B12B-Schwartzberg"   # last season; not in NEW_SEASON
 
 
-@pytest.fixture(scope="module")
+# Session-scoped so other test modules can import and share it
+@pytest.fixture(scope="session")
 def app_client():
     assert Path(app_db.engine.url.database).parent == Path(_TMP_DIR), \
         "tests must not run against the repo's app.db"

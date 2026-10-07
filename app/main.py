@@ -14,17 +14,20 @@ Routes:
   GET  /dashboard                Show subscribed teams (protected)
   GET  /team/{team_key}          Team detail: standings + results (protected)
   GET  /team/{team_key}/matchup  Matchup preview vs. a division opponent (protected)
+  POST /subscriptions/{id}/replace   New season: swap an orphaned team for a current one (protected)
+  POST /subscriptions/{id}/unfollow  Stop following a team (protected)
 """
 from __future__ import annotations
 
 import json
 import os
+import re
 from collections import Counter
 from contextlib import asynccontextmanager
 from datetime import datetime
 from pathlib import Path
 
-from fastapi import Depends, FastAPI, Form, Request
+from fastapi import Depends, FastAPI, Form, HTTPException, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -37,13 +40,16 @@ from authlib.integrations.starlette_client import OAuth
 from .auth import hash_password, verify_password
 from .db import get_db
 from .models import Subscription, User
-from .search import division_label, search_teams
+from .search import division_label, division_short, search_teams
 
 PROJECT_ROOT = Path(__file__).parent.parent
 STANDINGS_DIR = PROJECT_ROOT / "standings"
 SCHEDULES_DIR = PROJECT_ROOT / "schedules"
 
 _team_index: dict = {}
+
+# How many same-club teams to offer when a followed team is gone in a new season
+_MAX_SUGGESTIONS = 5
 
 # Palette for crest colors (cycled by club name hash)
 _CREST_PALETTE = [
@@ -177,6 +183,122 @@ def _load_standings(division: str) -> list[dict]:
     if not path.exists():
         return []
     return json.loads(path.read_text()).get("teams", [])
+
+
+# ---------------------------------------------------------------------------
+# Season rollover helpers
+# ---------------------------------------------------------------------------
+
+def _active_subs(user: User) -> list[Subscription]:
+    """Subscriptions for the current season (archived rows carry a season label)."""
+    return [s for s in user.subscriptions if s.season is None]
+
+
+def _is_orphaned(sub: Subscription) -> bool:
+    """
+    True when an active subscription's team is no longer in the index (new
+    season). If the index failed to load or is empty nothing is orphaned, so
+    a bad deploy cannot make every user's teams vanish.
+    """
+    by_team = _team_index.get("by_team")
+    if not by_team:
+        return False
+    return sub.season is None and sub.team_key not in by_team
+
+
+def _previous_season() -> str:
+    """Label for archived rows: the season before the index's ('2026-fall' -> '2026-spring')."""
+    m = re.match(r"^(\d{4})-(spring|fall)$", str(_team_index.get("season", "")))
+    if not m:
+        return "previous"
+    year = int(m.group(1))
+    return f"{year}-spring" if m.group(2) == "fall" else f"{year - 1}-fall"
+
+
+def _division_gender_age(code: str) -> tuple[str, int] | None:
+    """'B12A' -> ('B', 12), 'G08C7' -> ('G', 8)"""
+    m = re.match(r"^([BG])(\d{2})", code)
+    return (m.group(1), int(m.group(2))) if m else None
+
+
+def _suggest_teams(sub: Subscription, exclude: set[str]) -> list[dict]:
+    """
+    This season's teams from the orphaned subscription's club, likeliest
+    first: same gender, then age group closest to where the kids are now,
+    then same coach surname.
+    """
+    by_team = _team_index.get("by_team", {})
+    old = _division_gender_age(sub.division)
+    # Age groups move up a year in the fall; a spring season keeps the fall's.
+    step = 0 if str(_team_index.get("season", "")).endswith("-spring") else 1
+    ranked = []
+    for key in _team_index.get("by_club", {}).get(sub.club, []):
+        info = by_team.get(key)
+        if not info or key in exclude:
+            continue
+        new = _division_gender_age(info["division"])
+        comparable = old is not None and new is not None
+        same_coach = info["coach"].strip().lower() == sub.coach.strip().lower()
+        ranked.append((
+            (
+                0 if comparable and new[0] == old[0] else 1,
+                abs(new[1] - (old[1] + step)) if comparable else 99,
+                0 if same_coach else 1,
+                info["division"],
+                key,
+            ),
+            {
+                "team_key": key,
+                "club": info["club"],
+                "coach": info["coach"],
+                "division_label": division_label(info["division"]),
+                "division_short": division_short(info["division"]),
+                "same_coach": same_coach,
+            },
+        ))
+    ranked.sort(key=lambda r: r[0])
+    return [team for _, team in ranked[:_MAX_SUGGESTIONS]]
+
+
+def _orphan_label(sub: Subscription) -> dict:
+    """What an orphaned subscription was, in the dashboard card's title/subtitle format."""
+    return {
+        "sub": sub,
+        "team_title": f"{_division_short(sub.division)}-{sub.coach}",
+        "team_subtitle": sub.club,
+        "division_label": division_label(sub.division),
+    }
+
+
+def _own_orphan(user: User, raw_id) -> Subscription | None:
+    """The user's orphaned subscription with this id, or None."""
+    try:
+        sub_id = int(raw_id)
+    except (TypeError, ValueError):
+        return None
+    return next(
+        (s for s in user.subscriptions if s.id == sub_id and _is_orphaned(s)),
+        None,
+    )
+
+
+def _archive(db: Session, sub: Subscription) -> None:
+    """
+    Retire an orphaned subscription without losing it: the row stays, tagged
+    with the season it belonged to, so historic teams can be shown later.
+    """
+    label = _previous_season()
+    duplicate = db.query(Subscription).filter(
+        Subscription.user_id == sub.user_id,
+        Subscription.team_key == sub.team_key,
+        Subscription.season == label,
+        Subscription.id != sub.id,
+    ).first()
+    if duplicate:
+        # Already on record for that season; a second copy adds nothing.
+        db.delete(sub)
+    else:
+        sub.season = label
 
 
 # ---------------------------------------------------------------------------
@@ -422,7 +544,7 @@ async def auth_google_callback(request: Request, db: Session = Depends(get_db)):
         db.refresh(user)
 
     request.session["user_id"] = user.id
-    if not user.subscriptions:
+    if not _active_subs(user):
         return RedirectResponse("/onboard", status_code=302)
     return RedirectResponse("/dashboard", status_code=302)
 
@@ -431,18 +553,32 @@ async def auth_google_callback(request: Request, db: Session = Depends(get_db)):
 # Onboarding
 # ---------------------------------------------------------------------------
 
-@app.get("/onboard")
-async def onboard_get(request: Request, db: Session = Depends(get_db)):
-    user = _session_user(request, db)
-    if not user:
-        return RedirectResponse("/login", status_code=302)
+def _onboard_page(request: Request, user: User, replace=None, error: str | None = None):
+    """
+    Render the team picker. Only this season's followed teams are preselected:
+    orphaned ones are handled on the dashboard and are never part of the form,
+    so submitting it cannot drop them by accident. `replace` is the id of an
+    orphaned subscription the user is searching for a replacement for.
+    """
     existing = [
         {"team_key": s.team_key, "division_label": division_label(s.division),
          "club": s.club, "coach": s.coach}
-        for s in user.subscriptions
+        for s in _active_subs(user) if not _is_orphaned(s)
     ]
+    replacing = _own_orphan(user, replace)
     return _tr(request, "onboard.html", user=user,
-               existing_teams=existing, existing_count=len(existing))
+               existing_teams=existing, existing_count=len(existing),
+               replacing=_orphan_label(replacing) if replacing else None,
+               initial_query=replacing.club if replacing else "",
+               error=error)
+
+
+@app.get("/onboard")
+async def onboard_get(request: Request, replace: str = "", db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+    return _onboard_page(request, user, replace=replace)
 
 
 @app.post("/onboard")
@@ -452,23 +588,26 @@ async def onboard_post(request: Request, db: Session = Depends(get_db)):
         return RedirectResponse("/login", status_code=302)
 
     form = await request.form()
-    team_keys = form.getlist("teams")
+    by_team = _team_index.get("by_team", {})
+    replace = form.get("replace")
+    # Keep only teams that exist this season, de-duplicated in submitted order
+    team_keys = [k for k in dict.fromkeys(form.getlist("teams")) if k in by_team]
 
     if not team_keys:
-        existing = [
-            {"team_key": s.team_key, "division_label": division_label(s.division),
-             "club": s.club, "coach": s.coach}
-            for s in user.subscriptions
-        ]
-        return _tr(request, "onboard.html", user=user,
-                   existing_teams=existing, existing_count=len(existing),
-                   error="Select at least one team to continue.")
+        return _onboard_page(request, user, replace=replace,
+                             error="Select at least one team to continue.")
 
-    db.query(Subscription).filter(Subscription.user_id == user.id).delete()
-    for key in team_keys:
-        info = _team_index.get("by_team", {}).get(key)
-        if not info:
-            continue
+    # The form lists this season's teams only, so sync just those rows.
+    # Orphaned subscriptions (awaiting a re-pick) and archived ones are not
+    # in the form and must survive it.
+    current = {s.team_key: s for s in _active_subs(user) if not _is_orphaned(s)}
+    replacing = _own_orphan(user, replace)
+    for key, sub in current.items():
+        if key not in team_keys:
+            db.delete(sub)
+    added = [key for key in team_keys if key not in current]
+    for key in added:
+        info = by_team[key]
         db.add(Subscription(
             user_id=user.id,
             team_key=key,
@@ -476,6 +615,10 @@ async def onboard_post(request: Request, db: Session = Depends(get_db)):
             club=info["club"],
             coach=info["coach"],
         ))
+    # Arrived via "search for a different team" and picked one: the orphan
+    # has been dealt with, so retire it.
+    if replacing and added:
+        _archive(db, replacing)
     db.commit()
     return RedirectResponse("/dashboard", status_code=302)
 
@@ -505,14 +648,77 @@ async def dashboard(request: Request, db: Session = Depends(get_db)):
     user = _session_user(request, db)
     if not user:
         return RedirectResponse("/login", status_code=302)
-    if not user.subscriptions:
+    active = sorted(_active_subs(user), key=lambda s: s.division)
+    if not active:
         return RedirectResponse("/onboard", status_code=302)
 
-    cards = [
-        _build_card(sub)
-        for sub in sorted(user.subscriptions, key=lambda s: s.division)
+    # New season: teams that are gone from the index are not rendered as
+    # cards; the user is asked to pick again, with same-club suggestions.
+    current = [s for s in active if not _is_orphaned(s)]
+    following = {s.team_key for s in current}
+    cards = [_build_card(sub) for sub in current]
+    orphans = [
+        {**_orphan_label(sub), "suggestions": _suggest_teams(sub, exclude=following)}
+        for sub in active if _is_orphaned(sub)
     ]
-    return _tr(request, "dashboard.html", user=user, cards=cards)
+    return _tr(request, "dashboard.html", user=user, cards=cards, orphans=orphans)
+
+
+# ---------------------------------------------------------------------------
+# Season rollover: re-pick / stop following
+# ---------------------------------------------------------------------------
+
+def _own_active_sub(user: User, sub_id: int) -> Subscription:
+    """The current user's active subscription with this id, else 404."""
+    sub = next((s for s in _active_subs(user) if s.id == sub_id), None)
+    if not sub:
+        raise HTTPException(status_code=404, detail="Subscription not found")
+    return sub
+
+
+@app.post("/subscriptions/{sub_id}/replace")
+async def subscription_replace(
+    sub_id: int,
+    request: Request,
+    team_key: str = Form(...),
+    db: Session = Depends(get_db),
+):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    sub = _own_active_sub(user, sub_id)
+    info = _team_index.get("by_team", {}).get(team_key)
+    if not info:
+        raise HTTPException(status_code=400, detail="Unknown team")
+    # Only a team that is gone can be swapped (also makes a double-submit harmless)
+    if not _is_orphaned(sub):
+        return RedirectResponse("/dashboard", status_code=302)
+
+    already_following = any(s.team_key == team_key for s in _active_subs(user))
+    _archive(db, sub)
+    if not already_following:
+        db.add(Subscription(
+            user_id=user.id,
+            team_key=team_key,
+            division=info["division"],
+            club=info["club"],
+            coach=info["coach"],
+        ))
+    db.commit()
+    return RedirectResponse("/dashboard", status_code=302)
+
+
+@app.post("/subscriptions/{sub_id}/unfollow")
+async def subscription_unfollow(sub_id: int, request: Request, db: Session = Depends(get_db)):
+    user = _session_user(request, db)
+    if not user:
+        return RedirectResponse("/login", status_code=302)
+
+    # The parent's explicit choice, so this is a real delete (not an archive)
+    db.delete(_own_active_sub(user, sub_id))
+    db.commit()
+    return RedirectResponse("/dashboard", status_code=302)
 
 
 # ---------------------------------------------------------------------------
@@ -526,10 +732,11 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
         return RedirectResponse("/login", status_code=302)
 
     sub = next(
-        (s for s in user.subscriptions if s.team_key == team_key),
+        (s for s in _active_subs(user) if s.team_key == team_key),
         None,
     )
-    if not sub:
+    # Orphaned (gone this season): the dashboard handles the re-pick
+    if not sub or _is_orphaned(sub):
         return RedirectResponse("/dashboard", status_code=302)
 
     card = _build_card(sub)
@@ -552,8 +759,8 @@ async def matchup_preview(
     if not user:
         return RedirectResponse("/login", status_code=302)
 
-    sub = next((s for s in user.subscriptions if s.team_key == team_key), None)
-    if not sub:
+    sub = next((s for s in _active_subs(user) if s.team_key == team_key), None)
+    if not sub or _is_orphaned(sub):
         return RedirectResponse("/dashboard", status_code=302)
 
     all_teams = _load_standings(sub.division)

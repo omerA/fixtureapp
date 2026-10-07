@@ -4,6 +4,7 @@ merge_standings.py — Merge freshly-scraped standings with the last committed v
 After build_standings.py writes fresh JSON to ./standings/, this script:
   1. Reads the previous version of each file from git HEAD
   2. Merges game history (union of old + new; fresh data wins on conflict)
+     for the teams in the fresh scrape, using only old games from the same season
   3. Keeps standings stats (W/L/D/Pts) from the fresh scrape (site is authoritative)
   4. Writes the merged file back to ./standings/
   5. Prints a summary of changes to stdout
@@ -20,6 +21,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -63,19 +65,58 @@ def _index_games(teams: list[dict]) -> dict[str, dict[str, dict]]:
     return index
 
 
+def season_of(date_str: str | None) -> str | None:
+    """'2026-09-14' -> '2026-fall', '2026-04-12T07:00:00Z' -> '2026-spring'.
+
+    August-December is fall, January-July is spring. None if unparseable.
+    """
+    m = re.match(r"^(\d{4})-(\d{2})", date_str or "")
+    if not m or not 1 <= int(m.group(2)) <= 12:
+        return None
+    return f"{m.group(1)}-{'fall' if int(m.group(2)) >= 8 else 'spring'}"
+
+
+def _division_season(data: dict) -> str | None:
+    """
+    Season a division file belongs to: an explicit `season` field if present,
+    else the season of its latest game (the site can keep showing last
+    season's table for a while after the calendar rolls over), else the
+    season of `scraped_at`.
+    """
+    if data.get("season"):
+        return data["season"]
+    dates = [g.get("date") or "" for t in data.get("teams", []) for g in t.get("games", [])]
+    return season_of(max(dates, default="")) or season_of(data.get("scraped_at"))
+
+
 def merge_division(old: dict, new: dict) -> tuple[dict, list[str]]:
     """
     Merge old (HEAD) and new (freshly scraped) division data.
 
     Strategy:
+    - Teams → exactly those in `new`; teams missing from the fresh scrape are
+      dropped (division codes are reused across seasons with different teams)
     - Standings stats (W/L/D/Pts/GF/GA) → always from `new` (site is truth)
     - Games → union of old + new; new wins on conflicting game_number
-    - Games in old but missing from new → preserved (conservative; NCSA may lag)
+    - Games in old but missing from new → preserved (conservative; NCSA may
+      lag), but only if they were played in the same season as the fresh
+      scrape, so a team key that recurs never inherits last season's games
 
     Returns (merged_division_dict, list_of_change_descriptions).
     """
     changes: list[str] = []
+    season = _division_season(new)
+    old_season = _division_season(old)
     old_game_index = _index_games(old.get("teams", []))
+    if season:
+        # Undated old games fall back to the season of the file they came from
+        old_game_index = {
+            team_raw: {
+                gnum: g for gnum, g in games.items()
+                if (season_of(g.get("date")) or old_season) == season
+            }
+            for team_raw, games in old_game_index.items()
+        }
     new_teams_by_key = {t["team_raw"]: t for t in new.get("teams", [])}
     old_teams_by_key = {t["team_raw"]: t for t in old.get("teams", [])}
 
@@ -120,14 +161,12 @@ def merge_division(old: dict, new: dict) -> tuple[dict, list[str]]:
         merged_team = {**new_team, "games": sorted(merged_games.values(), key=lambda g: g["game_number"])}
         merged_teams.append(merged_team)
 
-    # Report teams that disappeared (shouldn't happen, but flag it)
+    # Teams that disappeared are not carried forward: the fresh scrape defines
+    # the division's membership (last season's teams must not leak into a
+    # reused division code). Flag it so the change is visible in the run log.
     for team_raw in old_teams_by_key:
         if team_raw not in new_teams_by_key:
-            changes.append(f"  {team_raw}: REMOVED from fresh scrape (keeping old data)")
-            old_team = old_teams_by_key[team_raw]
-            old_games = old_game_index.get(team_raw, {})
-            merged_team = {**old_team, "games": sorted(old_games.values(), key=lambda g: g["game_number"])}
-            merged_teams.append(merged_team)
+            changes.append(f"  {team_raw}: REMOVED from fresh scrape (dropped)")
 
     merged = {**new, "teams": merged_teams}
     return merged, changes

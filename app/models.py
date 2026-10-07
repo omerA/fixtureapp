@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, UniqueConstraint
+from sqlalchemy import Column, DateTime, ForeignKey, Index, Integer, String, text
 from sqlalchemy.orm import relationship
 
 from .db import Base
@@ -29,8 +29,18 @@ class Subscription(Base):
     division = Column(String, nullable=False)    # "B12A"
     club = Column(String, nullable=False)        # "Tenafly"
     coach = Column(String, nullable=False)       # "Schwartzberg"
+    # NULL = active (current season); "2026-spring" = archived for that season
+    season = Column(String, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     user = relationship("User", back_populates="subscriptions")
 
-    __table_args__ = (UniqueConstraint("user_id", "team_key", name="uq_user_team"),)
+    # Unique among active rows only, so an archived row never blocks
+    # following a team whose key recurs in a later season.
+    __table_args__ = (
+        Index(
+            "uq_user_team_active", "user_id", "team_key", unique=True,
+            sqlite_where=text("season IS NULL"),
+            postgresql_where=text("season IS NULL"),
+        ),
+    )

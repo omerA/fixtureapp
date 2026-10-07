@@ -130,6 +130,6 @@ team_index.json    Full team directory (generated)
 ## Roadmap
 
 - [ ] **IDP (Clerk)** — replace bcrypt session auth with Clerk for social logins and better session management
-- [ ] **GitHub Actions scraper** — nightly cron to refresh `team_index.json` and `standings/*.json`
-- [ ] **Railway deploy** — `Procfile` / `railway.toml` for one-click deploy
+- [x] **GitHub Actions scraper** — nightly cron to refresh `team_index.json` and `standings/*.json`
+- [x] **Railway deploy** — `Procfile` / `railway.toml` for one-click deploy
 - [ ] **Push notifications** — notify parents of upcoming games and new results

@@ -373,10 +373,7 @@ def _common_opponents_rows(my_team: dict, opp_team: dict, all_teams: list[dict])
 
 def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
     """Return upcoming games for a specific team from the schedule JSON, sorted by date."""
-    path = SCHEDULES_DIR / f"{division}.json"
-    if not path.exists():
-        return []
-    games = json.loads(path.read_text()).get("games", [])
+    games = _schedule_games(division)
     listed_as = _schedule_name(games, division, team_raw)
     upcoming = [
         # Hand the game back under the name the caller knows the team by
@@ -386,6 +383,40 @@ def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
         and (g.get("home_team") == listed_as or g.get("away_team") == listed_as)
     ]
     return sorted(upcoming, key=lambda g: (g.get("date", ""), g.get("time", "")))
+
+
+def _schedule_games(division: str) -> list[dict]:
+    path = SCHEDULES_DIR / f"{division}.json"
+    if not path.exists():
+        return []
+    return json.loads(path.read_text()).get("games", [])
+
+
+def _team_title(division: str, team_raw: str) -> str:
+    """'BU12-Leuer' from a 'Club-Division-Coach' team name."""
+    return f"{_division_short(division)}-{team_raw.split('-')[-1]}"
+
+
+def _rename(sub: Subscription) -> dict | None:
+    """
+    If the league has started listing a followed team under a new name,
+    describe the change (the page shows the new name, and announces it once).
+    """
+    listed_as = _schedule_name(_schedule_games(sub.division), sub.division, sub.team_key)
+    if listed_as == sub.team_key:
+        return None
+    return {
+        "id": f"{sub.team_key}>{listed_as}",
+        "old_title": _team_title(sub.division, sub.team_key),
+        "new_title": _team_title(sub.division, listed_as),
+        "club": sub.club,
+        "initials": _crest_initials(sub.club),
+        "color": _crest_color(sub.club),
+    }
+
+
+def _renames(subs: list[Subscription]) -> list[dict]:
+    return [r for r in map(_rename, subs) if r]
 
 
 def _schedule_name(games: list[dict], division: str, team_raw: str) -> str:
@@ -452,7 +483,8 @@ def _upcoming_for(subs: list[Subscription]) -> tuple[list[dict], list[dict]]:
 
     for sub in subs:
         fields = _load_fields(sub.division)
-        title = f"{_division_short(sub.division)}-{sub.coach}"
+        renamed = _rename(sub)
+        title = renamed["new_title"] if renamed else _team_title(sub.division, sub.team_key)
         for g in _annotate_upcoming(_load_upcoming_games(sub.division, sub.team_key), sub.team_key):
             key = (g.get("division", sub.division), g.get("game_id", ""))
             if key in seen:
@@ -542,10 +574,11 @@ def _build_card(sub: Subscription) -> dict:
     upcoming = _annotate_upcoming(upcoming_raw, sub.team_key)
     # next_confirmed: first non-TBD game, used for dashboard preview + matchday banner
     next_confirmed = next((g for g in upcoming if not g["is_tbd"]), None)
-    short = _division_short(sub.division)
+    renamed = _rename(sub)
     return {
         "sub": sub,
-        "team_title": f"{short}-{sub.coach}",
+        "team_title": renamed["new_title"] if renamed else _team_title(sub.division, sub.team_key),
+        "renamed": renamed,
         "team_subtitle": sub.club,
         "division_label": division_label(sub.division),
         "team": matched,
@@ -780,7 +813,8 @@ async def dashboard(request: Request, db: Session = Depends(get_db)):
         {**_orphan_label(sub), "suggestions": _suggest_teams(sub, exclude=following)}
         for sub in active if _is_orphaned(sub)
     ]
-    return _tr(request, "dashboard.html", user=user, cards=cards, orphans=orphans)
+    return _tr(request, "dashboard.html", user=user, cards=cards, orphans=orphans,
+               renames=[c["renamed"] for c in cards if c["renamed"]])
 
 
 # ---------------------------------------------------------------------------
@@ -801,7 +835,7 @@ async def upcoming(request: Request, db: Session = Depends(get_db)):
     days, tbd = _upcoming_for(current)
     return _tr(request, "upcoming.html", user=user, days=days, tbd=tbd,
                team_count=len(current), warmup_minutes=WARMUP_MINUTES,
-               needs_repick=len(current) < len(active))
+               needs_repick=len(current) < len(active), renames=_renames(current))
 
 
 # ---------------------------------------------------------------------------
@@ -881,7 +915,8 @@ async def team_detail(team_key: str, request: Request, db: Session = Depends(get
 
     card = _build_card(sub)
     today = _today().isoformat()
-    return _tr(request, "team_detail.html", user=user, card=card, today=today)
+    return _tr(request, "team_detail.html", user=user, card=card, today=today,
+               renames=[card["renamed"]] if card["renamed"] else [])
 
 
 # ---------------------------------------------------------------------------

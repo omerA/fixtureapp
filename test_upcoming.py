@@ -222,6 +222,30 @@ def test_team_renamed_on_the_schedule_still_gets_its_games(client, tmp_path, mon
     assert "vs Ajax" in client.get(f"/team/{KIM}").text
 
 
+def test_renamed_team_shows_new_name_and_announces_it(client, tmp_path, monkeypatch):
+    uid = _register(client, "a@example.com")
+    _follow(uid, KIM)
+    _follow(uid, LEE)
+    _write_standings(tmp_path, monkeypatch, "B12A", [KIM, "Ajax-B12A-Smith"])
+    _write_schedule(tmp_path, "B12A", [
+        _game("1", "B12A", _day(2), "10:00 AM", "Tenafly-B12A-Newcoach", "Ajax-B12A-Smith"),
+    ])
+
+    for path in ("/dashboard", f"/team/{KIM}", "/upcoming"):
+        html = client.get(path).text
+        announced = json.loads(re.search(
+            r'<script type="application/json" id="fi-rename-data">(.*?)</script>', html, re.S).group(1))
+        assert [(r["id"], r["old_title"], r["new_title"]) for r in announced] == [
+            (f"{KIM}>Tenafly-B12A-Newcoach", "BU12-Kim", "BU12-Newcoach"),
+        ], path
+        # The page itself already uses the new name; the old one lives only in the announcement
+        page = html.split('id="fi-rename"')[0]
+        assert "BU12-Newcoach" in page and "BU12-Kim" not in page, path
+
+    # A team that was not renamed gets no announcement
+    assert "fi-rename" not in client.get(f"/team/{LEE}").text
+
+
 def test_rename_is_not_guessed_when_two_names_could_match(client, tmp_path, monkeypatch):
     uid = _register(client, "a@example.com")
     _follow(uid, KIM)

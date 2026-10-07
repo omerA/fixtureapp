@@ -139,6 +139,30 @@ class StandingsFetcher:
         self._write_cache(division, html)
         return FetchResult(division, html, from_cache=False, status_code=200)
 
+    def fetch_form(self) -> str:
+        """
+        GET the bare standings form (no division selected) and return its HTML.
+        The page carries the <select name="div"> listing this season's
+        divisions. Never cached: a stale division list is worse than one
+        extra request per run.
+        """
+        self._wait_for_rate_limit()
+        log.info("fetching standings form from network")
+
+        response = self._session.get(
+            STANDINGS_URL,
+            timeout=self.timeout,
+            allow_redirects=True,
+        )
+        self._last_request_at = time.time()
+
+        if response.status_code != 200:
+            raise RuntimeError(
+                f"NCSA returned status {response.status_code} for the standings form"
+            )
+
+        return response.text
+
     def fetch_schedule(self, division: str, *, force_refresh: bool = False) -> FetchResult:
         """
         Fetch the schedule HTML for a given division from gameSchedule.cfm.

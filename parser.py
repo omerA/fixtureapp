@@ -9,8 +9,12 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, asdict
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any
+
+
+class EmptyDivisionError(ValueError):
+    """The page has no table at all: a retired or not-yet-populated division."""
 
 
 # ---------------------------------------------------------------------------
@@ -219,7 +223,7 @@ def parse_standings(html: str, division: str, source_url: str = "") -> DivisionS
 
     table = soup.find("table", id="standings_table") or soup.find("table")
     if not table:
-        raise ValueError("No standings_table found in HTML")
+        raise EmptyDivisionError("No standings_table found in HTML")
 
     teams: list[TeamStanding] = []
     rows = table.find("tbody").find_all("tr", recursive=False) if table.find("tbody") else table.find_all("tr", recursive=False)
@@ -266,7 +270,7 @@ def parse_standings(html: str, division: str, source_url: str = "") -> DivisionS
 
     return DivisionStandings(
         division=division,
-        scraped_at=datetime.utcnow().isoformat() + "Z",
+        scraped_at=datetime.now(timezone.utc).replace(tzinfo=None).isoformat() + "Z",
         source_url=source_url,
         teams=teams,
     )

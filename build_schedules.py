@@ -52,7 +52,7 @@ def main():
     )
 
     from fetcher import StandingsFetcher, SCHEDULE_URL
-    from schedule_parser import parse_schedule
+    from schedule_parser import parse_schedule, EmptyDivisionError
 
     index = load_index(Path(args.index))
 
@@ -79,6 +79,7 @@ def main():
 
     errors: list[tuple[str, str]] = []
     written: list[str] = []
+    skipped: list[str] = []
     total = len(divisions)
 
     for i, division in enumerate(divisions, 1):
@@ -87,7 +88,14 @@ def main():
             result = fetcher.fetch_schedule(division, force_refresh=args.no_cache)
             cached_marker = " [cached]" if result.from_cache else ""
 
-            schedule = parse_schedule(result.html, division, source_url=SCHEDULE_URL)
+            try:
+                schedule = parse_schedule(result.html, division, source_url=SCHEDULE_URL)
+            except EmptyDivisionError:
+                schedule = None
+            if schedule is None or not schedule.games:
+                skipped.append(division)
+                print(f"empty{cached_marker} (skipped)")
+                continue
 
             out_path = out_dir / f"{division}.json"
             out_path.write_text(json.dumps(schedule.to_dict(), indent=2, sort_keys=True))
@@ -116,10 +124,16 @@ def main():
     print()
     print("=" * 60)
     print(f"Wrote {len(written)} files to {out_dir}/")
+    if skipped:
+        print(f"  Skipped (empty): {len(skipped)}")
+        print(f"  {', '.join(skipped)}")
     if errors:
         print(f"  Errors: {len(errors)}")
         for div, err in errors:
             print(f"  {div}: {err}")
+        sys.exit(1)
+    if not written:
+        print("  ERROR: every requested division was empty; the site markup may have changed.")
         sys.exit(1)
 
 

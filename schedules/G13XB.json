@@ -1,5 +1,28 @@
 {
   "division": "G13XB",
+  "fields": {
+    "184": {
+      "address": "701 Ridgewood Rd, Township of Washington, NJ 07676",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Westwood Regional High School",
+      "size": "Large Field (11 vs 11)"
+    },
+    "76": {
+      "address": "55 Pyle Street, Oradell, NJ 07649",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "River Dell High School - Grass",
+      "size": "Large Field (11 vs 11)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Dragons",
@@ -8,6 +31,7 @@
       "date": "2026-10-24",
       "division": "G13XB",
       "field": "River Dell High School - Grass",
+      "field_id": "76",
       "game_id": "418200",
       "home_club": "RiverDell",
       "home_score": null,
@@ -22,6 +46,7 @@
       "date": "2026-11-01",
       "division": "G13XB",
       "field": "Westwood Regional High School",
+      "field_id": "184",
       "game_id": "418201",
       "home_club": "Dragons",
       "home_score": null,
@@ -36,6 +61,7 @@
       "date": "2026-12-03",
       "division": "G13XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418194",
       "home_club": "BLMFLD",
       "home_score": null,
@@ -50,6 +76,7 @@
       "date": "2026-12-03",
       "division": "G13XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418195",
       "home_club": "Paramus",
       "home_score": null,
@@ -64,6 +91,7 @@
       "date": "2026-12-03",
       "division": "G13XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418196",
       "home_club": "Dragons",
       "home_score": null,
@@ -78,6 +106,7 @@
       "date": "2026-12-03",
       "division": "G13XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418197",
       "home_club": "Tenafly",
       "home_score": null,
@@ -92,6 +121,7 @@
       "date": "2026-12-03",
       "division": "G13XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418198",
       "home_club": "Ajax",
       "home_score": null,
@@ -106,6 +136,7 @@
       "date": "2026-12-03",
       "division": "G13XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418199",
       "home_club": "FairLawnAllSports",
       "home_score": null,
@@ -114,6 +145,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:15:54.045497Z",
+  "scraped_at": "2026-10-07T13:03:13.290517Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

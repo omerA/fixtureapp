@@ -1,5 +1,42 @@
 {
   "division": "B13XW",
+  "fields": {
+    "1007": {
+      "address": "145 E. Rdigewood Avenue, Paramus, NJ 07652",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Parkway Middle School 11",
+      "size": "Large Field (11 vs 11)"
+    },
+    "528": {
+      "address": "88 Darwin Avenue, Rutherford, NJ 07070",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Memorial No 5",
+      "size": "Both (Small & Large)"
+    },
+    "568": {
+      "address": "25 Depew St, Dumont, NJ 07628",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Honiss",
+      "size": "Large Field (11 vs 11)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    },
+    "914": {
+      "address": "Davis Ave. and Dukes St., Kearny, NJ 07032",
+      "comments": "It is on the border of Harrison and Kearny right before the Harrison HS Stadium",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "West Hudson Park SB area",
+      "size": "Large Field (11 vs 11)"
+    }
+  },
   "games": [
     {
       "away_club": "Spartan",
@@ -8,6 +45,7 @@
       "date": "2026-09-27",
       "division": "B13XW",
       "field": "West Hudson Park SB area",
+      "field_id": "914",
       "game_id": "418131",
       "home_club": "Harrison",
       "home_score": 1,
@@ -22,6 +60,7 @@
       "date": "2026-10-11",
       "division": "B13XW",
       "field": "Parkway Middle School 11",
+      "field_id": "1007",
       "game_id": "418130",
       "home_club": "Spartan",
       "home_score": null,
@@ -36,6 +75,7 @@
       "date": "2026-10-25",
       "division": "B13XW",
       "field": "Honiss",
+      "field_id": "568",
       "game_id": "418135",
       "home_club": "Dumont",
       "home_score": null,
@@ -50,6 +90,7 @@
       "date": "2026-11-01",
       "division": "B13XW",
       "field": "West Hudson Park SB area",
+      "field_id": "914",
       "game_id": "418137",
       "home_club": "Harrison",
       "home_score": null,
@@ -64,6 +105,7 @@
       "date": "2026-11-13",
       "division": "B13XW",
       "field": "Memorial No 5",
+      "field_id": "528",
       "game_id": "418136",
       "home_club": "Rutherford",
       "home_score": null,
@@ -78,6 +120,7 @@
       "date": "2026-12-03",
       "division": "B13XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418132",
       "home_club": "WayneBG",
       "home_score": null,
@@ -92,6 +135,7 @@
       "date": "2026-12-03",
       "division": "B13XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418133",
       "home_club": "SaddleBR",
       "home_score": null,
@@ -106,6 +150,7 @@
       "date": "2026-12-03",
       "division": "B13XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418134",
       "home_club": "Southside",
       "home_score": null,
@@ -114,6 +159,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:13:41.009277Z",
+  "scraped_at": "2026-10-07T13:00:59.419390Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

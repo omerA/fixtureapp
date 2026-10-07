@@ -1,5 +1,49 @@
 {
   "division": "G11XB",
+  "fields": {
+    "102": {
+      "address": "117 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hopper Ave Field",
+      "size": "Both (Small & Large)"
+    },
+    "1235": {
+      "address": "235 Harrington Ave., Westwood, NJ 07675",
+      "comments": "9v9 field",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Westvale Back 9v9",
+      "size": "Small Field (8 vs 8)"
+    },
+    "584": {
+      "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Maple Park East",
+      "size": "Small Field (8 vs 8)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    },
+    "936": {
+      "address": "1530 Alps Road, Wayne, NJ 07470",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "ALPS-2",
+      "size": "Small Field (8 vs 8)"
+    },
+    "999": {
+      "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
+      "comments": "9v9 field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Center Rec Field 2",
+      "size": "Small Field (8 vs 8)"
+    }
+  },
   "games": [
     {
       "away_club": "Ajax",
@@ -8,6 +52,7 @@
       "date": "2026-10-02",
       "division": "G11XB",
       "field": "Maple Park East",
+      "field_id": "584",
       "game_id": "417961",
       "home_club": "Maroons",
       "home_score": 7,
@@ -22,6 +67,7 @@
       "date": "2026-10-02",
       "division": "G11XB",
       "field": "Westvale Back 9v9",
+      "field_id": "1235",
       "game_id": "417958",
       "home_club": "Dragons",
       "home_score": 8,
@@ -36,6 +82,7 @@
       "date": "2026-10-07",
       "division": "G11XB",
       "field": "ALPS-2",
+      "field_id": "936",
       "game_id": "417957",
       "home_club": "WayneBG",
       "home_score": null,
@@ -50,6 +97,7 @@
       "date": "2026-10-11",
       "division": "G11XB",
       "field": "Center Rec Field 2",
+      "field_id": "999",
       "game_id": "417963",
       "home_club": "FairLawnAllSports",
       "home_score": null,
@@ -64,6 +112,7 @@
       "date": "2026-10-26",
       "division": "G11XB",
       "field": "Hopper Ave Field",
+      "field_id": "102",
       "game_id": "417964",
       "home_club": "Warriors",
       "home_score": null,
@@ -78,6 +127,7 @@
       "date": "2026-12-03",
       "division": "G11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417959",
       "home_club": "WestEssex",
       "home_score": null,
@@ -92,6 +142,7 @@
       "date": "2026-12-03",
       "division": "G11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417960",
       "home_club": "AviatorsHHSA",
       "home_score": null,
@@ -106,6 +157,7 @@
       "date": "2026-12-03",
       "division": "G11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417962",
       "home_club": "Ajax",
       "home_score": null,
@@ -114,6 +166,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:15:15.387334Z",
+  "scraped_at": "2026-10-07T13:02:34.460828Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

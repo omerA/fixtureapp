@@ -1,5 +1,63 @@
 {
   "division": "B12XW",
+  "fields": {
+    "1058": {
+      "address": "Lions Gate Drive, Bloomfield NJ, NJ 07003",
+      "comments": "Small Sided",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Lionsgate Turf",
+      "size": "Small Field (8 vs 8)"
+    },
+    "367": {
+      "address": "880 Bloomfield Ave, Verona, NJ 07044",
+      "comments": "Turf Field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Centennial Field - Large Sided",
+      "size": "Large Field (11 vs 11)"
+    },
+    "716": {
+      "address": "131 Main Street, Emerson, NJ 07630",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Emerson Jr/Sr High School Small 1",
+      "size": "Small Field (8 vs 8)"
+    },
+    "73": {
+      "address": "230 Woodland Avenue, River Edge, NJ 07661",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "River Dell Middle School - Small",
+      "size": "Both (Small & Large)"
+    },
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
+      "size": "Both (Small & Large)"
+    },
+    "77": {
+      "address": "287 Forest Avenue, Glen ridge, NJ 07028",
+      "comments": "9v9 and 11v11 ONLY",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Forest Avenue",
+      "size": "Both (Small & Large)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    },
+    "936": {
+      "address": "1530 Alps Road, Wayne, NJ 07470",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "ALPS-2",
+      "size": "Small Field (8 vs 8)"
+    }
+  },
   "games": [
     {
       "away_club": "Verona",
@@ -8,6 +66,7 @@
       "date": "2026-10-25",
       "division": "B12XW",
       "field": "Lionsgate Turf",
+      "field_id": "1058",
       "game_id": "418159",
       "home_club": "BLMFLD",
       "home_score": null,
@@ -22,6 +81,7 @@
       "date": "2026-10-30",
       "division": "B12XW",
       "field": "Emerson Jr/Sr High School Small 1",
+      "field_id": "716",
       "game_id": "418167",
       "home_club": "Emerson",
       "home_score": null,
@@ -36,6 +96,7 @@
       "date": "2026-11-01",
       "division": "B12XW",
       "field": "Centennial Field - Large Sided",
+      "field_id": "367",
       "game_id": "418160",
       "home_club": "Verona",
       "home_score": null,
@@ -50,6 +111,7 @@
       "date": "2026-11-06",
       "division": "B12XW",
       "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
       "game_id": "418164",
       "home_club": "RiverDell",
       "home_score": null,
@@ -64,6 +126,7 @@
       "date": "2026-11-11",
       "division": "B12XW",
       "field": "ALPS-2",
+      "field_id": "936",
       "game_id": "418165",
       "home_club": "WayneBG",
       "home_score": null,
@@ -78,6 +141,7 @@
       "date": "2026-11-22",
       "division": "B12XW",
       "field": "River Dell Middle School - Small",
+      "field_id": "73",
       "game_id": "418173",
       "home_club": "RiverDell",
       "home_score": null,
@@ -92,6 +156,7 @@
       "date": "2026-11-22",
       "division": "B12XW",
       "field": "Forest Avenue",
+      "field_id": "77",
       "game_id": "418166",
       "home_club": "GlenRidge",
       "home_score": null,
@@ -106,6 +171,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418174",
       "home_club": "Maywood",
       "home_score": null,
@@ -120,6 +186,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418269",
       "home_club": "WoodRidge",
       "home_score": null,
@@ -134,6 +201,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418270",
       "home_club": "AviatorsHHSA",
       "home_score": null,
@@ -148,6 +216,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418161",
       "home_club": "FairLawnAllSports",
       "home_score": null,
@@ -162,6 +231,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418162",
       "home_club": "GlobalJC",
       "home_score": null,
@@ -176,6 +246,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418163",
       "home_club": "Rutherford",
       "home_score": null,
@@ -190,6 +261,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418168",
       "home_club": "Warriors",
       "home_score": null,
@@ -204,6 +276,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418171",
       "home_club": "WestEssex",
       "home_score": null,
@@ -218,6 +291,7 @@
       "date": "2026-12-03",
       "division": "B12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418172",
       "home_club": "Belleville",
       "home_score": null,
@@ -226,6 +300,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:13:13.379061Z",
+  "scraped_at": "2026-10-07T13:00:31.722170Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,5 +1,42 @@
 {
   "division": "G10XW",
+  "fields": {
+    "1106": {
+      "address": "99 WILKINS PLACE, TENAFLY, NJ 07670",
+      "comments": "Can fit 2 small sided games at the same time",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "SUNNYSIDE PARK FIELD",
+      "size": "Both (Small & Large)"
+    },
+    "170": {
+      "address": "320 Doremus Ave, Glen Rock, NJ 07452",
+      "comments": "7v7 field",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "Faber Turf Small",
+      "size": "Small Field (8 vs 8)"
+    },
+    "221": {
+      "address": "62 Orchard Road, Maplewood, NJ 07040",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Borden Park 1",
+      "size": "Small Field (8 vs 8)"
+    },
+    "528": {
+      "address": "88 Darwin Avenue, Rutherford, NJ 07070",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Memorial No 5",
+      "size": "Both (Small & Large)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Maroons",
@@ -8,6 +45,7 @@
       "date": "2026-10-03",
       "division": "G10XW",
       "field": "SUNNYSIDE PARK FIELD",
+      "field_id": "1106",
       "game_id": "418206",
       "home_club": "Tenafly",
       "home_score": 4,
@@ -22,6 +60,7 @@
       "date": "2026-10-12",
       "division": "G10XW",
       "field": "Memorial No 5",
+      "field_id": "528",
       "game_id": "418203",
       "home_club": "Rutherford",
       "home_score": null,
@@ -36,6 +75,7 @@
       "date": "2026-10-31",
       "division": "G10XW",
       "field": "Borden Park 1",
+      "field_id": "221",
       "game_id": "418208",
       "home_club": "CougarSC",
       "home_score": null,
@@ -50,6 +90,7 @@
       "date": "2026-11-14",
       "division": "G10XW",
       "field": "Faber Turf Small",
+      "field_id": "170",
       "game_id": "418209",
       "home_club": "GlenRock",
       "home_score": null,
@@ -64,6 +105,7 @@
       "date": "2026-12-03",
       "division": "G10XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418202",
       "home_club": "Thistle",
       "home_score": null,
@@ -78,6 +120,7 @@
       "date": "2026-12-03",
       "division": "G10XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418204",
       "home_club": "Dragons",
       "home_score": null,
@@ -92,6 +135,7 @@
       "date": "2026-12-03",
       "division": "G10XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418205",
       "home_club": "WestEssex",
       "home_score": null,
@@ -106,6 +150,7 @@
       "date": "2026-12-03",
       "division": "G10XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418207",
       "home_club": "Maroons",
       "home_score": null,
@@ -114,6 +159,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:14:58.677368Z",
+  "scraped_at": "2026-10-07T13:02:17.696958Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

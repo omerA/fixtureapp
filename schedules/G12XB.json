@@ -1,5 +1,56 @@
 {
   "division": "G12XB",
+  "fields": {
+    "102": {
+      "address": "117 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hopper Ave Field",
+      "size": "Both (Small & Large)"
+    },
+    "103": {
+      "address": "155 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "Small Sided field on the turf",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Waldwick H.S. Turf Field 1 - small",
+      "size": "Small Field (8 vs 8)"
+    },
+    "1183": {
+      "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WR Athletic Complex Small A",
+      "size": "Small Field (8 vs 8)"
+    },
+    "206": {
+      "address": "Dance Blvd, Dumont, NJ 07628",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Twin-Boro",
+      "size": "Small Field (8 vs 8)"
+    },
+    "556": {
+      "address": "Harrington Avenue and Sand Road, Westwood, NJ, Westwood, NJ 07675",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Westvale Park Small",
+      "size": "Small Field (8 vs 8)"
+    },
+    "754": {
+      "address": "200 Dahalia Drive, New Milford, NJ 07646",
+      "comments": "9v9",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Williams Field 9v9",
+      "size": "Small Field (8 vs 8)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "RiverDell",
@@ -8,6 +59,7 @@
       "date": "2026-10-14",
       "division": "G12XB",
       "field": "Twin-Boro",
+      "field_id": "206",
       "game_id": "418038",
       "home_club": "Dumont",
       "home_score": null,
@@ -22,6 +74,7 @@
       "date": "2026-10-16",
       "division": "G12XB",
       "field": "WR Athletic Complex Small A",
+      "field_id": "1183",
       "game_id": "418034",
       "home_club": "WoodRidge",
       "home_score": null,
@@ -36,6 +89,7 @@
       "date": "2026-10-24",
       "division": "G12XB",
       "field": "Waldwick H.S. Turf Field 1 - small",
+      "field_id": "103",
       "game_id": "418033",
       "home_club": "Warriors",
       "home_score": null,
@@ -50,6 +104,7 @@
       "date": "2026-10-26",
       "division": "G12XB",
       "field": "Westvale Park Small",
+      "field_id": "556",
       "game_id": "418037",
       "home_club": "Dragons",
       "home_score": null,
@@ -64,6 +119,7 @@
       "date": "2026-11-13",
       "division": "G12XB",
       "field": "Hopper Ave Field",
+      "field_id": "102",
       "game_id": "418032",
       "home_club": "Warriors",
       "home_score": null,
@@ -78,6 +134,7 @@
       "date": "2026-11-29",
       "division": "G12XB",
       "field": "Williams Field 9v9",
+      "field_id": "754",
       "game_id": "418036",
       "home_club": "NMKnights",
       "home_score": null,
@@ -92,6 +149,7 @@
       "date": "2026-12-03",
       "division": "G12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418039",
       "home_club": "RiverDell",
       "home_score": null,
@@ -106,6 +164,7 @@
       "date": "2026-12-03",
       "division": "G12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418035",
       "home_club": "GlenRidge",
       "home_score": null,
@@ -114,6 +173,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:15:34.754155Z",
+  "scraped_at": "2026-10-07T13:02:53.918914Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

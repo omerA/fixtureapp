@@ -1,5 +1,35 @@
 {
   "division": "B14XB",
+  "fields": {
+    "146": {
+      "address": "600 Hamilton Ave, Glen Rock, NJ 07452",
+      "comments": "Turf Field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Glen Rock High School - Lower Turf",
+      "size": "Large Field (11 vs 11)"
+    },
+    "164": {
+      "address": "44 Park Ave., Nutley, NJ 07110",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Father Glotzbach Field1",
+      "size": "Both (Small & Large)"
+    },
+    "568": {
+      "address": "25 Depew St, Dumont, NJ 07628",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Honiss",
+      "size": "Large Field (11 vs 11)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "WoodRidge",
@@ -8,6 +38,7 @@
       "date": "2026-10-25",
       "division": "B14XB",
       "field": "Honiss",
+      "field_id": "568",
       "game_id": "418077",
       "home_club": "Dumont",
       "home_score": null,
@@ -22,6 +53,7 @@
       "date": "2026-10-25",
       "division": "B14XB",
       "field": "Father Glotzbach Field1",
+      "field_id": "164",
       "game_id": "418080",
       "home_club": "Nutley",
       "home_score": null,
@@ -36,6 +68,7 @@
       "date": "2026-11-01",
       "division": "B14XB",
       "field": "Glen Rock High School - Lower Turf",
+      "field_id": "146",
       "game_id": "418081",
       "home_club": "GlenRock",
       "home_score": null,
@@ -50,6 +83,7 @@
       "date": "2026-12-03",
       "division": "B14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418082",
       "home_club": "RiverDell",
       "home_score": null,
@@ -64,6 +98,7 @@
       "date": "2026-12-03",
       "division": "B14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418083",
       "home_club": "NoBergen",
       "home_score": null,
@@ -78,6 +113,7 @@
       "date": "2026-12-03",
       "division": "B14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418078",
       "home_club": "NoValley",
       "home_score": null,
@@ -92,6 +128,7 @@
       "date": "2026-12-03",
       "division": "B14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418079",
       "home_club": "Maroons",
       "home_score": null,
@@ -106,6 +143,7 @@
       "date": "2026-12-03",
       "division": "B14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418076",
       "home_club": "WoodRidge",
       "home_score": null,
@@ -114,6 +152,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:14:00.506531Z",
+  "scraped_at": "2026-10-07T13:01:18.996452Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

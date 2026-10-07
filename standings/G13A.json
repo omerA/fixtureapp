@@ -1,6 +1,6 @@
 {
   "division": "G13A",
-  "scraped_at": "2026-10-07T01:10:24.884676Z",
+  "scraped_at": "2026-10-07T12:57:45.427001Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -127,8 +127,8 @@
     {
       "club": "Hotspur",
       "coach": "Roche",
-      "draws": 0,
-      "form": "WLW",
+      "draws": 1,
+      "form": "WLWD",
       "games": [
         {
           "date": "2026-09-13",
@@ -162,14 +162,25 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-10-06",
+          "game_number": "414988",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13A-DelCorral",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "HOT-HS Turf 2"
         }
       ],
       "goal_diff": 6,
-      "goals_against": 5,
-      "goals_for": 11,
+      "goals_against": 6,
+      "goals_for": 12,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 7,
       "team_raw": "Hotspur-G13A-Roche",
       "wins": 2
     },
@@ -247,8 +258,8 @@
     {
       "club": "RiverDell",
       "coach": "DelCorral",
-      "draws": 1,
-      "form": "WD",
+      "draws": 2,
+      "form": "WDD",
       "games": [
         {
           "date": "2026-09-13",
@@ -271,14 +282,25 @@
           "result": "D",
           "time": "06:00 PM",
           "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-10-06",
+          "game_number": "414988",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G13A-Roche",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "HOT-HS Turf 2"
         }
       ],
       "goal_diff": 1,
-      "goals_against": 3,
-      "goals_for": 4,
+      "goals_against": 4,
+      "goals_for": 5,
       "losses": 0,
-      "played": 2,
-      "points": 4,
+      "played": 3,
+      "points": 5,
       "team_raw": "RiverDell-G13A-DelCorral",
       "wins": 1
     },

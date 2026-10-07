@@ -1,5 +1,42 @@
 {
   "division": "G12XW",
+  "fields": {
+    "170": {
+      "address": "320 Doremus Ave, Glen Rock, NJ 07452",
+      "comments": "7v7 field",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "Faber Turf Small",
+      "size": "Small Field (8 vs 8)"
+    },
+    "53": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "60 x 110",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - SS 2",
+      "size": "Small Field (8 vs 8)"
+    },
+    "641": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex South",
+      "size": "Both (Small & Large)"
+    },
+    "754": {
+      "address": "200 Dahalia Drive, New Milford, NJ 07646",
+      "comments": "9v9",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Williams Field 9v9",
+      "size": "Small Field (8 vs 8)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Maroons",
@@ -8,6 +45,7 @@
       "date": "2026-10-24",
       "division": "G12XW",
       "field": "Williams Field 9v9",
+      "field_id": "754",
       "game_id": "418144",
       "home_club": "NMKnights",
       "home_score": null,
@@ -22,6 +60,7 @@
       "date": "2026-11-13",
       "division": "G12XW",
       "field": "Doug Parcells Athletic Complex South",
+      "field_id": "641",
       "game_id": "418138",
       "home_club": "RiverDell",
       "home_score": null,
@@ -36,6 +75,7 @@
       "date": "2026-11-14",
       "division": "G12XW",
       "field": "Veterans Field - SS 2",
+      "field_id": "53",
       "game_id": "418145",
       "home_club": "Maroons",
       "home_score": null,
@@ -50,6 +90,7 @@
       "date": "2026-11-21",
       "division": "G12XW",
       "field": "Faber Turf Small",
+      "field_id": "170",
       "game_id": "418139",
       "home_club": "GlenRock",
       "home_score": null,
@@ -64,6 +105,7 @@
       "date": "2026-12-03",
       "division": "G12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418140",
       "home_club": "Belleville",
       "home_score": null,
@@ -78,6 +120,7 @@
       "date": "2026-12-03",
       "division": "G12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418141",
       "home_club": "WoodRidge",
       "home_score": null,
@@ -92,6 +135,7 @@
       "date": "2026-12-03",
       "division": "G12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418276",
       "home_club": "WOrange",
       "home_score": null,
@@ -106,6 +150,7 @@
       "date": "2026-12-03",
       "division": "G12XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418277",
       "home_club": "Maroons",
       "home_score": null,
@@ -114,6 +159,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:15:37.478406Z",
+  "scraped_at": "2026-10-07T13:02:56.611989Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

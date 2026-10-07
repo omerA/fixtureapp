@@ -249,6 +249,7 @@
       "FairLawnAllSports-B12E-Mrkulic",
       "FairLawnAllSports-B13A-Rake",
       "FairLawnAllSports-B13B-Shalom",
+      "FairLawnAllSports-B13XB-Rake",
       "FairLawnAllSports-B15B-Lopez",
       "FairLawnAllSports-B15E-Gudovich",
       "FairLawnAllSports-G09D-Angotti",
@@ -289,6 +290,7 @@
       "GlenRidge-B12F-Glick",
       "GlenRidge-B12XW-Glick",
       "GlenRidge-B13B-Silva",
+      "GlenRidge-B13XB-Cohn",
       "GlenRidge-B14D-Jerolimic",
       "GlenRidge-G08C7-Lane",
       "GlenRidge-G09D-VanDeStouwe",
@@ -807,7 +809,7 @@
       "Tenafly-B09C-Gunther",
       "Tenafly-B09G-MacKenzie",
       "Tenafly-B10C-Choi",
-      "Tenafly-B10D-Martinelli",
+      "Tenafly-B10D-Amsel",
       "Tenafly-B10F-Wangenheim",
       "Tenafly-B11C-Salazar",
       "Tenafly-B11GW-Martinelli",
@@ -2099,6 +2101,11 @@
       "coach": "Shalom",
       "division": "B13B"
     },
+    "FairLawnAllSports-B13XB-Rake": {
+      "club": "FairLawnAllSports",
+      "coach": "Rake",
+      "division": "B13XB"
+    },
     "FairLawnAllSports-B15B-Lopez": {
       "club": "FairLawnAllSports",
       "coach": "Lopez",
@@ -2268,6 +2275,11 @@
       "club": "GlenRidge",
       "coach": "Silva",
       "division": "B13B"
+    },
+    "GlenRidge-B13XB-Cohn": {
+      "club": "GlenRidge",
+      "coach": "Cohn",
+      "division": "B13XB"
     },
     "GlenRidge-B14D-Jerolimic": {
       "club": "GlenRidge",
@@ -4529,9 +4541,9 @@
       "coach": "Choi",
       "division": "B10C"
     },
-    "Tenafly-B10D-Martinelli": {
+    "Tenafly-B10D-Amsel": {
       "club": "Tenafly",
-      "coach": "Martinelli",
+      "coach": "Amsel",
       "division": "B10D"
     },
     "Tenafly-B10F-Wangenheim": {
@@ -5626,7 +5638,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-07T01:10:22.132965+00:00",
+  "scraped_at": "2026-10-07T12:57:40.050278+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

@@ -1,5 +1,35 @@
 {
   "division": "G14XB",
+  "fields": {
+    "303": {
+      "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
+      "comments": "11v11 turf field that is also lined for 7v7 & 9v9 games",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Brookdale Stadium",
+      "size": "Large Field (11 vs 11)"
+    },
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
+      "size": "Both (Small & Large)"
+    },
+    "766": {
+      "address": "930 River Rd, New Milford, NJ 07646",
+      "comments": "Fall is used for 11v11, Spring is used for 4v4",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Kennedy Field",
+      "size": "Both (Small & Large)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "NMKnights",
@@ -8,6 +38,7 @@
       "date": "2026-10-12",
       "division": "G14XB",
       "field": "Brookdale Stadium",
+      "field_id": "303",
       "game_id": "417966",
       "home_club": "Montclair",
       "home_score": null,
@@ -22,6 +53,7 @@
       "date": "2026-10-23",
       "division": "G14XB",
       "field": "Kennedy Field",
+      "field_id": "766",
       "game_id": "417965",
       "home_club": "NMKnights",
       "home_score": null,
@@ -30,46 +62,19 @@
       "time": "07:15 PM"
     },
     {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G14XB-Anderson",
-      "date": "2026-12-03",
-      "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "game_id": "417967",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-G14XB-Puzino",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-G14XB-Puzino",
-      "date": "2026-12-03",
-      "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "game_id": "417968",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-G14XB-Anderson",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Warriors",
       "away_score": null,
       "away_team": "Warriors-G14XB-Clark",
-      "date": "2026-12-03",
+      "date": "2026-11-20",
       "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
       "game_id": "417969",
       "home_club": "RiverDell",
       "home_score": null,
       "home_team": "RiverDell-G14XB-Marchetti",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "07:00 PM"
     },
     {
       "away_club": "RiverDell",
@@ -78,6 +83,7 @@
       "date": "2026-12-03",
       "division": "G14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417970",
       "home_club": "Warriors",
       "home_score": null,
@@ -92,6 +98,7 @@
       "date": "2026-12-03",
       "division": "G14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417971",
       "home_club": "NoBergen",
       "home_score": null,
@@ -106,14 +113,45 @@
       "date": "2026-12-03",
       "division": "G14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417972",
       "home_club": "NoRockland",
       "home_score": null,
       "home_team": "NoRockland-G14XB-Barrios",
       "is_upcoming": true,
       "time": "12:00 AM"
+    },
+    {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-G14XB-Anderson",
+      "date": "2026-12-03",
+      "division": "G14XB",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "417967",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-G14XB-Puzino",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-G14XB-Puzino",
+      "date": "2026-12-03",
+      "division": "G14XB",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "417968",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G14XB-Anderson",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:16:07.895721Z",
+  "scraped_at": "2026-10-07T13:03:27.223509Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

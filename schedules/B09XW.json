@@ -1,5 +1,56 @@
 {
   "division": "B09XW",
+  "fields": {
+    "1066": {
+      "address": "728 Harrison Ave, Harrison, NJ 07029",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Harrison Little League",
+      "size": "Small Field (8 vs 8)"
+    },
+    "1102": {
+      "address": "200 Dahalia Drive, New Milford, NJ 07646",
+      "comments": "7 v 7",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Williams Field 7v7",
+      "size": "Small Field (8 vs 8)"
+    },
+    "221": {
+      "address": "62 Orchard Road, Maplewood, NJ 07040",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Borden Park 1",
+      "size": "Small Field (8 vs 8)"
+    },
+    "369": {
+      "address": "32 Halsted Street, Verona, NJ 07044",
+      "comments": "Grass Field",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Forest Avenue Elementary School",
+      "size": "Small Field (8 vs 8)"
+    },
+    "584": {
+      "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Maple Park East",
+      "size": "Small Field (8 vs 8)"
+    },
+    "74": {
+      "address": "711 Summit Avenue, River Edge, NJ 07661",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Roosevelt School",
+      "size": "Small Field (8 vs 8)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Maroons",
@@ -8,6 +59,7 @@
       "date": "2026-09-25",
       "division": "B09XW",
       "field": "Harrison Little League",
+      "field_id": "1066",
       "game_id": "418005",
       "home_club": "Harrison",
       "home_score": 8,
@@ -22,6 +74,7 @@
       "date": "2026-10-04",
       "division": "B09XW",
       "field": "Williams Field 7v7",
+      "field_id": "1102",
       "game_id": "417997",
       "home_club": "NMKnights",
       "home_score": 8,
@@ -36,6 +89,7 @@
       "date": "2026-10-25",
       "division": "B09XW",
       "field": "Borden Park 1",
+      "field_id": "221",
       "game_id": "418000",
       "home_club": "CougarSC",
       "home_score": null,
@@ -50,6 +104,7 @@
       "date": "2026-10-25",
       "division": "B09XW",
       "field": "Borden Park 1",
+      "field_id": "221",
       "game_id": "418008",
       "home_club": "CougarSC",
       "home_score": null,
@@ -64,6 +119,7 @@
       "date": "2026-11-01",
       "division": "B09XW",
       "field": "Forest Avenue Elementary School",
+      "field_id": "369",
       "game_id": "417998",
       "home_club": "Verona",
       "home_score": null,
@@ -78,6 +134,7 @@
       "date": "2026-11-08",
       "division": "B09XW",
       "field": "Roosevelt School",
+      "field_id": "74",
       "game_id": "418001",
       "home_club": "RiverDell",
       "home_score": null,
@@ -92,6 +149,7 @@
       "date": "2026-11-13",
       "division": "B09XW",
       "field": "Maple Park East",
+      "field_id": "584",
       "game_id": "418006",
       "home_club": "Maroons",
       "home_score": null,
@@ -106,6 +164,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418007",
       "home_club": "Torpedoes",
       "home_score": null,
@@ -120,6 +179,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417999",
       "home_club": "Rutherford",
       "home_score": null,
@@ -134,6 +194,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418002",
       "home_club": "WoodRidge",
       "home_score": null,
@@ -148,6 +209,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418003",
       "home_club": "NoValley",
       "home_score": null,
@@ -162,6 +224,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418004",
       "home_club": "NMKnights",
       "home_score": null,
@@ -176,6 +239,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418009",
       "home_club": "Emerson",
       "home_score": null,
@@ -190,6 +254,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418010",
       "home_club": "Rutherford",
       "home_score": null,
@@ -204,6 +269,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418011",
       "home_club": "Broncos",
       "home_score": null,
@@ -218,6 +284,7 @@
       "date": "2026-12-03",
       "division": "B09XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418012",
       "home_club": "FairLawnAllSports",
       "home_score": null,
@@ -226,6 +293,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:11:30.281345Z",
+  "scraped_at": "2026-10-07T12:58:51.406285Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

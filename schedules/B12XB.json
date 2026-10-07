@@ -1,5 +1,35 @@
 {
   "division": "B12XB",
+  "fields": {
+    "374": {
+      "address": "Williams Drive, Ramsey, NJ 07446",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Lower McFarran Field",
+      "size": "Large Field (11 vs 11)"
+    },
+    "380": {
+      "address": "862 Valley Brook Ave, Lyndhurst, NJ 07071",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Lyndhurst Rec Center Field 3",
+      "size": "Small Field (8 vs 8)"
+    },
+    "704": {
+      "address": "44 Park Ave., Nutley, NJ 07110",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Father Glotzbach Field2",
+      "size": "Small Field (8 vs 8)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Maroons",
@@ -8,6 +38,7 @@
       "date": "2026-10-16",
       "division": "B12XB",
       "field": "Lower McFarran Field",
+      "field_id": "374",
       "game_id": "417945",
       "home_club": "Hotspur",
       "home_score": null,
@@ -22,6 +53,7 @@
       "date": "2026-10-17",
       "division": "B12XB",
       "field": "Father Glotzbach Field2",
+      "field_id": "704",
       "game_id": "417941",
       "home_club": "Nutley",
       "home_score": null,
@@ -36,6 +68,7 @@
       "date": "2026-11-12",
       "division": "B12XB",
       "field": "Lyndhurst Rec Center Field 3",
+      "field_id": "380",
       "game_id": "417947",
       "home_club": "Lyndhurst",
       "home_score": null,
@@ -50,6 +83,7 @@
       "date": "2026-12-03",
       "division": "B12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417948",
       "home_club": "CougarUtd",
       "home_score": null,
@@ -64,6 +98,7 @@
       "date": "2026-12-03",
       "division": "B12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417946",
       "home_club": "Maroons",
       "home_score": null,
@@ -78,6 +113,7 @@
       "date": "2026-12-03",
       "division": "B12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417942",
       "home_club": "Belleville",
       "home_score": null,
@@ -92,6 +128,7 @@
       "date": "2026-12-03",
       "division": "B12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417943",
       "home_club": "NMKnights",
       "home_score": null,
@@ -106,6 +143,7 @@
       "date": "2026-12-03",
       "division": "B12XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417944",
       "home_club": "FairLawnAllSports",
       "home_score": null,
@@ -114,6 +152,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:13:10.635263Z",
+  "scraped_at": "2026-10-07T13:00:28.963775Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

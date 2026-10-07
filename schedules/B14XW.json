@@ -1,5 +1,35 @@
 {
   "division": "B14XW",
+  "fields": {
+    "1141": {
+      "address": "525 Sinatra Dr, Hoboken, NJ 07030",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Sinatra Park",
+      "size": "Both (Small & Large)"
+    },
+    "164": {
+      "address": "44 Park Ave., Nutley, NJ 07110",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Father Glotzbach Field1",
+      "size": "Both (Small & Large)"
+    },
+    "32": {
+      "address": "55 Pyle Street, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "River Dell High School - Stadium",
+      "size": "Large Field (11 vs 11)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Maroons",
@@ -8,6 +38,7 @@
       "date": "2026-10-04",
       "division": "B14XW",
       "field": "Sinatra Park",
+      "field_id": "1141",
       "game_id": "418070",
       "home_club": "HobUtd",
       "home_score": 4,
@@ -22,6 +53,7 @@
       "date": "2026-10-04",
       "division": "B14XW",
       "field": "Father Glotzbach Field1",
+      "field_id": "164",
       "game_id": "418074",
       "home_club": "Nutley",
       "home_score": 0,
@@ -36,6 +68,7 @@
       "date": "2026-10-11",
       "division": "B14XW",
       "field": "River Dell High School - Stadium",
+      "field_id": "32",
       "game_id": "418072",
       "home_club": "RiverDell",
       "home_score": null,
@@ -50,6 +83,7 @@
       "date": "2026-12-03",
       "division": "B14XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418073",
       "home_club": "Belleville",
       "home_score": null,
@@ -64,6 +98,7 @@
       "date": "2026-12-03",
       "division": "B14XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418075",
       "home_club": "Dragons",
       "home_score": null,
@@ -78,6 +113,7 @@
       "date": "2026-12-03",
       "division": "B14XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418071",
       "home_club": "Maroons",
       "home_score": null,
@@ -92,6 +128,7 @@
       "date": "2026-12-03",
       "division": "B14XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418068",
       "home_club": "Southside",
       "home_score": null,
@@ -106,6 +143,7 @@
       "date": "2026-12-03",
       "division": "B14XW",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418069",
       "home_club": "ST23",
       "home_score": null,
@@ -114,6 +152,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:14:03.239986Z",
+  "scraped_at": "2026-10-07T13:01:21.707724Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

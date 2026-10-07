@@ -1,5 +1,42 @@
 {
   "division": "B11XB",
+  "fields": {
+    "157": {
+      "address": "398 West Mombasha Road, Monroe, NY 10950",
+      "comments": "]",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "W. Mombasha field",
+      "size": "Both (Small & Large)"
+    },
+    "170": {
+      "address": "320 Doremus Ave, Glen Rock, NJ 07452",
+      "comments": "7v7 field",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "Faber Turf Small",
+      "size": "Small Field (8 vs 8)"
+    },
+    "206": {
+      "address": "Dance Blvd, Dumont, NJ 07628",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Twin-Boro",
+      "size": "Small Field (8 vs 8)"
+    },
+    "73": {
+      "address": "230 Woodland Avenue, River Edge, NJ 07661",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "River Dell Middle School - Small",
+      "size": "Both (Small & Large)"
+    },
+    "799": {
+      "address": "PO Box 26, HohoKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled - Northen Counties Cup",
+      "size": "Both (Small & Large)"
+    }
+  },
   "games": [
     {
       "away_club": "Force",
@@ -8,6 +45,7 @@
       "date": "2026-10-04",
       "division": "B11XB",
       "field": "River Dell Middle School - Small",
+      "field_id": "73",
       "game_id": "417939",
       "home_club": "RiverDell",
       "home_score": null,
@@ -22,6 +60,7 @@
       "date": "2026-10-17",
       "division": "B11XB",
       "field": "Twin-Boro",
+      "field_id": "206",
       "game_id": "417938",
       "home_club": "Dumont",
       "home_score": null,
@@ -36,6 +75,7 @@
       "date": "2026-10-18",
       "division": "B11XB",
       "field": "W. Mombasha field",
+      "field_id": "157",
       "game_id": "417940",
       "home_club": "Force",
       "home_score": null,
@@ -50,6 +90,7 @@
       "date": "2026-11-08",
       "division": "B11XB",
       "field": "Faber Turf Small",
+      "field_id": "170",
       "game_id": "417934",
       "home_club": "GlenRock",
       "home_score": null,
@@ -64,6 +105,7 @@
       "date": "2026-12-03",
       "division": "B11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417935",
       "home_club": "Warriors",
       "home_score": null,
@@ -78,6 +120,7 @@
       "date": "2026-12-03",
       "division": "B11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417936",
       "home_club": "WoodRidge",
       "home_score": null,
@@ -92,6 +135,7 @@
       "date": "2026-12-03",
       "division": "B11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417937",
       "home_club": "FairLawnAllSports",
       "home_score": null,
@@ -106,6 +150,7 @@
       "date": "2026-12-03",
       "division": "B11XB",
       "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "417933",
       "home_club": "Nutley",
       "home_score": null,
@@ -114,6 +159,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T01:12:36.661506Z",
+  "scraped_at": "2026-10-07T12:59:58.236013Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -187,6 +187,66 @@ def test_only_the_current_users_teams_are_shown(client, tmp_path):
 
 
 # ---------------------------------------------------------------------------
+# Team renamed on the schedule page before the standings page
+# ---------------------------------------------------------------------------
+
+def _write_standings(tmp_path, monkeypatch, division, team_names):
+    # The client fixture points standings and schedules at the same folder
+    folder = tmp_path / "standings"
+    folder.mkdir(exist_ok=True)
+    monkeypatch.setattr(main, "STANDINGS_DIR", folder)
+    stats = {"played": 0, "wins": 0, "losses": 0, "draws": 0, "points": 0,
+             "goals_for": 0, "goals_against": 0, "goal_diff": 0, "form": "", "games": []}
+    teams = [{"team_raw": n, "club": n.split("-")[0], "coach": n.split("-")[-1], **stats}
+             for n in team_names]
+    (folder / f"{division}.json").write_text(
+        json.dumps({"division": division, "teams": teams}), encoding="utf-8")
+
+
+def test_team_renamed_on_the_schedule_still_gets_its_games(client, tmp_path, monkeypatch):
+    uid = _register(client, "a@example.com")
+    _follow(uid, KIM)
+    _write_standings(tmp_path, monkeypatch, "B12A", [KIM, "Ajax-B12A-Smith", "Nutley-B12A-Jones"])
+    _write_schedule(tmp_path, "B12A", [
+        _game("1", "B12A", _day(2), "10:00 AM", "Tenafly-B12A-Newcoach", "Ajax-B12A-Smith"),
+        _game("2", "B12A", _day(3), "11:00 AM", "Nutley-B12A-Jones", "Tenafly-B12A-Newcoach"),
+        _game("3", "B12A", _day(4), "09:00 AM", "Ajax-B12A-Smith", "Nutley-B12A-Jones"),
+    ])
+
+    html = client.get("/upcoming").text
+
+    assert [r[0] for r in _rows(html)] == ["1", "2"]
+    assert "vs Ajax" in html and "vs Nutley" in html
+    assert "vs Tenafly" not in html   # the team is never its own opponent
+    # The team page reads the same schedule
+    assert "vs Ajax" in client.get(f"/team/{KIM}").text
+
+
+def test_rename_is_not_guessed_when_two_names_could_match(client, tmp_path, monkeypatch):
+    uid = _register(client, "a@example.com")
+    _follow(uid, KIM)
+    _write_standings(tmp_path, monkeypatch, "B12A", [KIM, "Ajax-B12A-Smith"])
+    _write_schedule(tmp_path, "B12A", [
+        _game("1", "B12A", _day(2), "10:00 AM", "Tenafly-B12A-Newcoach", "Ajax-B12A-Smith"),
+        _game("2", "B12A", _day(3), "11:00 AM", "Tenafly-B12A-Other", "Ajax-B12A-Smith"),
+    ])
+
+    assert _rows(client.get("/upcoming").text) == []
+
+
+def test_another_team_from_the_same_club_is_not_mistaken_for_a_rename(client, tmp_path, monkeypatch):
+    uid = _register(client, "a@example.com")
+    _follow(uid, KIM)
+    # A second Tenafly team that the standings do know: its games are its own
+    _write_standings(tmp_path, monkeypatch, "B12A", [KIM, "Tenafly-B12A-Second", "Ajax-B12A-Smith"])
+    _write_schedule(tmp_path, "B12A", [
+        _game("1", "B12A", _day(2), "10:00 AM", "Tenafly-B12A-Second", "Ajax-B12A-Smith"),
+    ])
+
+    assert _rows(client.get("/upcoming").text) == []
+
+
+# ---------------------------------------------------------------------------
 # schedule_parser: field details
 # ---------------------------------------------------------------------------
 

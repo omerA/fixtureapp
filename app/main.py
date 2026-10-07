@@ -377,12 +377,37 @@ def _load_upcoming_games(division: str, team_raw: str) -> list[dict]:
     if not path.exists():
         return []
     games = json.loads(path.read_text()).get("games", [])
+    listed_as = _schedule_name(games, division, team_raw)
     upcoming = [
-        g for g in games
+        # Hand the game back under the name the caller knows the team by
+        {**g, **{side: team_raw for side in ("home_team", "away_team") if g.get(side) == listed_as}}
+        for g in games
         if g.get("is_upcoming")
-        and (g.get("home_team") == team_raw or g.get("away_team") == team_raw)
+        and (g.get("home_team") == listed_as or g.get("away_team") == listed_as)
     ]
     return sorted(upcoming, key=lambda g: (g.get("date", ""), g.get("time", "")))
+
+
+def _schedule_name(games: list[dict], division: str, team_raw: str) -> str:
+    """
+    The name the schedule lists a team under. The league sometimes renames a
+    team (usually a new coach) on its schedule page before its standings page,
+    so a team from the standings can be missing from its own schedule. If the
+    schedule has exactly one team from the same club that the standings don't
+    know, that is the same team; anything less certain is left unmatched.
+    """
+    scheduled = {g.get(side) for g in games for side in ("home_team", "away_team")}
+    if team_raw in scheduled:
+        return team_raw
+    in_standings = {t["team_raw"] for t in _load_standings(division)}
+    if team_raw not in in_standings:
+        return team_raw
+    club = team_raw.split("-")[0]
+    renamed = [
+        name for name in scheduled
+        if name and name not in in_standings and name.split("-")[0] == club
+    ]
+    return renamed[0] if len(renamed) == 1 else team_raw
 
 
 def _today():

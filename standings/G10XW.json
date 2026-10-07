@@ -1,90 +1,121 @@
 {
   "division": "G10XW",
-  "scraped_at": "2026-05-15T12:35:37.626913Z",
+  "scraped_at": "2026-10-07T00:21:32.581077Z",
+  "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "OHara",
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "418206",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G10XW-DiClemente",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "TEN-Sunnyside"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 4,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 1,
+      "team_raw": "Maroons-G10XW-OHara",
+      "wins": 0
+    },
+    {
+      "club": "Tenafly",
+      "coach": "DiClemente",
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "418206",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10XW-OHara",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "TEN-Sunnyside"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 4,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 1,
+      "team_raw": "Tenafly-G10XW-DiClemente",
+      "wins": 0
+    },
+    {
+      "club": "CougarSC",
+      "coach": "RayRochkind",
+      "draws": 0,
+      "form": "",
+      "games": [],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 0,
+      "points": 0,
+      "team_raw": "CougarSC-G10XW-RayRochkind",
+      "wins": 0
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Casas",
+      "draws": 0,
+      "form": "",
+      "games": [],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 0,
+      "points": 0,
+      "team_raw": "GlenRock-G10XW-Casas",
+      "wins": 0
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Traganos",
+      "draws": 0,
+      "form": "",
+      "games": [],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 0,
+      "points": 0,
+      "team_raw": "Rutherford-G10XW-Traganos",
+      "wins": 0
+    },
     {
       "club": "Thistle",
       "coach": "Millar",
       "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "409451",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G10XW-Duque",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "NMilford-Williams7v7"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 1,
-      "goals_for": 3,
+      "form": "",
+      "games": [],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
       "losses": 0,
-      "played": 1,
-      "points": 3,
+      "played": 0,
+      "points": 0,
       "team_raw": "Thistle-G10XW-Millar",
-      "wins": 1
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Gino",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-G10XW-Gino",
-      "wins": 0
-    },
-    {
-      "club": "UnionCity",
-      "coach": "Mezzina",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "UnionCity-G10XW-Mezzina",
-      "wins": 0
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Duque",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-05-09",
-          "game_number": "409451",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G10XW-Millar",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "NMilford-Williams7v7"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 3,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "NMKnights-G10XW-Duque",
       "wins": 0
     }
   ]

@@ -2,10 +2,13 @@
 build_team_index.py — Scrape every NCSA division once and build a team index.
 
 Run this once at the start of the season, or weekly during the season to catch
-late-added teams. It produces team_index.json:
+late-added teams. The division list is read from the live standings form on
+every run (see divisions.py), so a new season's flights are picked up without
+a code change. It produces team_index.json:
 
     {
       "scraped_at": "2026-05-11T...",
+      "season": "2026-spring",
       "by_team": {
         "Tenafly-B12B-Schwartzberg": {
           "club": "Tenafly",
@@ -22,8 +25,8 @@ late-added teams. It produces team_index.json:
     }
 
 Run:
-    python build_team_index.py
-    python build_team_index.py --divisions B12B,B10A   # just these
+    python build_team_index.py                         # discover divisions
+    python build_team_index.py --divisions B12B,B10A   # just these, no discovery
     python build_team_index.py --no-cache              # force fresh fetch
 """
 from __future__ import annotations
@@ -36,30 +39,6 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Pulled from the form HTML you provided. Hard-coded because (a) it's stable
-# and (b) it lets us know the moment a new division appears.
-ALL_DIVISIONS = [
-    # Boys
-    "B08A4","B08A7","B08B4","B08B7","B08C4","B08C7","B08D4","B08D7","B08E4","B08F4",
-    "B09A","B09B","B09C","B09D","B09E","B09EW","B09F","B09G","B09GW","B09H","B09R","B09XB","B09XW",
-    "B10A","B10AB","B10BB","B10C","B10D","B10DB","B10E","B10F","B10FB","B10G","B10GB","B10H","B10HB","B10R","B10XB","B10XW",
-    "B11A","B11B","B11C","B11D","B11DB","B11E","B11EB","B11F","B11G","B11GB","B11H","B11HB","B11R","B11XB","B11XW",
-    "B12A","B12B","B12C","B12D","B12EB","B12EW","B12F","B12G","B12GB","B12GW","B12H","B12R","B12XB","B12XW",
-    "B13A","B13B","B13C","B13D","B13E","B13FB","B13FW","B13G","B13R","B13XW",
-    "B14A","B14B","B14C","B14D","B14E","B14F","B14R","B14XB","B14XW",
-    "B15A","B15B","B15C","B15D","B15E","B15F","B15R",
-    "B16A","B16R","B17A","B17R","B18R","B19A","B19B","B19C","B19D","B19R",
-    # Girls
-    "G08A4","G08A7","G08B4","G08B7","G08C4",
-    "G09A","G09B","G09C","G09D","G09E","G09F","G09R","G09XB",
-    "G10A","G10B","G10C","G10D","G10E","G10F","G10G","G10H","G10R","G10XB","G10XW",
-    "G11A","G11B","G11C","G11D","G11E","G11F","G11R","G11XB","G11XW",
-    "G12A","G12B","G12C","G12D","G12E","G12F","G12R","G12XB","G12XW",
-    "G13A","G13B","G13C","G13D","G13E","G13F","G13R","G13XB",
-    "G14A","G14B","G14CB","G14CW","G14R",
-    "G15A","G15B","G15C","G15R","G16R","G17R","G19A","G19B","G19C","G19R",
-]
-
 
 def parse_team_name(raw: str) -> tuple[str, str]:
     """Parse 'Club-Flight-Coach' into (club, coach). Tolerant of extra spaces."""
@@ -69,13 +48,46 @@ def parse_team_name(raw: str) -> tuple[str, str]:
     return raw, ""
 
 
+def load_previous_divisions(path: Path) -> list[str] | None:
+    """Return the `divisions` list of an existing index file, or None."""
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8"))
+        divisions = previous.get("divisions")
+    except (OSError, ValueError, AttributeError):
+        return None
+    return divisions if isinstance(divisions, list) else None
+
+
+def load_previous_team_count(path: Path) -> int:
+    """Number of teams in the existing index file, or 0 if there is none."""
+    try:
+        return len(json.loads(path.read_text(encoding="utf-8")).get("by_team", {}))
+    except (OSError, ValueError):
+        return 0
+
+
+def report_division_changes(previous: list[str] | None, current: list[str]) -> None:
+    """Print which division codes appeared or vanished since the last index."""
+    from divisions import diff_divisions
+
+    if previous is None:
+        print("  No previous index to compare against.")
+        return
+    added, removed = diff_divisions(previous, current)
+    print(f"  Added since last index ({len(added)}): {', '.join(added) or 'none'}")
+    print(f"  Removed since last index ({len(removed)}): {', '.join(removed) or 'none'}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--divisions", help="Comma-separated subset (default: all)")
+    ap.add_argument("--divisions", help="Comma-separated codes to scrape, skipping discovery "
+                         "(default: every division on the live standings form)")
     ap.add_argument("--cache-dir", default="./cache", help="Where to cache HTML")
     ap.add_argument("--no-cache", action="store_true", help="Force fresh fetch")
     ap.add_argument("--out", default="./team_index.json", help="Output path")
     ap.add_argument("--delay", type=float, default=2.0, help="Seconds between requests")
+    ap.add_argument("--force", action="store_true",
+                    help="Write the index even if it has far fewer teams than the previous one")
     ap.add_argument("--verbose", "-v", action="store_true")
     args = ap.parse_args()
 
@@ -84,14 +96,29 @@ def main():
         format="%(message)s",
     )
 
+    from divisions import DivisionDiscoveryError, discover_divisions, season_for
     from fetcher import StandingsFetcher
     from team_extractor import extract_team_names
 
-    divisions = args.divisions.split(",") if args.divisions else ALL_DIVISIONS
     fetcher = StandingsFetcher(
         cache_dir=Path(args.cache_dir),
         min_delay_seconds=args.delay,
     )
+    out_path = Path(args.out)
+
+    if args.divisions:
+        # Explicit override: scrape exactly these, no discovery request.
+        divisions = args.divisions.split(",")
+    else:
+        # No fallback list on purpose: last season's codes are the failure
+        # mode, so if discovery fails we stop before touching the index.
+        try:
+            divisions = discover_divisions(fetcher)
+        except (DivisionDiscoveryError, RuntimeError, OSError) as e:
+            sys.exit(f"Division discovery failed, index not updated: {e}")
+        print(f"Discovered {len(divisions)} divisions on the standings form.")
+        report_division_changes(load_previous_divisions(out_path), divisions)
+        print()
 
     by_team: dict[str, dict] = {}
     by_club: dict[str, list[str]] = defaultdict(list)
@@ -118,11 +145,29 @@ def main():
             errors.append((division, str(e)))
             print(f"ERROR: {e}")
 
+    # The app treats a followed team that is missing from the index as gone for
+    # the season, so a partial index must never replace a good one.
+    if errors:
+        print("\nErrors, index not updated:")
+        for div, err in errors:
+            print(f"  {div}: {err}")
+        sys.exit(1)
+    if not by_team:
+        sys.exit("No teams found in any division, index not updated.")
+    previous_count = load_previous_team_count(out_path)
+    if not args.divisions and not args.force and previous_count and len(by_team) < previous_count / 2:
+        sys.exit(
+            f"Only {len(by_team)} teams found, previous index had {previous_count}; "
+            "index not updated. Re-run with --force if this is expected."
+        )
+
     # Deduplicate by_club lists (a team only appears in one division, but defensive)
     by_club_dedup = {club: sorted(set(teams)) for club, teams in by_club.items()}
 
+    scraped_at = datetime.now(timezone.utc)
     output = {
-        "scraped_at": datetime.now(timezone.utc).isoformat(),
+        "scraped_at": scraped_at.isoformat(),
+        "season": season_for(scraped_at.date()),
         "source": "https://www.ncsanj.com/standings.cfm",
         "divisions": divisions,
         "empty_divisions": empty_divisions,
@@ -131,7 +176,6 @@ def main():
         "by_club": by_club_dedup,
     }
 
-    out_path = Path(args.out)
     out_path.write_text(json.dumps(output, indent=2, sort_keys=True))
 
     print()
@@ -156,12 +200,6 @@ def main():
         for club in sorted(by_club_dedup.keys()):
             if "tena" in club.lower() or "tenafly" in club.lower():
                 print(f"  {club}: {by_club_dedup[club]}")
-
-    if errors:
-        print("\nErrors:")
-        for div, err in errors:
-            print(f"  {div}: {err}")
-        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,38 @@
+name: Tests
+
+on:
+  pull_request:
+    paths-ignore:
+      - "standings/**"
+      - "schedules/**"
+      - "team_index.json"
+  push:
+    branches: [staging, main]
+    paths-ignore:
+      - "standings/**"
+      - "schedules/**"
+      - "team_index.json"
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Run tests
+        run: pytest -q

@@ -1,11 +1,66 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-05-15T12:33:37.592044Z",
+  "scraped_at": "2026-10-07T00:21:32.181811Z",
+  "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "CougarSC",
-      "coach": "Smith",
+      "club": "Dragons",
+      "coach": "Gold",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "418074",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14XW-Blanchard",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 0,
+      "goals_for": 1,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Dragons-B14XW-Gold",
+      "wins": 1
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Peng",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "418070",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14XW-dePaula",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "HobUtd-B14XW-Peng",
+      "wins": 1
+    },
+    {
+      "club": "Belleville",
+      "coach": "Calvache",
       "draws": 0,
       "form": "",
       "games": [],
@@ -15,12 +70,12 @@
       "losses": 0,
       "played": 0,
       "points": 0,
-      "team_raw": "CougarSC-B14XW-Smith",
+      "team_raw": "Belleville-B14XW-Calvache",
       "wins": 0
     },
     {
-      "club": "NMKnights",
-      "coach": "Fischer",
+      "club": "RiverDell",
+      "coach": "Privitera",
       "draws": 0,
       "form": "",
       "games": [],
@@ -30,37 +85,61 @@
       "losses": 0,
       "played": 0,
       "points": 0,
-      "team_raw": "NMKnights-B14XW-Fischer",
+      "team_raw": "RiverDell-B14XW-Privitera",
       "wins": 0
     },
     {
-      "club": "Southside",
-      "coach": "Fernandez",
+      "club": "Nutley",
+      "coach": "Blanchard",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "418074",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B14XW-Gold",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 1,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "Southside-B14XW-Fernandez",
+      "team_raw": "Nutley-B14XW-Blanchard",
       "wins": 0
     },
     {
-      "club": "Warriors",
-      "coach": "Mohorovich",
+      "club": "Maroons",
+      "coach": "dePaula",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "418070",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B14XW-Peng",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "Warriors-B14XW-Mohorovich",
+      "team_raw": "Maroons-B14XW-dePaula",
       "wins": 0
     }
   ]

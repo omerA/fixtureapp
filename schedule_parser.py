@@ -10,6 +10,8 @@ from dataclasses import dataclass, asdict
 from datetime import datetime
 from typing import Any, Optional
 
+from parser import EmptyDivisionError  # noqa: F401  (re-exported for callers)
+
 
 @dataclass
 class ScheduledGame:
@@ -107,7 +109,7 @@ def parse_schedule(html: str, division: str, source_url: str = "") -> DivisionSc
     soup = BeautifulSoup(html, "html.parser")
     table = soup.find("table", id="schedule_table")
     if not table:
-        raise ValueError("No schedule_table found in HTML")
+        raise EmptyDivisionError("No schedule_table found in HTML")
 
     games: list[ScheduledGame] = []
     tbody = table.find("tbody") or table

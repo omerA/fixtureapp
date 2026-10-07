@@ -22,20 +22,20 @@ jobs:
     steps:
       - name: Generate GitHub App token
         id: app-token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: staging
           fetch-depth: 1
           token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -43,47 +43,71 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Scrape standings
+      # Rebuild team_index.json from the live site so the division list can
+      # never go stale. Skipped when a manual run supplies explicit divisions.
+      #
+      # No --no-cache on purpose: this step downloads every division's
+      # standings page into ./cache (via StandingsFetcher.fetch), and the
+      # "Scrape standings" step below reads the same cache entries instead of
+      # requesting those pages a second time. The runner starts with an empty
+      # cache, so the pages are still fresh (cache TTL is 12h).
+      #
+      # continue-on-error: a failure here is recorded in steps.index.outcome
+      # and reported by the final "Fail job if a scrape step failed" step,
+      # while the remaining steps still run on whatever index is available.
+      - name: Rebuild team index
+        id: index
+        if: ${{ github.event.inputs.divisions == '' }}
+        continue-on-error: true
         env:
           SCRAPER_CONTACT: ${{ secrets.SCRAPER_CONTACT }}
+        run: python build_team_index.py --verbose
+
+      - name: Scrape standings
+        id: standings
+        continue-on-error: true
+        env:
+          SCRAPER_CONTACT: ${{ secrets.SCRAPER_CONTACT }}
+          DIVISIONS: ${{ github.event.inputs.divisions }}
         run: |
-          if [ -n "${{ github.event.inputs.divisions }}" ]; then
-            python build_standings.py \
-              --divisions "${{ github.event.inputs.divisions }}" \
-              --no-cache \
-              --verbose
+          if [ -n "$DIVISIONS" ]; then
+            # Manual run with explicit divisions: index was not rebuilt, so
+            # nothing is cached; keep the old forced-fresh behaviour.
+            python build_standings.py               --divisions "$DIVISIONS"               --no-cache               --verbose
           else
-            python build_standings.py \
-              --all \
-              --no-cache \
-              --verbose
+            # Reuses the standings pages cached by the index step above.
+            python build_standings.py               --all               --verbose
           fi
 
+      # --no-cache is harmless here: schedules use a separate cache namespace
+      # (sched_<division>) that nothing has populated on a fresh runner.
       - name: Scrape schedules
+        id: schedules
+        continue-on-error: true
         env:
           SCRAPER_CONTACT: ${{ secrets.SCRAPER_CONTACT }}
+          DIVISIONS: ${{ github.event.inputs.divisions }}
         run: |
-          if [ -n "${{ github.event.inputs.divisions }}" ]; then
-            python build_schedules.py \
-              --divisions "${{ github.event.inputs.divisions }}" \
-              --no-cache \
-              --verbose
+          if [ -n "$DIVISIONS" ]; then
+            python build_schedules.py               --divisions "$DIVISIONS"               --no-cache               --verbose
           else
-            python build_schedules.py \
-              --all \
-              --no-cache \
-              --verbose
+            python build_schedules.py               --all               --no-cache               --verbose
           fi
 
       - name: Merge standings (preserve history, detect changes)
         run: python merge_standings.py --verbose
 
+      # git status (not git diff) so brand-new, untracked files for divisions
+      # added this season count as changes too. Files for retired divisions
+      # are simply not rewritten; nothing in CI deletes them.
       - name: Check for changes
         id: diff
         run: |
-          git diff --quiet standings/ schedules/ team_index.json 2>/dev/null \
-            && echo "changed=false" >> "$GITHUB_OUTPUT" \
-            || echo "changed=true" >> "$GITHUB_OUTPUT"
+          if [ -n "$(git status --porcelain -- standings/ schedules/ team_index.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit and push updated data
         if: steps.diff.outputs.changed == 'true'
@@ -100,3 +124,15 @@ jobs:
           git commit -m "chore(data): refresh standings+schedules ${DATE} (${CHANGED_COUNT} file(s) updated)"
 
           git push origin HEAD:staging
+
+      # Good data is committed above even if a scrape step failed; fail the
+      # job here so the failure is still visible.
+      - name: Fail job if a scrape step failed
+        if: ${{ always() && (steps.index.outcome == 'failure' || steps.standings.outcome == 'failure' || steps.schedules.outcome == 'failure') }}
+        env:
+          INDEX_OUTCOME: ${{ steps.index.outcome }}
+          STANDINGS_OUTCOME: ${{ steps.standings.outcome }}
+          SCHEDULES_OUTCOME: ${{ steps.schedules.outcome }}
+        run: |
+          echo "::error::Scrape finished with failures (index=$INDEX_OUTCOME standings=$STANDINGS_OUTCOME schedules=$SCHEDULES_OUTCOME). Data that was scraped successfully has been committed."
+          exit 1

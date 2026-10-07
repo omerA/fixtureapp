@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta name="description" content="Northern Counties Soccer Assoc of NJ (NCSA), in its 50th year, provides a competitive league for over 80 clubs/1000 teams in the northeast NJ &amp; nearby NY."> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Northern Counties Soccer Association &copy;</title>
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya:400,900|Roboto:300,400,700" rel="stylesheet"> 
+	<link rel="stylesheet" href='/assets/bxslider/jquery.bxslider.css' rel='stylesheet' />
+	<link rel="stylesheet" href="/2col_leftNav.css?t=2" type="text/css" />
+	<link rel="stylesheet" href="/css/advert_edit.css?t=2" type="text/css" />
+
+	
+
+
+<link rel="stylesheet" href="css/ncsa_2016.css?11302024" type="text/css">
+<link rel="stylesheet" href="css/microtip.css?11302024" type="text/css">
+
+	
+	<script src="https://use.fontawesome.com/2878319762.js"></script>
+
+	<style>
+
+		/* .fade-in .box{
+		  height: 260px;
+		  width: 160px;
+		} */
+		
+		/* Keyframes for the fade-in */
+		@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+		@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+		@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+		
+		.fade-in {
+		  opacity:0;
+		  -webkit-animation:fadeIn ease-in 1;
+		  -moz-animation:fadeIn ease-in 1;
+		  animation:fadeIn ease-in 1;
+		
+		  -webkit-animation-fill-mode:forwards;
+		  -moz-animation-fill-mode:forwards;
+		  animation-fill-mode:forwards;
+		
+		  -webkit-animation-duration:.1s;
+		  -moz-animation-duration:.1s;
+		  animation-duration:.1s;
+		}
+		.fade-in {
+		  -webkit-animation-delay: 0.1s;
+		  -moz-animation-delay: 0.1s;
+		  animation-delay: 0.1s;
+		}
+		.fb-like{
+			width:83px;
+		}
+	</style>
+		
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-20310713-1', 'auto');  // Replace with your property ID.
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+	<style>
+	/*#refGames td.game_field{
+		position: relative !important;
+		overflow-y:visible !important;
+	}*/
+	/* .modal {
+	  display:none;
+	  overflow: auto;
+	  max-height: 450px;
+	  min-height: 100px;
+	  }	 */
+	.par-line{
+		padding: 1%;
+	}
+	h3{
+		padding-bottom:2%;
+	}
+	.rules-competition{
+		display:none;
+		position:fixed;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		z-index:200;
+		background:white;
+		width:40%;
+		max-height:85vh;
+		overflow-y:auto;
+		box-sizing:border-box;
+		padding:2% 4% 4%;
+		border:1px solid black;
+		border-radius:4px;
+		min-width:300px;
+		box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+	}
+	.rules-competition .modal-divider{
+		border-top:1px solid black;
+		margin: 1% 0 2%;
+	}
+	.rules-competition .modal-footer{
+		text-align:center;
+		border-top:1px solid black;
+		padding-top:3%;
+		margin-top:2%;
+	}
+	.rules-competition .modal-close,
+	.rules-competition .modal-close:link,
+	.rules-competition .modal-close:visited{
+		display:inline-block;
+		font-weight:bold;
+		padding: 8px 24px;
+		background:#aaa;
+		color:black;
+		border-radius:4px;
+		text-decoration:none;
+		cursor:pointer;
+	}
+	.rules-competition .modal-close:hover{
+		background:#888;
+		color:black;
+	}
+	.msg{
+		margin-bottom: 1%;
+		color: ##ccc;
+		background: #ffffcc;
+		padding: 2%;
+		border-radius: 4px;
+		border: solid 1px #ccc;
+		Width: 50%;
+	}
+	.mar-left20{
+		margin-left:20px;
+	}
+	.pad-5{
+		padding:5px;
+	}
+	</style>
+	</head>
+
+<body  class="fade-in">
+
+	<header id="page_header">
+		<div class="container">
+
+			
+			
+			
+			
+
+			
+			
+			
+			<hgroup id="logo" class="clearfix">
+				
+				<h1 class="logo_img"><a href="/index.cfm">NCSA &ndash; Northern Counties Soccer Association</a></h1>
+				<h2 class="logo_slogan">Enjoy the <br>Beautiful Game</h2>
+				<span class="logo_50_img"><img src="assets/images/ncsa_50_med_logo.png" alt="NCSA 50 Anniversary"></span>
+			</hgroup>
+			
+			
+				<button id="login_btn" class="yellow_btn">Login</button>
+				<div id="login_content" class="modal">
+					
+<hgroup id="modal_title">
+	<h2>NCSA - Login</h2>
+	<h3>Enter user name, password and hit Enter</h3>
+</hgroup>
+
+
+
+	<form id="login_form" name="login_form" action="loginAction.cfm" method="post">
+		<input type="Hidden" id="lmfield" name="lm" value="">
+
+		<div class="notification">Login invalid. Please try again.</div>
+		
+		<div class="form_field">
+			<label for="usernamefield">User Name</label>
+			<input type="Text" id="usernamefield" name="uname" value="">
+		</div>
+
+		<div class="form_field">
+			<label for="">Password</label>		
+			<input type="Password" id="passwordfield" name="pword" value="">
+		</div>
+
+		<div class="form_btn">
+			<button id="login_close"  class="gray_btn"   type="button" name="cancel">Cancel</button>
+			<button id="login_submit" class="yellow_btn" type="Submit" name="enter">Login</button>
+		</div>
+	</form>
+
+	<script type="text/javascript" language="JavaScript">
+		document.getElementById('usernamefield').focus();
+	</script>
+
+
+				</div>
+			
+			<button class="menu_btn blue_btn">Menu</button>
+
+			<nav id="main_menu" class="menu">
+				<div class="container">
+
+					<button class="menu_btn blue_btn">Close</button>
+
+				
+				
+				
+
+			
+			
+			
+				<ul class="primary_menu clearfix">
+					
+						<li class="headlink">
+							<a href="javascript:void(0);" id="menuItem1">
+								LEAGUE INFO
+							</a>  
+							 
+							
+							
+							<ul>
+							
+								<li><a href="mission.cfm" >About Us & Mission Statement</a></li>
+							
+								<li><a href="boardContacts.cfm" >Board and League Contacts</a></li>
+							
+								<li><a href="formsView.cfm?form_id=224" >Rules of Competition</a></li>
+							
+								<li><a href="formsDownload.cfm" >Forms Download</a></li>
+							
+								<li><a href="newClubApplic.cfm" >Club Application to Join NCSA</a></li>
+							
+							</ul>
+						</li>
+						
+						<li class="headlink">
+							<a href="javascript:void(0);" id="menuItem2">
+								CLUB/ COACH INFO
+							</a>  
+							 
+							
+							
+							<ul>
+							
+								<li><a href="clubReps.cfm" >Clubs</a></li>
+							
+								<li><a href="clubTeams.cfm" >Teams & Coaches</a></li>
+							
+								<li><a href="clubWeb.cfm" >Links to Club Websites</a></li>
+							
+								<li><a href="Fields.cfm" >Fields & Directions</a></li>
+							
+							</ul>
+						</li>
+						
+						<li class="headlink">
+							<a href="javascript:void(0);" id="menuItem3">
+								SCHEDULES/RESULTS
+							</a>  
+							 
+							
+							
+							<ul>
+							
+								<li><a href="gameSchedule.cfm?by=tm" >By Team</a></li>
+							
+								<li><a href="gameSchedule.cfm?by=cl" >By Club</a></li>
+							
+								<li><a href="gameSchedule.cfm?by=dv" >By Division</a></li>
+							
+								<li><a href="gameSchedule.cfm?by=fl" >By Field</a></li>
+							
+								<li><a href="gameSchedule.cfm?by=dt" >By Date</a></li>
+							
+								<li><a href="gameSchedule.cfm?by=nn" >Non League Games</a></li>
+							
+							</ul>
+						</li>
+						
+						<li class="headlink">
+							<a href="javascript:void(0);" id="menuItem4">
+								STANDINGS/OTHER GAME INFO
+							</a>  
+							 
+							
+							
+							<ul>
+							
+								<li><a href="standings.cfm" >Standings</a></li>
+							
+								<li><a href="formsView.cfm?form_id=356" >Game Day Form</a></li>
+							
+								<li><a href="refereeFee.cfm" >Referee Fees</a></li>
+							
+								<li><a href="gamesConduct.cfm" >Games Conduct</a></li>
+							
+							</ul>
+						</li>
+						
+						<li class="headlink">
+							<a href="javascript:void(0);" id="menuItem5">
+								GENERAL INFO
+							</a>  
+							 
+							
+							
+							<ul>
+							
+								<li><a href="calendar.cfm" >Calendar of Events</a></li>
+							
+								<li><a href="presmessage.cfm" >President’s Message</a></li>
+							
+								<li><a href="ncsaCorner.cfm" >NCSA Corner</a></li>
+							
+								<li><a href="agebracket.cfm" >Check Player Age Bracket</a></li>
+							
+								<li><a href="ncsaRef.cfm" >Becoming an NCSA Referee </a></li>
+							
+							</ul>
+						</li>
+						
+						<li class="headlink">
+							<a href="javascript:void(0);" id="menuItem264">
+								NCSA CUP
+							</a>  
+							 
+							
+							
+							<ul>
+							
+								<li><a href="ncsa_cup_overview.cfm" >NCSA Cup Overview</a></li>
+							
+								<li><a href="ncsa_cup_overview.cfm" >Tournament Brackets and Results</a></li>
+							
+							</ul>
+						</li>
+						
+				</ul>	
+
+			
+			
+			
+			
+				<ul class="mobile_user_menu logged_out">
+						
+						<li><a href="coachespage.cfm">Coaches</a></li>
+		        <li><a href="playerspage.cfm">Players</a></li>
+		        <li><a href="parentspage.cfm">Parents</a></li>
+				<li><a href="https://teamlocker.squadlocker.com/#/lockers/northern-counties-soccer-association-0" target="_tab">NCSA Store</a></li>
+		        
+		        <li><a href="login.cfm">Click Here to Login</a></li>
+					</ul>
+			
+
+
+				</div>
+			</nav>
+
+
+		
+		
+		
+		
+	
+ 		<div id="social_icons">
+			
+			
+			<div class="facebook"><div class="fb-like" data-href="https://www.facebook.com/NCSANJSoccer" data-width="300px" data-layout="button" data-action="like" data-size="large" data-share=""></div></div>
+		
+			
+			<div class="twitter"><a href="https://twitter.com/NCSANJ_Soccer?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @NCSANJ_Soccer</a></div>
+			
+			<div class="instagram">
+				<a href="https://www.instagram.com/ncsanj_soccer/?utm_source=ig_embed&utm_campaign=loading" class="icon" target="_blank" title="Follow NCSANJ_Soccer on Instagram">
+				<div><button class="instagram"><i class="fa fa-instagram"></i> Follow</button></div>
+			
+			</a></div>
+			
+		</div> 
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="wiklsuIy"></script>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script async src="//www.instagram.com/embed.js"></script>
+		
+		
+		
+			
+
+			<div id="ticker">
+				<div class="container">
+					<ul class="news_list">
+						
+							<li>follow ncsa on facebook, instagram and twitter - @ncsanj_soccer or click above link</li>
+						
+							<li>Deadline for weekend game changes without additional fees is Monday 11 am, even on a holiday such as Labor Day and Columbus Day.</li>
+						
+							<li>NEW MATCH DAY FORM PROCESS FOR LISTING WHICH ROSTERED PLAYERS ARE EXPECTED TO PLAY AND HOW TO SELECT PLAYERS PLAYING UP.  SEE NOTICE SENT TO ALL COACHES.</li>
+						
+					</ul>
+					
+				</div>
+			</div>
+			
+		</div>
+	</header>
+
+				
+
+
+<div id="page_body" class="clearfix">
+	<div class="container">
+
+		<main id="content">
+			<div class="container">
+			
+		
+
+
+
+<div id="contentText">
+
+
+<H1 class="pageheading">NCSA Games Standings</H1>
+
+
+<form name="standing" action="standings.cfm" method="post">
+	<label class="select_label" for="division_select">Which division would you like to see the standings for?</label>
+	<div class="select_box">
+		<SELECT id="division_select" name="div">
+			<option value="0">Select a Division</option>
+			
+				<option value="B08A4"  >B08A4</option>
+			
+				<option value="B08A7"  >B08A7</option>
+			
+				<option value="B08B4"  >B08B4</option>
+			
+				<option value="B08B7"  >B08B7</option>
+			
+				<option value="B08C4"  >B08C4</option>
+			
+				<option value="B08CB7"  >B08CB7</option>
+			
+				<option value="B08CW7"  >B08CW7</option>
+			
+				<option value="B08D4"  >B08D4</option>
+			
+				<option value="B08D7"  >B08D7</option>
+			
+				<option value="B08EB7"  >B08EB7</option>
+			
+				<option value="B08EW7"  >B08EW7</option>
+			
+				<option value="B08F7"  >B08F7</option>
+			
+				<option value="B08R7"  >B08R7</option>
+			
+				<option value="B09A"  >B09A</option>
+			
+				<option value="B09B"  >B09B</option>
+			
+				<option value="B09C"  >B09C</option>
+			
+				<option value="B09D"  >B09D</option>
+			
+				<option value="B09E"  >B09E</option>
+			
+				<option value="B09EW"  >B09EW</option>
+			
+				<option value="B09F"  >B09F</option>
+			
+				<option value="B09FW"  >B09FW</option>
+			
+				<option value="B09G"  >B09G</option>
+			
+				<option value="B09H"  >B09H</option>
+			
+				<option value="B09R"  >B09R</option>
+			
+				<option value="B09XB"  >B09XB</option>
+			
+				<option value="B09XW"  >B09XW</option>
+			
+				<option value="B10A"  >B10A</option>
+			
+				<option value="B10B"  >B10B</option>
+			
+				<option value="B10C"  >B10C</option>
+			
+				<option value="B10D"  >B10D</option>
+			
+				<option value="B10DB"  >B10DB</option>
+			
+				<option value="B10DW"  >B10DW</option>
+			
+				<option value="B10E"  >B10E</option>
+			
+				<option value="B10F"  >B10F</option>
+			
+				<option value="B10G"  >B10G</option>
+			
+				<option value="B10HB"  >B10HB</option>
+			
+				<option value="B10HW"  >B10HW</option>
+			
+				<option value="B10R"  >B10R</option>
+			
+				<option value="B10XB"  >B10XB</option>
+			
+				<option value="B10XW"  >B10XW</option>
+			
+				<option value="B11A"  >B11A</option>
+			
+				<option value="B11B"  >B11B</option>
+			
+				<option value="B11C"  >B11C</option>
+			
+				<option value="B11D"  >B11D</option>
+			
+				<option value="B11E"  >B11E</option>
+			
+				<option value="B11EB"  >B11EB</option>
+			
+				<option value="B11F"  >B11F</option>
+			
+				<option value="B11G"  >B11G</option>
+			
+				<option value="B11GW"  >B11GW</option>
+			
+				<option value="B11H"  >B11H</option>
+			
+				<option value="B11J"  >B11J</option>
+			
+				<option value="B11R"  >B11R</option>
+			
+				<option value="B11XB"  >B11XB</option>
+			
+				<option value="B11XW"  >B11XW</option>
+			
+				<option value="B12A"  >B12A</option>
+			
+				<option value="B12BB"  >B12BB</option>
+			
+				<option value="B12C"  >B12C</option>
+			
+				<option value="B12D"  >B12D</option>
+			
+				<option value="B12DW"  >B12DW</option>
+			
+				<option value="B12E"  >B12E</option>
+			
+				<option value="B12F"  >B12F</option>
+			
+				<option value="B12G"  >B12G</option>
+			
+				<option value="B12H"  >B12H</option>
+			
+				<option value="B12R"  >B12R</option>
+			
+				<option value="B12XB"  >B12XB</option>
+			
+				<option value="B12XW"  >B12XW</option>
+			
+				<option value="B13A"  >B13A</option>
+			
+				<option value="B13B"  >B13B</option>
+			
+				<option value="B13CB"  >B13CB</option>
+			
+				<option value="B13CW"  >B13CW</option>
+			
+				<option value="B13D"  >B13D</option>
+			
+				<option value="B13E"  >B13E</option>
+			
+				<option value="B13F"  >B13F</option>
+			
+				<option value="B13G"  >B13G</option>
+			
+				<option value="B13R"  >B13R</option>
+			
+				<option value="B13XB"  >B13XB</option>
+			
+				<option value="B13XW"  >B13XW</option>
+			
+				<option value="B14A"  >B14A</option>
+			
+				<option value="B14B"  >B14B</option>
+			
+				<option value="B14C"  >B14C</option>
+			
+				<option value="B14D"  >B14D</option>
+			
+				<option value="B14EB"  >B14EB</option>
+			
+				<option value="B14EW"  >B14EW</option>
+			
+				<option value="B14R"  >B14R</option>
+			
+				<option value="B14XB"  >B14XB</option>
+			
+				<option value="B14XW"  >B14XW</option>
+			
+				<option value="B15B"  >B15B</option>
+			
+				<option value="B15E"  >B15E</option>
+			
+				<option value="B15R"  >B15R</option>
+			
+				<option value="G08A4"  >G08A4</option>
+			
+				<option value="G08A7"  >G08A7</option>
+			
+				<option value="G08B4"  >G08B4</option>
+			
+				<option value="G08B7"  >G08B7</option>
+			
+				<option value="G08C7"  >G08C7</option>
+			
+				<option value="G09A"  >G09A</option>
+			
+				<option value="G09B"  >G09B</option>
+			
+				<option value="G09C"  >G09C</option>
+			
+				<option value="G09D"  >G09D</option>
+			
+				<option value="G09E"  >G09E</option>
+			
+				<option value="G09F"  >G09F</option>
+			
+				<option value="G09R"  >G09R</option>
+			
+				<option value="G10A"  >G10A</option>
+			
+				<option value="G10B"  >G10B</option>
+			
+				<option value="G10C"  >G10C</option>
+			
+				<option value="G10D"  >G10D</option>
+			
+				<option value="G10E"  >G10E</option>
+			
+				<option value="G10J"  >G10J</option>
+			
+				<option value="G10R"  >G10R</option>
+			
+				<option value="G10XB"  >G10XB</option>
+			
+				<option value="G10XW"  >G10XW</option>
+			
+				<option value="G11A"  >G11A</option>
+			
+				<option value="G11B"  >G11B</option>
+			
+				<option value="G11C"  >G11C</option>
+			
+				<option value="G11DB"  >G11DB</option>
+			
+				<option value="G11DW"  >G11DW</option>
+			
+				<option value="G11R"  >G11R</option>
+			
+				<option value="G11XB"  >G11XB</option>
+			
+				<option value="G12A"  >G12A</option>
+			
+				<option value="G12B"  >G12B</option>
+			
+				<option value="G12CB"  >G12CB</option>
+			
+				<option value="G12CW"  >G12CW</option>
+			
+				<option value="G12DB"  >G12DB</option>
+			
+				<option value="G12DW"  >G12DW</option>
+			
+				<option value="G12R"  >G12R</option>
+			
+				<option value="G12XB"  >G12XB</option>
+			
+				<option value="G12XW"  >G12XW</option>
+			
+				<option value="G13A"  >G13A</option>
+			
+				<option value="G13B"  >G13B</option>
+			
+				<option value="G13C"  >G13C</option>
+			
+				<option value="G13D"  >G13D</option>
+			
+				<option value="G13E"  >G13E</option>
+			
+				<option value="G13R"  >G13R</option>
+			
+				<option value="G13XB"  >G13XB</option>
+			
+				<option value="G14B"  >G14B</option>
+			
+				<option value="G14C"  >G14C</option>
+			
+				<option value="G14D"  >G14D</option>
+			
+				<option value="G14E"  >G14E</option>
+			
+				<option value="G14R"  >G14R</option>
+			
+				<option value="G14XB"  >G14XB</option>
+			
+				<option value="G15A"  >G15A</option>
+			
+		</SELECT>
+	</div>
+	<button type="submit" name="getGames" class="gray_btn select_btn">Enter</button>
+	
+</form>
+ 
+
+</DIV>	
+	
+
+<script language="JavaScript" type="text/javascript" src="assets/jquery-1.4.min.js"></script>
+<script>
+
+$(function(){
+	
+	var PopID = '.rules-competition';
+	$(".ROC").click(function(event){
+		event.preventDefault();	
+		$(PopID).show();
+		$('#veil').addClass('active');
+		$('#veil').click(function(){
+			$(PopID).hide();
+			$('#veil').removeClass('active');
+			$('html, body').removeClass('locked');
+		});
+	});
+	
+	$(".modal-close").click(function(event){
+		$(PopID).hide();
+		$('#veil').removeClass('active');
+		$('html, body').removeClass('locked');
+	});
+
+
+});
+</script>
+
+		  </div>
+		</main>
+
+		
+<aside id="sidebar">
+  <div class="container">
+  
+  
+    <section class="user_menu logged_out">
+      <h3 class="menu_title"><a href="javascript:void(0)">Helpful Links</a></h3>
+      <ul>
+        <li><a href="coachespage.cfm">Coaches</a></li>
+        <li><a href="playerspage.cfm">Players</a></li>
+        <li><a href="parentspage.cfm">Parents</a></li>
+        <li><a href="https://teamlocker.squadlocker.com/#/lockers/northern-counties-soccer-association-0" target="_tab">NCSA Store</a></li>
+        
+
+        <li><a href="login.cfm">Click Here to Login</a></li>
+      </ul>
+    </section>
+  
+    <section class="banner_ads">
+      
+        
+        <script language="JavaScript">
+          ga('send', 'event', 'NCSA Ads', 'Display', 'ad37: Sideline Project');
+        </script>
+        <div class="ad">
+          
+            <a target="_blank" href="adverts_render.cfm?adid=37" onClick="recordOutboundLink(this, 'NCSA Ads', 'Click', 'ad37: Sideline Project');">
+          
+            <div class="adText">
+              <p><span style="font-size: large;"><em><strong><span style="color: #003366;">TAKE THE PLEDGE!<br /><br /><img src="uploads/ad_assets/The Sideline Project logo.png" alt="" width="300" height="118" /><br /><br /></span></strong></em></span></p>
+            </div>
+          
+            </a>
+          
+        </div>
+      
+    </section>
+  
+  
+
+  </div>
+</aside>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- end navbar -->
+
+
+
+
+
+
+	
+<footer id="page_footer">
+	
+	<ul class="footer_menu">
+	
+			<li><a href="contactUs.cfm">Contact Us</a></li>
+	
+			<li><a href="faq.cfm">FAQ</a></li>
+	
+			<li><a href="externalLinks.cfm">External Links</a></li>
+	
+			<li><a href="history.cfm">Prior Season History</a></li>
+	
+			<li><a href="formsView.cfm?form_id=5">By-Laws rev 063020</a></li>
+	
+			<li><a href="siteIndex.cfm">Site Index</a></li>
+	
+		<li>
+		
+			<a href="//www.securitymetrics.com/site_certificate?id=1894793&tk=890e96c8d679c81f60669086975494f7"
+			target="_blank" rel="noopener noreferrer">
+				<img src="https://www.securitymetrics.com/portal/app/ngsm/assets/img/WhiteContent_Credit_Card_Safe_Grey_Rec.png"
+					alt="SecurityMetrics card safe certification logo"/>
+			</a>
+		</li>
+	</ul>
+	
+	<div class="copyright">
+		NCSA League Office, P.O. Box 26, Ho-Ho-Kus, NJ 07423 &copy; Northern Counties Soccer Association 1999-2026 All Rights Reserved
+	</div>
+
+	<div id="numCount" style="color:white;"></div>
+</footer>
+
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/vendor/jquery-dateformat.min.js"></script>
+
+<script type="text/javascript">
+	function recordOutboundLink(link, category, action, label) {
+		try {
+			ga('send', 'event', category, action, label);
+		}catch(err){}
+	}
+</script>
+
+
+<script src="assets/bxslider/jquery.bxslider.min.js"></script>
+<script>
+	// Ticker functionality is global
+	$(document).ready(function(){
+		$('.news_list').bxSlider({
+		mode: 'horizontal',
+		auto: ($(".news_list li").length > 1) ? true: false,
+		controls: ($(".news_list li").length > 1) ? true: false,
+		pause: 2000,
+		speed: 10000,
+		pager: false,
+		nextSelector: '.ticker_right',
+		prevSelector: '.ticker_left',
+		nextText: '<i class="fa fa-caret-right" aria-hidden="true"></i>',
+		prevText: '<i class="fa fa-caret-left" aria-hidden="true"></i>'
+		});
+
+		var deviceAgent = navigator.userAgent.toLowerCase();
+		var agentID = deviceAgent.match(/(iPad|iPhone|iPod)/i);
+		if (agentID) {       
+		$('body').css('-webkit-overflow-scrolling', 'touch');
+		}
+	});
+</script>
+
+
+
+
+<script type="text/javascript" src="js/scripts.js?11302024124453"></script> 
+
+
+
+<div id="desktop_indicator"></div> 
+<div id="veil"></div>
+
+</body>
+</html>
+
+
+

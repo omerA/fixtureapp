@@ -58,9 +58,12 @@ def main():
     )
 
     from fetcher import StandingsFetcher, STANDINGS_URL
-    from parser import parse_standings
+    from parser import parse_standings, EmptyDivisionError
+    from divisions import season_for
 
     index = load_index(Path(args.index))
+    # merge_standings.py uses this to keep last season's games out of reused codes
+    season = season_for(datetime.now(timezone.utc).date())
 
     if args.divisions:
         divisions = [d.strip() for d in args.divisions.split(",")]
@@ -85,6 +88,7 @@ def main():
 
     errors: list[tuple[str, str]] = []
     written: list[str] = []
+    skipped: list[str] = []
     total = len(divisions)
 
     for i, division in enumerate(divisions, 1):
@@ -93,10 +97,18 @@ def main():
             result = fetcher.fetch(division, force_refresh=args.no_cache)
             cached_marker = " [cached]" if result.from_cache else ""
 
-            standings = parse_standings(result.html, division, source_url=STANDINGS_URL)
+            try:
+                standings = parse_standings(result.html, division, source_url=STANDINGS_URL)
+            except EmptyDivisionError:
+                standings = None
+            if standings is None or not standings.teams:
+                skipped.append(division)
+                print(f"empty{cached_marker} (skipped)")
+                continue
 
             out_path = out_dir / f"{division}.json"
-            out_path.write_text(json.dumps(standings.to_dict(), indent=2, sort_keys=True))
+            data = {**standings.to_dict(), "season": season}
+            out_path.write_text(json.dumps(data, indent=2, sort_keys=True))
             written.append(division)
 
             club_teams = [t for t in standings.teams if t.club == args.club]
@@ -126,12 +138,18 @@ def main():
     print()
     print("=" * 60)
     print(f"Wrote {len(written)} files to {out_dir}/")
+    if skipped:
+        print(f"  Skipped (empty): {len(skipped)}")
+        print(f"  {', '.join(skipped)}")
     print(f"  Errors: {len(errors)}")
 
     if errors:
         print("\nErrors:")
         for div, err in errors:
             print(f"  {div}: {err}")
+        sys.exit(1)
+    if not written:
+        print("\nERROR: every requested division was empty; the site markup may have changed.")
         sys.exit(1)
 
     # Summary: show all watched-club teams sorted by division

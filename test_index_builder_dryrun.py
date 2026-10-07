@@ -51,61 +51,70 @@ FAKE_LEAGUE = {
 
 
 @responses.activate
-def main():
-    # Register mock responses for each division. responses will match on
-    # the POST body containing div=<DIVISION>.
-    def make_callback(division, teams):
-        def cb(request):
-            return (200, {}, make_response(division, teams))
-        return cb
+def test_index_builder_dryrun():
+    """Dry-run the index builder against a mock NCSA backend."""
+    # Save and restore sys.argv to avoid leaving it modified
+    original_argv = sys.argv[:]
+    try:
+        # Register mock responses for each division. responses will match on
+        # the POST body containing div=<DIVISION>.
+        def make_callback(division, teams):
+            def cb(request):
+                return (200, {}, make_response(division, teams))
+            return cb
 
-    for division, teams in FAKE_LEAGUE.items():
-        responses.add_callback(
+        for division, teams in FAKE_LEAGUE.items():
+            responses.add_callback(
+                responses.POST, STANDINGS_URL,
+                callback=make_callback(division, teams),
+                content_type="text/html",
+            )
+        # Default catch-all for divisions not in our fake league (returns empty page)
+        responses.add(
             responses.POST, STANDINGS_URL,
-            callback=make_callback(division, teams),
-            content_type="text/html",
+            body='<html><body>no standings</body></html>', status=200,
         )
-    # Default catch-all for divisions not in our fake league (returns empty page)
-    responses.add(
-        responses.POST, STANDINGS_URL,
-        body='<html><body>no standings</body></html>', status=200,
-    )
 
-    # Use only a subset of divisions to keep the test fast
-    divisions = list(FAKE_LEAGUE.keys())
+        # Use only a subset of divisions to keep the test fast
+        divisions = list(FAKE_LEAGUE.keys())
 
-    with tempfile.TemporaryDirectory() as tmp:
-        out_path = Path(tmp) / "team_index.json"
-        cache_dir = Path(tmp) / "cache"
+        with tempfile.TemporaryDirectory() as tmp:
+            out_path = Path(tmp) / "team_index.json"
+            cache_dir = Path(tmp) / "cache"
 
-        cmd = [
-            sys.executable, str(Path(__file__).parent / "build_team_index.py"),
-            "--divisions", ",".join(divisions),
-            "--out", str(out_path),
-            "--cache-dir", str(cache_dir),
-            "--delay", "0",
-        ]
-        # We need to run inside the same process so responses.activate works.
-        # So instead of subprocess, call main() directly.
-        sys.argv = cmd[1:]  # strip python executable, set as if invoked
-        sys.argv[0] = "build_team_index.py"
+            cmd = [
+                sys.executable, str(Path(__file__).parent / "build_team_index.py"),
+                "--divisions", ",".join(divisions),
+                "--out", str(out_path),
+                "--cache-dir", str(cache_dir),
+                "--delay", "0",
+            ]
+            # We need to run inside the same process so responses.activate works.
+            # So instead of subprocess, call main() directly.
+            sys.argv = cmd[1:]  # strip python executable, set as if invoked
+            sys.argv[0] = "build_team_index.py"
 
-        # Import and call main directly so the mocked responses session is shared
-        import build_team_index
-        build_team_index.main()
+            # Import and call main directly so the mocked responses session is shared
+            import build_team_index
+            build_team_index.main()
 
-        data = json.loads(out_path.read_text())
+            data = json.loads(out_path.read_text())
 
-    # Verify
-    assert "Tenafly-B12B-Schwartzberg" in data["by_team"]
-    assert data["by_team"]["Tenafly-B12B-Schwartzberg"]["division"] == "B12B"
-    assert "Tenafly" in data["by_club"]
-    tenafly = data["by_club"]["Tenafly"]
-    assert len(tenafly) == 3, f"expected 3 Tenafly teams, got {len(tenafly)}: {tenafly}"
-    assert "B10R" in data["empty_divisions"]
-    assert not data["errors"]
-    print("\nDry-run integration test: PASS")
+        # Verify
+        assert "Tenafly-B12B-Schwartzberg" in data["by_team"]
+        assert data["by_team"]["Tenafly-B12B-Schwartzberg"]["division"] == "B12B"
+        assert "Tenafly" in data["by_club"]
+        tenafly = data["by_club"]["Tenafly"]
+        assert len(tenafly) == 3, f"expected 3 Tenafly teams, got {len(tenafly)}: {tenafly}"
+        assert "B10R" in data["empty_divisions"]
+        assert not data["errors"]
+    finally:
+        # Restore sys.argv to its original state
+        sys.argv[:] = original_argv
 
 
 if __name__ == "__main__":
-    main()
+    # When run directly, set up argv as if called from command line
+    sys.argv = ["test_index_builder_dryrun.py"]
+    test_index_builder_dryrun()
+    print("\nDry-run integration test: PASS")

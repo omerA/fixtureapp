@@ -1,9 +1,47 @@
 {
   "division": "G11XB",
-  "scraped_at": "2026-10-07T12:57:45.045004Z",
+  "scraped_at": "2026-10-08T13:07:03.457195Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Dragons",
+      "coach": "Cotter",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-10-07",
+          "game_number": "417957",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11XB-Vinces",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-02",
+          "game_number": "417958",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11XB-Vinces",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 1,
+      "goals_for": 10,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "Dragons-G11XB-Cotter",
+      "wins": 2
+    },
     {
       "club": "Maroons",
       "coach": "Cotter",
@@ -29,33 +67,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "Maroons-G11XB-Cotter",
-      "wins": 1
-    },
-    {
-      "club": "Dragons",
-      "coach": "Cotter",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-02",
-          "game_number": "417958",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G11XB-Vinces",
-          "result": "W",
-          "time": "07:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 1,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Dragons-G11XB-Cotter",
       "wins": 1
     },
     {
@@ -89,6 +100,44 @@
       "wins": 0
     },
     {
+      "club": "WayneBG",
+      "coach": "Vinces",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-10-07",
+          "game_number": "417957",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11XB-Cotter",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-02",
+          "game_number": "417958",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11XB-Cotter",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
+      "goal_diff": -9,
+      "goals_against": 10,
+      "goals_for": 1,
+      "losses": 2,
+      "played": 2,
+      "points": 0,
+      "team_raw": "WayneBG-G11XB-Vinces",
+      "wins": 0
+    },
+    {
       "club": "Ajax",
       "coach": "Jackson",
       "draws": 0,
@@ -113,33 +162,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "Ajax-G11XB-Jackson",
-      "wins": 0
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Vinces",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-02",
-          "game_number": "417958",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G11XB-Cotter",
-          "result": "L",
-          "time": "07:45 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 8,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "WayneBG-G11XB-Vinces",
       "wins": 0
     }
   ]

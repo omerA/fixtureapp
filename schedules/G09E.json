@@ -43,13 +43,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "22": {
       "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
       "comments": "",
@@ -92,6 +85,13 @@
       "name": "Roosevelt School",
       "size": "Small Field (8 vs 8)"
     },
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
+      "size": "Both (Small & Large)"
+    },
     "751": {
       "address": "15 Oak Lane, Essex Fells, NJ 07021",
       "comments": "9V9",
@@ -122,21 +122,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Maywood",
-      "away_score": null,
-      "away_team": "Maywood-G09E-Soto",
-      "date": "2026-09-06",
-      "division": "G09E",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "417665",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-G09E-Norris",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Maywood",
       "away_score": null,
@@ -738,6 +723,21 @@
       "time": "04:00 PM"
     },
     {
+      "away_club": "Maywood",
+      "away_score": null,
+      "away_team": "Maywood-G09E-Soto",
+      "date": "2026-11-20",
+      "division": "G09E",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
+      "game_id": "417665",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-G09E-Norris",
+      "is_upcoming": true,
+      "time": "05:30 PM"
+    },
+    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-G09E-vanGulik",
@@ -798,6 +798,6 @@
       "time": "01:15 PM"
     }
   ],
-  "scraped_at": "2026-10-07T13:01:55.473314Z",
+  "scraped_at": "2026-10-08T13:11:18.935429Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

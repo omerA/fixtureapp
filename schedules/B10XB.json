@@ -1,6 +1,13 @@
 {
   "division": "B10XB",
   "fields": {
+    "1000": {
+      "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
+      "comments": "7v7 Only -- within 9v9 field and is closer to the baseball backstop",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Center Rec 2B",
+      "size": "Small Field (8 vs 8)"
+    },
     "1102": {
       "address": "200 Dahalia Drive, New Milford, NJ 07646",
       "comments": "7 v 7",
@@ -83,6 +90,21 @@
       "time": "10:30 AM"
     },
     {
+      "away_club": "Nutley",
+      "away_score": null,
+      "away_team": "Nutley-B10XB-Rosales",
+      "date": "2026-10-23",
+      "division": "B10XB",
+      "field": "Center Rec 2B",
+      "field_id": "1000",
+      "game_id": "417930",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B10XB-Villanueva",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B10XB-James",
@@ -156,23 +178,8 @@
       "home_team": "Nutley-B10XB-Rosales",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "Nutley",
-      "away_score": null,
-      "away_team": "Nutley-B10XB-Rosales",
-      "date": "2026-12-03",
-      "division": "B10XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417930",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B10XB-Villanueva",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T12:59:24.821497Z",
+  "scraped_at": "2026-10-08T13:08:46.221414Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

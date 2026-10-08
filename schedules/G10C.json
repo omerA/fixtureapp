@@ -1,6 +1,13 @@
 {
   "division": "G10C",
   "fields": {
+    "1000": {
+      "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
+      "comments": "7v7 Only -- within 9v9 field and is closer to the baseball backstop",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Center Rec 2B",
+      "size": "Small Field (8 vs 8)"
+    },
     "1010": {
       "address": "862 Valley Brook Ave, Lyndhurst, NJ 07071",
       "comments": "Small Sided",
@@ -13,13 +20,6 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Memorial Park Ridge 2",
-      "size": "Small Field (8 vs 8)"
-    },
-    "1114": {
-      "address": "Seven Spring Rd Intersection with Seven Springs Mountain Rd, Highland Mills, NY 10930",
-      "comments": "7v7 and 9v9",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Gonzaga Park",
       "size": "Small Field (8 vs 8)"
     },
     "1159": {
@@ -49,13 +49,6 @@
       "details": "LIGHTS \u2014 GRASS",
       "name": "Hillman",
       "size": "Large Field (11 vs 11)"
-    },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
     },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
@@ -143,21 +136,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Force",
-      "away_score": null,
-      "away_team": "Force-G10C-OConnor",
-      "date": "2026-09-13",
-      "division": "G10C",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "416622",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-G10C-Ramirez",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Arsenal",
       "away_score": 1,
@@ -324,21 +302,6 @@
       "time": "03:00 PM"
     },
     {
-      "away_club": "Arsenal",
-      "away_score": null,
-      "away_team": "Arsenal-G10C-GuevaraFuentes",
-      "date": "2026-09-27",
-      "division": "G10C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414434",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-G10C-Ramirez",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Force",
       "away_score": null,
       "away_team": "Force-G10C-OConnor",
@@ -354,21 +317,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "NoArlington",
-      "away_score": 4,
-      "away_team": "NoArlington-G10C-Matos",
-      "date": "2026-09-27",
-      "division": "G10C",
-      "field": "Emerson Jr/Sr High School Small 1",
-      "field_id": "716",
-      "game_id": "414433",
-      "home_club": "Emerson",
-      "home_score": 5,
-      "home_team": "Emerson-G10C-Timmerman",
-      "is_upcoming": false,
-      "time": "10:30 AM"
-    },
-    {
       "away_club": "Montclair",
       "away_score": 3,
       "away_team": "Montclair-G10C-CioePena",
@@ -380,6 +328,21 @@
       "home_club": "Nutley",
       "home_score": 1,
       "home_team": "Nutley-G10C-Sin",
+      "is_upcoming": false,
+      "time": "10:30 AM"
+    },
+    {
+      "away_club": "NoArlington",
+      "away_score": 4,
+      "away_team": "NoArlington-G10C-Matos",
+      "date": "2026-09-27",
+      "division": "G10C",
+      "field": "Emerson Jr/Sr High School Small 1",
+      "field_id": "716",
+      "game_id": "414433",
+      "home_club": "Emerson",
+      "home_score": 5,
+      "home_team": "Emerson-G10C-Timmerman",
       "is_upcoming": false,
       "time": "10:30 AM"
     },
@@ -524,8 +487,8 @@
       "away_team": "GlenRidge-G10C-Fisher",
       "date": "2026-10-18",
       "division": "G10C",
-      "field": "Gonzaga Park",
-      "field_id": "1114",
+      "field": "Sapphire  Elementary School",
+      "field_id": "1291",
       "game_id": "414444",
       "home_club": "Force",
       "home_score": null,
@@ -704,8 +667,8 @@
       "away_team": "NoArlington-G10C-Matos",
       "date": "2026-11-01",
       "division": "G10C",
-      "field": "Gonzaga Park",
-      "field_id": "1114",
+      "field": "Sapphire  Elementary School",
+      "field_id": "1291",
       "game_id": "414453",
       "home_club": "Force",
       "home_score": null,
@@ -789,6 +752,21 @@
       "time": "05:30 PM"
     },
     {
+      "away_club": "Force",
+      "away_score": null,
+      "away_team": "Force-G10C-OConnor",
+      "date": "2026-11-14",
+      "division": "G10C",
+      "field": "Center Rec 2B",
+      "field_id": "1000",
+      "game_id": "416622",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-G10C-Ramirez",
+      "is_upcoming": true,
+      "time": "04:45 PM"
+    },
+    {
       "away_club": "Montclair",
       "away_score": null,
       "away_team": "Montclair-G10C-CioePena",
@@ -832,6 +810,21 @@
       "home_team": "Vikings-G10C-Jain",
       "is_upcoming": true,
       "time": "03:15 PM"
+    },
+    {
+      "away_club": "Arsenal",
+      "away_score": null,
+      "away_team": "Arsenal-G10C-GuevaraFuentes",
+      "date": "2026-11-20",
+      "division": "G10C",
+      "field": "Center Rec Field 2A",
+      "field_id": "998",
+      "game_id": "414434",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-G10C-Ramirez",
+      "is_upcoming": true,
+      "time": "06:30 PM"
     },
     {
       "away_club": "Force",
@@ -894,6 +887,6 @@
       "time": "03:30 PM"
     }
   ],
-  "scraped_at": "2026-10-07T13:02:06.763551Z",
+  "scraped_at": "2026-10-08T13:11:30.492831Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

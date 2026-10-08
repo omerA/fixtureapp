@@ -64,13 +64,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "32": {
       "address": "55 Pyle Street, Oradell, NJ 07649",
       "comments": "",
@@ -80,21 +73,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-G13B-Buttacavoli",
-      "date": "2026-09-06",
-      "division": "G13B",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "414997",
-      "home_club": "GlenRock",
-      "home_score": null,
-      "home_team": "GlenRock-G13B-Mulkeen",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Spartan",
       "away_score": 2,
@@ -516,6 +494,21 @@
       "time": "09:00 AM"
     },
     {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-G13B-Buttacavoli",
+      "date": "2026-11-14",
+      "division": "G13B",
+      "field": "Glen Rock High School - Lower Turf",
+      "field_id": "146",
+      "game_id": "414997",
+      "home_club": "GlenRock",
+      "home_score": null,
+      "home_team": "GlenRock-G13B-Mulkeen",
+      "is_upcoming": true,
+      "time": "05:30 PM"
+    },
+    {
       "away_club": "Tenafly",
       "away_score": null,
       "away_team": "Tenafly-G13B-Pak",
@@ -606,6 +599,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-10-07T13:03:02.288170Z",
+  "scraped_at": "2026-10-08T13:12:26.744488Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

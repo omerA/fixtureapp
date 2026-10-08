@@ -85,13 +85,6 @@
       "name": "Old Mill Park",
       "size": "Small Field (8 vs 8)"
     },
-    "297": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "F1",
-      "size": "Both (Small & Large)"
-    },
     "336": {
       "address": "Bergenline Ave, Closter, NJ 07624",
       "comments": "",
@@ -190,21 +183,6 @@
       "home_club": "Paramus",
       "home_score": null,
       "home_team": "Paramus-B12F-Buttacavoli",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-B12F-Bott",
-      "date": "2026-09-12",
-      "division": "B12F",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "415785",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-B12F-Whalen",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -1002,8 +980,23 @@
       "home_team": "Maroons-B12F-Gillies",
       "is_upcoming": true,
       "time": "03:45 PM"
+    },
+    {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-B12F-Bott",
+      "date": "2026-11-22",
+      "division": "B12F",
+      "field": "Gateway Field",
+      "field_id": "1150",
+      "game_id": "415785",
+      "home_club": "GlobalJC",
+      "home_score": null,
+      "home_team": "GlobalJC-B12F-Whalen",
+      "is_upcoming": true,
+      "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-07T13:00:20.787155Z",
+  "scraped_at": "2026-10-08T13:09:42.989213Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

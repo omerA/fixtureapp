@@ -50,6 +50,13 @@
       "name": "Maple Park",
       "size": "Large Field (11 vs 11)"
     },
+    "503": {
+      "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Stevens Field",
+      "size": "Large Field (11 vs 11)"
+    },
     "819": {
       "address": "Barbour Pond Drive, Wayne, NJ 07470",
       "comments": "",
@@ -132,21 +139,6 @@
       "home_team": "Vikings-G13D-Flanagan",
       "is_upcoming": false,
       "time": "12:00 PM"
-    },
-    {
-      "away_club": "HobUtd",
-      "away_score": null,
-      "away_team": "HobUtd-G13D-Gray",
-      "date": "2026-09-27",
-      "division": "G13D",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415202",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G13D-Austin",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Vikings",
@@ -437,6 +429,21 @@
       "away_club": "HobUtd",
       "away_score": null,
       "away_team": "HobUtd-G13D-Gray",
+      "date": "2026-11-14",
+      "division": "G13D",
+      "field": "Stevens Field",
+      "field_id": "503",
+      "game_id": "415202",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G13D-Austin",
+      "is_upcoming": true,
+      "time": "06:15 PM"
+    },
+    {
+      "away_club": "HobUtd",
+      "away_score": null,
+      "away_team": "HobUtd-G13D-Gray",
       "date": "2026-11-15",
       "division": "G13D",
       "field": "Old Tappan High School - Turf",
@@ -524,6 +531,6 @@
       "time": "02:45 PM"
     }
   ],
-  "scraped_at": "2026-10-07T13:03:07.892610Z",
+  "scraped_at": "2026-10-08T13:12:32.390192Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

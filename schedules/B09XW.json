@@ -49,6 +49,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
+    },
+    "998": {
+      "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
+      "comments": "7v7 only -- Field is within the 9v9 field and is the one closer to the parking lot",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Center Rec Field 2A",
+      "size": "Small Field (8 vs 8)"
     }
   },
   "games": [
@@ -111,6 +118,21 @@
       "home_team": "CougarSC-B09XW-PerryLedoux",
       "is_upcoming": true,
       "time": "12:30 PM"
+    },
+    {
+      "away_club": "Broncos",
+      "away_score": null,
+      "away_team": "Broncos-B09XW-Grunauer",
+      "date": "2026-10-30",
+      "division": "B09XW",
+      "field": "Center Rec Field 2A",
+      "field_id": "998",
+      "game_id": "418012",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B09XW-Gudovich",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     },
     {
       "away_club": "NMKnights",
@@ -276,23 +298,8 @@
       "home_team": "Broncos-B09XW-Grunauer",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "Broncos",
-      "away_score": null,
-      "away_team": "Broncos-B09XW-Grunauer",
-      "date": "2026-12-03",
-      "division": "B09XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418012",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B09XW-Gudovich",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-07T12:58:51.406285Z",
+  "scraped_at": "2026-10-08T13:08:12.245098Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

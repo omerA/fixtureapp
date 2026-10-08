@@ -10,7 +10,8 @@
       "Ajax-G10D-Trentacosti",
       "Ajax-G11C-Jackson",
       "Ajax-G11XB-Jackson",
-      "Ajax-G13C-Jackson"
+      "Ajax-G13C-Jackson",
+      "Ajax-G13XB-Jackson"
     ],
     "Americans": [
       "Americans-B08A4-Falciglia",
@@ -93,6 +94,7 @@
     ],
     "Broncos": [
       "Broncos-B09D-Grunauer",
+      "Broncos-B09XW-Grunauer",
       "Broncos-B11H-Chavez",
       "Broncos-B13F-Chaves"
     ],
@@ -239,8 +241,10 @@
       "FairLawnAllSports-B09EW-Gudovich",
       "FairLawnAllSports-B09G-Niland",
       "FairLawnAllSports-B09H-Bashan",
+      "FairLawnAllSports-B09XW-Gudovich",
       "FairLawnAllSports-B10A-Villanueva",
       "FairLawnAllSports-B10E-Ayesteran",
+      "FairLawnAllSports-B10XB-Villanueva",
       "FairLawnAllSports-B11A-Arcentales",
       "FairLawnAllSports-B11D-Maalouf",
       "FairLawnAllSports-B11XB-Arcentales",
@@ -260,6 +264,7 @@
       "FairLawnAllSports-G11DB-Mandile",
       "FairLawnAllSports-G11XB-Kubasta",
       "FairLawnAllSports-G12A-Londono",
+      "FairLawnAllSports-G13XB-Rand",
       "FairLawnAllSports-G14B-Rand",
       "FairLawnAllSports-G14C-Puzino",
       "FairLawnAllSports-G15A-Cepeda"
@@ -611,6 +616,7 @@
       "Nutley-B09XB-Crespo",
       "Nutley-B10B-Rosales",
       "Nutley-B10DB-Lelinho",
+      "Nutley-B10XB-Rosales",
       "Nutley-B11A-Sceppaguercio",
       "Nutley-B11F-Zurita",
       "Nutley-B11XB-Sceppaguercio",
@@ -702,7 +708,8 @@
       "RiverDell-G13A-DelCorral",
       "RiverDell-G13B-Hill",
       "RiverDell-G13XB-DelCorral",
-      "RiverDell-G14B-Marchetti"
+      "RiverDell-G14B-Marchetti",
+      "RiverDell-G14XB-Marchetti"
     ],
     "Rutherford": [
       "Rutherford-B08CW7-Seaman",
@@ -947,7 +954,8 @@
       "Warriors-G12A-Lanz",
       "Warriors-G12B-Orozco",
       "Warriors-G12XB-Lanz",
-      "Warriors-G14C-Clark"
+      "Warriors-G14C-Clark",
+      "Warriors-G14XB-Clark"
     ],
     "WayneBG": [
       "WayneBG-B09G-Bechara",
@@ -1070,6 +1078,11 @@
       "club": "Ajax",
       "coach": "Jackson",
       "division": "G13C"
+    },
+    "Ajax-G13XB-Jackson": {
+      "club": "Ajax",
+      "coach": "Jackson",
+      "division": "G13XB"
     },
     "Americans-B08A4-Falciglia": {
       "club": "Americans",
@@ -1410,6 +1423,11 @@
       "club": "Broncos",
       "coach": "Grunauer",
       "division": "B09D"
+    },
+    "Broncos-B09XW-Grunauer": {
+      "club": "Broncos",
+      "coach": "Grunauer",
+      "division": "B09XW"
     },
     "Broncos-B11H-Chavez": {
       "club": "Broncos",
@@ -2051,6 +2069,11 @@
       "coach": "Bashan",
       "division": "B09H"
     },
+    "FairLawnAllSports-B09XW-Gudovich": {
+      "club": "FairLawnAllSports",
+      "coach": "Gudovich",
+      "division": "B09XW"
+    },
     "FairLawnAllSports-B10A-Villanueva": {
       "club": "FairLawnAllSports",
       "coach": "Villanueva",
@@ -2060,6 +2083,11 @@
       "club": "FairLawnAllSports",
       "coach": "Ayesteran",
       "division": "B10E"
+    },
+    "FairLawnAllSports-B10XB-Villanueva": {
+      "club": "FairLawnAllSports",
+      "coach": "Villanueva",
+      "division": "B10XB"
     },
     "FairLawnAllSports-B11A-Arcentales": {
       "club": "FairLawnAllSports",
@@ -2155,6 +2183,11 @@
       "club": "FairLawnAllSports",
       "coach": "Londono",
       "division": "G12A"
+    },
+    "FairLawnAllSports-G13XB-Rand": {
+      "club": "FairLawnAllSports",
+      "coach": "Rand",
+      "division": "G13XB"
     },
     "FairLawnAllSports-G14B-Rand": {
       "club": "FairLawnAllSports",
@@ -3681,6 +3714,11 @@
       "coach": "Lelinho",
       "division": "B10DB"
     },
+    "Nutley-B10XB-Rosales": {
+      "club": "Nutley",
+      "coach": "Rosales",
+      "division": "B10XB"
+    },
     "Nutley-B11A-Sceppaguercio": {
       "club": "Nutley",
       "coach": "Sceppaguercio",
@@ -4090,6 +4128,11 @@
       "club": "RiverDell",
       "coach": "Marchetti",
       "division": "G14B"
+    },
+    "RiverDell-G14XB-Marchetti": {
+      "club": "RiverDell",
+      "coach": "Marchetti",
+      "division": "G14XB"
     },
     "Rutherford-B08CW7-Seaman": {
       "club": "Rutherford",
@@ -5166,6 +5209,11 @@
       "coach": "Clark",
       "division": "G14C"
     },
+    "Warriors-G14XB-Clark": {
+      "club": "Warriors",
+      "coach": "Clark",
+      "division": "G14XB"
+    },
     "WayneBG-B09G-Bechara": {
       "club": "WayneBG",
       "coach": "Bechara",
@@ -5638,7 +5686,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-07T12:57:40.050278+00:00",
+  "scraped_at": "2026-10-08T13:06:58.402500+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

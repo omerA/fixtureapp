@@ -1,6 +1,6 @@
 {
   "division": "B11H",
-  "scraped_at": "2026-10-07T12:57:42.513631Z",
+  "scraped_at": "2026-10-08T13:07:00.915049Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -68,7 +68,7 @@
       "club": "Maroons",
       "coach": "Lawrence",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
         {
           "date": "2026-09-19",
@@ -91,16 +91,27 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-07",
+          "game_number": "417818",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11H-Camara",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 3,
-      "goals_for": 11,
+      "goal_diff": 10,
+      "goals_against": 5,
+      "goals_for": 15,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "Maroons-B11H-Lawrence",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Torpedoes",
@@ -182,7 +193,7 @@
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-10-03",
@@ -193,6 +204,17 @@
           "opponent_raw": "Broncos-B11H-Chavez",
           "result": "L",
           "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-07",
+          "game_number": "417818",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-Lawrence",
+          "result": "L",
+          "time": "06:00 PM",
           "venue_code": "WYNE-Alps2"
         },
         {
@@ -207,11 +229,11 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 14,
-      "goals_for": 3,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -13,
+      "goals_against": 18,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "WayneBG-B11H-Camara",
       "wins": 0

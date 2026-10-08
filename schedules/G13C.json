@@ -36,13 +36,6 @@
       "name": "Franklin Avenue Middle School - FAMS",
       "size": "Large Field (11 vs 11)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -77,6 +70,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Votee - Soccer Hoffman's Pitch",
       "size": "Both (Small & Large)"
+    },
+    "687": {
+      "address": "1129 Palisades Ave, Teaneck, NJ 07666",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Votee- Football",
+      "size": "Large Field (11 vs 11)"
     },
     "94": {
       "address": "862 Valley Brook Ave, Lyndhurst, NJ 07071",
@@ -116,21 +116,6 @@
       "home_team": "Ajax-G13C-Jackson",
       "is_upcoming": false,
       "time": "02:00 PM"
-    },
-    {
-      "away_club": "GlobalJC",
-      "away_score": null,
-      "away_team": "GlobalJC-G13C-Charoth",
-      "date": "2026-09-20",
-      "division": "G13C",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "415171",
-      "home_club": "TeaneckFC",
-      "home_score": null,
-      "home_team": "TeaneckFC-G13C-Valle",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Fairview",
@@ -478,6 +463,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-G13C-Charoth",
+      "date": "2026-11-14",
+      "division": "G13C",
+      "field": "Votee- Football",
+      "field_id": "687",
+      "game_id": "415171",
+      "home_club": "TeaneckFC",
+      "home_score": null,
+      "home_team": "TeaneckFC-G13C-Valle",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Fairview",
       "away_score": null,
       "away_team": "Fairview-G13C-Macias",
@@ -538,6 +538,6 @@
       "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-10-07T13:03:05.119360Z",
+  "scraped_at": "2026-10-08T13:12:29.580455Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -85,6 +85,13 @@
       "name": "Memorial No 4",
       "size": "Small Field (8 vs 8)"
     },
+    "397": {
+      "address": "Darwin and Monona Avenue, Rutherford, NJ 07070",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Memorial No 1",
+      "size": "Large Field (11 vs 11)"
+    },
     "402": {
       "address": "150 Knickerbocker Rd, Demarest, NJ 07627",
       "comments": "",
@@ -371,21 +378,6 @@
       "time": "05:00 PM"
     },
     {
-      "away_club": "Rutherford",
-      "away_score": null,
-      "away_team": "Rutherford-B08D4-Millar",
-      "date": "2026-10-17",
-      "division": "B08D4",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "415933",
-      "home_club": "Belleville",
-      "home_score": null,
-      "home_team": "Belleville-B08D4-Martinez",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Spartan",
       "away_score": null,
       "away_team": "Spartan-B08D4-Musano",
@@ -429,6 +421,21 @@
       "home_team": "Vikings-B08D4-Resh",
       "is_upcoming": true,
       "time": "03:30 PM"
+    },
+    {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B08D4-Martinez",
+      "date": "2026-10-17",
+      "division": "B08D4",
+      "field": "Memorial No 1",
+      "field_id": "397",
+      "game_id": "415933",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-B08D4-Millar",
+      "is_upcoming": true,
+      "time": "04:00 PM"
     },
     {
       "away_club": "Arsenal",
@@ -866,6 +873,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-08T13:07:26.035121Z",
+  "scraped_at": "2026-10-09T12:53:09.926969Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

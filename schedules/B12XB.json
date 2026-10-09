@@ -1,6 +1,13 @@
 {
   "division": "B12XB",
   "fields": {
+    "204": {
+      "address": "Corner of Third St and Madison Ave, Cresskill, NJ 07626",
+      "comments": "For U11 & U12 (9v9)",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Cook Field- AKA Front Field",
+      "size": "Both (Small & Large)"
+    },
     "374": {
       "address": "Williams Drive, Ramsey, NJ 07446",
       "comments": "",
@@ -13,6 +20,13 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Lyndhurst Rec Center Field 3",
+      "size": "Small Field (8 vs 8)"
+    },
+    "53": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "60 x 110",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - SS 2",
       "size": "Small Field (8 vs 8)"
     },
     "704": {
@@ -31,6 +45,21 @@
     }
   },
   "games": [
+    {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-B12XB-Rotolo",
+      "date": "2026-10-15",
+      "division": "B12XB",
+      "field": "Veterans Field - SS 2",
+      "field_id": "53",
+      "game_id": "417946",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B12XB-Breheny",
+      "is_upcoming": true,
+      "time": "05:45 PM"
+    },
     {
       "away_club": "Maroons",
       "away_score": null,
@@ -80,31 +109,16 @@
       "away_club": "Lyndhurst",
       "away_score": null,
       "away_team": "Lyndhurst-B12XB-Seddiki",
-      "date": "2026-12-03",
+      "date": "2026-11-19",
       "division": "B12XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
+      "field": "Cook Field- AKA Front Field",
+      "field_id": "204",
       "game_id": "417948",
       "home_club": "CougarUtd",
       "home_score": null,
       "home_team": "CougarUtd-B12XB-DePiccioto",
       "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-B12XB-Rotolo",
-      "date": "2026-12-03",
-      "division": "B12XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417946",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B12XB-Breheny",
-      "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "07:00 PM"
     },
     {
       "away_club": "Nutley",
@@ -152,6 +166,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-08T13:09:51.257219Z",
+  "scraped_at": "2026-10-09T12:55:32.739438Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -8,13 +8,6 @@
       "name": "Samuel Braen Memorial Park 9v9",
       "size": "Small Field (8 vs 8)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "190": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -35,6 +28,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Lower Adorno",
       "size": "Both (Small & Large)"
+    },
+    "374": {
+      "address": "Williams Drive, Ramsey, NJ 07446",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Lower McFarran Field",
+      "size": "Large Field (11 vs 11)"
     },
     "398": {
       "address": "199 Monona Avenue, Rutherford, NJ 07070",
@@ -434,6 +434,21 @@
       "time": "10:15 AM"
     },
     {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-B12H-Gillies",
+      "date": "2026-11-11",
+      "division": "B12H",
+      "field": "Lower McFarran Field",
+      "field_id": "374",
+      "game_id": "417476",
+      "home_club": "Hotspur",
+      "home_score": null,
+      "home_team": "Hotspur-B12H-Luzzetti",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Hotspur",
       "away_score": null,
       "away_team": "Hotspur-B12H-Luzzetti",
@@ -479,21 +494,6 @@
       "time": "03:15 PM"
     },
     {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-B12H-Gillies",
-      "date": "2026-11-21",
-      "division": "B12H",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "417476",
-      "home_club": "Hotspur",
-      "home_score": null,
-      "home_team": "Hotspur-B12H-Luzzetti",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "WestEssex",
       "away_score": null,
       "away_team": "WestEssex-B12H-Pajuelo",
@@ -524,6 +524,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-08T13:09:48.563239Z",
+  "scraped_at": "2026-10-09T12:55:30.005576Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

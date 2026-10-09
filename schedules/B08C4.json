@@ -29,25 +29,11 @@
       "name": "Lions - South - 7x7",
       "size": "Small Field (8 vs 8)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "190": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
     "297": {
@@ -184,21 +170,6 @@
       "home_team": "NMKnights-B08C4-Mitchell",
       "is_upcoming": false,
       "time": "02:30 PM"
-    },
-    {
-      "away_club": "Vikings",
-      "away_score": null,
-      "away_team": "Vikings-B08C4-Graciano",
-      "date": "2026-09-27",
-      "division": "B08C4",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415279",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B08C4-Chambers",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Spartan",
@@ -411,19 +382,19 @@
       "time": "01:00 PM"
     },
     {
-      "away_club": "NMKnights",
+      "away_club": "Vikings",
       "away_score": null,
-      "away_team": "NMKnights-B08C4-Mitchell",
-      "date": "2026-11-07",
+      "away_team": "Vikings-B08C4-Graciano",
+      "date": "2026-11-01",
       "division": "B08C4",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "415301",
-      "home_club": "Vikings",
+      "field": "Veterans Field - FS 3",
+      "field_id": "1109",
+      "game_id": "415279",
+      "home_club": "Maroons",
       "home_score": null,
-      "home_team": "Vikings-B08C4-Graciano",
+      "home_team": "Maroons-B08C4-Chambers",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "12:00 PM"
     },
     {
       "away_club": "Ajax",
@@ -439,6 +410,21 @@
       "home_team": "Maroons-B08C4-Chambers",
       "is_upcoming": true,
       "time": "01:00 PM"
+    },
+    {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-B08C4-Mitchell",
+      "date": "2026-11-07",
+      "division": "B08C4",
+      "field": "VIK-DemarestHS-Upper4v4",
+      "field_id": "402",
+      "game_id": "415301",
+      "home_club": "Vikings",
+      "home_score": null,
+      "home_team": "Vikings-B08C4-Graciano",
+      "is_upcoming": true,
+      "time": "02:00 PM"
     },
     {
       "away_club": "Maroons",
@@ -531,6 +517,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-08T13:07:17.445385Z",
+  "scraped_at": "2026-10-09T12:53:01.464898Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

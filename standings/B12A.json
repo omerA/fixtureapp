@@ -1,6 +1,6 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-10-08T13:07:00.995898Z",
+  "scraped_at": "2026-10-09T12:52:47.053444Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -203,8 +203,8 @@
     {
       "club": "Lyndhurst",
       "coach": "Seddiki",
-      "draws": 0,
-      "form": "WLL",
+      "draws": 1,
+      "form": "WLLD",
       "games": [
         {
           "date": "2026-09-12",
@@ -238,22 +238,33 @@
           "result": "L",
           "time": "12:15 PM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-10-08",
+          "game_number": "416242",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12A-Rotolo",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
       "goal_diff": -1,
-      "goals_against": 10,
-      "goals_for": 9,
+      "goals_against": 13,
+      "goals_for": 12,
       "losses": 2,
-      "played": 3,
-      "points": 3,
+      "played": 4,
+      "points": 4,
       "team_raw": "Lyndhurst-B12A-Seddiki",
       "wins": 1
     },
     {
       "club": "Hotspur",
       "coach": "Rotolo",
-      "draws": 0,
-      "form": "L",
+      "draws": 1,
+      "form": "LD",
       "games": [
         {
           "date": "2026-09-19",
@@ -265,14 +276,25 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-08",
+          "game_number": "416242",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12A-Seddiki",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
       "goal_diff": -3,
-      "goals_against": 3,
-      "goals_for": 0,
+      "goals_against": 6,
+      "goals_for": 3,
       "losses": 1,
-      "played": 1,
-      "points": 0,
+      "played": 2,
+      "points": 1,
       "team_raw": "Hotspur-B12A-Rotolo",
       "wins": 0
     }

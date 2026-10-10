@@ -1,6 +1,6 @@
 {
   "division": "G13C",
-  "scraped_at": "2026-10-09T12:52:48.845996Z",
+  "scraped_at": "2026-10-10T12:12:11.702214Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -76,6 +76,55 @@
       "wins": 3
     },
     {
+      "club": "RYSA",
+      "coach": "Deubel",
+      "draws": 1,
+      "form": "WDW",
+      "games": [
+        {
+          "date": "2026-10-08",
+          "game_number": "415168",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-G13C-Valle",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RYSA-OakMuni"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415170",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G13C-Gonzalez",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415175",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G13C-Jackson",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "RYSA-MBS"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 3,
+      "goals_for": 11,
+      "losses": 0,
+      "played": 3,
+      "points": 7,
+      "team_raw": "RYSA-G13C-Deubel",
+      "wins": 2
+    },
+    {
       "club": "Ajax",
       "coach": "Jackson",
       "draws": 2,
@@ -123,59 +172,6 @@
       "points": 5,
       "team_raw": "Ajax-G13C-Jackson",
       "wins": 1
-    },
-    {
-      "club": "RYSA",
-      "coach": "Deubel",
-      "draws": 1,
-      "form": "WD",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415170",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G13C-Gonzalez",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415175",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G13C-Jackson",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "RYSA-MBS"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 3,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "RYSA-G13C-Deubel",
-      "wins": 1
-    },
-    {
-      "club": "TeaneckFC",
-      "coach": "Valle",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "TeaneckFC-G13C-Valle",
-      "wins": 0
     },
     {
       "club": "Fairview",
@@ -251,6 +247,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "GlobalJC-G13C-Charoth",
+      "wins": 0
+    },
+    {
+      "club": "TeaneckFC",
+      "coach": "Valle",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-08",
+          "game_number": "415168",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-G13C-Deubel",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "RYSA-OakMuni"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "TeaneckFC-G13C-Valle",
       "wins": 0
     }
   ]

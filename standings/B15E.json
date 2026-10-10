@@ -1,6 +1,6 @@
 {
   "division": "B15E",
-  "scraped_at": "2026-10-09T12:52:47.884216Z",
+  "scraped_at": "2026-10-10T12:12:10.032200Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -125,37 +125,10 @@
       "wins": 2
     },
     {
-      "club": "WayneBG",
-      "coach": "Houghton",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "417612",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B15E-Viafara",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps3"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 1,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "WayneBG-B15E-Houghton",
-      "wins": 1
-    },
-    {
       "club": "Lyndhurst",
       "coach": "Barbieri",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -189,15 +162,53 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "417620",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B15E-Gudovich",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 5,
-      "goals_for": 6,
+      "goal_diff": 6,
+      "goals_against": 6,
+      "goals_for": 12,
       "losses": 2,
-      "played": 3,
-      "points": 3,
+      "played": 4,
+      "points": 6,
       "team_raw": "Lyndhurst-B15E-Barbieri",
+      "wins": 2
+    },
+    {
+      "club": "WayneBG",
+      "coach": "Houghton",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "417612",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B15E-Viafara",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps3"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 1,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "WayneBG-B15E-Houghton",
       "wins": 1
     },
     {
@@ -253,7 +264,7 @@
       "club": "FairLawnAllSports",
       "coach": "Gudovich",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -287,13 +298,24 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "417620",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B15E-Barbieri",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 17,
-      "goals_for": 2,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -20,
+      "goals_against": 23,
+      "goals_for": 3,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "FairLawnAllSports-B15E-Gudovich",
       "wins": 0

@@ -50,6 +50,13 @@
       "name": "Lincoln School - Field 1",
       "size": "Small Field (8 vs 8)"
     },
+    "65": {
+      "address": "40 East Allendale Avenue, Allendale, NJ 07401",
+      "comments": "Small 7 v 7",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Guardian Angel",
+      "size": "Small Field (8 vs 8)"
+    },
     "69": {
       "address": "340 Franklin Turnpike, Ho-Ho-Kus, NJ 07423",
       "comments": "7 v 7 & 9 v 9",
@@ -278,7 +285,7 @@
     },
     {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 8,
       "away_team": "Torpedoes-G08B4-Madonia",
       "date": "2026-10-09",
       "division": "G08B4",
@@ -286,9 +293,9 @@
       "field_id": "1109",
       "game_id": "414597",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Maroons-G08B4-Forsythe",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "04:30 PM"
     },
     {
@@ -357,14 +364,14 @@
       "away_team": "WoodRidge-G08B4-Guzman",
       "date": "2026-10-18",
       "division": "G08B4",
-      "field": "St. Luke's Church",
-      "field_id": "69",
+      "field": "Guardian Angel",
+      "field_id": "65",
       "game_id": "414726",
       "home_club": "Americans",
       "home_score": null,
       "home_team": "Americans-G08B4-Ross",
       "is_upcoming": true,
-      "time": "02:00 PM"
+      "time": "03:00 PM"
     },
     {
       "away_club": "WoodRidge",
@@ -592,6 +599,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:56:42.690961Z",
+  "scraped_at": "2026-10-10T12:16:07.161235Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

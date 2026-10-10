@@ -119,6 +119,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Parkway Middle School 7",
       "size": "Small Field (8 vs 8)"
+    },
+    "943": {
+      "address": "377 West Saddle River Road, Upper Saddle River, NJ 07458",
+      "comments": "U8's 4 v 4",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Reynolds North",
+      "size": "Small Field (8 vs 8)"
     }
   },
   "games": [
@@ -405,7 +412,7 @@
       "home_score": null,
       "home_team": "Americans-B08D4-Svarnas",
       "is_upcoming": true,
-      "time": "11:00 AM"
+      "time": "01:00 PM"
     },
     {
       "away_club": "Americans",
@@ -436,6 +443,21 @@
       "home_team": "Rutherford-B08D4-Millar",
       "is_upcoming": true,
       "time": "04:00 PM"
+    },
+    {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B08D4-Martinez",
+      "date": "2026-10-18",
+      "division": "B08D4",
+      "field": "Reynolds North",
+      "field_id": "943",
+      "game_id": "415948",
+      "home_club": "Americans",
+      "home_score": null,
+      "home_team": "Americans-B08D4-Svarnas",
+      "is_upcoming": true,
+      "time": "03:30 PM"
     },
     {
       "away_club": "Arsenal",
@@ -663,21 +685,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-B08D4-Martinez",
-      "date": "2026-11-07",
-      "division": "B08D4",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "415948",
-      "home_club": "Americans",
-      "home_score": null,
-      "home_team": "Americans-B08D4-Svarnas",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Spartan",
       "away_score": null,
       "away_team": "Spartan-B08D4-Musano",
@@ -873,6 +880,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:53:09.926969Z",
+  "scraped_at": "2026-10-10T12:12:34.249830Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

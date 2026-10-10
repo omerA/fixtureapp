@@ -64,6 +64,13 @@
       "name": "Borden Park 2",
       "size": "Small Field (8 vs 8)"
     },
+    "845": {
+      "address": "234 Lake Street, Upper Saddle River, NJ 07458",
+      "comments": "Median 9 v 9 Field",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Lions Park South Playground",
+      "size": "Small Field (8 vs 8)"
+    },
     "901": {
       "address": "145 E. Ridgewood Avenue, Paramus, NJ 07652",
       "comments": "",
@@ -366,21 +373,6 @@
       "time": "09:00 AM"
     },
     {
-      "away_club": "FF",
-      "away_score": null,
-      "away_team": "FF-B08A4-Cortez",
-      "date": "2026-10-31",
-      "division": "B08A4",
-      "field": "St. Luke's - 4v4 - East",
-      "field_id": "1285",
-      "game_id": "417393",
-      "home_club": "Americans",
-      "home_score": null,
-      "home_team": "Americans-B08A4-Falciglia",
-      "is_upcoming": true,
-      "time": "09:00 AM"
-    },
-    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B08A4-Mazzullo",
@@ -409,6 +401,21 @@
       "home_team": "Spartan-B08A4-Hegyi",
       "is_upcoming": true,
       "time": "10:00 AM"
+    },
+    {
+      "away_club": "FF",
+      "away_score": null,
+      "away_team": "FF-B08A4-Cortez",
+      "date": "2026-11-01",
+      "division": "B08A4",
+      "field": "Lions Park South Playground",
+      "field_id": "845",
+      "game_id": "417393",
+      "home_club": "Americans",
+      "home_score": null,
+      "home_team": "Americans-B08A4-Falciglia",
+      "is_upcoming": true,
+      "time": "12:00 PM"
     },
     {
       "away_club": "Spartan",
@@ -531,6 +538,6 @@
       "time": "12:00 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:52:50.271863Z",
+  "scraped_at": "2026-10-10T12:12:13.909585Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -22,6 +22,13 @@
       "name": "Back Beach Park 3 Full-Sided",
       "size": "Large Field (11 vs 11)"
     },
+    "1293": {
+      "address": "470-482 Valley St, South Orange, NJ 07079",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Ritzer Field",
+      "size": "Large Field (11 vs 11)"
+    },
     "172": {
       "address": "19 Scott Court - Bottom of Cedar Street, Ridgefield Park, NJ 07660",
       "comments": "11v11 and 9v9",
@@ -35,13 +42,6 @@
       "details": "LIGHTS \u2014 GRASS",
       "name": "Regan Field Full",
       "size": "Large Field (11 vs 11)"
-    },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
     },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
@@ -73,21 +73,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Verona",
-      "away_score": null,
-      "away_team": "Verona-G14E-Luftglass",
-      "date": "2026-09-13",
-      "division": "G14E",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "416839",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-G14E-Connolly",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "RdgfldPk",
       "away_score": 1,
@@ -282,6 +267,21 @@
       "home_team": "CougarUtd-G14E-Casella",
       "is_upcoming": true,
       "time": "02:30 PM"
+    },
+    {
+      "away_club": "Verona",
+      "away_score": null,
+      "away_team": "Verona-G14E-Luftglass",
+      "date": "2026-10-24",
+      "division": "G14E",
+      "field": "Ritzer Field",
+      "field_id": "1293",
+      "game_id": "416839",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-G14E-Connolly",
+      "is_upcoming": true,
+      "time": "04:30 PM"
     },
     {
       "away_club": "CougarUtd",
@@ -524,6 +524,6 @@
       "time": "02:45 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:58:34.026819Z",
+  "scraped_at": "2026-10-10T12:17:57.951108Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

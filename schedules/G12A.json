@@ -1,6 +1,13 @@
 {
   "division": "G12A",
   "fields": {
+    "101": {
+      "address": "155 Summit Ave., Waldwick, NJ 07463",
+      "comments": "Small sided",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Traphagen- Small Sided",
+      "size": "Small Field (8 vs 8)"
+    },
     "102": {
       "address": "117 Wyckoff Ave, Waldwick, NJ 07463",
       "comments": "",
@@ -282,7 +289,7 @@
     },
     {
       "away_club": "FairLawnAllSports",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "FairLawnAllSports-G12A-Londono",
       "date": "2026-10-09",
       "division": "G12A",
@@ -290,9 +297,9 @@
       "field_id": "1255",
       "game_id": "414520",
       "home_club": "Maywood",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Maywood-G12A-Pardo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:00 PM"
     },
     {
@@ -339,21 +346,6 @@
       "home_team": "WorldClassFC-G12A-Kaghado",
       "is_upcoming": true,
       "time": "03:00 PM"
-    },
-    {
-      "away_club": "HobUtd",
-      "away_score": null,
-      "away_team": "HobUtd-G12A-Cashman",
-      "date": "2026-10-18",
-      "division": "G12A",
-      "field": "Hopper Ave Field",
-      "field_id": "102",
-      "game_id": "414533",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-G12A-Lanz",
-      "is_upcoming": true,
-      "time": "05:00 PM"
     },
     {
       "away_club": "WayneBG",
@@ -474,6 +466,21 @@
       "home_team": "Dragons-G12A-Johnson",
       "is_upcoming": true,
       "time": "05:30 PM"
+    },
+    {
+      "away_club": "HobUtd",
+      "away_score": null,
+      "away_team": "HobUtd-G12A-Cashman",
+      "date": "2026-10-31",
+      "division": "G12A",
+      "field": "Traphagen- Small Sided",
+      "field_id": "101",
+      "game_id": "414533",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-G12A-Lanz",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "WorldClassFC",
@@ -716,6 +723,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:57:44.955329Z",
+  "scraped_at": "2026-10-10T12:17:09.832645Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

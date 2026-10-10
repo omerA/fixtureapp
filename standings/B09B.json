@@ -1,6 +1,6 @@
 {
   "division": "B09B",
-  "scraped_at": "2026-10-09T12:52:46.028651Z",
+  "scraped_at": "2026-10-10T12:12:06.873104Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -114,6 +114,66 @@
       "wins": 2
     },
     {
+      "club": "Arsenal",
+      "coach": "Nguyen",
+      "draws": 0,
+      "form": "LWLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415433",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09B-Hurtado",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415437",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09B-Crespo",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "415439",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B09B-Blum",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415442",
+          "goals_against": 7,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B09B-Anari",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 16,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Arsenal-B09B-Nguyen",
+      "wins": 2
+    },
+    {
       "club": "Nutley",
       "coach": "Crespo",
       "draws": 0,
@@ -223,59 +283,10 @@
       "wins": 1
     },
     {
-      "club": "Arsenal",
-      "coach": "Nguyen",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415433",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09B-Hurtado",
-          "result": "L",
-          "time": "06:45 PM",
-          "venue_code": "ARS-MemParkRidge3Sm"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415437",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B09B-Crespo",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415442",
-          "goals_against": 7,
-          "goals_for": 6,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B09B-Anari",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "ARS-MemParkRidge2Sm"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 13,
-      "goals_for": 13,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "Arsenal-B09B-Nguyen",
-      "wins": 1
-    },
-    {
       "club": "CougarUtd",
       "coach": "Blum",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -300,6 +311,17 @@
           "venue_code": "HobUTD-SinatraPkSth"
         },
         {
+          "date": "2026-10-09",
+          "game_number": "415439",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09B-Nguyen",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "415444",
           "goals_against": 9,
@@ -311,11 +333,11 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 25,
-      "goals_for": 7,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -21,
+      "goals_against": 31,
+      "goals_for": 10,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "CougarUtd-B09B-Blum",
       "wins": 0

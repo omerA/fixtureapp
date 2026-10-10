@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-10-09T12:52:47.471322Z",
+  "scraped_at": "2026-10-10T12:12:09.329507Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Spartan",
       "coach": "Herrera",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -33,6 +33,17 @@
           "venue_code": "PAR-ParkwayMS11"
         },
         {
+          "date": "2026-10-09",
+          "game_number": "415844",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B13D-Drumgoole",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RYSA-OakMuni"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "415846",
           "goals_against": 2,
@@ -44,20 +55,20 @@
           "venue_code": "HOT-Tisdale"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 14,
       "goals_against": 8,
-      "goals_for": 21,
+      "goals_for": 22,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Spartan-B13D-Herrera",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "RYSA",
       "coach": "Drumgoole",
       "draws": 1,
-      "form": "DW",
+      "form": "DWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -71,6 +82,17 @@
           "venue_code": "RYSA-MBS"
         },
         {
+          "date": "2026-10-09",
+          "game_number": "415844",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13D-Herrera",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "RYSA-OakMuni"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "415847",
           "goals_against": 0,
@@ -82,11 +104,11 @@
           "venue_code": "RYSA-FAMS"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 4,
+      "goal_diff": 1,
+      "goals_against": 5,
       "goals_for": 6,
-      "losses": 0,
-      "played": 2,
+      "losses": 1,
+      "played": 3,
       "points": 4,
       "team_raw": "RYSA-B13D-Drumgoole",
       "wins": 1

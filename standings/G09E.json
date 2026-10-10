@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-10-09T12:52:48.157394Z",
+  "scraped_at": "2026-10-10T12:12:10.501613Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -54,6 +54,44 @@
       "wins": 3
     },
     {
+      "club": "CougarUtd",
+      "coach": "Chang",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-10-09",
+          "game_number": "414826",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09E-Soto",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414831",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Norris",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 4,
+      "goals_for": 11,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "CougarUtd-G09E-Chang",
+      "wins": 2
+    },
+    {
       "club": "Maroons",
       "coach": "vanGulik",
       "draws": 0,
@@ -78,60 +116,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "Maroons-G09E-vanGulik",
-      "wins": 1
-    },
-    {
-      "club": "Maywood",
-      "coach": "Soto",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414833",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G09E-Goman",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 1,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Maywood-G09E-Soto",
-      "wins": 1
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "Chang",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414831",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09E-Norris",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 1,
-      "goals_for": 6,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "CougarUtd-G09E-Chang",
       "wins": 1
     },
     {
@@ -170,6 +154,44 @@
       "played": 2,
       "points": 3,
       "team_raw": "WestEssex-G09E-Sevilla",
+      "wins": 1
+    },
+    {
+      "club": "Maywood",
+      "coach": "Soto",
+      "draws": 0,
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-10-09",
+          "game_number": "414826",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09E-Chang",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414833",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G09E-Goman",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 6,
+      "goals_for": 11,
+      "losses": 1,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Maywood-G09E-Soto",
       "wins": 1
     },
     {

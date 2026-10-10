@@ -1,6 +1,6 @@
 {
   "division": "G15A",
-  "scraped_at": "2026-10-09T12:52:49.085902Z",
+  "scraped_at": "2026-10-10T12:12:12.105707Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
         {
           "date": "2026-10-03",
@@ -22,6 +22,17 @@
           "venue_code": "FL-CenterRec1"
         },
         {
+          "date": "2026-10-09",
+          "game_number": "416876",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G15A-Simone",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416884",
           "goals_against": 1,
@@ -33,14 +44,14 @@
           "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 1,
-      "goals_for": 10,
+      "goal_diff": 16,
+      "goals_against": 2,
+      "goals_for": 18,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "Paramus-G15A-Buttacavoli",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "NMKnights",
@@ -312,7 +323,7 @@
       "club": "NoArlington",
       "coach": "Simone",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-27",
@@ -337,6 +348,17 @@
           "venue_code": "HARR-WHudsonParkSB"
         },
         {
+          "date": "2026-10-09",
+          "game_number": "416876",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G15A-Buttacavoli",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416887",
           "goals_against": 3,
@@ -348,11 +370,11 @@
           "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 10,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -12,
+      "goals_against": 18,
+      "goals_for": 6,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "NoArlington-G15A-Simone",
       "wins": 0

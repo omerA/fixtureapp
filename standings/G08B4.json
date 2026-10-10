@@ -1,6 +1,6 @@
 {
   "division": "G08B4",
-  "scraped_at": "2026-10-09T12:52:47.978581Z",
+  "scraped_at": "2026-10-10T12:12:10.192386Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -125,6 +125,55 @@
       "wins": 3
     },
     {
+      "club": "Torpedoes",
+      "coach": "Madonia",
+      "draws": 0,
+      "form": "LWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "414354",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G08B4-Guzman",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "WDRDG-Athletic-W4v4A"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414360",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G08B4-Ross",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "414597",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08B4-Forsythe",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAR-VetsFld3"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 10,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 3,
+      "points": 6,
+      "team_raw": "Torpedoes-G08B4-Madonia",
+      "wins": 2
+    },
+    {
       "club": "Spartan",
       "coach": "Hegyi",
       "draws": 0,
@@ -150,82 +199,6 @@
       "points": 3,
       "team_raw": "Spartan-G08B4-Hegyi",
       "wins": 1
-    },
-    {
-      "club": "Torpedoes",
-      "coach": "Madonia",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "414354",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G08B4-Guzman",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "WDRDG-Athletic-W4v4A"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414360",
-          "goals_against": 3,
-          "goals_for": 6,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G08B4-Ross",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "TORP-Lincoln1"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 8,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "Torpedoes-G08B4-Madonia",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "Forsythe",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "414352",
-          "goals_against": 9,
-          "goals_for": 6,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G08B4-Holder",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "MAR-VetsFld3"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414723",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G08B4-Holder",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "HACK-Johnson2"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 11,
-      "goals_for": 6,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "Maroons-G08B4-Forsythe",
-      "wins": 0
     },
     {
       "club": "Americans",
@@ -263,6 +236,55 @@
       "played": 2,
       "points": 0,
       "team_raw": "Americans-G08B4-Ross",
+      "wins": 0
+    },
+    {
+      "club": "Maroons",
+      "coach": "Forsythe",
+      "draws": 0,
+      "form": "LLL",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "414352",
+          "goals_against": 9,
+          "goals_for": 6,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G08B4-Holder",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "414597",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08B4-Madonia",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414723",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G08B4-Holder",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": -11,
+      "goals_against": 19,
+      "goals_for": 8,
+      "losses": 3,
+      "played": 3,
+      "points": 0,
+      "team_raw": "Maroons-G08B4-Forsythe",
       "wins": 0
     },
     {

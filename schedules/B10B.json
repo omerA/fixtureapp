@@ -99,6 +99,13 @@
       "name": "Roosevelt School",
       "size": "Small Field (8 vs 8)"
     },
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
+      "size": "Both (Small & Large)"
+    },
     "808": {
       "address": "100 Third Street, Cresskill, NJ 07626",
       "comments": "U9-U10",
@@ -309,21 +316,6 @@
       "home_team": "Verona-B10B-Elio",
       "is_upcoming": false,
       "time": "01:30 PM"
-    },
-    {
-      "away_club": "CougarUtd",
-      "away_score": null,
-      "away_team": "CougarUtd-B10B-Rosental",
-      "date": "2026-09-27",
-      "division": "B10B",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "413898",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-B10B-Walters",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Dragons",
@@ -731,19 +723,19 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "NASA",
+      "away_club": "CougarUtd",
       "away_score": null,
-      "away_team": "NASA-B10B-Callegari",
-      "date": "2026-11-14",
+      "away_team": "CougarUtd-B10B-Rosental",
+      "date": "2026-11-13",
       "division": "B10B",
-      "field": "Monsignor Owens Park2",
-      "field_id": "604",
-      "game_id": "413902",
-      "home_club": "Nutley",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
+      "game_id": "413898",
+      "home_club": "RiverDell",
       "home_score": null,
-      "home_team": "Nutley-B10B-Rosales",
+      "home_team": "RiverDell-B10B-Walters",
       "is_upcoming": true,
-      "time": "09:00 AM"
+      "time": "04:30 PM"
     },
     {
       "away_club": "Verona",
@@ -772,6 +764,21 @@
       "home_club": "CougarSC",
       "home_score": null,
       "home_team": "CougarSC-B10B-James",
+      "is_upcoming": true,
+      "time": "09:00 AM"
+    },
+    {
+      "away_club": "NASA",
+      "away_score": null,
+      "away_team": "NASA-B10B-Callegari",
+      "date": "2026-11-14",
+      "division": "B10B",
+      "field": "Monsignor Owens Park2",
+      "field_id": "604",
+      "game_id": "413902",
+      "home_club": "Nutley",
+      "home_score": null,
+      "home_team": "Nutley-B10B-Rosales",
       "is_upcoming": true,
       "time": "09:00 AM"
     },
@@ -866,6 +873,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:54:00.413632Z",
+  "scraped_at": "2026-10-10T12:13:25.496481Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "G12A",
-  "scraped_at": "2026-10-09T12:52:48.583598Z",
+  "scraped_at": "2026-10-10T12:12:11.249582Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -114,6 +114,55 @@
       "wins": 3
     },
     {
+      "club": "FairLawnAllSports",
+      "coach": "Londono",
+      "draws": 0,
+      "form": "LWW",
+      "games": [
+        {
+          "date": "2026-10-02",
+          "game_number": "414515",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12A-Johnson",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "414520",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G12A-Pardo",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414530",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G12A-Kaghado",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field4"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 7,
+      "goals_for": 8,
+      "losses": 1,
+      "played": 3,
+      "points": 6,
+      "team_raw": "FairLawnAllSports-G12A-Londono",
+      "wins": 2
+    },
+    {
       "club": "HobUtd",
       "coach": "Cashman",
       "draws": 0,
@@ -201,44 +250,6 @@
       "wins": 1
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Londono",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-10-02",
-          "game_number": "414515",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G12A-Johnson",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414530",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G12A-Kaghado",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field4"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 5,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "FairLawnAllSports-G12A-Londono",
-      "wins": 1
-    },
-    {
       "club": "WayneBG",
       "coach": "DeCarlo",
       "draws": 0,
@@ -288,6 +299,55 @@
       "wins": 0
     },
     {
+      "club": "Maywood",
+      "coach": "Pardo",
+      "draws": 0,
+      "form": "LLL",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "414517",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12A-Lanz",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "414520",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G12A-Londono",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414527",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G12A-Oscanoa",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "Haledon-Rec-Field"
+        }
+      ],
+      "goal_diff": -10,
+      "goals_against": 14,
+      "goals_for": 4,
+      "losses": 3,
+      "played": 3,
+      "points": 0,
+      "team_raw": "Maywood-G12A-Pardo",
+      "wins": 0
+    },
+    {
       "club": "WorldClassFC",
       "coach": "Kaghado",
       "draws": 0,
@@ -312,44 +372,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "WorldClassFC-G12A-Kaghado",
-      "wins": 0
-    },
-    {
-      "club": "Maywood",
-      "coach": "Pardo",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "414517",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G12A-Lanz",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414527",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G12A-Oscanoa",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "Haledon-Rec-Field"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 11,
-      "goals_for": 2,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "Maywood-G12A-Pardo",
       "wins": 0
     }
   ]

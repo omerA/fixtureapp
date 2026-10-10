@@ -43,13 +43,6 @@
       "name": "Willis Field  Upper Field",
       "size": "Small Field (8 vs 8)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -461,19 +454,34 @@
       "time": "02:30 PM"
     },
     {
-      "away_club": "Maroons",
+      "away_club": "Verona",
       "away_score": null,
-      "away_team": "Maroons-B09E-Harrison",
+      "away_team": "Verona-B09E-Rossi",
       "date": "2026-10-31",
       "division": "B09E",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "417084",
-      "home_club": "Warriors",
+      "field": "Harrison Little League",
+      "field_id": "1066",
+      "game_id": "417082",
+      "home_club": "Harrison",
       "home_score": null,
-      "home_team": "Warriors-B09E-Latorre",
+      "home_team": "Harrison-B09E-Quiroz",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "09:00 AM"
+    },
+    {
+      "away_club": "Warriors",
+      "away_score": null,
+      "away_team": "Warriors-B09E-Latorre",
+      "date": "2026-10-31",
+      "division": "B09E",
+      "field": "Veterans Field - SS 2",
+      "field_id": "53",
+      "game_id": "417084",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B09E-Harrison",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "UnionCity",
@@ -487,21 +495,6 @@
       "home_club": "WOrange",
       "home_score": null,
       "home_team": "WOrange-B09E-Lightly",
-      "is_upcoming": true,
-      "time": "09:00 AM"
-    },
-    {
-      "away_club": "Verona",
-      "away_score": null,
-      "away_team": "Verona-B09E-Rossi",
-      "date": "2026-10-31",
-      "division": "B09E",
-      "field": "Harrison Little League",
-      "field_id": "1066",
-      "game_id": "417082",
-      "home_club": "Harrison",
-      "home_score": null,
-      "home_team": "Harrison-B09E-Quiroz",
       "is_upcoming": true,
       "time": "09:00 AM"
     },
@@ -716,6 +709,6 @@
       "time": "05:45 PM"
     }
   ],
-  "scraped_at": "2026-10-09T12:53:35.235436Z",
+  "scraped_at": "2026-10-10T12:12:59.939894Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

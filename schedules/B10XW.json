@@ -8,6 +8,13 @@
       "name": "1600 Park",
       "size": "Small Field (8 vs 8)"
     },
+    "221": {
+      "address": "62 Orchard Road, Maplewood, NJ 07040",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Borden Park 1",
+      "size": "Small Field (8 vs 8)"
+    },
     "726": {
       "address": "30 Sampson Street, Saddle Brook, NJ 07663",
       "comments": "There are 2 small sided fields that are side by side. The fields go across a full sided field.",
@@ -67,6 +74,21 @@
       "home_team": "HobUtd-B10XW-Gandolfi",
       "is_upcoming": true,
       "time": "01:45 PM"
+    },
+    {
+      "away_club": "Lyndhurst",
+      "away_score": null,
+      "away_team": "Lyndhurst-B10XW-Westemeyer",
+      "date": "2026-11-15",
+      "division": "B10XW",
+      "field": "Borden Park 1",
+      "field_id": "221",
+      "game_id": "418053",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-B10XW-Millard",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "HobUtd",
@@ -140,51 +162,6 @@
       "home_club": "WestEssex",
       "home_score": null,
       "home_team": "WestEssex-B10XW-Scorciolla",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "SaddleBR",
-      "away_score": null,
-      "away_team": "SaddleBR-B10XW-Patel",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418062",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-B10XW-Grados",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B10XW-Millard",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418052",
-      "home_club": "Lyndhurst",
-      "home_score": null,
-      "home_team": "Lyndhurst-B10XW-Westemeyer",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Lyndhurst",
-      "away_score": null,
-      "away_team": "Lyndhurst-B10XW-Westemeyer",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418053",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-B10XW-Millard",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -277,8 +254,38 @@
       "home_team": "Dragons-B10XW-Friedman",
       "is_upcoming": true,
       "time": "12:00 AM"
+    },
+    {
+      "away_club": "SaddleBR",
+      "away_score": null,
+      "away_team": "SaddleBR-B10XW-Patel",
+      "date": "2026-12-03",
+      "division": "B10XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418062",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-B10XW-Grados",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B10XW-Millard",
+      "date": "2026-12-03",
+      "division": "B10XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418052",
+      "home_club": "Lyndhurst",
+      "home_score": null,
+      "home_team": "Lyndhurst-B10XW-Westemeyer",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-10T12:13:56.685296Z",
+  "scraped_at": "2026-10-11T12:27:07.268979Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

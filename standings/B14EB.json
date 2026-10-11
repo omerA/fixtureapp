@@ -1,6 +1,6 @@
 {
   "division": "B14EB",
-  "scraped_at": "2026-10-10T12:12:09.847235Z",
+  "scraped_at": "2026-10-11T12:25:22.645369Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -310,6 +310,66 @@
       "wins": 1
     },
     {
+      "club": "SaddleBR",
+      "coach": "Velazquez",
+      "draws": 0,
+      "form": "LLLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414710",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B14EB-Rosskamp",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414714",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14EB-Nacak",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "SaddleBR-SmithSchool"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416425",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B14EB-Peng",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-10",
+          "game_number": "417757",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B14EB-Nylander",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "TEANECK-BenFrankMS"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 16,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 4,
+      "points": 3,
+      "team_raw": "SaddleBR-B14EB-Velazquez",
+      "wins": 1
+    },
+    {
       "club": "Nutley",
       "coach": "Blanchard",
       "draws": 1,
@@ -434,59 +494,10 @@
       "wins": 0
     },
     {
-      "club": "SaddleBR",
-      "coach": "Velazquez",
-      "draws": 0,
-      "form": "LLL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414710",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B14EB-Rosskamp",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "SaddleBR-VeteransFld"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414714",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B14EB-Nacak",
-          "result": "L",
-          "time": "03:45 PM",
-          "venue_code": "SaddleBR-SmithSchool"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416425",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B14EB-Peng",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 15,
-      "goals_for": 6,
-      "losses": 3,
-      "played": 3,
-      "points": 0,
-      "team_raw": "SaddleBR-B14EB-Velazquez",
-      "wins": 0
-    },
-    {
       "club": "TeaneckTravel",
       "coach": "Nylander",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -509,13 +520,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "TEANECK-BenFrankMS"
+        },
+        {
+          "date": "2026-10-10",
+          "game_number": "417757",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B14EB-Velazquez",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "TEANECK-BenFrankMS"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 10,
-      "goals_for": 1,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -13,
+      "goals_against": 15,
+      "goals_for": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "TeaneckTravel-B14EB-Nylander",
       "wins": 0

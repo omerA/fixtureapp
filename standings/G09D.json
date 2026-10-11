@@ -1,6 +1,6 @@
 {
   "division": "G09D",
-  "scraped_at": "2026-10-10T12:12:10.456783Z",
+  "scraped_at": "2026-10-11T12:25:23.262521Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -95,8 +95,19 @@
       "club": "GlenRidge",
       "coach": "VanDeStouwe",
       "draws": 0,
-      "form": "WW",
+      "form": "WWL",
       "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "414419",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G09D-Carofilis",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414420",
@@ -120,11 +131,11 @@
           "venue_code": "NMilford-Williams7v7"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 3,
+      "goal_diff": 3,
+      "goals_against": 8,
       "goals_for": 11,
-      "losses": 0,
-      "played": 2,
+      "losses": 1,
+      "played": 3,
       "points": 6,
       "team_raw": "GlenRidge-G09D-VanDeStouwe",
       "wins": 2
@@ -168,6 +179,55 @@
       "wins": 1
     },
     {
+      "club": "WayneBG",
+      "coach": "Carofilis",
+      "draws": 1,
+      "form": "DLW",
+      "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "414419",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-VanDeStouwe",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-09-18",
+          "game_number": "414423",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09D-Dzilla",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414598",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09D-Balch",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 9,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 3,
+      "points": 4,
+      "team_raw": "WayneBG-G09D-Carofilis",
+      "wins": 1
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Angotti",
       "draws": 1,
@@ -204,44 +264,6 @@
       "points": 4,
       "team_raw": "FairLawnAllSports-G09D-Angotti",
       "wins": 1
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Carofilis",
-      "draws": 1,
-      "form": "DL",
-      "games": [
-        {
-          "date": "2026-09-18",
-          "game_number": "414423",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09D-Dzilla",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "TORP-Pulis1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414598",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G09D-Balch",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "WYNE-ShaiShaknai"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 9,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 2,
-      "points": 1,
-      "team_raw": "WayneBG-G09D-Carofilis",
-      "wins": 0
     },
     {
       "club": "NMKnights",

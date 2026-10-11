@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-10-10T12:12:10.762083Z",
+  "scraped_at": "2026-10-11T12:25:23.551463Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lyndhurst",
       "coach": "Bifulco",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-10-06",
@@ -41,6 +41,17 @@
           "opponent_raw": "NoArlington-G10C-Matos",
           "result": "W",
           "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-10-10",
+          "game_number": "414455",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10C-Timmerman",
+          "result": "W",
+          "time": "02:00 PM",
           "venue_code": "LYND-RecCtrFld1A"
         },
         {
@@ -77,14 +88,14 @@
           "venue_code": "NY-MWU-HudsonComplex"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 11,
-      "goals_for": 24,
+      "goal_diff": 16,
+      "goals_against": 13,
+      "goals_for": 29,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Lyndhurst-G10C-Bifulco",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "GlenRidge",
@@ -161,7 +172,7 @@
       "club": "Emerson",
       "coach": "Timmerman",
       "draws": 1,
-      "form": "WDWW",
+      "form": "WDWWL",
       "games": [
         {
           "date": "2026-09-27",
@@ -186,6 +197,17 @@
           "venue_code": "MONT-BrookdaleStadN"
         },
         {
+          "date": "2026-10-10",
+          "game_number": "414455",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G10C-Bifulco",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
           "date": "2026-09-26",
           "game_number": "416621",
           "goals_against": 1,
@@ -208,11 +230,11 @@
           "venue_code": "ARS-Fieldstone6"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 6,
-      "goals_for": 18,
-      "losses": 0,
-      "played": 4,
+      "goal_diff": 9,
+      "goals_against": 11,
+      "goals_for": 20,
+      "losses": 1,
+      "played": 5,
       "points": 10,
       "team_raw": "Emerson-G10C-Timmerman",
       "wins": 3

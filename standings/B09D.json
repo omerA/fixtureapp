@@ -1,6 +1,6 @@
 {
   "division": "B09D",
-  "scraped_at": "2026-10-10T12:12:06.998065Z",
+  "scraped_at": "2026-10-11T12:25:19.652894Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -125,52 +125,63 @@
       "wins": 3
     },
     {
-      "club": "Clarkstown",
-      "coach": "MongeCalderon",
+      "club": "Verona",
+      "coach": "Hugues",
       "draws": 0,
-      "form": "WWW",
+      "form": "LWWW",
       "games": [
         {
-          "date": "2026-10-04",
-          "game_number": "415978",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B09D-Bell",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "MONT-BrookdaleStadN"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415993",
-          "goals_against": 4,
-          "goals_for": 5,
+          "date": "2026-09-20",
+          "game_number": "415981",
+          "goals_against": 0,
+          "goals_for": 7,
           "opponent_club": "WorldClassFC",
           "opponent_raw": "WorldClassFC-B09D-Leone",
           "result": "W",
-          "time": "06:00 PM",
+          "time": "01:30 PM",
           "venue_code": "NY-WC-Field3"
         },
         {
-          "date": "2026-10-03",
-          "game_number": "416003",
-          "goals_against": 4,
+          "date": "2026-10-10",
+          "game_number": "415983",
+          "goals_against": 1,
           "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09D-Mankey",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415992",
+          "goals_against": 6,
+          "goals_for": 4,
           "opponent_club": "Spartan",
           "opponent_raw": "Spartan-B09D-Musano",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416004",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09D-Jackson",
           "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
+          "time": "01:30 PM",
+          "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 10,
-      "goals_for": 18,
-      "losses": 0,
-      "played": 3,
+      "goal_diff": 16,
+      "goals_against": 8,
+      "goals_for": 24,
+      "losses": 1,
+      "played": 4,
       "points": 9,
-      "team_raw": "Clarkstown-B09D-MongeCalderon",
+      "team_raw": "Verona-B09D-Hugues",
       "wins": 3
     },
     {
@@ -234,6 +245,55 @@
       "wins": 3
     },
     {
+      "club": "Clarkstown",
+      "coach": "MongeCalderon",
+      "draws": 0,
+      "form": "WWW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "415978",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09D-Bell",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415993",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09D-Leone",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416003",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09D-Musano",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 10,
+      "goals_for": 18,
+      "losses": 0,
+      "played": 3,
+      "points": 9,
+      "team_raw": "Clarkstown-B09D-MongeCalderon",
+      "wins": 3
+    },
+    {
       "club": "AviatorsHHSA",
       "coach": "Sharry",
       "draws": 1,
@@ -291,55 +351,6 @@
       "played": 4,
       "points": 7,
       "team_raw": "AviatorsHHSA-B09D-Sharry",
-      "wins": 2
-    },
-    {
-      "club": "Verona",
-      "coach": "Hugues",
-      "draws": 0,
-      "form": "LWW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415981",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09D-Leone",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415992",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B09D-Musano",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "VERONA-ForestAve"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416004",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09D-Jackson",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "VERONA-ForestAve"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 7,
-      "goals_for": 19,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Verona-B09D-Hugues",
       "wins": 2
     },
     {
@@ -504,8 +515,19 @@
       "club": "CougarSC",
       "coach": "Mankey",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "415983",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B09D-Hugues",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
         {
           "date": "2026-09-19",
           "game_number": "415991",
@@ -540,11 +562,11 @@
           "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 21,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -20,
+      "goals_against": 26,
+      "goals_for": 6,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "CougarSC-B09D-Mankey",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G08B7",
-  "scraped_at": "2026-10-10T12:12:10.232168Z",
+  "scraped_at": "2026-10-11T12:25:23.036502Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -52,6 +52,104 @@
       "points": 9,
       "team_raw": "HobUtd-G08B7-Oplinger",
       "wins": 3
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Malcolm",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "414745",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G08B7-Vo",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414753",
+          "goals_against": 5,
+          "goals_for": 8,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G08B7-Reger",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "SS-HamiltonA"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 7,
+      "goals_for": 11,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "RiverDell-G08B7-Malcolm",
+      "wins": 2
+    },
+    {
+      "club": "Warriors",
+      "coach": "Vo",
+      "draws": 1,
+      "form": "DWLL",
+      "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "414745",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G08B7-Malcolm",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414749",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08B7-Valdes",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414751",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08B7-Kim",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414754",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08B7-Oplinger",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 16,
+      "goals_for": 12,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "Warriors-G08B7-Vo",
+      "wins": 1
     },
     {
       "club": "WorldClassFC",
@@ -111,82 +209,6 @@
       "played": 4,
       "points": 4,
       "team_raw": "WorldClassFC-G08B7-Valdes",
-      "wins": 1
-    },
-    {
-      "club": "Warriors",
-      "coach": "Vo",
-      "draws": 1,
-      "form": "DWL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414749",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08B7-Valdes",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414751",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G08B7-Kim",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414754",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G08B7-Oplinger",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 13,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 3,
-      "points": 4,
-      "team_raw": "Warriors-G08B7-Vo",
-      "wins": 1
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Malcolm",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414753",
-          "goals_against": 5,
-          "goals_for": 8,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G08B7-Reger",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "SS-HamiltonA"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 5,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "RiverDell-G08B7-Malcolm",
       "wins": 1
     },
     {

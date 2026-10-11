@@ -1,6 +1,6 @@
 {
   "division": "B12H",
-  "scraped_at": "2026-10-10T12:12:09.072671Z",
+  "scraped_at": "2026-10-11T12:25:21.853704Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "Rutherford",
       "coach": "Henderson",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "417449",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12H-Luzzetti",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417454",
@@ -33,21 +44,32 @@
           "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 5,
+      "goal_diff": 11,
       "goals_against": 6,
-      "goals_for": 11,
+      "goals_for": 17,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "Rutherford-B12H-Henderson",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Hotspur",
       "coach": "Luzzetti",
       "draws": 1,
-      "form": "DW",
+      "form": "DWL",
       "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "417449",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12H-Henderson",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417452",
@@ -71,11 +93,11 @@
           "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 1,
+      "goal_diff": -5,
+      "goals_against": 7,
       "goals_for": 2,
-      "losses": 0,
-      "played": 2,
+      "losses": 1,
+      "played": 3,
       "points": 4,
       "team_raw": "Hotspur-B12H-Luzzetti",
       "wins": 1

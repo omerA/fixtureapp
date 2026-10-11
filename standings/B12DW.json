@@ -1,6 +1,6 @@
 {
   "division": "B12DW",
-  "scraped_at": "2026-10-10T12:12:08.828253Z",
+  "scraped_at": "2026-10-11T12:25:21.590314Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -73,6 +73,66 @@
       "played": 5,
       "points": 10,
       "team_raw": "WayneBG-B12DW-Mullen",
+      "wins": 3
+    },
+    {
+      "club": "AviatorsHHSA",
+      "coach": "Chudzik",
+      "draws": 1,
+      "form": "WWDW",
+      "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "414105",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B12DW-Martinez",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "414111",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12DW-Hykey",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414116",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B12DW-Bautista",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414126",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12DW-Mullen",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 5,
+      "goals_for": 14,
+      "losses": 0,
+      "played": 4,
+      "points": 10,
+      "team_raw": "AviatorsHHSA-B12DW-Chudzik",
       "wins": 3
     },
     {
@@ -172,55 +232,6 @@
       "points": 9,
       "team_raw": "BLMFLD-B12DW-Pereira",
       "wins": 3
-    },
-    {
-      "club": "AviatorsHHSA",
-      "coach": "Chudzik",
-      "draws": 1,
-      "form": "WWD",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414111",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12DW-Hykey",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "LYND-RecCtrFld4"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414116",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B12DW-Bautista",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414126",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12DW-Mullen",
-          "result": "D",
-          "time": "08:30 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        }
-      ],
-      "goal_diff": 4,
-      "goals_against": 5,
-      "goals_for": 9,
-      "losses": 0,
-      "played": 3,
-      "points": 7,
-      "team_raw": "AviatorsHHSA-B12DW-Chudzik",
-      "wins": 2
     },
     {
       "club": "CougarUtd",
@@ -422,8 +433,19 @@
       "club": "WOrange",
       "coach": "Martinez",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "414105",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B12DW-Chudzik",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
         {
           "date": "2026-10-03",
           "game_number": "414129",
@@ -436,11 +458,11 @@
           "venue_code": "WORANGE-Oconnor"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 4,
+      "goal_diff": -7,
+      "goals_against": 9,
       "goals_for": 2,
-      "losses": 1,
-      "played": 1,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "WOrange-B12DW-Martinez",
       "wins": 0

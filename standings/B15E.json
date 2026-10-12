@@ -1,6 +1,6 @@
 {
   "division": "B15E",
-  "scraped_at": "2026-10-11T12:25:22.835047Z",
+  "scraped_at": "2026-10-12T14:47:42.772191Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -65,63 +65,41 @@
       "wins": 4
     },
     {
-      "club": "RIDGFLD",
-      "coach": "Viafara",
+      "club": "WayneBG",
+      "coach": "Houghton",
       "draws": 0,
-      "form": "WLLW",
+      "form": "WW",
       "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "417609",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B15E-Barbieri",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        },
         {
           "date": "2026-09-19",
           "game_number": "417612",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B15E-Houghton",
-          "result": "L",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B15E-Viafara",
+          "result": "W",
           "time": "10:00 AM",
           "venue_code": "WYNE-Alps3"
         },
         {
-          "date": "2026-09-26",
-          "game_number": "417615",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B15E-Ahuacatitan",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "RDGFLDFC-Willis"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417616",
+          "date": "2026-10-11",
+          "game_number": "417618",
           "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B15E-Gudovich",
+          "goals_for": 5,
+          "opponent_club": "ElmwoodPk",
+          "opponent_raw": "ElmwoodPk-B15E-Meneses",
           "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "FL-FLHS Turf"
+          "time": "02:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 18,
-      "goals_for": 12,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": 12,
+      "goals_against": 1,
+      "goals_for": 13,
+      "losses": 0,
+      "played": 2,
       "points": 6,
-      "team_raw": "RIDGFLD-B15E-Viafara",
+      "team_raw": "WayneBG-B15E-Houghton",
       "wins": 2
     },
     {
@@ -185,37 +163,70 @@
       "wins": 2
     },
     {
-      "club": "WayneBG",
-      "coach": "Houghton",
+      "club": "RIDGFLD",
+      "coach": "Viafara",
       "draws": 0,
-      "form": "W",
+      "form": "WLLW",
       "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "417609",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B15E-Barbieri",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417612",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B15E-Viafara",
-          "result": "W",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B15E-Houghton",
+          "result": "L",
           "time": "10:00 AM",
           "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "417615",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B15E-Ahuacatitan",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417616",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B15E-Gudovich",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 1,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "WayneBG-B15E-Houghton",
-      "wins": 1
+      "goal_diff": -6,
+      "goals_against": 18,
+      "goals_for": 12,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "RIDGFLD-B15E-Viafara",
+      "wins": 2
     },
     {
       "club": "ElmwoodPk",
       "coach": "Meneses",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -249,13 +260,24 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "FL-CenterRec1"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "417618",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B15E-Houghton",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 14,
+      "goal_diff": -15,
+      "goals_against": 19,
       "goals_for": 4,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "ElmwoodPk-B15E-Meneses",
       "wins": 1

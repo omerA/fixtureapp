@@ -1,6 +1,6 @@
 {
   "division": "G14C",
-  "scraped_at": "2026-10-11T12:25:24.743671Z",
+  "scraped_at": "2026-10-12T14:47:44.598120Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -463,6 +463,66 @@
       "wins": 1
     },
     {
+      "club": "FairLawnAllSports",
+      "coach": "Puzino",
+      "draws": 0,
+      "form": "LLLW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "416755",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G14C-Lehman",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416770",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G14C-Tenney",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416778",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G14C-Oscanoa",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "417874",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-G14C-Secillano",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 10,
+      "goals_for": 9,
+      "losses": 3,
+      "played": 4,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-G14C-Puzino",
+      "wins": 1
+    },
+    {
       "club": "NoRockland",
       "coach": "Barrios",
       "draws": 0,
@@ -561,59 +621,10 @@
       "wins": 1
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Puzino",
-      "draws": 0,
-      "form": "LLL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "416755",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G14C-Lehman",
-          "result": "L",
-          "time": "05:45 PM",
-          "venue_code": "MONT-BrookdaleStad"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416770",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G14C-Tenney",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416778",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G14C-Oscanoa",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 10,
-      "goals_for": 3,
-      "losses": 3,
-      "played": 3,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-G14C-Puzino",
-      "wins": 0
-    },
-    {
       "club": "Bergenfield",
       "coach": "Secillano",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-24",
@@ -625,6 +636,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "417874",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14C-Puzino",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "FL-FLHS Turf"
         },
         {
           "date": "2026-09-27",
@@ -649,11 +671,11 @@
           "venue_code": "HOT-HS Turf 2"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 17,
+      "goal_diff": -23,
+      "goals_against": 23,
       "goals_for": 0,
-      "losses": 3,
-      "played": 3,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "Bergenfield-G14C-Secillano",
       "wins": 0

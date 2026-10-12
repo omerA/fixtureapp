@@ -1,6 +1,6 @@
 {
   "division": "G10A",
-  "scraped_at": "2026-10-11T12:25:23.418961Z",
+  "scraped_at": "2026-10-12T14:47:43.313484Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -125,6 +125,55 @@
       "wins": 3
     },
     {
+      "club": "CougarSC",
+      "coach": "Wolff",
+      "draws": 0,
+      "form": "LWW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "415061",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10A-Mathelier",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416565",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10A-Ou",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "416567",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G10A-Maringola",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 5,
+      "goals_for": 8,
+      "losses": 1,
+      "played": 3,
+      "points": 6,
+      "team_raw": "CougarSC-G10A-Wolff",
+      "wins": 2
+    },
+    {
       "club": "WorldClassFC",
       "coach": "Voorheis",
       "draws": 0,
@@ -188,7 +237,7 @@
       "club": "Maywood",
       "coach": "Maringola",
       "draws": 2,
-      "form": "DLWD",
+      "form": "DLWDL",
       "games": [
         {
           "date": "2026-09-13",
@@ -233,13 +282,24 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "416567",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10A-Wolff",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 10,
-      "goals_for": 15,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": 4,
+      "goals_against": 13,
+      "goals_for": 17,
+      "losses": 2,
+      "played": 5,
       "points": 5,
       "team_raw": "Maywood-G10A-Maringola",
       "wins": 1
@@ -291,44 +351,6 @@
       "played": 3,
       "points": 4,
       "team_raw": "WorldClassFC-G10A-Mathelier",
-      "wins": 1
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Wolff",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415061",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G10A-Mathelier",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416565",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10A-Ou",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "VIK-Myrtle"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 3,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "CougarSC-G10A-Wolff",
       "wins": 1
     },
     {

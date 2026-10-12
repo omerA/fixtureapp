@@ -15,6 +15,13 @@
       "name": "Williams Field 7v7",
       "size": "Small Field (8 vs 8)"
     },
+    "1183": {
+      "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WR Athletic Complex Small A",
+      "size": "Small Field (8 vs 8)"
+    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -157,6 +164,21 @@
       "time": "02:30 PM"
     },
     {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-B09XW-Buser",
+      "date": "2026-11-01",
+      "division": "B09XW",
+      "field": "WR Athletic Complex Small A",
+      "field_id": "1183",
+      "game_id": "418002",
+      "home_club": "WoodRidge",
+      "home_score": null,
+      "home_team": "WoodRidge-B09XW-Hughes",
+      "is_upcoming": true,
+      "time": "04:00 PM"
+    },
+    {
       "away_club": "WoodRidge",
       "away_score": null,
       "away_team": "WoodRidge-B09XW-Hughes",
@@ -202,36 +224,6 @@
       "time": "07:30 PM"
     },
     {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B09XW-Mankey",
-      "date": "2026-12-03",
-      "division": "B09XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417999",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-B09XW-Booth",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-B09XW-Buser",
-      "date": "2026-12-03",
-      "division": "B09XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418002",
-      "home_club": "WoodRidge",
-      "home_score": null,
-      "home_team": "WoodRidge-B09XW-Hughes",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-B09XW-Toubroukji",
@@ -258,6 +250,21 @@
       "home_club": "NMKnights",
       "home_score": null,
       "home_team": "NMKnights-B09XW-Toubroukji",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B09XW-Mankey",
+      "date": "2026-12-03",
+      "division": "B09XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "417999",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-B09XW-Booth",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -307,6 +314,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-11T12:26:30.537938Z",
+  "scraped_at": "2026-10-12T14:48:50.284186Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

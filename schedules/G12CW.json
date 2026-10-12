@@ -29,13 +29,6 @@
       "name": "Faber Turf Small",
       "size": "Small Field (8 vs 8)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -73,21 +66,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G12CW-McAndrews",
-      "date": "2026-09-13",
-      "division": "G12CW",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "416916",
-      "home_club": "GlenRidge",
-      "home_score": null,
-      "home_team": "GlenRidge-G12CW-Deptula",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Lakeland",
       "away_score": 3,
@@ -359,6 +337,21 @@
       "time": "11:30 AM"
     },
     {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-G12CW-McAndrews",
+      "date": "2026-10-25",
+      "division": "G12CW",
+      "field": "Forest Avenue",
+      "field_id": "77",
+      "game_id": "416916",
+      "home_club": "GlenRidge",
+      "home_score": null,
+      "home_team": "GlenRidge-G12CW-Deptula",
+      "is_upcoming": true,
+      "time": "01:45 PM"
+    },
+    {
       "away_club": "GlenRidge",
       "away_score": null,
       "away_team": "GlenRidge-G12CW-Deptula",
@@ -524,6 +517,6 @@
       "time": "10:15 AM"
     }
   ],
-  "scraped_at": "2026-10-11T12:30:26.737835Z",
+  "scraped_at": "2026-10-12T14:52:45.531515Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

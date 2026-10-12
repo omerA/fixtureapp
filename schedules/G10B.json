@@ -43,13 +43,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "297": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "F1",
-      "size": "Both (Small & Large)"
-    },
     "301": {
       "address": "610 North Central Ave, Mahwah, NJ 07430",
       "comments": "GPS Coordinates: 41.0772903, -74.1502984",
@@ -63,6 +56,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Maple Park",
       "size": "Large Field (11 vs 11)"
+    },
+    "52": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "60 X110",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - SS 1",
+      "size": "Small Field (8 vs 8)"
     },
     "584": {
       "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
@@ -224,7 +224,7 @@
     },
     {
       "away_club": "HobUtd",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "HobUtd-G10B-Stearns",
       "date": "2026-10-11",
       "division": "G10B",
@@ -232,9 +232,9 @@
       "field_id": "585",
       "game_id": "416598",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Maroons-G10B-Forsythe",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
@@ -253,19 +253,19 @@
       "time": "06:00 PM"
     },
     {
-      "away_club": "Maroons",
+      "away_club": "GlobalJC",
       "away_score": null,
-      "away_team": "Maroons-G10B-Forsythe",
+      "away_team": "GlobalJC-G10B-Coulson",
       "date": "2026-10-18",
       "division": "G10B",
-      "field": "F1",
-      "field_id": "297",
+      "field": "Veterans Field - SS 1",
+      "field_id": "52",
       "game_id": "416603",
-      "home_club": "GlobalJC",
+      "home_club": "Maroons",
       "home_score": null,
-      "home_team": "GlobalJC-G10B-Coulson",
+      "home_team": "Maroons-G10B-Forsythe",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "01:00 PM"
     },
     {
       "away_club": "Warriors",
@@ -538,6 +538,6 @@
       "time": "10:30 AM"
     }
   ],
-  "scraped_at": "2026-10-11T12:29:44.787114Z",
+  "scraped_at": "2026-10-12T14:52:03.064221Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

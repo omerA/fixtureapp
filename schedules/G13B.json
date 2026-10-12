@@ -43,13 +43,6 @@
       "name": "Westwood Regional High School",
       "size": "Large Field (11 vs 11)"
     },
-    "191": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Both",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -337,6 +330,21 @@
       "time": "04:00 PM"
     },
     {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-G13B-Buttacavoli",
+      "date": "2026-10-23",
+      "division": "G13B",
+      "field": "Municipal Field",
+      "field_id": "18",
+      "game_id": "415159",
+      "home_club": "Tenafly",
+      "home_score": null,
+      "home_team": "Tenafly-G13B-Pak",
+      "is_upcoming": true,
+      "time": "08:15 PM"
+    },
+    {
       "away_club": "Spartan",
       "away_score": null,
       "away_team": "Spartan-G13B-Kelly",
@@ -455,21 +463,6 @@
       "home_team": "Spartan-G13B-Kelly",
       "is_upcoming": true,
       "time": "03:15 PM"
-    },
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-G13B-Buttacavoli",
-      "date": "2026-11-08",
-      "division": "G13B",
-      "field": "To Be Scheduled-Both",
-      "field_id": "191",
-      "game_id": "415159",
-      "home_club": "Tenafly",
-      "home_score": null,
-      "home_team": "Tenafly-G13B-Pak",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "GlenRock",
@@ -592,6 +585,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-10-11T12:30:43.209950Z",
+  "scraped_at": "2026-10-12T14:53:02.266691Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

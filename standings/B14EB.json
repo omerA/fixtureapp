@@ -1,6 +1,6 @@
 {
   "division": "B14EB",
-  "scraped_at": "2026-10-11T12:25:22.645369Z",
+  "scraped_at": "2026-10-12T14:47:42.562881Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -370,6 +370,77 @@
       "wins": 1
     },
     {
+      "club": "WayneBG",
+      "coach": "Alom",
+      "draws": 2,
+      "form": "LLLDD",
+      "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "414711",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B14EB-DeCastro",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414715",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B14EB-Fernandez",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414721",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B14EB-Rosskamp",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414722",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B14EB-Calvache",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "417728",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B14EB-Hegyi",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        }
+      ],
+      "goal_diff": -12,
+      "goals_against": 25,
+      "goals_for": 13,
+      "losses": 3,
+      "played": 5,
+      "points": 2,
+      "team_raw": "WayneBG-B14EB-Alom",
+      "wins": 0
+    },
+    {
       "club": "Nutley",
       "coach": "Blanchard",
       "draws": 1,
@@ -419,77 +490,29 @@
       "wins": 0
     },
     {
-      "club": "WayneBG",
-      "coach": "Alom",
-      "draws": 1,
-      "form": "LLLD",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "414715",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B14EB-Fernandez",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "Haledon-MnchstHS-Lrg"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414721",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B14EB-Rosskamp",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "WYNE-ValleyHSVarsity"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414722",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B14EB-Calvache",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "417728",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B14EB-Hegyi",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        }
-      ],
-      "goal_diff": -12,
-      "goals_against": 20,
-      "goals_for": 8,
-      "losses": 3,
-      "played": 4,
-      "points": 1,
-      "team_raw": "WayneBG-B14EB-Alom",
-      "wins": 0
-    },
-    {
       "club": "TeaneckFC",
       "coach": "DeCastro",
-      "draws": 0,
-      "form": "",
-      "games": [],
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "414711",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B14EB-Alom",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        }
+      ],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 5,
+      "goals_for": 5,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 1,
       "team_raw": "TeaneckFC-B14EB-DeCastro",
       "wins": 0
     },

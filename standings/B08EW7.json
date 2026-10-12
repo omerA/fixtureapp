@@ -1,6 +1,6 @@
 {
   "division": "B08EW7",
-  "scraped_at": "2026-10-11T12:25:19.374708Z",
+  "scraped_at": "2026-10-12T14:47:39.552761Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Hackensack",
       "coach": "Holder",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
         {
           "date": "2026-09-19",
@@ -31,22 +31,33 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-10",
+          "game_number": "417778",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B08EW7-McGinnis",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "WALD-HSTurf-1"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 1,
-      "goals_for": 9,
+      "goal_diff": 12,
+      "goals_against": 4,
+      "goals_for": 16,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "Hackensack-B08EW7-Holder",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Warriors",
       "coach": "McGinnis",
       "draws": 0,
-      "form": "WW",
+      "form": "WWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -60,6 +71,17 @@
           "venue_code": "HobUTD-SinatraPkNrth"
         },
         {
+          "date": "2026-10-10",
+          "game_number": "417778",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08EW7-Holder",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417781",
           "goals_against": 1,
@@ -71,11 +93,11 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 4,
-      "goals_for": 11,
-      "losses": 0,
-      "played": 2,
+      "goal_diff": 3,
+      "goals_against": 11,
+      "goals_for": 14,
+      "losses": 1,
+      "played": 3,
       "points": 6,
       "team_raw": "Warriors-B08EW7-McGinnis",
       "wins": 2

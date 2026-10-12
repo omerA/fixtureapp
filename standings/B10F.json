@@ -1,6 +1,6 @@
 {
   "division": "B10F",
-  "scraped_at": "2026-10-11T12:25:20.521984Z",
+  "scraped_at": "2026-10-12T14:47:40.642839Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -166,8 +166,19 @@
       "club": "WestEssex",
       "coach": "Scorciolla",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "416147",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10F-Wangenheim",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417173",
@@ -191,14 +202,14 @@
           "venue_code": "EM-Hillman"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 5,
-      "goals_for": 19,
+      "goal_diff": 21,
+      "goals_against": 8,
+      "goals_for": 29,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "WestEssex-B10F-Scorciolla",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Emerson",
@@ -482,8 +493,19 @@
       "club": "Tenafly",
       "coach": "Wangenheim",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "416147",
+          "goals_against": 10,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10F-Scorciolla",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
         {
           "date": "2026-09-12",
           "game_number": "416148",
@@ -496,11 +518,11 @@
           "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 1,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
+      "goal_diff": -8,
+      "goals_against": 11,
+      "goals_for": 3,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "Tenafly-B10F-Wangenheim",
       "wins": 0

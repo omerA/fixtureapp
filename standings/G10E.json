@@ -1,9 +1,58 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-10-11T12:25:23.659554Z",
+  "scraped_at": "2026-10-12T14:47:43.556580Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Thistle",
+      "coach": "Millar",
+      "draws": 0,
+      "form": "WWW",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "414891",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10E-RayRochkind",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414898",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10E-Allen",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "THIS-Harvey Back SS"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "414908",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10E-Mault",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "WORANGE-Oconnor"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 3,
+      "goals_for": 24,
+      "losses": 0,
+      "played": 3,
+      "points": 9,
+      "team_raw": "Thistle-G10E-Millar",
+      "wins": 3
+    },
     {
       "club": "HobUtd",
       "coach": "Grimm",
@@ -89,44 +138,6 @@
       "played": 2,
       "points": 6,
       "team_raw": "ElmwoodPk-G10E-Meneses",
-      "wins": 2
-    },
-    {
-      "club": "Thistle",
-      "coach": "Millar",
-      "draws": 0,
-      "form": "WW",
-      "games": [
-        {
-          "date": "2026-10-03",
-          "game_number": "414891",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G10E-RayRochkind",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414898",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10E-Allen",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "THIS-Harvey Back SS"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 2,
-      "goals_for": 16,
-      "losses": 0,
-      "played": 2,
-      "points": 6,
-      "team_raw": "Thistle-G10E-Millar",
       "wins": 2
     },
     {
@@ -351,7 +362,7 @@
       "club": "WOrange",
       "coach": "Mault",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -374,13 +385,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "WORANGE-Lincoln-Sml"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "414908",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G10E-Millar",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "WORANGE-Oconnor"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 12,
-      "goals_for": 1,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -18,
+      "goals_against": 20,
+      "goals_for": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "WOrange-G10E-Mault",
       "wins": 0

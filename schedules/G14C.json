@@ -405,21 +405,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "NoRockland",
-      "away_score": null,
-      "away_team": "NoRockland-G14C-Barrios",
-      "date": "2026-09-27",
-      "division": "G14C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416772",
-      "home_club": "JerseyCity",
-      "home_score": null,
-      "home_team": "JerseyCity-G14C-Gallagher",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Spartan",
       "away_score": 1,
       "away_team": "Spartan-G14C-Crollo",
@@ -586,7 +571,7 @@
     },
     {
       "away_club": "Bergenfield",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Bergenfield-G14C-Secillano",
       "date": "2026-10-11",
       "division": "G14C",
@@ -594,9 +579,9 @@
       "field_id": "673",
       "game_id": "417874",
       "home_club": "FairLawnAllSports",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "FairLawnAllSports-G14C-Puzino",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
     },
     {
@@ -810,21 +795,6 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-G14C-Puzino",
-      "date": "2026-11-01",
-      "division": "G14C",
-      "field": "Rutherford-Tryon Field",
-      "field_id": "279",
-      "game_id": "416789",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-G14C-Zdon",
-      "is_upcoming": true,
-      "time": "01:00 PM"
-    },
-    {
       "away_club": "Hotspur",
       "away_score": null,
       "away_team": "Hotspur-G14C-Tenney",
@@ -836,6 +806,21 @@
       "home_club": "JerseyCity",
       "home_score": null,
       "home_team": "JerseyCity-G14C-Gallagher",
+      "is_upcoming": true,
+      "time": "01:00 PM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-G14C-Puzino",
+      "date": "2026-11-01",
+      "division": "G14C",
+      "field": "Rutherford-Tryon Field",
+      "field_id": "279",
+      "game_id": "416789",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-G14C-Zdon",
       "is_upcoming": true,
       "time": "01:00 PM"
     },
@@ -943,6 +928,21 @@
       "home_team": "FairLawnAllSports-G14C-Puzino",
       "is_upcoming": true,
       "time": "09:00 AM"
+    },
+    {
+      "away_club": "NoRockland",
+      "away_score": null,
+      "away_team": "NoRockland-G14C-Barrios",
+      "date": "2026-11-08",
+      "division": "G14C",
+      "field": "Cochrane Field - 1 at Caven Point - 11v11",
+      "field_id": "753",
+      "game_id": "416772",
+      "home_club": "JerseyCity",
+      "home_score": null,
+      "home_team": "JerseyCity-G14C-Gallagher",
+      "is_upcoming": true,
+      "time": "11:30 AM"
     },
     {
       "away_club": "Rutherford",
@@ -1155,6 +1155,6 @@
       "time": "06:45 PM"
     }
   ],
-  "scraped_at": "2026-10-11T12:31:00.488725Z",
+  "scraped_at": "2026-10-12T14:53:19.123426Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

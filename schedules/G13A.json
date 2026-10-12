@@ -8,6 +8,13 @@
       "name": "Foley Field",
       "size": "Large Field (11 vs 11)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "151": {
       "address": "80 Nininger Rd, Central Valley, NY 10917",
       "comments": "",
@@ -70,6 +77,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "ALPS-3",
       "size": "Large Field (11 vs 11)"
+    },
+    "984": {
+      "address": "122 State School Road, Warwick, NY 10990",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hudson Sports Complex",
+      "size": "Both (Small & Large)"
     }
   },
   "games": [
@@ -147,21 +161,6 @@
       "home_team": "Hotspur-G13A-Roche",
       "is_upcoming": false,
       "time": "04:45 PM"
-    },
-    {
-      "away_club": "WayneBG",
-      "away_score": null,
-      "away_team": "WayneBG-G13A-Bova",
-      "date": "2026-09-27",
-      "division": "G13A",
-      "field": "Central Valley 12",
-      "field_id": "151",
-      "game_id": "414974",
-      "home_club": "Force",
-      "home_score": null,
-      "home_team": "Force-G13A-Key",
-      "is_upcoming": true,
-      "time": "09:30 AM"
     },
     {
       "away_club": "WorldClassFC",
@@ -284,6 +283,21 @@
       "time": "05:45 PM"
     },
     {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-G13A-DelCorral",
+      "date": "2026-10-18",
+      "division": "G13A",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "414978",
+      "home_club": "BLMFLD",
+      "home_score": null,
+      "home_team": "BLMFLD-G13A-Crespo",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
       "away_club": "WorldClassFC",
       "away_score": null,
       "away_team": "WorldClassFC-G13A-Hurtado",
@@ -297,21 +311,6 @@
       "home_team": "WayneBG-G13A-Bova",
       "is_upcoming": true,
       "time": "09:45 AM"
-    },
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-G13A-DelCorral",
-      "date": "2026-10-18",
-      "division": "G13A",
-      "field": "Watsessing Park",
-      "field_id": "516",
-      "game_id": "414978",
-      "home_club": "BLMFLD",
-      "home_score": null,
-      "home_team": "BLMFLD-G13A-Crespo",
-      "is_upcoming": true,
-      "time": "04:30 PM"
     },
     {
       "away_club": "Hotspur",
@@ -357,6 +356,21 @@
       "home_team": "Hotspur-G13A-Roche",
       "is_upcoming": true,
       "time": "12:00 PM"
+    },
+    {
+      "away_club": "WayneBG",
+      "away_score": null,
+      "away_team": "WayneBG-G13A-Bova",
+      "date": "2026-10-31",
+      "division": "G13A",
+      "field": "Hudson Sports Complex",
+      "field_id": "984",
+      "game_id": "414974",
+      "home_club": "Force",
+      "home_score": null,
+      "home_team": "Force-G13A-Key",
+      "is_upcoming": true,
+      "time": "10:00 AM"
     },
     {
       "away_club": "Hotspur",
@@ -524,6 +538,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-11T12:30:40.433554Z",
+  "scraped_at": "2026-10-12T14:52:59.416855Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

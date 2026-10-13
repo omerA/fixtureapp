@@ -85,6 +85,13 @@
       "name": "North Central",
       "size": "Small Field (8 vs 8)"
     },
+    "330": {
+      "address": "62 Orchard Rd, Maplewood, NJ 07040",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Borden Park 2",
+      "size": "Small Field (8 vs 8)"
+    },
     "398": {
       "address": "199 Monona Avenue, Rutherford, NJ 07070",
       "comments": "7v7 and 9v9",
@@ -234,21 +241,6 @@
       "home_team": "Tenafly-G09F-Demoraes",
       "is_upcoming": false,
       "time": "02:30 PM"
-    },
-    {
-      "away_club": "Dragons",
-      "away_score": null,
-      "away_team": "Dragons-G09F-Wehmann",
-      "date": "2026-09-26",
-      "division": "G09F",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415007",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-G09F-Puglia",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Clarkstown",
@@ -686,6 +678,21 @@
       "time": "05:30 PM"
     },
     {
+      "away_club": "Dragons",
+      "away_score": null,
+      "away_team": "Dragons-G09F-Wehmann",
+      "date": "2026-11-07",
+      "division": "G09F",
+      "field": "Borden Park 2",
+      "field_id": "330",
+      "game_id": "415007",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-G09F-Puglia",
+      "is_upcoming": true,
+      "time": "03:00 PM"
+    },
+    {
       "away_club": "FairLawnAllSports",
       "away_score": null,
       "away_team": "FairLawnAllSports-G09F-Boone",
@@ -941,6 +948,6 @@
       "time": "02:15 PM"
     }
   ],
-  "scraped_at": "2026-10-12T14:51:57.613872Z",
+  "scraped_at": "2026-10-13T13:56:50.856163Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -36,6 +36,13 @@
       "name": "Waldwick Superdome Indoor 1",
       "size": "Small Field (8 vs 8)"
     },
+    "641": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex South",
+      "size": "Both (Small & Large)"
+    },
     "649": {
       "address": "134 Hopper Ave, Waldwick, NJ 07463",
       "comments": "outdoor turf",
@@ -224,19 +231,19 @@
       "time": "04:30 PM"
     },
     {
-      "away_club": "RiverDell",
+      "away_club": "Fairview",
       "away_score": null,
-      "away_team": "RiverDell-B11B-Heydt",
+      "away_team": "Fairview-B11B-Ventura",
       "date": "2026-10-17",
       "division": "B11B",
-      "field": "F1",
-      "field_id": "297",
+      "field": "Doug Parcells Athletic Complex South",
+      "field_id": "641",
       "game_id": "416158",
-      "home_club": "Fairview",
+      "home_club": "RiverDell",
       "home_score": null,
-      "home_team": "Fairview-B11B-Ventura",
+      "home_team": "RiverDell-B11B-Heydt",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "11:00 AM"
     },
     {
       "away_club": "NMKnights",
@@ -312,21 +319,6 @@
       "home_team": "NMKnights-B11B-Paulose",
       "is_upcoming": true,
       "time": "04:15 PM"
-    },
-    {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B11B-Maccarrone",
-      "date": "2026-10-31",
-      "division": "B11B",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416166",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-B11B-Contreras",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "RiverDell",
@@ -522,8 +514,23 @@
       "home_team": "RiverDell-B11B-Heydt",
       "is_upcoming": true,
       "time": "09:00 AM"
+    },
+    {
+      "away_club": "WoodRidge",
+      "away_score": null,
+      "away_team": "WoodRidge-B11B-Maccarrone",
+      "date": "2026-11-22",
+      "division": "B11B",
+      "field": "WCFC - Field 4",
+      "field_id": "665",
+      "game_id": "416166",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-B11B-Contreras",
+      "is_upcoming": true,
+      "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-12T14:49:32.117930Z",
+  "scraped_at": "2026-10-13T13:54:24.778850Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

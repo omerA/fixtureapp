@@ -1,6 +1,13 @@
 {
   "division": "G09E",
   "fields": {
+    "1088": {
+      "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Stevens Field - SS 2",
+      "size": "Small Field (8 vs 8)"
+    },
     "1111": {
       "address": "PO Box, HoHpKus, NJ 07423",
       "comments": "",
@@ -34,13 +41,6 @@
       "comments": "",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
     "22": {
@@ -166,21 +166,6 @@
       "home_team": "WOrange-G09E-Tutalo",
       "is_upcoming": false,
       "time": "05:00 PM"
-    },
-    {
-      "away_club": "WestEssex",
-      "away_score": null,
-      "away_team": "WestEssex-G09E-Sevilla",
-      "date": "2026-09-27",
-      "division": "G09E",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414828",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G09E-vanGulik",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "WOrange",
@@ -738,6 +723,21 @@
       "time": "05:30 PM"
     },
     {
+      "away_club": "WestEssex",
+      "away_score": null,
+      "away_team": "WestEssex-G09E-Sevilla",
+      "date": "2026-11-21",
+      "division": "G09E",
+      "field": "Stevens Field - SS 2",
+      "field_id": "1088",
+      "game_id": "414828",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G09E-vanGulik",
+      "is_upcoming": true,
+      "time": "05:15 PM"
+    },
+    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-G09E-vanGulik",
@@ -798,6 +798,6 @@
       "time": "01:15 PM"
     }
   ],
-  "scraped_at": "2026-10-12T14:51:54.733062Z",
+  "scraped_at": "2026-10-13T13:56:47.957417Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

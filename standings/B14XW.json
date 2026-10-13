@@ -1,9 +1,36 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-10-12T14:47:42.656330Z",
+  "scraped_at": "2026-10-13T13:52:34.824981Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Belleville",
+      "coach": "Calvache",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "418072",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14XW-Privitera",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Belleville-B14XW-Calvache",
+      "wins": 1
+    },
     {
       "club": "Dragons",
       "coach": "Gold",
@@ -59,36 +86,6 @@
       "wins": 1
     },
     {
-      "club": "Belleville",
-      "coach": "Calvache",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Belleville-B14XW-Calvache",
-      "wins": 0
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Privitera",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "RiverDell-B14XW-Privitera",
-      "wins": 0
-    },
-    {
       "club": "Nutley",
       "coach": "Blanchard",
       "draws": 0,
@@ -140,6 +137,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Maroons-B14XW-dePaula",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Privitera",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "418072",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B14XW-Calvache",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "RiverDell-B14XW-Privitera",
       "wins": 0
     }
   ]

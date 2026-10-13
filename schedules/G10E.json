@@ -57,13 +57,6 @@
       "name": "Lincoln Field 7V7 - West Orange High School",
       "size": "Small Field (8 vs 8)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -129,21 +122,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-G10E-vanGulik",
-      "date": "2026-09-13",
-      "division": "G10E",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "414892",
-      "home_club": "ElmwoodPk",
-      "home_score": null,
-      "home_team": "ElmwoodPk-G10E-Meneses",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Emerson",
       "away_score": 5,
@@ -368,6 +346,21 @@
       "home_team": "WOrange-G10E-Mault",
       "is_upcoming": false,
       "time": "11:00 AM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-G10E-vanGulik",
+      "date": "2026-10-17",
+      "division": "G10E",
+      "field": "BOROUGH FIELD 7V7",
+      "field_id": "1194",
+      "game_id": "414892",
+      "home_club": "ElmwoodPk",
+      "home_score": null,
+      "home_team": "ElmwoodPk-G10E-Meneses",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "GlobalJC",
@@ -880,6 +873,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-12T14:52:11.613708Z",
+  "scraped_at": "2026-10-13T13:57:05.092817Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

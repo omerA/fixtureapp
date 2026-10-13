@@ -43,13 +43,6 @@
       "name": "Father Glotzbach Field1",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "196": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -91,6 +84,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Veteran's Field 1- Full Sided SB",
       "size": "Large Field (11 vs 11)"
+    },
+    "637": {
+      "address": "280 Schuyler Avenue, Kearny, NJ 07032",
+      "comments": "Small Sided 8v8",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Harvey Main 2 SS",
+      "size": "Small Field (8 vs 8)"
     },
     "684": {
       "address": "1129 Palisades Ave, Teaneck, NJ 07666",
@@ -156,21 +156,6 @@
       "home_club": "TeaneckTravel",
       "home_score": null,
       "home_team": "TeaneckTravel-B14EB-Nylander",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B14EB-Nacak",
-      "date": "2026-09-12",
-      "division": "B14EB",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414707",
-      "home_club": "Thistle",
-      "home_score": null,
-      "home_team": "Thistle-B14EB-Roemer",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -895,6 +880,21 @@
       "time": "07:15 PM"
     },
     {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B14EB-Nacak",
+      "date": "2026-11-13",
+      "division": "B14EB",
+      "field": "Harvey Main 2 SS",
+      "field_id": "637",
+      "game_id": "414707",
+      "home_club": "Thistle",
+      "home_score": null,
+      "home_team": "Thistle-B14EB-Roemer",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
       "away_club": "Nutley",
       "away_score": null,
       "away_team": "Nutley-B14EB-Blanchard",
@@ -1120,6 +1120,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-12T14:51:13.105177Z",
+  "scraped_at": "2026-10-13T13:56:05.872519Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

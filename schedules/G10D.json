@@ -57,13 +57,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "320": {
       "address": "1st street and Lambert Ave, Fair Lawn, NJ 07410",
       "comments": "Not to be used when wet",
@@ -136,21 +129,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-G10D-OHara",
-      "date": "2026-09-06",
-      "division": "G10D",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "414476",
-      "home_club": "NoRockland",
-      "home_score": null,
-      "home_team": "NoRockland-G10D-Mavrorasakis",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Ajax",
       "away_score": null,
@@ -272,21 +250,6 @@
       "time": "02:30 PM"
     },
     {
-      "away_club": "Lakeland",
-      "away_score": null,
-      "away_team": "Lakeland-G10D-Daniell",
-      "date": "2026-09-27",
-      "division": "G10D",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414489",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G10D-OHara",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Rutherford",
       "away_score": null,
       "away_team": "Rutherford-G10D-Traganos",
@@ -298,6 +261,21 @@
       "home_club": "Ajax",
       "home_score": null,
       "home_team": "Ajax-G10D-Trentacosti",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "Lakeland",
+      "away_score": null,
+      "away_team": "Lakeland-G10D-Daniell",
+      "date": "2026-09-27",
+      "division": "G10D",
+      "field": "To Be Scheduled-Rain or Snow",
+      "field_id": "194",
+      "game_id": "414489",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G10D-OHara",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -480,6 +458,21 @@
       "home_team": "NoRockland-G10D-Mavrorasakis",
       "is_upcoming": true,
       "time": "04:00 PM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-G10D-OHara",
+      "date": "2026-10-19",
+      "division": "G10D",
+      "field": "North Rockland-5",
+      "field_id": "43",
+      "game_id": "414476",
+      "home_club": "NoRockland",
+      "home_score": null,
+      "home_team": "NoRockland-G10D-Mavrorasakis",
+      "is_upcoming": true,
+      "time": "06:00 PM"
     },
     {
       "away_club": "NoRockland",
@@ -812,6 +805,6 @@
       "time": "11:00 AM"
     }
   ],
-  "scraped_at": "2026-10-13T13:57:02.208921Z",
+  "scraped_at": "2026-10-14T11:36:05.056135Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

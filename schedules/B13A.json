@@ -36,13 +36,6 @@
       "name": "Municipal Field",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -69,6 +62,13 @@
       "comments": "Artifical turf field",
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "Monte Irvin Orange Park",
+      "size": "Large Field (11 vs 11)"
+    },
+    "517": {
+      "address": "Route 17 S and Franklin Ave and Field Ave, Hasbrouck Heights, NJ 07604",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Depken Field",
       "size": "Large Field (11 vs 11)"
     },
     "570": {
@@ -395,21 +395,6 @@
       "time": "03:45 PM"
     },
     {
-      "away_club": "Tenafly",
-      "away_score": null,
-      "away_team": "Tenafly-B13A-Schwartzberg",
-      "date": "2026-11-07",
-      "division": "B13A",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "417500",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-B13A-Sharry",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Ajax",
       "away_score": null,
       "away_team": "Ajax-B13A-Aufiero",
@@ -455,6 +440,36 @@
       "time": "12:45 PM"
     },
     {
+      "away_club": "Tenafly",
+      "away_score": null,
+      "away_team": "Tenafly-B13A-Schwartzberg",
+      "date": "2026-11-08",
+      "division": "B13A",
+      "field": "Depken Field",
+      "field_id": "517",
+      "game_id": "417500",
+      "home_club": "AviatorsHHSA",
+      "home_score": null,
+      "home_team": "AviatorsHHSA-B13A-Sharry",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B13A-Kolodiy",
+      "date": "2026-11-14",
+      "division": "B13A",
+      "field": "Hitchcock Field",
+      "field_id": "293",
+      "game_id": "417504",
+      "home_club": "AviatorsHHSA",
+      "home_score": null,
+      "home_team": "AviatorsHHSA-B13A-Sharry",
+      "is_upcoming": true,
+      "time": "09:00 AM"
+    },
+    {
       "away_club": "Ajax",
       "away_score": null,
       "away_team": "Ajax-B13A-Aufiero",
@@ -468,21 +483,6 @@
       "home_team": "FairLawnAllSports-B13A-Rake",
       "is_upcoming": true,
       "time": "02:45 PM"
-    },
-    {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-B13A-Sharry",
-      "date": "2026-11-14",
-      "division": "B13A",
-      "field": "Monte Irvin Orange Park",
-      "field_id": "464",
-      "game_id": "417504",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-B13A-Kolodiy",
-      "is_upcoming": true,
-      "time": "03:00 PM"
     },
     {
       "away_club": "Nutley",
@@ -505,14 +505,14 @@
       "away_team": "FairLawnAllSports-B13A-Rake",
       "date": "2026-11-21",
       "division": "B13A",
-      "field": "Hitchcock Field",
-      "field_id": "293",
+      "field": "TBS Postponed",
+      "field_id": "1111",
       "game_id": "417506",
       "home_club": "AviatorsHHSA",
       "home_score": null,
       "home_team": "AviatorsHHSA-B13A-Sharry",
       "is_upcoming": true,
-      "time": "08:30 AM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "Ajax",
@@ -545,6 +545,6 @@
       "time": "06:30 PM"
     }
   ],
-  "scraped_at": "2026-10-13T13:55:26.536139Z",
+  "scraped_at": "2026-10-14T11:34:28.729018Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

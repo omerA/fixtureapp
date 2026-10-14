@@ -71,6 +71,13 @@
       "name": "Gateway Small 1",
       "size": "Small Field (8 vs 8)"
     },
+    "1220": {
+      "address": "23 Merseles Street, Jersey City, NJ 07302",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Gateway Small 2",
+      "size": "Small Field (8 vs 8)"
+    },
     "147": {
       "address": "380 Harristown Rd, Glen Rock, NJ 07452",
       "comments": "Actually Hamilton C furthest from parking lot.",
@@ -84,20 +91,6 @@
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "Faber Turf Small",
       "size": "Small Field (8 vs 8)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
-    "297": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "F1",
-      "size": "Both (Small & Large)"
     },
     "418": {
       "address": "380 Harristown Rd, Glen Rock, NJ 07452",
@@ -277,21 +270,6 @@
       "home_team": "GlobalJC-B10C-Sarr",
       "is_upcoming": false,
       "time": "02:15 PM"
-    },
-    {
-      "away_club": "NoValley",
-      "away_score": null,
-      "away_team": "NoValley-B10C-Lenihan",
-      "date": "2026-09-26",
-      "division": "B10C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "413920",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-B10C-Sarr",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "HobUtd",
@@ -744,19 +722,19 @@
       "time": "04:30 PM"
     },
     {
-      "away_club": "Bergenfield",
+      "away_club": "NoValley",
       "away_score": null,
-      "away_team": "Bergenfield-B10C-Paul",
-      "date": "2026-11-14",
+      "away_team": "NoValley-B10C-Lenihan",
+      "date": "2026-11-08",
       "division": "B10C",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "413949",
+      "field": "Gateway Small 2",
+      "field_id": "1220",
+      "game_id": "413920",
       "home_club": "GlobalJC",
       "home_score": null,
       "home_team": "GlobalJC-B10C-Sarr",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "01:30 PM"
     },
     {
       "away_club": "ST23",
@@ -817,6 +795,21 @@
       "home_team": "HobUtd-B10C-Miners",
       "is_upcoming": true,
       "time": "07:00 PM"
+    },
+    {
+      "away_club": "Bergenfield",
+      "away_score": null,
+      "away_team": "Bergenfield-B10C-Paul",
+      "date": "2026-11-15",
+      "division": "B10C",
+      "field": "Gateway Small 2",
+      "field_id": "1220",
+      "game_id": "413949",
+      "home_club": "GlobalJC",
+      "home_score": null,
+      "home_team": "GlobalJC-B10C-Sarr",
+      "is_upcoming": true,
+      "time": "01:15 PM"
     },
     {
       "away_club": "JerseyCity",
@@ -894,6 +887,6 @@
       "time": "04:30 PM"
     }
   ],
-  "scraped_at": "2026-10-13T13:53:51.174201Z",
+  "scraped_at": "2026-10-14T11:32:52.461340Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

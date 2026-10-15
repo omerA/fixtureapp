@@ -15,6 +15,13 @@
       "name": "Hopper Ave Field",
       "size": "Both (Small & Large)"
     },
+    "105": {
+      "address": "155 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "Full sided turf field in Stadium",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Waldwick H.S. Turf Field 3 - full",
+      "size": "Large Field (11 vs 11)"
+    },
     "1121": {
       "address": "330 River Rd, New Milford, NJ 07646",
       "comments": "11v11",
@@ -690,6 +697,21 @@
       "time": "07:00 PM"
     },
     {
+      "away_club": "Bergenfield",
+      "away_score": null,
+      "away_team": "Bergenfield-G14C-Secillano",
+      "date": "2026-10-24",
+      "division": "G14C",
+      "field": "Waldwick H.S. Turf Field 3 - full",
+      "field_id": "105",
+      "game_id": "417880",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-G14C-Clark",
+      "is_upcoming": true,
+      "time": "01:30 PM"
+    },
+    {
       "away_club": "Rutherford",
       "away_score": null,
       "away_team": "Rutherford-G14C-Zdon",
@@ -868,21 +890,6 @@
       "home_team": "Warriors-G14C-Clark",
       "is_upcoming": true,
       "time": "07:00 PM"
-    },
-    {
-      "away_club": "Bergenfield",
-      "away_score": null,
-      "away_team": "Bergenfield-G14C-Secillano",
-      "date": "2026-11-08",
-      "division": "G14C",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "417880",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-G14C-Clark",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Spartan",
@@ -1155,6 +1162,6 @@
       "time": "06:45 PM"
     }
   ],
-  "scraped_at": "2026-10-14T11:37:16.829575Z",
+  "scraped_at": "2026-10-15T11:15:43.191953Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

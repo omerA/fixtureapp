@@ -1,6 +1,13 @@
 {
   "division": "G14XB",
   "fields": {
+    "102": {
+      "address": "117 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hopper Ave Field",
+      "size": "Both (Small & Large)"
+    },
     "303": {
       "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
       "comments": "11v11 turf field that is also lined for 7v7 & 9v9 games",
@@ -62,6 +69,21 @@
       "time": "07:15 PM"
     },
     {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-G14XB-Marchetti",
+      "date": "2026-11-07",
+      "division": "G14XB",
+      "field": "Hopper Ave Field",
+      "field_id": "102",
+      "game_id": "417970",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-G14XB-Clark",
+      "is_upcoming": true,
+      "time": "04:00 PM"
+    },
+    {
       "away_club": "Warriors",
       "away_score": null,
       "away_team": "Warriors-G14XB-Clark",
@@ -77,17 +99,32 @@
       "time": "07:00 PM"
     },
     {
-      "away_club": "RiverDell",
+      "away_club": "NMKnights",
       "away_score": null,
-      "away_team": "RiverDell-G14XB-Marchetti",
+      "away_team": "NMKnights-G14XB-Anderson",
       "date": "2026-12-03",
       "division": "G14XB",
       "field": "To Be Scheduled - Northen Counties Cup",
       "field_id": "799",
-      "game_id": "417970",
-      "home_club": "Warriors",
+      "game_id": "417967",
+      "home_club": "FairLawnAllSports",
       "home_score": null,
-      "home_team": "Warriors-G14XB-Clark",
+      "home_team": "FairLawnAllSports-G14XB-Puzino",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-G14XB-Puzino",
+      "date": "2026-12-03",
+      "division": "G14XB",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "417968",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G14XB-Anderson",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -120,38 +157,8 @@
       "home_team": "NoRockland-G14XB-Barrios",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G14XB-Anderson",
-      "date": "2026-12-03",
-      "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417967",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-G14XB-Puzino",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-G14XB-Puzino",
-      "date": "2026-12-03",
-      "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417968",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-G14XB-Anderson",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-14T11:37:25.074641Z",
+  "scraped_at": "2026-10-15T11:15:52.918428Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

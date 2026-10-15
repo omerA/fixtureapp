@@ -1,9 +1,36 @@
 {
   "division": "G12XB",
-  "scraped_at": "2026-10-14T11:31:35.008531Z",
+  "scraped_at": "2026-10-15T11:09:56.627707Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "RiverDell",
+      "coach": "Hill",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "418038",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12XB-Zotaj",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 0,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "RiverDell-G12XB-Hill",
+      "wins": 1
+    },
     {
       "club": "Dragons",
       "coach": "Johnson",
@@ -17,21 +44,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Dragons-G12XB-Johnson",
-      "wins": 0
-    },
-    {
-      "club": "Dumont",
-      "coach": "Zotaj",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dumont-G12XB-Zotaj",
       "wins": 0
     },
     {
@@ -80,21 +92,6 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Hill",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "RiverDell-G12XB-Hill",
-      "wins": 0
-    },
-    {
       "club": "Warriors",
       "coach": "Lanz",
       "draws": 0,
@@ -122,6 +119,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "WoodRidge-G12XB-Prior",
+      "wins": 0
+    },
+    {
+      "club": "Dumont",
+      "coach": "Zotaj",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "418038",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12XB-Hill",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 2,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Dumont-G12XB-Zotaj",
       "wins": 0
     }
   ]

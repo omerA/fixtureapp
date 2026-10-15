@@ -36,6 +36,13 @@
       "name": "Borden Park 1",
       "size": "Small Field (8 vs 8)"
     },
+    "604": {
+      "address": "65 Park Avenue, Nutley, NJ 07110",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Monsignor Owens Park2",
+      "size": "Small Field (8 vs 8)"
+    },
     "75": {
       "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
       "comments": "",
@@ -49,13 +56,6 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "James Zadroga Soccer Field Small-Sided",
       "size": "Small Field (8 vs 8)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
-      "size": "Both (Small & Large)"
     }
   },
   "games": [
@@ -135,6 +135,21 @@
       "time": "02:30 PM"
     },
     {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-B10XB-Villanueva",
+      "date": "2026-11-08",
+      "division": "B10XB",
+      "field": "Monsignor Owens Park2",
+      "field_id": "604",
+      "game_id": "417929",
+      "home_club": "Nutley",
+      "home_score": null,
+      "home_team": "Nutley-B10XB-Rosales",
+      "is_upcoming": true,
+      "time": "12:00 PM"
+    },
+    {
       "away_club": "RiverDell",
       "away_score": null,
       "away_team": "RiverDell-B10XB-Walters",
@@ -163,23 +178,8 @@
       "home_team": "Dragons-B10XB-Goers",
       "is_upcoming": true,
       "time": "03:00 PM"
-    },
-    {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-B10XB-Villanueva",
-      "date": "2026-12-03",
-      "division": "B10XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417929",
-      "home_club": "Nutley",
-      "home_score": null,
-      "home_team": "Nutley-B10XB-Rosales",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-14T11:33:17.818616Z",
+  "scraped_at": "2026-10-15T11:11:40.664610Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,15 +1,75 @@
 {
   "division": "G08C7",
-  "scraped_at": "2026-10-14T11:31:34.020817Z",
+  "scraped_at": "2026-10-15T11:09:55.382966Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "Rutherford",
-      "coach": "Saracena",
+      "club": "Spartan",
+      "coach": "Marie",
       "draws": 0,
       "form": "WWW",
       "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "414776",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G08C7-Saracena",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414779",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08C7-Ayas",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414784",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08C7-Karp",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 3,
+      "goals_for": 14,
+      "losses": 0,
+      "played": 3,
+      "points": 9,
+      "team_raw": "Spartan-G08C7-Marie",
+      "wins": 3
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Saracena",
+      "draws": 0,
+      "form": "WWWL",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "414776",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G08C7-Marie",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414778",
@@ -44,52 +104,14 @@
           "venue_code": "COUGUTD-ReganSmall1"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 6,
+      "goal_diff": 7,
+      "goals_against": 8,
       "goals_for": 15,
-      "losses": 0,
-      "played": 3,
+      "losses": 1,
+      "played": 4,
       "points": 9,
       "team_raw": "Rutherford-G08C7-Saracena",
       "wins": 3
-    },
-    {
-      "club": "Spartan",
-      "coach": "Marie",
-      "draws": 0,
-      "form": "WW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414779",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G08C7-Ayas",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414784",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G08C7-Karp",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 3,
-      "goals_for": 12,
-      "losses": 0,
-      "played": 2,
-      "points": 6,
-      "team_raw": "Spartan-G08C7-Marie",
-      "wins": 2
     },
     {
       "club": "WorldClassFC",

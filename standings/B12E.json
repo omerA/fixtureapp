@@ -1,9 +1,47 @@
 {
   "division": "B12E",
-  "scraped_at": "2026-10-14T11:31:32.904731Z",
+  "scraped_at": "2026-10-15T11:09:54.005187Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "TeaneckFC",
+      "coach": "Preciado",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "415753",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12E-Virili",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-14",
+          "game_number": "415761",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12E-Mrkulic",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 6,
+      "goals_for": 12,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "TeaneckFC-B12E-Preciado",
+      "wins": 2
+    },
     {
       "club": "Maroons",
       "coach": "Gillies",
@@ -84,7 +122,7 @@
       "club": "FairLawnAllSports",
       "coach": "Mrkulic",
       "draws": 1,
-      "form": "WLD",
+      "form": "WLDL",
       "games": [
         {
           "date": "2026-09-19",
@@ -118,42 +156,26 @@
           "result": "D",
           "time": "10:45 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-14",
+          "game_number": "415761",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B12E-Preciado",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 6,
-      "goals_for": 9,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": 0,
+      "goals_against": 13,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 4,
       "points": 4,
       "team_raw": "FairLawnAllSports-B12E-Mrkulic",
-      "wins": 1
-    },
-    {
-      "club": "TeaneckFC",
-      "coach": "Preciado",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415753",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B12E-Virili",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 2,
-      "goals_for": 5,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "TeaneckFC-B12E-Preciado",
       "wins": 1
     },
     {

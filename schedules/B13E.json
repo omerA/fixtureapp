@@ -36,6 +36,13 @@
       "name": "Pascack Hills High School 1",
       "size": "Large Field (11 vs 11)"
     },
+    "258": {
+      "address": "225 W. Grand Avenue, Montvale, NJ 07645",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Pascack Hills High School 2",
+      "size": "Large Field (11 vs 11)"
+    },
     "279": {
       "address": "64 Darwin Avenue, Rutherford, NJ 07070",
       "comments": "",
@@ -254,7 +261,7 @@
     },
     {
       "away_club": "Arsenal",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Arsenal-B13E-McDermott",
       "date": "2026-10-14",
       "division": "B13E",
@@ -262,9 +269,9 @@
       "field_id": "279",
       "game_id": "416363",
       "home_club": "Rutherford",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Rutherford-B13E-Seaman",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:00 PM"
     },
     {
@@ -303,8 +310,8 @@
       "away_team": "Maroons-B13E-Herbert",
       "date": "2026-10-17",
       "division": "B13E",
-      "field": "Pascack Hills High School 1",
-      "field_id": "257",
+      "field": "Pascack Hills High School 2",
+      "field_id": "258",
       "game_id": "415879",
       "home_club": "Arsenal",
       "home_score": null,
@@ -538,6 +545,6 @@
       "time": "01:45 PM"
     }
   ],
-  "scraped_at": "2026-10-14T11:34:42.939143Z",
+  "scraped_at": "2026-10-15T11:13:06.239716Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

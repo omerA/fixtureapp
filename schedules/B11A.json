@@ -78,6 +78,13 @@
       "name": "James Zadroga Soccer Field Small-Sided",
       "size": "Small Field (8 vs 8)"
     },
+    "785": {
+      "address": "300 Schuyler Ave, North Arlington, NJ 07031",
+      "comments": "2 Small fields nested inside of large field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "James Zadroga Soccer Field Small-Sided",
+      "size": "Small Field (8 vs 8)"
+    },
     "980": {
       "address": "365 Boulevard, Hasbrouck Heights, NJ 07604",
       "comments": "",
@@ -500,6 +507,21 @@
       "time": "04:30 PM"
     },
     {
+      "away_club": "CougarUtd",
+      "away_score": null,
+      "away_team": "CougarUtd-B11A-Sayag",
+      "date": "2026-10-28",
+      "division": "B11A",
+      "field": "James Zadroga Soccer Field Small-Sided",
+      "field_id": "785",
+      "game_id": "415654",
+      "home_club": "NoArlington",
+      "home_score": null,
+      "home_team": "NoArlington-B11A-DaSilva",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
       "away_club": "Nutley",
       "away_score": null,
       "away_team": "Nutley-B11A-Sceppaguercio",
@@ -515,36 +537,6 @@
       "time": "06:30 PM"
     },
     {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-B11A-DeGennaro",
-      "date": "2026-10-31",
-      "division": "B11A",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "415653",
-      "home_club": "Force",
-      "home_score": null,
-      "home_team": "Force-B11A-Darling",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "CougarUtd",
-      "away_score": null,
-      "away_team": "CougarUtd-B11A-Sayag",
-      "date": "2026-10-31",
-      "division": "B11A",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "415654",
-      "home_club": "NoArlington",
-      "home_score": null,
-      "home_team": "NoArlington-B11A-DaSilva",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "RdgfldPk",
       "away_score": null,
       "away_team": "RdgfldPk-B11A-Glover",
@@ -556,6 +548,21 @@
       "home_club": "Nutley",
       "home_score": null,
       "home_team": "Nutley-B11A-Sceppaguercio",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B11A-DeGennaro",
+      "date": "2026-10-31",
+      "division": "B11A",
+      "field": "To Be Scheduled-Visitor",
+      "field_id": "190",
+      "game_id": "415653",
+      "home_club": "Force",
+      "home_score": null,
+      "home_team": "Force-B11A-Darling",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -680,6 +687,21 @@
       "time": "03:00 PM"
     },
     {
+      "away_club": "NoArlington",
+      "away_score": null,
+      "away_team": "NoArlington-B11A-DaSilva",
+      "date": "2026-11-08",
+      "division": "B11A",
+      "field": "Twin-Boro",
+      "field_id": "206",
+      "game_id": "415663",
+      "home_club": "Dumont",
+      "home_score": null,
+      "home_team": "Dumont-B11A-Zotaj",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
       "away_club": "Force",
       "away_score": null,
       "away_team": "Force-B11A-Darling",
@@ -738,21 +760,6 @@
       "home_team": "RdgfldPk-B11A-Glover",
       "is_upcoming": true,
       "time": "02:00 PM"
-    },
-    {
-      "away_club": "NoArlington",
-      "away_score": null,
-      "away_team": "NoArlington-B11A-DaSilva",
-      "date": "2026-11-14",
-      "division": "B11A",
-      "field": "Twin-Boro",
-      "field_id": "206",
-      "game_id": "415663",
-      "home_club": "Dumont",
-      "home_score": null,
-      "home_team": "Dumont-B11A-Zotaj",
-      "is_upcoming": true,
-      "time": "05:00 PM"
     },
     {
       "away_club": "Force",
@@ -845,6 +852,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-10-14T11:33:23.557297Z",
+  "scraped_at": "2026-10-15T11:11:46.465118Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

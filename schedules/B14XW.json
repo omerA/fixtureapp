@@ -8,6 +8,13 @@
       "name": "Sinatra Park",
       "size": "Both (Small & Large)"
     },
+    "1212": {
+      "address": "70 Church Street, Haledon, NJ 07508",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Manchester Regional High School - Turf",
+      "size": "Large Field (11 vs 11)"
+    },
     "164": {
       "address": "44 Park Ave., Nutley, NJ 07110",
       "comments": "",
@@ -84,6 +91,21 @@
       "time": "02:30 PM"
     },
     {
+      "away_club": "ST23",
+      "away_score": null,
+      "away_team": "ST23-B14XW-Rosskamp",
+      "date": "2026-10-16",
+      "division": "B14XW",
+      "field": "Manchester Regional High School - Turf",
+      "field_id": "1212",
+      "game_id": "418068",
+      "home_club": "Southside",
+      "home_score": null,
+      "home_team": "Southside-B14XW-Fernandez",
+      "is_upcoming": true,
+      "time": "06:15 PM"
+    },
+    {
       "away_club": "Nutley",
       "away_score": null,
       "away_team": "Nutley-B14XW-Blanchard",
@@ -114,36 +136,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "HobUtd",
-      "away_score": null,
-      "away_team": "HobUtd-B14XW-Peng",
-      "date": "2026-12-03",
-      "division": "B14XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418071",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B14XW-dePaula",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "ST23",
-      "away_score": null,
-      "away_team": "ST23-B14XW-Rosskamp",
-      "date": "2026-12-03",
-      "division": "B14XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418068",
-      "home_club": "Southside",
-      "home_score": null,
-      "home_team": "Southside-B14XW-Fernandez",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Southside",
       "away_score": null,
       "away_team": "Southside-B14XW-Fernandez",
@@ -157,8 +149,23 @@
       "home_team": "ST23-B14XW-Rosskamp",
       "is_upcoming": true,
       "time": "12:00 AM"
+    },
+    {
+      "away_club": "HobUtd",
+      "away_score": null,
+      "away_team": "HobUtd-B14XW-Peng",
+      "date": "2026-12-03",
+      "division": "B14XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418071",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B14XW-dePaula",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-14T11:35:16.643673Z",
+  "scraped_at": "2026-10-15T11:13:40.286021Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

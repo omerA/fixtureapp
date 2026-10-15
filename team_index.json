@@ -426,6 +426,7 @@
     "Lakeland": [
       "Lakeland-B09C-Escher",
       "Lakeland-B10D-Tynio",
+      "Lakeland-B10XW-Tynio",
       "Lakeland-B11GW-Curran",
       "Lakeland-B13F-Escher",
       "Lakeland-B14EW-Breheney",
@@ -746,6 +747,7 @@
       "ST23-B12G-Pedro",
       "ST23-B13CB-Ahuacatitan",
       "ST23-B14EB-Rosskamp",
+      "ST23-B14XW-Rosskamp",
       "ST23-B15E-Ahuacatitan"
     ],
     "SaddleBR": [
@@ -771,6 +773,7 @@
       "Southside-B13G-Chowdhury",
       "Southside-B13XW-Chowdhury",
       "Southside-B14EB-Fernandez",
+      "Southside-B14XW-Fernandez",
       "Southside-B15B-Rivera",
       "Southside-G09F-Oscanoa",
       "Southside-G12A-Oscanoa",
@@ -886,6 +889,7 @@
       "Verona-B09XW-Rossi",
       "Verona-B10B-Elio",
       "Verona-B10DB-Nowicki",
+      "Verona-B10XW-Nowicki",
       "Verona-B11D-Ostendorp",
       "Verona-B12F-Ahmed",
       "Verona-B12XW-Ahmed",
@@ -2892,6 +2896,11 @@
       "coach": "Tynio",
       "division": "B10D"
     },
+    "Lakeland-B10XW-Tynio": {
+      "club": "Lakeland",
+      "coach": "Tynio",
+      "division": "B10XW"
+    },
     "Lakeland-B11GW-Curran": {
       "club": "Lakeland",
       "coach": "Curran",
@@ -4302,6 +4311,11 @@
       "coach": "Rosskamp",
       "division": "B14EB"
     },
+    "ST23-B14XW-Rosskamp": {
+      "club": "ST23",
+      "coach": "Rosskamp",
+      "division": "B14XW"
+    },
     "ST23-B15E-Ahuacatitan": {
       "club": "ST23",
       "coach": "Ahuacatitan",
@@ -4406,6 +4420,11 @@
       "club": "Southside",
       "coach": "Fernandez",
       "division": "B14EB"
+    },
+    "Southside-B14XW-Fernandez": {
+      "club": "Southside",
+      "coach": "Fernandez",
+      "division": "B14XW"
     },
     "Southside-B15B-Rivera": {
       "club": "Southside",
@@ -4901,6 +4920,11 @@
       "club": "Verona",
       "coach": "Nowicki",
       "division": "B10DB"
+    },
+    "Verona-B10XW-Nowicki": {
+      "club": "Verona",
+      "coach": "Nowicki",
+      "division": "B10XW"
     },
     "Verona-B11D-Ostendorp": {
       "club": "Verona",
@@ -5734,7 +5758,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-14T11:31:30.535266+00:00",
+  "scraped_at": "2026-10-15T11:09:51.052011+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

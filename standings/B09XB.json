@@ -1,6 +1,6 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-10-14T11:31:31.723256Z",
+  "scraped_at": "2026-10-15T11:09:52.529671Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,31 +8,28 @@
       "club": "Arsenal",
       "coach": "Nguyen",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "418105",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B09XB-Edry",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 4,
+      "goals_for": 6,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "Arsenal-B09XB-Nguyen",
-      "wins": 0
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "Edry",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarUtd-B09XB-Edry",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Dragons",
@@ -92,6 +89,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "Nutley-B09XB-Crespo",
+      "wins": 0
+    },
+    {
+      "club": "CougarUtd",
+      "coach": "Edry",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "418105",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09XB-Nguyen",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 6,
+      "goals_for": 4,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "CougarUtd-B09XB-Edry",
       "wins": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
   "division": "B13F",
-  "scraped_at": "2026-10-14T11:31:33.363544Z",
+  "scraped_at": "2026-10-15T11:09:54.573927Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -410,16 +410,99 @@
     {
       "club": "TeaneckFC",
       "coach": "Hernandez",
-      "draws": 0,
-      "form": "",
-      "games": [],
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "416374",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13F-King",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        }
+      ],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 3,
+      "goals_for": 3,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 1,
       "team_raw": "TeaneckFC-B13F-Hernandez",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "King",
+      "draws": 1,
+      "form": "LLLLD",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "416374",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B13F-Hernandez",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "416377",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13F-Lehman",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "RDBH-MS-Lg"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "416387",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B13F-Lezcano",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416393",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13F-Zotaj",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417733",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13F-Moran",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "RDBH-HS-Grass"
+        }
+      ],
+      "goal_diff": -23,
+      "goals_against": 28,
+      "goals_for": 5,
+      "losses": 4,
+      "played": 5,
+      "points": 1,
+      "team_raw": "RiverDell-B13F-King",
       "wins": 0
     },
     {
@@ -469,66 +552,6 @@
       "played": 3,
       "points": 0,
       "team_raw": "Vikings-B13F-Siddiqi",
-      "wins": 0
-    },
-    {
-      "club": "RiverDell",
-      "coach": "King",
-      "draws": 0,
-      "form": "LLLL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416377",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13F-Lehman",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "RDBH-MS-Lg"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "416387",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B13F-Lezcano",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416393",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B13F-Zotaj",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417733",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B13F-Moran",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "RDBH-HS-Grass"
-        }
-      ],
-      "goal_diff": -23,
-      "goals_against": 25,
-      "goals_for": 2,
-      "losses": 4,
-      "played": 4,
-      "points": 0,
-      "team_raw": "RiverDell-B13F-King",
       "wins": 0
     },
     {

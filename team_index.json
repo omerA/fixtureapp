@@ -756,6 +756,7 @@
       "SaddleBR-B10HB-Patel",
       "SaddleBR-B10XW-Patel",
       "SaddleBR-B12E-Cadenas",
+      "SaddleBR-B13XW-Cadenas",
       "SaddleBR-B14EB-Velazquez",
       "SaddleBR-G09B-Fontalvo",
       "SaddleBR-G11DW-Camporeale",
@@ -951,6 +952,7 @@
       "Warriors-B10C-Barbot",
       "Warriors-B10DW-Schechter",
       "Warriors-B11A-Leonard",
+      "Warriors-B11XB-Leonard",
       "Warriors-B12D-Stratton",
       "Warriors-B12XW-Stratton",
       "Warriors-B13B-Bzik",
@@ -979,6 +981,7 @@
       "WayneBG-B12XW-Bechara",
       "WayneBG-B13B-Sanchez",
       "WayneBG-B13F-Amaya",
+      "WayneBG-B13XW-Amaya",
       "WayneBG-B14EB-Alom",
       "WayneBG-B15E-Houghton",
       "WayneBG-G09D-Carofilis",
@@ -1005,6 +1008,7 @@
       "WoodRidge-B10DW-Prior",
       "WoodRidge-B10XW-Prior",
       "WoodRidge-B11B-Maccarrone",
+      "WoodRidge-B11XB-Maccarrone",
       "WoodRidge-B12D-Mueller",
       "WoodRidge-B14C-McLean",
       "WoodRidge-B14XB-McLean",
@@ -4346,6 +4350,11 @@
       "coach": "Cadenas",
       "division": "B12E"
     },
+    "SaddleBR-B13XW-Cadenas": {
+      "club": "SaddleBR",
+      "coach": "Cadenas",
+      "division": "B13XW"
+    },
     "SaddleBR-B14EB-Velazquez": {
       "club": "SaddleBR",
       "coach": "Velazquez",
@@ -5201,6 +5210,11 @@
       "coach": "Leonard",
       "division": "B11A"
     },
+    "Warriors-B11XB-Leonard": {
+      "club": "Warriors",
+      "coach": "Leonard",
+      "division": "B11XB"
+    },
     "Warriors-B12D-Stratton": {
       "club": "Warriors",
       "coach": "Stratton",
@@ -5331,6 +5345,11 @@
       "coach": "Amaya",
       "division": "B13F"
     },
+    "WayneBG-B13XW-Amaya": {
+      "club": "WayneBG",
+      "coach": "Amaya",
+      "division": "B13XW"
+    },
     "WayneBG-B14EB-Alom": {
       "club": "WayneBG",
       "coach": "Alom",
@@ -5440,6 +5459,11 @@
       "club": "WoodRidge",
       "coach": "Maccarrone",
       "division": "B11B"
+    },
+    "WoodRidge-B11XB-Maccarrone": {
+      "club": "WoodRidge",
+      "coach": "Maccarrone",
+      "division": "B11XB"
     },
     "WoodRidge-B12D-Mueller": {
       "club": "WoodRidge",
@@ -5758,7 +5782,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-15T11:09:51.052011+00:00",
+  "scraped_at": "2026-10-16T11:02:59.670430+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

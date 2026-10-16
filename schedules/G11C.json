@@ -43,13 +43,6 @@
       "name": "To Be Scheduled-Home",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -111,6 +104,13 @@
       "comments": "CANNOT HOLD 7v7 - ONLY 9v9 and 11v11",
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "George Washington Field",
+      "size": "Both (Small & Large)"
+    },
+    "940": {
+      "address": "50 Dairy Street, Midland Park, NJ 07432",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "DePhillips Recreation Center",
       "size": "Both (Small & Large)"
     }
   },
@@ -644,16 +644,16 @@
       "away_club": "Paramus",
       "away_score": null,
       "away_team": "Paramus-G11C-Buttacavoli",
-      "date": "2026-11-08",
+      "date": "2026-11-03",
       "division": "G11C",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
+      "field": "DePhillips Recreation Center",
+      "field_id": "940",
       "game_id": "416629",
       "home_club": "Ajax",
       "home_score": null,
       "home_team": "Ajax-G11C-Jackson",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "07:00 PM"
     },
     {
       "away_club": "Clarkstown",
@@ -866,6 +866,6 @@
       "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-10-15T11:14:46.757154Z",
+  "scraped_at": "2026-10-16T11:07:55.004225Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

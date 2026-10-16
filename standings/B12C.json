@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-10-15T11:09:53.829394Z",
+  "scraped_at": "2026-10-16T11:03:02.596545Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -125,52 +125,52 @@
       "wins": 3
     },
     {
-      "club": "NoArlington",
-      "coach": "Ceron",
+      "club": "CougarUtd",
+      "coach": "DePiccioto",
       "draws": 1,
-      "form": "DWW",
+      "form": "WWD",
       "games": [
         {
-          "date": "2026-09-12",
-          "game_number": "417313",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B12C-Sietsma",
+          "date": "2026-10-04",
+          "game_number": "417311",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B12C-Chafetz",
           "result": "D",
-          "time": "11:30 AM",
-          "venue_code": "RYSA-Heights"
+          "time": "05:45 PM",
+          "venue_code": "SS-FaberTurfSml"
         },
         {
           "date": "2026-09-19",
-          "game_number": "417316",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B12C-Melki",
+          "game_number": "417314",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Percio",
           "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "NA-Zadroga2"
+          "time": "06:00 PM",
+          "venue_code": "BELLE-BellePkFull"
         },
         {
-          "date": "2026-09-26",
-          "game_number": "417322",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B12C-JeanCharles",
+          "date": "2026-10-03",
+          "game_number": "417324",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B12C-Ceron",
           "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "NA-Zadroga2"
+          "time": "10:15 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 7,
-      "goals_for": 20,
+      "goal_diff": 4,
+      "goals_against": 6,
+      "goals_for": 10,
       "losses": 0,
       "played": 3,
       "points": 7,
-      "team_raw": "NoArlington-B12C-Ceron",
+      "team_raw": "CougarUtd-B12C-DePiccioto",
       "wins": 2
     },
     {
@@ -231,44 +231,6 @@
       "played": 4,
       "points": 5,
       "team_raw": "GlenRock-B12C-Chafetz",
-      "wins": 1
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "DePiccioto",
-      "draws": 1,
-      "form": "WD",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "417311",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B12C-Chafetz",
-          "result": "D",
-          "time": "05:45 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417314",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12C-Percio",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "BELLE-BellePkFull"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 6,
-      "goals_for": 9,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "CougarUtd-B12C-DePiccioto",
       "wins": 1
     },
     {
@@ -515,6 +477,66 @@
       "points": 1,
       "team_raw": "RYSA-B12C-Sietsma",
       "wins": 0
+    },
+    {
+      "club": "NoArlington",
+      "coach": "Ceron",
+      "draws": 1,
+      "form": "DWWL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "417313",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12C-Sietsma",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417316",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B12C-Melki",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "417322",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B12C-JeanCharles",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417324 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12C-DePiccioto",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "COUGUTD-Front"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 8,
+      "goals_for": 20,
+      "losses": 1,
+      "played": 4,
+      "points": 7,
+      "team_raw": "NoArlington-B12C-Ceron",
+      "wins": 2
     }
   ]
 }

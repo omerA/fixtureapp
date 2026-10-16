@@ -1,6 +1,6 @@
 {
   "division": "G13C",
-  "scraped_at": "2026-10-15T11:09:56.783354Z",
+  "scraped_at": "2026-10-16T11:03:05.647846Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -177,7 +177,7 @@
       "club": "Fairview",
       "coach": "Macias",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -189,6 +189,17 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
+          "date": "2026-10-15",
+          "game_number": "415176",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-G13C-Valle",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         },
         {
           "date": "2026-10-01",
@@ -213,14 +224,14 @@
           "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 10,
-      "goals_for": 2,
+      "goal_diff": -6,
+      "goals_against": 11,
+      "goals_for": 5,
       "losses": 3,
-      "played": 3,
-      "points": 0,
+      "played": 4,
+      "points": 3,
       "team_raw": "Fairview-G13C-Macias",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "GlobalJC",
@@ -253,7 +264,7 @@
       "club": "TeaneckFC",
       "coach": "Valle",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-10-08",
@@ -265,13 +276,24 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "RYSA-OakMuni"
+        },
+        {
+          "date": "2026-10-15",
+          "game_number": "415176",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G13C-Macias",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 7,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
+      "goal_diff": -9,
+      "goals_against": 10,
+      "goals_for": 1,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "TeaneckFC-G13C-Valle",
       "wins": 0

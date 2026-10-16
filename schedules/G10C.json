@@ -50,13 +50,6 @@
       "name": "Hillman",
       "size": "Large Field (11 vs 11)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "244": {
       "address": "134 Woodcliff Avenue, Woodcliff Lake, NJ 07677",
       "comments": "",
@@ -107,6 +100,13 @@
       "size": "Small Field (8 vs 8)"
     },
     "784": {
+      "address": "300 Schuyler Ave, North Arlington, NJ 07031",
+      "comments": "2 Small fields nested inside of large field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "James Zadroga Soccer Field Small-Sided",
+      "size": "Small Field (8 vs 8)"
+    },
+    "785": {
       "address": "300 Schuyler Ave, North Arlington, NJ 07031",
       "comments": "2 Small fields nested inside of large field",
       "details": "LIGHTS \u2014 ARTIFICIAL",
@@ -452,21 +452,6 @@
       "time": "02:00 PM"
     },
     {
-      "away_club": "Nutley",
-      "away_score": null,
-      "away_team": "Nutley-G10C-Sin",
-      "date": "2026-10-11",
-      "division": "G10C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414471",
-      "home_club": "NoArlington",
-      "home_score": null,
-      "home_team": "NoArlington-G10C-Matos",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "GlenRidge",
       "away_score": null,
       "away_team": "GlenRidge-G10C-Fisher",
@@ -707,6 +692,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "Nutley",
+      "away_score": null,
+      "away_team": "Nutley-G10C-Sin",
+      "date": "2026-11-07",
+      "division": "G10C",
+      "field": "James Zadroga Soccer Field Small-Sided",
+      "field_id": "785",
+      "game_id": "414471",
+      "home_club": "NoArlington",
+      "home_score": null,
+      "home_team": "NoArlington-G10C-Matos",
+      "is_upcoming": true,
+      "time": "01:00 PM"
+    },
+    {
       "away_club": "Vikings",
       "away_score": null,
       "away_team": "Vikings-G10C-Jain",
@@ -887,6 +887,6 @@
       "time": "03:30 PM"
     }
   ],
-  "scraped_at": "2026-10-15T11:14:26.309793Z",
+  "scraped_at": "2026-10-16T11:07:34.991501Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

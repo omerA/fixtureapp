@@ -42,6 +42,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
+    },
+    "808": {
+      "address": "100 Third Street, Cresskill, NJ 07626",
+      "comments": "U9-U10",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Regan Field Small 1",
+      "size": "Small Field (8 vs 8)"
     }
   },
   "games": [
@@ -58,6 +65,21 @@
       "home_score": 6,
       "home_team": "Arsenal-B09XB-Nguyen",
       "is_upcoming": false,
+      "time": "06:30 PM"
+    },
+    {
+      "away_club": "Arsenal",
+      "away_score": null,
+      "away_team": "Arsenal-B09XB-Nguyen",
+      "date": "2026-10-21",
+      "division": "B09XB",
+      "field": "Regan Field Small 1",
+      "field_id": "808",
+      "game_id": "418106",
+      "home_club": "CougarUtd",
+      "home_score": null,
+      "home_team": "CougarUtd-B09XB-Edry",
+      "is_upcoming": true,
       "time": "06:30 PM"
     },
     {
@@ -149,23 +171,8 @@
       "home_team": "Hotspur-B09XB-Anari",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "Arsenal",
-      "away_score": null,
-      "away_team": "Arsenal-B09XB-Nguyen",
-      "date": "2026-12-03",
-      "division": "B09XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418106",
-      "home_club": "CougarUtd",
-      "home_score": null,
-      "home_team": "CougarUtd-B09XB-Edry",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-15T11:11:03.613755Z",
+  "scraped_at": "2026-10-16T11:04:11.845223Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

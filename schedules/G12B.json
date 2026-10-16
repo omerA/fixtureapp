@@ -64,13 +64,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "284": {
       "address": "100 Columbus Rd, Demarest, NJ 07627",
       "comments": "",
@@ -136,36 +129,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-G12B-Wexler",
-      "date": "2026-09-06",
-      "division": "G12B",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "414557",
-      "home_club": "Nutley",
-      "home_score": null,
-      "home_team": "Nutley-G12B-Helm",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Warriors",
-      "away_score": null,
-      "away_team": "Warriors-G12B-Orozco",
-      "date": "2026-09-06",
-      "division": "G12B",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "414558",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-G12B-Szalkiewicz",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Clarkstown",
       "away_score": null,
@@ -902,6 +865,21 @@
       "time": "01:30 PM"
     },
     {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-G12B-Wexler",
+      "date": "2026-11-21",
+      "division": "G12B",
+      "field": "Father Glotzbach Field2",
+      "field_id": "704",
+      "game_id": "414557",
+      "home_club": "Nutley",
+      "home_score": null,
+      "home_team": "Nutley-G12B-Helm",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
       "away_club": "Nutley",
       "away_score": null,
       "away_team": "Nutley-G12B-Helm",
@@ -960,8 +938,23 @@
       "home_team": "Warriors-G12B-Orozco",
       "is_upcoming": true,
       "time": "05:00 PM"
+    },
+    {
+      "away_club": "Warriors",
+      "away_score": null,
+      "away_team": "Warriors-G12B-Orozco",
+      "date": "2026-11-29",
+      "division": "G12B",
+      "field": "Memorial No 3",
+      "field_id": "398",
+      "game_id": "414558",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-G12B-Szalkiewicz",
+      "is_upcoming": true,
+      "time": "12:30 PM"
     }
   ],
-  "scraped_at": "2026-10-15T11:15:01.575701Z",
+  "scraped_at": "2026-10-16T11:08:09.312057Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

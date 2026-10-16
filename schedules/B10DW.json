@@ -1,6 +1,13 @@
 {
   "division": "B10DW",
   "fields": {
+    "102": {
+      "address": "117 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hopper Ave Field",
+      "size": "Both (Small & Large)"
+    },
     "103": {
       "address": "155 Wyckoff Ave, Waldwick, NJ 07463",
       "comments": "Small Sided field on the turf",
@@ -21,13 +28,6 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "WR Athletic Complex Small A",
       "size": "Small Field (8 vs 8)"
-    },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
     },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
@@ -359,21 +359,6 @@
       "time": "04:00 PM"
     },
     {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-B10DW-Hernandez",
-      "date": "2026-10-31",
-      "division": "B10DW",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416102",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-B10DW-Schechter",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "WoodRidge",
       "away_score": null,
       "away_team": "WoodRidge-B10DW-Prior",
@@ -432,6 +417,21 @@
       "home_team": "Maroons-B10DW-OHara",
       "is_upcoming": true,
       "time": "02:15 PM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B10DW-Hernandez",
+      "date": "2026-11-08",
+      "division": "B10DW",
+      "field": "Hopper Ave Field",
+      "field_id": "102",
+      "game_id": "416102",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-B10DW-Schechter",
+      "is_upcoming": true,
+      "time": "10:30 AM"
     },
     {
       "away_club": "AviatorsHHSA",
@@ -524,6 +524,6 @@
       "time": "03:30 PM"
     }
   ],
-  "scraped_at": "2026-10-15T11:11:23.645744Z",
+  "scraped_at": "2026-10-16T11:04:31.878679Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

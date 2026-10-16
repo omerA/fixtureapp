@@ -1,6 +1,6 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-10-15T11:09:53.725785Z",
+  "scraped_at": "2026-10-16T11:03:02.489210Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "FairLawnAllSports",
       "coach": "DeFina",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
+        {
+          "date": "2026-10-15",
+          "game_number": "416230",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12A-Rotolo",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "HOT-McFarran"
+        },
         {
           "date": "2026-09-19",
           "game_number": "416233",
@@ -33,14 +44,14 @@
           "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 1,
-      "goals_for": 6,
+      "goal_diff": 10,
+      "goals_against": 2,
+      "goals_for": 12,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "FairLawnAllSports-B12A-DeFina",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Tenafly",
@@ -264,8 +275,19 @@
       "club": "Hotspur",
       "coach": "Rotolo",
       "draws": 1,
-      "form": "LD",
+      "form": "LDL",
       "games": [
+        {
+          "date": "2026-10-15",
+          "game_number": "416230",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12A-DeFina",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "HOT-McFarran"
+        },
         {
           "date": "2026-09-19",
           "game_number": "416235",
@@ -289,11 +311,11 @@
           "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 6,
-      "goals_for": 3,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": -8,
+      "goals_against": 12,
+      "goals_for": 4,
+      "losses": 2,
+      "played": 3,
       "points": 1,
       "team_raw": "Hotspur-B12A-Rotolo",
       "wins": 0

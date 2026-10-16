@@ -1,6 +1,13 @@
 {
   "division": "B11XB",
   "fields": {
+    "102": {
+      "address": "117 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hopper Ave Field",
+      "size": "Both (Small & Large)"
+    },
     "157": {
       "address": "398 West Mombasha Road, Monroe, NY 10950",
       "comments": "]",
@@ -91,6 +98,21 @@
       "time": "12:30 PM"
     },
     {
+      "away_club": "WoodRidge",
+      "away_score": null,
+      "away_team": "WoodRidge-B11XB-Maccarrone",
+      "date": "2026-10-30",
+      "division": "B11XB",
+      "field": "Hopper Ave Field",
+      "field_id": "102",
+      "game_id": "417935",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-B11XB-Leonard",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Nutley",
       "away_score": null,
       "away_team": "Nutley-B11XB-Sceppaguercio",
@@ -119,21 +141,6 @@
       "home_team": "Nutley-B11XB-Sceppaguercio",
       "is_upcoming": true,
       "time": "06:30 PM"
-    },
-    {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B11XB-Maccarrone",
-      "date": "2026-12-03",
-      "division": "B11XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417935",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-B11XB-Leonard",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Warriors",
@@ -166,6 +173,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-15T11:12:14.756919Z",
+  "scraped_at": "2026-10-16T11:05:23.146241Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -22,6 +22,13 @@
       "name": "Zukor Park 2A",
       "size": "Both (Small & Large)"
     },
+    "1181": {
+      "address": "19 Zukor Road, New City, NY 10956",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Zukor Park 2C",
+      "size": "Small Field (8 vs 8)"
+    },
     "1234": {
       "address": "235 Harrington Ave., Westwood, NJ 07675",
       "comments": "7v7 field",
@@ -42,13 +49,6 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Jessie George School Field",
       "size": "Small Field (8 vs 8)"
-    },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
     },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
@@ -668,14 +668,14 @@
       "away_team": "Verona-B10B-Elio",
       "date": "2026-11-07",
       "division": "B10B",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
+      "field": "Zukor Park 2C",
+      "field_id": "1181",
       "game_id": "413894",
       "home_club": "Clarkstown",
       "home_score": null,
       "home_team": "Clarkstown-B10B-Dominguez",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "11:00 AM"
     },
     {
       "away_club": "Vikings",
@@ -873,6 +873,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-15T11:11:12.223356Z",
+  "scraped_at": "2026-10-16T11:04:20.493948Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

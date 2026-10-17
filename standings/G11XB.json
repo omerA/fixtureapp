@@ -1,9 +1,36 @@
 {
   "division": "G11XB",
-  "scraped_at": "2026-10-16T11:03:05.170573Z",
+  "scraped_at": "2026-10-17T10:26:08.707786Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Cotter",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-02",
+          "game_number": "417961",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G11XB-Jackson",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Maroons-G11XB-Cotter",
+      "wins": 1
+    },
     {
       "club": "Dragons",
       "coach": "Cotter",
@@ -33,41 +60,29 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 1,
-      "goals_for": 10,
+      "goal_diff": 2,
+      "goals_against": 0,
+      "goals_for": 2,
       "losses": 0,
       "played": 2,
-      "points": 6,
+      "points": 3,
       "team_raw": "Dragons-G11XB-Cotter",
-      "wins": 2
+      "wins": 1
     },
     {
-      "club": "Maroons",
-      "coach": "Cotter",
+      "club": "AviatorsHHSA",
+      "coach": "Emara",
       "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-02",
-          "game_number": "417961",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G11XB-Jackson",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        }
-      ],
-      "goal_diff": 7,
+      "form": "",
+      "games": [],
+      "goal_diff": 0,
       "goals_against": 0,
-      "goals_for": 7,
+      "goals_for": 0,
       "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Maroons-G11XB-Cotter",
-      "wins": 1
+      "played": 0,
+      "points": 0,
+      "team_raw": "AviatorsHHSA-G11XB-Emara",
+      "wins": 0
     },
     {
       "club": "FairLawnAllSports",
@@ -100,6 +115,21 @@
       "wins": 0
     },
     {
+      "club": "WestEssex",
+      "coach": "Pajuelo",
+      "draws": 0,
+      "form": "",
+      "games": [],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 0,
+      "points": 0,
+      "team_raw": "WestEssex-G11XB-Pajuelo",
+      "wins": 0
+    },
+    {
       "club": "WayneBG",
       "coach": "Vinces",
       "draws": 0,
@@ -128,10 +158,10 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 10,
-      "goals_for": 1,
-      "losses": 2,
+      "goal_diff": -2,
+      "goals_against": 2,
+      "goals_for": 0,
+      "losses": 1,
       "played": 2,
       "points": 0,
       "team_raw": "WayneBG-G11XB-Vinces",

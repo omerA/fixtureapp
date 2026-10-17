@@ -36,13 +36,6 @@
       "name": "Hillman",
       "size": "Large Field (11 vs 11)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -71,6 +64,13 @@
       "name": "Memorial No 5",
       "size": "Both (Small & Large)"
     },
+    "531": {
+      "address": "134 Hopper Ave, Waldwick, NJ 07463",
+      "comments": "indoor fields",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Waldwick Superdome Indoor 1",
+      "size": "Small Field (8 vs 8)"
+    },
     "716": {
       "address": "131 Main Street, Emerson, NJ 07630",
       "comments": "",
@@ -84,6 +84,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Roosevelt School",
       "size": "Small Field (8 vs 8)"
+    },
+    "984": {
+      "address": "122 State School Road, Warwick, NY 10990",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hudson Sports Complex",
+      "size": "Both (Small & Large)"
     }
   },
   "games": [
@@ -228,8 +235,8 @@
       "away_team": "RiverDell-B09F-Buser",
       "date": "2026-10-17",
       "division": "B09F",
-      "field": "Gonzaga Park",
-      "field_id": "1114",
+      "field": "Hudson Sports Complex",
+      "field_id": "984",
       "game_id": "413863",
       "home_club": "Force",
       "home_score": null,
@@ -243,8 +250,8 @@
       "away_team": "Emerson-B09F-Rice",
       "date": "2026-10-17",
       "division": "B09F",
-      "field": "Dorchester School Field 2",
-      "field_id": "244",
+      "field": "Waldwick Superdome Indoor 1",
+      "field_id": "531",
       "game_id": "413862",
       "home_club": "Arsenal",
       "home_score": null,
@@ -373,21 +380,6 @@
       "time": "06:00 PM"
     },
     {
-      "away_club": "Force",
-      "away_score": null,
-      "away_team": "Force-B09F-McCooey",
-      "date": "2026-11-07",
-      "division": "B09F",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "413871",
-      "home_club": "Arsenal",
-      "home_score": null,
-      "home_team": "Arsenal-B09F-Mancheno",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Rutherford",
       "away_score": null,
       "away_team": "Rutherford-B09F-Booth",
@@ -401,6 +393,21 @@
       "home_team": "RiverDell-B09F-Buser",
       "is_upcoming": true,
       "time": "10:30 AM"
+    },
+    {
+      "away_club": "Force",
+      "away_score": null,
+      "away_team": "Force-B09F-McCooey",
+      "date": "2026-11-07",
+      "division": "B09F",
+      "field": "Dorchester School Field 2",
+      "field_id": "244",
+      "game_id": "413871",
+      "home_club": "Arsenal",
+      "home_score": null,
+      "home_team": "Arsenal-B09F-Mancheno",
+      "is_upcoming": true,
+      "time": "12:00 PM"
     },
     {
       "away_club": "Emerson",
@@ -538,6 +545,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-16T11:04:00.370774Z",
+  "scraped_at": "2026-10-17T10:27:02.097098Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

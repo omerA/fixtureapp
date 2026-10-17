@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-10-16T11:03:02.596545Z",
+  "scraped_at": "2026-10-17T10:26:07.530193Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -234,49 +234,22 @@
       "wins": 1
     },
     {
-      "club": "NoValley",
-      "coach": "Medina",
-      "draws": 1,
-      "form": "DW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "417317",
-          "goals_against": 6,
-          "goals_for": 6,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B12C-Chafetz",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "NoVAL-Chestnut"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417327",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B12C-Sietsma",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "RYSA-Heights"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 8,
-      "goals_for": 15,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "NoValley-B12C-Medina",
-      "wins": 1
-    },
-    {
       "club": "FairLawnAllSports",
       "coach": "Carpio",
       "draws": 1,
-      "form": "LDL",
+      "form": "LDLW",
       "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "417310",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Medina",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417315",
@@ -311,14 +284,63 @@
           "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 9,
-      "goals_for": 2,
+      "goal_diff": -3,
+      "goals_against": 10,
+      "goals_for": 7,
       "losses": 2,
-      "played": 3,
-      "points": 1,
+      "played": 4,
+      "points": 4,
       "team_raw": "FairLawnAllSports-B12C-Carpio",
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "club": "NoValley",
+      "coach": "Medina",
+      "draws": 1,
+      "form": "DWL",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "417310",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12C-Carpio",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417317",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B12C-Chafetz",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417327",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12C-Sietsma",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "RYSA-Heights"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 13,
+      "goals_for": 16,
+      "losses": 1,
+      "played": 3,
+      "points": 4,
+      "team_raw": "NoValley-B12C-Medina",
+      "wins": 1
     },
     {
       "club": "Belleville",

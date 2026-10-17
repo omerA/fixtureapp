@@ -1,9 +1,36 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-10-16T11:03:02.445745Z",
+  "scraped_at": "2026-10-17T10:26:07.461054Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "OHara",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-13",
+          "game_number": "418045",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11XW-Zurita",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 1,
+      "goals_for": 6,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Maroons-B11XW-OHara",
+      "wins": 1
+    },
     {
       "club": "CougarSC",
       "coach": "James",
@@ -35,31 +62,28 @@
       "wins": 0
     },
     {
-      "club": "Maroons",
-      "coach": "OHara",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maroons-B11XW-OHara",
-      "wins": 0
-    },
-    {
       "club": "Nutley",
       "coach": "Zurita",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-13",
+          "game_number": "418045",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11XW-OHara",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 6,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Nutley-B11XW-Zurita",
       "wins": 0

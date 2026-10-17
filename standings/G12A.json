@@ -1,9 +1,69 @@
 {
   "division": "G12A",
-  "scraped_at": "2026-10-16T11:03:05.219907Z",
+  "scraped_at": "2026-10-17T10:26:08.730213Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Dragons",
+      "coach": "Johnson",
+      "draws": 0,
+      "form": "WWWW",
+      "games": [
+        {
+          "date": "2026-10-02",
+          "game_number": "414515",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G12A-Londono",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414519",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G12A-Cashman",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "DRAG-WestvalePkSmall"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414526",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G12A-DeCarlo",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-16",
+          "game_number": "414528",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12A-Lanz",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": 16,
+      "goals_against": 2,
+      "goals_for": 18,
+      "losses": 0,
+      "played": 4,
+      "points": 12,
+      "team_raw": "Dragons-G12A-Johnson",
+      "wins": 4
+    },
     {
       "club": "Southside",
       "coach": "Oscanoa",
@@ -63,55 +123,6 @@
       "points": 12,
       "team_raw": "Southside-G12A-Oscanoa",
       "wins": 4
-    },
-    {
-      "club": "Dragons",
-      "coach": "Johnson",
-      "draws": 0,
-      "form": "WWW",
-      "games": [
-        {
-          "date": "2026-10-02",
-          "game_number": "414515",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G12A-Londono",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414519",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G12A-Cashman",
-          "result": "W",
-          "time": "04:15 PM",
-          "venue_code": "DRAG-WestvalePkSmall"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414526",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G12A-DeCarlo",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "WYNE-Alps2"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 2,
-      "goals_for": 11,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "Dragons-G12A-Johnson",
-      "wins": 3
     },
     {
       "club": "FairLawnAllSports",
@@ -215,7 +226,7 @@
       "club": "Warriors",
       "coach": "Lanz",
       "draws": 0,
-      "form": "WL",
+      "form": "WLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -238,13 +249,24 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-10-16",
+          "game_number": "414528",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12A-Johnson",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 5,
+      "goal_diff": -5,
+      "goals_against": 12,
       "goals_for": 7,
-      "losses": 1,
-      "played": 2,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "Warriors-G12A-Lanz",
       "wins": 1

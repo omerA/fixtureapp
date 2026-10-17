@@ -22,11 +22,11 @@
       "name": "Lyndhurst Rec Center Field 3",
       "size": "Small Field (8 vs 8)"
     },
-    "53": {
-      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
-      "comments": "60 x 110",
-      "details": "LIGHTS \u2014 GRASS",
-      "name": "Veterans Field - SS 2",
+    "585": {
+      "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Maple Park West",
       "size": "Small Field (8 vs 8)"
     },
     "704": {
@@ -46,18 +46,18 @@
   },
   "games": [
     {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-B12XB-Breheny",
+      "away_club": "Hotspur",
+      "away_score": 1,
+      "away_team": "Hotspur-B12XB-Rotolo",
       "date": "2026-10-16",
       "division": "B12XB",
-      "field": "Lower McFarran Field",
-      "field_id": "374",
+      "field": "Maple Park West",
+      "field_id": "585",
       "game_id": "417945",
-      "home_club": "Hotspur",
-      "home_score": null,
-      "home_team": "Hotspur-B12XB-Rotolo",
-      "is_upcoming": true,
+      "home_club": "Maroons",
+      "home_score": 3,
+      "home_team": "Maroons-B12XB-Breheny",
+      "is_upcoming": false,
       "time": "07:30 PM"
     },
     {
@@ -91,19 +91,19 @@
       "time": "07:00 PM"
     },
     {
-      "away_club": "Hotspur",
+      "away_club": "Maroons",
       "away_score": null,
-      "away_team": "Hotspur-B12XB-Rotolo",
+      "away_team": "Maroons-B12XB-Breheny",
       "date": "2026-11-15",
       "division": "B12XB",
-      "field": "Veterans Field - SS 2",
-      "field_id": "53",
+      "field": "Lower McFarran Field",
+      "field_id": "374",
       "game_id": "417946",
-      "home_club": "Maroons",
+      "home_club": "Hotspur",
       "home_score": null,
-      "home_team": "Maroons-B12XB-Breheny",
+      "home_team": "Hotspur-B12XB-Rotolo",
       "is_upcoming": true,
-      "time": "05:45 PM"
+      "time": "05:30 PM"
     },
     {
       "away_club": "Lyndhurst",
@@ -166,6 +166,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-16T11:05:54.644220Z",
+  "scraped_at": "2026-10-17T10:28:55.819452Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

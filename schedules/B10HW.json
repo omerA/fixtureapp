@@ -36,13 +36,6 @@
       "name": "Hillman",
       "size": "Large Field (11 vs 11)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "251": {
       "address": "47 Spring Valley Road, Montvale, NJ 07645",
       "comments": "",
@@ -56,6 +49,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "North Central",
       "size": "Small Field (8 vs 8)"
+    },
+    "374": {
+      "address": "Williams Drive, Ramsey, NJ 07446",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Lower McFarran Field",
+      "size": "Large Field (11 vs 11)"
     },
     "394": {
       "address": "234 Lake Street, Upper Saddle River, NJ 07458",
@@ -223,21 +223,6 @@
       "time": "10:30 AM"
     },
     {
-      "away_club": "Americans",
-      "away_score": null,
-      "away_team": "Americans-B10HW-Kelly",
-      "date": "2026-10-03",
-      "division": "B10HW",
-      "field": "North Central",
-      "field_id": "301",
-      "game_id": "414012",
-      "home_club": "Hotspur",
-      "home_score": null,
-      "home_team": "Hotspur-B10HW-Herbst",
-      "is_upcoming": true,
-      "time": "11:00 AM"
-    },
-    {
       "away_club": "Emerson",
       "away_score": 6,
       "away_team": "Emerson-B10HW-Perrone",
@@ -403,19 +388,19 @@
       "time": "08:15 AM"
     },
     {
-      "away_club": "Spartan",
+      "away_club": "Americans",
       "away_score": null,
-      "away_team": "Spartan-B10HW-Musano",
-      "date": "2026-11-07",
+      "away_team": "Americans-B10HW-Kelly",
+      "date": "2026-11-01",
       "division": "B10HW",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414592",
+      "field": "Lower McFarran Field",
+      "field_id": "374",
+      "game_id": "414012",
       "home_club": "Hotspur",
       "home_score": null,
       "home_team": "Hotspur-B10HW-Herbst",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "06:30 PM"
     },
     {
       "away_club": "Emerson",
@@ -493,6 +478,21 @@
       "time": "09:00 AM"
     },
     {
+      "away_club": "Spartan",
+      "away_score": null,
+      "away_team": "Spartan-B10HW-Musano",
+      "date": "2026-11-15",
+      "division": "B10HW",
+      "field": "North Central",
+      "field_id": "301",
+      "game_id": "414592",
+      "home_club": "Hotspur",
+      "home_score": null,
+      "home_team": "Hotspur-B10HW-Herbst",
+      "is_upcoming": true,
+      "time": "09:30 AM"
+    },
+    {
       "away_club": "Hotspur",
       "away_score": null,
       "away_team": "Hotspur-B10HW-Herbst",
@@ -538,6 +538,6 @@
       "time": "10:30 AM"
     }
   ],
-  "scraped_at": "2026-10-16T11:04:46.296443Z",
+  "scraped_at": "2026-10-17T10:27:47.741599Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

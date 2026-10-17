@@ -1,9 +1,36 @@
 {
   "division": "B12XB",
-  "scraped_at": "2026-10-16T11:03:02.986811Z",
+  "scraped_at": "2026-10-17T10:26:07.711907Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Breheny",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "417945",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12XB-Rotolo",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 1,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Maroons-B12XB-Breheny",
+      "wins": 1
+    },
     {
       "club": "Belleville",
       "coach": "Percio",
@@ -35,21 +62,6 @@
       "wins": 0
     },
     {
-      "club": "Hotspur",
-      "coach": "Rotolo",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Hotspur-B12XB-Rotolo",
-      "wins": 0
-    },
-    {
       "club": "Lyndhurst",
       "coach": "Seddiki",
       "draws": 0,
@@ -65,21 +77,6 @@
       "wins": 0
     },
     {
-      "club": "Maroons",
-      "coach": "Breheny",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maroons-B12XB-Breheny",
-      "wins": 0
-    },
-    {
       "club": "Nutley",
       "coach": "Benevento",
       "draws": 0,
@@ -92,6 +89,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "Nutley-B12XB-Benevento",
+      "wins": 0
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Rotolo",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "417945",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12XB-Breheny",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 3,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Hotspur-B12XB-Rotolo",
       "wins": 0
     }
   ]

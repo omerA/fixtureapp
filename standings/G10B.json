@@ -1,6 +1,6 @@
 {
   "division": "G10B",
-  "scraped_at": "2026-10-16T11:03:04.622149Z",
+  "scraped_at": "2026-10-17T10:26:08.449233Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -54,6 +54,55 @@
       "wins": 3
     },
     {
+      "club": "Maroons",
+      "coach": "Forsythe",
+      "draws": 0,
+      "form": "LWW",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "416592",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G10B-Steinman",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416595",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10B-Mulanaphy",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "416598",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10B-Stearns",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 5,
+      "goals_for": 12,
+      "losses": 1,
+      "played": 3,
+      "points": 6,
+      "team_raw": "Maroons-G10B-Forsythe",
+      "wins": 2
+    },
+    {
       "club": "GlobalJC",
       "coach": "Coulson",
       "draws": 0,
@@ -101,44 +150,6 @@
       "points": 6,
       "team_raw": "GlobalJC-G10B-Coulson",
       "wins": 2
-    },
-    {
-      "club": "Maroons",
-      "coach": "Forsythe",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416595",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G10B-Mulanaphy",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "HOT-NoCentral"
-        },
-        {
-          "date": "2026-10-11",
-          "game_number": "416598",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G10B-Stearns",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 5,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "Maroons-G10B-Forsythe",
-      "wins": 1
     },
     {
       "club": "HobUtd",
@@ -220,8 +231,19 @@
       "club": "NoValley",
       "coach": "Steinman",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "416592",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10B-Forsythe",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416596",
@@ -245,11 +267,11 @@
           "venue_code": "HobUTD-SinatraPkSth"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 17,
+      "goal_diff": -19,
+      "goals_against": 24,
       "goals_for": 5,
-      "losses": 2,
-      "played": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "NoValley-G10B-Steinman",
       "wins": 0

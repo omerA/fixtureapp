@@ -1,6 +1,6 @@
 {
   "division": "B08EB7",
-  "scraped_at": "2026-10-16T11:03:00.518171Z",
+  "scraped_at": "2026-10-17T10:26:06.560177Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Maywood",
       "coach": "Arbaiza",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -53,16 +53,27 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-16",
+          "game_number": "417021",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "ElmwoodPk",
+          "opponent_raw": "ElmwoodPk-B08EB7-Meneses",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 5,
-      "goals_for": 30,
+      "goal_diff": 31,
+      "goals_against": 6,
+      "goals_for": 37,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "Maywood-B08EB7-Arbaiza",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Dragons",
@@ -212,6 +223,66 @@
       "wins": 1
     },
     {
+      "club": "ElmwoodPk",
+      "coach": "Meneses",
+      "draws": 0,
+      "form": "LLLL",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "417013",
+          "goals_against": 10,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08EB7-King",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "417015",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08EB7-Osenbruck",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "EPUnited-BoroughFld"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417019",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B08EB7-Turco",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-Trinity"
+        },
+        {
+          "date": "2026-10-16",
+          "game_number": "417021",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B08EB7-Arbaiza",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        }
+      ],
+      "goal_diff": -23,
+      "goals_against": 31,
+      "goals_for": 8,
+      "losses": 4,
+      "played": 4,
+      "points": 0,
+      "team_raw": "ElmwoodPk-B08EB7-Meneses",
+      "wins": 0
+    },
+    {
       "club": "Torpedoes",
       "coach": "Schweizer",
       "draws": 0,
@@ -247,55 +318,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "Torpedoes-B08EB7-Schweizer",
-      "wins": 0
-    },
-    {
-      "club": "ElmwoodPk",
-      "coach": "Meneses",
-      "draws": 0,
-      "form": "LLL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "417013",
-          "goals_against": 10,
-          "goals_for": 3,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B08EB7-King",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-10-11",
-          "game_number": "417015",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B08EB7-Osenbruck",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "EPUnited-BoroughFld"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417019",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B08EB7-Turco",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "MAHWAH-Trinity"
-        }
-      ],
-      "goal_diff": -17,
-      "goals_against": 24,
-      "goals_for": 7,
-      "losses": 3,
-      "played": 3,
-      "points": 0,
-      "team_raw": "ElmwoodPk-B08EB7-Meneses",
       "wins": 0
     }
   ]

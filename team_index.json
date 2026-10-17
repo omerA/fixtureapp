@@ -55,6 +55,7 @@
       "AviatorsHHSA-B14D-Wells",
       "AviatorsHHSA-G09D-Emara",
       "AviatorsHHSA-G11B-Emara",
+      "AviatorsHHSA-G11XB-Emara",
       "AviatorsHHSA-G13E-Longheira",
       "AviatorsHHSA-G14C-Andersen"
     ],
@@ -999,6 +1000,7 @@
       "WestEssex-G09E-Sevilla",
       "WestEssex-G10D-Pajuelo",
       "WestEssex-G11A-Pajuelo",
+      "WestEssex-G11XB-Pajuelo",
       "WestEssex-G12DW-Scorciolla"
     ],
     "WoodRidge": [
@@ -1284,6 +1286,11 @@
       "club": "AviatorsHHSA",
       "coach": "Emara",
       "division": "G11B"
+    },
+    "AviatorsHHSA-G11XB-Emara": {
+      "club": "AviatorsHHSA",
+      "coach": "Emara",
+      "division": "G11XB"
     },
     "AviatorsHHSA-G13E-Longheira": {
       "club": "AviatorsHHSA",
@@ -5425,6 +5432,11 @@
       "coach": "Pajuelo",
       "division": "G11A"
     },
+    "WestEssex-G11XB-Pajuelo": {
+      "club": "WestEssex",
+      "coach": "Pajuelo",
+      "division": "G11XB"
+    },
     "WestEssex-G12DW-Scorciolla": {
       "club": "WestEssex",
       "coach": "Scorciolla",
@@ -5782,7 +5794,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-16T11:02:59.670430+00:00",
+  "scraped_at": "2026-10-17T10:26:06.188250+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-10-16T11:03:03.861738Z",
+  "scraped_at": "2026-10-17T10:26:08.103817Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -86,34 +86,31 @@
       "wins": 1
     },
     {
-      "club": "Southside",
-      "coach": "Fernandez",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Southside-B14XW-Fernandez",
-      "wins": 0
-    },
-    {
       "club": "ST23",
       "coach": "Rosskamp",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "418068",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B14XW-Fernandez",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 2,
+      "goals_for": 3,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "ST23-B14XW-Rosskamp",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Nutley",
@@ -140,6 +137,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Nutley-B14XW-Blanchard",
+      "wins": 0
+    },
+    {
+      "club": "Southside",
+      "coach": "Fernandez",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "418068",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B14XW-Rosskamp",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 3,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Southside-B14XW-Fernandez",
       "wins": 0
     },
     {

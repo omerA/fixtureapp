@@ -1,6 +1,6 @@
 {
   "division": "G15A",
-  "scraped_at": "2026-10-16T11:03:06.063704Z",
+  "scraped_at": "2026-10-17T10:26:09.112102Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -57,7 +57,7 @@
       "club": "NMKnights",
       "coach": "Regas",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -71,6 +71,17 @@
           "venue_code": "NUT-FatherGlotzbach1"
         },
         {
+          "date": "2026-10-16",
+          "game_number": "416869",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15A-Viveros",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416888",
           "goals_against": 1,
@@ -82,14 +93,14 @@
           "venue_code": "NMilford-NMHS-Main"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 2,
-      "goals_for": 10,
+      "goal_diff": 10,
+      "goals_against": 4,
+      "goals_for": 14,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 9,
       "team_raw": "NMKnights-G15A-Regas",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Maroons",
@@ -171,8 +182,19 @@
       "club": "UnionCity",
       "coach": "Viveros",
       "draws": 0,
-      "form": "W",
+      "form": "WL",
       "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "416869",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G15A-Regas",
+          "result": "L",
+          "time": "07:15 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
         {
           "date": "2026-10-04",
           "game_number": "416887",
@@ -185,11 +207,11 @@
           "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 2,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
+      "goal_diff": -1,
+      "goals_against": 6,
+      "goals_for": 5,
+      "losses": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "UnionCity-G15A-Viveros",
       "wins": 1

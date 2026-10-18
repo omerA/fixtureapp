@@ -1,6 +1,6 @@
 {
   "division": "B14A",
-  "scraped_at": "2026-10-17T10:26:07.951231Z",
+  "scraped_at": "2026-10-18T10:41:30.473051Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -136,6 +136,66 @@
       "wins": 2
     },
     {
+      "club": "WorldClassFC",
+      "coach": "Hirt",
+      "draws": 1,
+      "form": "LLDW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "417542",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B14A-Krysa",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417545",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B14A-Arapi",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417549",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14A-Breheny",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417554",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14A-Adeboye",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field1"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 10,
+      "goals_for": 6,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "WorldClassFC-B14A-Hirt",
+      "wins": 1
+    },
+    {
       "club": "Maroons",
       "coach": "Breheny",
       "draws": 1,
@@ -188,7 +248,7 @@
       "club": "Vikings",
       "coach": "Adeboye",
       "draws": 3,
-      "form": "DLDD",
+      "form": "DLDDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -233,13 +293,24 @@
           "result": "D",
           "time": "03:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417554",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B14A-Hirt",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field1"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 10,
-      "goals_for": 6,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": -6,
+      "goals_against": 13,
+      "goals_for": 7,
+      "losses": 2,
+      "played": 5,
       "points": 3,
       "team_raw": "Vikings-B14A-Adeboye",
       "wins": 0
@@ -291,55 +362,6 @@
       "played": 3,
       "points": 2,
       "team_raw": "NoValley-B14A-Torrie",
-      "wins": 0
-    },
-    {
-      "club": "WorldClassFC",
-      "coach": "Hirt",
-      "draws": 1,
-      "form": "LLD",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "417542",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B14A-Krysa",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417545",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B14A-Arapi",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417549",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B14A-Breheny",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "MAR-VetsFld3"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 9,
-      "goals_for": 3,
-      "losses": 2,
-      "played": 3,
-      "points": 1,
-      "team_raw": "WorldClassFC-B14A-Hirt",
       "wins": 0
     }
   ]

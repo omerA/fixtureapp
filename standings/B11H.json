@@ -1,6 +1,6 @@
 {
   "division": "B11H",
-  "scraped_at": "2026-10-17T10:26:07.438714Z",
+  "scraped_at": "2026-10-18T10:41:29.264885Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -78,8 +78,8 @@
     {
       "club": "Maroons",
       "coach": "Lawrence",
-      "draws": 0,
-      "form": "WWW",
+      "draws": 1,
+      "form": "WWWD",
       "games": [
         {
           "date": "2026-09-19",
@@ -104,6 +104,17 @@
           "venue_code": "MAR-MapleParkWestSm"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "415740",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11H-Camara",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
           "date": "2026-10-07",
           "game_number": "417818",
           "goals_against": 2,
@@ -116,19 +127,68 @@
         }
       ],
       "goal_diff": 10,
-      "goals_against": 5,
-      "goals_for": 15,
+      "goals_against": 9,
+      "goals_for": 19,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 10,
       "team_raw": "Maroons-B11H-Lawrence",
       "wins": 3
     },
     {
+      "club": "Vikings",
+      "coach": "Nakashian",
+      "draws": 1,
+      "form": "LLD",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415730",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B11H-Chavez",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415736",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-Lawrence",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415741",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B11H-Gjoca",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "WALD-SuperDomeOut"
+        }
+      ],
+      "goal_diff": -8,
+      "goals_against": 12,
+      "goals_for": 4,
+      "losses": 2,
+      "played": 3,
+      "points": 1,
+      "team_raw": "Vikings-B11H-Nakashian",
+      "wins": 0
+    },
+    {
       "club": "Torpedoes",
       "coach": "Gjoca",
-      "draws": 0,
-      "form": "LLL",
+      "draws": 1,
+      "form": "LLLD",
       "games": [
         {
           "date": "2026-09-12",
@@ -153,6 +213,17 @@
           "venue_code": "MAR-MapleParkWestSm"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "415741",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11H-Nakashian",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
           "date": "2026-10-16",
           "game_number": "417822",
           "goals_against": 7,
@@ -165,57 +236,19 @@
         }
       ],
       "goal_diff": -12,
-      "goals_against": 16,
-      "goals_for": 4,
+      "goals_against": 17,
+      "goals_for": 5,
       "losses": 3,
-      "played": 3,
-      "points": 0,
+      "played": 4,
+      "points": 1,
       "team_raw": "Torpedoes-B11H-Gjoca",
-      "wins": 0
-    },
-    {
-      "club": "Vikings",
-      "coach": "Nakashian",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415730",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Broncos",
-          "opponent_raw": "Broncos-B11H-Chavez",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "CLIF-Latteri"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415736",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B11H-Lawrence",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        }
-      ],
-      "goal_diff": -8,
-      "goals_against": 11,
-      "goals_for": 3,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "Vikings-B11H-Nakashian",
       "wins": 0
     },
     {
       "club": "WayneBG",
       "coach": "Camara",
-      "draws": 0,
-      "form": "LLL",
+      "draws": 1,
+      "form": "LLLD",
       "games": [
         {
           "date": "2026-10-03",
@@ -227,6 +260,17 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415740",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-Lawrence",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
         },
         {
           "date": "2026-10-07",
@@ -252,11 +296,11 @@
         }
       ],
       "goal_diff": -13,
-      "goals_against": 18,
-      "goals_for": 5,
+      "goals_against": 22,
+      "goals_for": 9,
       "losses": 3,
-      "played": 3,
-      "points": 0,
+      "played": 4,
+      "points": 1,
       "team_raw": "WayneBG-B11H-Camara",
       "wins": 0
     }

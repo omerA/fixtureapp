@@ -1,6 +1,6 @@
 {
   "division": "B10DW",
-  "scraped_at": "2026-10-17T10:26:07.080523Z",
+  "scraped_at": "2026-10-18T10:41:28.414113Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -53,22 +53,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416096",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10DW-OHara",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 27,
-      "goals_against": 3,
-      "goals_for": 30,
+      "goal_diff": 34,
+      "goals_against": 4,
+      "goals_for": 38,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "WoodRidge-B10DW-Prior",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Maroons",
       "coach": "OHara",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -113,13 +124,24 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416096",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10DW-Prior",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 6,
-      "goals_for": 19,
-      "losses": 0,
-      "played": 4,
+      "goal_diff": 6,
+      "goals_against": 14,
+      "goals_for": 20,
+      "losses": 1,
+      "played": 5,
       "points": 12,
       "team_raw": "Maroons-B10DW-OHara",
       "wins": 4
@@ -128,7 +150,7 @@
       "club": "Warriors",
       "coach": "Schechter",
       "draws": 0,
-      "form": "LWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -173,22 +195,33 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416095",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10DW-Millard",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -2,
+      "goal_diff": 0,
       "goals_against": 14,
-      "goals_for": 12,
+      "goals_for": 14,
       "losses": 2,
-      "played": 4,
-      "points": 6,
+      "played": 5,
+      "points": 9,
       "team_raw": "Warriors-B10DW-Schechter",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RiverDell",
       "coach": "Cilia",
       "draws": 0,
-      "form": "LWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -233,22 +266,33 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416094",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B10DW-Hernandez",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 16,
-      "goals_for": 7,
+      "goal_diff": -8,
+      "goals_against": 17,
+      "goals_for": 9,
       "losses": 3,
-      "played": 4,
-      "points": 3,
+      "played": 5,
+      "points": 6,
       "team_raw": "RiverDell-B10DW-Cilia",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "CougarSC",
       "coach": "Millard",
       "draws": 1,
-      "form": "LLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-09-20",
@@ -293,13 +337,24 @@
           "result": "D",
           "time": "10:30 AM",
           "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416095",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10DW-Schechter",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 17,
+      "goal_diff": -16,
+      "goals_against": 19,
       "goals_for": 3,
-      "losses": 3,
-      "played": 4,
+      "losses": 4,
+      "played": 5,
       "points": 1,
       "team_raw": "CougarSC-B10DW-Millard",
       "wins": 0
@@ -308,7 +363,7 @@
       "club": "AviatorsHHSA",
       "coach": "Hernandez",
       "draws": 1,
-      "form": "LLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -353,13 +408,24 @@
           "result": "D",
           "time": "10:30 AM",
           "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416094",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10DW-Cilia",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 22,
-      "goals_for": 7,
-      "losses": 3,
-      "played": 4,
+      "goal_diff": -16,
+      "goals_against": 24,
+      "goals_for": 8,
+      "losses": 4,
+      "played": 5,
       "points": 1,
       "team_raw": "AviatorsHHSA-B10DW-Hernandez",
       "wins": 0

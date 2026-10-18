@@ -1,9 +1,69 @@
 {
   "division": "G09F",
-  "scraped_at": "2026-10-17T10:26:08.387713Z",
+  "scraped_at": "2026-10-18T10:41:31.529182Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Rutherford",
+      "coach": "Eng",
+      "draws": 0,
+      "form": "WWWW",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "415002",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09F-Wehmann",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-09-13",
+          "game_number": "415010",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G09F-Cartagena",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415014",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G09F-Oscanoa",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415022",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G09F-Kean",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 3,
+      "goals_for": 14,
+      "losses": 0,
+      "played": 4,
+      "points": 12,
+      "team_raw": "Rutherford-G09F-Eng",
+      "wins": 4
+    },
     {
       "club": "WoodRidge",
       "coach": "Cartagena",
@@ -76,53 +136,64 @@
       "wins": 4
     },
     {
-      "club": "Rutherford",
-      "coach": "Eng",
+      "club": "Southside",
+      "coach": "Oscanoa",
       "draws": 0,
-      "form": "WWW",
+      "form": "WLLW",
       "games": [
         {
           "date": "2026-09-13",
-          "game_number": "415010",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G09F-Cartagena",
+          "game_number": "415009",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G09F-Urbanovich",
           "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "WDRDG-AthleticComp-W"
+          "time": "05:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         },
         {
           "date": "2026-09-20",
           "game_number": "415014",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G09F-Oscanoa",
-          "result": "W",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09F-Eng",
+          "result": "L",
           "time": "02:30 PM",
           "venue_code": "Haledon-Rec-7v7"
         },
         {
-          "date": "2026-10-04",
-          "game_number": "415022",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G09F-Kean",
+          "date": "2026-10-17",
+          "game_number": "415017",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09F-Puglia",
           "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
+          "time": "04:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415024",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09F-Boone",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "Haledon-Rec-7v7"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 3,
+      "goal_diff": 2,
+      "goals_against": 8,
       "goals_for": 10,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "Rutherford-G09F-Eng",
-      "wins": 3
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Southside-G09F-Oscanoa",
+      "wins": 2
     },
     {
       "club": "Nutley",
@@ -245,59 +316,10 @@
       "wins": 1
     },
     {
-      "club": "Southside",
-      "coach": "Oscanoa",
-      "draws": 0,
-      "form": "WLL",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415009",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G09F-Urbanovich",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415014",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G09F-Eng",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415024",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G09F-Boone",
-          "result": "L",
-          "time": "12:45 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 8,
-      "goals_for": 5,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "Southside-G09F-Oscanoa",
-      "wins": 1
-    },
-    {
       "club": "CougarSC",
       "coach": "Puglia",
       "draws": 0,
-      "form": "LW",
+      "form": "LWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -308,6 +330,17 @@
           "opponent_raw": "WoodRidge-G09F-Cartagena",
           "result": "L",
           "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415017",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G09F-Oscanoa",
+          "result": "L",
+          "time": "04:30 PM",
           "venue_code": "COUGSC-Borden1"
         },
         {
@@ -322,11 +355,11 @@
           "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 7,
+      "goal_diff": -4,
+      "goals_against": 12,
       "goals_for": 8,
-      "losses": 1,
-      "played": 2,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "CougarSC-G09F-Puglia",
       "wins": 1
@@ -384,8 +417,19 @@
       "club": "Dragons",
       "coach": "Wehmann",
       "draws": 0,
-      "form": "WL",
+      "form": "WLL",
       "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "415002",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09F-Eng",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
         {
           "date": "2026-09-19",
           "game_number": "415013",
@@ -409,11 +453,11 @@
           "venue_code": "WDRDG-AthleticComp-W"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 11,
+      "goal_diff": -9,
+      "goals_against": 15,
       "goals_for": 6,
-      "losses": 1,
-      "played": 2,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "Dragons-G09F-Wehmann",
       "wins": 1

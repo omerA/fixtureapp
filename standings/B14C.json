@@ -1,6 +1,6 @@
 {
   "division": "B14C",
-  "scraped_at": "2026-10-17T10:26:08.000079Z",
+  "scraped_at": "2026-10-18T10:41:30.622739Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Tenafly",
       "coach": "Pereda",
       "draws": 1,
-      "form": "WDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-10-04",
@@ -53,22 +53,33 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414270",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B14C-McLean",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "WDRDG-AthleticComp"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 4,
-      "goals_for": 12,
+      "goal_diff": 10,
+      "goals_against": 6,
+      "goals_for": 16,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "Tenafly-B14C-Pereda",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "CougarUtd",
       "coach": "Son",
       "draws": 1,
-      "form": "WWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -113,22 +124,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "COUGUTD-ReganFull"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414268",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B14C-Lotz",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 5,
-      "goals_for": 10,
+      "goal_diff": 7,
+      "goals_against": 9,
+      "goals_for": 16,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "CougarUtd-B14C-Son",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Clarkstown",
       "coach": "Iamurri",
       "draws": 1,
-      "form": "WWD",
+      "form": "WWDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -162,22 +184,93 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414267",
+          "goals_against": 6,
+          "goals_for": 8,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B14C-Romero",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-CLARK-KennedyPk1"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 8,
-      "goals_for": 17,
+      "goal_diff": 11,
+      "goals_against": 14,
+      "goals_for": 25,
       "losses": 0,
-      "played": 3,
-      "points": 7,
+      "played": 4,
+      "points": 10,
       "team_raw": "Clarkstown-B14C-Iamurri",
+      "wins": 3
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Williams",
+      "draws": 1,
+      "form": "WDLW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "414249",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14C-Pereda",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414255",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14C-Recanati",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414265",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B14C-Iamurri",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414266",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B14C-Hirsch",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RUTH-Tryon"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 5,
+      "goals_for": 11,
+      "losses": 1,
+      "played": 4,
+      "points": 7,
+      "team_raw": "Rutherford-B14C-Williams",
       "wins": 2
     },
     {
       "club": "WoodRidge",
       "coach": "McLean",
       "draws": 0,
-      "form": "LLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -222,191 +315,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "AMER-LionsSouthFull"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414270",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14C-Pereda",
+          "result": "L",
+          "time": "07:15 PM",
+          "venue_code": "WDRDG-AthleticComp"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 12,
-      "goals_for": 14,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": 0,
+      "goals_against": 16,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "WoodRidge-B14C-McLean",
       "wins": 2
     },
     {
-      "club": "Rutherford",
-      "coach": "Williams",
-      "draws": 1,
-      "form": "WDL",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414249",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B14C-Pereda",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414255",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B14C-Recanati",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-HS-Grass"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414265",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B14C-Iamurri",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "RUTH-Tryon"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 4,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 3,
-      "points": 4,
-      "team_raw": "Rutherford-B14C-Williams",
-      "wins": 1
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Recanati",
-      "draws": 1,
-      "form": "WLDL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414248",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B14C-Hirsch",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-MS-Lg"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414255",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B14C-Williams",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-HS-Grass"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414258",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B14C-Romero",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414262",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B14C-Son",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "COUGUTD-ReganFull"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 8,
-      "goals_for": 8,
-      "losses": 2,
-      "played": 4,
-      "points": 4,
-      "team_raw": "RiverDell-B14C-Recanati",
-      "wins": 1
-    },
-    {
-      "club": "RIDGFLD",
-      "coach": "Romero",
-      "draws": 1,
-      "form": "LLDW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414247",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B14C-Tischio",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414254",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B14C-Pereda",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414258",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B14C-Recanati",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414263",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B14C-Lotz",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "NoVAL-OTHS turf"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 11,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 4,
-      "points": 4,
-      "team_raw": "RIDGFLD-B14C-Romero",
-      "wins": 1
-    },
-    {
       "club": "Nutley",
       "coach": "Tischio",
       "draws": 0,
-      "form": "WLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -451,22 +386,175 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414269",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14C-Recanati",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 10,
-      "goals_for": 5,
+      "goal_diff": -4,
+      "goals_against": 12,
+      "goals_for": 8,
       "losses": 3,
-      "played": 4,
-      "points": 3,
+      "played": 5,
+      "points": 6,
       "team_raw": "Nutley-B14C-Tischio",
+      "wins": 2
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Recanati",
+      "draws": 1,
+      "form": "WLDLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414248",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B14C-Hirsch",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-MS-Lg"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414255",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B14C-Williams",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414258",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B14C-Romero",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414262",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B14C-Son",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "COUGUTD-ReganFull"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414269",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14C-Tischio",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 11,
+      "goals_for": 10,
+      "losses": 3,
+      "played": 5,
+      "points": 4,
+      "team_raw": "RiverDell-B14C-Recanati",
+      "wins": 1
+    },
+    {
+      "club": "RIDGFLD",
+      "coach": "Romero",
+      "draws": 1,
+      "form": "LLDWL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414247",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14C-Tischio",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414254",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14C-Pereda",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414258",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14C-Recanati",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414263",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B14C-Lotz",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414267",
+          "goals_against": 8,
+          "goals_for": 6,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B14C-Iamurri",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-CLARK-KennedyPk1"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 19,
+      "goals_for": 17,
+      "losses": 3,
+      "played": 5,
+      "points": 4,
+      "team_raw": "RIDGFLD-B14C-Romero",
       "wins": 1
     },
     {
       "club": "Americans",
       "coach": "Hirsch",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -500,13 +588,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "AMER-LionsSouthFull"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414266",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B14C-Williams",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "RUTH-Tryon"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 9,
-      "goals_for": 9,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -5,
+      "goals_against": 15,
+      "goals_for": 10,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Americans-B14C-Hirsch",
       "wins": 1
@@ -515,7 +614,7 @@
       "club": "NoValley",
       "coach": "Lotz",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -549,13 +648,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414268",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B14C-Son",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 21,
-      "goals_for": 1,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -22,
+      "goals_against": 27,
+      "goals_for": 5,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "NoValley-B14C-Lotz",
       "wins": 0

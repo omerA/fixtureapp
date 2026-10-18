@@ -1,9 +1,58 @@
 {
   "division": "B10E",
-  "scraped_at": "2026-10-17T10:26:07.098752Z",
+  "scraped_at": "2026-10-18T10:41:28.456811Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "FF",
+      "coach": "Lezcano",
+      "draws": 0,
+      "form": "WWW",
+      "games": [
+        {
+          "date": "2026-10-02",
+          "game_number": "416113",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10E-Ayesteran",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416122",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B10E-Friedman",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416125",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10E-Harel",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "FF-KnightsColumbus"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 9,
+      "goals_for": 19,
+      "losses": 0,
+      "played": 3,
+      "points": 9,
+      "team_raw": "FF-B10E-Lezcano",
+      "wins": 3
+    },
     {
       "club": "Dragons",
       "coach": "Friedman",
@@ -51,44 +100,6 @@
       "played": 3,
       "points": 6,
       "team_raw": "Dragons-B10E-Friedman",
-      "wins": 2
-    },
-    {
-      "club": "FF",
-      "coach": "Lezcano",
-      "draws": 0,
-      "form": "WW",
-      "games": [
-        {
-          "date": "2026-10-02",
-          "game_number": "416113",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B10E-Ayesteran",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416122",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B10E-Friedman",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "FF-KnightsColumbus"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 7,
-      "goals_for": 10,
-      "losses": 0,
-      "played": 2,
-      "points": 6,
-      "team_raw": "FF-B10E-Lezcano",
       "wins": 2
     },
     {
@@ -155,7 +166,7 @@
       "club": "Vikings",
       "coach": "Harel",
       "draws": 0,
-      "form": "LW",
+      "form": "LWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -178,13 +189,24 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416125",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B10E-Lezcano",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 5,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": -2,
+      "goals_against": 14,
+      "goals_for": 12,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "Vikings-B10E-Harel",
       "wins": 1

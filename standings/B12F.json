@@ -1,6 +1,6 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-10-17T10:26:07.648584Z",
+  "scraped_at": "2026-10-18T10:41:29.756516Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "GlenRidge",
       "coach": "Glick",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -55,6 +55,17 @@
           "venue_code": "GLENRDGE-ForestAve"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "415805",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12F-Whalen",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416292",
           "goals_against": 2,
@@ -66,20 +77,20 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 8,
-      "goals_for": 21,
+      "goal_diff": 15,
+      "goals_against": 12,
+      "goals_for": 27,
       "losses": 1,
-      "played": 5,
-      "points": 12,
+      "played": 6,
+      "points": 15,
       "team_raw": "GlenRidge-B12F-Glick",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "BLMFLD",
       "coach": "Lombardy",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-09-19",
@@ -113,22 +124,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415804",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Gardiner",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 3,
-      "goals_for": 11,
+      "goal_diff": 9,
+      "goals_against": 4,
+      "goals_for": 13,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "BLMFLD-B12F-Lombardy",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Montclair",
       "coach": "Majoch",
       "draws": 0,
-      "form": "LWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-10-04",
@@ -173,22 +195,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415808",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-Bott",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 9,
-      "goals_for": 16,
+      "goal_diff": 11,
+      "goals_against": 12,
+      "goals_for": 23,
       "losses": 1,
-      "played": 4,
-      "points": 9,
+      "played": 5,
+      "points": 12,
       "team_raw": "Montclair-B12F-Majoch",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-09-27",
@@ -244,16 +277,27 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "VIK-Schauble"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415806",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B12F-Dzilla",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": -2,
+      "goal_diff": 2,
       "goals_against": 13,
-      "goals_for": 11,
+      "goals_for": 15,
       "losses": 3,
-      "played": 5,
-      "points": 6,
+      "played": 6,
+      "points": 9,
       "team_raw": "Maroons-B12F-Gillies",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Arsenal",
@@ -318,8 +362,8 @@
     {
       "club": "Verona",
       "coach": "Ahmed",
-      "draws": 1,
-      "form": "DWLLL",
+      "draws": 2,
+      "form": "WLLLD",
       "games": [
         {
           "date": "2026-10-04",
@@ -375,22 +419,82 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415807",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B12F-Buttacavoli",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
       "goal_diff": -11,
-      "goals_against": 19,
-      "goals_for": 8,
+      "goals_against": 22,
+      "goals_for": 11,
       "losses": 3,
-      "played": 5,
-      "points": 4,
+      "played": 6,
+      "points": 5,
       "team_raw": "Verona-B12F-Ahmed",
+      "wins": 1
+    },
+    {
+      "club": "Paramus",
+      "coach": "Buttacavoli",
+      "draws": 1,
+      "form": "WLD",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415792",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-Bott",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415801",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12F-Majoch",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415807",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12F-Ahmed",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 12,
+      "goals_for": 10,
+      "losses": 1,
+      "played": 3,
+      "points": 4,
+      "team_raw": "Paramus-B12F-Buttacavoli",
       "wins": 1
     },
     {
       "club": "Vikings",
       "coach": "Gardiner",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-10-04",
@@ -424,13 +528,24 @@
           "result": "L",
           "time": "03:15 PM",
           "venue_code": "VIK-Schauble"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415804",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B12F-Lombardy",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 6,
-      "goals_for": 5,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -2,
+      "goals_against": 8,
+      "goals_for": 6,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Vikings-B12F-Gardiner",
       "wins": 1
@@ -439,7 +554,7 @@
       "club": "GlobalJC",
       "coach": "Whalen",
       "draws": 0,
-      "form": "LW",
+      "form": "LWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -462,60 +577,33 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "VERONA-Centennial"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 8,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "GlobalJC-B12F-Whalen",
-      "wins": 1
-    },
-    {
-      "club": "Paramus",
-      "coach": "Buttacavoli",
-      "draws": 0,
-      "form": "WL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415792",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12F-Bott",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "RDBH-MS-Sm"
         },
         {
-          "date": "2026-10-03",
-          "game_number": "415801",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12F-Majoch",
+          "date": "2026-10-17",
+          "game_number": "415805",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B12F-Glick",
           "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "MONT-GlenfldPk9v9"
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 9,
-      "goals_for": 7,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": -5,
+      "goals_against": 14,
+      "goals_for": 9,
+      "losses": 2,
+      "played": 3,
       "points": 3,
-      "team_raw": "Paramus-B12F-Buttacavoli",
+      "team_raw": "GlobalJC-B12F-Whalen",
       "wins": 1
     },
     {
       "club": "Torpedoes",
       "coach": "Dzilla",
       "draws": 1,
-      "form": "DLL",
+      "form": "DLLL",
       "games": [
         {
           "date": "2026-10-04",
@@ -549,13 +637,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "MONT-GlenfldPk"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415806",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 12,
+      "goal_diff": -10,
+      "goals_against": 16,
       "goals_for": 6,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 1,
       "team_raw": "Torpedoes-B12F-Dzilla",
       "wins": 0
@@ -564,7 +663,7 @@
       "club": "RiverDell",
       "coach": "Bott",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -587,13 +686,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "ARS-OldMill"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415808",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12F-Majoch",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 13,
-      "goals_for": 2,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -15,
+      "goals_against": 20,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "RiverDell-B12F-Bott",
       "wins": 0

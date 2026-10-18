@@ -1,6 +1,6 @@
 {
   "division": "B10D",
-  "scraped_at": "2026-10-17T10:26:07.021425Z",
+  "scraped_at": "2026-10-18T10:41:28.308921Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Ajax",
       "coach": "Parlegreco",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -42,22 +42,33 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415560",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10D-Voellm",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-DePhillips Rec"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 10,
-      "goals_for": 24,
+      "goal_diff": 19,
+      "goals_against": 12,
+      "goals_for": 31,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Ajax-B10D-Parlegreco",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Lakeland",
       "coach": "Tynio",
       "draws": 0,
-      "form": "WWL",
+      "form": "WWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -91,22 +102,33 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415561",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B10D-Nylander",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 14,
       "goals_against": 7,
-      "goals_for": 14,
+      "goals_for": 21,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "Lakeland-B10D-Tynio",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "WayneBG",
       "coach": "Brown",
       "draws": 0,
-      "form": "LWW",
+      "form": "LWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -140,22 +162,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415562",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10D-Amsel",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 5,
-      "goals_for": 12,
+      "goal_diff": 12,
+      "goals_against": 7,
+      "goals_for": 19,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "WayneBG-B10D-Brown",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "NoValley",
       "coach": "Voellm",
       "draws": 0,
-      "form": "WLL",
+      "form": "WLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -189,13 +222,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415560",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10D-Parlegreco",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-DePhillips Rec"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 15,
-      "goals_for": 9,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -11,
+      "goals_against": 22,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "NoValley-B10D-Voellm",
       "wins": 1
@@ -204,7 +248,7 @@
       "club": "Tenafly",
       "coach": "Amsel",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -238,13 +282,24 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "TEANECK-VoteeNorth"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415562",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10D-Brown",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 19,
-      "goals_for": 15,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -9,
+      "goals_against": 26,
+      "goals_for": 17,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Tenafly-B10D-Amsel",
       "wins": 1
@@ -253,7 +308,7 @@
       "club": "TeaneckTravel",
       "coach": "Nylander",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -287,13 +342,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "TEANECK-VoteeNorth"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415561",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B10D-Tynio",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 23,
+      "goal_diff": -25,
+      "goals_against": 30,
       "goals_for": 5,
-      "losses": 3,
-      "played": 3,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "TeaneckTravel-B10D-Nylander",
       "wins": 0

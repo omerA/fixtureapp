@@ -1,6 +1,6 @@
 {
   "division": "B11F",
-  "scraped_at": "2026-10-17T10:26:07.377953Z",
+  "scraped_at": "2026-10-18T10:41:29.129383Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -67,8 +67,8 @@
     {
       "club": "Vikings",
       "coach": "Jung",
-      "draws": 1,
-      "form": "DWWL",
+      "draws": 2,
+      "form": "DWWLD",
       "games": [
         {
           "date": "2026-10-14",
@@ -91,6 +91,17 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "VIK-Schauble"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414062",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11F-Oakland",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
         },
         {
           "date": "2026-10-07",
@@ -116,19 +127,19 @@
         }
       ],
       "goal_diff": -3,
-      "goals_against": 10,
-      "goals_for": 7,
+      "goals_against": 13,
+      "goals_for": 10,
       "losses": 1,
-      "played": 4,
-      "points": 7,
+      "played": 5,
+      "points": 8,
       "team_raw": "Vikings-B11F-Jung",
       "wins": 2
     },
     {
       "club": "GlenRock",
       "coach": "Oakland",
-      "draws": 0,
-      "form": "LWW",
+      "draws": 1,
+      "form": "LWWD",
       "games": [
         {
           "date": "2026-09-26",
@@ -153,6 +164,17 @@
           "venue_code": "SS-FaberTurfSml"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "414062",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11F-Jung",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-09-20",
           "game_number": "417762",
           "goals_against": 7,
@@ -165,11 +187,11 @@
         }
       ],
       "goal_diff": 3,
-      "goals_against": 10,
-      "goals_for": 13,
+      "goals_against": 13,
+      "goals_for": 16,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 7,
       "team_raw": "GlenRock-B11F-Oakland",
       "wins": 2
     },

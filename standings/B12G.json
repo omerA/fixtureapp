@@ -1,74 +1,14 @@
 {
   "division": "B12G",
-  "scraped_at": "2026-10-17T10:26:07.682508Z",
+  "scraped_at": "2026-10-18T10:41:29.841126Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "JerseyCity",
-      "coach": "Nunfio",
-      "draws": 0,
-      "form": "WWWW",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "416311",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12G-Bechara",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "416314",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12G-Garrido",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "JC-CochraneCaven-2"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416318",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417769",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "TeaneckTravel",
-          "opponent_raw": "TeaneckTravel-B12G-Myriee",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "TEANECK-VoteeNorth"
-        }
-      ],
-      "goal_diff": 15,
-      "goals_against": 7,
-      "goals_for": 22,
-      "losses": 0,
-      "played": 4,
-      "points": 12,
-      "team_raw": "JerseyCity-B12G-Nunfio",
-      "wins": 4
-    },
-    {
       "club": "CougarSC",
       "coach": "Loffredo",
       "draws": 1,
-      "form": "DLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -124,22 +64,104 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "COUGSC-Meadowlands"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417770",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B12G-Myriee",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "COUGSC-Cameron"
+        }
+      ],
+      "goal_diff": 17,
+      "goals_against": 10,
+      "goals_for": 27,
+      "losses": 1,
+      "played": 6,
+      "points": 13,
+      "team_raw": "CougarSC-B12G-Loffredo",
+      "wins": 4
+    },
+    {
+      "club": "JerseyCity",
+      "coach": "Nunfio",
+      "draws": 0,
+      "form": "WWWWL",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "416311",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12G-Bechara",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "416314",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12G-Garrido",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "JC-CochraneCaven-2"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416318",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416333",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B12G-Timek",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417769",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B12G-Myriee",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "TEANECK-VoteeNorth"
         }
       ],
       "goal_diff": 14,
-      "goals_against": 10,
-      "goals_for": 24,
+      "goals_against": 9,
+      "goals_for": 23,
       "losses": 1,
       "played": 5,
-      "points": 10,
-      "team_raw": "CougarSC-B12G-Loffredo",
-      "wins": 3
+      "points": 12,
+      "team_raw": "JerseyCity-B12G-Nunfio",
+      "wins": 4
     },
     {
       "club": "Belleville",
       "coach": "Garrido",
       "draws": 0,
-      "form": "LWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -184,15 +206,86 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416336",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12G-Smalley",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": 5,
+      "goal_diff": 6,
       "goals_against": 8,
-      "goals_for": 13,
+      "goals_for": 14,
+      "losses": 1,
+      "played": 5,
+      "points": 12,
+      "team_raw": "Belleville-B12G-Garrido",
+      "wins": 4
+    },
+    {
+      "club": "NoRockland",
+      "coach": "Alexander",
+      "draws": 0,
+      "form": "WWLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416316",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416330",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B12G-Timek",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416334",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B12G-Hernandez",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417767",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B12G-Myriee",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NY-NR-NRSA-3"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 11,
+      "goals_for": 20,
       "losses": 1,
       "played": 4,
       "points": 9,
-      "team_raw": "Belleville-B12G-Garrido",
+      "team_raw": "NoRockland-B12G-Alexander",
       "wins": 3
     },
     {
@@ -256,52 +349,63 @@
       "wins": 2
     },
     {
-      "club": "NoRockland",
-      "coach": "Alexander",
+      "club": "HobUtd",
+      "coach": "Timek",
       "draws": 0,
-      "form": "WWL",
+      "form": "LLWW",
       "games": [
         {
-          "date": "2026-09-12",
-          "game_number": "416316",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "NY-NR-NRSA-3"
+          "date": "2026-09-27",
+          "game_number": "416308",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12G-Loffredo",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416317",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12G-Garrido",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "BELLE-BellePkFull"
         },
         {
           "date": "2026-10-03",
           "game_number": "416330",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B12G-Timek",
-          "result": "L",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12G-Alexander",
+          "result": "W",
           "time": "04:00 PM",
           "venue_code": "NY-NR-NRSA-3"
         },
         {
-          "date": "2026-09-19",
-          "game_number": "417767",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "TeaneckTravel",
-          "opponent_raw": "TeaneckTravel-B12G-Myriee",
+          "date": "2026-10-17",
+          "game_number": "416333",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B12G-Nunfio",
           "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "NY-NR-NRSA-3"
+          "time": "06:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 9,
-      "goals_for": 14,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": 0,
+      "goals_against": 13,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 4,
       "points": 6,
-      "team_raw": "NoRockland-B12G-Alexander",
+      "team_raw": "HobUtd-B12G-Timek",
       "wins": 2
     },
     {
@@ -367,8 +471,8 @@
     {
       "club": "Bergenfield",
       "coach": "Rodriguez",
-      "draws": 2,
-      "form": "WDLD",
+      "draws": 3,
+      "form": "WDLDD",
       "games": [
         {
           "date": "2026-09-12",
@@ -413,14 +517,25 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416332",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "BGFD-RoyBrown"
         }
       ],
       "goal_diff": 3,
-      "goals_against": 10,
-      "goals_for": 13,
+      "goals_against": 12,
+      "goals_for": 15,
       "losses": 1,
-      "played": 4,
-      "points": 5,
+      "played": 5,
+      "points": 6,
       "team_raw": "Bergenfield-B12G-Rodriguez",
       "wins": 1
     },
@@ -428,7 +543,7 @@
       "club": "Tenafly",
       "coach": "Smalley",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -462,71 +577,33 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416336",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12G-Garrido",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 10,
+      "goal_diff": -9,
+      "goals_against": 11,
       "goals_for": 2,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Tenafly-B12G-Smalley",
       "wins": 1
     },
     {
-      "club": "HobUtd",
-      "coach": "Timek",
-      "draws": 0,
-      "form": "LLW",
-      "games": [
-        {
-          "date": "2026-09-27",
-          "game_number": "416308",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B12G-Loffredo",
-          "result": "L",
-          "time": "08:30 AM",
-          "venue_code": "COUGSC-LightningSml"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416317",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12G-Garrido",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416330",
-          "goals_against": 3,
-          "goals_for": 6,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B12G-Alexander",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "NY-NR-NRSA-3"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 12,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "HobUtd-B12G-Timek",
-      "wins": 1
-    },
-    {
       "club": "Clarkstown",
       "coach": "MongeCalderon",
-      "draws": 0,
-      "form": "LLW",
+      "draws": 1,
+      "form": "LLWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -560,14 +637,25 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416332",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12G-Rodriguez",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "BGFD-RoyBrown"
         }
       ],
       "goal_diff": -1,
-      "goals_against": 11,
-      "goals_for": 10,
+      "goals_against": 13,
+      "goals_for": 12,
       "losses": 2,
-      "played": 3,
-      "points": 2,
+      "played": 4,
+      "points": 3,
       "team_raw": "Clarkstown-B12G-MongeCalderon",
       "wins": 1
     },
@@ -575,7 +663,7 @@
       "club": "TeaneckTravel",
       "coach": "Myriee",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -598,13 +686,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "TEANECK-VoteeNorth"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417770",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12G-Loffredo",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "COUGSC-Cameron"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 10,
+      "goal_diff": -9,
+      "goals_against": 13,
       "goals_for": 4,
-      "losses": 2,
-      "played": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "TeaneckTravel-B12G-Myriee",
       "wins": 0
@@ -669,13 +768,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416334",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B12G-Alexander",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 35,
-      "goals_for": 2,
-      "losses": 5,
-      "played": 5,
+      "goal_diff": -37,
+      "goals_against": 41,
+      "goals_for": 4,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "NoArlington-B12G-Hernandez",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-10-17T10:26:08.361187Z",
+  "scraped_at": "2026-10-18T10:41:31.466382Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -57,7 +57,7 @@
       "club": "CougarUtd",
       "coach": "Chang",
       "draws": 0,
-      "form": "WW",
+      "form": "WWW",
       "games": [
         {
           "date": "2026-10-09",
@@ -80,43 +80,27 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "COUGUTD-ReganSmall1"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 4,
-      "goals_for": 11,
-      "losses": 0,
-      "played": 2,
-      "points": 6,
-      "team_raw": "CougarUtd-G09E-Chang",
-      "wins": 2
-    },
-    {
-      "club": "Maroons",
-      "coach": "vanGulik",
-      "draws": 0,
-      "form": "W",
-      "games": [
+        },
         {
-          "date": "2026-10-03",
-          "game_number": "417664",
+          "date": "2026-10-17",
+          "game_number": "414856",
           "goals_against": 0,
           "goals_for": 7,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G09E-Goman",
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09E-vanGulik",
           "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "VERONA-ForestAve"
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 0,
-      "goals_for": 7,
+      "goal_diff": 14,
+      "goals_against": 4,
+      "goals_for": 18,
       "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Maroons-G09E-vanGulik",
-      "wins": 1
+      "played": 3,
+      "points": 9,
+      "team_raw": "CougarUtd-G09E-Chang",
+      "wins": 3
     },
     {
       "club": "WestEssex",
@@ -195,6 +179,44 @@
       "wins": 1
     },
     {
+      "club": "Maroons",
+      "coach": "vanGulik",
+      "draws": 0,
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "414856",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09E-Chang",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417664",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G09E-Goman",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "VERONA-ForestAve"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 7,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Maroons-G09E-vanGulik",
+      "wins": 1
+    },
+    {
       "club": "Torpedoes",
       "coach": "Duka",
       "draws": 0,
@@ -244,11 +266,60 @@
       "wins": 1
     },
     {
+      "club": "RiverDell",
+      "coach": "Norris",
+      "draws": 1,
+      "form": "LD",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "414827",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09E-Rothman",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414831",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09E-Chang",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 8,
+      "goals_for": 3,
+      "losses": 1,
+      "played": 2,
+      "points": 1,
+      "team_raw": "RiverDell-G09E-Norris",
+      "wins": 0
+    },
+    {
       "club": "HobUtd",
       "coach": "Rothman",
-      "draws": 0,
-      "form": "LL",
+      "draws": 1,
+      "form": "LLD",
       "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "414827",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Norris",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
         {
           "date": "2026-10-04",
           "game_number": "414835",
@@ -273,39 +344,12 @@
         }
       ],
       "goal_diff": -8,
-      "goals_against": 10,
-      "goals_for": 2,
+      "goals_against": 12,
+      "goals_for": 4,
       "losses": 2,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 1,
       "team_raw": "HobUtd-G09E-Rothman",
-      "wins": 0
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Norris",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414831",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G09E-Chang",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 6,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "RiverDell-G09E-Norris",
       "wins": 0
     },
     {

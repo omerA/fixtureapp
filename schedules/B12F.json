@@ -15,6 +15,13 @@
       "name": "Lionsgate Turf",
       "size": "Small Field (8 vs 8)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1129": {
       "address": "66 Maple Ave, Montclair, NJ 07042",
       "comments": "Field/goals is 9v9 Only - not legal for 11v11",
@@ -466,7 +473,7 @@
     },
     {
       "away_club": "Montclair",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "Montclair-B12F-Majoch",
       "date": "2026-10-17",
       "division": "B12F",
@@ -474,14 +481,14 @@
       "field_id": "73",
       "game_id": "415808",
       "home_club": "RiverDell",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "RiverDell-B12F-Bott",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "Verona",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Verona-B12F-Ahmed",
       "date": "2026-10-17",
       "division": "B12F",
@@ -489,14 +496,14 @@
       "field_id": "1027",
       "game_id": "415807",
       "home_club": "Paramus",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Paramus-B12F-Buttacavoli",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:30 PM"
     },
     {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Torpedoes-B12F-Dzilla",
       "date": "2026-10-17",
       "division": "B12F",
@@ -504,14 +511,14 @@
       "field_id": "584",
       "game_id": "415806",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Maroons-B12F-Gillies",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:30 PM"
     },
     {
       "away_club": "Vikings",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Vikings-B12F-Gardiner",
       "date": "2026-10-17",
       "division": "B12F",
@@ -519,14 +526,14 @@
       "field_id": "1058",
       "game_id": "415804",
       "home_club": "BLMFLD",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "BLMFLD-B12F-Lombardy",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
     },
     {
       "away_club": "GlenRidge",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "GlenRidge-B12F-Glick",
       "date": "2026-10-17",
       "division": "B12F",
@@ -534,9 +541,9 @@
       "field_id": "1150",
       "game_id": "415805",
       "home_club": "GlobalJC",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "GlobalJC-B12F-Whalen",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:30 PM"
     },
     {
@@ -553,6 +560,21 @@
       "home_team": "Torpedoes-B12F-Dzilla",
       "is_upcoming": true,
       "time": "06:00 PM"
+    },
+    {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-B12F-Buttacavoli",
+      "date": "2026-10-24",
+      "division": "B12F",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "415809",
+      "home_club": "GlenRidge",
+      "home_score": null,
+      "home_team": "GlenRidge-B12F-Glick",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     },
     {
       "away_club": "Arsenal",
@@ -613,21 +635,6 @@
       "home_team": "Torpedoes-B12F-Dzilla",
       "is_upcoming": true,
       "time": "05:00 PM"
-    },
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-B12F-Buttacavoli",
-      "date": "2026-10-24",
-      "division": "B12F",
-      "field": "Glenfield Park",
-      "field_id": "1129",
-      "game_id": "415809",
-      "home_club": "GlenRidge",
-      "home_score": null,
-      "home_team": "GlenRidge-B12F-Glick",
-      "is_upcoming": true,
-      "time": "05:45 PM"
     },
     {
       "away_club": "GlobalJC",
@@ -990,6 +997,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-17T10:28:47.393667Z",
+  "scraped_at": "2026-10-18T10:44:10.726104Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

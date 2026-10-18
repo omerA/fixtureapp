@@ -1,6 +1,6 @@
 {
   "division": "G15A",
-  "scraped_at": "2026-10-17T10:26:09.112102Z",
+  "scraped_at": "2026-10-18T10:41:33.086493Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -141,6 +141,55 @@
       "wins": 1
     },
     {
+      "club": "FairLawnAllSports",
+      "coach": "Cepeda",
+      "draws": 1,
+      "form": "LDW",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "416872",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G15A-Buttacavoli",
+          "result": "L",
+          "time": "08:15 PM",
+          "venue_code": "FL-CenterRec1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416880",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15A-Viveros",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416886",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G15A-Lohf",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 6,
+      "goals_for": 6,
+      "losses": 1,
+      "played": 3,
+      "points": 4,
+      "team_raw": "FairLawnAllSports-G15A-Cepeda",
+      "wins": 1
+    },
+    {
       "club": "Spartan",
       "coach": "Auriemmma",
       "draws": 1,
@@ -182,7 +231,7 @@
       "club": "UnionCity",
       "coach": "Viveros",
       "draws": 0,
-      "form": "WL",
+      "form": "WLL",
       "games": [
         {
           "date": "2026-10-16",
@@ -196,6 +245,17 @@
           "venue_code": "UNIONCITY-Marti"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "416880",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15A-Cepeda",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416887",
           "goals_against": 2,
@@ -207,11 +267,11 @@
           "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 6,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": -4,
+      "goals_against": 10,
+      "goals_for": 6,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "UnionCity-G15A-Viveros",
       "wins": 1
@@ -264,44 +324,6 @@
       "points": 3,
       "team_raw": "Harrison-G15A-Flores",
       "wins": 1
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Cepeda",
-      "draws": 1,
-      "form": "LD",
-      "games": [
-        {
-          "date": "2026-10-03",
-          "game_number": "416872",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G15A-Buttacavoli",
-          "result": "L",
-          "time": "08:15 PM",
-          "venue_code": "FL-CenterRec1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416886",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G15A-Lohf",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 5,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 2,
-      "points": 1,
-      "team_raw": "FairLawnAllSports-G15A-Cepeda",
-      "wins": 0
     },
     {
       "club": "Nutley",

@@ -1,6 +1,6 @@
 {
   "division": "B08EB7",
-  "scraped_at": "2026-10-17T10:26:06.560177Z",
+  "scraped_at": "2026-10-18T10:41:27.224593Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -79,7 +79,7 @@
       "club": "Dragons",
       "coach": "Osenbruck",
       "draws": 0,
-      "form": "LWW",
+      "form": "LWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -113,22 +113,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417022",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08EB7-King",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "NMilford-Williams7v7"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 10,
-      "goals_for": 18,
+      "goal_diff": 11,
+      "goals_against": 11,
+      "goals_for": 22,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "Dragons-B08EB7-Osenbruck",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Mahwah",
       "coach": "Turco",
       "draws": 0,
-      "form": "WWL",
+      "form": "WWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -162,13 +173,24 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "MAHWAH-Trinity"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417023",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08EB7-Schweizer",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 11,
-      "goals_for": 12,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": -2,
+      "goals_against": 16,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 4,
       "points": 6,
       "team_raw": "Mahwah-B08EB7-Turco",
       "wins": 2
@@ -177,7 +199,7 @@
       "club": "NMKnights",
       "coach": "King",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -211,15 +233,75 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417022",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08EB7-Osenbruck",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NMilford-Williams7v7"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 15,
-      "goals_for": 11,
+      "goal_diff": -7,
+      "goals_against": 19,
+      "goals_for": 12,
+      "losses": 3,
+      "played": 4,
+      "points": 3,
+      "team_raw": "NMKnights-B08EB7-King",
+      "wins": 1
+    },
+    {
+      "club": "Torpedoes",
+      "coach": "Schweizer",
+      "draws": 0,
+      "form": "LLW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "417014",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B08EB7-Arbaiza",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417018",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08EB7-Osenbruck",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417023",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B08EB7-Turco",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "TORP-Lincoln1"
+        }
+      ],
+      "goal_diff": -10,
+      "goals_against": 18,
+      "goals_for": 8,
       "losses": 2,
       "played": 3,
       "points": 3,
-      "team_raw": "NMKnights-B08EB7-King",
+      "team_raw": "Torpedoes-B08EB7-Schweizer",
       "wins": 1
     },
     {
@@ -280,44 +362,6 @@
       "played": 4,
       "points": 0,
       "team_raw": "ElmwoodPk-B08EB7-Meneses",
-      "wins": 0
-    },
-    {
-      "club": "Torpedoes",
-      "coach": "Schweizer",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "417014",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B08EB7-Arbaiza",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "TORP-Lincoln1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417018",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B08EB7-Osenbruck",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "DRAG-JessieGeoSch"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 16,
-      "goals_for": 3,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "Torpedoes-B08EB7-Schweizer",
       "wins": 0
     }
   ]

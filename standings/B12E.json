@@ -1,9 +1,107 @@
 {
   "division": "B12E",
-  "scraped_at": "2026-10-17T10:26:07.618024Z",
+  "scraped_at": "2026-10-18T10:41:29.678089Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Gillies",
+      "draws": 1,
+      "form": "DWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415752",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12E-Grompone",
+          "result": "D",
+          "time": "05:45 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415755",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12E-Mrkulic",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415763",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B12E-Cadenas",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 2,
+      "goals_for": 9,
+      "losses": 0,
+      "played": 3,
+      "points": 7,
+      "team_raw": "Maroons-B12E-Gillies",
+      "wins": 2
+    },
+    {
+      "club": "Emerson",
+      "coach": "Grompone",
+      "draws": 1,
+      "form": "DWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415752",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12E-Gillies",
+          "result": "D",
+          "time": "05:45 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415758",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B12E-Cadenas",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "EM-Hillman"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415762",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12E-Virili",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 4,
+      "goals_for": 14,
+      "losses": 0,
+      "played": 3,
+      "points": 7,
+      "team_raw": "Emerson-B12E-Grompone",
+      "wins": 2
+    },
     {
       "club": "TeaneckFC",
       "coach": "Preciado",
@@ -41,82 +139,6 @@
       "points": 6,
       "team_raw": "TeaneckFC-B12E-Preciado",
       "wins": 2
-    },
-    {
-      "club": "Maroons",
-      "coach": "Gillies",
-      "draws": 1,
-      "form": "DW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415752",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12E-Grompone",
-          "result": "D",
-          "time": "05:45 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415755",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B12E-Mrkulic",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "FL-CenterRec1A"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 1,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "Maroons-B12E-Gillies",
-      "wins": 1
-    },
-    {
-      "club": "Emerson",
-      "coach": "Grompone",
-      "draws": 1,
-      "form": "DW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415752",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12E-Gillies",
-          "result": "D",
-          "time": "05:45 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415758",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B12E-Cadenas",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "EM-Hillman"
-        }
-      ],
-      "goal_diff": 4,
-      "goals_against": 4,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "Emerson-B12E-Grompone",
-      "wins": 1
     },
     {
       "club": "FairLawnAllSports",
@@ -182,7 +204,7 @@
       "club": "SaddleBR",
       "coach": "Cadenas",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -216,13 +238,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "EM-Hillman"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415763",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12E-Gillies",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 14,
-      "goals_for": 12,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -7,
+      "goals_against": 20,
+      "goals_for": 13,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "SaddleBR-B12E-Cadenas",
       "wins": 1
@@ -231,7 +264,7 @@
       "club": "Nutley",
       "coach": "Virili",
       "draws": 1,
-      "form": "LLD",
+      "form": "LLDL",
       "games": [
         {
           "date": "2026-09-20",
@@ -265,13 +298,24 @@
           "result": "D",
           "time": "10:45 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415762",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12E-Grompone",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 16,
+      "goal_diff": -16,
+      "goals_against": 22,
       "goals_for": 6,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 1,
       "team_raw": "Nutley-B12E-Virili",
       "wins": 0

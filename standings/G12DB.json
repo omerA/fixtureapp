@@ -1,6 +1,6 @@
 {
   "division": "G12DB",
-  "scraped_at": "2026-10-17T10:26:08.817552Z",
+  "scraped_at": "2026-10-18T10:41:32.438479Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -163,49 +163,22 @@
       "wins": 2
     },
     {
-      "club": "Maroons",
-      "coach": "Austin",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416949",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G12DB-Cullaro",
-          "result": "L",
-          "time": "08:15 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416956",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G12DB-DelGreco",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "RDBH-MS-Sm"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 6,
-      "goals_for": 2,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "Maroons-G12DB-Austin",
-      "wins": 0
-    },
-    {
       "club": "Southside",
       "coach": "Betamour",
       "draws": 0,
-      "form": "LL",
+      "form": "LLW",
       "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "416947",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12DB-Austin",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416951",
@@ -229,13 +202,62 @@
           "venue_code": "Haledon-Rec-Field"
         }
       ],
-      "goal_diff": -8,
+      "goal_diff": -7,
       "goals_against": 9,
-      "goals_for": 1,
+      "goals_for": 2,
       "losses": 2,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 3,
       "team_raw": "Southside-G12DB-Betamour",
+      "wins": 1
+    },
+    {
+      "club": "Maroons",
+      "coach": "Austin",
+      "draws": 0,
+      "form": "LLL",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "416947",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G12DB-Betamour",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416949",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G12DB-Cullaro",
+          "result": "L",
+          "time": "08:15 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416956",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12DB-DelGreco",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "RDBH-MS-Sm"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 7,
+      "goals_for": 2,
+      "losses": 3,
+      "played": 3,
+      "points": 0,
+      "team_raw": "Maroons-G12DB-Austin",
       "wins": 0
     },
     {

@@ -1,9 +1,69 @@
 {
   "division": "B08B7",
-  "scraped_at": "2026-10-17T10:26:06.408871Z",
+  "scraped_at": "2026-10-18T10:41:26.899910Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WOrange",
+      "coach": "Hoffer",
+      "draws": 0,
+      "form": "WWWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "413731",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B7-Demircan",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413737",
+          "goals_against": 4,
+          "goals_for": 9,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08B7-JeanCharles",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413739",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B08B7-LaMonica",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "413744",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B7-Demircan",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "JC-GatewaySm1"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 8,
+      "goals_for": 19,
+      "losses": 0,
+      "played": 4,
+      "points": 12,
+      "team_raw": "WOrange-B08B7-Hoffer",
+      "wins": 4
+    },
     {
       "club": "Torpedoes",
       "coach": "Carrelha",
@@ -54,59 +114,10 @@
       "wins": 3
     },
     {
-      "club": "WOrange",
-      "coach": "Hoffer",
-      "draws": 0,
-      "form": "WWW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "413731",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B08B7-Demircan",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-OConnor2"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413737",
-          "goals_against": 4,
-          "goals_for": 9,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B08B7-JeanCharles",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "WORANGE-OConnor2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "413744",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B08B7-Demircan",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "JC-GatewaySm1"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 7,
-      "goals_for": 17,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "WOrange-B08B7-Hoffer",
-      "wins": 3
-    },
-    {
       "club": "HobUtd",
       "coach": "LaMonica",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -140,13 +151,24 @@
           "result": "L",
           "time": "06:15 PM",
           "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413739",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B08B7-Hoffer",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 11,
-      "goals_for": 19,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": 7,
+      "goals_against": 13,
+      "goals_for": 20,
+      "losses": 2,
+      "played": 4,
       "points": 6,
       "team_raw": "HobUtd-B08B7-LaMonica",
       "wins": 2

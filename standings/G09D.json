@@ -1,6 +1,6 @@
 {
   "division": "G09D",
-  "scraped_at": "2026-10-17T10:26:08.340640Z",
+  "scraped_at": "2026-10-18T10:41:31.417112Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -54,10 +54,59 @@
       "wins": 2
     },
     {
+      "club": "FairLawnAllSports",
+      "coach": "Angotti",
+      "draws": 1,
+      "form": "WDW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "414422",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G09D-Porrino",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414425",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09D-Balch",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414428",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G09D-Reyes",
+          "result": "D",
+          "time": "05:15 PM",
+          "venue_code": "FL-CenterRec2A"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 11,
+      "goals_for": 19,
+      "losses": 0,
+      "played": 3,
+      "points": 7,
+      "team_raw": "FairLawnAllSports-G09D-Angotti",
+      "wins": 2
+    },
+    {
       "club": "Hotspur",
       "coach": "Balch",
       "draws": 0,
-      "form": "WW",
+      "form": "WWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -71,6 +120,17 @@
           "venue_code": "AVIA-DepkenSmall"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "414425",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09D-Angotti",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414598",
           "goals_against": 0,
@@ -82,11 +142,11 @@
           "venue_code": "WYNE-ShaiShaknai"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 1,
-      "goals_for": 12,
-      "losses": 0,
-      "played": 2,
+      "goal_diff": 8,
+      "goals_against": 8,
+      "goals_for": 16,
+      "losses": 1,
+      "played": 3,
       "points": 6,
       "team_raw": "Hotspur-G09D-Balch",
       "wins": 2
@@ -225,44 +285,6 @@
       "played": 3,
       "points": 4,
       "team_raw": "WayneBG-G09D-Carofilis",
-      "wins": 1
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Angotti",
-      "draws": 1,
-      "form": "WD",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414422",
-          "goals_against": 3,
-          "goals_for": 8,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G09D-Porrino",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414428",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G09D-Reyes",
-          "result": "D",
-          "time": "05:15 PM",
-          "venue_code": "FL-CenterRec2A"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 7,
-      "goals_for": 12,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "FairLawnAllSports-G09D-Angotti",
       "wins": 1
     },
     {

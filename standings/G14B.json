@@ -1,6 +1,6 @@
 {
   "division": "G14B",
-  "scraped_at": "2026-10-17T10:26:09.008918Z",
+  "scraped_at": "2026-10-18T10:41:32.824816Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -198,8 +198,8 @@
     {
       "club": "Vikings",
       "coach": "Kehati",
-      "draws": 2,
-      "form": "LDDW",
+      "draws": 3,
+      "form": "LDDWD",
       "games": [
         {
           "date": "2026-09-26",
@@ -211,6 +211,17 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416718",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14B-Andreula",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
         },
         {
           "date": "2026-09-27",
@@ -247,19 +258,19 @@
         }
       ],
       "goal_diff": 2,
-      "goals_against": 3,
-      "goals_for": 5,
+      "goals_against": 6,
+      "goals_for": 8,
       "losses": 0,
-      "played": 4,
-      "points": 5,
+      "played": 5,
+      "points": 6,
       "team_raw": "Vikings-G14B-Kehati",
       "wins": 1
     },
     {
       "club": "HobUtd",
       "coach": "Andreula",
-      "draws": 0,
-      "form": "WL",
+      "draws": 1,
+      "form": "WLD",
       "games": [
         {
           "date": "2026-09-19",
@@ -271,6 +282,17 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "FL-CenterRec1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416718",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-Kehati",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
         },
         {
           "date": "2026-10-04",
@@ -285,12 +307,61 @@
         }
       ],
       "goal_diff": 2,
-      "goals_against": 6,
-      "goals_for": 8,
+      "goals_against": 9,
+      "goals_for": 11,
       "losses": 1,
-      "played": 2,
-      "points": 3,
+      "played": 3,
+      "points": 4,
       "team_raw": "HobUtd-G14B-Andreula",
+      "wins": 1
+    },
+    {
+      "club": "Lakeland",
+      "coach": "Videc",
+      "draws": 0,
+      "form": "LWL",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "416714",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G14B-Marri",
+          "result": "W",
+          "time": "08:15 PM",
+          "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416719",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14B-Murillo",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416726",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14B-Marchetti",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "LKLND-BBeach-Full"
+        }
+      ],
+      "goal_diff": -11,
+      "goals_against": 15,
+      "goals_for": 4,
+      "losses": 2,
+      "played": 3,
+      "points": 3,
+      "team_raw": "Lakeland-G14B-Videc",
       "wins": 1
     },
     {
@@ -351,55 +422,6 @@
       "played": 4,
       "points": 3,
       "team_raw": "BLMFLD-G14B-Marri",
-      "wins": 1
-    },
-    {
-      "club": "Lakeland",
-      "coach": "Videc",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-10-03",
-          "game_number": "416714",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G14B-Marri",
-          "result": "W",
-          "time": "08:15 PM",
-          "venue_code": "LKLND-BBeach-Full"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416719",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-G14B-Murillo",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416726",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G14B-Marchetti",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "LKLND-BBeach-Full"
-        }
-      ],
-      "goal_diff": -11,
-      "goals_against": 15,
-      "goals_for": 4,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "Lakeland-G14B-Videc",
       "wins": 1
     },
     {

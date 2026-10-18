@@ -1,9 +1,58 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-10-17T10:26:08.534974Z",
+  "scraped_at": "2026-10-18T10:41:31.834739Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "ElmwoodPk",
+      "coach": "Meneses",
+      "draws": 0,
+      "form": "WWW",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "414892",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10E-vanGulik",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414904",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10E-Mault",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "WORANGE-Lincoln-Sml"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414906",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G10E-RicardoVaca",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
+        }
+      ],
+      "goal_diff": 20,
+      "goals_against": 1,
+      "goals_for": 21,
+      "losses": 0,
+      "played": 3,
+      "points": 9,
+      "team_raw": "ElmwoodPk-G10E-Meneses",
+      "wins": 3
+    },
     {
       "club": "Thistle",
       "coach": "Millar",
@@ -103,41 +152,63 @@
       "wins": 3
     },
     {
-      "club": "ElmwoodPk",
-      "coach": "Meneses",
+      "club": "Clarkstown",
+      "coach": "Allen",
       "draws": 0,
-      "form": "WW",
+      "form": "LLWW",
       "games": [
         {
+          "date": "2026-09-13",
+          "game_number": "414890",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10E-Grimm",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "NY-CLARK-Zukor2C"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414898",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G10E-Millar",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "THIS-Harvey Back SS"
+        },
+        {
           "date": "2026-09-27",
-          "game_number": "414904",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G10E-Mault",
+          "game_number": "414900",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10E-Timmerman",
           "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "WORANGE-Lincoln-Sml"
+          "time": "04:45 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         },
         {
           "date": "2026-10-04",
-          "game_number": "414906",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G10E-RicardoVaca",
+          "game_number": "414905",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10E-vanGulik",
           "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "EP-BoroughFld-Sml"
+          "time": "03:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 1,
-      "goals_for": 14,
-      "losses": 0,
-      "played": 2,
+      "goal_diff": 2,
+      "goals_against": 15,
+      "goals_for": 17,
+      "losses": 2,
+      "played": 4,
       "points": 6,
-      "team_raw": "ElmwoodPk-G10E-Meneses",
+      "team_raw": "Clarkstown-G10E-Allen",
       "wins": 2
     },
     {
@@ -198,66 +269,6 @@
       "played": 4,
       "points": 6,
       "team_raw": "Emerson-G10E-Timmerman",
-      "wins": 2
-    },
-    {
-      "club": "Clarkstown",
-      "coach": "Allen",
-      "draws": 0,
-      "form": "LLWW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "414890",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G10E-Grimm",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "NY-CLARK-Zukor2C"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414898",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-G10E-Millar",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "THIS-Harvey Back SS"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414900",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G10E-Timmerman",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414905",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10E-vanGulik",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 15,
-      "goals_for": 17,
-      "losses": 2,
-      "played": 4,
-      "points": 6,
-      "team_raw": "Clarkstown-G10E-Allen",
       "wins": 2
     },
     {
@@ -411,8 +422,19 @@
       "club": "Maroons",
       "coach": "vanGulik",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "414892",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "ElmwoodPk",
+          "opponent_raw": "ElmwoodPk-G10E-Meneses",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414897",
@@ -436,11 +458,11 @@
           "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 16,
+      "goal_diff": -21,
+      "goals_against": 23,
       "goals_for": 2,
-      "losses": 2,
-      "played": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "Maroons-G10E-vanGulik",
       "wins": 0

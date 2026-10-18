@@ -1,63 +1,74 @@
 {
   "division": "B10C",
-  "scraped_at": "2026-10-17T10:26:07.002315Z",
+  "scraped_at": "2026-10-18T10:41:28.260287Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "NoArlington",
-      "coach": "Campos",
+      "club": "ST23",
+      "coach": "Rosskamp",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
-          "date": "2026-09-19",
-          "game_number": "413916",
+          "date": "2026-09-12",
+          "game_number": "413913",
           "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B10C-Sarr",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "JC-GatewaySm1"
-        },
-        {
-          "date": "2026-10-16",
-          "game_number": "413919",
-          "goals_against": 2,
           "goals_for": 5,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B10C-Chen",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413928",
-          "goals_against": 1,
-          "goals_for": 4,
           "opponent_club": "Warriors",
           "opponent_raw": "Warriors-B10C-Barbot",
           "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "WALD-HSTurf-1"
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "413918",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B10C-Liu",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "JC-MartucciFld"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "413925",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10C-Miners",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413932",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B10C-Campos",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NA-Zadroga3"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 4,
-      "goals_for": 13,
+      "goal_diff": 15,
+      "goals_against": 8,
+      "goals_for": 23,
       "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "NoArlington-B10C-Campos",
-      "wins": 3
+      "played": 4,
+      "points": 12,
+      "team_raw": "ST23-B10C-Rosskamp",
+      "wins": 4
     },
     {
       "club": "HobUtd",
       "coach": "Miners",
       "draws": 0,
-      "form": "WWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -102,109 +113,93 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "HobUTD-1600Park"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 7,
-      "goals_for": 21,
-      "losses": 1,
-      "played": 4,
-      "points": 9,
-      "team_raw": "HobUtd-B10C-Miners",
-      "wins": 3
-    },
-    {
-      "club": "ST23",
-      "coach": "Rosskamp",
-      "draws": 0,
-      "form": "WWW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "413913",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B10C-Barbot",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "WALD-Hopper"
         },
         {
-          "date": "2026-09-19",
-          "game_number": "413918",
-          "goals_against": 3,
+          "date": "2026-10-17",
+          "game_number": "413929",
+          "goals_against": 0,
           "goals_for": 7,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B10C-Liu",
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B10C-Paul",
           "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "JC-MartucciFld"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "413925",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10C-Miners",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "HobUTD-1600Park"
+          "time": "01:00 PM",
+          "venue_code": "BGFD-RoyBrown"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 21,
       "goals_against": 7,
-      "goals_for": 17,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "ST23-B10C-Rosskamp",
-      "wins": 3
+      "goals_for": 28,
+      "losses": 1,
+      "played": 5,
+      "points": 12,
+      "team_raw": "HobUtd-B10C-Miners",
+      "wins": 4
     },
     {
-      "club": "Tenafly",
-      "coach": "Choi",
+      "club": "NoArlington",
+      "coach": "Campos",
       "draws": 0,
-      "form": "WW",
+      "form": "WWWL",
       "games": [
         {
           "date": "2026-09-19",
-          "game_number": "413917",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B10C-Lenihan",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Northvale"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413927",
-          "goals_against": 2,
-          "goals_for": 8,
+          "game_number": "413916",
+          "goals_against": 1,
+          "goals_for": 4,
           "opponent_club": "GlobalJC",
           "opponent_raw": "GlobalJC-B10C-Sarr",
           "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "TEN-Sunnyside"
+          "time": "02:15 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-10-16",
+          "game_number": "413919",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10C-Chen",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413928",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10C-Barbot",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413932",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B10C-Rosskamp",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NA-Zadroga3"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 7,
+      "goal_diff": 4,
+      "goals_against": 10,
       "goals_for": 14,
-      "losses": 0,
-      "played": 2,
-      "points": 6,
-      "team_raw": "Tenafly-B10C-Choi",
-      "wins": 2
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "NoArlington-B10C-Campos",
+      "wins": 3
     },
     {
       "club": "NoValley",
       "coach": "Lenihan",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -238,15 +233,146 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413933",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10C-Barbot",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WALD-HSTurf-2"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 14,
-      "goals_for": 21,
+      "goal_diff": 9,
+      "goals_against": 15,
+      "goals_for": 24,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "NoValley-B10C-Lenihan",
+      "wins": 3
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Chen",
+      "draws": 0,
+      "form": "WLLLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "413909",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B10C-Paul",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "413915",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10C-Miners",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SS-HamiltonB"
+        },
+        {
+          "date": "2026-10-16",
+          "game_number": "413919",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B10C-Campos",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413926",
+          "goals_against": 10,
+          "goals_for": 3,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10C-Lenihan",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413930",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10C-Choi",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        }
+      ],
+      "goal_diff": -10,
+      "goals_against": 26,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 5,
+      "points": 6,
+      "team_raw": "GlenRock-B10C-Chen",
+      "wins": 2
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Choi",
+      "draws": 0,
+      "form": "WWL",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "413917",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10C-Lenihan",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413927",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B10C-Sarr",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413930",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10C-Chen",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 10,
+      "goals_for": 16,
       "losses": 1,
       "played": 3,
       "points": 6,
-      "team_raw": "NoValley-B10C-Lenihan",
+      "team_raw": "Tenafly-B10C-Choi",
       "wins": 2
     },
     {
@@ -299,119 +425,10 @@
       "wins": 1
     },
     {
-      "club": "GlenRock",
-      "coach": "Chen",
-      "draws": 0,
-      "form": "WLLL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "413909",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B10C-Paul",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "413915",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10C-Miners",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "SS-HamiltonB"
-        },
-        {
-          "date": "2026-10-16",
-          "game_number": "413919",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B10C-Campos",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413926",
-          "goals_against": 10,
-          "goals_for": 3,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B10C-Lenihan",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Northvale"
-        }
-      ],
-      "goal_diff": -11,
-      "goals_against": 24,
-      "goals_for": 13,
-      "losses": 3,
-      "played": 4,
-      "points": 3,
-      "team_raw": "GlenRock-B10C-Chen",
-      "wins": 1
-    },
-    {
-      "club": "Bergenfield",
-      "coach": "Paul",
-      "draws": 1,
-      "form": "LDL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "413909",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B10C-Chen",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "413914",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B10C-Barbot",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413924",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B10C-Liu",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "BGFD-RoyBrown"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 9,
-      "goals_for": 4,
-      "losses": 2,
-      "played": 3,
-      "points": 1,
-      "team_raw": "Bergenfield-B10C-Paul",
-      "wins": 0
-    },
-    {
       "club": "Warriors",
       "coach": "Barbot",
       "draws": 1,
-      "form": "LDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -456,15 +473,86 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413933",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10C-Lenihan",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WALD-HSTurf-2"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 14,
-      "goals_for": 3,
+      "goal_diff": -13,
+      "goals_against": 17,
+      "goals_for": 4,
+      "losses": 4,
+      "played": 5,
+      "points": 1,
+      "team_raw": "Warriors-B10C-Barbot",
+      "wins": 0
+    },
+    {
+      "club": "Bergenfield",
+      "coach": "Paul",
+      "draws": 1,
+      "form": "LDLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "413909",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10C-Chen",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "413914",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B10C-Barbot",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413924",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B10C-Liu",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413929",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10C-Miners",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        }
+      ],
+      "goal_diff": -12,
+      "goals_against": 16,
+      "goals_for": 4,
       "losses": 3,
       "played": 4,
       "points": 1,
-      "team_raw": "Warriors-B10C-Barbot",
+      "team_raw": "Bergenfield-B10C-Paul",
       "wins": 0
     },
     {

@@ -1,9 +1,69 @@
 {
   "division": "B08B4",
-  "scraped_at": "2026-10-17T10:26:06.389438Z",
+  "scraped_at": "2026-10-18T10:41:26.854730Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Americans",
+      "coach": "Lupinacci",
+      "draws": 0,
+      "form": "WWWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "413681",
+          "goals_against": 0,
+          "goals_for": 8,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08B4-Barrios",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413691",
+          "goals_against": 5,
+          "goals_for": 12,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08B4-Barrios",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AMER-StLukeE4v4"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413700",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B08B4-Fischer",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "THIS-HarveyBackSS3"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "417440",
+          "goals_against": 4,
+          "goals_for": 9,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B08B4-Callegari",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "AMER-StLuke"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 9,
+      "goals_for": 28,
+      "losses": 0,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Americans-B08B4-Lupinacci",
+      "wins": 3
+    },
     {
       "club": "Verona",
       "coach": "Leao",
@@ -114,55 +174,6 @@
       "wins": 3
     },
     {
-      "club": "Americans",
-      "coach": "Lupinacci",
-      "draws": 0,
-      "form": "WWW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "413681",
-          "goals_against": 0,
-          "goals_for": 8,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B08B4-Barrios",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413691",
-          "goals_against": 5,
-          "goals_for": 12,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B08B4-Barrios",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "AMER-StLukeE4v4"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "417440",
-          "goals_against": 4,
-          "goals_for": 9,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B08B4-Callegari",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "AMER-StLuke"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 9,
-      "goals_for": 21,
-      "losses": 0,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Americans-B08B4-Lupinacci",
-      "wins": 2
-    },
-    {
       "club": "Harrison",
       "coach": "Guevara",
       "draws": 0,
@@ -198,6 +209,66 @@
       "played": 2,
       "points": 6,
       "team_raw": "Harrison-B08B4-Guevara",
+      "wins": 2
+    },
+    {
+      "club": "WoodRidge",
+      "coach": "Cole",
+      "draws": 0,
+      "form": "LWLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "413679",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B4-Charoth",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "413685",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B08B4-Fischer",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "WDRDG-Athletic-W4v4A"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413695",
+          "goals_against": 10,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08B4-Chambers",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "WDRDG-Athletic-W4v4A"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413699",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B08B4-Callegari",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "WDRDG-Athletic-W4v4A"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 23,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "WoodRidge-B08B4-Cole",
       "wins": 2
     },
     {
@@ -261,59 +332,10 @@
       "wins": 1
     },
     {
-      "club": "WoodRidge",
-      "coach": "Cole",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "413679",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B08B4-Charoth",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "JC-GatewayLL4v4"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "413685",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B08B4-Fischer",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "WDRDG-Athletic-W4v4A"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413695",
-          "goals_against": 10,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B08B4-Chambers",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "WDRDG-Athletic-W4v4A"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 19,
-      "goals_for": 14,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "WoodRidge-B08B4-Cole",
-      "wins": 1
-    },
-    {
       "club": "NASA",
       "coach": "Callegari",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -338,6 +360,17 @@
           "venue_code": "WYNE-JFK-Small"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "413699",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B08B4-Cole",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "WDRDG-Athletic-W4v4A"
+        },
+        {
           "date": "2026-09-12",
           "game_number": "417440",
           "goals_against": 9,
@@ -349,20 +382,118 @@
           "venue_code": "AMER-StLuke"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 26,
-      "goals_for": 15,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -12,
+      "goals_against": 31,
+      "goals_for": 19,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "NASA-B08B4-Callegari",
       "wins": 1
     },
     {
+      "club": "Paramus",
+      "coach": "Valdivia",
+      "draws": 1,
+      "form": "LD",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "413693",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B08B4-Callegari",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413698",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B08B4-Barrios",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "PAR-WestbrkSouth-7v7"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 10,
+      "goals_for": 9,
+      "losses": 1,
+      "played": 2,
+      "points": 1,
+      "team_raw": "Paramus-B08B4-Valdivia",
+      "wins": 0
+    },
+    {
+      "club": "RIDGFLD",
+      "coach": "Barrios",
+      "draws": 1,
+      "form": "LLLD",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "413681",
+          "goals_against": 8,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08B4-Lupinacci",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "RDGFLDFC-Willis"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413691",
+          "goals_against": 12,
+          "goals_for": 5,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08B4-Lupinacci",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "AMER-StLukeE4v4"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413698",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B08B4-Valdivia",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "PAR-WestbrkSouth-7v7"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "417442",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B08B4-Leao",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDGFLDFC-WillisSml"
+        }
+      ],
+      "goal_diff": -11,
+      "goals_against": 23,
+      "goals_for": 12,
+      "losses": 2,
+      "played": 4,
+      "points": 1,
+      "team_raw": "RIDGFLD-B08B4-Barrios",
+      "wins": 0
+    },
+    {
       "club": "Thistle",
       "coach": "Fischer",
       "draws": 1,
-      "form": "DLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -398,6 +529,17 @@
           "venue_code": "VERONA-ForestAve"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "413700",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08B4-Lupinacci",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "THIS-HarveyBackSS3"
+        },
+        {
           "date": "2026-09-20",
           "game_number": "417435",
           "goals_against": 8,
@@ -409,89 +551,13 @@
           "venue_code": "JC-GatewayLL4v4"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 23,
+      "goal_diff": -26,
+      "goals_against": 30,
       "goals_for": 4,
-      "losses": 3,
-      "played": 4,
+      "losses": 4,
+      "played": 5,
       "points": 1,
       "team_raw": "Thistle-B08B4-Fischer",
-      "wins": 0
-    },
-    {
-      "club": "Paramus",
-      "coach": "Valdivia",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-03",
-          "game_number": "413693",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B08B4-Callegari",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "WYNE-JFK-Small"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 6,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Paramus-B08B4-Valdivia",
-      "wins": 0
-    },
-    {
-      "club": "RIDGFLD",
-      "coach": "Barrios",
-      "draws": 0,
-      "form": "LLL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "413681",
-          "goals_against": 8,
-          "goals_for": 0,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08B4-Lupinacci",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "RDGFLDFC-Willis"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413691",
-          "goals_against": 12,
-          "goals_for": 5,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08B4-Lupinacci",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "AMER-StLukeE4v4"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "417442",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B08B4-Leao",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDGFLDFC-WillisSml"
-        }
-      ],
-      "goal_diff": -11,
-      "goals_against": 19,
-      "goals_for": 8,
-      "losses": 2,
-      "played": 3,
-      "points": 0,
-      "team_raw": "RIDGFLD-B08B4-Barrios",
       "wins": 0
     }
   ]

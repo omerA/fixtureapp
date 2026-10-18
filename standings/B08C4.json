@@ -1,6 +1,6 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-10-17T10:26:06.442043Z",
+  "scraped_at": "2026-10-18T10:41:26.960750Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Americans",
       "coach": "Lee",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -55,6 +55,17 @@
           "venue_code": "AMER-ReynoldsNorth"
         },
         {
+          "date": "2026-10-17",
+          "game_number": "415292",
+          "goals_against": 11,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C4-Graciano",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
           "date": "2026-09-27",
           "game_number": "415299",
           "goals_against": 1,
@@ -66,11 +77,11 @@
           "venue_code": "AMER-ReynoldsNorth"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 25,
-      "goals_for": 54,
-      "losses": 0,
-      "played": 5,
+      "goal_diff": 26,
+      "goals_against": 36,
+      "goals_for": 62,
+      "losses": 1,
+      "played": 6,
       "points": 15,
       "team_raw": "Americans-B08C4-Lee",
       "wins": 5
@@ -136,6 +147,55 @@
       "wins": 3
     },
     {
+      "club": "Vikings",
+      "coach": "Graciano",
+      "draws": 0,
+      "form": "LWW",
+      "games": [
+        {
+          "date": "2026-09-26",
+          "game_number": "415285",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08C4-Mitchell",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415289",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B08C4-Muschinske",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415292",
+          "goals_against": 8,
+          "goals_for": 11,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08C4-Lee",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 16,
+      "goals_for": 22,
+      "losses": 1,
+      "played": 3,
+      "points": 6,
+      "team_raw": "Vikings-B08C4-Graciano",
+      "wins": 2
+    },
+    {
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 0,
@@ -183,44 +243,6 @@
       "points": 5,
       "team_raw": "Maroons-B08C4-Chambers",
       "wins": 2
-    },
-    {
-      "club": "Vikings",
-      "coach": "Graciano",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-09-26",
-          "game_number": "415285",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B08C4-Mitchell",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "NMilford-Williams4v4"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415289",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B08C4-Muschinske",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "VIK-NVRHS-DemarUP"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 8,
-      "goals_for": 11,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "Vikings-B08C4-Graciano",
-      "wins": 1
     },
     {
       "club": "Ajax",

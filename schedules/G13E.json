@@ -8,6 +8,13 @@
       "name": "Parkway Middle School 11",
       "size": "Large Field (11 vs 11)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1263": {
       "address": "150 Knickerbocker Rd, Demarest, NJ 07627",
       "comments": "",
@@ -248,7 +255,7 @@
     },
     {
       "away_club": "CougarSC",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "CougarSC-G13E-Wainschel",
       "date": "2026-10-17",
       "division": "G13E",
@@ -256,9 +263,9 @@
       "field_id": "1263",
       "game_id": "418126",
       "home_club": "Vikings",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Vikings-G13E-Kaluza",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "04:00 PM"
     },
     {
@@ -292,6 +299,21 @@
       "time": "04:00 PM"
     },
     {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-G13E-Longheira",
+      "date": "2026-10-25",
+      "division": "G13E",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "415241",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-G13E-Wainschel",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
       "away_club": "Vikings",
       "away_score": null,
       "away_team": "Vikings-G13E-Kaluza",
@@ -305,21 +327,6 @@
       "home_team": "Spartan-G13E-Haug",
       "is_upcoming": true,
       "time": "11:00 AM"
-    },
-    {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-G13E-Longheira",
-      "date": "2026-10-25",
-      "division": "G13E",
-      "field": "Monte Irvin Orange Park",
-      "field_id": "464",
-      "game_id": "415241",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-G13E-Wainschel",
-      "is_upcoming": true,
-      "time": "12:30 PM"
     },
     {
       "away_club": "CougarSC",
@@ -442,6 +449,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-10-17T10:31:42.154763Z",
+  "scraped_at": "2026-10-18T10:47:02.409110Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-10-17T10:26:07.481116Z",
+  "scraped_at": "2026-10-18T10:41:29.385785Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "FairLawnAllSports",
       "coach": "DeFina",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-10-15",
@@ -42,22 +42,93 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416243",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Benevento",
+          "result": "W",
+          "time": "04:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 13,
       "goals_against": 2,
-      "goals_for": 12,
+      "goals_for": 15,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "FairLawnAllSports-B12A-DeFina",
-      "wins": 3
+      "wins": 4
+    },
+    {
+      "club": "Spartan",
+      "coach": "McCormack",
+      "draws": 1,
+      "form": "DLWW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416232",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Benevento",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416233",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12A-DeFina",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416241",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12A-Seddiki",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416244",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12A-Leuer",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "TEN-Municipal"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 7,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 4,
+      "points": 7,
+      "team_raw": "Spartan-B12A-McCormack",
+      "wins": 2
     },
     {
       "club": "Tenafly",
       "coach": "Leuer",
       "draws": 0,
-      "form": "LWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -102,13 +173,24 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416244",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12A-McCormack",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 9,
-      "goals_for": 8,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -2,
+      "goals_against": 11,
+      "goals_for": 9,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "Tenafly-B12A-Leuer",
       "wins": 2
@@ -117,7 +199,7 @@
       "club": "Nutley",
       "coach": "Benevento",
       "draws": 1,
-      "form": "DWL",
+      "form": "DWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -151,64 +233,26 @@
           "result": "L",
           "time": "05:45 PM",
           "venue_code": "TEN-Municipal"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 5,
-      "goals_for": 6,
-      "losses": 1,
-      "played": 3,
-      "points": 4,
-      "team_raw": "Nutley-B12A-Benevento",
-      "wins": 1
-    },
-    {
-      "club": "Spartan",
-      "coach": "McCormack",
-      "draws": 1,
-      "form": "DLW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416232",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B12A-Benevento",
-          "result": "D",
-          "time": "08:30 AM",
-          "venue_code": "PAR-ParkwayMS9"
         },
         {
-          "date": "2026-09-19",
-          "game_number": "416233",
-          "goals_against": 2,
+          "date": "2026-10-17",
+          "game_number": "416243",
+          "goals_against": 3,
           "goals_for": 0,
           "opponent_club": "FairLawnAllSports",
           "opponent_raw": "FairLawnAllSports-B12A-DeFina",
           "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416241",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12A-Seddiki",
-          "result": "W",
-          "time": "12:15 PM",
-          "venue_code": "PAR-ParkwayMS9"
+          "time": "04:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 6,
-      "goals_for": 5,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": -2,
+      "goals_against": 8,
+      "goals_for": 6,
+      "losses": 2,
+      "played": 4,
       "points": 4,
-      "team_raw": "Spartan-B12A-McCormack",
+      "team_raw": "Nutley-B12A-Benevento",
       "wins": 1
     },
     {

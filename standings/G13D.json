@@ -1,14 +1,14 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-10-17T10:26:08.941614Z",
+  "scraped_at": "2026-10-18T10:41:32.709562Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Vikings",
       "coach": "Flanagan",
-      "draws": 0,
-      "form": "WW",
+      "draws": 1,
+      "form": "WWD",
       "games": [
         {
           "date": "2026-09-20",
@@ -20,6 +20,17 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415203",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
         },
         {
           "date": "2026-10-04",
@@ -34,11 +45,11 @@
         }
       ],
       "goal_diff": 7,
-      "goals_against": 3,
-      "goals_for": 10,
+      "goals_against": 4,
+      "goals_for": 11,
       "losses": 0,
-      "played": 2,
-      "points": 6,
+      "played": 3,
+      "points": 7,
       "team_raw": "Vikings-G13D-Flanagan",
       "wins": 2
     },
@@ -154,8 +165,8 @@
     {
       "club": "NoValley",
       "coach": "Mamalian",
-      "draws": 0,
-      "form": "WL",
+      "draws": 1,
+      "form": "WLD",
       "games": [
         {
           "date": "2026-09-20",
@@ -167,6 +178,17 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415203",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
         },
         {
           "date": "2026-10-04",
@@ -181,11 +203,11 @@
         }
       ],
       "goal_diff": -4,
-      "goals_against": 5,
-      "goals_for": 1,
+      "goals_against": 6,
+      "goals_for": 2,
       "losses": 1,
-      "played": 2,
-      "points": 3,
+      "played": 3,
+      "points": 4,
       "team_raw": "NoValley-G13D-Mamalian",
       "wins": 1
     },

@@ -1,9 +1,36 @@
 {
   "division": "B12XB",
-  "scraped_at": "2026-10-17T10:26:07.711907Z",
+  "scraped_at": "2026-10-18T10:41:29.911788Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Nutley",
+      "coach": "Benevento",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "417941",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12XB-Percio",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 0,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Nutley-B12XB-Benevento",
+      "wins": 1
+    },
     {
       "club": "Maroons",
       "coach": "Breheny",
@@ -30,21 +57,6 @@
       "points": 3,
       "team_raw": "Maroons-B12XB-Breheny",
       "wins": 1
-    },
-    {
-      "club": "Belleville",
-      "coach": "Percio",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Belleville-B12XB-Percio",
-      "wins": 0
     },
     {
       "club": "CougarUtd",
@@ -77,21 +89,6 @@
       "wins": 0
     },
     {
-      "club": "Nutley",
-      "coach": "Benevento",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Nutley-B12XB-Benevento",
-      "wins": 0
-    },
-    {
       "club": "Hotspur",
       "coach": "Rotolo",
       "draws": 0,
@@ -116,6 +113,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Hotspur-B12XB-Rotolo",
+      "wins": 0
+    },
+    {
+      "club": "Belleville",
+      "coach": "Percio",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "417941",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12XB-Benevento",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 5,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Belleville-B12XB-Percio",
       "wins": 0
     }
   ]

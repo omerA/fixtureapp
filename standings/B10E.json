@@ -1,6 +1,6 @@
 {
   "division": "B10E",
-  "scraped_at": "2026-10-18T10:41:28.456811Z",
+  "scraped_at": "2026-10-19T12:32:09.268610Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -103,6 +103,66 @@
       "wins": 2
     },
     {
+      "club": "Vikings",
+      "coach": "Harel",
+      "draws": 0,
+      "form": "LWLW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "416117",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10E-Ayesteran",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416123",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B10E-Reese",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416125",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B10E-Lezcano",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416135",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10E-Chambers",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "VIK-HaworthTurf"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 15,
+      "goals_for": 16,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Vikings-B10E-Harel",
+      "wins": 2
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Ayesteran",
       "draws": 0,
@@ -163,59 +223,10 @@
       "wins": 2
     },
     {
-      "club": "Vikings",
-      "coach": "Harel",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "416117",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B10E-Ayesteran",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416123",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B10E-Reese",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416125",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B10E-Lezcano",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "FF-KnightsColumbus"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 14,
-      "goals_for": 12,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "Vikings-B10E-Harel",
-      "wins": 1
-    },
-    {
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 0,
-      "form": "WL",
+      "form": "WLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -238,13 +249,24 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416135",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10E-Harel",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "VIK-HaworthTurf"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 11,
-      "goals_for": 11,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": -3,
+      "goals_against": 15,
+      "goals_for": 12,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "Maroons-B10E-Chambers",
       "wins": 1

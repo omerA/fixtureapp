@@ -1,6 +1,6 @@
 {
   "division": "G14E",
-  "scraped_at": "2026-10-18T10:41:33.010274Z",
+  "scraped_at": "2026-10-19T12:32:13.054812Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "CougarUtd",
       "coach": "Casella",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -42,15 +42,64 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "WORANGE-Lincoln-Lrg"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416851",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G14E-Connolly",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "COUGUTD-ReganFull"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 6,
-      "goals_for": 4,
+      "goal_diff": 1,
+      "goals_against": 9,
+      "goals_for": 10,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "CougarUtd-G14E-Casella",
+      "wins": 3
+    },
+    {
+      "club": "Verona",
+      "coach": "Luftglass",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416843",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G14E-Casella",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416852",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14E-Urgo",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "VERONA-Centennial"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 0,
+      "goals_for": 6,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "Verona-G14E-Luftglass",
       "wins": 2
     },
     {
@@ -106,7 +155,7 @@
       "club": "CougarSC",
       "coach": "Connolly",
       "draws": 1,
-      "form": "WDL",
+      "form": "WDLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -140,42 +189,26 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "LKLND-BBeach-Full"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 6,
-      "goals_for": 7,
-      "losses": 1,
-      "played": 3,
-      "points": 4,
-      "team_raw": "CougarSC-G14E-Connolly",
-      "wins": 1
-    },
-    {
-      "club": "Verona",
-      "coach": "Luftglass",
-      "draws": 0,
-      "form": "W",
-      "games": [
+        },
         {
-          "date": "2026-09-20",
-          "game_number": "416843",
-          "goals_against": 0,
-          "goals_for": 4,
+          "date": "2026-10-18",
+          "game_number": "416851",
+          "goals_against": 6,
+          "goals_for": 3,
           "opponent_club": "CougarUtd",
           "opponent_raw": "CougarUtd-G14E-Casella",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "VERONA-Centennial"
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "COUGUTD-ReganFull"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 0,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Verona-G14E-Luftglass",
+      "goal_diff": -2,
+      "goals_against": 12,
+      "goals_for": 10,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "CougarSC-G14E-Connolly",
       "wins": 1
     },
     {
@@ -231,7 +264,7 @@
       "club": "Lakeland",
       "coach": "Urgo",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-10-03",
@@ -265,13 +298,24 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416852",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G14E-Luftglass",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "VERONA-Centennial"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 7,
+      "goal_diff": -7,
+      "goals_against": 9,
       "goals_for": 2,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Lakeland-G14E-Urgo",
       "wins": 1

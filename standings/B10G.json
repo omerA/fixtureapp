@@ -1,6 +1,6 @@
 {
   "division": "B10G",
-  "scraped_at": "2026-10-18T10:41:28.579835Z",
+  "scraped_at": "2026-10-19T12:32:09.365789Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -68,8 +68,19 @@
       "club": "GlenRidge",
       "coach": "Engel",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWW",
       "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "417226",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B10G-Salinas",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417230",
@@ -104,21 +115,32 @@
           "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 9,
-      "goals_for": 16,
+      "goal_diff": 14,
+      "goals_against": 10,
+      "goals_for": 24,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "GlenRidge-B10G-Engel",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RIDGFLD",
       "coach": "Salinas",
       "draws": 0,
-      "form": "WW",
+      "form": "WWL",
       "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "417226",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10G-Engel",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "GLENRDGE-Carteret"
+        },
         {
           "date": "2026-09-19",
           "game_number": "417229",
@@ -142,11 +164,11 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 7,
-      "goals_for": 12,
-      "losses": 0,
-      "played": 2,
+      "goal_diff": -2,
+      "goals_against": 15,
+      "goals_for": 13,
+      "losses": 1,
+      "played": 3,
       "points": 6,
       "team_raw": "RIDGFLD-B10G-Salinas",
       "wins": 2

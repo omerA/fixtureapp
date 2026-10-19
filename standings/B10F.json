@@ -1,6 +1,6 @@
 {
   "division": "B10F",
-  "scraped_at": "2026-10-18T10:41:28.535397Z",
+  "scraped_at": "2026-10-19T12:32:09.330495Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -256,6 +256,66 @@
       "wins": 3
     },
     {
+      "club": "Torpedoes",
+      "coach": "Grados",
+      "draws": 0,
+      "form": "LWWW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416152",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10F-PierreJoseph",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417174",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10F-McDonald",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417187",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B10F-DeCastro",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "TEANECK-VoteeFBNorth"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417194",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B10F-Doyle",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "TORP-Pulis1"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 14,
+      "goals_for": 13,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Torpedoes-B10F-Grados",
+      "wins": 3
+    },
+    {
       "club": "Emerson",
       "coach": "Capp",
       "draws": 0,
@@ -341,7 +401,7 @@
       "club": "Force",
       "coach": "PierreJoseph",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -375,64 +435,26 @@
           "result": "W",
           "time": "06:45 PM",
           "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417188",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10F-Wangenheim",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 10,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": 7,
+      "goals_against": 16,
+      "goals_for": 23,
+      "losses": 2,
+      "played": 4,
       "points": 6,
       "team_raw": "Force-B10F-PierreJoseph",
-      "wins": 2
-    },
-    {
-      "club": "Torpedoes",
-      "coach": "Grados",
-      "draws": 0,
-      "form": "LWW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416152",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B10F-PierreJoseph",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "TORP-Pulis1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417174",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10F-McDonald",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417194",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B10F-Doyle",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "TORP-Pulis1"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 10,
-      "goals_for": 8,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Torpedoes-B10F-Grados",
       "wins": 2
     },
     {
@@ -518,6 +540,66 @@
       "wins": 2
     },
     {
+      "club": "Tenafly",
+      "coach": "Wangenheim",
+      "draws": 0,
+      "form": "LLLW",
+      "games": [
+        {
+          "date": "2026-10-11",
+          "game_number": "416147",
+          "goals_against": 10,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10F-Scorciolla",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "416148",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B10F-Pardo",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417188",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10F-PierreJoseph",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417193",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10F-McDonald",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "RUTH-Memorial5"
+        }
+      ],
+      "goal_diff": -8,
+      "goals_against": 20,
+      "goals_for": 12,
+      "losses": 3,
+      "played": 4,
+      "points": 3,
+      "team_raw": "Tenafly-B10F-Wangenheim",
+      "wins": 1
+    },
+    {
       "club": "RdgfldPk",
       "coach": "Doyle",
       "draws": 0,
@@ -600,59 +682,10 @@
       "wins": 1
     },
     {
-      "club": "Tenafly",
-      "coach": "Wangenheim",
-      "draws": 0,
-      "form": "LLL",
-      "games": [
-        {
-          "date": "2026-10-11",
-          "game_number": "416147",
-          "goals_against": 10,
-          "goals_for": 3,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-B10F-Scorciolla",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "TEN-Sunnyside"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "416148",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B10F-Pardo",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417193",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10F-McDonald",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "RUTH-Memorial5"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 15,
-      "goals_for": 6,
-      "losses": 3,
-      "played": 3,
-      "points": 0,
-      "team_raw": "Tenafly-B10F-Wangenheim",
-      "wins": 0
-    },
-    {
       "club": "TeaneckFC",
       "coach": "DeCastro",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-09-20",
@@ -664,13 +697,24 @@
           "result": "L",
           "time": "08:30 AM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417187",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10F-Grados",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "TEANECK-VoteeFBNorth"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 7,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
+      "goal_diff": -7,
+      "goals_against": 12,
+      "goals_for": 5,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "TeaneckFC-B10F-DeCastro",
       "wins": 0

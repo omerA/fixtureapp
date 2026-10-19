@@ -1,6 +1,6 @@
 {
   "division": "B10B",
-  "scraped_at": "2026-10-18T10:41:28.191000Z",
+  "scraped_at": "2026-10-19T12:32:09.062299Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -442,6 +442,66 @@
       "wins": 2
     },
     {
+      "club": "NASA",
+      "coach": "Callegari",
+      "draws": 1,
+      "form": "LDLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "417149",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10B-Walters",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417153",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10B-James",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417165",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10B-Elio",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417170",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10B-Coughlin",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 23,
+      "goals_for": 16,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "NASA-B10B-Callegari",
+      "wins": 1
+    },
+    {
       "club": "CougarSC",
       "coach": "James",
       "draws": 2,
@@ -516,7 +576,7 @@
       "club": "Vikings",
       "coach": "Coughlin",
       "draws": 1,
-      "form": "LLD",
+      "form": "LLDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -550,64 +610,26 @@
           "result": "D",
           "time": "10:30 AM",
           "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417170",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B10B-Callegari",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-GeoWashMS"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 11,
-      "goals_for": 3,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -10,
+      "goals_against": 16,
+      "goals_for": 6,
+      "losses": 3,
+      "played": 4,
       "points": 1,
       "team_raw": "Vikings-B10B-Coughlin",
-      "wins": 0
-    },
-    {
-      "club": "NASA",
-      "coach": "Callegari",
-      "draws": 1,
-      "form": "LDL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "417149",
-          "goals_against": 9,
-          "goals_for": 4,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B10B-Walters",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417153",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B10B-James",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "WYNE-JFK-Small"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417165",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B10B-Elio",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "VERONA-ForestAve"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 20,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 3,
-      "points": 1,
-      "team_raw": "NASA-B10B-Callegari",
       "wins": 0
     },
     {

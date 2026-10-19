@@ -1,6 +1,6 @@
 {
   "division": "G11DB",
-  "scraped_at": "2026-10-18T10:41:32.096869Z",
+  "scraped_at": "2026-10-19T12:32:12.264270Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "WoodRidge",
       "coach": "Squeo",
       "draws": 1,
-      "form": "DWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -53,82 +53,33 @@
           "result": "W",
           "time": "04:15 PM",
           "venue_code": "WDRDG-AthComp Sm A"
-        }
-      ],
-      "goal_diff": 19,
-      "goals_against": 2,
-      "goals_for": 21,
-      "losses": 0,
-      "played": 4,
-      "points": 10,
-      "team_raw": "WoodRidge-G11DB-Squeo",
-      "wins": 3
-    },
-    {
-      "club": "Torpedoes",
-      "coach": "Gjoca",
-      "draws": 1,
-      "form": "WWWD",
-      "games": [
+        },
         {
-          "date": "2026-09-13",
-          "game_number": "416646",
+          "date": "2026-10-18",
+          "game_number": "416663",
           "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G11DB-vanGulik",
-          "result": "W",
-          "time": "08:15 AM",
-          "venue_code": "TORP-Pulis4"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416649",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G11DB-Weinstein",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416654",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G11DB-Mandile",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "TORP-Pulis4"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416658",
-          "goals_against": 1,
-          "goals_for": 1,
+          "goals_for": 3,
           "opponent_club": "RYSA",
           "opponent_raw": "RYSA-G11DB-Krol",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "TORP-Pulis4"
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 18,
+      "goal_diff": 22,
       "goals_against": 2,
-      "goals_for": 20,
+      "goals_for": 24,
       "losses": 0,
-      "played": 4,
-      "points": 10,
-      "team_raw": "Torpedoes-G11DB-Gjoca",
-      "wins": 3
+      "played": 5,
+      "points": 13,
+      "team_raw": "WoodRidge-G11DB-Squeo",
+      "wins": 4
     },
     {
       "club": "Spartan",
       "coach": "Marie",
       "draws": 1,
-      "form": "DWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -173,22 +124,164 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416662",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11DB-Mandile",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": 4,
+      "goal_diff": 11,
       "goals_against": 4,
-      "goals_for": 8,
+      "goals_for": 15,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "Spartan-G11DB-Marie",
+      "wins": 4
+    },
+    {
+      "club": "Torpedoes",
+      "coach": "Gjoca",
+      "draws": 1,
+      "form": "WWWDL",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "416646",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11DB-vanGulik",
+          "result": "W",
+          "time": "08:15 AM",
+          "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416649",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11DB-Weinstein",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416654",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11DB-Mandile",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416658",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-G11DB-Krol",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416660",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11DB-Letizia",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
+      "goal_diff": 16,
+      "goals_against": 6,
+      "goals_for": 22,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "Torpedoes-G11DB-Gjoca",
       "wins": 3
+    },
+    {
+      "club": "Dragons",
+      "coach": "Letizia",
+      "draws": 0,
+      "form": "LLWW",
+      "games": [
+        {
+          "date": "2026-10-09",
+          "game_number": "416644",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11DB-Mandile",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416651",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G11DB-Marie",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416657",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11DB-vanGulik",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416660",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G11DB-Gjoca",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 7,
+      "goals_for": 8,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Dragons-G11DB-Letizia",
+      "wins": 2
     },
     {
       "club": "RYSA",
       "coach": "Krol",
       "draws": 2,
-      "form": "WDD",
+      "form": "WDDL",
       "games": [
         {
           "date": "2026-09-20",
@@ -213,6 +306,17 @@
           "venue_code": "TORP-Pulis4"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "416663",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G11DB-Squeo",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "416673",
           "goals_against": 1,
@@ -224,20 +328,91 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 2,
+      "goal_diff": 4,
+      "goals_against": 5,
       "goals_for": 9,
-      "losses": 0,
-      "played": 3,
+      "losses": 1,
+      "played": 4,
       "points": 5,
       "team_raw": "RYSA-G11DB-Krol",
+      "wins": 1
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Weinstein",
+      "draws": 1,
+      "form": "LDLLW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416649",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G11DB-Gjoca",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416655",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G11DB-Squeo",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416656",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G11DB-Marie",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416661",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11DB-vanGulik",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416673",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-G11DB-Krol",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        }
+      ],
+      "goal_diff": -10,
+      "goals_against": 15,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 5,
+      "points": 4,
+      "team_raw": "GlenRock-G11DB-Weinstein",
       "wins": 1
     },
     {
       "club": "Maroons",
       "coach": "vanGulik",
       "draws": 0,
-      "form": "LLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -282,131 +457,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416661",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G11DB-Weinstein",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 18,
-      "goals_for": 6,
-      "losses": 3,
-      "played": 4,
+      "goal_diff": -15,
+      "goals_against": 22,
+      "goals_for": 7,
+      "losses": 4,
+      "played": 5,
       "points": 3,
       "team_raw": "Maroons-G11DB-vanGulik",
       "wins": 1
     },
     {
-      "club": "Dragons",
-      "coach": "Letizia",
-      "draws": 0,
-      "form": "LLW",
-      "games": [
-        {
-          "date": "2026-10-09",
-          "game_number": "416644",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G11DB-Mandile",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416651",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G11DB-Marie",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "PAR-ParkwayMS9"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416657",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G11DB-vanGulik",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "MAR-OrchardSchool"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 5,
-      "goals_for": 4,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "Dragons-G11DB-Letizia",
-      "wins": 1
-    },
-    {
-      "club": "GlenRock",
-      "coach": "Weinstein",
-      "draws": 1,
-      "form": "LDLL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416649",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G11DB-Gjoca",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416655",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G11DB-Squeo",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "WDRDG-AthComp Sm B"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416656",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G11DB-Marie",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416673",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-G11DB-Krol",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 14,
-      "goals_for": 1,
-      "losses": 3,
-      "played": 4,
-      "points": 1,
-      "team_raw": "GlenRock-G11DB-Weinstein",
-      "wins": 0
-    },
-    {
       "club": "FairLawnAllSports",
       "coach": "Mandile",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-10-09",
@@ -451,13 +528,24 @@
           "result": "L",
           "time": "04:15 PM",
           "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416662",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G11DB-Marie",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 23,
+      "goal_diff": -29,
+      "goals_against": 30,
       "goals_for": 1,
-      "losses": 4,
-      "played": 4,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "FairLawnAllSports-G11DB-Mandile",
       "wins": 0

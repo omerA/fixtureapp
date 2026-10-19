@@ -1,6 +1,6 @@
 {
   "division": "B11A",
-  "scraped_at": "2026-10-18T10:41:28.817598Z",
+  "scraped_at": "2026-10-19T12:32:09.564181Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 1,
-      "form": "WWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -53,16 +53,27 @@
           "result": "W",
           "time": "11:15 AM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415642",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Sayag",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 16,
       "goals_against": 4,
-      "goals_for": 14,
+      "goals_for": 20,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "Dumont-B11A-Zotaj",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Warriors",
@@ -430,21 +441,6 @@
       "wins": 0
     },
     {
-      "club": "CougarUtd",
-      "coach": "Sayag",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarUtd-B11A-Sayag",
-      "wins": 0
-    },
-    {
       "club": "NoArlington",
       "coach": "DaSilva",
       "draws": 0,
@@ -513,6 +509,33 @@
       "played": 5,
       "points": 0,
       "team_raw": "NoArlington-B11A-DaSilva",
+      "wins": 0
+    },
+    {
+      "club": "CougarUtd",
+      "coach": "Sayag",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "415642",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Zotaj",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        }
+      ],
+      "goal_diff": -6,
+      "goals_against": 6,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "CougarUtd-B11A-Sayag",
       "wins": 0
     }
   ]

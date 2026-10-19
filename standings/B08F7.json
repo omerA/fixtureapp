@@ -1,6 +1,6 @@
 {
   "division": "B08F7",
-  "scraped_at": "2026-10-18T10:41:27.314240Z",
+  "scraped_at": "2026-10-19T12:32:08.363171Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -74,6 +74,66 @@
       "points": 15,
       "team_raw": "CougarUtd-B08F7-Benedy",
       "wins": 5
+    },
+    {
+      "club": "Southside",
+      "coach": "Zamora",
+      "draws": 1,
+      "form": "DLWW",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "413784",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B08F7-Salas",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "Haledon-MnchstHS-Sml"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "413785",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08F7-Benedy",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413792",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B08F7-Dimoski",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413795",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B08F7-Saxena",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 14,
+      "goals_for": 24,
+      "losses": 1,
+      "played": 4,
+      "points": 7,
+      "team_raw": "Southside-B08F7-Zamora",
+      "wins": 2
     },
     {
       "club": "Maywood",
@@ -150,8 +210,19 @@
       "club": "SaddleBR",
       "coach": "Salas",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWL",
       "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "413784",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B08F7-Zamora",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "Haledon-MnchstHS-Sml"
+        },
         {
           "date": "2026-09-19",
           "game_number": "413787",
@@ -186,63 +257,14 @@
           "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 8,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": -2,
+      "goals_against": 15,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 4,
       "points": 6,
       "team_raw": "SaddleBR-B08F7-Salas",
       "wins": 2
-    },
-    {
-      "club": "Southside",
-      "coach": "Zamora",
-      "draws": 1,
-      "form": "DLW",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "413785",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B08F7-Benedy",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413792",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B08F7-Dimoski",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "413795",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B08F7-Saxena",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 11,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 3,
-      "points": 4,
-      "team_raw": "Southside-B08F7-Zamora",
-      "wins": 1
     },
     {
       "club": "Rutherford",

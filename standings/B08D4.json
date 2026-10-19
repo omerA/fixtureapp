@@ -1,57 +1,79 @@
 {
   "division": "B08D4",
-  "scraped_at": "2026-10-18T10:41:27.121188Z",
+  "scraped_at": "2026-10-19T12:32:08.211818Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "Belleville",
-      "coach": "Martinez",
+      "club": "Americans",
+      "coach": "Svarnas",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWLW",
       "games": [
         {
-          "date": "2026-09-20",
-          "game_number": "415914",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B08D4-Resh",
+          "date": "2026-09-12",
+          "game_number": "415912",
+          "goals_against": 6,
+          "goals_for": 7,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08D4-Aguilar",
           "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "BELLE-BellePkSm"
+          "time": "02:00 PM",
+          "venue_code": "AMER-StLuke"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415918",
+          "goals_against": 9,
+          "goals_for": 11,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08D4-Musano",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "AMER-StLukeE4v4"
         },
         {
           "date": "2026-10-03",
-          "game_number": "415927",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08D4-Brezinski",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "BELLE-BellePkSm"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415933",
-          "goals_against": 1,
-          "goals_for": 8,
+          "game_number": "415929",
+          "goals_against": 2,
+          "goals_for": 4,
           "opponent_club": "Rutherford",
           "opponent_raw": "Rutherford-B08D4-Millar",
           "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "RUTH-Memorial1"
+          "time": "12:30 PM",
+          "venue_code": "RUTH-Memorial4"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415932",
+          "goals_against": 11,
+          "goals_for": 7,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08D4-Holder",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AMER-StLuke"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415948",
+          "goals_against": 7,
+          "goals_for": 11,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B08D4-Martinez",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "AMER-ReynoldsNorth"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 5,
-      "goals_for": 25,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "Belleville-B08D4-Martinez",
-      "wins": 3
+      "goal_diff": 5,
+      "goals_against": 35,
+      "goals_for": 40,
+      "losses": 1,
+      "played": 5,
+      "points": 12,
+      "team_raw": "Americans-B08D4-Svarnas",
+      "wins": 4
     },
     {
       "club": "Arsenal",
@@ -103,64 +125,124 @@
       "wins": 3
     },
     {
-      "club": "Americans",
-      "coach": "Svarnas",
+      "club": "Belleville",
+      "coach": "Martinez",
       "draws": 0,
       "form": "WWWL",
       "games": [
         {
+          "date": "2026-09-20",
+          "game_number": "415914",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08D4-Resh",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415927",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08D4-Brezinski",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415933",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08D4-Millar",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RUTH-Memorial1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415948",
+          "goals_against": 11,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08D4-Svarnas",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "AMER-ReynoldsNorth"
+        }
+      ],
+      "goal_diff": 16,
+      "goals_against": 16,
+      "goals_for": 32,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Belleville-B08D4-Martinez",
+      "wins": 3
+    },
+    {
+      "club": "Spartan",
+      "coach": "Aguilar",
+      "draws": 1,
+      "form": "LWDW",
+      "games": [
+        {
           "date": "2026-09-12",
           "game_number": "415912",
-          "goals_against": 6,
-          "goals_for": 7,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08D4-Aguilar",
-          "result": "W",
+          "goals_against": 7,
+          "goals_for": 6,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08D4-Svarnas",
+          "result": "L",
           "time": "02:00 PM",
           "venue_code": "AMER-StLuke"
         },
         {
-          "date": "2026-10-04",
-          "game_number": "415918",
-          "goals_against": 9,
-          "goals_for": 11,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08D4-Musano",
+          "date": "2026-10-18",
+          "game_number": "415926",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08D4-Resh",
           "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "AMER-StLukeE4v4"
+          "time": "03:30 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
         },
         {
           "date": "2026-10-03",
-          "game_number": "415929",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08D4-Millar",
+          "game_number": "415930",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08D4-Chambers",
           "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "RUTH-Memorial4"
+          "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
         },
         {
           "date": "2026-10-17",
-          "game_number": "415932",
-          "goals_against": 11,
-          "goals_for": 7,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B08D4-Holder",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "AMER-StLuke"
+          "game_number": "415935",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08D4-Musano",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 28,
-      "goals_for": 29,
+      "goal_diff": 4,
+      "goals_against": 14,
+      "goals_for": 18,
       "losses": 1,
       "played": 4,
-      "points": 9,
-      "team_raw": "Americans-B08D4-Svarnas",
-      "wins": 3
+      "points": 7,
+      "team_raw": "Spartan-B08D4-Aguilar",
+      "wins": 2
     },
     {
       "club": "Hackensack",
@@ -226,7 +308,7 @@
       "club": "Vikings",
       "coach": "Resh",
       "draws": 0,
-      "form": "WLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -251,6 +333,17 @@
           "venue_code": "VIK-DemarestHS-Upper"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "415926",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08D4-Aguilar",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "415931",
           "goals_against": 9,
@@ -273,11 +366,11 @@
           "venue_code": "VIK-NVRHS-DemarUP"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 27,
-      "goals_for": 25,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -6,
+      "goals_against": 34,
+      "goals_for": 28,
+      "losses": 3,
+      "played": 5,
       "points": 5,
       "team_raw": "Vikings-B08D4-Resh",
       "wins": 2
@@ -344,47 +437,9 @@
     },
     {
       "club": "Spartan",
-      "coach": "Aguilar",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415912",
-          "goals_against": 7,
-          "goals_for": 6,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08D4-Svarnas",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "AMER-StLuke"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415930",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B08D4-Chambers",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "PAR-ParkwayMS7"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 8,
-      "goals_for": 8,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "Spartan-B08D4-Aguilar",
-      "wins": 1
-    },
-    {
-      "club": "Spartan",
       "coach": "Musano",
-      "draws": 0,
-      "form": "LWL",
+      "draws": 1,
+      "form": "LWLD",
       "games": [
         {
           "date": "2026-09-12",
@@ -418,14 +473,25 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415935",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08D4-Aguilar",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
         }
       ],
       "goal_diff": 1,
-      "goals_against": 24,
-      "goals_for": 25,
+      "goals_against": 27,
+      "goals_for": 28,
       "losses": 2,
-      "played": 3,
-      "points": 3,
+      "played": 4,
+      "points": 4,
       "team_raw": "Spartan-B08D4-Musano",
       "wins": 1
     },

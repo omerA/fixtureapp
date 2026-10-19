@@ -1,6 +1,6 @@
 {
   "division": "G11DW",
-  "scraped_at": "2026-10-18T10:41:32.142109Z",
+  "scraped_at": "2026-10-19T12:32:12.330449Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "Nutley",
       "coach": "Hyndman",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "414499",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G11DW-Lodato",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
         {
           "date": "2026-09-13",
           "game_number": "416686",
@@ -55,70 +66,32 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 2,
-      "goals_for": 18,
+      "goal_diff": 17,
+      "goals_against": 3,
+      "goals_for": 20,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "Nutley-G11DW-Hyndman",
-      "wins": 4
-    },
-    {
-      "club": "Verona",
-      "coach": "Lodato",
-      "draws": 1,
-      "form": "WWD",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "416685",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G11DW-Holder",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416689",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G11DW-Parsons",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416693",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G11DW-Avila",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "BELLE-BellePkSm"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 5,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 3,
-      "points": 7,
-      "team_raw": "Verona-G11DW-Lodato",
-      "wins": 2
+      "wins": 5
     },
     {
       "club": "SaddleBR",
       "coach": "Camporeale",
       "draws": 0,
-      "form": "LWW",
+      "form": "LWWW",
       "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "414498",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G11DW-Avila",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
         {
           "date": "2026-09-13",
           "game_number": "416686",
@@ -153,21 +126,163 @@
           "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 10,
       "goals_against": 3,
-      "goals_for": 10,
+      "goals_for": 13,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "SaddleBR-G11DW-Camporeale",
+      "wins": 3
+    },
+    {
+      "club": "Verona",
+      "coach": "Lodato",
+      "draws": 1,
+      "form": "WWDL",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "414499",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G11DW-Hyndman",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-09-13",
+          "game_number": "416685",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G11DW-Holder",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416689",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G11DW-Parsons",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416693",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G11DW-Avila",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "BELLE-BellePkSm"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 7,
+      "goals_for": 9,
+      "losses": 1,
+      "played": 4,
+      "points": 7,
+      "team_raw": "Verona-G11DW-Lodato",
+      "wins": 2
+    },
+    {
+      "club": "BLMFLD",
+      "coach": "Parsons",
+      "draws": 0,
+      "form": "WLLLW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "416684",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G11DW-Avila",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416689",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G11DW-Lodato",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416690",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G11DW-Hyndman",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416695",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G11DW-Camporeale",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416899",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G11DW-Holder",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "BLMFLD-LionsGate"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 10,
+      "goals_for": 12,
+      "losses": 3,
+      "played": 5,
+      "points": 6,
+      "team_raw": "BLMFLD-G11DW-Parsons",
       "wins": 2
     },
     {
       "club": "Belleville",
       "coach": "Avila",
       "draws": 1,
-      "form": "LLWD",
+      "form": "LLWDL",
       "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "414498",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G11DW-Camporeale",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
         {
           "date": "2026-09-13",
           "game_number": "416684",
@@ -213,80 +328,20 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 12,
+      "goal_diff": -3,
+      "goals_against": 15,
       "goals_for": 12,
-      "losses": 2,
-      "played": 4,
+      "losses": 3,
+      "played": 5,
       "points": 4,
       "team_raw": "Belleville-G11DW-Avila",
-      "wins": 1
-    },
-    {
-      "club": "BLMFLD",
-      "coach": "Parsons",
-      "draws": 0,
-      "form": "WLLL",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "416684",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G11DW-Avila",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "BLMFLD-LionsGate"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416689",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G11DW-Lodato",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416690",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G11DW-Hyndman",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416695",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-G11DW-Camporeale",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 9,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 4,
-      "points": 3,
-      "team_raw": "BLMFLD-G11DW-Parsons",
       "wins": 1
     },
     {
       "club": "Hackensack",
       "coach": "Holder",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -331,13 +386,24 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416899",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G11DW-Parsons",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "BLMFLD-LionsGate"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 23,
-      "goals_for": 1,
-      "losses": 4,
-      "played": 4,
+      "goal_diff": -28,
+      "goals_against": 30,
+      "goals_for": 2,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "Hackensack-G11DW-Holder",
       "wins": 0

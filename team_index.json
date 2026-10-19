@@ -482,6 +482,7 @@
       "Maroons-B13G-dePaula",
       "Maroons-B14A-Breheny",
       "Maroons-B14D-dePaula",
+      "Maroons-B14XB-Breheny",
       "Maroons-B14XW-dePaula",
       "Maroons-G08A4-Forsythe",
       "Maroons-G08A4-Gillies",
@@ -608,6 +609,7 @@
       "NoValley-B13CW-Birnie",
       "NoValley-B14A-Torrie",
       "NoValley-B14C-Lotz",
+      "NoValley-B14XB-Lotz",
       "NoValley-G10B-Steinman",
       "NoValley-G11C-Beezer",
       "NoValley-G12CB-Pawlowski",
@@ -858,9 +860,9 @@
       "Torpedoes-B08B7-Carrelha",
       "Torpedoes-B08CW7-Dooley",
       "Torpedoes-B08EB7-Schweizer",
-      "Torpedoes-B09FW-Grados",
-      "Torpedoes-B09G-Grados",
-      "Torpedoes-B09XW-Grados",
+      "Torpedoes-B09FW-Nikolaidis",
+      "Torpedoes-B09G-Kunwar",
+      "Torpedoes-B09XW-Kunwar",
       "Torpedoes-B10F-Grados",
       "Torpedoes-B10XW-Grados",
       "Torpedoes-B11H-Gjoca",
@@ -3152,6 +3154,11 @@
       "coach": "dePaula",
       "division": "B14D"
     },
+    "Maroons-B14XB-Breheny": {
+      "club": "Maroons",
+      "coach": "Breheny",
+      "division": "B14XB"
+    },
     "Maroons-B14XW-dePaula": {
       "club": "Maroons",
       "coach": "dePaula",
@@ -3701,6 +3708,11 @@
       "club": "NoValley",
       "coach": "Lotz",
       "division": "B14C"
+    },
+    "NoValley-B14XB-Lotz": {
+      "club": "NoValley",
+      "coach": "Lotz",
+      "division": "B14XB"
     },
     "NoValley-G10B-Steinman": {
       "club": "NoValley",
@@ -4792,19 +4804,19 @@
       "coach": "Schweizer",
       "division": "B08EB7"
     },
-    "Torpedoes-B09FW-Grados": {
+    "Torpedoes-B09FW-Nikolaidis": {
       "club": "Torpedoes",
-      "coach": "Grados",
+      "coach": "Nikolaidis",
       "division": "B09FW"
     },
-    "Torpedoes-B09G-Grados": {
+    "Torpedoes-B09G-Kunwar": {
       "club": "Torpedoes",
-      "coach": "Grados",
+      "coach": "Kunwar",
       "division": "B09G"
     },
-    "Torpedoes-B09XW-Grados": {
+    "Torpedoes-B09XW-Kunwar": {
       "club": "Torpedoes",
-      "coach": "Grados",
+      "coach": "Kunwar",
       "division": "B09XW"
     },
     "Torpedoes-B10F-Grados": {
@@ -5794,7 +5806,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-18T10:41:26.414816+00:00",
+  "scraped_at": "2026-10-19T12:32:07.586148+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

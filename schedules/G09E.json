@@ -319,7 +319,7 @@
     },
     {
       "away_club": "RiverDell",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "RiverDell-G09E-Norris",
       "date": "2026-10-18",
       "division": "G09E",
@@ -327,14 +327,14 @@
       "field_id": "369",
       "game_id": "414840",
       "home_club": "Verona",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Verona-G09E-Goman",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:30 AM"
     },
     {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "Torpedoes-G09E-Duka",
       "date": "2026-10-18",
       "division": "G09E",
@@ -342,14 +342,14 @@
       "field_id": "584",
       "game_id": "414839",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Maroons-G09E-vanGulik",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:15 AM"
     },
     {
       "away_club": "WOrange",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "WOrange-G09E-Tutalo",
       "date": "2026-10-18",
       "division": "G09E",
@@ -357,14 +357,14 @@
       "field_id": "808",
       "game_id": "414836",
       "home_club": "CougarUtd",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "CougarUtd-G09E-Chang",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "WestEssex",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "WestEssex-G09E-Sevilla",
       "date": "2026-10-18",
       "division": "G09E",
@@ -372,9 +372,9 @@
       "field_id": "1142",
       "game_id": "414838",
       "home_club": "HobUtd",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "HobUtd-G09E-Rothman",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
@@ -453,6 +453,21 @@
       "time": "09:00 AM"
     },
     {
+      "away_club": "HobUtd",
+      "away_score": null,
+      "away_team": "HobUtd-G09E-Rothman",
+      "date": "2026-10-25",
+      "division": "G09E",
+      "field": "Pulis 3",
+      "field_id": "22",
+      "game_id": "414843",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-G09E-Duka",
+      "is_upcoming": true,
+      "time": "09:45 AM"
+    },
+    {
       "away_club": "CougarUtd",
       "away_score": null,
       "away_team": "CougarUtd-G09E-Chang",
@@ -481,21 +496,6 @@
       "home_team": "Maywood-G09E-Soto",
       "is_upcoming": true,
       "time": "03:00 PM"
-    },
-    {
-      "away_club": "HobUtd",
-      "away_score": null,
-      "away_team": "HobUtd-G09E-Rothman",
-      "date": "2026-10-25",
-      "division": "G09E",
-      "field": "Pulis 3",
-      "field_id": "22",
-      "game_id": "414843",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-G09E-Duka",
-      "is_upcoming": true,
-      "time": "09:45 PM"
     },
     {
       "away_club": "Verona",
@@ -798,6 +798,6 @@
       "time": "01:15 PM"
     }
   ],
-  "scraped_at": "2026-10-18T10:45:46.645164Z",
+  "scraped_at": "2026-10-19T12:36:30.234403Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

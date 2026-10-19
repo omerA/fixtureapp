@@ -1,9 +1,58 @@
 {
   "division": "G14D",
-  "scraped_at": "2026-10-18T10:41:32.970712Z",
+  "scraped_at": "2026-10-19T12:32:13.021213Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maywood",
+      "coach": "Glynn",
+      "draws": 1,
+      "form": "DWW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416813",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416816",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G14D-Santacruz",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416820",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G14D-Manning",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 5,
+      "goals_for": 11,
+      "losses": 0,
+      "played": 3,
+      "points": 7,
+      "team_raw": "Maywood-G14D-Glynn",
+      "wins": 2
+    },
     {
       "club": "Maroons",
       "coach": "Manning",
@@ -114,48 +163,10 @@
       "wins": 1
     },
     {
-      "club": "Maywood",
-      "coach": "Glynn",
-      "draws": 1,
-      "form": "DW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416813",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G14D-Bifulco",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416820",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G14D-Manning",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 2,
-      "goals_for": 7,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "Maywood-G14D-Glynn",
-      "wins": 1
-    },
-    {
       "club": "Hackensack",
       "coach": "Santacruz",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -180,6 +191,17 @@
           "venue_code": "HACK-Johnson2"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "416816",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14D-Glynn",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416818",
           "goals_against": 1,
@@ -191,11 +213,11 @@
           "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 6,
-      "goals_for": 3,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -4,
+      "goals_against": 10,
+      "goals_for": 6,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Hackensack-G14D-Santacruz",
       "wins": 1

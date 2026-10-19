@@ -1,6 +1,6 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-10-18T10:41:32.709562Z",
+  "scraped_at": "2026-10-19T12:32:12.822659Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Vikings",
       "coach": "Flanagan",
       "draws": 1,
-      "form": "WWD",
+      "form": "WWDW",
       "games": [
         {
           "date": "2026-09-20",
@@ -42,15 +42,86 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415208",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G13D-Shah",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 4,
-      "goals_for": 11,
+      "goal_diff": 9,
+      "goals_against": 5,
+      "goals_for": 14,
       "losses": 0,
-      "played": 3,
-      "points": 7,
+      "played": 4,
+      "points": 10,
       "team_raw": "Vikings-G13D-Flanagan",
+      "wins": 3
+    },
+    {
+      "club": "NoValley",
+      "coach": "Mamalian",
+      "draws": 1,
+      "form": "WLDW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "415199",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G13D-Shah",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415203",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415205",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13D-Gray",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415209",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13D-Austin",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MAR-Stevens"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 6,
+      "goals_for": 4,
+      "losses": 1,
+      "played": 4,
+      "points": 7,
+      "team_raw": "NoValley-G13D-Mamalian",
       "wins": 2
     },
     {
@@ -106,7 +177,7 @@
       "club": "Mahwah",
       "coach": "Shah",
       "draws": 0,
-      "form": "LLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -151,71 +222,33 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415208",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 8,
-      "goals_for": 6,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -4,
+      "goals_against": 11,
+      "goals_for": 7,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "Mahwah-G13D-Shah",
       "wins": 2
     },
     {
-      "club": "NoValley",
-      "coach": "Mamalian",
-      "draws": 1,
-      "form": "WLD",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415199",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G13D-Shah",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415203",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13D-Flanagan",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415205",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G13D-Gray",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "HobUtd-SinatraPark"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 6,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 3,
-      "points": 4,
-      "team_raw": "NoValley-G13D-Mamalian",
-      "wins": 1
-    },
-    {
       "club": "Maroons",
       "coach": "Austin",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-10-04",
@@ -227,13 +260,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415209",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "MAR-Stevens"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 2,
+      "goal_diff": -3,
+      "goals_against": 4,
       "goals_for": 1,
-      "losses": 1,
-      "played": 1,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "Maroons-G13D-Austin",
       "wins": 0

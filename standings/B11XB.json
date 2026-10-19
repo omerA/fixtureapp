@@ -1,9 +1,36 @@
 {
   "division": "B11XB",
-  "scraped_at": "2026-10-18T10:41:29.291138Z",
+  "scraped_at": "2026-10-19T12:32:09.960819Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Force",
+      "coach": "Darling",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "417940",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11XB-Heydt",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "NY-MW-WMombasha"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 1,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Force-B11XB-Darling",
+      "wins": 1
+    },
     {
       "club": "Dumont",
       "coach": "Zotaj",
@@ -59,21 +86,6 @@
       "wins": 0
     },
     {
-      "club": "Force",
-      "coach": "Darling",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Force-B11XB-Darling",
-      "wins": 0
-    },
-    {
       "club": "GlenRock",
       "coach": "Ramos",
       "draws": 0,
@@ -104,21 +116,6 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Heydt",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "RiverDell-B11XB-Heydt",
-      "wins": 0
-    },
-    {
       "club": "Warriors",
       "coach": "Leonard",
       "draws": 0,
@@ -146,6 +143,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "WoodRidge-B11XB-Maccarrone",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Heydt",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "417940",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B11XB-Darling",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "NY-MW-WMombasha"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 5,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "RiverDell-B11XB-Heydt",
       "wins": 0
     }
   ]

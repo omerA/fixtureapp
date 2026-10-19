@@ -1,6 +1,6 @@
 {
   "division": "G10B",
-  "scraped_at": "2026-10-18T10:41:31.629037Z",
+  "scraped_at": "2026-10-19T12:32:11.882659Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Hotspur",
       "coach": "Mulanaphy",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -42,22 +42,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416604",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10B-Stearns",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "HOT-NoCentral"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 4,
-      "goals_for": 17,
+      "goal_diff": 19,
+      "goals_against": 5,
+      "goals_for": 24,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Hotspur-G10B-Mulanaphy",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Maroons",
       "coach": "Forsythe",
       "draws": 0,
-      "form": "LWW",
+      "form": "LWWW",
       "games": [
         {
           "date": "2026-10-16",
@@ -91,22 +102,33 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416603",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G10B-Coulson",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MAR-VetsFld1"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 5,
-      "goals_for": 12,
+      "goal_diff": 8,
+      "goals_against": 6,
+      "goals_for": 14,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "Maroons-G10B-Forsythe",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "GlobalJC",
       "coach": "Coulson",
       "draws": 0,
-      "form": "WWL",
+      "form": "WWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -140,22 +162,71 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416603",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10B-Forsythe",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MAR-VetsFld1"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 13,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": 4,
+      "goals_against": 15,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 4,
       "points": 6,
       "team_raw": "GlobalJC-G10B-Coulson",
       "wins": 2
     },
     {
+      "club": "Warriors",
+      "coach": "Reed",
+      "draws": 0,
+      "form": "LW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "416593",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10B-Mulanaphy",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416605",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G10B-Steinman",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "NoVAL-Northvale"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 7,
+      "goals_for": 8,
+      "losses": 1,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Warriors-G10B-Reed",
+      "wins": 1
+    },
+    {
       "club": "HobUtd",
       "coach": "Stearns",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -189,49 +260,33 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416604",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G10B-Mulanaphy",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "HOT-NoCentral"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 10,
-      "goals_for": 9,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -7,
+      "goals_against": 17,
+      "goals_for": 10,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "HobUtd-G10B-Stearns",
       "wins": 1
     },
     {
-      "club": "Warriors",
-      "coach": "Reed",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "416593",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G10B-Mulanaphy",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "WALD-Hopper"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 6,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Warriors-G10B-Reed",
-      "wins": 0
-    },
-    {
       "club": "NoValley",
       "coach": "Steinman",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-10-16",
@@ -265,13 +320,24 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416605",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G10B-Reed",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 24,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -25,
+      "goals_against": 31,
+      "goals_for": 6,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "NoValley-G10B-Steinman",
       "wins": 0

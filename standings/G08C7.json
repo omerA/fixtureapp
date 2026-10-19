@@ -1,6 +1,6 @@
 {
   "division": "G08C7",
-  "scraped_at": "2026-10-18T10:41:31.230213Z",
+  "scraped_at": "2026-10-19T12:32:11.508722Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Spartan",
       "coach": "Marie",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-10-14",
@@ -42,22 +42,33 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414786",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G08C7-Lane",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
-      "goal_diff": 11,
+      "goal_diff": 18,
       "goals_against": 3,
-      "goals_for": 14,
+      "goals_for": 21,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Spartan-G08C7-Marie",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Rutherford",
       "coach": "Saracena",
       "draws": 0,
-      "form": "WWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-10-14",
@@ -102,22 +113,33 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414787",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08C7-Karp",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "RUTH-Memorial3"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 11,
       "goals_against": 8,
-      "goals_for": 15,
+      "goals_for": 19,
       "losses": 1,
-      "played": 4,
-      "points": 9,
+      "played": 5,
+      "points": 12,
       "team_raw": "Rutherford-G08C7-Saracena",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "WorldClassFC",
       "coach": "Ayas",
       "draws": 0,
-      "form": "WLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -162,22 +184,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414788",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G08C7-Segal",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 6,
+      "goal_diff": 8,
       "goals_against": 10,
-      "goals_for": 16,
+      "goals_for": 18,
       "losses": 2,
-      "played": 4,
-      "points": 6,
+      "played": 5,
+      "points": 9,
       "team_raw": "WorldClassFC-G08C7-Ayas",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "GlenRidge",
       "coach": "Lane",
       "draws": 0,
-      "form": "LWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-10-03",
@@ -213,6 +246,17 @@
           "venue_code": "NY-WC-Field3"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "414786",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G08C7-Marie",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
           "date": "2026-10-10",
           "game_number": "416496",
           "goals_against": 2,
@@ -224,20 +268,69 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 16,
+      "goal_diff": -4,
+      "goals_against": 23,
       "goals_for": 19,
-      "losses": 2,
-      "played": 4,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "GlenRidge-G08C7-Lane",
       "wins": 2
     },
     {
+      "club": "CougarUtd",
+      "coach": "Segal",
+      "draws": 0,
+      "form": "LLL",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "414774",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G08C7-Lane",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414783",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G08C7-Saracena",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414788",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08C7-Ayas",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field3"
+        }
+      ],
+      "goal_diff": -16,
+      "goals_against": 16,
+      "goals_for": 0,
+      "losses": 3,
+      "played": 3,
+      "points": 0,
+      "team_raw": "CougarUtd-G08C7-Segal",
+      "wins": 0
+    },
+    {
       "club": "HobUtd",
       "coach": "Karp",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -262,6 +355,17 @@
           "venue_code": "HobUTD-SinatraPkNrth"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "414787",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G08C7-Saracena",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
           "date": "2026-10-10",
           "game_number": "416496",
           "goals_against": 6,
@@ -273,51 +377,13 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 18,
+      "goal_diff": -17,
+      "goals_against": 22,
       "goals_for": 5,
-      "losses": 3,
-      "played": 3,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "HobUtd-G08C7-Karp",
-      "wins": 0
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "Segal",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-10-03",
-          "game_number": "414774",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G08C7-Lane",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "GLENRDGE-CarteretSm"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414783",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G08C7-Saracena",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        }
-      ],
-      "goal_diff": -14,
-      "goals_against": 14,
-      "goals_for": 0,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "CougarUtd-G08C7-Segal",
       "wins": 0
     }
   ]

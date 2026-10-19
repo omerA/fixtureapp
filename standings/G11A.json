@@ -1,6 +1,6 @@
 {
   "division": "G11A",
-  "scraped_at": "2026-10-18T10:41:31.928403Z",
+  "scraped_at": "2026-10-19T12:32:12.116512Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Maroons",
       "coach": "Cotter",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -42,22 +42,33 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415095",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11A-Brownell",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MAR-HabernickelPk"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 13,
       "goals_against": 4,
-      "goals_for": 14,
+      "goals_for": 17,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Maroons-G11A-Cotter",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "WorldClassFC",
       "coach": "Brownell",
       "draws": 1,
-      "form": "WWD",
+      "form": "WWDL",
       "games": [
         {
           "date": "2026-09-19",
@@ -91,109 +102,33 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415095",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11A-Cotter",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MAR-HabernickelPk"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 2,
+      "goal_diff": 8,
+      "goals_against": 5,
       "goals_for": 13,
-      "losses": 0,
-      "played": 3,
+      "losses": 1,
+      "played": 4,
       "points": 7,
       "team_raw": "WorldClassFC-G11A-Brownell",
       "wins": 2
     },
     {
-      "club": "WestEssex",
-      "coach": "Pajuelo",
-      "draws": 0,
-      "form": "LW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415084",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G11A-Cotter",
-          "result": "L",
-          "time": "08:15 AM",
-          "venue_code": "WEssex-Volunteers"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415091",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G11A-Schneiderman",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "WEssex-Volunteers"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 5,
-      "goals_for": 6,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "WestEssex-G11A-Pajuelo",
-      "wins": 1
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Kubasta",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415079",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G11A-Brownell",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field4"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415081",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G11A-Vinces",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "FL-CenterRec2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415085",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G11A-Cotter",
-          "result": "L",
-          "time": "06:45 PM",
-          "venue_code": "FL-CenterRec1A"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 10,
-      "goals_for": 6,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "FairLawnAllSports-G11A-Kubasta",
-      "wins": 1
-    },
-    {
       "club": "Vikings",
       "coach": "Schneiderman",
       "draws": 0,
-      "form": "WLL",
+      "form": "WLLW",
       "games": [
         {
           "date": "2026-09-13",
@@ -227,22 +162,142 @@
           "result": "L",
           "time": "03:15 PM",
           "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415094",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11A-Kubasta",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "VIK-Ruckman"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 10,
-      "goals_for": 4,
+      "goal_diff": -3,
+      "goals_against": 12,
+      "goals_for": 9,
       "losses": 2,
-      "played": 3,
-      "points": 3,
+      "played": 4,
+      "points": 6,
       "team_raw": "Vikings-G11A-Schneiderman",
+      "wins": 2
+    },
+    {
+      "club": "WestEssex",
+      "coach": "Pajuelo",
+      "draws": 1,
+      "form": "LWD",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "415084",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11A-Cotter",
+          "result": "L",
+          "time": "08:15 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415091",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11A-Schneiderman",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415093",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G11A-Mapes",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-MS-Sm"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 6,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 3,
+      "points": 4,
+      "team_raw": "WestEssex-G11A-Pajuelo",
+      "wins": 1
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Kubasta",
+      "draws": 0,
+      "form": "LWLL",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415079",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11A-Brownell",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415081",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11A-Vinces",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "FL-CenterRec2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415085",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11A-Cotter",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415094",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G11A-Schneiderman",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "VIK-Ruckman"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 15,
+      "goals_for": 8,
+      "losses": 3,
+      "played": 4,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-G11A-Kubasta",
       "wins": 1
     },
     {
       "club": "RiverDell",
       "coach": "Mapes",
-      "draws": 1,
-      "form": "D",
+      "draws": 2,
+      "form": "DD",
       "games": [
         {
           "date": "2026-10-04",
@@ -254,22 +309,33 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415093",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G11A-Pajuelo",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-MS-Sm"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 1,
-      "goals_for": 1,
+      "goals_against": 2,
+      "goals_for": 2,
       "losses": 0,
-      "played": 1,
-      "points": 1,
+      "played": 2,
+      "points": 2,
       "team_raw": "RiverDell-G11A-Mapes",
       "wins": 0
     },
     {
       "club": "WorldClassFC",
       "coach": "Heim",
-      "draws": 0,
-      "form": "L",
+      "draws": 1,
+      "form": "LD",
       "games": [
         {
           "date": "2026-09-13",
@@ -281,22 +347,33 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415096",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11A-Vinces",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
         }
       ],
       "goal_diff": -1,
-      "goals_against": 2,
-      "goals_for": 1,
+      "goals_against": 3,
+      "goals_for": 2,
       "losses": 1,
-      "played": 1,
-      "points": 0,
+      "played": 2,
+      "points": 1,
       "team_raw": "WorldClassFC-G11A-Heim",
       "wins": 0
     },
     {
       "club": "WayneBG",
       "coach": "Vinces",
-      "draws": 0,
-      "form": "LL",
+      "draws": 1,
+      "form": "LLD",
       "games": [
         {
           "date": "2026-09-20",
@@ -319,14 +396,25 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415096",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11A-Heim",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
         }
       ],
       "goal_diff": -11,
-      "goals_against": 12,
-      "goals_for": 1,
+      "goals_against": 13,
+      "goals_for": 2,
       "losses": 2,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 1,
       "team_raw": "WayneBG-G11A-Vinces",
       "wins": 0
     }

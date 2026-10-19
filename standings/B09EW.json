@@ -1,6 +1,6 @@
 {
   "division": "B09EW",
-  "scraped_at": "2026-10-18T10:41:27.705776Z",
+  "scraped_at": "2026-10-19T12:32:08.677424Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -136,6 +136,66 @@
       "wins": 3
     },
     {
+      "club": "Belleville",
+      "coach": "Gomez",
+      "draws": 0,
+      "form": "WLWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "413817",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09EW-Antell",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413825",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B09EW-Vanderbeck",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413826",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09EW-Iloski",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417098",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09EW-PerryLedoux",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "BELLE-BellePkSm"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 6,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Belleville-B09EW-Gomez",
+      "wins": 3
+    },
+    {
       "club": "Dumont",
       "coach": "Iloski",
       "draws": 0,
@@ -267,59 +327,10 @@
       "wins": 2
     },
     {
-      "club": "Belleville",
-      "coach": "Gomez",
-      "draws": 0,
-      "form": "WLW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "413817",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B09EW-Antell",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413825",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B09EW-Vanderbeck",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "RYSA-HighMtn"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "413826",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09EW-Iloski",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DUM-GinasField"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 5,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Belleville-B09EW-Gomez",
-      "wins": 2
-    },
-    {
       "club": "CougarSC",
       "coach": "PerryLedoux",
       "draws": 0,
-      "form": "LLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-26",
@@ -355,6 +366,17 @@
           "venue_code": "FL-CenterRec2A"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "417098",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09EW-Gomez",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
           "date": "2026-09-19",
           "game_number": "417102",
           "goals_against": 7,
@@ -366,11 +388,11 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 19,
-      "goals_for": 10,
-      "losses": 3,
-      "played": 4,
+      "goal_diff": -16,
+      "goals_against": 27,
+      "goals_for": 11,
+      "losses": 4,
+      "played": 5,
       "points": 3,
       "team_raw": "CougarSC-B09EW-PerryLedoux",
       "wins": 1

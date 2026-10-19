@@ -1,6 +1,6 @@
 {
   "division": "G12B",
-  "scraped_at": "2026-10-18T10:41:32.285103Z",
+  "scraped_at": "2026-10-19T12:32:12.453216Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "GlenRock",
       "coach": "Leichte",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-25",
@@ -44,6 +44,17 @@
           "venue_code": "SS-FaberTurfSml"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "414614",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G12B-Virgin",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414630",
           "goals_against": 0,
@@ -55,14 +66,14 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 18,
       "goals_against": 3,
-      "goals_for": 16,
+      "goals_for": 21,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "GlenRock-G12B-Leichte",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WoodRidge",
@@ -114,59 +125,10 @@
       "wins": 3
     },
     {
-      "club": "Hotspur",
-      "coach": "Wexler",
-      "draws": 0,
-      "form": "LWW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414603",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G12B-Prior",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414605",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G12B-Szalkiewicz",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414609",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G12B-Blanken",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "EM-HSTurf2Small"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 10,
-      "goals_for": 11,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Hotspur-G12B-Wexler",
-      "wins": 2
-    },
-    {
       "club": "Emerson",
       "coach": "Blanken",
       "draws": 0,
-      "form": "WWL",
+      "form": "WWLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -200,109 +162,33 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414617",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G12B-Helm",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 6,
-      "goals_for": 13,
+      "goal_diff": 11,
+      "goals_against": 7,
+      "goals_for": 18,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "Emerson-G12B-Blanken",
-      "wins": 2
-    },
-    {
-      "club": "Warriors",
-      "coach": "Orozco",
-      "draws": 0,
-      "form": "WL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414601",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12B-Forsythe",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414608",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G12B-Leichte",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "WALD-Hopper"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 5,
-      "goals_for": 4,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "Warriors-G12B-Orozco",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "Forsythe",
-      "draws": 0,
-      "form": "LLW",
-      "games": [
-        {
-          "date": "2026-09-25",
-          "game_number": "414561",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G12B-Leichte",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414601",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G12B-Orozco",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414611",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G12B-Virgin",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 8,
-      "goals_for": 4,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "Maroons-G12B-Forsythe",
-      "wins": 1
+      "wins": 3
     },
     {
       "club": "Vikings",
       "coach": "Schneider",
       "draws": 0,
-      "form": "WLL",
+      "form": "WLLW",
       "games": [
         {
           "date": "2026-09-13",
@@ -336,22 +222,153 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414618",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12B-Orozco",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "VIK-Ruckman"
         }
       ],
-      "goal_diff": -6,
+      "goal_diff": -3,
       "goals_against": 8,
-      "goals_for": 2,
+      "goals_for": 5,
       "losses": 2,
-      "played": 3,
-      "points": 3,
+      "played": 4,
+      "points": 6,
       "team_raw": "Vikings-G12B-Schneider",
-      "wins": 1
+      "wins": 2
+    },
+    {
+      "club": "Maroons",
+      "coach": "Forsythe",
+      "draws": 0,
+      "form": "LLWW",
+      "games": [
+        {
+          "date": "2026-09-25",
+          "game_number": "414561",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12B-Leichte",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414601",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12B-Orozco",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414611",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G12B-Virgin",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414616",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12B-Wexler",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "HOT-AdornoLower"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 12,
+      "goals_for": 9,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Maroons-G12B-Forsythe",
+      "wins": 2
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Wexler",
+      "draws": 0,
+      "form": "LWWL",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "414603",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G12B-Prior",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414605",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G12B-Szalkiewicz",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414609",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G12B-Blanken",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414616",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12B-Forsythe",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "HOT-AdornoLower"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 15,
+      "goals_for": 15,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Hotspur-G12B-Wexler",
+      "wins": 2
     },
     {
       "club": "Clarkstown",
       "coach": "Laskowski",
-      "draws": 0,
-      "form": "WLL",
+      "draws": 1,
+      "form": "WLLD",
       "games": [
         {
           "date": "2026-09-20",
@@ -376,6 +393,17 @@
           "venue_code": "WDRDG-AthComp Sm A"
         },
         {
+          "date": "2026-10-18",
+          "game_number": "414615",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G12B-Szalkiewicz",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414630",
           "goals_against": 3,
@@ -391,16 +419,65 @@
       "goals_against": 11,
       "goals_for": 8,
       "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "Clarkstown-G12B-Laskowski",
+      "wins": 1
+    },
+    {
+      "club": "Warriors",
+      "coach": "Orozco",
+      "draws": 0,
+      "form": "WLL",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "414601",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12B-Forsythe",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414608",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12B-Leichte",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414618",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12B-Schneider",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "VIK-Ruckman"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 8,
+      "goals_for": 4,
+      "losses": 2,
       "played": 3,
       "points": 3,
-      "team_raw": "Clarkstown-G12B-Laskowski",
+      "team_raw": "Warriors-G12B-Orozco",
       "wins": 1
     },
     {
       "club": "Nutley",
       "coach": "Helm",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -434,13 +511,24 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414617",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G12B-Blanken",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 14,
-      "goals_for": 4,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -14,
+      "goals_against": 19,
+      "goals_for": 5,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Nutley-G12B-Helm",
       "wins": 1
@@ -448,8 +536,8 @@
     {
       "club": "Rutherford",
       "coach": "Szalkiewicz",
-      "draws": 1,
-      "form": "LDLL",
+      "draws": 2,
+      "form": "LDLLD",
       "games": [
         {
           "date": "2026-09-13",
@@ -494,14 +582,25 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414615",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G12B-Laskowski",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
         }
       ],
       "goal_diff": -7,
       "goals_against": 9,
       "goals_for": 2,
       "losses": 3,
-      "played": 4,
-      "points": 1,
+      "played": 5,
+      "points": 2,
       "team_raw": "Rutherford-G12B-Szalkiewicz",
       "wins": 0
     },
@@ -509,7 +608,7 @@
       "club": "BLMFLD",
       "coach": "Virgin",
       "draws": 1,
-      "form": "DLL",
+      "form": "DLLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -543,13 +642,24 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414614",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12B-Leichte",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 9,
+      "goal_diff": -11,
+      "goals_against": 14,
       "goals_for": 3,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 1,
       "team_raw": "BLMFLD-G12B-Virgin",
       "wins": 0

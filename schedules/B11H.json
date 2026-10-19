@@ -255,7 +255,7 @@
     },
     {
       "away_club": "WayneBG",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "WayneBG-B11H-Camara",
       "date": "2026-10-18",
       "division": "B11H",
@@ -263,9 +263,9 @@
       "field_id": "404",
       "game_id": "415729",
       "home_club": "Vikings",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Vikings-B11H-Nakashian",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:30 PM"
     },
     {
@@ -312,6 +312,21 @@
       "home_team": "Maroons-B11H-Lawrence",
       "is_upcoming": true,
       "time": "10:00 AM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-B11H-Lawrence",
+      "date": "2026-10-28",
+      "division": "B11H",
+      "field": "ALPS-2",
+      "field_id": "936",
+      "game_id": "416229",
+      "home_club": "WayneBG",
+      "home_score": null,
+      "home_team": "WayneBG-B11H-Camara",
+      "is_upcoming": true,
+      "time": "06:30 PM"
     },
     {
       "away_club": "Maroons",
@@ -419,21 +434,6 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-B11H-Lawrence",
-      "date": "2026-11-21",
-      "division": "B11H",
-      "field": "ALPS-2",
-      "field_id": "936",
-      "game_id": "416229",
-      "home_club": "WayneBG",
-      "home_score": null,
-      "home_team": "WayneBG-B11H-Camara",
-      "is_upcoming": true,
-      "time": "08:00 AM"
-    },
-    {
       "away_club": "Vikings",
       "away_score": null,
       "away_team": "Vikings-B11H-Nakashian",
@@ -449,6 +449,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-10-18T10:43:45.333121Z",
+  "scraped_at": "2026-10-19T12:34:27.857385Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

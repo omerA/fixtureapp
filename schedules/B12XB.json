@@ -22,6 +22,13 @@
       "name": "Lyndhurst Rec Center Field 3",
       "size": "Small Field (8 vs 8)"
     },
+    "438": {
+      "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
+      "comments": "9 v 9 ONLY",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Center Rec Field 1A",
+      "size": "Large Field (11 vs 11)"
+    },
     "585": {
       "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
       "comments": "",
@@ -34,6 +41,13 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Father Glotzbach Field2",
+      "size": "Small Field (8 vs 8)"
+    },
+    "754": {
+      "address": "200 Dahalia Drive, New Milford, NJ 07646",
+      "comments": "9v9",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Williams Field 9v9",
       "size": "Small Field (8 vs 8)"
     },
     "799": {
@@ -74,6 +88,36 @@
       "home_team": "Nutley-B12XB-Benevento",
       "is_upcoming": false,
       "time": "09:00 AM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-B12XB-DeFina",
+      "date": "2026-11-01",
+      "division": "B12XB",
+      "field": "Williams Field 9v9",
+      "field_id": "754",
+      "game_id": "417943",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-B12XB-Melki",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-B12XB-Melki",
+      "date": "2026-11-08",
+      "division": "B12XB",
+      "field": "Center Rec Field 1A",
+      "field_id": "438",
+      "game_id": "417944",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B12XB-DeFina",
+      "is_upcoming": true,
+      "time": "06:45 PM"
     },
     {
       "away_club": "CougarUtd",
@@ -134,38 +178,8 @@
       "home_team": "Belleville-B12XB-Percio",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-B12XB-DeFina",
-      "date": "2026-12-03",
-      "division": "B12XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417943",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-B12XB-Melki",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-B12XB-Melki",
-      "date": "2026-12-03",
-      "division": "B12XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417944",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B12XB-DeFina",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-19T12:35:02.570279Z",
+  "scraped_at": "2026-10-20T11:15:08.458825Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

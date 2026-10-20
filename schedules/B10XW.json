@@ -1,6 +1,13 @@
 {
   "division": "B10XW",
   "fields": {
+    "1010": {
+      "address": "862 Valley Brook Ave, Lyndhurst, NJ 07071",
+      "comments": "Small Sided",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Lyndhurst Rec Center Field 1A",
+      "size": "Small Field (8 vs 8)"
+    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -165,6 +172,21 @@
       "time": "05:00 PM"
     },
     {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B10XW-Millard",
+      "date": "2026-11-22",
+      "division": "B10XW",
+      "field": "Lyndhurst Rec Center Field 1A",
+      "field_id": "1010",
+      "game_id": "418052",
+      "home_club": "Lyndhurst",
+      "home_score": null,
+      "home_team": "Lyndhurst-B10XW-Westemeyer",
+      "is_upcoming": true,
+      "time": "01:00 PM"
+    },
+    {
       "away_club": "RiverDell",
       "away_score": null,
       "away_team": "RiverDell-B10XW-Cilia",
@@ -206,21 +228,6 @@
       "home_club": "WestEssex",
       "home_score": null,
       "home_team": "WestEssex-B10XW-Scorciolla",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B10XW-Millard",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418052",
-      "home_club": "Lyndhurst",
-      "home_score": null,
-      "home_team": "Lyndhurst-B10XW-Westemeyer",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -300,6 +307,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-19T12:33:57.721074Z",
+  "scraped_at": "2026-10-20T11:14:06.834774Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

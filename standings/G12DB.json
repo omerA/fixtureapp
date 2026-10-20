@@ -1,6 +1,6 @@
 {
   "division": "G12DB",
-  "scraped_at": "2026-10-19T12:32:12.575310Z",
+  "scraped_at": "2026-10-20T11:12:23.911565Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -236,8 +236,8 @@
     {
       "club": "Maroons",
       "coach": "Austin",
-      "draws": 0,
-      "form": "LLL",
+      "draws": 1,
+      "form": "LLLD",
       "games": [
         {
           "date": "2026-10-17",
@@ -271,22 +271,33 @@
           "result": "L",
           "time": "10:45 AM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416959",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12DB-Crowley",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "MAR-MapleParkWestSm"
         }
       ],
       "goal_diff": -5,
-      "goals_against": 7,
-      "goals_for": 2,
+      "goals_against": 9,
+      "goals_for": 4,
       "losses": 3,
-      "played": 3,
-      "points": 0,
+      "played": 4,
+      "points": 1,
       "team_raw": "Maroons-G12DB-Austin",
       "wins": 0
     },
     {
       "club": "Vikings",
       "coach": "Crowley",
-      "draws": 0,
-      "form": "LL",
+      "draws": 1,
+      "form": "LLD",
       "games": [
         {
           "date": "2026-09-20",
@@ -309,14 +320,25 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416959",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12DB-Austin",
+          "result": "D",
+          "time": "10:45 AM",
+          "venue_code": "MAR-MapleParkWestSm"
         }
       ],
       "goal_diff": -8,
-      "goals_against": 11,
-      "goals_for": 3,
+      "goals_against": 13,
+      "goals_for": 5,
       "losses": 2,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 1,
       "team_raw": "Vikings-G12DB-Crowley",
       "wins": 0
     }

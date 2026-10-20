@@ -1,6 +1,13 @@
 {
   "division": "G13XB",
   "fields": {
+    "1038": {
+      "address": "250 Prospect Street, Midland Park, NJ 07432",
+      "comments": "Stadium, With Grandstand, Rear of School",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Midland Park HS - Stadium",
+      "size": "Large Field (11 vs 11)"
+    },
     "184": {
       "address": "701 Ridgewood Rd, Township of Washington, NJ 07676",
       "comments": "",
@@ -60,6 +67,21 @@
       "home_team": "Dragons-G13XB-Collins",
       "is_upcoming": true,
       "time": "04:00 PM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-G13XB-Rand",
+      "date": "2026-11-03",
+      "division": "G13XB",
+      "field": "Midland Park HS - Stadium",
+      "field_id": "1038",
+      "game_id": "418198",
+      "home_club": "Ajax",
+      "home_score": null,
+      "home_team": "Ajax-G13XB-Jackson",
+      "is_upcoming": true,
+      "time": "06:00 PM"
     },
     {
       "away_club": "Ajax",
@@ -135,23 +157,8 @@
       "home_team": "Tenafly-G13XB-Pak",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-G13XB-Rand",
-      "date": "2026-12-03",
-      "division": "G13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418198",
-      "home_club": "Ajax",
-      "home_score": null,
-      "home_team": "Ajax-G13XB-Jackson",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-19T12:37:52.786969Z",
+  "scraped_at": "2026-10-20T11:17:53.208948Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

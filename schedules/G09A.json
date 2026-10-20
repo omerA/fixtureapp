@@ -22,13 +22,6 @@
       "name": "NVRHS-DEMAREST-LOWER 7v7 FIELD",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "22": {
       "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
       "comments": "",
@@ -69,6 +62,13 @@
       "comments": "The blue lined fields are suitable for 7v7 play",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Cochrane Field - 3 Front at Caven Point - 7v7",
+      "size": "Small Field (8 vs 8)"
+    },
+    "854": {
+      "address": "One Chapel Avenue, Jersey City, NJ 07305",
+      "comments": "One of two blue-lined fields suitable for 7v7 play",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Cochrane Field - 4 Rear at Caven Point - 7v7",
       "size": "Small Field (8 vs 8)"
     }
   },
@@ -132,21 +132,6 @@
       "home_team": "Nutley-G09A-Flaherty",
       "is_upcoming": false,
       "time": "04:00 PM"
-    },
-    {
-      "away_club": "Vikings",
-      "away_score": null,
-      "away_team": "Vikings-G09A-Rodriguez",
-      "date": "2026-09-27",
-      "division": "G09A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416510",
-      "home_club": "JerseyCity",
-      "home_score": null,
-      "home_team": "JerseyCity-G09A-Mcnally",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Nutley",
@@ -252,6 +237,21 @@
       "home_team": "JerseyCity-G09A-Mcnally",
       "is_upcoming": false,
       "time": "11:30 AM"
+    },
+    {
+      "away_club": "Vikings",
+      "away_score": null,
+      "away_team": "Vikings-G09A-Rodriguez",
+      "date": "2026-10-24",
+      "division": "G09A",
+      "field": "Cochrane Field - 4 Rear at Caven Point - 7v7",
+      "field_id": "854",
+      "game_id": "416510",
+      "home_club": "JerseyCity",
+      "home_score": null,
+      "home_team": "JerseyCity-G09A-Mcnally",
+      "is_upcoming": true,
+      "time": "03:30 PM"
     },
     {
       "away_club": "WorldClassFC",
@@ -524,6 +524,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-19T12:36:18.833424Z",
+  "scraped_at": "2026-10-20T11:16:23.835972Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

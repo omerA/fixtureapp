@@ -1,6 +1,13 @@
 {
   "division": "B12XW",
   "fields": {
+    "103": {
+      "address": "155 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "Small Sided field on the turf",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Waldwick H.S. Turf Field 1 - small",
+      "size": "Small Field (8 vs 8)"
+    },
     "1058": {
       "address": "Lions Gate Drive, Bloomfield NJ, NJ 07003",
       "comments": "Small Sided",
@@ -157,6 +164,21 @@
       "time": "07:00 PM"
     },
     {
+      "away_club": "Emerson",
+      "away_score": null,
+      "away_team": "Emerson-B12XW-Grompone",
+      "date": "2026-11-15",
+      "division": "B12XW",
+      "field": "Waldwick H.S. Turf Field 1 - small",
+      "field_id": "103",
+      "game_id": "418168",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-B12XW-Stratton",
+      "is_upcoming": true,
+      "time": "05:30 PM"
+    },
+    {
       "away_club": "Maywood",
       "away_score": null,
       "away_team": "Maywood-B12XW-Bautista",
@@ -232,51 +254,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "GlobalJC",
-      "away_score": null,
-      "away_team": "GlobalJC-B12XW-Nobrega",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418161",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B12XW-Mrkulic",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-B12XW-Mrkulic",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418162",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-B12XW-Nobrega",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Emerson",
-      "away_score": null,
-      "away_team": "Emerson-B12XW-Grompone",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418168",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-B12XW-Stratton",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Belleville",
       "away_score": null,
       "away_team": "Belleville-B12XW-Garrido",
@@ -305,8 +282,38 @@
       "home_team": "Belleville-B12XW-Garrido",
       "is_upcoming": true,
       "time": "12:00 AM"
+    },
+    {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-B12XW-Nobrega",
+      "date": "2026-12-03",
+      "division": "B12XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418161",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B12XW-Mrkulic",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-B12XW-Mrkulic",
+      "date": "2026-12-03",
+      "division": "B12XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418162",
+      "home_club": "GlobalJC",
+      "home_score": null,
+      "home_team": "GlobalJC-B12XW-Nobrega",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-19T12:35:05.321784Z",
+  "scraped_at": "2026-10-20T11:15:11.201610Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

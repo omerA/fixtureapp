@@ -1,6 +1,6 @@
 {
   "division": "G15A",
-  "scraped_at": "2026-10-19T12:32:13.118815Z",
+  "scraped_at": "2026-10-20T11:12:24.627463Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -125,6 +125,55 @@
       "wins": 3
     },
     {
+      "club": "Maroons",
+      "coach": "Manning",
+      "draws": 1,
+      "form": "WDW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416878",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-G15A-Flores",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416885",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G15A-Auriemmma",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416891",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15A-Viveros",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 4,
+      "goals_for": 14,
+      "losses": 0,
+      "played": 3,
+      "points": 7,
+      "team_raw": "Maroons-G15A-Manning",
+      "wins": 2
+    },
+    {
       "club": "Spartan",
       "coach": "Auriemmma",
       "draws": 1,
@@ -234,48 +283,10 @@
       "wins": 1
     },
     {
-      "club": "Maroons",
-      "coach": "Manning",
-      "draws": 1,
-      "form": "WD",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416878",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-G15A-Flores",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416885",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G15A-Auriemmma",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 3,
-      "goals_for": 9,
-      "losses": 0,
-      "played": 2,
-      "points": 4,
-      "team_raw": "Maroons-G15A-Manning",
-      "wins": 1
-    },
-    {
       "club": "UnionCity",
       "coach": "Viveros",
       "draws": 0,
-      "form": "WLL",
+      "form": "WLLL",
       "games": [
         {
           "date": "2026-10-16",
@@ -309,13 +320,24 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416891",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G15A-Manning",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 10,
-      "goals_for": 6,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -8,
+      "goals_against": 15,
+      "goals_for": 7,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "UnionCity-G15A-Viveros",
       "wins": 1

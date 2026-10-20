@@ -1,9 +1,69 @@
 {
   "division": "B08D4",
-  "scraped_at": "2026-10-19T12:32:08.211818Z",
+  "scraped_at": "2026-10-20T11:12:18.353779Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Arsenal",
+      "coach": "Schneider",
+      "draws": 0,
+      "form": "WWWW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415913",
+          "goals_against": 7,
+          "goals_for": 9,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08D4-Musano",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "ARS-Dorchester1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415917",
+          "goals_against": 3,
+          "goals_for": 9,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08D4-Brezinski",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "AMER-StLuke"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415928",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B08D4-Holder",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415934",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08D4-Chambers",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MAR-VetsFld3"
+        }
+      ],
+      "goal_diff": 14,
+      "goals_against": 11,
+      "goals_for": 25,
+      "losses": 0,
+      "played": 4,
+      "points": 12,
+      "team_raw": "Arsenal-B08D4-Schneider",
+      "wins": 4
+    },
     {
       "club": "Americans",
       "coach": "Svarnas",
@@ -74,55 +134,6 @@
       "points": 12,
       "team_raw": "Americans-B08D4-Svarnas",
       "wins": 4
-    },
-    {
-      "club": "Arsenal",
-      "coach": "Schneider",
-      "draws": 0,
-      "form": "WWW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415913",
-          "goals_against": 7,
-          "goals_for": 9,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08D4-Musano",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "ARS-Dorchester1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415917",
-          "goals_against": 3,
-          "goals_for": 9,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08D4-Brezinski",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "AMER-StLuke"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415928",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B08D4-Holder",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "HACK-Johnson2"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 10,
-      "goals_for": 23,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "Arsenal-B08D4-Schneider",
-      "wins": 3
     },
     {
       "club": "Belleville",
@@ -499,7 +510,7 @@
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -533,13 +544,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415934",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B08D4-Schneider",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "MAR-VetsFld3"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 18,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -14,
+      "goals_against": 20,
+      "goals_for": 6,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "Maroons-B08D4-Chambers",
       "wins": 0

@@ -1,9 +1,69 @@
 {
   "division": "G14D",
-  "scraped_at": "2026-10-19T12:32:13.021213Z",
+  "scraped_at": "2026-10-20T11:12:24.499647Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Manning",
+      "draws": 0,
+      "form": "WWLW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416812",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G14D-Santacruz",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416820",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14D-Glynn",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416823",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G14D-Canales",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-09-24",
+          "game_number": "416825",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 6,
+      "goals_for": 8,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Maroons-G14D-Manning",
+      "wins": 3
+    },
     {
       "club": "Maywood",
       "coach": "Glynn",
@@ -51,55 +111,6 @@
       "played": 3,
       "points": 7,
       "team_raw": "Maywood-G14D-Glynn",
-      "wins": 2
-    },
-    {
-      "club": "Maroons",
-      "coach": "Manning",
-      "draws": 0,
-      "form": "WWL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416812",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G14D-Santacruz",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416820",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G14D-Glynn",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-09-24",
-          "game_number": "416825",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G14D-Bifulco",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 5,
-      "goals_for": 6,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Maroons-G14D-Manning",
       "wins": 2
     },
     {
@@ -226,7 +237,7 @@
       "club": "UnionCity",
       "coach": "Canales",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -249,13 +260,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416823",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G14D-Manning",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 6,
-      "goals_for": 1,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -6,
+      "goals_against": 8,
+      "goals_for": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "UnionCity-G14D-Canales",
       "wins": 0

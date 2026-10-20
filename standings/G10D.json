@@ -1,6 +1,6 @@
 {
   "division": "G10D",
-  "scraped_at": "2026-10-19T12:32:11.986963Z",
+  "scraped_at": "2026-10-20T11:12:23.167319Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -256,6 +256,55 @@
       "wins": 2
     },
     {
+      "club": "NoRockland",
+      "coach": "Mavrorasakis",
+      "draws": 0,
+      "form": "WLW",
+      "games": [
+        {
+          "date": "2026-10-19",
+          "game_number": "414476",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10D-OHara",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414495",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10D-Daniell",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414862",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10D-Pajuelo",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 6,
+      "goals_for": 7,
+      "losses": 1,
+      "played": 3,
+      "points": 6,
+      "team_raw": "NoRockland-G10D-Mavrorasakis",
+      "wins": 2
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Samaniego",
       "draws": 0,
@@ -316,49 +365,22 @@
       "wins": 2
     },
     {
-      "club": "NoRockland",
-      "coach": "Mavrorasakis",
-      "draws": 0,
-      "form": "WL",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414495",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10D-Daniell",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "LKLND-BBeach-Sml-7v7"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414862",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G10D-Pajuelo",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "NY-NR-NRSA-5"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 4,
-      "goals_for": 3,
-      "losses": 1,
-      "played": 2,
-      "points": 3,
-      "team_raw": "NoRockland-G10D-Mavrorasakis",
-      "wins": 1
-    },
-    {
       "club": "Maroons",
       "coach": "OHara",
       "draws": 0,
-      "form": "WLL",
+      "form": "WLLL",
       "games": [
+        {
+          "date": "2026-10-19",
+          "game_number": "414476",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G10D-Mavrorasakis",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414485",
@@ -393,11 +415,11 @@
           "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 7,
-      "goals_for": 4,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -5,
+      "goals_against": 11,
+      "goals_for": 6,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "Maroons-G10D-OHara",
       "wins": 1

@@ -1,6 +1,6 @@
 {
   "division": "G12DW",
-  "scraped_at": "2026-10-19T12:32:12.609709Z",
+  "scraped_at": "2026-10-20T11:12:23.958055Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -185,6 +185,66 @@
       "wins": 2
     },
     {
+      "club": "NoBergen",
+      "coach": "Guanga",
+      "draws": 1,
+      "form": "LLDW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "414940",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G12DW-Martinez",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414944",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G12DW-Tutalo",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414945",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G12DW-Hong",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414950",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12DW-Duque",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 9,
+      "goals_for": 4,
+      "losses": 2,
+      "played": 4,
+      "points": 4,
+      "team_raw": "NoBergen-G12DW-Guanga",
+      "wins": 1
+    },
+    {
       "club": "GlobalJC",
       "coach": "Hong",
       "draws": 1,
@@ -245,59 +305,10 @@
       "wins": 1
     },
     {
-      "club": "NoBergen",
-      "coach": "Guanga",
-      "draws": 1,
-      "form": "LLD",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414940",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G12DW-Martinez",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "NA-Zadroga2"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414944",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G12DW-Tutalo",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414945",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G12DW-Hong",
-          "result": "D",
-          "time": "03:15 PM",
-          "venue_code": "JC-Gateway-New"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 7,
-      "goals_for": 0,
-      "losses": 2,
-      "played": 3,
-      "points": 1,
-      "team_raw": "NoBergen-G12DW-Guanga",
-      "wins": 0
-    },
-    {
       "club": "NMKnights",
       "coach": "Duque",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -331,13 +342,24 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "WORANGE-Oconnor"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414950",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G12DW-Guanga",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 14,
-      "goals_for": 3,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -13,
+      "goals_against": 18,
+      "goals_for": 5,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "NMKnights-G12DW-Duque",
       "wins": 0

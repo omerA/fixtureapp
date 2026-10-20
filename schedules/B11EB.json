@@ -43,13 +43,6 @@
       "name": "Lightning Brook Park",
       "size": "Small Field (8 vs 8)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "353": {
       "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
       "comments": "lined for 9v9 games",
@@ -120,7 +113,7 @@
     },
     {
       "away_club": "CougarSC",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "CougarSC-B11EB-James",
       "date": "2026-09-19",
       "division": "B11EB",
@@ -128,9 +121,9 @@
       "field_id": "852",
       "game_id": "414024",
       "home_club": "JerseyCity",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "JerseyCity-B11EB-Mobley",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
     },
     {
@@ -404,21 +397,6 @@
       "time": "06:45 PM"
     },
     {
-      "away_club": "GlenRidge",
-      "away_score": null,
-      "away_team": "GlenRidge-B11EB-Yucel",
-      "date": "2026-11-07",
-      "division": "B11EB",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414041",
-      "home_club": "JerseyCity",
-      "home_score": null,
-      "home_team": "JerseyCity-B11EB-Mobley",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B11EB-James",
@@ -432,6 +410,21 @@
       "home_team": "HobUtd-B11EB-Mimnagh",
       "is_upcoming": true,
       "time": "05:30 PM"
+    },
+    {
+      "away_club": "GlenRidge",
+      "away_score": null,
+      "away_team": "GlenRidge-B11EB-Yucel",
+      "date": "2026-11-08",
+      "division": "B11EB",
+      "field": "Cochrane Field - 2 at Caven Point - 9v9",
+      "field_id": "852",
+      "game_id": "414041",
+      "home_club": "JerseyCity",
+      "home_score": null,
+      "home_team": "JerseyCity-B11EB-Mobley",
+      "is_upcoming": true,
+      "time": "03:00 PM"
     },
     {
       "away_club": "Southside",
@@ -524,6 +517,6 @@
       "time": "07:00 PM"
     }
   ],
-  "scraped_at": "2026-10-19T12:34:15.901088Z",
+  "scraped_at": "2026-10-20T11:14:23.873693Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

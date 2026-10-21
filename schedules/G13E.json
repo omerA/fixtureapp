@@ -50,6 +50,13 @@
       "name": "Hitchcock Field",
       "size": "Large Field (11 vs 11)"
     },
+    "345": {
+      "address": "56 Burr Rd, Maplewood, NJ 07040",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "UnderHill Field",
+      "size": "Large Field (11 vs 11)"
+    },
     "464": {
       "address": "504 S. Center Street, Orange, NJ 07019",
       "comments": "Artifical turf field",
@@ -73,21 +80,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-G13E-Longheira",
-      "date": "2026-09-06",
-      "division": "G13E",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "418123",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-G13E-Wainschel",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Spartan",
       "away_score": null,
@@ -115,21 +107,6 @@
       "home_club": "AviatorsHHSA",
       "home_score": null,
       "home_team": "AviatorsHHSA-G13E-Longheira",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Vikings",
-      "away_score": null,
-      "away_team": "Vikings-G13E-Kaluza",
-      "date": "2026-09-20",
-      "division": "G13E",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "415229",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-G13E-Wainschel",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -287,6 +264,21 @@
       "away_club": "AviatorsHHSA",
       "away_score": null,
       "away_team": "AviatorsHHSA-G13E-Longheira",
+      "date": "2026-10-24",
+      "division": "G13E",
+      "field": "UnderHill Field",
+      "field_id": "345",
+      "game_id": "418123",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-G13E-Wainschel",
+      "is_upcoming": true,
+      "time": "10:00 AM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-G13E-Longheira",
       "date": "2026-10-25",
       "division": "G13E",
       "field": "TBS Postponed",
@@ -374,6 +366,21 @@
       "time": "03:00 PM"
     },
     {
+      "away_club": "Vikings",
+      "away_score": null,
+      "away_team": "Vikings-G13E-Kaluza",
+      "date": "2026-11-14",
+      "division": "G13E",
+      "field": "UnderHill Field",
+      "field_id": "345",
+      "game_id": "415229",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-G13E-Wainschel",
+      "is_upcoming": true,
+      "time": "09:00 AM"
+    },
+    {
       "away_club": "SaddleBR",
       "away_score": null,
       "away_team": "SaddleBR-G13E-DAngelo",
@@ -449,6 +456,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-10-20T11:17:50.608934Z",
+  "scraped_at": "2026-10-21T11:34:06.648604Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

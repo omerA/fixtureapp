@@ -1,9 +1,69 @@
 {
   "division": "G14D",
-  "scraped_at": "2026-10-20T11:12:24.499647Z",
+  "scraped_at": "2026-10-21T11:28:39.217222Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maywood",
+      "coach": "Glynn",
+      "draws": 1,
+      "form": "DWWW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416813",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416816",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G14D-Santacruz",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416820",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G14D-Manning",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-10-20",
+          "game_number": "416829",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 9,
+      "goals_for": 18,
+      "losses": 0,
+      "played": 4,
+      "points": 10,
+      "team_raw": "Maywood-G14D-Glynn",
+      "wins": 3
+    },
     {
       "club": "Maroons",
       "coach": "Manning",
@@ -65,59 +125,10 @@
       "wins": 3
     },
     {
-      "club": "Maywood",
-      "coach": "Glynn",
-      "draws": 1,
-      "form": "DWW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416813",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G14D-Bifulco",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416816",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G14D-Santacruz",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416820",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G14D-Manning",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 5,
-      "goals_for": 11,
-      "losses": 0,
-      "played": 3,
-      "points": 7,
-      "team_raw": "Maywood-G14D-Glynn",
-      "wins": 2
-    },
-    {
       "club": "Lyndhurst",
       "coach": "Bifulco",
       "draws": 2,
-      "form": "DLDW",
+      "form": "DLDWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -153,6 +164,17 @@
           "venue_code": "LYND-RecCtrFld1"
         },
         {
+          "date": "2026-10-20",
+          "game_number": "416829",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14D-Glynn",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "416833",
           "goals_against": 1,
@@ -164,11 +186,11 @@
           "venue_code": "DRAG-WRMS-LG"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 6,
-      "goals_for": 4,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": -5,
+      "goals_against": 13,
+      "goals_for": 8,
+      "losses": 2,
+      "played": 5,
       "points": 5,
       "team_raw": "Lyndhurst-G14D-Bifulco",
       "wins": 1

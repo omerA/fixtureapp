@@ -1,14 +1,14 @@
 {
   "division": "B10HW",
-  "scraped_at": "2026-10-20T11:12:19.922896Z",
+  "scraped_at": "2026-10-21T11:28:34.701704Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "RiverDell",
       "coach": "Marmanides",
-      "draws": 1,
-      "form": "WWWWD",
+      "draws": 2,
+      "form": "WWWDD",
       "games": [
         {
           "date": "2026-09-12",
@@ -64,14 +64,25 @@
           "result": "D",
           "time": "03:00 PM",
           "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-10-20",
+          "game_number": "415617",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10HW-Musano",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
         }
       ],
       "goal_diff": 19,
-      "goals_against": 13,
-      "goals_for": 32,
+      "goals_against": 16,
+      "goals_for": 35,
       "losses": 0,
-      "played": 5,
-      "points": 13,
+      "played": 6,
+      "points": 14,
       "team_raw": "RiverDell-B10HW-Marmanides",
       "wins": 4
     },
@@ -267,48 +278,10 @@
       "wins": 2
     },
     {
-      "club": "Americans",
-      "coach": "Kelly",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414002",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B10HW-Marmanides",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "AMER-LionsSouthSmall"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414008",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "AMER-GuardianAngel"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 9,
-      "goals_for": 2,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "Americans-B10HW-Kelly",
-      "wins": 0
-    },
-    {
       "club": "Spartan",
       "coach": "Musano",
-      "draws": 0,
-      "form": "LLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-09-12",
@@ -353,15 +326,64 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-10-20",
+          "game_number": "415617",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10HW-Marmanides",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
         }
       ],
       "goal_diff": -20,
-      "goals_against": 26,
-      "goals_for": 6,
+      "goals_against": 29,
+      "goals_for": 9,
       "losses": 4,
-      "played": 4,
-      "points": 0,
+      "played": 5,
+      "points": 1,
       "team_raw": "Spartan-B10HW-Musano",
+      "wins": 0
+    },
+    {
+      "club": "Americans",
+      "coach": "Kelly",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414002",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10HW-Marmanides",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "AMER-LionsSouthSmall"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414008",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "AMER-GuardianAngel"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 9,
+      "goals_for": 2,
+      "losses": 2,
+      "played": 2,
+      "points": 0,
+      "team_raw": "Americans-B10HW-Kelly",
       "wins": 0
     }
   ]

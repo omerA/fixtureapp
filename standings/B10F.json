@@ -1,6 +1,6 @@
 {
   "division": "B10F",
-  "scraped_at": "2026-10-20T11:12:19.779377Z",
+  "scraped_at": "2026-10-21T11:28:34.553885Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -540,6 +540,55 @@
       "wins": 2
     },
     {
+      "club": "TeaneckFC",
+      "coach": "DeCastro",
+      "draws": 0,
+      "form": "LLW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416143",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10F-Gandolfi",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417187",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10F-Grados",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "TEANECK-VoteeFBNorth"
+        },
+        {
+          "date": "2026-10-20",
+          "game_number": "417216",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B10F-Doyle",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "TEANECK-VoteeSoccerN"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 13,
+      "goals_for": 8,
+      "losses": 2,
+      "played": 3,
+      "points": 3,
+      "team_raw": "TeaneckFC-B10F-DeCastro",
+      "wins": 1
+    },
+    {
       "club": "Tenafly",
       "coach": "Wangenheim",
       "draws": 0,
@@ -603,7 +652,7 @@
       "club": "RdgfldPk",
       "coach": "Doyle",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-10-01",
@@ -670,54 +719,27 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-10-20",
+          "game_number": "417216",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B10F-DeCastro",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "TEANECK-VoteeSoccerN"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 37,
-      "goals_for": 13,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -26,
+      "goals_against": 40,
+      "goals_for": 14,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "RdgfldPk-B10F-Doyle",
       "wins": 1
-    },
-    {
-      "club": "TeaneckFC",
-      "coach": "DeCastro",
-      "draws": 0,
-      "form": "LL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416143",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10F-Gandolfi",
-          "result": "L",
-          "time": "08:30 AM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "417187",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B10F-Grados",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "TEANECK-VoteeFBNorth"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 12,
-      "goals_for": 5,
-      "losses": 2,
-      "played": 2,
-      "points": 0,
-      "team_raw": "TeaneckFC-B10F-DeCastro",
-      "wins": 0
     },
     {
       "club": "Maroons",

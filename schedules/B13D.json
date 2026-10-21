@@ -78,6 +78,13 @@
       "name": "RYSA-OakMuni",
       "size": "Both (Small & Large)"
     },
+    "620": {
+      "address": "336 Devon Street, Kearny, NJ 07032",
+      "comments": "Articicial Turf",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Kearny High School",
+      "size": "Large Field (11 vs 11)"
+    },
     "732": {
       "address": "256 East Main Street, Ramsey, NJ 07446",
       "comments": "back field",
@@ -313,21 +320,6 @@
       "time": "11:00 AM"
     },
     {
-      "away_club": "Spartan",
-      "away_score": null,
-      "away_team": "Spartan-B13D-Herrera",
-      "date": "2026-10-31",
-      "division": "B13D",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "415857",
-      "home_club": "Thistle",
-      "home_score": null,
-      "home_team": "Thistle-B13D-Escandon",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "RYSA",
       "away_score": null,
       "away_team": "RYSA-B13D-Drumgoole",
@@ -341,6 +333,21 @@
       "home_team": "Americans-B13D-Monroe",
       "is_upcoming": true,
       "time": "12:00 PM"
+    },
+    {
+      "away_club": "Spartan",
+      "away_score": null,
+      "away_team": "Spartan-B13D-Herrera",
+      "date": "2026-10-31",
+      "division": "B13D",
+      "field": "Kearny High School",
+      "field_id": "620",
+      "game_id": "415857",
+      "home_club": "Thistle",
+      "home_score": null,
+      "home_team": "Thistle-B13D-Escandon",
+      "is_upcoming": true,
+      "time": "01:00 PM"
     },
     {
       "away_club": "RYSA",
@@ -463,6 +470,6 @@
       "time": "11:45 AM"
     }
   ],
-  "scraped_at": "2026-10-20T11:15:25.241164Z",
+  "scraped_at": "2026-10-21T11:31:39.785433Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

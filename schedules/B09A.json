@@ -43,6 +43,13 @@
       "name": "Brookdale Meadow C",
       "size": "Small Field (8 vs 8)"
     },
+    "385": {
+      "address": "175 Old Orangeburg Rd, Orangeburg, NY 10962",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WCFC - Field 2",
+      "size": "Large Field (11 vs 11)"
+    },
     "584": {
       "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
       "comments": "",
@@ -175,21 +182,6 @@
       "home_club": "Clarkstown",
       "home_score": null,
       "home_team": "Clarkstown-B09A-Munting",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "NASA",
-      "away_score": null,
-      "away_team": "NASA-B09A-Callegari",
-      "date": "2026-09-26",
-      "division": "B09A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415411",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-B09A-GuevaraFuentes",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -479,6 +471,21 @@
       "time": "05:15 PM"
     },
     {
+      "away_club": "NASA",
+      "away_score": null,
+      "away_team": "NASA-B09A-Callegari",
+      "date": "2026-11-15",
+      "division": "B09A",
+      "field": "WCFC - Field 2",
+      "field_id": "385",
+      "game_id": "415411",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-B09A-GuevaraFuentes",
+      "is_upcoming": true,
+      "time": "02:00 PM"
+    },
+    {
       "away_club": "Clarkstown",
       "away_score": null,
       "away_team": "Clarkstown-B09A-Munting",
@@ -524,6 +531,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-10-20T11:12:59.558682Z",
+  "scraped_at": "2026-10-21T11:29:14.192101Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

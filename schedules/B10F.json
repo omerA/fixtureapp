@@ -71,13 +71,6 @@
       "name": "Hillman",
       "size": "Large Field (11 vs 11)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -629,7 +622,7 @@
     },
     {
       "away_club": "RdgfldPk",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "RdgfldPk-B10F-Doyle",
       "date": "2026-10-20",
       "division": "B10F",
@@ -637,9 +630,9 @@
       "field_id": "685",
       "game_id": "417216",
       "home_club": "TeaneckFC",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "TeaneckFC-B10F-DeCastro",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:30 PM"
     },
     {
@@ -868,21 +861,6 @@
       "time": "11:30 AM"
     },
     {
-      "away_club": "NoRockland",
-      "away_score": null,
-      "away_team": "NoRockland-B10F-Mavrorasakis",
-      "date": "2026-11-07",
-      "division": "B10F",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "417211",
-      "home_club": "TeaneckFC",
-      "home_score": null,
-      "home_team": "TeaneckFC-B10F-DeCastro",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Rutherford",
       "away_score": null,
       "away_team": "Rutherford-B10F-McDonald",
@@ -971,6 +949,21 @@
       "home_team": "WestEssex-B10F-Scorciolla",
       "is_upcoming": true,
       "time": "06:45 PM"
+    },
+    {
+      "away_club": "NoRockland",
+      "away_score": null,
+      "away_team": "NoRockland-B10F-Mavrorasakis",
+      "date": "2026-11-12",
+      "division": "B10F",
+      "field": "Votee - Soccer North",
+      "field_id": "685",
+      "game_id": "417211",
+      "home_club": "TeaneckFC",
+      "home_score": null,
+      "home_team": "TeaneckFC-B10F-DeCastro",
+      "is_upcoming": true,
+      "time": "06:30 PM"
     },
     {
       "away_club": "WestEssex",
@@ -1183,6 +1176,6 @@
       "time": "12:45 PM"
     }
   ],
-  "scraped_at": "2026-10-20T11:13:53.193841Z",
+  "scraped_at": "2026-10-21T11:30:07.814172Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

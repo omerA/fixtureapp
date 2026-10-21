@@ -22,6 +22,13 @@
       "name": "Waldwick H.S. Turf Field 2 - small",
       "size": "Small Field (8 vs 8)"
     },
+    "1069": {
+      "address": "175 Old Orangeburg Rd, Orangetown, NY 10962",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WCFC - Field 1A",
+      "size": "Small Field (8 vs 8)"
+    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -63,13 +70,6 @@
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "Faber Turf Small",
       "size": "Small Field (8 vs 8)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
     },
     "406": {
       "address": "Corner of Harland Ave and Myrtle St, Haworth, NJ 07641",
@@ -145,21 +145,6 @@
       "home_team": "HobUtd-G08B7-Oplinger",
       "is_upcoming": false,
       "time": "01:00 PM"
-    },
-    {
-      "away_club": "GlenRock",
-      "away_score": null,
-      "away_team": "GlenRock-G08B7-Reger",
-      "date": "2026-09-27",
-      "division": "G08B7",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414752",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-G08B7-Valdes",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Vikings",
@@ -450,6 +435,21 @@
       "away_club": "GlenRock",
       "away_score": null,
       "away_team": "GlenRock-G08B7-Reger",
+      "date": "2026-11-14",
+      "division": "G08B7",
+      "field": "WCFC - Field 1A",
+      "field_id": "1069",
+      "game_id": "414752",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-G08B7-Valdes",
+      "is_upcoming": true,
+      "time": "04:30 PM"
+    },
+    {
+      "away_club": "GlenRock",
+      "away_score": null,
+      "away_team": "GlenRock-G08B7-Reger",
       "date": "2026-11-15",
       "division": "G08B7",
       "field": "Roosevelt School",
@@ -552,6 +552,6 @@
       "time": "12:00 PM"
     }
   ],
-  "scraped_at": "2026-10-20T11:16:18.240519Z",
+  "scraped_at": "2026-10-21T11:32:34.407911Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

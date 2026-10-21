@@ -1,6 +1,6 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-10-20T11:12:24.238083Z",
+  "scraped_at": "2026-10-21T11:28:38.956065Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -65,6 +65,66 @@
       "wins": 3
     },
     {
+      "club": "HobUtd",
+      "coach": "Gray",
+      "draws": 0,
+      "form": "WLWW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "415196",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G13D-Shah",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415200",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415205",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415210",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13D-Nahorniak",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps3"
+        }
+      ],
+      "goal_diff": 14,
+      "goals_against": 5,
+      "goals_for": 19,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "HobUtd-G13D-Gray",
+      "wins": 3
+    },
+    {
       "club": "NoValley",
       "coach": "Mamalian",
       "draws": 1,
@@ -122,55 +182,6 @@
       "played": 4,
       "points": 7,
       "team_raw": "NoValley-G13D-Mamalian",
-      "wins": 2
-    },
-    {
-      "club": "HobUtd",
-      "coach": "Gray",
-      "draws": 0,
-      "form": "WLW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415196",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G13D-Shah",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415200",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G13D-Flanagan",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415205",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G13D-Mamalian",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "HobUtd-SinatraPark"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 5,
-      "goals_for": 12,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "HobUtd-G13D-Gray",
       "wins": 2
     },
     {
@@ -286,7 +297,7 @@
       "club": "WayneBG",
       "coach": "Nahorniak",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-27",
@@ -309,13 +320,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415210",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13D-Gray",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 9,
+      "goal_diff": -14,
+      "goals_against": 16,
       "goals_for": 2,
-      "losses": 2,
-      "played": 2,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "WayneBG-G13D-Nahorniak",
       "wins": 0

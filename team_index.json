@@ -221,6 +221,7 @@
     "Emerson": [
       "Emerson-B09F-Rice",
       "Emerson-B09G-Morrisey",
+      "Emerson-B09XW-Rice",
       "Emerson-B10F-Capp",
       "Emerson-B10HW-Perrone",
       "Emerson-B11G-DeCarlo",
@@ -253,6 +254,7 @@
       "FairLawnAllSports-B12A-DeFina",
       "FairLawnAllSports-B12C-Carpio",
       "FairLawnAllSports-B12E-Mrkulic",
+      "FairLawnAllSports-B12XB-DeFina",
       "FairLawnAllSports-B13A-Rake",
       "FairLawnAllSports-B13B-Shalom",
       "FairLawnAllSports-B13XB-Rake",
@@ -556,6 +558,7 @@
       "NMKnights-B10XB-Mohr",
       "NMKnights-B11B-Paulose",
       "NMKnights-B12C-Melki",
+      "NMKnights-B12XB-Melki",
       "NMKnights-B13CW-Tramontano",
       "NMKnights-B13XB-Tramontano",
       "NMKnights-G09D-Porrino",
@@ -588,7 +591,8 @@
       "NoBergen-B14B-Amaya",
       "NoBergen-B14XB-Amaya",
       "NoBergen-G12DW-Guanga",
-      "NoBergen-G14B-Murillo"
+      "NoBergen-G14B-Murillo",
+      "NoBergen-G14XB-Murillo"
     ],
     "NoRockland": [
       "NoRockland-B09H-Germain",
@@ -596,7 +600,8 @@
       "NoRockland-B12G-Alexander",
       "NoRockland-B13CW-Alexander",
       "NoRockland-G10D-Mavrorasakis",
-      "NoRockland-G14C-Barrios"
+      "NoRockland-G14C-Barrios",
+      "NoRockland-G14XB-Barrios"
     ],
     "NoValley": [
       "NoValley-B09C-Hutson",
@@ -727,6 +732,7 @@
       "Rutherford-B08F7-Dominguez",
       "Rutherford-B09F-Booth",
       "Rutherford-B09G-Balmos",
+      "Rutherford-B09XW-Balmos",
       "Rutherford-B09XW-Booth",
       "Rutherford-B10DB-Millar",
       "Rutherford-B10F-McDonald",
@@ -775,6 +781,7 @@
       "Southside-B12H-Lainee",
       "Southside-B13CB-Fernandez",
       "Southside-B13G-Chowdhury",
+      "Southside-B13XB-Fernandez",
       "Southside-B13XW-Chowdhury",
       "Southside-B14EB-Fernandez",
       "Southside-B14XW-Fernandez",
@@ -838,6 +845,7 @@
       "Tenafly-B12G-Smalley",
       "Tenafly-B13A-Schwartzberg",
       "Tenafly-B13E-Rangrez",
+      "Tenafly-B13XB-Schwartzberg",
       "Tenafly-B14C-Pereda",
       "Tenafly-B14D-Hu",
       "Tenafly-G09C-Denberg",
@@ -2009,6 +2017,11 @@
       "coach": "Morrisey",
       "division": "B09G"
     },
+    "Emerson-B09XW-Rice": {
+      "club": "Emerson",
+      "coach": "Rice",
+      "division": "B09XW"
+    },
     "Emerson-B10F-Capp": {
       "club": "Emerson",
       "coach": "Capp",
@@ -2148,6 +2161,11 @@
       "club": "FairLawnAllSports",
       "coach": "Mrkulic",
       "division": "B12E"
+    },
+    "FairLawnAllSports-B12XB-DeFina": {
+      "club": "FairLawnAllSports",
+      "coach": "DeFina",
+      "division": "B12XB"
     },
     "FairLawnAllSports-B13A-Rake": {
       "club": "FairLawnAllSports",
@@ -3484,6 +3502,11 @@
       "coach": "Melki",
       "division": "B12C"
     },
+    "NMKnights-B12XB-Melki": {
+      "club": "NMKnights",
+      "coach": "Melki",
+      "division": "B12XB"
+    },
     "NMKnights-B13CW-Tramontano": {
       "club": "NMKnights",
       "coach": "Tramontano",
@@ -3629,6 +3652,11 @@
       "coach": "Murillo",
       "division": "G14B"
     },
+    "NoBergen-G14XB-Murillo": {
+      "club": "NoBergen",
+      "coach": "Murillo",
+      "division": "G14XB"
+    },
     "NoRockland-B09H-Germain": {
       "club": "NoRockland",
       "coach": "Germain",
@@ -3658,6 +3686,11 @@
       "club": "NoRockland",
       "coach": "Barrios",
       "division": "G14C"
+    },
+    "NoRockland-G14XB-Barrios": {
+      "club": "NoRockland",
+      "coach": "Barrios",
+      "division": "G14XB"
     },
     "NoValley-B09C-Hutson": {
       "club": "NoValley",
@@ -4229,6 +4262,11 @@
       "coach": "Balmos",
       "division": "B09G"
     },
+    "Rutherford-B09XW-Balmos": {
+      "club": "Rutherford",
+      "coach": "Balmos",
+      "division": "B09XW"
+    },
     "Rutherford-B09XW-Booth": {
       "club": "Rutherford",
       "coach": "Booth",
@@ -4438,6 +4476,11 @@
       "club": "Southside",
       "coach": "Chowdhury",
       "division": "B13G"
+    },
+    "Southside-B13XB-Fernandez": {
+      "club": "Southside",
+      "coach": "Fernandez",
+      "division": "B13XB"
     },
     "Southside-B13XW-Chowdhury": {
       "club": "Southside",
@@ -4713,6 +4756,11 @@
       "club": "Tenafly",
       "coach": "Rangrez",
       "division": "B13E"
+    },
+    "Tenafly-B13XB-Schwartzberg": {
+      "club": "Tenafly",
+      "coach": "Schwartzberg",
+      "division": "B13XB"
     },
     "Tenafly-B14C-Pereda": {
       "club": "Tenafly",
@@ -5806,7 +5854,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-19T12:32:07.586148+00:00",
+  "scraped_at": "2026-10-21T11:28:32.438250+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

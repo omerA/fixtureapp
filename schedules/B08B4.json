@@ -506,7 +506,7 @@
     },
     {
       "away_club": "Harrison",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "Harrison-B08B4-Guevara",
       "date": "2026-10-21",
       "division": "B08B4",
@@ -514,9 +514,9 @@
       "field_id": "1251",
       "game_id": "413690",
       "home_club": "Thistle",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Thistle-B08B4-Fischer",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:00 PM"
     },
     {
@@ -593,21 +593,6 @@
       "home_team": "Americans-B08B4-Lupinacci",
       "is_upcoming": true,
       "time": "02:00 PM"
-    },
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-B08B4-Valdivia",
-      "date": "2026-10-31",
-      "division": "B08B4",
-      "field": "Harrison Little League",
-      "field_id": "1066",
-      "game_id": "413708",
-      "home_club": "Harrison",
-      "home_score": null,
-      "home_team": "Harrison-B08B4-Guevara",
-      "is_upcoming": true,
-      "time": "10:30 AM"
     },
     {
       "away_club": "RIDGFLD",
@@ -715,6 +700,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-B08B4-Valdivia",
+      "date": "2026-11-08",
+      "division": "B08B4",
+      "field": "Harrison Little League",
+      "field_id": "1066",
+      "game_id": "413708",
+      "home_club": "Harrison",
+      "home_score": null,
+      "home_team": "Harrison-B08B4-Guevara",
+      "is_upcoming": true,
+      "time": "11:00 AM"
+    },
+    {
       "away_club": "RIDGFLD",
       "away_score": null,
       "away_team": "RIDGFLD-B08B4-Barrios",
@@ -820,21 +820,6 @@
       "time": "03:30 PM"
     },
     {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B08B4-Cole",
-      "date": "2026-11-15",
-      "division": "B08B4",
-      "field": "Harrison Little League",
-      "field_id": "1066",
-      "game_id": "413702",
-      "home_club": "Harrison",
-      "home_score": null,
-      "home_team": "Harrison-B08B4-Guevara",
-      "is_upcoming": true,
-      "time": "12:45 AM"
-    },
-    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B08B4-Chambers",
@@ -878,6 +863,21 @@
       "home_team": "Harrison-B08B4-Guevara",
       "is_upcoming": true,
       "time": "11:30 AM"
+    },
+    {
+      "away_club": "WoodRidge",
+      "away_score": null,
+      "away_team": "WoodRidge-B08B4-Cole",
+      "date": "2026-11-15",
+      "division": "B08B4",
+      "field": "Harrison Little League",
+      "field_id": "1066",
+      "game_id": "413702",
+      "home_club": "Harrison",
+      "home_score": null,
+      "home_team": "Harrison-B08B4-Guevara",
+      "is_upcoming": true,
+      "time": "12:45 PM"
     },
     {
       "away_club": "Maroons",
@@ -955,6 +955,6 @@
       "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-10-21T11:28:46.267524Z",
+  "scraped_at": "2026-10-22T11:28:03.616919Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

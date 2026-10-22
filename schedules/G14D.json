@@ -36,19 +36,19 @@
       "name": "To Be Scheduled-Home",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "201": {
       "address": "23 Third Avenue, Westwood, NJ 07675",
       "comments": "11 v11",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Westwood Regional Middle School - Large",
       "size": "Both (Small & Large)"
+    },
+    "47": {
+      "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Maple Park",
+      "size": "Large Field (11 vs 11)"
     },
     "492": {
       "address": "627 E. Ridgewood Ave, Ridgewood, NJ 07450",
@@ -404,21 +404,6 @@
       "time": "10:15 AM"
     },
     {
-      "away_club": "Dragons",
-      "away_score": null,
-      "away_team": "Dragons-G14D-Gsellmeier",
-      "date": "2026-11-08",
-      "division": "G14D",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416832",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G14D-Manning",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "UnionCity",
       "away_score": null,
       "away_team": "UnionCity-G14D-Canales",
@@ -447,6 +432,21 @@
       "home_team": "Hackensack-G14D-Santacruz",
       "is_upcoming": true,
       "time": "06:30 PM"
+    },
+    {
+      "away_club": "Dragons",
+      "away_score": null,
+      "away_team": "Dragons-G14D-Gsellmeier",
+      "date": "2026-11-09",
+      "division": "G14D",
+      "field": "Maple Park",
+      "field_id": "47",
+      "game_id": "416832",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G14D-Manning",
+      "is_upcoming": true,
+      "time": "07:15 PM"
     },
     {
       "away_club": "Dragons",
@@ -524,6 +524,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-21T11:34:17.837357Z",
+  "scraped_at": "2026-10-22T11:33:39.722325Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

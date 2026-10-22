@@ -22,19 +22,19 @@
       "name": "Samuel Braen Memorial Park 7v7",
       "size": "Small Field (8 vs 8)"
     },
+    "1181": {
+      "address": "19 Zukor Road, New City, NY 10956",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Zukor Park 2C",
+      "size": "Small Field (8 vs 8)"
+    },
     "1259": {
       "address": "1310 Ratzer Rd, Wayne, NJ 07470",
       "comments": "",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "JFK School",
       "size": "Small Field (8 vs 8)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
     },
     "306": {
       "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
@@ -169,21 +169,6 @@
       "home_team": "WorldClassFC-B09A-GuevaraFuentes",
       "is_upcoming": false,
       "time": "01:30 PM"
-    },
-    {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-B09A-Breheny",
-      "date": "2026-09-26",
-      "division": "B09A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415409",
-      "home_club": "Clarkstown",
-      "home_score": null,
-      "home_team": "Clarkstown-B09A-Munting",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Southside",
@@ -429,6 +414,21 @@
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B09A-Breheny",
+      "date": "2026-11-08",
+      "division": "B09A",
+      "field": "Zukor Park 2C",
+      "field_id": "1181",
+      "game_id": "415409",
+      "home_club": "Clarkstown",
+      "home_score": null,
+      "home_team": "Clarkstown-B09A-Munting",
+      "is_upcoming": true,
+      "time": "11:00 AM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-B09A-Breheny",
       "date": "2026-11-14",
       "division": "B09A",
       "field": "Brookdale Meadow C",
@@ -531,6 +531,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-10-21T11:29:14.192101Z",
+  "scraped_at": "2026-10-22T11:28:32.101584Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

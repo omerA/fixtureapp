@@ -36,6 +36,13 @@
       "name": "Borden Park 1",
       "size": "Small Field (8 vs 8)"
     },
+    "367": {
+      "address": "880 Bloomfield Ave, Verona, NJ 07044",
+      "comments": "Turf Field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Centennial Field - Large Sided",
+      "size": "Large Field (11 vs 11)"
+    },
     "726": {
       "address": "30 Sampson Street, Saddle Brook, NJ 07663",
       "comments": "There are 2 small sided fields that are side by side. The fields go across a full sided field.",
@@ -63,6 +70,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
+    },
+    "859": {
+      "address": "1 Morningside Lane, Ridgefield Park, NJ 07660",
+      "comments": "Field designed for 7 v 7 play",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Veterans Field RidPk",
+      "size": "Small Field (8 vs 8)"
     }
   },
   "games": [
@@ -80,6 +94,21 @@
       "home_team": "SaddleBR-B10XW-Patel",
       "is_upcoming": true,
       "time": "03:00 PM"
+    },
+    {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-B10XW-Cilia",
+      "date": "2026-11-05",
+      "division": "B10XW",
+      "field": "Veterans Field RidPk",
+      "field_id": "859",
+      "game_id": "418065",
+      "home_club": "RdgfldPk",
+      "home_score": null,
+      "home_team": "RdgfldPk-B10XW-Doyle",
+      "is_upcoming": true,
+      "time": "07:30 AM"
     },
     {
       "away_club": "Verona",
@@ -172,6 +201,21 @@
       "time": "05:00 PM"
     },
     {
+      "away_club": "Lakeland",
+      "away_score": null,
+      "away_team": "Lakeland-B10XW-Tynio",
+      "date": "2026-11-20",
+      "division": "B10XW",
+      "field": "Centennial Field - Large Sided",
+      "field_id": "367",
+      "game_id": "418057",
+      "home_club": "Verona",
+      "home_score": null,
+      "home_team": "Verona-B10XW-Nowicki",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B10XW-Millard",
@@ -185,21 +229,6 @@
       "home_team": "Lyndhurst-B10XW-Westemeyer",
       "is_upcoming": true,
       "time": "01:00 PM"
-    },
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-B10XW-Cilia",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418065",
-      "home_club": "RdgfldPk",
-      "home_score": null,
-      "home_team": "RdgfldPk-B10XW-Doyle",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "WestEssex",
@@ -232,51 +261,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "SaddleBR",
-      "away_score": null,
-      "away_team": "SaddleBR-B10XW-Patel",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418062",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-B10XW-Grados",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B10XW-Prior",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418055",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-B10XW-Millar",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Lakeland",
-      "away_score": null,
-      "away_team": "Lakeland-B10XW-Tynio",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418057",
-      "home_club": "Verona",
-      "home_score": null,
-      "home_team": "Verona-B10XW-Nowicki",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Dragons",
       "away_score": null,
       "away_team": "Dragons-B10XW-Friedman",
@@ -305,8 +289,38 @@
       "home_team": "Dragons-B10XW-Friedman",
       "is_upcoming": true,
       "time": "12:00 AM"
+    },
+    {
+      "away_club": "SaddleBR",
+      "away_score": null,
+      "away_team": "SaddleBR-B10XW-Patel",
+      "date": "2026-12-03",
+      "division": "B10XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418062",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-B10XW-Grados",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "WoodRidge",
+      "away_score": null,
+      "away_team": "WoodRidge-B10XW-Prior",
+      "date": "2026-12-03",
+      "division": "B10XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418055",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-B10XW-Millar",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-21T11:30:21.446602Z",
+  "scraped_at": "2026-10-22T11:29:40.409539Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

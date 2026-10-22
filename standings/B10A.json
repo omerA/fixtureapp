@@ -1,6 +1,6 @@
 {
   "division": "B10A",
-  "scraped_at": "2026-10-21T11:28:34.104848Z",
+  "scraped_at": "2026-10-22T11:27:52.794325Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWL",
       "games": [
+        {
+          "date": "2026-10-21",
+          "game_number": "417124",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B10A-Mohr",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
         {
           "date": "2026-09-12",
           "game_number": "417126",
@@ -55,11 +66,11 @@
           "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 10,
-      "goals_for": 28,
-      "losses": 0,
-      "played": 4,
+      "goal_diff": 17,
+      "goals_against": 15,
+      "goals_for": 32,
+      "losses": 1,
+      "played": 5,
       "points": 12,
       "team_raw": "Dumont-B10A-Zotaj",
       "wins": 4
@@ -136,6 +147,66 @@
       "wins": 3
     },
     {
+      "club": "NMKnights",
+      "coach": "Mohr",
+      "draws": 0,
+      "form": "WLLW",
+      "games": [
+        {
+          "date": "2026-10-21",
+          "game_number": "417124",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B10A-Zotaj",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "417127",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B10A-Marante",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417129",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B10A-Zotaj",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417135",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10A-Villanueva",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams7v7"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 19,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "NMKnights-B10A-Mohr",
+      "wins": 2
+    },
+    {
       "club": "Clarkstown",
       "coach": "Dominguez",
       "draws": 1,
@@ -193,55 +264,6 @@
       "played": 4,
       "points": 4,
       "team_raw": "Clarkstown-B10A-Dominguez",
-      "wins": 1
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Mohr",
-      "draws": 0,
-      "form": "WLL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "417127",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-B10A-Marante",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417129",
-          "goals_against": 9,
-          "goals_for": 4,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B10A-Zotaj",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "NMilford-Williams7v7"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417135",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B10A-Villanueva",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "NMilford-Williams7v7"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 15,
-      "goals_for": 9,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "NMKnights-B10A-Mohr",
       "wins": 1
     },
     {

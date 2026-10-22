@@ -410,6 +410,7 @@
       "Hotspur-G09D-Balch",
       "Hotspur-G09F-Ullrich",
       "Hotspur-G10B-Mulanaphy",
+      "Hotspur-G10XB-Mulanaphy",
       "Hotspur-G12B-Wexler",
       "Hotspur-G12DB-DeRosa",
       "Hotspur-G13A-Roche",
@@ -517,6 +518,7 @@
       "Maywood-B14EW-Sanford",
       "Maywood-G09E-Soto",
       "Maywood-G10A-Maringola",
+      "Maywood-G10XB-Maringola",
       "Maywood-G11B-Pardo",
       "Maywood-G12A-Pardo",
       "Maywood-G14D-Glynn"
@@ -2852,6 +2854,11 @@
       "coach": "Mulanaphy",
       "division": "G10B"
     },
+    "Hotspur-G10XB-Mulanaphy": {
+      "club": "Hotspur",
+      "coach": "Mulanaphy",
+      "division": "G10XB"
+    },
     "Hotspur-G12B-Wexler": {
       "club": "Hotspur",
       "coach": "Wexler",
@@ -3326,6 +3333,11 @@
       "club": "Maywood",
       "coach": "Maringola",
       "division": "G10A"
+    },
+    "Maywood-G10XB-Maringola": {
+      "club": "Maywood",
+      "coach": "Maringola",
+      "division": "G10XB"
     },
     "Maywood-G11B-Pardo": {
       "club": "Maywood",
@@ -5744,7 +5756,6 @@
     "B11G",
     "B11GW",
     "B11H",
-    "B11J",
     "B11R",
     "B11XB",
     "B11XW",
@@ -5839,7 +5850,6 @@
     "B08R7",
     "B09R",
     "B10R",
-    "B11J",
     "B11R",
     "B12R",
     "B13R",
@@ -5854,7 +5864,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-21T11:28:32.438250+00:00",
+  "scraped_at": "2026-10-22T11:27:51.632401+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

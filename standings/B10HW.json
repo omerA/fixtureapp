@@ -1,6 +1,6 @@
 {
   "division": "B10HW",
-  "scraped_at": "2026-10-21T11:28:34.701704Z",
+  "scraped_at": "2026-10-22T11:27:53.166396Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -150,7 +150,7 @@
       "club": "Emerson",
       "coach": "Perrone",
       "draws": 0,
-      "form": "WLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -195,16 +195,27 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "ARS-MemParkRidge3Sm"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414014",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B10HW-Kelly",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "AMER-LionsSouthSmall"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 18,
-      "goals_for": 14,
+      "goal_diff": 2,
+      "goals_against": 20,
+      "goals_for": 22,
       "losses": 2,
-      "played": 4,
-      "points": 6,
+      "played": 5,
+      "points": 9,
       "team_raw": "Emerson-B10HW-Perrone",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Arsenal",
@@ -352,7 +363,7 @@
       "club": "Americans",
       "coach": "Kelly",
       "draws": 0,
-      "form": "LL",
+      "form": "LLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -375,13 +386,24 @@
           "result": "L",
           "time": "09:30 AM",
           "venue_code": "AMER-GuardianAngel"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414014",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10HW-Perrone",
+          "result": "L",
+          "time": "09:15 AM",
+          "venue_code": "AMER-LionsSouthSmall"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 9,
-      "goals_for": 2,
-      "losses": 2,
-      "played": 2,
+      "goal_diff": -13,
+      "goals_against": 17,
+      "goals_for": 4,
+      "losses": 3,
+      "played": 3,
       "points": 0,
       "team_raw": "Americans-B10HW-Kelly",
       "wins": 0

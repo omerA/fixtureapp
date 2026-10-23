@@ -51,6 +51,7 @@
       "AviatorsHHSA-B10DW-Hernandez",
       "AviatorsHHSA-B11A-DeGennaro",
       "AviatorsHHSA-B12DW-Chudzik",
+      "AviatorsHHSA-B12XW-Chudzik",
       "AviatorsHHSA-B13A-Sharry",
       "AviatorsHHSA-B14D-Wells",
       "AviatorsHHSA-G09D-Emara",
@@ -81,6 +82,7 @@
       "Belleville-B12G-Garrido",
       "Belleville-B12XB-Percio",
       "Belleville-B13CB-Chavarria",
+      "Belleville-B13XB-Chavarria",
       "Belleville-B14EB-Calvache",
       "Belleville-B14XW-Calvache",
       "Belleville-G11DW-Avila"
@@ -939,7 +941,7 @@
       "Vikings-G09B-Meo",
       "Vikings-G10A-Ou",
       "Vikings-G10C-Jain",
-      "Vikings-G10E-Cohen",
+      "Vikings-G10E-Martin",
       "Vikings-G11A-Schneiderman",
       "Vikings-G12B-Schneider",
       "Vikings-G12CB-Kerslake",
@@ -969,6 +971,7 @@
       "Warriors-B12D-Stratton",
       "Warriors-B12XW-Stratton",
       "Warriors-B13B-Bzik",
+      "Warriors-B13XB-Bzik",
       "Warriors-B14A-Krysa",
       "Warriors-B15B-Gabriele",
       "Warriors-G08B7-Vo",
@@ -1024,6 +1027,7 @@
       "WoodRidge-B11B-Maccarrone",
       "WoodRidge-B11XB-Maccarrone",
       "WoodRidge-B12D-Mueller",
+      "WoodRidge-B12XW-Mueller",
       "WoodRidge-B14C-McLean",
       "WoodRidge-B14XB-McLean",
       "WoodRidge-G08B4-Guzman",
@@ -1279,6 +1283,11 @@
       "coach": "Chudzik",
       "division": "B12DW"
     },
+    "AviatorsHHSA-B12XW-Chudzik": {
+      "club": "AviatorsHHSA",
+      "coach": "Chudzik",
+      "division": "B12XW"
+    },
     "AviatorsHHSA-B13A-Sharry": {
       "club": "AviatorsHHSA",
       "coach": "Sharry",
@@ -1408,6 +1417,11 @@
       "club": "Belleville",
       "coach": "Chavarria",
       "division": "B13CB"
+    },
+    "Belleville-B13XB-Chavarria": {
+      "club": "Belleville",
+      "coach": "Chavarria",
+      "division": "B13XB"
     },
     "Belleville-B14EB-Calvache": {
       "club": "Belleville",
@@ -5179,9 +5193,9 @@
       "coach": "Jain",
       "division": "G10C"
     },
-    "Vikings-G10E-Cohen": {
+    "Vikings-G10E-Martin": {
       "club": "Vikings",
-      "coach": "Cohen",
+      "coach": "Martin",
       "division": "G10E"
     },
     "Vikings-G11A-Schneiderman": {
@@ -5308,6 +5322,11 @@
       "club": "Warriors",
       "coach": "Bzik",
       "division": "B13B"
+    },
+    "Warriors-B13XB-Bzik": {
+      "club": "Warriors",
+      "coach": "Bzik",
+      "division": "B13XB"
     },
     "Warriors-B14A-Krysa": {
       "club": "Warriors",
@@ -5553,6 +5572,11 @@
       "club": "WoodRidge",
       "coach": "Mueller",
       "division": "B12D"
+    },
+    "WoodRidge-B12XW-Mueller": {
+      "club": "WoodRidge",
+      "coach": "Mueller",
+      "division": "B12XW"
     },
     "WoodRidge-B14C-McLean": {
       "club": "WoodRidge",
@@ -5864,7 +5888,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-22T11:27:51.632401+00:00",
+  "scraped_at": "2026-10-23T11:18:43.000169+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

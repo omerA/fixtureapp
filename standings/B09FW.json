@@ -1,6 +1,6 @@
 {
   "division": "B09FW",
-  "scraped_at": "2026-10-23T11:18:44.451963Z",
+  "scraped_at": "2026-10-24T10:36:25.257748Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -199,7 +199,7 @@
       "club": "Maywood",
       "coach": "Huss",
       "draws": 0,
-      "form": "LWWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -246,6 +246,17 @@
           "venue_code": "AVIA-DepkenSmall"
         },
         {
+          "date": "2026-10-23",
+          "game_number": "415499",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B09FW-Svarnas",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
           "date": "2026-09-24",
           "game_number": "417782",
           "goals_against": 2,
@@ -257,11 +268,11 @@
           "venue_code": "MAYWOOD-MemPark 7v7"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 14,
+      "goal_diff": 5,
+      "goals_against": 16,
       "goals_for": 21,
-      "losses": 2,
-      "played": 5,
+      "losses": 3,
+      "played": 6,
       "points": 9,
       "team_raw": "Maywood-B09FW-Huss",
       "wins": 3
@@ -434,7 +445,7 @@
       "club": "Americans",
       "coach": "Svarnas",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -490,16 +501,27 @@
           "result": "L",
           "time": "10:45 AM",
           "venue_code": "AMER-LionsSouthSmall"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "415499",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B09FW-Huss",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         }
       ],
-      "goal_diff": -19,
+      "goal_diff": -17,
       "goals_against": 41,
-      "goals_for": 22,
+      "goals_for": 24,
       "losses": 4,
-      "played": 5,
-      "points": 3,
+      "played": 6,
+      "points": 6,
       "team_raw": "Americans-B09FW-Svarnas",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "AviatorsHHSA",

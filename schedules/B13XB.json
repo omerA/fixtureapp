@@ -29,13 +29,6 @@
       "name": "Westwood Regional High School",
       "size": "Large Field (11 vs 11)"
     },
-    "395": {
-      "address": "343 Belleville Ave, Belleville, NJ 07109",
-      "comments": "Both Full and Small Sided",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "Belleville Park - Full Sided",
-      "size": "Both (Small & Large)"
-    },
     "570": {
       "address": "5 Mead Street, South Orange, NJ 07079",
       "comments": "",
@@ -63,6 +56,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
+    },
+    "938": {
+      "address": "551 Valley Road, Wayne, NJ 07470",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Wayne Valley High School Varsity Field",
+      "size": "Large Field (11 vs 11)"
     }
   },
   "games": [
@@ -102,14 +102,14 @@
       "away_team": "Warriors-B13XB-Bzik",
       "date": "2026-11-01",
       "division": "B13XB",
-      "field": "Belleville Park - Full Sided",
-      "field_id": "395",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
       "game_id": "418025",
       "home_club": "Belleville",
       "home_score": null,
       "home_team": "Belleville-B13XB-Chavarria",
       "is_upcoming": true,
-      "time": "09:00 AM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "Ajax",
@@ -187,6 +187,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "Nutley",
+      "away_score": null,
+      "away_team": "Nutley-B13XB-Clifford",
+      "date": "2026-11-29",
+      "division": "B13XB",
+      "field": "Wayne Valley High School Varsity Field",
+      "field_id": "938",
+      "game_id": "418018",
+      "home_club": "WayneBG",
+      "home_score": null,
+      "home_team": "WayneBG-B13XB-Sanchez",
+      "is_upcoming": true,
+      "time": "11:00 AM"
+    },
+    {
       "away_club": "GlenRidge",
       "away_score": null,
       "away_team": "GlenRidge-B13XB-Cohn",
@@ -198,6 +213,21 @@
       "home_club": "FairLawnAllSports",
       "home_score": null,
       "home_team": "FairLawnAllSports-B13XB-Rake",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B13XB-Chavarria",
+      "date": "2026-12-03",
+      "division": "B13XB",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418026",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-B13XB-Bzik",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -247,36 +277,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "Nutley",
-      "away_score": null,
-      "away_team": "Nutley-B13XB-Clifford",
-      "date": "2026-12-03",
-      "division": "B13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418018",
-      "home_club": "WayneBG",
-      "home_score": null,
-      "home_team": "WayneBG-B13XB-Sanchez",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-B13XB-Chavarria",
-      "date": "2026-12-03",
-      "division": "B13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418026",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-B13XB-Bzik",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "FairLawnAllSports",
       "away_score": null,
       "away_team": "FairLawnAllSports-B13XB-Shalom",
@@ -307,6 +307,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-23T11:22:01.401239Z",
+  "scraped_at": "2026-10-24T10:39:56.264875Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

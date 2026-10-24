@@ -36,6 +36,13 @@
       "name": "River Dell High School - Stadium",
       "size": "Large Field (11 vs 11)"
     },
+    "395": {
+      "address": "343 Belleville Ave, Belleville, NJ 07109",
+      "comments": "Both Full and Small Sided",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "Belleville Park - Full Sided",
+      "size": "Both (Small & Large)"
+    },
     "799": {
       "address": "PO Box 26, HohoKus, NJ 07423",
       "comments": "",
@@ -121,34 +128,34 @@
       "time": "04:00 PM"
     },
     {
+      "away_club": "ST23",
+      "away_score": null,
+      "away_team": "ST23-B14XW-Rosskamp",
+      "date": "2026-11-01",
+      "division": "B14XW",
+      "field": "Manchester Regional High School - Turf",
+      "field_id": "1212",
+      "game_id": "418069",
+      "home_club": "Southside",
+      "home_score": null,
+      "home_team": "Southside-B14XW-Fernandez",
+      "is_upcoming": true,
+      "time": "08:00 AM"
+    },
+    {
       "away_club": "RiverDell",
       "away_score": null,
       "away_team": "RiverDell-B14XW-Privitera",
-      "date": "2026-12-03",
+      "date": "2026-11-01",
       "division": "B14XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
+      "field": "Belleville Park - Full Sided",
+      "field_id": "395",
       "game_id": "418073",
       "home_club": "Belleville",
       "home_score": null,
       "home_team": "Belleville-B14XW-Calvache",
       "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Southside",
-      "away_score": null,
-      "away_team": "Southside-B14XW-Fernandez",
-      "date": "2026-12-03",
-      "division": "B14XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418069",
-      "home_club": "ST23",
-      "home_score": null,
-      "home_team": "ST23-B14XW-Rosskamp",
-      "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "09:00 AM"
     },
     {
       "away_club": "HobUtd",
@@ -166,6 +173,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-23T11:22:26.385406Z",
+  "scraped_at": "2026-10-24T10:40:21.815366Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

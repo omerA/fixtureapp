@@ -29,13 +29,6 @@
       "name": "Manchester Regional High School - Turf",
       "size": "Large Field (11 vs 11)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -90,6 +83,13 @@
       "comments": "Turf field -- only players allowed on field level no use of track while games are bing played",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "FLHS Turf",
+      "size": "Large Field (11 vs 11)"
+    },
+    "99": {
+      "address": "155 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "Grass field located behind the high school",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Waldwick H.S. North Field",
       "size": "Large Field (11 vs 11)"
     }
   },
@@ -410,17 +410,17 @@
       "time": "10:00 AM"
     },
     {
-      "away_club": "Warriors",
+      "away_club": "Spartan",
       "away_score": null,
-      "away_team": "Warriors-B15B-Gabriele",
+      "away_team": "Spartan-B15B-Guedes",
       "date": "2026-10-31",
       "division": "B15B",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
+      "field": "Waldwick H.S. North Field",
+      "field_id": "99",
       "game_id": "417597",
-      "home_club": "Spartan",
+      "home_club": "Warriors",
       "home_score": null,
-      "home_team": "Spartan-B15B-Guedes",
+      "home_team": "Warriors-B15B-Gabriele",
       "is_upcoming": true,
       "time": "12:00 PM"
     },
@@ -545,6 +545,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-23T11:22:29.253433Z",
+  "scraped_at": "2026-10-24T10:40:24.699850Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

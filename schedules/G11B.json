@@ -50,13 +50,6 @@
       "name": "Kennedy Dells Park  - 1",
       "size": "Large Field (11 vs 11)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "204": {
       "address": "Corner of Third St and Madison Ave, Cresskill, NJ 07626",
       "comments": "For U11 & U12 (9v9)",
@@ -129,21 +122,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Maywood",
-      "away_score": null,
-      "away_team": "Maywood-G11B-Pardo",
-      "date": "2026-09-06",
-      "division": "G11B",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "417909",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-G11B-Emara",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Maywood",
       "away_score": 3,
@@ -625,6 +603,21 @@
       "time": "02:15 PM"
     },
     {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-G11B-Emara",
+      "date": "2026-11-13",
+      "division": "G11B",
+      "field": "Memorial Park - Lg",
+      "field_id": "1255",
+      "game_id": "417909",
+      "home_club": "Maywood",
+      "home_score": null,
+      "home_team": "Maywood-G11B-Pardo",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-G11B-Vaquero",
@@ -805,6 +798,6 @@
       "time": "04:15 PM"
     }
   ],
-  "scraped_at": "2026-10-23T11:23:28.271715Z",
+  "scraped_at": "2026-10-24T10:41:25.106285Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -8,13 +8,6 @@
       "name": "Samuel Braen Memorial Park 9v9",
       "size": "Small Field (8 vs 8)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -63,6 +56,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Volunteers Field",
       "size": "Both (Small & Large)"
+    },
+    "752": {
+      "address": "15 Oak Lane, Essex Fells, NJ 07021",
+      "comments": "FOR 9V9 PLAY ONLY!!!",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Egan Field",
+      "size": "Small Field (8 vs 8)"
     },
     "902": {
       "address": "145 E. Ridgewood Avenue, Paramus, NJ 07652",
@@ -359,6 +359,21 @@
       "time": "12:00 PM"
     },
     {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-B12H-Luzzetti",
+      "date": "2026-11-07",
+      "division": "B12H",
+      "field": "Egan Field",
+      "field_id": "752",
+      "game_id": "417475",
+      "home_club": "WestEssex",
+      "home_score": null,
+      "home_team": "WestEssex-B12H-Pajuelo",
+      "is_upcoming": true,
+      "time": "09:30 AM"
+    },
+    {
       "away_club": "Rutherford",
       "away_score": null,
       "away_team": "Rutherford-B12H-Henderson",
@@ -402,21 +417,6 @@
       "home_team": "Maroons-B12H-Gillies",
       "is_upcoming": true,
       "time": "06:00 PM"
-    },
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-B12H-Luzzetti",
-      "date": "2026-11-14",
-      "division": "B12H",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "417475",
-      "home_club": "WestEssex",
-      "home_score": null,
-      "home_team": "WestEssex-B12H-Pajuelo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Southside",
@@ -524,6 +524,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-23T11:21:30.875696Z",
+  "scraped_at": "2026-10-24T10:39:24.937449Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

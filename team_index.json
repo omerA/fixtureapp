@@ -157,6 +157,7 @@
       "CougarUtd-B09XB-Edry",
       "CougarUtd-B10B-Rosental",
       "CougarUtd-B10G-Shkedy",
+      "CougarUtd-B10XW-Shkedy",
       "CougarUtd-B11A-Sayag",
       "CougarUtd-B12C-DePiccioto",
       "CougarUtd-B12DW-Jang",
@@ -558,6 +559,7 @@
       "NMKnights-B09D-Austin",
       "NMKnights-B09EW-Toubroukji",
       "NMKnights-B09XW-Austin",
+      "NMKnights-B09XW-Toubroukji",
       "NMKnights-B10A-Mohr",
       "NMKnights-B10XB-Mohr",
       "NMKnights-B11B-Paulose",
@@ -642,6 +644,7 @@
       "Nutley-B12XB-Benevento",
       "Nutley-B13A-Clifford",
       "Nutley-B13G-Regan",
+      "Nutley-B13XB-Clifford",
       "Nutley-B14C-Tischio",
       "Nutley-B14EB-Blanchard",
       "Nutley-B14XB-Tischio",
@@ -875,6 +878,7 @@
       "Torpedoes-B09FW-Nikolaidis",
       "Torpedoes-B09G-Kunwar",
       "Torpedoes-B09XW-Kunwar",
+      "Torpedoes-B09XW-Nikolaidis",
       "Torpedoes-B10F-Grados",
       "Torpedoes-B10XW-Grados",
       "Torpedoes-B11H-Gjoca",
@@ -997,6 +1001,7 @@
       "WayneBG-B12XW-Bechara",
       "WayneBG-B13B-Sanchez",
       "WayneBG-B13F-Amaya",
+      "WayneBG-B13XB-Sanchez",
       "WayneBG-B13XW-Amaya",
       "WayneBG-B14EB-Alom",
       "WayneBG-B15E-Houghton",
@@ -1011,6 +1016,7 @@
     "WestEssex": [
       "WestEssex-B09H-Sevilla",
       "WestEssex-B10F-Scorciolla",
+      "WestEssex-B10XW-Scorciolla",
       "WestEssex-B12H-Pajuelo",
       "WestEssex-G09E-Sevilla",
       "WestEssex-G10D-Pajuelo",
@@ -1742,6 +1748,11 @@
       "club": "CougarUtd",
       "coach": "Shkedy",
       "division": "B10G"
+    },
+    "CougarUtd-B10XW-Shkedy": {
+      "club": "CougarUtd",
+      "coach": "Shkedy",
+      "division": "B10XW"
     },
     "CougarUtd-B11A-Sayag": {
       "club": "CougarUtd",
@@ -3508,6 +3519,11 @@
       "coach": "Austin",
       "division": "B09XW"
     },
+    "NMKnights-B09XW-Toubroukji": {
+      "club": "NMKnights",
+      "coach": "Toubroukji",
+      "division": "B09XW"
+    },
     "NMKnights-B10A-Mohr": {
       "club": "NMKnights",
       "coach": "Mohr",
@@ -3877,6 +3893,11 @@
       "club": "Nutley",
       "coach": "Regan",
       "division": "B13G"
+    },
+    "Nutley-B13XB-Clifford": {
+      "club": "Nutley",
+      "coach": "Clifford",
+      "division": "B13XB"
     },
     "Nutley-B14C-Tischio": {
       "club": "Nutley",
@@ -4893,6 +4914,11 @@
       "coach": "Kunwar",
       "division": "B09XW"
     },
+    "Torpedoes-B09XW-Nikolaidis": {
+      "club": "Torpedoes",
+      "coach": "Nikolaidis",
+      "division": "B09XW"
+    },
     "Torpedoes-B10F-Grados": {
       "club": "Torpedoes",
       "coach": "Grados",
@@ -5443,6 +5469,11 @@
       "coach": "Amaya",
       "division": "B13F"
     },
+    "WayneBG-B13XB-Sanchez": {
+      "club": "WayneBG",
+      "coach": "Sanchez",
+      "division": "B13XB"
+    },
     "WayneBG-B13XW-Amaya": {
       "club": "WayneBG",
       "coach": "Amaya",
@@ -5502,6 +5533,11 @@
       "club": "WestEssex",
       "coach": "Scorciolla",
       "division": "B10F"
+    },
+    "WestEssex-B10XW-Scorciolla": {
+      "club": "WestEssex",
+      "coach": "Scorciolla",
+      "division": "B10XW"
     },
     "WestEssex-B12H-Pajuelo": {
       "club": "WestEssex",
@@ -5888,7 +5924,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-23T11:18:43.000169+00:00",
+  "scraped_at": "2026-10-24T10:36:23.749791+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

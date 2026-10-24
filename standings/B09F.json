@@ -1,6 +1,6 @@
 {
   "division": "B09F",
-  "scraped_at": "2026-10-23T11:18:44.382951Z",
+  "scraped_at": "2026-10-24T10:36:25.187102Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Emerson",
       "coach": "Rice",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -20,6 +20,17 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "413854",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09F-Buser",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "EM-Hillman"
         },
         {
           "date": "2026-10-03",
@@ -44,20 +55,20 @@
           "venue_code": "WALD-SprDomeIndoor1"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 21,
       "goals_against": 6,
-      "goals_for": 21,
+      "goals_for": 27,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "Emerson-B09F-Rice",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "RiverDell",
       "coach": "Buser",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -69,6 +80,17 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "413854",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B09F-Rice",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "EM-Hillman"
         },
         {
           "date": "2026-10-03",
@@ -93,11 +115,11 @@
           "venue_code": "NY-MWU-HudsonComplex"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 9,
+      "goal_diff": 3,
+      "goals_against": 15,
       "goals_for": 18,
-      "losses": 0,
-      "played": 3,
+      "losses": 1,
+      "played": 4,
       "points": 9,
       "team_raw": "RiverDell-B09F-Buser",
       "wins": 3

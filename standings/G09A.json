@@ -1,6 +1,6 @@
 {
   "division": "G09A",
-  "scraped_at": "2026-10-24T10:36:28.895435Z",
+  "scraped_at": "2026-10-25T11:05:08.631166Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -76,6 +76,66 @@
       "wins": 4
     },
     {
+      "club": "Vikings",
+      "coach": "Rodriguez",
+      "draws": 0,
+      "form": "WWLW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416508",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09A-Silva",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416510",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G09A-Mcnally",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "JC-CochraneCaven-4"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416515",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09A-Contreras",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416518",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G09A-Kivlehan",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 8,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Vikings-G09A-Rodriguez",
+      "wins": 3
+    },
+    {
       "club": "WorldClassFC",
       "coach": "Contreras",
       "draws": 1,
@@ -136,59 +196,10 @@
       "wins": 2
     },
     {
-      "club": "Vikings",
-      "coach": "Rodriguez",
-      "draws": 0,
-      "form": "WWL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416508",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09A-Silva",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416515",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G09A-Contreras",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "VIK-Demarest-Low7v7"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416518",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G09A-Kivlehan",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "WALD-Hopper"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 8,
-      "goals_for": 15,
-      "losses": 1,
-      "played": 3,
-      "points": 6,
-      "team_raw": "Vikings-G09A-Rodriguez",
-      "wins": 2
-    },
-    {
       "club": "JerseyCity",
       "coach": "Mcnally",
       "draws": 0,
-      "form": "LWL",
+      "form": "LWLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -200,6 +211,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416510",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09A-Rodriguez",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "JC-CochraneCaven-4"
         },
         {
           "date": "2026-10-04",
@@ -224,11 +246,11 @@
           "venue_code": "JC-CochraneCaven-3"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 13,
+      "goal_diff": -11,
+      "goals_against": 16,
       "goals_for": 5,
-      "losses": 2,
-      "played": 3,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "JerseyCity-G09A-Mcnally",
       "wins": 1

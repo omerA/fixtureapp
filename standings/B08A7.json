@@ -1,14 +1,74 @@
 {
   "division": "B08A7",
-  "scraped_at": "2026-10-24T10:36:24.151784Z",
+  "scraped_at": "2026-10-25T11:04:50.936270Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
+      "club": "CougarUtd",
+      "coach": "Edry",
+      "draws": 0,
+      "form": "WWWW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "417409",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08A7-GuevaraFuentes",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417414",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08A7-Santillan",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417418",
+          "goals_against": 7,
+          "goals_for": 14,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B08A7-DORON",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417421",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08A7-Nelson",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        }
+      ],
+      "goal_diff": 20,
+      "goals_against": 13,
+      "goals_for": 33,
+      "losses": 0,
+      "played": 4,
+      "points": 12,
+      "team_raw": "CougarUtd-B08A7-Edry",
+      "wins": 4
+    },
+    {
       "club": "GlobalJC",
       "coach": "Nelson",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -55,6 +115,17 @@
           "venue_code": "NY-CLARK-Zukor2A"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "417421",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08A7-Edry",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "417423",
           "goals_against": 2,
@@ -66,63 +137,14 @@
           "venue_code": "JC-GatewaySm2"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 15,
+      "goal_diff": 8,
+      "goals_against": 22,
       "goals_for": 30,
-      "losses": 1,
-      "played": 5,
+      "losses": 2,
+      "played": 6,
       "points": 12,
       "team_raw": "GlobalJC-B08A7-Nelson",
       "wins": 4
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "Edry",
-      "draws": 0,
-      "form": "WWW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "417409",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B08A7-GuevaraFuentes",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417414",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B08A7-Santillan",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417418",
-          "goals_against": 7,
-          "goals_for": 14,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B08A7-DORON",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 13,
-      "goals_for": 26,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
-      "team_raw": "CougarUtd-B08A7-Edry",
-      "wins": 3
     },
     {
       "club": "WorldClassFC",
@@ -188,7 +210,7 @@
       "club": "Montclair",
       "coach": "Santillan",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -244,22 +266,33 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417422",
+          "goals_against": 4,
+          "goals_for": 9,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B08A7-DORON",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 20,
-      "goals_for": 19,
+      "goal_diff": 4,
+      "goals_against": 24,
+      "goals_for": 28,
       "losses": 3,
-      "played": 5,
-      "points": 6,
+      "played": 6,
+      "points": 9,
       "team_raw": "Montclair-B08A7-Santillan",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Tenafly",
       "coach": "DORON",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -306,6 +339,17 @@
           "venue_code": "COUGUTD-ReganSmall1"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "417422",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08A7-Santillan",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "417423",
           "goals_against": 7,
@@ -317,11 +361,11 @@
           "venue_code": "JC-GatewaySm2"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 39,
-      "goals_for": 28,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -16,
+      "goals_against": 48,
+      "goals_for": 32,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "Tenafly-B08A7-DORON",
       "wins": 1

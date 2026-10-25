@@ -71,6 +71,13 @@
       "name": "Fortunato",
       "size": "Large Field (11 vs 11)"
     },
+    "503": {
+      "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Stevens Field",
+      "size": "Large Field (11 vs 11)"
+    },
     "528": {
       "address": "88 Darwin Avenue, Rutherford, NJ 07070",
       "comments": "",
@@ -321,7 +328,7 @@
     },
     {
       "away_club": "Montclair",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Montclair-B13E-Riddick",
       "date": "2026-10-24",
       "division": "B13E",
@@ -329,14 +336,14 @@
       "field_id": "914",
       "game_id": "416356",
       "home_club": "Harrison",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Harrison-B13E-Vassallo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:30 AM"
     },
     {
       "away_club": "Tenafly",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Tenafly-B13E-Rangrez",
       "date": "2026-10-24",
       "division": "B13E",
@@ -344,9 +351,9 @@
       "field_id": "257",
       "game_id": "415882",
       "home_club": "Arsenal",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Arsenal-B13E-McDermott",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
@@ -355,8 +362,8 @@
       "away_team": "Rutherford-B13E-Seaman",
       "date": "2026-10-25",
       "division": "B13E",
-      "field": "Veterans Field - FS 3",
-      "field_id": "1109",
+      "field": "Stevens Field",
+      "field_id": "503",
       "game_id": "415867",
       "home_club": "Maroons",
       "home_score": null,
@@ -545,6 +552,6 @@
       "time": "01:45 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:39:47.737405Z",
+  "scraped_at": "2026-10-25T11:08:13.274829Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

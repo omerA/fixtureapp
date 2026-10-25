@@ -1,9 +1,36 @@
 {
   "division": "G13XB",
-  "scraped_at": "2026-10-24T10:36:30.623302Z",
+  "scraped_at": "2026-10-25T11:05:10.412312Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "RiverDell",
+      "coach": "DelCorral",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "418200",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13XB-Collins",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-HS-Grass"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 0,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "RiverDell-G13XB-DelCorral",
+      "wins": 1
+    },
     {
       "club": "Ajax",
       "coach": "Jackson",
@@ -17,21 +44,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Ajax-G13XB-Jackson",
-      "wins": 0
-    },
-    {
-      "club": "Dragons",
-      "coach": "Collins",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dragons-G13XB-Collins",
       "wins": 0
     },
     {
@@ -50,18 +62,30 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "DelCorral",
+      "club": "Dragons",
+      "coach": "Collins",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "418200",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13XB-DelCorral",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-HS-Grass"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 4,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "RiverDell-G13XB-DelCorral",
+      "team_raw": "Dragons-G13XB-Collins",
       "wins": 0
     }
   ]

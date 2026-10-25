@@ -1,14 +1,14 @@
 {
   "division": "B11EB",
-  "scraped_at": "2026-10-24T10:36:26.581724Z",
+  "scraped_at": "2026-10-25T11:05:06.201875Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlenRidge",
       "coach": "Yucel",
-      "draws": 1,
-      "form": "WWWWD",
+      "draws": 2,
+      "form": "WWWDD",
       "games": [
         {
           "date": "2026-09-26",
@@ -44,6 +44,17 @@
           "venue_code": "MONT-GlenfldPk"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "414034",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B11EB-James",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "417303",
           "goals_against": 3,
@@ -67,11 +78,11 @@
         }
       ],
       "goal_diff": 22,
-      "goals_against": 6,
-      "goals_for": 28,
+      "goals_against": 8,
+      "goals_for": 30,
       "losses": 0,
-      "played": 5,
-      "points": 13,
+      "played": 6,
+      "points": 14,
       "team_raw": "GlenRidge-B11EB-Yucel",
       "wins": 4
     },
@@ -362,8 +373,8 @@
     {
       "club": "CougarSC",
       "coach": "James",
-      "draws": 1,
-      "form": "LWWWD",
+      "draws": 2,
+      "form": "WWWDD",
       "games": [
         {
           "date": "2026-09-19",
@@ -410,6 +421,17 @@
           "venue_code": "COUGSC-LightningSml"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "414034",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B11EB-Yucel",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "417303",
           "goals_against": 3,
@@ -422,11 +444,11 @@
         }
       ],
       "goal_diff": 14,
-      "goals_against": 6,
-      "goals_for": 20,
+      "goals_against": 8,
+      "goals_for": 22,
       "losses": 1,
-      "played": 5,
-      "points": 10,
+      "played": 6,
+      "points": 11,
       "team_raw": "CougarSC-B11EB-James",
       "wins": 3
     }

@@ -50,13 +50,6 @@
       "name": "Westbrook-Small",
       "size": "Small Field (8 vs 8)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -587,7 +580,7 @@
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Maroons-B09D-Harrison",
       "date": "2026-10-24",
       "division": "B09D",
@@ -595,14 +588,14 @@
       "field_id": "131",
       "game_id": "416015",
       "home_club": "Spartan",
-      "home_score": null,
+      "home_score": 5,
       "home_team": "Spartan-B09D-Musano",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:00 AM"
     },
     {
       "away_club": "NoValley",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "NoValley-B09D-Klics",
       "date": "2026-10-24",
       "division": "B09D",
@@ -610,14 +603,14 @@
       "field_id": "369",
       "game_id": "416016",
       "home_club": "Verona",
-      "home_score": null,
+      "home_score": 8,
       "home_team": "Verona-B09D-Hugues",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
       "away_club": "AviatorsHHSA",
-      "away_score": null,
+      "away_score": 8,
       "away_team": "AviatorsHHSA-B09D-Sharry",
       "date": "2026-10-24",
       "division": "B09D",
@@ -625,14 +618,14 @@
       "field_id": "645",
       "game_id": "416012",
       "home_club": "Broncos",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Broncos-B09D-Grunauer",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
       "away_club": "Vikings",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Vikings-B09D-Jackson",
       "date": "2026-10-24",
       "division": "B09D",
@@ -640,14 +633,14 @@
       "field_id": "1162",
       "game_id": "416013",
       "home_club": "Clarkstown",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Clarkstown-B09D-MongeCalderon",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
     },
     {
       "away_club": "NMKnights",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "NMKnights-B09D-Austin",
       "date": "2026-10-24",
       "division": "B09D",
@@ -655,9 +648,9 @@
       "field_id": "778",
       "game_id": "416017",
       "home_club": "WorldClassFC",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "WorldClassFC-B09D-Leone",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
     },
     {
@@ -734,21 +727,6 @@
       "home_team": "WorldClassFC-B09D-Leone",
       "is_upcoming": true,
       "time": "06:00 PM"
-    },
-    {
-      "away_club": "WorldClassFC",
-      "away_score": null,
-      "away_team": "WorldClassFC-B09D-Leone",
-      "date": "2026-10-31",
-      "division": "B09D",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "416018",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-B09D-Sharry",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Vikings",
@@ -1006,6 +984,21 @@
       "time": "04:00 PM"
     },
     {
+      "away_club": "WorldClassFC",
+      "away_score": null,
+      "away_team": "WorldClassFC-B09D-Leone",
+      "date": "2026-11-15",
+      "division": "B09D",
+      "field": "Depken-Small",
+      "field_id": "989",
+      "game_id": "416018",
+      "home_club": "AviatorsHHSA",
+      "home_score": null,
+      "home_team": "AviatorsHHSA-B09D-Sharry",
+      "is_upcoming": true,
+      "time": "09:00 AM"
+    },
+    {
       "away_club": "Broncos",
       "away_score": null,
       "away_team": "Broncos-B09D-Grunauer",
@@ -1141,6 +1134,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:37:24.666533Z",
+  "scraped_at": "2026-10-25T11:05:54.097686Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

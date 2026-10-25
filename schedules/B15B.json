@@ -36,13 +36,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "297": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "F1",
-      "size": "Both (Small & Large)"
-    },
     "298": {
       "address": "Prospect Street, Ramsey, NJ 07446",
       "comments": "",
@@ -351,7 +344,7 @@
     },
     {
       "away_club": "FairLawnAllSports",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "FairLawnAllSports-B15B-Lopez",
       "date": "2026-10-24",
       "division": "B15B",
@@ -359,14 +352,14 @@
       "field_id": "373",
       "game_id": "417593",
       "home_club": "Hotspur",
-      "home_score": null,
+      "home_score": 5,
       "home_team": "Hotspur-B15B-Tedeschi",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
       "away_club": "Spartan",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Spartan-B15B-Guedes",
       "date": "2026-10-24",
       "division": "B15B",
@@ -374,14 +367,14 @@
       "field_id": "570",
       "game_id": "417592",
       "home_club": "CougarSC",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "CougarSC-B15B-Smith",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:30 PM"
     },
     {
       "away_club": "Southside",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Southside-B15B-Rivera",
       "date": "2026-10-24",
       "division": "B15B",
@@ -389,9 +382,9 @@
       "field_id": "102",
       "game_id": "417594",
       "home_club": "Warriors",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Warriors-B15B-Gabriele",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:00 PM"
     },
     {
@@ -485,21 +478,6 @@
       "time": "09:30 AM"
     },
     {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-B15B-Lopez",
-      "date": "2026-11-14",
-      "division": "B15B",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "417601",
-      "home_club": "Southside",
-      "home_score": null,
-      "home_team": "Southside-B15B-Rivera",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B15B-Smith",
@@ -513,6 +491,21 @@
       "home_team": "Warriors-B15B-Gabriele",
       "is_upcoming": true,
       "time": "12:15 PM"
+    },
+    {
+      "away_club": "Southside",
+      "away_score": null,
+      "away_team": "Southside-B15B-Rivera",
+      "date": "2026-11-14",
+      "division": "B15B",
+      "field": "FLHS Turf",
+      "field_id": "673",
+      "game_id": "417601",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B15B-Lopez",
+      "is_upcoming": true,
+      "time": "01:00 PM"
     },
     {
       "away_club": "Spartan",
@@ -545,6 +538,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:40:24.699850Z",
+  "scraped_at": "2026-10-25T11:08:49.374369Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

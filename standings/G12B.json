@@ -1,6 +1,6 @@
 {
   "division": "G12B",
-  "scraped_at": "2026-10-24T10:36:30.086638Z",
+  "scraped_at": "2026-10-25T11:05:09.862693Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -79,8 +79,19 @@
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWW",
       "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "414559",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12B-Schneider",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414603",
@@ -115,14 +126,14 @@
           "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 3,
-      "goals_for": 19,
+      "goal_diff": 17,
+      "goals_against": 5,
+      "goals_for": 22,
       "losses": 0,
-      "played": 3,
-      "points": 9,
+      "played": 4,
+      "points": 12,
       "team_raw": "WoodRidge-G12B-Prior",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Emerson",
@@ -188,8 +199,19 @@
       "club": "Vikings",
       "coach": "Schneider",
       "draws": 0,
-      "form": "WLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "414559",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G12B-Prior",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
         {
           "date": "2026-09-13",
           "game_number": "414563",
@@ -235,11 +257,11 @@
           "venue_code": "VIK-Ruckman"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 8,
-      "goals_for": 5,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -4,
+      "goals_against": 11,
+      "goals_for": 7,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "Vikings-G12B-Schneider",
       "wins": 2

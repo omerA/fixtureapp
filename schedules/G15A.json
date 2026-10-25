@@ -447,7 +447,7 @@
     },
     {
       "away_club": "UnionCity",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "UnionCity-G15A-Viveros",
       "date": "2026-10-24",
       "division": "G15A",
@@ -455,9 +455,9 @@
       "field_id": "164",
       "game_id": "416874",
       "home_club": "Nutley",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Nutley-G15A-Lohf",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:00 PM"
     },
     {
@@ -491,21 +491,6 @@
       "time": "09:00 AM"
     },
     {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-G15A-Buttacavoli",
-      "date": "2026-10-25",
-      "division": "G15A",
-      "field": "Kennedy Field",
-      "field_id": "766",
-      "game_id": "416895",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-G15A-Regas",
-      "is_upcoming": true,
-      "time": "09:30 AM"
-    },
-    {
       "away_club": "WorldClassFC",
       "away_score": null,
       "away_team": "WorldClassFC-G15A-Carter",
@@ -534,6 +519,21 @@
       "home_team": "FairLawnAllSports-G15A-Cepeda",
       "is_upcoming": true,
       "time": "07:00 PM"
+    },
+    {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-G15A-Buttacavoli",
+      "date": "2026-10-29",
+      "division": "G15A",
+      "field": "NMilford-NMHSMain",
+      "field_id": "1121",
+      "game_id": "416895",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G15A-Regas",
+      "is_upcoming": true,
+      "time": "08:15 PM"
     },
     {
       "away_club": "NMKnights",
@@ -866,6 +866,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:42:35.606874Z",
+  "scraped_at": "2026-10-25T11:10:54.818459Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

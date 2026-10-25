@@ -1,6 +1,6 @@
 {
   "division": "G12XB",
-  "scraped_at": "2026-10-24T10:36:30.309629Z",
+  "scraped_at": "2026-10-25T11:05:10.090660Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -59,6 +59,33 @@
       "wins": 1
     },
     {
+      "club": "GlenRock",
+      "coach": "Leichte",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "418033",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12XB-Lanz",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "GlenRock-G12XB-Leichte",
+      "wins": 1
+    },
+    {
       "club": "Dragons",
       "coach": "Johnson",
       "draws": 0,
@@ -74,21 +101,6 @@
       "wins": 0
     },
     {
-      "club": "GlenRock",
-      "coach": "Leichte",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "GlenRock-G12XB-Leichte",
-      "wins": 0
-    },
-    {
       "club": "NMKnights",
       "coach": "McAndrews",
       "draws": 0,
@@ -101,21 +113,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "NMKnights-G12XB-McAndrews",
-      "wins": 0
-    },
-    {
-      "club": "Warriors",
-      "coach": "Lanz",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Warriors-G12XB-Lanz",
       "wins": 0
     },
     {
@@ -143,6 +140,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Dumont-G12XB-Zotaj",
+      "wins": 0
+    },
+    {
+      "club": "Warriors",
+      "coach": "Lanz",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "418033",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12XB-Leichte",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Warriors-G12XB-Lanz",
       "wins": 0
     },
     {

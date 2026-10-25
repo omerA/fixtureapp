@@ -1,6 +1,13 @@
 {
   "division": "B09FW",
   "fields": {
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1234": {
       "address": "235 Harrington Ave., Westwood, NJ 07675",
       "comments": "7v7 field",
@@ -468,7 +475,7 @@
     },
     {
       "away_club": "GlenRock",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "GlenRock-B09FW-Antone",
       "date": "2026-10-24",
       "division": "B09FW",
@@ -476,29 +483,14 @@
       "field_id": "182",
       "game_id": "415491",
       "home_club": "Dragons",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Dragons-B09FW-Liberti",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-B09FW-Ferreira",
-      "date": "2026-10-24",
-      "division": "B09FW",
-      "field": "James Zadroga Soccer Field Small-Sided",
-      "field_id": "784",
-      "game_id": "415493",
-      "home_club": "NoArlington",
-      "home_score": null,
-      "home_team": "NoArlington-B09FW-Carino",
-      "is_upcoming": true,
-      "time": "03:00 PM"
-    },
-    {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Torpedoes-B09FW-Nikolaidis",
       "date": "2026-10-24",
       "division": "B09FW",
@@ -506,14 +498,14 @@
       "field_id": "853",
       "game_id": "415492",
       "home_club": "JerseyCity",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "JerseyCity-B09FW-Servance",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:30 PM"
     },
     {
       "away_club": "TeaneckTravel",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "TeaneckTravel-B09FW-Tobias",
       "date": "2026-10-24",
       "division": "B09FW",
@@ -521,9 +513,9 @@
       "field_id": "1269",
       "game_id": "415494",
       "home_club": "Maywood",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Maywood-B09FW-Huss",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:30 PM"
     },
     {
@@ -692,21 +684,6 @@
       "time": "04:00 PM"
     },
     {
-      "away_club": "TeaneckTravel",
-      "away_score": null,
-      "away_team": "TeaneckTravel-B09FW-Tobias",
-      "date": "2026-11-15",
-      "division": "B09FW",
-      "field": "Westvale Back 7v7",
-      "field_id": "1234",
-      "game_id": "415502",
-      "home_club": "Dragons",
-      "home_score": null,
-      "home_team": "Dragons-B09FW-Liberti",
-      "is_upcoming": true,
-      "time": "01:30 PM"
-    },
-    {
       "away_club": "Torpedoes",
       "away_score": null,
       "away_team": "Torpedoes-B09FW-Nikolaidis",
@@ -718,6 +695,21 @@
       "home_club": "Americans",
       "home_score": null,
       "home_team": "Americans-B09FW-Svarnas",
+      "is_upcoming": true,
+      "time": "01:30 PM"
+    },
+    {
+      "away_club": "TeaneckTravel",
+      "away_score": null,
+      "away_team": "TeaneckTravel-B09FW-Tobias",
+      "date": "2026-11-15",
+      "division": "B09FW",
+      "field": "Westvale Back 7v7",
+      "field_id": "1234",
+      "game_id": "415502",
+      "home_club": "Dragons",
+      "home_score": null,
+      "home_team": "Dragons-B09FW-Liberti",
       "is_upcoming": true,
       "time": "01:30 PM"
     },
@@ -810,8 +802,23 @@
       "home_team": "JerseyCity-B09FW-Servance",
       "is_upcoming": true,
       "time": "02:00 PM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B09FW-Ferreira",
+      "date": "2026-11-30",
+      "division": "B09FW",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "415493",
+      "home_club": "NoArlington",
+      "home_score": null,
+      "home_team": "NoArlington-B09FW-Carino",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-24T10:37:36.353077Z",
+  "scraped_at": "2026-10-25T11:06:05.262471Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

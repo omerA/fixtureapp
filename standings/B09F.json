@@ -1,6 +1,6 @@
 {
   "division": "B09F",
-  "scraped_at": "2026-10-24T10:36:25.187102Z",
+  "scraped_at": "2026-10-25T11:04:52.034468Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -65,70 +65,10 @@
       "wins": 4
     },
     {
-      "club": "RiverDell",
-      "coach": "Buser",
-      "draws": 0,
-      "form": "WWWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "413850",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B09F-Mancheno",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-23",
-          "game_number": "413854",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B09F-Rice",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "EM-Hillman"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413861",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09F-Sims",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "413863",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B09F-McCooey",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NY-MWU-HudsonComplex"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 15,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 4,
-      "points": 9,
-      "team_raw": "RiverDell-B09F-Buser",
-      "wins": 3
-    },
-    {
       "club": "Arsenal",
       "coach": "Mancheno",
       "draws": 0,
-      "form": "LWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -173,22 +113,104 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "WALD-SprDomeIndoor1"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "413865",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09F-Buser",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 12,
-      "goals_for": 20,
+      "goal_diff": 13,
+      "goals_against": 13,
+      "goals_for": 26,
       "losses": 2,
-      "played": 4,
-      "points": 6,
+      "played": 5,
+      "points": 9,
       "team_raw": "Arsenal-B09F-Mancheno",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Buser",
+      "draws": 0,
+      "form": "WWWLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "413850",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09F-Mancheno",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "413854",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B09F-Rice",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "EM-Hillman"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413861",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09F-Sims",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413863",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B09F-McCooey",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "413865",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09F-Mancheno",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 21,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 5,
+      "points": 9,
+      "team_raw": "RiverDell-B09F-Buser",
+      "wins": 3
     },
     {
       "club": "Force",
       "coach": "McCooey",
       "draws": 0,
-      "form": "WLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-10-04",
@@ -233,16 +255,27 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "413867",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09F-Sims",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 21,
-      "goals_for": 24,
+      "goal_diff": 10,
+      "goals_against": 22,
+      "goals_for": 32,
       "losses": 2,
-      "played": 4,
-      "points": 6,
+      "played": 5,
+      "points": 9,
       "team_raw": "Force-B09F-McCooey",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Rutherford",
@@ -308,7 +341,7 @@
       "club": "Vikings",
       "coach": "Sims",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-10-04",
@@ -353,13 +386,24 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "413867",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B09F-McCooey",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 29,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 4,
+      "goal_diff": -29,
+      "goals_against": 37,
+      "goals_for": 8,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "Vikings-B09F-Sims",
       "wins": 0

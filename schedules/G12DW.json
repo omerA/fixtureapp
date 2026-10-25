@@ -8,13 +8,6 @@
       "name": "Gateway Field",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -78,21 +71,6 @@
       "home_club": "NMKnights",
       "home_score": null,
       "home_team": "NMKnights-G12DW-Duque",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "WestEssex",
-      "away_score": null,
-      "away_team": "WestEssex-G12DW-Scorciolla",
-      "date": "2026-09-13",
-      "division": "G12DW",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414937",
-      "home_club": "NoBergen",
-      "home_score": null,
-      "home_team": "NoBergen-G12DW-Guanga",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -278,7 +256,7 @@
     },
     {
       "away_club": "GlobalJC",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "GlobalJC-G12DW-Hong",
       "date": "2026-10-24",
       "division": "G12DW",
@@ -286,9 +264,9 @@
       "field_id": "543",
       "game_id": "414938",
       "home_club": "WOrange",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "WOrange-G12DW-Tutalo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:15 PM"
     },
     {
@@ -472,6 +450,21 @@
       "time": "05:00 PM"
     },
     {
+      "away_club": "WestEssex",
+      "away_score": null,
+      "away_team": "WestEssex-G12DW-Scorciolla",
+      "date": "2026-11-18",
+      "division": "G12DW",
+      "field": "James Braddock / Soccer Field behind bleachers",
+      "field_id": "798",
+      "game_id": "414937",
+      "home_club": "NoBergen",
+      "home_score": null,
+      "home_team": "NoBergen-G12DW-Guanga",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "GlobalJC",
       "away_score": null,
       "away_team": "GlobalJC-G12DW-Hong",
@@ -517,6 +510,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:41:55.832714Z",
+  "scraped_at": "2026-10-25T11:10:15.983622Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

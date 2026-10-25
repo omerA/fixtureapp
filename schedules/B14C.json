@@ -8,6 +8,13 @@
       "name": "Wood Ridge Athletic Complex",
       "size": "Both (Small & Large)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1186": {
       "address": "315 Hillside Avenue, Demarest, NJ 07626",
       "comments": "",
@@ -452,18 +459,18 @@
       "away_team": "NoValley-B14C-Lotz",
       "date": "2026-10-24",
       "division": "B14C",
-      "field": "Father Glotzbach Field1",
-      "field_id": "164",
+      "field": "TBS Postponed",
+      "field_id": "1111",
       "game_id": "414272",
       "home_club": "Nutley",
       "home_score": null,
       "home_team": "Nutley-B14C-Tischio",
       "is_upcoming": true,
-      "time": "09:00 AM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "RIDGFLD",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "RIDGFLD-B14C-Romero",
       "date": "2026-10-24",
       "division": "B14C",
@@ -471,14 +478,14 @@
       "field_id": "424",
       "game_id": "414273",
       "home_club": "Americans",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Americans-B14C-Hirsch",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:00 AM"
     },
     {
       "away_club": "RiverDell",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "RiverDell-B14C-Recanati",
       "date": "2026-10-24",
       "division": "B14C",
@@ -486,14 +493,14 @@
       "field_id": "18",
       "game_id": "414275",
       "home_club": "Tenafly",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "Tenafly-B14C-Pereda",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:45 AM"
     },
     {
       "away_club": "WoodRidge",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "WoodRidge-B14C-McLean",
       "date": "2026-10-24",
       "division": "B14C",
@@ -501,14 +508,14 @@
       "field_id": "279",
       "game_id": "414274",
       "home_club": "Rutherford",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Rutherford-B14C-Williams",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "Clarkstown",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Clarkstown-B14C-Iamurri",
       "date": "2026-10-24",
       "division": "B14C",
@@ -516,9 +523,9 @@
       "field_id": "1186",
       "game_id": "414271",
       "home_club": "CougarUtd",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "CougarUtd-B14C-Son",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:15 PM"
     },
     {
@@ -852,6 +859,6 @@
       "time": "11:00 AM"
     }
   ],
-  "scraped_at": "2026-10-24T10:40:07.770492Z",
+  "scraped_at": "2026-10-25T11:08:32.814438Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "G12DB",
-  "scraped_at": "2026-10-24T10:36:30.233272Z",
+  "scraped_at": "2026-10-25T11:05:10.010736Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -128,8 +128,19 @@
       "club": "Mahwah",
       "coach": "Cullaro",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWW",
       "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "416948",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12DB-Crowley",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416949",
@@ -164,14 +175,14 @@
           "venue_code": "Haledon-Rec-Field"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 4,
-      "goals_for": 9,
+      "goal_diff": 12,
+      "goals_against": 6,
+      "goals_for": 18,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "Mahwah-G12DB-Cullaro",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Southside",
@@ -297,8 +308,19 @@
       "club": "Vikings",
       "coach": "Crowley",
       "draws": 1,
-      "form": "LLD",
+      "form": "LLDL",
       "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "416948",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G12DB-Cullaro",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416950",
@@ -333,11 +355,11 @@
           "venue_code": "MAR-MapleParkWestSm"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 13,
-      "goals_for": 5,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -15,
+      "goals_against": 22,
+      "goals_for": 7,
+      "losses": 3,
+      "played": 4,
       "points": 1,
       "team_raw": "Vikings-G12DB-Crowley",
       "wins": 0

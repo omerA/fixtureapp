@@ -15,13 +15,6 @@
       "name": "Johnson Park 2",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -55,6 +48,13 @@
       "comments": "There are 2 small sided fields that are side by side. The fields go across a full sided field.",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Veteran's Field 2 - Small Sided SB",
+      "size": "Small Field (8 vs 8)"
+    },
+    "727": {
+      "address": "30 Sampson Street, Saddle Brook, NJ 07663",
+      "comments": "There are 2 small sided fields (side by side) that go across a full sided field.",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Veteran's Field 3 - Small Sided SB",
       "size": "Small Field (8 vs 8)"
     },
     "804": {
@@ -382,21 +382,6 @@
       "time": "06:30 PM"
     },
     {
-      "away_club": "Verona",
-      "away_score": null,
-      "away_team": "Verona-G11DW-Lodato",
-      "date": "2026-11-08",
-      "division": "G11DW",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414508",
-      "home_club": "SaddleBR",
-      "home_score": null,
-      "home_team": "SaddleBR-G11DW-Camporeale",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "BLMFLD",
       "away_score": null,
       "away_team": "BLMFLD-G11DW-Parsons",
@@ -475,6 +460,21 @@
       "away_club": "Verona",
       "away_score": null,
       "away_team": "Verona-G11DW-Lodato",
+      "date": "2026-11-21",
+      "division": "G11DW",
+      "field": "Veteran's Field 3 - Small Sided SB",
+      "field_id": "727",
+      "game_id": "414508",
+      "home_club": "SaddleBR",
+      "home_score": null,
+      "home_team": "SaddleBR-G11DW-Camporeale",
+      "is_upcoming": true,
+      "time": "03:00 PM"
+    },
+    {
+      "away_club": "Verona",
+      "away_score": null,
+      "away_team": "Verona-G11DW-Lodato",
       "date": "2026-11-22",
       "division": "G11DW",
       "field": "Father Glotzbach Field2",
@@ -517,6 +517,6 @@
       "time": "05:00 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:41:35.835931Z",
+  "scraped_at": "2026-10-25T11:09:56.361736Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

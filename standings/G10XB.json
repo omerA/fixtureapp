@@ -1,23 +1,62 @@
 {
   "division": "G10XB",
-  "scraped_at": "2026-10-24T10:36:29.570714Z",
+  "scraped_at": "2026-10-25T11:05:09.336085Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "CougarSC",
-      "coach": "Wolff",
+      "club": "RiverDell",
+      "coach": "Singh",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "417955",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10XB-Stearns",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-Roosevelt"
+        }
+      ],
+      "goal_diff": 4,
       "goals_against": 0,
-      "goals_for": 0,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-G10XB-Wolff",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "RiverDell-G10XB-Singh",
+      "wins": 1
+    },
+    {
+      "club": "NoArlington",
+      "coach": "Matos",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "417953",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10XB-Wolff",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NA-Zadroga2"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 3,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "NoArlington-G10XB-Matos",
+      "wins": 1
     },
     {
       "club": "Dragons",
@@ -32,21 +71,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Dragons-G10XB-Sandt",
-      "wins": 0
-    },
-    {
-      "club": "HobUtd",
-      "coach": "Stearns",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "HobUtd-G10XB-Stearns",
       "wins": 0
     },
     {
@@ -95,33 +119,57 @@
       "wins": 0
     },
     {
-      "club": "NoArlington",
-      "coach": "Matos",
+      "club": "CougarSC",
+      "coach": "Wolff",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "417953",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G10XB-Matos",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NA-Zadroga2"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 4,
+      "goals_for": 3,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "NoArlington-G10XB-Matos",
+      "team_raw": "CougarSC-G10XB-Wolff",
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Singh",
+      "club": "HobUtd",
+      "coach": "Stearns",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "417955",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G10XB-Singh",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-Roosevelt"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 4,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "RiverDell-G10XB-Singh",
+      "team_raw": "HobUtd-G10XB-Stearns",
       "wins": 0
     }
   ]

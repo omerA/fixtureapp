@@ -1,6 +1,6 @@
 {
   "division": "G09C",
-  "scraped_at": "2026-10-24T10:36:29.005949Z",
+  "scraped_at": "2026-10-25T11:05:08.749118Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -79,7 +79,7 @@
       "club": "WorldClassFC",
       "coach": "Howe",
       "draws": 1,
-      "form": "WWLWD",
+      "form": "WLWDW",
       "games": [
         {
           "date": "2026-10-03",
@@ -135,16 +135,27 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417671",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09C-Connolly",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 4,
-      "goals_for": 23,
+      "goal_diff": 25,
+      "goals_against": 5,
+      "goals_for": 30,
       "losses": 1,
-      "played": 5,
-      "points": 10,
+      "played": 6,
+      "points": 13,
       "team_raw": "WorldClassFC-G09C-Howe",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Torpedoes",
@@ -292,7 +303,7 @@
       "club": "CougarSC",
       "coach": "Connolly",
       "draws": 0,
-      "form": "WLL",
+      "form": "WLLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -326,13 +337,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417671",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09C-Howe",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 9,
-      "goals_for": 7,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -8,
+      "goals_against": 16,
+      "goals_for": 8,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "CougarSC-G09C-Connolly",
       "wins": 1
@@ -340,8 +362,8 @@
     {
       "club": "Tenafly",
       "coach": "Denberg",
-      "draws": 0,
-      "form": "LL",
+      "draws": 1,
+      "form": "LLD",
       "games": [
         {
           "date": "2026-09-20",
@@ -364,22 +386,33 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417673",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G09C-Bresnan",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "WALD-Hopper"
         }
       ],
       "goal_diff": -8,
-      "goals_against": 11,
-      "goals_for": 3,
+      "goals_against": 12,
+      "goals_for": 4,
       "losses": 2,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 1,
       "team_raw": "Tenafly-G09C-Denberg",
       "wins": 0
     },
     {
       "club": "Warriors",
       "coach": "Bresnan",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-09-19",
@@ -435,14 +468,25 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417673",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09C-Denberg",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "WALD-Hopper"
         }
       ],
       "goal_diff": -29,
-      "goals_against": 31,
-      "goals_for": 2,
+      "goals_against": 32,
+      "goals_for": 3,
       "losses": 5,
-      "played": 5,
-      "points": 0,
+      "played": 6,
+      "points": 1,
       "team_raw": "Warriors-G09C-Bresnan",
       "wins": 0
     }

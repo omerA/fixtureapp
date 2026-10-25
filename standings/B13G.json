@@ -1,6 +1,6 @@
 {
   "division": "B13G",
-  "scraped_at": "2026-10-24T10:36:27.932466Z",
+  "scraped_at": "2026-10-25T11:05:07.627125Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Verona",
       "coach": "Heimerle",
       "draws": 2,
-      "form": "DDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -64,22 +64,33 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417527",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13G-Bosco",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 4,
-      "goals_for": 21,
+      "goal_diff": 19,
+      "goals_against": 6,
+      "goals_for": 25,
       "losses": 0,
-      "played": 5,
-      "points": 11,
+      "played": 6,
+      "points": 14,
       "team_raw": "Verona-B13G-Heimerle",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Nutley",
       "coach": "Regan",
       "draws": 0,
-      "form": "WWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -115,6 +126,17 @@
           "venue_code": "NUT-FatherGlotzbach1"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "417525",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B13G-Torres",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417529",
           "goals_against": 0,
@@ -126,11 +148,11 @@
           "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 9,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": 0,
+      "goals_against": 13,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 5,
       "points": 9,
       "team_raw": "Nutley-B13G-Regan",
       "wins": 3
@@ -139,7 +161,7 @@
       "club": "Spartan",
       "coach": "Bosco",
       "draws": 1,
-      "form": "DWW",
+      "form": "DWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -173,13 +195,24 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417527",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B13G-Heimerle",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 1,
-      "goals_for": 8,
-      "losses": 0,
-      "played": 3,
+      "goal_diff": 5,
+      "goals_against": 5,
+      "goals_for": 10,
+      "losses": 1,
+      "played": 4,
       "points": 7,
       "team_raw": "Spartan-B13G-Bosco",
       "wins": 2
@@ -188,7 +221,7 @@
       "club": "Bergenfield",
       "coach": "Torres",
       "draws": 0,
-      "form": "LLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -233,16 +266,27 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417525",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B13G-Regan",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 17,
-      "goals_for": 5,
+      "goal_diff": -11,
+      "goals_against": 20,
+      "goals_for": 9,
       "losses": 3,
-      "played": 4,
-      "points": 3,
+      "played": 5,
+      "points": 6,
       "team_raw": "Bergenfield-B13G-Torres",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Maroons",

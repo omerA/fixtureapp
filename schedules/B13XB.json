@@ -1,6 +1,13 @@
 {
   "division": "B13XB",
   "fields": {
+    "1038": {
+      "address": "250 Prospect Street, Midland Park, NJ 07432",
+      "comments": "Stadium, With Grandstand, Rear of School",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Midland Park HS - Stadium",
+      "size": "Large Field (11 vs 11)"
+    },
     "1121": {
       "address": "330 River Rd, New Milford, NJ 07646",
       "comments": "11v11",
@@ -127,6 +134,21 @@
       "time": "07:45 PM"
     },
     {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-B13XB-Tramontano",
+      "date": "2026-11-13",
+      "division": "B13XB",
+      "field": "Midland Park HS - Stadium",
+      "field_id": "1038",
+      "game_id": "418016",
+      "home_club": "Ajax",
+      "home_score": null,
+      "home_team": "Ajax-B13XB-Aufiero",
+      "is_upcoming": true,
+      "time": "07:45 PM"
+    },
+    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B13XB-Kolodiy",
@@ -247,21 +269,6 @@
       "time": "12:00 AM"
     },
     {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-B13XB-Tramontano",
-      "date": "2026-12-03",
-      "division": "B13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418016",
-      "home_club": "Ajax",
-      "home_score": null,
-      "home_team": "Ajax-B13XB-Aufiero",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "WayneBG",
       "away_score": null,
       "away_team": "WayneBG-B13XB-Sanchez",
@@ -307,6 +314,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-24T10:39:56.264875Z",
+  "scraped_at": "2026-10-25T11:08:21.520341Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

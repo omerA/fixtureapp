@@ -15,6 +15,13 @@
       "name": "Harrison Little League",
       "size": "Small Field (8 vs 8)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -357,8 +364,23 @@
       "time": "07:00 PM"
     },
     {
-      "away_club": "Warriors",
+      "away_club": "UnionCity",
       "away_score": null,
+      "away_team": "UnionCity-B09E-Castaneda",
+      "date": "2026-10-24",
+      "division": "B09E",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "417088",
+      "home_club": "Verona",
+      "home_score": null,
+      "home_team": "Verona-B09E-Rossi",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "Warriors",
+      "away_score": 10,
       "away_team": "Warriors-B09E-Latorre",
       "date": "2026-10-24",
       "division": "B09E",
@@ -366,14 +388,14 @@
       "field_id": "977",
       "game_id": "417080",
       "home_club": "RIDGFLD",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "RIDGFLD-B09E-Palau",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:30 AM"
     },
     {
       "away_club": "WOrange",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "WOrange-B09E-Lightly",
       "date": "2026-10-24",
       "division": "B09E",
@@ -381,14 +403,14 @@
       "field_id": "1066",
       "game_id": "417078",
       "home_club": "Harrison",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Harrison-B09E-Quiroz",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:00 AM"
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Maroons-B09E-Harrison",
       "date": "2026-10-24",
       "division": "B09E",
@@ -396,25 +418,10 @@
       "field_id": "646",
       "game_id": "417081",
       "home_club": "UnionCity",
-      "home_score": null,
+      "home_score": 5,
       "home_team": "UnionCity-B09E-Castaneda",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:30 PM"
-    },
-    {
-      "away_club": "UnionCity",
-      "away_score": null,
-      "away_team": "UnionCity-B09E-Castaneda",
-      "date": "2026-10-24",
-      "division": "B09E",
-      "field": "Forest Avenue Elementary School",
-      "field_id": "369",
-      "game_id": "417088",
-      "home_club": "Verona",
-      "home_score": null,
-      "home_team": "Verona-B09E-Rossi",
-      "is_upcoming": true,
-      "time": "04:30 PM"
     },
     {
       "away_club": "Verona",
@@ -702,6 +709,6 @@
       "time": "05:45 PM"
     }
   ],
-  "scraped_at": "2026-10-24T10:37:27.516234Z",
+  "scraped_at": "2026-10-25T11:05:56.857725Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

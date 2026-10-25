@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-10-24T10:36:29.412326Z",
+  "scraped_at": "2026-10-25T11:05:09.166631Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -527,7 +527,7 @@
       "club": "Nutley",
       "coach": "Sin",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -574,6 +574,17 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "414458",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G10C-GuevaraFuentes",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "ARS-Dorchester2"
+        },
+        {
           "date": "2026-09-19",
           "game_number": "414466",
           "goals_against": 4,
@@ -596,20 +607,20 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": -24,
+      "goal_diff": -20,
       "goals_against": 29,
-      "goals_for": 5,
+      "goals_for": 9,
       "losses": 6,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 3,
       "team_raw": "Nutley-G10C-Sin",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Arsenal",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-10-04",
@@ -634,6 +645,17 @@
           "venue_code": "VIK-Demarest-Low7v7"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "414458",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G10C-Sin",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "ARS-Dorchester2"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416624",
           "goals_against": 6,
@@ -656,11 +678,11 @@
           "venue_code": "ARS-Fieldstone6"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 22,
+      "goal_diff": -24,
+      "goals_against": 26,
       "goals_for": 2,
-      "losses": 4,
-      "played": 4,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "Arsenal-G10C-GuevaraFuentes",
       "wins": 0

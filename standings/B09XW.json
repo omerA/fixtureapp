@@ -1,6 +1,6 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-10-25T11:04:52.383994Z",
+  "scraped_at": "2026-10-26T12:35:23.329687Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,6 +29,60 @@
       "played": 1,
       "points": 3,
       "team_raw": "NMKnights-B09XW-Austin",
+      "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "PerryLedoux",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418008",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09XW-Kunwar",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "CougarSC-B09XW-PerryLedoux",
+      "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Mankey",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418000",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B09XW-Booth",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 1,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "CougarSC-B09XW-Mankey",
       "wins": 1
     },
     {
@@ -71,36 +125,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Broncos-B09XW-Grunauer",
-      "wins": 0
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Mankey",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-B09XW-Mankey",
-      "wins": 0
-    },
-    {
-      "club": "CougarSC",
-      "coach": "PerryLedoux",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-B09XW-PerryLedoux",
       "wins": 0
     },
     {
@@ -179,36 +203,6 @@
       "wins": 0
     },
     {
-      "club": "Rutherford",
-      "coach": "Booth",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-B09XW-Booth",
-      "wins": 0
-    },
-    {
-      "club": "Torpedoes",
-      "coach": "Kunwar",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Torpedoes-B09XW-Kunwar",
-      "wins": 0
-    },
-    {
       "club": "Torpedoes",
       "coach": "Nikolaidis",
       "draws": 0,
@@ -236,6 +230,60 @@
       "played": 0,
       "points": 0,
       "team_raw": "WoodRidge-B09XW-Hughes",
+      "wins": 0
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Booth",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418000",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09XW-Mankey",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 2,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Rutherford-B09XW-Booth",
+      "wins": 0
+    },
+    {
+      "club": "Torpedoes",
+      "coach": "Kunwar",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418008",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09XW-PerryLedoux",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Torpedoes-B09XW-Kunwar",
       "wins": 0
     },
     {

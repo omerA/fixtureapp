@@ -50,13 +50,6 @@
       "name": "WCFC - Field 3",
       "size": "Small Field (8 vs 8)"
     },
-    "80": {
-      "address": "Carteret Street, Glen Ridge, NJ 07028",
-      "comments": "separate large sided field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Carteret Park Large",
-      "size": "Large Field (11 vs 11)"
-    },
     "808": {
       "address": "100 Third Street, Cresskill, NJ 07626",
       "comments": "U9-U10",
@@ -69,6 +62,13 @@
       "comments": "7v7 ONLY",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Carteret Park Small",
+      "size": "Small Field (8 vs 8)"
+    },
+    "867": {
+      "address": "175 Old Orangeburg Rd, Orangeburg, NY 10962",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WCFC - Field 2A Small",
       "size": "Small Field (8 vs 8)"
     }
   },
@@ -285,7 +285,7 @@
     },
     {
       "away_club": "GlenRidge",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "GlenRidge-G08C7-Lane",
       "date": "2026-10-25",
       "division": "G08C7",
@@ -293,14 +293,14 @@
       "field_id": "808",
       "game_id": "414789",
       "home_club": "CougarUtd",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "CougarUtd-G08C7-Segal",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:45 AM"
     },
     {
       "away_club": "HobUtd",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "HobUtd-G08C7-Karp",
       "date": "2026-10-25",
       "division": "G08C7",
@@ -308,14 +308,14 @@
       "field_id": "778",
       "game_id": "414791",
       "home_club": "WorldClassFC",
-      "home_score": null,
+      "home_score": 9,
       "home_team": "WorldClassFC-G08C7-Ayas",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
       "away_club": "Spartan",
-      "away_score": null,
+      "away_score": 5,
       "away_team": "Spartan-G08C7-Marie",
       "date": "2026-10-25",
       "division": "G08C7",
@@ -323,9 +323,9 @@
       "field_id": "528",
       "game_id": "414790",
       "home_club": "Rutherford",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Rutherford-G08C7-Saracena",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:15 PM"
     },
     {
@@ -374,21 +374,6 @@
       "time": "03:30 PM"
     },
     {
-      "away_club": "Rutherford",
-      "away_score": null,
-      "away_team": "Rutherford-G08C7-Saracena",
-      "date": "2026-11-08",
-      "division": "G08C7",
-      "field": "WCFC - Field 3",
-      "field_id": "778",
-      "game_id": "416497",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-G08C7-Ayas",
-      "is_upcoming": true,
-      "time": "09:00 AM"
-    },
-    {
       "away_club": "HobUtd",
       "away_score": null,
       "away_team": "HobUtd-G08C7-Karp",
@@ -409,8 +394,8 @@
       "away_team": "HobUtd-G08C7-Karp",
       "date": "2026-11-14",
       "division": "G08C7",
-      "field": "Carteret Park Large",
-      "field_id": "80",
+      "field": "Carteret Park Small",
+      "field_id": "844",
       "game_id": "414780",
       "home_club": "GlenRidge",
       "home_score": null,
@@ -432,6 +417,21 @@
       "home_team": "Spartan-G08C7-Marie",
       "is_upcoming": true,
       "time": "12:00 PM"
+    },
+    {
+      "away_club": "Rutherford",
+      "away_score": null,
+      "away_team": "Rutherford-G08C7-Saracena",
+      "date": "2026-11-14",
+      "division": "G08C7",
+      "field": "WCFC - Field 2A Small",
+      "field_id": "867",
+      "game_id": "416497",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-G08C7-Ayas",
+      "is_upcoming": true,
+      "time": "02:00 PM"
     },
     {
       "away_club": "HobUtd",
@@ -524,6 +524,6 @@
       "time": "11:30 AM"
     }
   ],
-  "scraped_at": "2026-10-25T11:09:06.115352Z",
+  "scraped_at": "2026-10-26T12:39:40.068502Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

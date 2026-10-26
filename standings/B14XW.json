@@ -1,6 +1,6 @@
 {
   "division": "B14XW",
-  "scraped_at": "2026-10-25T11:05:08.178314Z",
+  "scraped_at": "2026-10-26T12:35:26.699005Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,33 +29,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "Belleville-B14XW-Calvache",
-      "wins": 1
-    },
-    {
-      "club": "Dragons",
-      "coach": "Gold",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "418074",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B14XW-Blanchard",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 0,
-      "goals_for": 1,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Dragons-B14XW-Gold",
       "wins": 1
     },
     {
@@ -113,10 +86,48 @@
       "wins": 1
     },
     {
+      "club": "Dragons",
+      "coach": "Gold",
+      "draws": 1,
+      "form": "WD",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "418074",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14XW-Blanchard",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "418075",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14XW-Blanchard",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 2,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "Dragons-B14XW-Gold",
+      "wins": 0
+    },
+    {
       "club": "Nutley",
       "coach": "Blanchard",
-      "draws": 0,
-      "form": "L",
+      "draws": 1,
+      "form": "LD",
       "games": [
         {
           "date": "2026-10-04",
@@ -128,14 +139,25 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "418075",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B14XW-Gold",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 1,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
+      "goal_diff": 0,
+      "goals_against": 2,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
       "team_raw": "Nutley-B14XW-Blanchard",
       "wins": 0
     },

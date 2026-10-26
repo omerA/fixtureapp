@@ -1,38 +1,89 @@
 {
   "division": "B14XB",
-  "scraped_at": "2026-10-25T11:05:08.146451Z",
+  "scraped_at": "2026-10-26T12:35:26.663817Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "Dumont",
-      "coach": "Arapi",
+      "club": "NoBergen",
+      "coach": "Amaya",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418083",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14XB-Recanati",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        }
+      ],
+      "goal_diff": 7,
       "goals_against": 0,
-      "goals_for": 0,
+      "goals_for": 7,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dumont-B14XB-Arapi",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "NoBergen-B14XB-Amaya",
+      "wins": 1
     },
     {
       "club": "GlenRock",
       "coach": "Lynch",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418080",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14XB-Tischio",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "GlenRock-B14XB-Lynch",
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "club": "Dumont",
+      "coach": "Arapi",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418077",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B14XB-McLean",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "DUM-Honiss"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 2,
+      "goals_for": 9,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Dumont-B14XB-Arapi",
+      "wins": 1
     },
     {
       "club": "Maroons",
@@ -47,21 +98,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Maroons-B14XB-Breheny",
-      "wins": 0
-    },
-    {
-      "club": "NoBergen",
-      "coach": "Amaya",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "NoBergen-B14XB-Amaya",
       "wins": 0
     },
     {
@@ -83,13 +119,25 @@
       "club": "Nutley",
       "coach": "Tischio",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418080",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14XB-Lynch",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Nutley-B14XB-Tischio",
       "wins": 0
@@ -98,13 +146,25 @@
       "club": "RiverDell",
       "coach": "Recanati",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418083",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14XB-Amaya",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "RiverDell-B14XB-Recanati",
       "wins": 0
@@ -113,13 +173,25 @@
       "club": "WoodRidge",
       "coach": "McLean",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418077",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B14XB-Arapi",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "DUM-Honiss"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 9,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "WoodRidge-B14XB-McLean",
       "wins": 0

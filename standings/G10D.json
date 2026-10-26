@@ -1,6 +1,6 @@
 {
   "division": "G10D",
-  "scraped_at": "2026-10-25T11:05:09.236985Z",
+  "scraped_at": "2026-10-26T12:35:27.884361Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lakeland",
       "coach": "Daniell",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-09-26",
@@ -64,22 +64,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "AJAX-DePhillips Rec"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414867",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10D-Casas",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 6,
-      "goals_for": 15,
+      "goal_diff": 11,
+      "goals_against": 7,
+      "goals_for": 18,
       "losses": 1,
-      "played": 5,
-      "points": 12,
+      "played": 6,
+      "points": 15,
       "team_raw": "Lakeland-G10D-Daniell",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 1,
-      "form": "WDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -124,22 +135,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414869",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G10D-Trentacosti",
+          "result": "W",
+          "time": "08:15 AM",
+          "venue_code": "WEssex-Volunteers"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 17,
       "goals_against": 3,
-      "goals_for": 13,
+      "goals_for": 20,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "WestEssex-G10D-Pajuelo",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "NoRockland",
       "coach": "Mavrorasakis",
       "draws": 0,
-      "form": "WLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-10-19",
@@ -175,6 +197,17 @@
           "venue_code": "NY-NR-NRSA-5"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "414866",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "414875",
           "goals_against": 0,
@@ -186,13 +219,84 @@
           "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 6,
-      "goals_for": 12,
+      "goal_diff": 12,
+      "goals_against": 7,
+      "goals_for": 19,
       "losses": 1,
-      "played": 4,
-      "points": 9,
+      "played": 5,
+      "points": 12,
       "team_raw": "NoRockland-G10D-Mavrorasakis",
+      "wins": 4
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Traganos",
+      "draws": 1,
+      "form": "LDWWW",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "414480",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10D-Casas",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "SS-HamiltonA"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414486",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10D-Daniell",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414491",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10D-Pajuelo",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414493",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414865",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10D-Donohue",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        }
+      ],
+      "goal_diff": 18,
+      "goals_against": 7,
+      "goals_for": 25,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "Rutherford-G10D-Traganos",
       "wins": 3
     },
     {
@@ -267,70 +371,10 @@
       "wins": 3
     },
     {
-      "club": "Rutherford",
-      "coach": "Traganos",
-      "draws": 1,
-      "form": "LDWW",
-      "games": [
-        {
-          "date": "2026-10-18",
-          "game_number": "414480",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G10D-Casas",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "SS-HamiltonA"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414486",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10D-Daniell",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "LKLND-BBeach-Sml-7v7"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414491",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G10D-Pajuelo",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "RUTH-Memorial5"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414493",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "FL-CenterRec2A"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 7,
-      "goals_for": 19,
-      "losses": 1,
-      "played": 4,
-      "points": 7,
-      "team_raw": "Rutherford-G10D-Traganos",
-      "wins": 2
-    },
-    {
       "club": "FairLawnAllSports",
       "coach": "Samaniego",
       "draws": 0,
-      "form": "WLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -375,13 +419,24 @@
           "result": "W",
           "time": "11:45 AM",
           "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414866",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G10D-Mavrorasakis",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 13,
-      "goals_for": 9,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -10,
+      "goals_against": 20,
+      "goals_for": 10,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "FairLawnAllSports-G10D-Samaniego",
       "wins": 2
@@ -450,7 +505,7 @@
       "club": "Ajax",
       "coach": "Trentacosti",
       "draws": 0,
-      "form": "WL",
+      "form": "WLL",
       "games": [
         {
           "date": "2026-10-04",
@@ -473,13 +528,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "AJAX-DePhillips Rec"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414869",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10D-Pajuelo",
+          "result": "L",
+          "time": "08:15 AM",
+          "venue_code": "WEssex-Volunteers"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 7,
+      "goal_diff": -10,
+      "goals_against": 14,
       "goals_for": 4,
-      "losses": 1,
-      "played": 2,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "Ajax-G10D-Trentacosti",
       "wins": 1
@@ -488,7 +554,7 @@
       "club": "GlenRock",
       "coach": "Casas",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -533,13 +599,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "SS-HamiltonA"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414867",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10D-Daniell",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 18,
-      "goals_for": 3,
-      "losses": 4,
-      "played": 4,
+      "goal_diff": -17,
+      "goals_against": 21,
+      "goals_for": 4,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "GlenRock-G10D-Casas",
       "wins": 0
@@ -548,7 +625,7 @@
       "club": "Dragons",
       "coach": "Donohue",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-09-26",
@@ -584,6 +661,17 @@
           "venue_code": "TEN-Sunnyside"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "414865",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G10D-Traganos",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "414875",
           "goals_against": 5,
@@ -595,11 +683,11 @@
           "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 19,
+      "goal_diff": -21,
+      "goals_against": 25,
       "goals_for": 4,
-      "losses": 4,
-      "played": 4,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "Dragons-G10D-Donohue",
       "wins": 0

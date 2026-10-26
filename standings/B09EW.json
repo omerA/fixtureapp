@@ -1,6 +1,6 @@
 {
   "division": "B09EW",
-  "scraped_at": "2026-10-25T11:04:51.983228Z",
+  "scraped_at": "2026-10-26T12:35:22.893441Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -55,6 +55,17 @@
           "venue_code": "COUGSC-Borden1"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "413841",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09EW-Antell",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417100",
           "goals_against": 0,
@@ -63,14 +74,14 @@
           "opponent_raw": "Nutley-B09EW-Antell",
           "result": "W",
           "time": "12:15 PM",
-          "venue_code": "GLENRDGE-Carteret"
+          "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
       "goal_diff": 22,
-      "goals_against": 5,
-      "goals_for": 27,
+      "goals_against": 6,
+      "goals_for": 28,
       "losses": 0,
-      "played": 5,
+      "played": 6,
       "points": 15,
       "team_raw": "GlenRidge-B09EW-Cohn",
       "wins": 5
@@ -158,6 +169,77 @@
       "wins": 4
     },
     {
+      "club": "Belleville",
+      "coach": "Gomez",
+      "draws": 0,
+      "form": "WLWWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "413817",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09EW-Antell",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413825",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B09EW-Vanderbeck",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413826",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B09EW-Iloski",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DUM-GinasField"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "413830",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09EW-Toubroukji",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417098",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09EW-PerryLedoux",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "BELLE-BellePkSm"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 6,
+      "goals_for": 25,
+      "losses": 1,
+      "played": 5,
+      "points": 12,
+      "team_raw": "Belleville-B09EW-Gomez",
+      "wins": 4
+    },
+    {
       "club": "RYSA",
       "coach": "Vanderbeck",
       "draws": 1,
@@ -226,66 +308,6 @@
       "played": 5,
       "points": 10,
       "team_raw": "RYSA-B09EW-Vanderbeck",
-      "wins": 3
-    },
-    {
-      "club": "Belleville",
-      "coach": "Gomez",
-      "draws": 0,
-      "form": "WLWW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "413817",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B09EW-Antell",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413825",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B09EW-Vanderbeck",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "RYSA-HighMtn"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "413826",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B09EW-Iloski",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DUM-GinasField"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "417098",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09EW-PerryLedoux",
-          "result": "W",
-          "time": "10:45 AM",
-          "venue_code": "BELLE-BellePkSm"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 6,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 4,
-      "points": 9,
-      "team_raw": "Belleville-B09EW-Gomez",
       "wins": 3
     },
     {
@@ -456,7 +478,7 @@
       "club": "NMKnights",
       "coach": "Toubroukji",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -503,6 +525,17 @@
           "venue_code": "NMilford-Williams7v7"
         },
         {
+          "date": "2026-10-24",
+          "game_number": "413830",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B09EW-Gomez",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
           "date": "2026-09-12",
           "game_number": "417099",
           "goals_against": 5,
@@ -514,11 +547,11 @@
           "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 29,
+      "goal_diff": -26,
+      "goals_against": 36,
       "goals_for": 10,
-      "losses": 4,
-      "played": 5,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "NMKnights-B09EW-Toubroukji",
       "wins": 1
@@ -574,6 +607,17 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "413841",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B09EW-Cohn",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417100",
           "goals_against": 7,
@@ -582,14 +626,14 @@
           "opponent_raw": "GlenRidge-B09EW-Cohn",
           "result": "L",
           "time": "12:15 PM",
-          "venue_code": "GLENRDGE-Carteret"
+          "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
       "goal_diff": -31,
-      "goals_against": 34,
-      "goals_for": 3,
+      "goals_against": 35,
+      "goals_for": 4,
       "losses": 5,
-      "played": 5,
+      "played": 6,
       "points": 0,
       "team_raw": "Nutley-B09EW-Antell",
       "wins": 0

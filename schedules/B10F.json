@@ -336,21 +336,6 @@
       "time": "08:30 AM"
     },
     {
-      "away_club": "HobUtd",
-      "away_score": null,
-      "away_team": "HobUtd-B10F-Gandolfi",
-      "date": "2026-09-26",
-      "division": "B10F",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "417180",
-      "home_club": "NoRockland",
-      "home_score": null,
-      "home_team": "NoRockland-B10F-Mavrorasakis",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "WestEssex",
       "away_score": 10,
       "away_team": "WestEssex-B10F-Scorciolla",
@@ -712,7 +697,7 @@
     },
     {
       "away_club": "Rutherford",
-      "away_score": null,
+      "away_score": 5,
       "away_team": "Rutherford-B10F-McDonald",
       "date": "2026-10-25",
       "division": "B10F",
@@ -720,9 +705,9 @@
       "field_id": "688",
       "game_id": "417198",
       "home_club": "TeaneckFC",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "TeaneckFC-B10F-DeCastro",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:30 AM"
     },
     {
@@ -859,6 +844,21 @@
       "home_team": "Tenafly-B10F-Wangenheim",
       "is_upcoming": true,
       "time": "11:30 AM"
+    },
+    {
+      "away_club": "HobUtd",
+      "away_score": null,
+      "away_team": "HobUtd-B10F-Gandolfi",
+      "date": "2026-11-01",
+      "division": "B10F",
+      "field": "North Rockland-5",
+      "field_id": "43",
+      "game_id": "417180",
+      "home_club": "NoRockland",
+      "home_score": null,
+      "home_team": "NoRockland-B10F-Mavrorasakis",
+      "is_upcoming": true,
+      "time": "05:30 PM"
     },
     {
       "away_club": "Rutherford",
@@ -1176,6 +1176,6 @@
       "time": "12:45 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:06:38.844860Z",
+  "scraped_at": "2026-10-26T12:37:02.918004Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

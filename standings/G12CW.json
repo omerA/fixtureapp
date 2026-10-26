@@ -1,9 +1,91 @@
 {
   "division": "G12CW",
-  "scraped_at": "2026-10-25T11:05:09.963958Z",
+  "scraped_at": "2026-10-26T12:35:28.708375Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "UnionCity",
+      "coach": "Blanco",
+      "draws": 1,
+      "form": "WWDLW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "416918",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12CW-Mandarakas",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416921",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12CW-Deptula",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416922",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12CW-Palestis",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416927",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G12CW-Gray",
+          "result": "D",
+          "time": "01:15 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416930",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12CW-McAndrews",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416933",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12CW-Mandarakas",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "UNIONCITY-Marti"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 7,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 6,
+      "points": 13,
+      "team_raw": "UnionCity-G12CW-Blanco",
+      "wins": 4
+    },
     {
       "club": "NMKnights",
       "coach": "McAndrews",
@@ -65,81 +147,10 @@
       "wins": 4
     },
     {
-      "club": "UnionCity",
-      "coach": "Blanco",
-      "draws": 1,
-      "form": "WWWDL",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "416918",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12CW-Mandarakas",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "MONT-GlenfldPk9v9"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416921",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G12CW-Deptula",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416922",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G12CW-Palestis",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416927",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G12CW-Gray",
-          "result": "D",
-          "time": "01:15 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416930",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G12CW-McAndrews",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "NMilford-Williams9v9"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 7,
-      "goals_for": 13,
-      "losses": 1,
-      "played": 5,
-      "points": 10,
-      "team_raw": "UnionCity-G12CW-Blanco",
-      "wins": 3
-    },
-    {
       "club": "Lakeland",
       "coach": "Gray",
       "draws": 1,
-      "form": "WWDW",
+      "form": "WWDWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -184,82 +195,33 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "LKLND-BBeach-Sml-9v9"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 8,
-      "goals_for": 17,
-      "losses": 0,
-      "played": 4,
-      "points": 10,
-      "team_raw": "Lakeland-G12CW-Gray",
-      "wins": 3
-    },
-    {
-      "club": "GlenRidge",
-      "coach": "Deptula",
-      "draws": 0,
-      "form": "LWWL",
-      "games": [
+        },
         {
-          "date": "2026-09-20",
-          "game_number": "416921",
+          "date": "2026-10-25",
+          "game_number": "416931",
           "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G12CW-Blanco",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416924",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G12CW-Mandarakas",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "MONT-GlenfldPk9v9"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416925",
-          "goals_against": 1,
-          "goals_for": 6,
+          "goals_for": 2,
           "opponent_club": "GlenRock",
           "opponent_raw": "GlenRock-G12CW-Palestis",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "GLENRDGE-ForestAve"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416928",
-          "goals_against": 7,
-          "goals_for": 2,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G12CW-Gray",
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "LKLND-BBeach-Sml-9v9"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 14,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 4,
-      "points": 6,
-      "team_raw": "GlenRidge-G12CW-Deptula",
-      "wins": 2
+      "goal_diff": 7,
+      "goals_against": 12,
+      "goals_for": 19,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "Lakeland-G12CW-Gray",
+      "wins": 3
     },
     {
       "club": "Montclair",
       "coach": "Mandarakas",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -315,22 +277,115 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416933",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G12CW-Blanco",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416937",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12CW-Deptula",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MONT-GlenfldPk"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 16,
-      "goals_for": 7,
-      "losses": 4,
-      "played": 5,
-      "points": 3,
+      "goal_diff": -10,
+      "goals_against": 22,
+      "goals_for": 12,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
       "team_raw": "Montclair-G12CW-Mandarakas",
-      "wins": 1
+      "wins": 2
+    },
+    {
+      "club": "GlenRidge",
+      "coach": "Deptula",
+      "draws": 0,
+      "form": "LWWLL",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416921",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G12CW-Blanco",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416924",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12CW-Mandarakas",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416925",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12CW-Palestis",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416928",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G12CW-Gray",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "LKLND-BBeach-Sml-9v9"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416937",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G12CW-Mandarakas",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MONT-GlenfldPk"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 19,
+      "goals_for": 12,
+      "losses": 3,
+      "played": 5,
+      "points": 6,
+      "team_raw": "GlenRidge-G12CW-Deptula",
+      "wins": 2
     },
     {
       "club": "GlenRock",
       "coach": "Palestis",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-09-13",
@@ -388,6 +443,17 @@
           "venue_code": "SS-FaberTurfSml"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "416931",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G12CW-Gray",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "LKLND-BBeach-Sml-9v9"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416935",
           "goals_against": 7,
@@ -399,14 +465,14 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 27,
-      "goals_for": 5,
+      "goal_diff": -20,
+      "goals_against": 29,
+      "goals_for": 9,
       "losses": 6,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 3,
       "team_raw": "GlenRock-G12CW-Palestis",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

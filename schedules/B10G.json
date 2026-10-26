@@ -29,13 +29,6 @@
       "name": "Belleville Park - Turf",
       "size": "Both (Small & Large)"
     },
-    "80": {
-      "address": "Carteret Street, Glen Ridge, NJ 07028",
-      "comments": "separate large sided field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Carteret Park Large",
-      "size": "Large Field (11 vs 11)"
-    },
     "808": {
       "address": "100 Third Street, Cresskill, NJ 07626",
       "comments": "U9-U10",
@@ -259,8 +252,8 @@
       "away_team": "RIDGFLD-B10G-Salinas",
       "date": "2026-10-18",
       "division": "B10G",
-      "field": "Carteret Park Large",
-      "field_id": "80",
+      "field": "Carteret Park Small",
+      "field_id": "844",
       "game_id": "417226",
       "home_club": "GlenRidge",
       "home_score": 8,
@@ -315,7 +308,7 @@
     },
     {
       "away_club": "RIDGFLD",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "RIDGFLD-B10G-Salinas",
       "date": "2026-10-25",
       "division": "B10G",
@@ -323,9 +316,9 @@
       "field_id": "1167",
       "game_id": "417232",
       "home_club": "Southside",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Southside-B10G-Lainee",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:30 PM"
     },
     {
@@ -524,6 +517,6 @@
       "time": "06:15 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:06:41.518541Z",
+  "scraped_at": "2026-10-26T12:37:05.654303Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

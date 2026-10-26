@@ -1,6 +1,6 @@
 {
   "division": "B13CB",
-  "scraped_at": "2026-10-25T11:05:07.337297Z",
+  "scraped_at": "2026-10-26T12:35:25.776810Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -79,7 +79,7 @@
       "club": "Belleville",
       "coach": "Chavarria",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -115,6 +115,17 @@
           "venue_code": "BELLE-BellePkFull"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "414198",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13CB-GraterolBriceno",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "414200",
           "goals_against": 1,
@@ -137,14 +148,85 @@
           "venue_code": "Haledon-MnchstHS-Lrg"
         }
       ],
-      "goal_diff": -7,
+      "goal_diff": -6,
       "goals_against": 24,
-      "goals_for": 17,
+      "goals_for": 18,
+      "losses": 2,
+      "played": 6,
+      "points": 12,
+      "team_raw": "Belleville-B13CB-Chavarria",
+      "wins": 4
+    },
+    {
+      "club": "NoBergen",
+      "coach": "GraterolBriceno",
+      "draws": 1,
+      "form": "WDLWL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414190",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B13CB-Ahuacatitan",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414191",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B13CB-Dam",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NY-MW-CentralVal12"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414198",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B13CB-Chavarria",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414201",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B13CB-Fernandez",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414205",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B13CB-Ahuacatitan",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 12,
+      "goals_for": 13,
       "losses": 2,
       "played": 5,
-      "points": 9,
-      "team_raw": "Belleville-B13CB-Chavarria",
-      "wins": 3
+      "points": 7,
+      "team_raw": "NoBergen-B13CB-GraterolBriceno",
+      "wins": 2
     },
     {
       "club": "Force",
@@ -215,66 +297,6 @@
       "played": 5,
       "points": 7,
       "team_raw": "Force-B13CB-Dam",
-      "wins": 2
-    },
-    {
-      "club": "NoBergen",
-      "coach": "GraterolBriceno",
-      "draws": 1,
-      "form": "WDLW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414190",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B13CB-Ahuacatitan",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414191",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B13CB-Dam",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "NY-MW-CentralVal12"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414201",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B13CB-Fernandez",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "Haledon-MnchstHS-Lrg"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "414205",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B13CB-Ahuacatitan",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 11,
-      "goals_for": 13,
-      "losses": 1,
-      "played": 4,
-      "points": 7,
-      "team_raw": "NoBergen-B13CB-GraterolBriceno",
       "wins": 2
     },
     {

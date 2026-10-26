@@ -57,13 +57,6 @@
       "name": "To Be Scheduled-Home",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -150,21 +143,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "WestEssex",
-      "away_score": null,
-      "away_team": "WestEssex-B09H-Sevilla",
-      "date": "2026-09-12",
-      "division": "B09H",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416057",
-      "home_club": "NoRockland",
-      "home_score": null,
-      "home_team": "NoRockland-B09H-Germain",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "SaddleBR",
       "away_score": 0,
@@ -707,7 +685,7 @@
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Maroons-B09H-Harrison",
       "date": "2026-10-25",
       "division": "B09H",
@@ -715,9 +693,9 @@
       "field_id": "91",
       "game_id": "416075",
       "home_club": "NASA",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "NASA-B09H-Callegari",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:30 PM"
     },
     {
@@ -779,6 +757,36 @@
       "home_team": "NoRockland-B09H-Germain",
       "is_upcoming": true,
       "time": "01:30 PM"
+    },
+    {
+      "away_club": "WestEssex",
+      "away_score": null,
+      "away_team": "WestEssex-B09H-Sevilla",
+      "date": "2026-11-01",
+      "division": "B09H",
+      "field": "North Rockland-5",
+      "field_id": "43",
+      "game_id": "416057",
+      "home_club": "NoRockland",
+      "home_score": null,
+      "home_team": "NoRockland-B09H-Germain",
+      "is_upcoming": true,
+      "time": "02:30 PM"
+    },
+    {
+      "away_club": "NASA",
+      "away_score": null,
+      "away_team": "NASA-B09H-Callegari",
+      "date": "2026-11-01",
+      "division": "B09H",
+      "field": "North Rockland-5",
+      "field_id": "43",
+      "game_id": "417112",
+      "home_club": "NoRockland",
+      "home_score": null,
+      "home_team": "NoRockland-B09H-Germain",
+      "is_upcoming": true,
+      "time": "04:00 PM"
     },
     {
       "away_club": "Maroons",
@@ -961,21 +969,6 @@
       "time": "12:30 PM"
     },
     {
-      "away_club": "NASA",
-      "away_score": null,
-      "away_team": "NASA-B09H-Callegari",
-      "date": "2026-11-14",
-      "division": "B09H",
-      "field": "North Rockland-5",
-      "field_id": "43",
-      "game_id": "417112",
-      "home_club": "NoRockland",
-      "home_score": null,
-      "home_team": "NoRockland-B09H-Germain",
-      "is_upcoming": true,
-      "time": "01:00 PM"
-    },
-    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B09H-Janeski",
@@ -1141,6 +1134,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:06:10.987163Z",
+  "scraped_at": "2026-10-26T12:36:34.328194Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

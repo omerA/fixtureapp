@@ -1,9 +1,162 @@
 {
   "division": "G13A",
-  "scraped_at": "2026-10-25T11:05:10.163300Z",
+  "scraped_at": "2026-10-26T12:35:28.952208Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "RiverDell",
+      "coach": "DelCorral",
+      "draws": 2,
+      "form": "WDDWW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "414967",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13A-Bova",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414969",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G13A-Key",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "NY-MW-CentralVal12"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414977",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G13A-Hurtado",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field1"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414983",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13A-Bova",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-10-06",
+          "game_number": "414988",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G13A-Roche",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 5,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 5,
+      "points": 11,
+      "team_raw": "RiverDell-G13A-DelCorral",
+      "wins": 3
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Roche",
+      "draws": 2,
+      "form": "LWDDW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "414966",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G13A-Crespo",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MONT-WatsessingPk"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414970",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G13A-Hurtado",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414976",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13A-Bova",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414979",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G13A-Key",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "NY-MW-CentralVal12"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414982",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G13A-Crespo",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-10-06",
+          "game_number": "414988",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13A-DelCorral",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "HOT-HS Turf 2"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 7,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 6,
+      "points": 11,
+      "team_raw": "Hotspur-G13A-Roche",
+      "wins": 3
+    },
     {
       "club": "Force",
       "coach": "Key",
@@ -158,141 +311,10 @@
       "wins": 3
     },
     {
-      "club": "RiverDell",
-      "coach": "DelCorral",
-      "draws": 2,
-      "form": "WDDW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "414967",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13A-Bova",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414969",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G13A-Key",
-          "result": "W",
-          "time": "05:45 PM",
-          "venue_code": "NY-MW-CentralVal12"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414977",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G13A-Hurtado",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-Field1"
-        },
-        {
-          "date": "2026-10-06",
-          "game_number": "414988",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G13A-Roche",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 4,
-      "goals_for": 6,
-      "losses": 0,
-      "played": 4,
-      "points": 8,
-      "team_raw": "RiverDell-G13A-DelCorral",
-      "wins": 2
-    },
-    {
-      "club": "Hotspur",
-      "coach": "Roche",
-      "draws": 2,
-      "form": "WLWDD",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "414966",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G13A-Crespo",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MONT-WatsessingPk"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "414970",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G13A-Hurtado",
-          "result": "L",
-          "time": "04:45 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414976",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13A-Bova",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "HOT-HS Turf 2"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414979",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G13A-Key",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "NY-MW-CentralVal12"
-        },
-        {
-          "date": "2026-10-06",
-          "game_number": "414988",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G13A-DelCorral",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "HOT-HS Turf 2"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 7,
-      "goals_for": 13,
-      "losses": 1,
-      "played": 5,
-      "points": 8,
-      "team_raw": "Hotspur-G13A-Roche",
-      "wins": 2
-    },
-    {
       "club": "BLMFLD",
       "coach": "Crespo",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -339,6 +361,17 @@
           "venue_code": "NY-MW-CentralVal12"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "414982",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G13A-Roche",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414984",
           "goals_against": 2,
@@ -350,11 +383,11 @@
           "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 14,
+      "goal_diff": -11,
+      "goals_against": 19,
       "goals_for": 8,
-      "losses": 3,
-      "played": 5,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "BLMFLD-G13A-Crespo",
       "wins": 2
@@ -410,6 +443,17 @@
           "venue_code": "WYNE-Alps3"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "414983",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13A-DelCorral",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414984",
           "goals_against": 3,
@@ -421,11 +465,11 @@
           "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 18,
-      "goals_for": 4,
-      "losses": 5,
-      "played": 5,
+      "goal_diff": -15,
+      "goals_against": 20,
+      "goals_for": 5,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "WayneBG-G13A-Bova",
       "wins": 0

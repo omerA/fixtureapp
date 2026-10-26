@@ -64,13 +64,6 @@
       "name": "Monsignor Owens Park2",
       "size": "Small Field (8 vs 8)"
     },
-    "80": {
-      "address": "Carteret Street, Glen Ridge, NJ 07028",
-      "comments": "separate large sided field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Carteret Park Large",
-      "size": "Large Field (11 vs 11)"
-    },
     "844": {
       "address": "Carteret Street, Glen Ridge, NJ 07028",
       "comments": "7v7 ONLY",
@@ -288,8 +281,8 @@
       "away_team": "Nutley-B09EW-Antell",
       "date": "2026-10-04",
       "division": "B09EW",
-      "field": "Carteret Park Large",
-      "field_id": "80",
+      "field": "Carteret Park Small",
+      "field_id": "844",
       "game_id": "417100",
       "home_club": "GlenRidge",
       "home_score": 7,
@@ -404,7 +397,7 @@
     },
     {
       "away_club": "NMKnights",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "NMKnights-B09EW-Toubroukji",
       "date": "2026-10-24",
       "division": "B09EW",
@@ -412,9 +405,9 @@
       "field_id": "207",
       "game_id": "413830",
       "home_club": "Belleville",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Belleville-B09EW-Gomez",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:30 AM"
     },
     {
@@ -434,7 +427,7 @@
     },
     {
       "away_club": "GlenRidge",
-      "away_score": null,
+      "away_score": 8,
       "away_team": "GlenRidge-B09EW-Cohn",
       "date": "2026-10-25",
       "division": "B09EW",
@@ -442,9 +435,9 @@
       "field_id": "604",
       "game_id": "413841",
       "home_club": "Nutley",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Nutley-B09EW-Antell",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "04:30 PM"
     },
     {
@@ -513,8 +506,8 @@
       "away_team": "Belleville-B09EW-Gomez",
       "date": "2026-11-01",
       "division": "B09EW",
-      "field": "Carteret Park Large",
-      "field_id": "80",
+      "field": "Carteret Park Small",
+      "field_id": "844",
       "game_id": "413819",
       "home_club": "GlenRidge",
       "home_score": null,
@@ -688,6 +681,6 @@
       "time": "04:30 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:05:59.643255Z",
+  "scraped_at": "2026-10-26T12:36:22.279001Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

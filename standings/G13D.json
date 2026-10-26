@@ -1,74 +1,14 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-10-25T11:05:10.345451Z",
+  "scraped_at": "2026-10-26T12:35:29.129159Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "Vikings",
-      "coach": "Flanagan",
-      "draws": 1,
-      "form": "WWDW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "415200",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G13D-Gray",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415203",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G13D-Mamalian",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "NoVAL-Dewolfe"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415207",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G13D-Nahorniak",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415208",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-G13D-Shah",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "MAHWAH-CSF"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 5,
-      "goals_for": 14,
-      "losses": 0,
-      "played": 4,
-      "points": 10,
-      "team_raw": "Vikings-G13D-Flanagan",
-      "wins": 3
-    },
-    {
       "club": "HobUtd",
       "coach": "Gray",
       "draws": 0,
-      "form": "WLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -113,22 +53,104 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415211",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G13D-Shah",
+          "result": "W",
+          "time": "08:15 AM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 5,
-      "goals_for": 19,
+      "goal_diff": 15,
+      "goals_against": 7,
+      "goals_for": 22,
       "losses": 1,
-      "played": 4,
-      "points": 9,
+      "played": 5,
+      "points": 12,
       "team_raw": "HobUtd-G13D-Gray",
+      "wins": 4
+    },
+    {
+      "club": "Vikings",
+      "coach": "Flanagan",
+      "draws": 2,
+      "form": "WWDWD",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "415200",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13D-Gray",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415203",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NoVAL-Dewolfe"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415207",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13D-Nahorniak",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415208",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G13D-Shah",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415212",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13D-Austin",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 7,
+      "goals_for": 16,
+      "losses": 0,
+      "played": 5,
+      "points": 11,
+      "team_raw": "Vikings-G13D-Flanagan",
       "wins": 3
     },
     {
       "club": "NoValley",
       "coach": "Mamalian",
       "draws": 1,
-      "form": "WLDW",
+      "form": "WLDWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -173,22 +195,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "MAR-Stevens"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415213",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13D-Nahorniak",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 6,
-      "goals_for": 4,
+      "goal_diff": 0,
+      "goals_against": 7,
+      "goals_for": 7,
       "losses": 1,
-      "played": 4,
-      "points": 7,
+      "played": 5,
+      "points": 10,
       "team_raw": "NoValley-G13D-Mamalian",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Mahwah",
       "coach": "Shah",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -244,13 +277,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415211",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13D-Gray",
+          "result": "L",
+          "time": "08:15 AM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 11,
-      "goals_for": 7,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -5,
+      "goals_against": 14,
+      "goals_for": 9,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "Mahwah-G13D-Shah",
       "wins": 2
@@ -258,8 +302,8 @@
     {
       "club": "Maroons",
       "coach": "Austin",
-      "draws": 0,
-      "form": "LL",
+      "draws": 1,
+      "form": "LLD",
       "games": [
         {
           "date": "2026-10-04",
@@ -282,14 +326,25 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "MAR-Stevens"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415212",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
+      "goals_against": 6,
+      "goals_for": 3,
       "losses": 2,
-      "played": 2,
-      "points": 0,
+      "played": 3,
+      "points": 1,
       "team_raw": "Maroons-G13D-Austin",
       "wins": 0
     },
@@ -297,7 +352,7 @@
       "club": "WayneBG",
       "coach": "Nahorniak",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-27",
@@ -331,13 +386,24 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415213",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 16,
-      "goals_for": 2,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -16,
+      "goals_against": 19,
+      "goals_for": 3,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "WayneBG-G13D-Nahorniak",
       "wins": 0

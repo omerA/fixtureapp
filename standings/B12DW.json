@@ -1,6 +1,6 @@
 {
   "division": "B12DW",
-  "scraped_at": "2026-10-25T11:05:06.814406Z",
+  "scraped_at": "2026-10-26T12:35:25.214551Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -251,6 +251,77 @@
       "wins": 4
     },
     {
+      "club": "Americans",
+      "coach": "Fiori",
+      "draws": 1,
+      "form": "WWWLD",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "414114",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B12DW-Martinez",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "WORANGE-Oconnor"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414115",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12DW-Hykey",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "AMER-LionsSoLacrosse"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414125",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12DW-Nobrega",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "AMER-LionsSoLacrosse"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414135",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12DW-Wood",
+          "result": "L",
+          "time": "09:15 AM",
+          "venue_code": "AMER-LionsSoLacrosse"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414145",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12DW-Tran",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "AMER-LionsSoLacrosse"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 12,
+      "goals_for": 24,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "Americans-B12DW-Fiori",
+      "wins": 3
+    },
+    {
       "club": "CougarUtd",
       "coach": "Jang",
       "draws": 0,
@@ -308,66 +379,6 @@
       "played": 4,
       "points": 9,
       "team_raw": "CougarUtd-B12DW-Jang",
-      "wins": 3
-    },
-    {
-      "club": "Americans",
-      "coach": "Fiori",
-      "draws": 0,
-      "form": "WWWL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "414115",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12DW-Hykey",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "AMER-LionsSoLacrosse"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414125",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B12DW-Nobrega",
-          "result": "W",
-          "time": "09:15 AM",
-          "venue_code": "AMER-LionsSoLacrosse"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "414135",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B12DW-Wood",
-          "result": "L",
-          "time": "09:15 AM",
-          "venue_code": "AMER-LionsSoLacrosse"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414145",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12DW-Tran",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "AMER-LionsSoLacrosse"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 10,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 4,
-      "points": 9,
-      "team_raw": "Americans-B12DW-Fiori",
       "wins": 3
     },
     {
@@ -761,8 +772,8 @@
     {
       "club": "WOrange",
       "coach": "Martinez",
-      "draws": 0,
-      "form": "LLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-10-10",
@@ -774,6 +785,17 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414114",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B12DW-Fiori",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "WORANGE-Oconnor"
         },
         {
           "date": "2026-10-03",
@@ -810,11 +832,11 @@
         }
       ],
       "goal_diff": -11,
-      "goals_against": 15,
-      "goals_for": 4,
+      "goals_against": 17,
+      "goals_for": 6,
       "losses": 4,
-      "played": 4,
-      "points": 0,
+      "played": 5,
+      "points": 1,
       "team_raw": "WOrange-B12DW-Martinez",
       "wins": 0
     }

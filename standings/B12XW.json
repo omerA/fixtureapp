@@ -1,9 +1,36 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-10-25T11:05:07.151446Z",
+  "scraped_at": "2026-10-26T12:35:25.578536Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "BLMFLD",
+      "coach": "Pereira",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418159",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12XW-Ahmed",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "BLMFLD-B12XW-Pereira",
+      "wins": 1
+    },
     {
       "club": "AviatorsHHSA",
       "coach": "Chudzik",
@@ -17,21 +44,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "AviatorsHHSA-B12XW-Chudzik",
-      "wins": 0
-    },
-    {
-      "club": "BLMFLD",
-      "coach": "Pereira",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "BLMFLD-B12XW-Pereira",
       "wins": 0
     },
     {
@@ -125,21 +137,6 @@
       "wins": 0
     },
     {
-      "club": "Verona",
-      "coach": "Ahmed",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Verona-B12XW-Ahmed",
-      "wins": 0
-    },
-    {
       "club": "Warriors",
       "coach": "Stratton",
       "draws": 0,
@@ -182,6 +179,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "WoodRidge-B12XW-Mueller",
+      "wins": 0
+    },
+    {
+      "club": "Verona",
+      "coach": "Ahmed",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418159",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B12XW-Pereira",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 3,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Verona-B12XW-Ahmed",
       "wins": 0
     }
   ]

@@ -1,9 +1,80 @@
 {
   "division": "B12E",
-  "scraped_at": "2026-10-25T11:05:06.866864Z",
+  "scraped_at": "2026-10-26T12:35:25.273123Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Gillies",
+      "draws": 1,
+      "form": "DWWWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415752",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12E-Grompone",
+          "result": "D",
+          "time": "05:45 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415755",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12E-Mrkulic",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415759",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B12E-Preciado",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "MAR-VetsFld2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415763",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B12E-Cadenas",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415765",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12E-Virili",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "MAR-VetsFld2"
+        }
+      ],
+      "goal_diff": 20,
+      "goals_against": 4,
+      "goals_for": 24,
+      "losses": 0,
+      "played": 5,
+      "points": 13,
+      "team_raw": "Maroons-B12E-Gillies",
+      "wins": 4
+    },
     {
       "club": "Emerson",
       "coach": "Grompone",
@@ -76,70 +147,10 @@
       "wins": 4
     },
     {
-      "club": "Maroons",
-      "coach": "Gillies",
-      "draws": 1,
-      "form": "DWWW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415752",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B12E-Grompone",
-          "result": "D",
-          "time": "05:45 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415755",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B12E-Mrkulic",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415763",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B12E-Cadenas",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415765",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B12E-Virili",
-          "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "MAR-VetsFld2"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 2,
-      "goals_for": 16,
-      "losses": 0,
-      "played": 4,
-      "points": 10,
-      "team_raw": "Maroons-B12E-Gillies",
-      "wins": 3
-    },
-    {
       "club": "TeaneckFC",
       "coach": "Preciado",
       "draws": 0,
-      "form": "WWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-10-18",
@@ -164,6 +175,17 @@
           "venue_code": "NUT-FatherGlotzbach2"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "415759",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12E-Gillies",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "MAR-VetsFld2"
+        },
+        {
           "date": "2026-10-14",
           "game_number": "415761",
           "goals_against": 4,
@@ -173,16 +195,27 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415766",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B12E-Cadenas",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 8,
-      "goals_for": 17,
-      "losses": 0,
-      "played": 3,
-      "points": 9,
+      "goal_diff": 5,
+      "goals_against": 20,
+      "goals_for": 25,
+      "losses": 1,
+      "played": 5,
+      "points": 12,
       "team_raw": "TeaneckFC-B12E-Preciado",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "FairLawnAllSports",
@@ -270,7 +303,7 @@
       "club": "SaddleBR",
       "coach": "Cadenas",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-10-18",
@@ -326,13 +359,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415766",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B12E-Preciado",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 25,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -12,
+      "goals_against": 31,
+      "goals_for": 19,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "SaddleBR-B12E-Cadenas",
       "wins": 1

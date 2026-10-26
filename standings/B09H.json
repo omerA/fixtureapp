@@ -1,6 +1,6 @@
 {
   "division": "B09H",
-  "scraped_at": "2026-10-25T11:04:52.322005Z",
+  "scraped_at": "2026-10-26T12:35:23.261986Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -623,6 +623,66 @@
       "wins": 2
     },
     {
+      "club": "NASA",
+      "coach": "Callegari",
+      "draws": 0,
+      "form": "LLWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "416062",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09H-Zamora",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416074",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09H-Laroche",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416075",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09H-Harrison",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416083",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09H-McCormack",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 17,
+      "goals_for": 18,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "NASA-B09H-Callegari",
+      "wins": 2
+    },
+    {
       "club": "Spartan",
       "coach": "McCormack",
       "draws": 0,
@@ -776,55 +836,6 @@
       "wins": 1
     },
     {
-      "club": "NASA",
-      "coach": "Callegari",
-      "draws": 0,
-      "form": "LLW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "416062",
-          "goals_against": 8,
-          "goals_for": 2,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B09H-Zamora",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416074",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09H-Laroche",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416083",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B09H-McCormack",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 17,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "NASA-B09H-Callegari",
-      "wins": 1
-    },
-    {
       "club": "WestEssex",
       "coach": "Sevilla",
       "draws": 0,
@@ -935,6 +946,17 @@
           "venue_code": "MAR-MapleParkEastSm"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "416075",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09H-Callegari",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "416081",
           "goals_against": 7,
@@ -957,11 +979,11 @@
           "venue_code": "MAR-VetsFld1"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 29,
+      "goal_diff": -35,
+      "goals_against": 36,
       "goals_for": 1,
-      "losses": 5,
-      "played": 5,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "Maroons-B09H-Harrison",
       "wins": 0

@@ -626,7 +626,7 @@
     },
     {
       "away_club": "Southside",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "Southside-B14EB-Fernandez",
       "date": "2026-10-25",
       "division": "B14EB",
@@ -634,29 +634,14 @@
       "field_id": "684",
       "game_id": "416437",
       "home_club": "TeaneckFC",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "TeaneckFC-B14EB-DeCastro",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:30 AM"
     },
     {
-      "away_club": "HobUtd",
-      "away_score": null,
-      "away_team": "HobUtd-B14EB-Peng",
-      "date": "2026-10-25",
-      "division": "B14EB",
-      "field": "Monte Irvin Orange Park",
-      "field_id": "464",
-      "game_id": "416440",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-B14EB-Nacak",
-      "is_upcoming": true,
-      "time": "02:30 PM"
-    },
-    {
       "away_club": "SaddleBR",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "SaddleBR-B14EB-Velazquez",
       "date": "2026-10-25",
       "division": "B14EB",
@@ -664,10 +649,25 @@
       "field_id": "1007",
       "game_id": "417727",
       "home_club": "Spartan",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Spartan-B14EB-Hegyi",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
+    },
+    {
+      "away_club": "HobUtd",
+      "away_score": 6,
+      "away_team": "HobUtd-B14EB-Peng",
+      "date": "2026-10-25",
+      "division": "B14EB",
+      "field": "Monte Irvin Orange Park",
+      "field_id": "464",
+      "game_id": "416440",
+      "home_club": "CougarSC",
+      "home_score": 3,
+      "home_team": "CougarSC-B14EB-Nacak",
+      "is_upcoming": false,
+      "time": "03:30 PM"
     },
     {
       "away_club": "ST23",
@@ -847,7 +847,7 @@
       "home_score": null,
       "home_team": "CougarSC-B14EB-Nacak",
       "is_upcoming": true,
-      "time": "02:30 PM"
+      "time": "03:00 PM"
     },
     {
       "away_club": "WayneBG",
@@ -1120,6 +1120,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:08:38.545611Z",
+  "scraped_at": "2026-10-26T12:39:11.764901Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

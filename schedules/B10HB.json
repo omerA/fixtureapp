@@ -64,13 +64,6 @@
       "name": "Veteran's Field 2 - Small Sided SB",
       "size": "Small Field (8 vs 8)"
     },
-    "80": {
-      "address": "Carteret Street, Glen Ridge, NJ 07028",
-      "comments": "separate large sided field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Carteret Park Large",
-      "size": "Large Field (11 vs 11)"
-    },
     "844": {
       "address": "Carteret Street, Glen Ridge, NJ 07028",
       "comments": "7v7 ONLY",
@@ -228,8 +221,8 @@
       "away_team": "SaddleBR-B10HB-Patel",
       "date": "2026-10-04",
       "division": "B10HB",
-      "field": "Carteret Park Large",
-      "field_id": "80",
+      "field": "Carteret Park Small",
+      "field_id": "844",
       "game_id": "413979",
       "home_club": "GlenRidge",
       "home_score": 5,
@@ -359,7 +352,7 @@
     },
     {
       "away_club": "CougarSC",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "CougarSC-B10HB-Orgera",
       "date": "2026-10-25",
       "division": "B10HB",
@@ -367,9 +360,9 @@
       "field_id": "1142",
       "game_id": "413993",
       "home_club": "HobUtd",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "HobUtd-B10HB-Henriques",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:45 AM"
     },
     {
@@ -538,6 +531,6 @@
       "time": "07:00 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:06:44.348776Z",
+  "scraped_at": "2026-10-26T12:37:08.665132Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

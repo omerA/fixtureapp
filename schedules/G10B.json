@@ -299,7 +299,7 @@
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "Maroons-G10B-Forsythe",
       "date": "2026-10-25",
       "division": "G10B",
@@ -307,9 +307,9 @@
       "field_id": "667",
       "game_id": "416608",
       "home_club": "NoValley",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "NoValley-G10B-Steinman",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
@@ -329,7 +329,7 @@
     },
     {
       "away_club": "Warriors",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Warriors-G10B-Reed",
       "date": "2026-10-25",
       "division": "G10B",
@@ -337,10 +337,25 @@
       "field_id": "301",
       "game_id": "416607",
       "home_club": "Hotspur",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "Hotspur-G10B-Mulanaphy",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:30 PM"
+    },
+    {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-G10B-Mulanaphy",
+      "date": "2026-11-01",
+      "division": "G10B",
+      "field": "Veterans Field - SS 1",
+      "field_id": "52",
+      "game_id": "416610",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G10B-Forsythe",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "HobUtd",
@@ -356,21 +371,6 @@
       "home_team": "Warriors-G10B-Reed",
       "is_upcoming": true,
       "time": "10:30 AM"
-    },
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-G10B-Mulanaphy",
-      "date": "2026-11-01",
-      "division": "G10B",
-      "field": "Maple Park East",
-      "field_id": "584",
-      "game_id": "416610",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G10B-Forsythe",
-      "is_upcoming": true,
-      "time": "11:45 AM"
     },
     {
       "away_club": "NoValley",
@@ -538,6 +538,6 @@
       "time": "10:30 AM"
     }
   ],
-  "scraped_at": "2026-10-25T11:09:28.388596Z",
+  "scraped_at": "2026-10-26T12:40:03.319563Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -43,13 +43,6 @@
       "name": "Pulis 1",
       "size": "Small Field (8 vs 8)"
     },
-    "80": {
-      "address": "Carteret Street, Glen Ridge, NJ 07028",
-      "comments": "separate large sided field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Carteret Park Large",
-      "size": "Large Field (11 vs 11)"
-    },
     "844": {
       "address": "Carteret Street, Glen Ridge, NJ 07028",
       "comments": "7v7 ONLY",
@@ -322,7 +315,7 @@
     },
     {
       "away_club": "WayneBG",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "WayneBG-G09D-Carofilis",
       "date": "2026-10-24",
       "division": "G09D",
@@ -330,9 +323,9 @@
       "field_id": "844",
       "game_id": "414804",
       "home_club": "GlenRidge",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "GlenRidge-G09D-VanDeStouwe",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:30 PM"
     },
     {
@@ -352,7 +345,7 @@
     },
     {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Torpedoes-G09D-Dzilla",
       "date": "2026-10-25",
       "division": "G09D",
@@ -360,9 +353,9 @@
       "field_id": "301",
       "game_id": "414797",
       "home_club": "Hotspur",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "Hotspur-G09D-Balch",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
@@ -397,7 +390,7 @@
     },
     {
       "away_club": "WayneBG",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "WayneBG-G09D-Carofilis",
       "date": "2026-10-25",
       "division": "G09D",
@@ -405,9 +398,9 @@
       "field_id": "1000",
       "game_id": "414796",
       "home_club": "FairLawnAllSports",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "FairLawnAllSports-G09D-Angotti",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
     },
     {
@@ -476,8 +469,8 @@
       "away_team": "Torpedoes-G09D-Dzilla",
       "date": "2026-11-07",
       "division": "G09D",
-      "field": "Carteret Park Large",
-      "field_id": "80",
+      "field": "Carteret Park Small",
+      "field_id": "844",
       "game_id": "414426",
       "home_club": "GlenRidge",
       "home_score": null,
@@ -681,6 +674,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-10-25T11:09:17.290889Z",
+  "scraped_at": "2026-10-26T12:39:51.545177Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

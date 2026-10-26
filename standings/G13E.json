@@ -1,6 +1,6 @@
 {
   "division": "G13E",
-  "scraped_at": "2026-10-25T11:05:10.389855Z",
+  "scraped_at": "2026-10-26T12:35:29.176158Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -139,7 +139,7 @@
       "club": "Spartan",
       "coach": "Haug",
       "draws": 2,
-      "form": "WDLLD",
+      "form": "DLLDL",
       "games": [
         {
           "date": "2026-10-03",
@@ -175,6 +175,17 @@
           "venue_code": "PAR-ParkwayMS11"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "415243",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13E-Kaluza",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
           "date": "2026-09-20",
           "game_number": "415248",
           "goals_against": 0,
@@ -197,11 +208,11 @@
           "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 16,
+      "goal_diff": -14,
+      "goals_against": 19,
       "goals_for": 5,
-      "losses": 2,
-      "played": 5,
+      "losses": 3,
+      "played": 6,
       "points": 5,
       "team_raw": "Spartan-G13E-Haug",
       "wins": 1
@@ -281,7 +292,7 @@
       "club": "Vikings",
       "coach": "Kaluza",
       "draws": 1,
-      "form": "LDL",
+      "form": "LDLW",
       "games": [
         {
           "date": "2026-09-27",
@@ -306,6 +317,17 @@
           "venue_code": "AVIA-Depken"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "415243",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G13E-Haug",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "418126",
           "goals_against": 4,
@@ -317,14 +339,14 @@
           "venue_code": "VIK-DemarestHS-Upper"
         }
       ],
-      "goal_diff": -9,
+      "goal_diff": -6,
       "goals_against": 9,
-      "goals_for": 0,
+      "goals_for": 3,
       "losses": 2,
-      "played": 3,
-      "points": 1,
+      "played": 4,
+      "points": 4,
       "team_raw": "Vikings-G13E-Kaluza",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

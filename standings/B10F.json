@@ -1,6 +1,6 @@
 {
   "division": "B10F",
-  "scraped_at": "2026-10-25T11:04:52.930695Z",
+  "scraped_at": "2026-10-26T12:35:23.914229Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -464,70 +464,10 @@
       "wins": 3
     },
     {
-      "club": "Force",
-      "coach": "PierreJoseph",
-      "draws": 0,
-      "form": "WLWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416152",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B10F-Grados",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "TORP-Pulis1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417172",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B10F-Mavrorasakis",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417177",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10F-McDonald",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "RUTH-Memorial3"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "417188",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B10F-Wangenheim",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "TEN-Sunnyside"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 16,
-      "goals_for": 23,
-      "losses": 2,
-      "played": 4,
-      "points": 6,
-      "team_raw": "Force-B10F-PierreJoseph",
-      "wins": 2
-    },
-    {
       "club": "Rutherford",
       "coach": "McDonald",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-27",
@@ -594,22 +534,93 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "417198",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B10F-DeCastro",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "TEANECK-VoteeFBNorth"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 30,
-      "goals_for": 15,
+      "goal_diff": -13,
+      "goals_against": 33,
+      "goals_for": 20,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "Rutherford-B10F-McDonald",
+      "wins": 3
+    },
+    {
+      "club": "Force",
+      "coach": "PierreJoseph",
+      "draws": 0,
+      "form": "WLWL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416152",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10F-Grados",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417172",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B10F-Mavrorasakis",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417177",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10F-McDonald",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417188",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10F-Wangenheim",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 16,
+      "goals_for": 23,
+      "losses": 2,
+      "played": 4,
+      "points": 6,
+      "team_raw": "Force-B10F-PierreJoseph",
       "wins": 2
     },
     {
       "club": "TeaneckFC",
       "coach": "DeCastro",
       "draws": 0,
-      "form": "LLW",
+      "form": "LLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -634,6 +645,17 @@
           "venue_code": "TEANECK-VoteeFBNorth"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "417198",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10F-McDonald",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "TEANECK-VoteeFBNorth"
+        },
+        {
           "date": "2026-10-20",
           "game_number": "417216",
           "goals_against": 1,
@@ -645,11 +667,11 @@
           "venue_code": "TEANECK-VoteeSoccerN"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 13,
-      "goals_for": 8,
-      "losses": 2,
-      "played": 3,
+      "goal_diff": -7,
+      "goals_against": 18,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 4,
       "points": 3,
       "team_raw": "TeaneckFC-B10F-DeCastro",
       "wins": 1

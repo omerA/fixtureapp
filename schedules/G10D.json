@@ -446,7 +446,7 @@
     },
     {
       "away_club": "Ajax",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Ajax-G10D-Trentacosti",
       "date": "2026-10-25",
       "division": "G10D",
@@ -454,14 +454,14 @@
       "field_id": "751",
       "game_id": "414869",
       "home_club": "WestEssex",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "WestEssex-G10D-Pajuelo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:15 AM"
     },
     {
       "away_club": "Rutherford",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "Rutherford-G10D-Traganos",
       "date": "2026-10-25",
       "division": "G10D",
@@ -469,14 +469,14 @@
       "field_id": "182",
       "game_id": "414865",
       "home_club": "Dragons",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Dragons-G10D-Donohue",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
       "away_club": "GlenRock",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "GlenRock-G10D-Casas",
       "date": "2026-10-25",
       "division": "G10D",
@@ -484,14 +484,14 @@
       "field_id": "1200",
       "game_id": "414867",
       "home_club": "Lakeland",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Lakeland-G10D-Daniell",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:00 AM"
     },
     {
       "away_club": "NoRockland",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "NoRockland-G10D-Mavrorasakis",
       "date": "2026-10-25",
       "division": "G10D",
@@ -499,9 +499,9 @@
       "field_id": "998",
       "game_id": "414866",
       "home_club": "FairLawnAllSports",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "FairLawnAllSports-G10D-Samaniego",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
     },
     {
@@ -563,21 +563,6 @@
       "home_team": "Ajax-G10D-Trentacosti",
       "is_upcoming": true,
       "time": "11:00 AM"
-    },
-    {
-      "away_club": "WestEssex",
-      "away_score": null,
-      "away_team": "WestEssex-G10D-Pajuelo",
-      "date": "2026-11-01",
-      "division": "G10D",
-      "field": "Faber Turf Small",
-      "field_id": "170",
-      "game_id": "414871",
-      "home_club": "GlenRock",
-      "home_score": null,
-      "home_team": "GlenRock-G10D-Casas",
-      "is_upcoming": true,
-      "time": "04:00 PM"
     },
     {
       "away_club": "Tenafly",
@@ -745,6 +730,21 @@
       "time": "02:30 PM"
     },
     {
+      "away_club": "WestEssex",
+      "away_score": null,
+      "away_team": "WestEssex-G10D-Pajuelo",
+      "date": "2026-11-15",
+      "division": "G10D",
+      "field": "Faber Turf Small",
+      "field_id": "170",
+      "game_id": "414871",
+      "home_club": "GlenRock",
+      "home_score": null,
+      "home_team": "GlenRock-G10D-Casas",
+      "is_upcoming": true,
+      "time": "03:45 PM"
+    },
+    {
       "away_club": "NoRockland",
       "away_score": null,
       "away_team": "NoRockland-G10D-Mavrorasakis",
@@ -805,6 +805,6 @@
       "time": "11:00 AM"
     }
   ],
-  "scraped_at": "2026-10-25T11:09:34.121283Z",
+  "scraped_at": "2026-10-26T12:40:09.193554Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

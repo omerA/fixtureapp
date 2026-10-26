@@ -1,6 +1,6 @@
 {
   "division": "G12DW",
-  "scraped_at": "2026-10-25T11:05:10.059414Z",
+  "scraped_at": "2026-10-26T12:35:28.841366Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "WestEssex",
       "coach": "Scorciolla",
       "draws": 0,
-      "form": "WWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -53,22 +53,33 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414953",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G12DW-Guanga",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "WEssex-Egan"
         }
       ],
-      "goal_diff": 17,
+      "goal_diff": 24,
       "goals_against": 5,
-      "goals_for": 22,
+      "goals_for": 29,
       "losses": 0,
-      "played": 4,
-      "points": 12,
+      "played": 5,
+      "points": 15,
       "team_raw": "WestEssex-G12DW-Scorciolla",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WOrange",
       "coach": "Tutalo",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-10-24",
@@ -124,22 +135,33 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414951",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G12DW-Hong",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": 16,
+      "goal_diff": 22,
       "goals_against": 6,
-      "goals_for": 22,
+      "goals_for": 28,
       "losses": 1,
-      "played": 5,
-      "points": 12,
+      "played": 6,
+      "points": 15,
       "team_raw": "WOrange-G12DW-Tutalo",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "NoArlington",
       "coach": "Martinez",
       "draws": 0,
-      "form": "WWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -184,13 +206,24 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414952",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12DW-Duque",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 11,
-      "goals_for": 10,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -2,
+      "goals_against": 15,
+      "goals_for": 13,
+      "losses": 3,
+      "played": 5,
       "points": 6,
       "team_raw": "NoArlington-G12DW-Martinez",
       "wins": 2
@@ -199,7 +232,7 @@
       "club": "NoBergen",
       "coach": "Guanga",
       "draws": 1,
-      "form": "LLDW",
+      "form": "LLDWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -244,13 +277,24 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414953",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G12DW-Scorciolla",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "WEssex-Egan"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 9,
+      "goal_diff": -12,
+      "goals_against": 16,
       "goals_for": 4,
-      "losses": 2,
-      "played": 4,
+      "losses": 3,
+      "played": 5,
       "points": 4,
       "team_raw": "NoBergen-G12DW-Guanga",
       "wins": 1
@@ -259,7 +303,7 @@
       "club": "GlobalJC",
       "coach": "Hong",
       "draws": 1,
-      "form": "WLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -315,13 +359,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414951",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G12DW-Tutalo",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 18,
+      "goal_diff": -20,
+      "goals_against": 24,
       "goals_for": 4,
-      "losses": 3,
-      "played": 5,
+      "losses": 4,
+      "played": 6,
       "points": 4,
       "team_raw": "GlobalJC-G12DW-Hong",
       "wins": 1
@@ -330,7 +385,7 @@
       "club": "NMKnights",
       "coach": "Duque",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -375,16 +430,27 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414952",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G12DW-Martinez",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 18,
-      "goals_for": 5,
+      "goal_diff": -12,
+      "goals_against": 21,
+      "goals_for": 9,
       "losses": 4,
-      "played": 4,
-      "points": 0,
+      "played": 5,
+      "points": 3,
       "team_raw": "NMKnights-G12DW-Duque",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

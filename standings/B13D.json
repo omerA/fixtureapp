@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-10-26T12:35:25.877929Z",
+  "scraped_at": "2026-10-27T11:53:49.467918Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -101,7 +101,7 @@
       "club": "Hotspur",
       "coach": "Petrie",
       "draws": 0,
-      "form": "WLW",
+      "form": "WLWW",
       "games": [
         {
           "date": "2026-09-26",
@@ -135,16 +135,27 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "RYSA-FAMS"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415852",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B13D-Escandon",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "HOT-Tisdale"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 8,
-      "goals_for": 11,
+      "goal_diff": 10,
+      "goals_against": 9,
+      "goals_for": 19,
       "losses": 1,
-      "played": 3,
-      "points": 6,
+      "played": 4,
+      "points": 9,
       "team_raw": "Hotspur-B13D-Petrie",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "RYSA",
@@ -303,7 +314,7 @@
       "club": "Thistle",
       "coach": "Escandon",
       "draws": 0,
-      "form": "LLL",
+      "form": "LLLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -337,13 +348,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "THIS-HarveyMain"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415852",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "HOT-Tisdale"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 11,
-      "goals_for": 3,
-      "losses": 3,
-      "played": 3,
+      "goal_diff": -15,
+      "goals_against": 19,
+      "goals_for": 4,
+      "losses": 4,
+      "played": 4,
       "points": 0,
       "team_raw": "Thistle-B13D-Escandon",
       "wins": 0

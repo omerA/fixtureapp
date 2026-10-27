@@ -8,13 +8,6 @@
       "name": "Stevens Field - SS 2",
       "size": "Small Field (8 vs 8)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -136,21 +129,6 @@
       "home_team": "Torpedoes-G09E-Duka",
       "is_upcoming": true,
       "time": "08:15 AM"
-    },
-    {
-      "away_club": "Maywood",
-      "away_score": null,
-      "away_team": "Maywood-G09E-Soto",
-      "date": "2026-09-20",
-      "division": "G09E",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "414822",
-      "home_club": "HobUtd",
-      "home_score": null,
-      "home_team": "HobUtd-G09E-Rothman",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "WestEssex",
@@ -484,7 +462,7 @@
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 5,
       "away_team": "Maroons-G09E-vanGulik",
       "date": "2026-10-25",
       "division": "G09E",
@@ -492,9 +470,9 @@
       "field_id": "1269",
       "game_id": "414841",
       "home_club": "Maywood",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Maywood-G09E-Soto",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
@@ -586,6 +564,21 @@
       "home_team": "CougarUtd-G09E-Chang",
       "is_upcoming": true,
       "time": "01:45 PM"
+    },
+    {
+      "away_club": "Maywood",
+      "away_score": null,
+      "away_team": "Maywood-G09E-Soto",
+      "date": "2026-11-07",
+      "division": "G09E",
+      "field": "1600 Park",
+      "field_id": "1140",
+      "game_id": "414822",
+      "home_club": "HobUtd",
+      "home_score": null,
+      "home_team": "HobUtd-G09E-Rothman",
+      "is_upcoming": true,
+      "time": "04:00 PM"
     },
     {
       "away_club": "Verona",
@@ -798,6 +791,6 @@
       "time": "01:15 PM"
     }
   ],
-  "scraped_at": "2026-10-26T12:39:54.794493Z",
+  "scraped_at": "2026-10-27T11:58:01.684741Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

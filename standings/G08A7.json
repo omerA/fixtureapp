@@ -1,6 +1,6 @@
 {
   "division": "G08A7",
-  "scraped_at": "2026-10-26T12:35:26.963672Z",
+  "scraped_at": "2026-10-27T11:53:50.555446Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -242,8 +242,8 @@
     {
       "club": "Clarkstown",
       "coach": "JuarezOsorio",
-      "draws": 1,
-      "form": "LWWD",
+      "draws": 2,
+      "form": "LWWDD",
       "games": [
         {
           "date": "2026-10-24",
@@ -288,14 +288,25 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414335",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G08A7-Kim",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
       "goal_diff": -4,
-      "goals_against": 19,
-      "goals_for": 15,
+      "goals_against": 22,
+      "goals_for": 18,
       "losses": 1,
-      "played": 4,
-      "points": 7,
+      "played": 5,
+      "points": 8,
       "team_raw": "Clarkstown-G08A7-JuarezOsorio",
       "wins": 2
     },
@@ -373,8 +384,8 @@
     {
       "club": "Montclair",
       "coach": "Kim",
-      "draws": 1,
-      "form": "LLLLD",
+      "draws": 2,
+      "form": "LLLDD",
       "games": [
         {
           "date": "2026-10-24",
@@ -432,6 +443,17 @@
           "venue_code": "NY-WC-Field3"
         },
         {
+          "date": "2026-10-25",
+          "game_number": "414335",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G08A7-JuarezOsorio",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414343",
           "goals_against": 2,
@@ -444,11 +466,11 @@
         }
       ],
       "goal_diff": -17,
-      "goals_against": 30,
-      "goals_for": 13,
+      "goals_against": 33,
+      "goals_for": 16,
       "losses": 5,
-      "played": 6,
-      "points": 1,
+      "played": 7,
+      "points": 2,
       "team_raw": "Montclair-G08A7-Kim",
       "wins": 0
     }

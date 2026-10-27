@@ -1,6 +1,6 @@
 {
   "division": "G11XB",
-  "scraped_at": "2026-10-26T12:35:28.438195Z",
+  "scraped_at": "2026-10-27T11:53:52.025260Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,6 +29,33 @@
       "played": 1,
       "points": 3,
       "team_raw": "Maroons-G11XB-Cotter",
+      "wins": 1
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Kubasta",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-26",
+          "game_number": "417964",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G11XB-Reed",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-G11XB-Kubasta",
       "wins": 1
     },
     {
@@ -85,36 +112,6 @@
       "wins": 0
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Kubasta",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-G11XB-Kubasta",
-      "wins": 0
-    },
-    {
-      "club": "Warriors",
-      "coach": "Reed",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Warriors-G11XB-Reed",
-      "wins": 0
-    },
-    {
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 0,
@@ -165,6 +162,33 @@
       "played": 2,
       "points": 0,
       "team_raw": "WayneBG-G11XB-Vinces",
+      "wins": 0
+    },
+    {
+      "club": "Warriors",
+      "coach": "Reed",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-26",
+          "game_number": "417964",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11XB-Kubasta",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 3,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Warriors-G11XB-Reed",
       "wins": 0
     },
     {

@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-10-26T12:35:27.468826Z",
+  "scraped_at": "2026-10-27T11:53:51.083596Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -322,6 +322,77 @@
       "wins": 3
     },
     {
+      "club": "Maroons",
+      "coach": "vanGulik",
+      "draws": 0,
+      "form": "WLLWW",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "414824",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G09E-Goman",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414839",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09E-Duka",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414841",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09E-Soto",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414856",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09E-Chang",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-OrchardSchool"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417664",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G09E-Goman",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "VERONA-ForestAve"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 15,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 5,
+      "points": 6,
+      "team_raw": "Maroons-G09E-vanGulik",
+      "wins": 2
+    },
+    {
       "club": "RiverDell",
       "coach": "Norris",
       "draws": 1,
@@ -385,7 +456,7 @@
       "club": "Maywood",
       "coach": "Soto",
       "draws": 0,
-      "form": "WL",
+      "form": "WLL",
       "games": [
         {
           "date": "2026-10-09",
@@ -408,75 +479,26 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414841",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09E-vanGulik",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 6,
-      "goals_for": 11,
-      "losses": 1,
-      "played": 2,
+      "goal_diff": 2,
+      "goals_against": 11,
+      "goals_for": 13,
+      "losses": 2,
+      "played": 3,
       "points": 3,
       "team_raw": "Maywood-G09E-Soto",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "vanGulik",
-      "draws": 0,
-      "form": "WLLW",
-      "games": [
-        {
-          "date": "2026-10-24",
-          "game_number": "414824",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G09E-Goman",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "VERONA-ForestAve"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414839",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09E-Duka",
-          "result": "L",
-          "time": "10:15 AM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414856",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G09E-Chang",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "MAR-OrchardSchool"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417664",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G09E-Goman",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "VERONA-ForestAve"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 13,
-      "goals_for": 8,
-      "losses": 2,
-      "played": 4,
-      "points": 3,
-      "team_raw": "Maroons-G09E-vanGulik",
       "wins": 1
     },
     {

@@ -8,6 +8,13 @@
       "name": "Veterans Field - FS 3",
       "size": "Large Field (11 vs 11)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "18": {
       "address": "100 Riveredge Rd, Tenafly, NJ 07670",
       "comments": "100 x 57. 80 x 45",
@@ -55,13 +62,6 @@
       "comments": "11v11 turf field that is also lined for 7v7 & 9v9 games",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Brookdale Stadium",
-      "size": "Large Field (11 vs 11)"
-    },
-    "47": {
-      "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
-      "comments": "",
-      "details": "LIGHTS \u2014 ARTIFICIAL",
-      "name": "Maple Park",
       "size": "Large Field (11 vs 11)"
     },
     "481": {
@@ -372,6 +372,21 @@
       "time": "05:00 PM"
     },
     {
+      "away_club": "Harrison",
+      "away_score": null,
+      "away_team": "Harrison-B13E-Vassallo",
+      "date": "2026-10-31",
+      "division": "B13E",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "416358",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B13E-Herbert",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
       "away_club": "Arsenal",
       "away_score": null,
       "away_team": "Arsenal-B13E-McDermott",
@@ -400,21 +415,6 @@
       "home_team": "Tenafly-B13E-Rangrez",
       "is_upcoming": true,
       "time": "02:15 PM"
-    },
-    {
-      "away_club": "Harrison",
-      "away_score": null,
-      "away_team": "Harrison-B13E-Vassallo",
-      "date": "2026-10-31",
-      "division": "B13E",
-      "field": "Maple Park",
-      "field_id": "47",
-      "game_id": "416358",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B13E-Herbert",
-      "is_upcoming": true,
-      "time": "05:15 PM"
     },
     {
       "away_club": "Tenafly",
@@ -552,6 +552,6 @@
       "time": "01:45 PM"
     }
   ],
-  "scraped_at": "2026-10-26T12:38:45.802108Z",
+  "scraped_at": "2026-10-27T11:56:54.819513Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

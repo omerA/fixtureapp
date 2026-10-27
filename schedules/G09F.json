@@ -57,13 +57,6 @@
       "name": "Jessie George School Field",
       "size": "Small Field (8 vs 8)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -115,21 +108,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "RYSA",
-      "away_score": null,
-      "away_team": "RYSA-G09F-Calderon",
-      "date": "2026-09-06",
-      "division": "G09F",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "415004",
-      "home_club": "Southside",
-      "home_score": null,
-      "home_team": "Southside-G09F-Oscanoa",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Rutherford",
       "away_score": 3,
@@ -356,21 +334,6 @@
       "time": "08:00 PM"
     },
     {
-      "away_club": "Hotspur",
-      "away_score": 1,
-      "away_team": "Hotspur-G09F-Ullrich",
-      "date": "2026-10-17",
-      "division": "G09F",
-      "field": "High Mountain School",
-      "field_id": "176",
-      "game_id": "415021",
-      "home_club": "RYSA",
-      "home_score": 8,
-      "home_team": "RYSA-G09F-Calderon",
-      "is_upcoming": false,
-      "time": "12:00 PM"
-    },
-    {
       "away_club": "Rutherford",
       "away_score": 4,
       "away_team": "Rutherford-G09F-Eng",
@@ -382,6 +345,21 @@
       "home_club": "Dragons",
       "home_score": 0,
       "home_team": "Dragons-G09F-Wehmann",
+      "is_upcoming": false,
+      "time": "12:00 PM"
+    },
+    {
+      "away_club": "Hotspur",
+      "away_score": 1,
+      "away_team": "Hotspur-G09F-Ullrich",
+      "date": "2026-10-17",
+      "division": "G09F",
+      "field": "High Mountain School",
+      "field_id": "176",
+      "game_id": "415021",
+      "home_club": "RYSA",
+      "home_score": 8,
+      "home_team": "RYSA-G09F-Calderon",
       "is_upcoming": false,
       "time": "12:00 PM"
     },
@@ -716,21 +694,6 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "Southside",
-      "away_score": null,
-      "away_team": "Southside-G09F-Oscanoa",
-      "date": "2026-11-08",
-      "division": "G09F",
-      "field": "SUNNYSIDE PARK FIELD",
-      "field_id": "1106",
-      "game_id": "415046",
-      "home_club": "Tenafly",
-      "home_score": null,
-      "home_team": "Tenafly-G09F-Demoraes",
-      "is_upcoming": true,
-      "time": "02:00 PM"
-    },
-    {
       "away_club": "WoodRidge",
       "away_score": null,
       "away_team": "WoodRidge-G09F-Cartagena",
@@ -742,6 +705,21 @@
       "home_club": "Clarkstown",
       "home_score": null,
       "home_team": "Clarkstown-G09F-Kean",
+      "is_upcoming": true,
+      "time": "02:00 PM"
+    },
+    {
+      "away_club": "Southside",
+      "away_score": null,
+      "away_team": "Southside-G09F-Oscanoa",
+      "date": "2026-11-08",
+      "division": "G09F",
+      "field": "SUNNYSIDE PARK FIELD",
+      "field_id": "1106",
+      "game_id": "415046",
+      "home_club": "Tenafly",
+      "home_score": null,
+      "home_team": "Tenafly-G09F-Demoraes",
       "is_upcoming": true,
       "time": "02:00 PM"
     },
@@ -866,6 +844,21 @@
       "time": "12:30 PM"
     },
     {
+      "away_club": "RYSA",
+      "away_score": null,
+      "away_team": "RYSA-G09F-Calderon",
+      "date": "2026-11-21",
+      "division": "G09F",
+      "field": "Samuel Braen Memorial Park 7v7",
+      "field_id": "1167",
+      "game_id": "415004",
+      "home_club": "Southside",
+      "home_score": null,
+      "home_team": "Southside-G09F-Oscanoa",
+      "is_upcoming": true,
+      "time": "05:15 PM"
+    },
+    {
       "away_club": "Dragons",
       "away_score": null,
       "away_team": "Dragons-G09F-Wehmann",
@@ -941,6 +934,6 @@
       "time": "02:15 PM"
     }
   ],
-  "scraped_at": "2026-10-26T12:39:57.764821Z",
+  "scraped_at": "2026-10-27T11:58:04.502440Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

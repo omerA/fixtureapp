@@ -36,13 +36,6 @@
       "name": "Faber Turf Small",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "646": {
       "address": "1800 Summit Ave, Union City, NJ 07087",
       "comments": "",
@@ -162,21 +155,6 @@
       "home_team": "Lakeland-G12CW-Gray",
       "is_upcoming": false,
       "time": "04:00 PM"
-    },
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G12CW-McAndrews",
-      "date": "2026-09-27",
-      "division": "G12CW",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416923",
-      "home_club": "Lakeland",
-      "home_score": null,
-      "home_team": "Lakeland-G12CW-Gray",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "UnionCity",
@@ -404,6 +382,21 @@
       "time": "12:00 PM"
     },
     {
+      "away_club": "Lakeland",
+      "away_score": null,
+      "away_team": "Lakeland-G12CW-Gray",
+      "date": "2026-11-02",
+      "division": "G12CW",
+      "field": "Williams Field 9v9",
+      "field_id": "754",
+      "game_id": "416923",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G12CW-McAndrews",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "GlenRock",
       "away_score": null,
       "away_team": "GlenRock-G12CW-Palestis",
@@ -419,19 +412,19 @@
       "time": "11:00 AM"
     },
     {
-      "away_club": "Lakeland",
+      "away_club": "NMKnights",
       "away_score": null,
-      "away_team": "Lakeland-G12CW-Gray",
+      "away_team": "NMKnights-G12CW-McAndrews",
       "date": "2026-11-08",
       "division": "G12CW",
-      "field": "Williams Field 9v9",
-      "field_id": "754",
+      "field": "Back Beach Park 2 Small-Sided 9v9",
+      "field_id": "1201",
       "game_id": "416938",
-      "home_club": "NMKnights",
+      "home_club": "Lakeland",
       "home_score": null,
-      "home_team": "NMKnights-G12CW-McAndrews",
+      "home_team": "Lakeland-G12CW-Gray",
       "is_upcoming": true,
-      "time": "02:30 PM"
+      "time": "06:00 PM"
     },
     {
       "away_club": "NMKnights",
@@ -524,6 +517,6 @@
       "time": "10:15 AM"
     }
   ],
-  "scraped_at": "2026-10-26T12:40:46.110507Z",
+  "scraped_at": "2026-10-27T11:58:52.426260Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

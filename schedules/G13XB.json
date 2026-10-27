@@ -1,6 +1,13 @@
 {
   "division": "G13XB",
   "fields": {
+    "1021": {
+      "address": "John F Kennedy Dr N, Bloomfield, NJ 07003, Bloomfield, NJ 07003",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Foley Field",
+      "size": "Large Field (11 vs 11)"
+    },
     "1038": {
       "address": "250 Prospect Street, Midland Park, NJ 07432",
       "comments": "Stadium, With Grandstand, Rear of School",
@@ -84,6 +91,21 @@
       "time": "06:00 PM"
     },
     {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-G13XB-Buttacavoli",
+      "date": "2026-11-16",
+      "division": "G13XB",
+      "field": "Foley Field",
+      "field_id": "1021",
+      "game_id": "418194",
+      "home_club": "BLMFLD",
+      "home_score": null,
+      "home_team": "BLMFLD-G13XB-Crespo",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
       "away_club": "Ajax",
       "away_score": null,
       "away_team": "Ajax-G13XB-Jackson",
@@ -97,21 +119,6 @@
       "home_team": "FairLawnAllSports-G13XB-Rand",
       "is_upcoming": true,
       "time": "07:15 PM"
-    },
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-G13XB-Buttacavoli",
-      "date": "2026-12-03",
-      "division": "G13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418194",
-      "home_club": "BLMFLD",
-      "home_score": null,
-      "home_team": "BLMFLD-G13XB-Crespo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "BLMFLD",
@@ -159,6 +166,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-26T12:41:14.388545Z",
+  "scraped_at": "2026-10-27T11:59:20.099978Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "B12DW",
-  "scraped_at": "2026-10-26T12:35:25.214551Z",
+  "scraped_at": "2026-10-27T11:53:48.798236Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -251,10 +251,81 @@
       "wins": 4
     },
     {
+      "club": "Maywood",
+      "coach": "Bautista",
+      "draws": 1,
+      "form": "LWDWW",
+      "games": [
+        {
+          "date": "2026-10-17",
+          "game_number": "414109",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12DW-Tran",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "VIK-Ruckman"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414116",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B12DW-Chudzik",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-10-26",
+          "game_number": "414123",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B12DW-Fiori",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414129",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B12DW-Martinez",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "WORANGE-Oconnor"
+        },
+        {
+          "date": "2026-10-21",
+          "game_number": "414133",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12DW-Hykey",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 15,
+      "goals_for": 25,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "Maywood-B12DW-Bautista",
+      "wins": 3
+    },
+    {
       "club": "Americans",
       "coach": "Fiori",
       "draws": 1,
-      "form": "WWWLD",
+      "form": "WWLDL",
       "games": [
         {
           "date": "2026-10-25",
@@ -277,6 +348,17 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "AMER-LionsSoLacrosse"
+        },
+        {
+          "date": "2026-10-26",
+          "game_number": "414123",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B12DW-Bautista",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
         },
         {
           "date": "2026-10-03",
@@ -312,11 +394,11 @@
           "venue_code": "AMER-LionsSoLacrosse"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 12,
-      "goals_for": 24,
-      "losses": 1,
-      "played": 5,
+      "goal_diff": 7,
+      "goals_against": 20,
+      "goals_for": 27,
+      "losses": 2,
+      "played": 6,
       "points": 10,
       "team_raw": "Americans-B12DW-Fiori",
       "wins": 3
@@ -380,66 +462,6 @@
       "points": 9,
       "team_raw": "CougarUtd-B12DW-Jang",
       "wins": 3
-    },
-    {
-      "club": "Maywood",
-      "coach": "Bautista",
-      "draws": 1,
-      "form": "LWDW",
-      "games": [
-        {
-          "date": "2026-10-17",
-          "game_number": "414109",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12DW-Tran",
-          "result": "D",
-          "time": "04:45 PM",
-          "venue_code": "VIK-Ruckman"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414116",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B12DW-Chudzik",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414129",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-B12DW-Martinez",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "WORANGE-Oconnor"
-        },
-        {
-          "date": "2026-10-21",
-          "game_number": "414133",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12DW-Hykey",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 12,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 4,
-      "points": 7,
-      "team_raw": "Maywood-B12DW-Bautista",
-      "wins": 2
     },
     {
       "club": "Mahwah",

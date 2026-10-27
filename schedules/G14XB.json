@@ -8,6 +8,13 @@
       "name": "Hopper Ave Field",
       "size": "Both (Small & Large)"
     },
+    "1121": {
+      "address": "330 River Rd, New Milford, NJ 07646",
+      "comments": "11v11",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "NMilford-NMHSMain",
+      "size": "Large Field (11 vs 11)"
+    },
     "303": {
       "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
       "comments": "11v11 turf field that is also lined for 7v7 & 9v9 games",
@@ -20,13 +27,6 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Doug Parcells Athletic Complex North",
-      "size": "Both (Small & Large)"
-    },
-    "766": {
-      "address": "930 River Rd, New Milford, NJ 07646",
-      "comments": "Fall is used for 11v11, Spring is used for 4v4",
-      "details": "LIGHTS \u2014 ARTIFICIAL",
-      "name": "Kennedy Field",
       "size": "Both (Small & Large)"
     },
     "798": {
@@ -61,21 +61,6 @@
       "time": "06:30 PM"
     },
     {
-      "away_club": "Montclair",
-      "away_score": null,
-      "away_team": "Montclair-G14XB-Lehman",
-      "date": "2026-10-31",
-      "division": "G14XB",
-      "field": "Kennedy Field",
-      "field_id": "766",
-      "game_id": "417965",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-G14XB-Regas",
-      "is_upcoming": true,
-      "time": "10:00 AM"
-    },
-    {
       "away_club": "NoRockland",
       "away_score": null,
       "away_team": "NoRockland-G14XB-Barrios",
@@ -104,6 +89,21 @@
       "home_team": "Warriors-G14XB-Clark",
       "is_upcoming": true,
       "time": "04:00 PM"
+    },
+    {
+      "away_club": "Montclair",
+      "away_score": null,
+      "away_team": "Montclair-G14XB-Lehman",
+      "date": "2026-11-11",
+      "division": "G14XB",
+      "field": "NMilford-NMHSMain",
+      "field_id": "1121",
+      "game_id": "417965",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G14XB-Regas",
+      "is_upcoming": true,
+      "time": "07:15 PM"
     },
     {
       "away_club": "Warriors",
@@ -166,6 +166,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-26T12:41:28.638423Z",
+  "scraped_at": "2026-10-27T11:59:34.369829Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

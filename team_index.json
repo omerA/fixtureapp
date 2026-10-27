@@ -69,6 +69,7 @@
       "BLMFLD-G11DW-Parsons",
       "BLMFLD-G12B-Virgin",
       "BLMFLD-G13A-Crespo",
+      "BLMFLD-G13XB-Crespo",
       "BLMFLD-G14B-Marri"
     ],
     "Belleville": [
@@ -663,6 +664,7 @@
       "Paramus-B12F-Buttacavoli",
       "Paramus-G11C-Buttacavoli",
       "Paramus-G13B-Buttacavoli",
+      "Paramus-G13XB-Buttacavoli",
       "Paramus-G15A-Buttacavoli"
     ],
     "RIDGFLD": [
@@ -1370,6 +1372,11 @@
       "club": "BLMFLD",
       "coach": "Crespo",
       "division": "G13A"
+    },
+    "BLMFLD-G13XB-Crespo": {
+      "club": "BLMFLD",
+      "coach": "Crespo",
+      "division": "G13XB"
     },
     "BLMFLD-G14B-Marri": {
       "club": "BLMFLD",
@@ -3981,6 +3988,11 @@
       "coach": "Buttacavoli",
       "division": "G13B"
     },
+    "Paramus-G13XB-Buttacavoli": {
+      "club": "Paramus",
+      "coach": "Buttacavoli",
+      "division": "G13XB"
+    },
     "Paramus-G15A-Buttacavoli": {
       "club": "Paramus",
       "coach": "Buttacavoli",
@@ -5936,7 +5948,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-26T12:35:21.301996+00:00",
+  "scraped_at": "2026-10-27T11:53:44.875967+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

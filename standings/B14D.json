@@ -1,6 +1,6 @@
 {
   "division": "B14D",
-  "scraped_at": "2026-10-26T12:35:26.469984Z",
+  "scraped_at": "2026-10-27T11:53:50.061372Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -300,6 +300,88 @@
       "wins": 3
     },
     {
+      "club": "Maroons",
+      "coach": "dePaula",
+      "draws": 0,
+      "form": "WLWLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414661",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B14D-Molisani",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414665",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B14D-Uribe",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414667",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B14D-Holder",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414675",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14D-Hu",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414680",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B14D-Burucuoglu",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414684",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B14D-Wells",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MAR-Stevens"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 12,
+      "goals_for": 9,
+      "losses": 3,
+      "played": 6,
+      "points": 9,
+      "team_raw": "Maroons-B14D-dePaula",
+      "wins": 3
+    },
+    {
       "club": "GlenRidge",
       "coach": "Jerolimic",
       "draws": 0,
@@ -385,7 +467,7 @@
       "club": "Verona",
       "coach": "Molisani",
       "draws": 2,
-      "form": "WWDDL",
+      "form": "WDDLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -441,22 +523,115 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414686",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14D-Hu",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "VERONA-Centennial"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 12,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 5,
+      "goal_diff": 9,
+      "goals_against": 15,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 6,
       "points": 8,
       "team_raw": "Verona-B14D-Molisani",
+      "wins": 2
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Hu",
+      "draws": 0,
+      "form": "LLLWW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414660",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B14D-Burucuoglu",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414662",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B14D-Wells",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414675",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14D-dePaula",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414681",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B14D-Jerolimic",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414686",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B14D-Molisani",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414690",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B14D-Uribe",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "TEN-Municipal"
+        }
+      ],
+      "goal_diff": -17,
+      "goals_against": 27,
+      "goals_for": 10,
+      "losses": 4,
+      "played": 6,
+      "points": 6,
+      "team_raw": "Tenafly-B14D-Hu",
       "wins": 2
     },
     {
       "club": "AviatorsHHSA",
       "coach": "Wells",
       "draws": 1,
-      "form": "LWLDL",
+      "form": "WLDLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -512,135 +687,26 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414684",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14D-dePaula",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "MAR-Stevens"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 14,
-      "goals_for": 10,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -6,
+      "goals_against": 17,
+      "goals_for": 11,
+      "losses": 4,
+      "played": 6,
       "points": 4,
       "team_raw": "AviatorsHHSA-B14D-Wells",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "dePaula",
-      "draws": 0,
-      "form": "LWLL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414661",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B14D-Molisani",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414665",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B14D-Uribe",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "MAR-MaplePark"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414667",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B14D-Holder",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414680",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B14D-Burucuoglu",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        }
-      ],
-      "goal_diff": -8,
-      "goals_against": 10,
-      "goals_for": 2,
-      "losses": 3,
-      "played": 4,
-      "points": 3,
-      "team_raw": "Maroons-B14D-dePaula",
-      "wins": 1
-    },
-    {
-      "club": "Tenafly",
-      "coach": "Hu",
-      "draws": 0,
-      "form": "LLLW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414660",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B14D-Burucuoglu",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414662",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B14D-Wells",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "AVIA-Hitchcock"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414681",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B14D-Jerolimic",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414690",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B14D-Uribe",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "TEN-Municipal"
-        }
-      ],
-      "goal_diff": -15,
-      "goals_against": 21,
-      "goals_for": 6,
-      "losses": 3,
-      "played": 4,
-      "points": 3,
-      "team_raw": "Tenafly-B14D-Hu",
       "wins": 1
     },
     {

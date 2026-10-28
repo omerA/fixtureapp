@@ -1,6 +1,6 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-10-27T11:53:48.947563Z",
+  "scraped_at": "2026-10-28T12:26:07.497112Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -486,6 +486,99 @@
       "wins": 2
     },
     {
+      "club": "Vikings",
+      "coach": "Gardiner",
+      "draws": 0,
+      "form": "WLLLW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "415783",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12F-Ahmed",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "415788",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B12F-Glick",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "VIK-Ruckman"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "415798",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B12F-Dzilla",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415803",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "VIK-Schauble"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415804",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B12F-Lombardy",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415813",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12F-Whalen",
+          "result": "L",
+          "time": "02:45 PM",
+          "venue_code": "VIK-Ruckman"
+        },
+        {
+          "date": "2026-10-27",
+          "game_number": "416290",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B12F-Buttacavoli",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 18,
+      "goals_for": 14,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "Vikings-B12F-Gardiner",
+      "wins": 2
+    },
+    {
       "club": "Torpedoes",
       "coach": "Dzilla",
       "draws": 2,
@@ -664,7 +757,7 @@
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 1,
-      "form": "WLD",
+      "form": "WLDL",
       "games": [
         {
           "date": "2026-09-19",
@@ -698,97 +791,26 @@
           "result": "D",
           "time": "02:30 PM",
           "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-10-27",
+          "game_number": "416290",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Gardiner",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 12,
-      "goals_for": 10,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": -6,
+      "goals_against": 17,
+      "goals_for": 11,
+      "losses": 2,
+      "played": 4,
       "points": 4,
       "team_raw": "Paramus-B12F-Buttacavoli",
-      "wins": 1
-    },
-    {
-      "club": "Vikings",
-      "coach": "Gardiner",
-      "draws": 0,
-      "form": "LWLLL",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "415783",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B12F-Ahmed",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "415788",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B12F-Glick",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "VIK-Ruckman"
-        },
-        {
-          "date": "2026-10-23",
-          "game_number": "415798",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B12F-Dzilla",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "TORP-Pulis4"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415803",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12F-Gillies",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "VIK-Schauble"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415804",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-B12F-Lombardy",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "BLMFLD-LionsGate"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415813",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B12F-Whalen",
-          "result": "L",
-          "time": "02:45 PM",
-          "venue_code": "VIK-Ruckman"
-        }
-      ],
-      "goal_diff": -8,
-      "goals_against": 17,
-      "goals_for": 9,
-      "losses": 5,
-      "played": 6,
-      "points": 3,
-      "team_raw": "Vikings-B12F-Gardiner",
       "wins": 1
     },
     {

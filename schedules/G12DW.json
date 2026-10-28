@@ -1,6 +1,13 @@
 {
   "division": "G12DW",
   "fields": {
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1150": {
       "address": "23 Merseles Street, Jersey City, NJ 07302",
       "comments": "",
@@ -315,6 +322,21 @@
       "time": "04:45 PM"
     },
     {
+      "away_club": "NoArlington",
+      "away_score": null,
+      "away_team": "NoArlington-G12DW-Martinez",
+      "date": "2026-11-01",
+      "division": "G12DW",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "414955",
+      "home_club": "NoBergen",
+      "home_score": null,
+      "home_team": "NoBergen-G12DW-Guanga",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
       "away_club": "GlobalJC",
       "away_score": null,
       "away_team": "GlobalJC-G12DW-Hong",
@@ -328,21 +350,6 @@
       "home_team": "NMKnights-G12DW-Duque",
       "is_upcoming": true,
       "time": "01:00 PM"
-    },
-    {
-      "away_club": "NoArlington",
-      "away_score": null,
-      "away_team": "NoArlington-G12DW-Martinez",
-      "date": "2026-11-01",
-      "division": "G12DW",
-      "field": "James Braddock / Soccer Field behind bleachers",
-      "field_id": "798",
-      "game_id": "414955",
-      "home_club": "NoBergen",
-      "home_score": null,
-      "home_team": "NoBergen-G12DW-Guanga",
-      "is_upcoming": true,
-      "time": "02:15 PM"
     },
     {
       "away_club": "WestEssex",
@@ -510,6 +517,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-10-27T11:58:58.084105Z",
+  "scraped_at": "2026-10-28T12:31:26.947940Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

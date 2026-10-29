@@ -1,6 +1,6 @@
 {
   "division": "B11E",
-  "scraped_at": "2026-10-28T12:26:06.660271Z",
+  "scraped_at": "2026-10-29T12:35:53.368190Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -90,7 +90,7 @@
       "club": "Lyndhurst",
       "coach": "Iacono",
       "draws": 0,
-      "form": "WLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -157,16 +157,27 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-10-28",
+          "game_number": "417293",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11E-Camara",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 14,
-      "goals_for": 26,
+      "goal_diff": 16,
+      "goals_against": 15,
+      "goals_for": 31,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 15,
       "team_raw": "Lyndhurst-B11E-Iacono",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Spartan",
@@ -254,7 +265,7 @@
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -310,13 +321,24 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-28",
+          "game_number": "417293",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B11E-Iacono",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 19,
-      "goals_for": 10,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -13,
+      "goals_against": 24,
+      "goals_for": 11,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "WayneBG-B11E-Camara",
       "wins": 2

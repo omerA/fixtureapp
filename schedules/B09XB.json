@@ -15,13 +15,6 @@
       "name": "Stevens Field - SS 1",
       "size": "Small Field (8 vs 8)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -29,11 +22,25 @@
       "name": "1600 Park",
       "size": "Small Field (8 vs 8)"
     },
+    "1167": {
+      "address": "83 Roe St., Haledon, NJ 07508",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Samuel Braen Memorial Park 7v7",
+      "size": "Small Field (8 vs 8)"
+    },
     "1234": {
       "address": "235 Harrington Ave., Westwood, NJ 07675",
       "comments": "7v7 field",
       "details": "LIGHTS \u2014 GRASS",
       "name": "Westvale Back 7v7",
+      "size": "Small Field (8 vs 8)"
+    },
+    "604": {
+      "address": "65 Park Avenue, Nutley, NJ 07110",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Monsignor Owens Park2",
       "size": "Small Field (8 vs 8)"
     },
     "799": {
@@ -83,21 +90,6 @@
       "time": "06:30 PM"
     },
     {
-      "away_club": "Dragons",
-      "away_score": null,
-      "away_team": "Dragons-B09XB-Gioffre",
-      "date": "2026-11-01",
-      "division": "B09XB",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "418100",
-      "home_club": "Nutley",
-      "home_score": null,
-      "home_team": "Nutley-B09XB-Crespo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B09XB-Breheny",
@@ -128,6 +120,36 @@
       "time": "06:00 PM"
     },
     {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-B09XB-Anari",
+      "date": "2026-11-07",
+      "division": "B09XB",
+      "field": "Samuel Braen Memorial Park 7v7",
+      "field_id": "1167",
+      "game_id": "418101",
+      "home_club": "Southside",
+      "home_score": null,
+      "home_team": "Southside-B09XB-Zamora",
+      "is_upcoming": true,
+      "time": "01:30 PM"
+    },
+    {
+      "away_club": "Dragons",
+      "away_score": null,
+      "away_team": "Dragons-B09XB-Gioffre",
+      "date": "2026-11-15",
+      "division": "B09XB",
+      "field": "Monsignor Owens Park2",
+      "field_id": "604",
+      "game_id": "418100",
+      "home_club": "Nutley",
+      "home_score": null,
+      "home_team": "Nutley-B09XB-Crespo",
+      "is_upcoming": true,
+      "time": "10:30 AM"
+    },
+    {
       "away_club": "HobUtd",
       "away_score": null,
       "away_team": "HobUtd-B09XB-Kapur",
@@ -141,21 +163,6 @@
       "home_team": "Maroons-B09XB-Breheny",
       "is_upcoming": true,
       "time": "04:00 PM"
-    },
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-B09XB-Anari",
-      "date": "2026-12-03",
-      "division": "B09XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418101",
-      "home_club": "Southside",
-      "home_score": null,
-      "home_team": "Southside-B09XB-Zamora",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Southside",
@@ -173,6 +180,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-28T12:27:19.506948Z",
+  "scraped_at": "2026-10-29T12:37:00.865086Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

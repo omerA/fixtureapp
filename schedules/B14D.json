@@ -15,6 +15,13 @@
       "name": "Veterans Field - FS 3",
       "size": "Large Field (11 vs 11)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "137": {
       "address": "Hackensack Avenue and River Street, Hackensack, NJ 07601",
       "comments": "Full sided - Turf",
@@ -601,14 +608,14 @@
       "away_team": "GlenRidge-B14D-Jerolimic",
       "date": "2026-11-01",
       "division": "B14D",
-      "field": "Depken Field",
-      "field_id": "517",
+      "field": "TBS Postponed",
+      "field_id": "1111",
       "game_id": "414687",
       "home_club": "AviatorsHHSA",
       "home_score": null,
       "home_team": "AviatorsHHSA-B14D-Wells",
       "is_upcoming": true,
-      "time": "12:00 PM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "Spartan",
@@ -776,6 +783,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "Spartan",
+      "away_score": null,
+      "away_team": "Spartan-B14D-Burucuoglu",
+      "date": "2026-11-15",
+      "division": "B14D",
+      "field": "Municipal Field",
+      "field_id": "18",
+      "game_id": "414706",
+      "home_club": "Tenafly",
+      "home_score": null,
+      "home_team": "Tenafly-B14D-Hu",
+      "is_upcoming": true,
+      "time": "03:00 PM"
+    },
+    {
       "away_club": "GlenRidge",
       "away_score": null,
       "away_team": "GlenRidge-B14D-Jerolimic",
@@ -789,21 +811,6 @@
       "home_team": "NoArlington-B14D-McSorley",
       "is_upcoming": true,
       "time": "03:30 PM"
-    },
-    {
-      "away_club": "Tenafly",
-      "away_score": null,
-      "away_team": "Tenafly-B14D-Hu",
-      "date": "2026-11-21",
-      "division": "B14D",
-      "field": "Parkway Middle School 11",
-      "field_id": "1007",
-      "game_id": "414706",
-      "home_club": "Spartan",
-      "home_score": null,
-      "home_team": "Spartan-B14D-Burucuoglu",
-      "is_upcoming": true,
-      "time": "08:00 AM"
     },
     {
       "away_club": "NoArlington",
@@ -866,6 +873,6 @@
       "time": "05:30 PM"
     }
   ],
-  "scraped_at": "2026-10-28T12:29:44.535468Z",
+  "scraped_at": "2026-10-29T12:39:25.920453Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

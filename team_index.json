@@ -82,6 +82,7 @@
       "Belleville-B12C-Percio",
       "Belleville-B12G-Garrido",
       "Belleville-B12XB-Percio",
+      "Belleville-B12XW-Garrido",
       "Belleville-B13CB-Chavarria",
       "Belleville-B13XB-Chavarria",
       "Belleville-B14EB-Calvache",
@@ -177,6 +178,7 @@
       "Dragons-B10B-Goers",
       "Dragons-B10E-Friedman",
       "Dragons-B10XB-Goers",
+      "Dragons-B10XW-Friedman",
       "Dragons-B11D-Civitarese",
       "Dragons-B11GW-Dean",
       "Dragons-B11XW-Dean",
@@ -263,6 +265,7 @@
       "FairLawnAllSports-B13A-Rake",
       "FairLawnAllSports-B13B-Shalom",
       "FairLawnAllSports-B13XB-Rake",
+      "FairLawnAllSports-B13XB-Shalom",
       "FairLawnAllSports-B15B-Lopez",
       "FairLawnAllSports-B15E-Gudovich",
       "FairLawnAllSports-G09D-Angotti",
@@ -405,6 +408,7 @@
     ],
     "Hotspur": [
       "Hotspur-B09B-Anari",
+      "Hotspur-B09XB-Anari",
       "Hotspur-B10HW-Herbst",
       "Hotspur-B11A-Cengarle",
       "Hotspur-B12A-Rotolo",
@@ -478,6 +482,7 @@
       "Maroons-B10DW-OHara",
       "Maroons-B10E-Chambers",
       "Maroons-B10F-Chambers",
+      "Maroons-B10XW-OHara",
       "Maroons-B11E-OHara",
       "Maroons-B11H-Lawrence",
       "Maroons-B11XW-OHara",
@@ -596,6 +601,7 @@
       "NoBergen-B11D-Percontino",
       "NoBergen-B12BB-CardonaLopez",
       "NoBergen-B13CB-GraterolBriceno",
+      "NoBergen-B13XB-GraterolBriceno",
       "NoBergen-B14B-Amaya",
       "NoBergen-B14XB-Amaya",
       "NoBergen-G12DW-Guanga",
@@ -786,6 +792,7 @@
       "Southside-B08F7-Zamora",
       "Southside-B09A-Zamora",
       "Southside-B09H-Zamora",
+      "Southside-B09XB-Zamora",
       "Southside-B10G-Lainee",
       "Southside-B11EB-Zamora",
       "Southside-B12H-Lainee",
@@ -1021,6 +1028,7 @@
       "WestEssex-B10F-Scorciolla",
       "WestEssex-B10XW-Scorciolla",
       "WestEssex-B12H-Pajuelo",
+      "WestEssex-B12XW-Pajuelo",
       "WestEssex-G09E-Sevilla",
       "WestEssex-G10D-Pajuelo",
       "WestEssex-G10XW-Pajuelo",
@@ -1427,6 +1435,11 @@
       "club": "Belleville",
       "coach": "Percio",
       "division": "B12XB"
+    },
+    "Belleville-B12XW-Garrido": {
+      "club": "Belleville",
+      "coach": "Garrido",
+      "division": "B12XW"
     },
     "Belleville-B13CB-Chavarria": {
       "club": "Belleville",
@@ -1843,6 +1856,11 @@
       "coach": "Goers",
       "division": "B10XB"
     },
+    "Dragons-B10XW-Friedman": {
+      "club": "Dragons",
+      "coach": "Friedman",
+      "division": "B10XW"
+    },
     "Dragons-B11D-Civitarese": {
       "club": "Dragons",
       "coach": "Civitarese",
@@ -2221,6 +2239,11 @@
     "FairLawnAllSports-B13XB-Rake": {
       "club": "FairLawnAllSports",
       "coach": "Rake",
+      "division": "B13XB"
+    },
+    "FairLawnAllSports-B13XB-Shalom": {
+      "club": "FairLawnAllSports",
+      "coach": "Shalom",
       "division": "B13XB"
     },
     "FairLawnAllSports-B15B-Lopez": {
@@ -2843,6 +2866,11 @@
       "coach": "Anari",
       "division": "B09B"
     },
+    "Hotspur-B09XB-Anari": {
+      "club": "Hotspur",
+      "coach": "Anari",
+      "division": "B09XB"
+    },
     "Hotspur-B10HW-Herbst": {
       "club": "Hotspur",
       "coach": "Herbst",
@@ -3157,6 +3185,11 @@
       "club": "Maroons",
       "coach": "Chambers",
       "division": "B10F"
+    },
+    "Maroons-B10XW-OHara": {
+      "club": "Maroons",
+      "coach": "OHara",
+      "division": "B10XW"
     },
     "Maroons-B11E-OHara": {
       "club": "Maroons",
@@ -3687,6 +3720,11 @@
       "club": "NoBergen",
       "coach": "GraterolBriceno",
       "division": "B13CB"
+    },
+    "NoBergen-B13XB-GraterolBriceno": {
+      "club": "NoBergen",
+      "coach": "GraterolBriceno",
+      "division": "B13XB"
     },
     "NoBergen-B14B-Amaya": {
       "club": "NoBergen",
@@ -4517,6 +4555,11 @@
       "club": "Southside",
       "coach": "Zamora",
       "division": "B09H"
+    },
+    "Southside-B09XB-Zamora": {
+      "club": "Southside",
+      "coach": "Zamora",
+      "division": "B09XB"
     },
     "Southside-B10G-Lainee": {
       "club": "Southside",
@@ -5563,6 +5606,11 @@
       "coach": "Pajuelo",
       "division": "B12H"
     },
+    "WestEssex-B12XW-Pajuelo": {
+      "club": "WestEssex",
+      "coach": "Pajuelo",
+      "division": "B12XW"
+    },
     "WestEssex-G09E-Sevilla": {
       "club": "WestEssex",
       "coach": "Sevilla",
@@ -5948,7 +5996,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-10-28T12:26:03.579062+00:00",
+  "scraped_at": "2026-10-29T12:35:51.146591+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

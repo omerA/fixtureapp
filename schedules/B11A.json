@@ -15,13 +15,6 @@
       "name": "Waldwick H.S. Turf Field 1 - small",
       "size": "Small Field (8 vs 8)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "157": {
       "address": "398 West Mombasha Road, Monroe, NY 10950",
       "comments": "]",
@@ -514,7 +507,7 @@
     },
     {
       "away_club": "CougarUtd",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "CougarUtd-B11A-Sayag",
       "date": "2026-10-28",
       "division": "B11A",
@@ -522,9 +515,9 @@
       "field_id": "785",
       "game_id": "415654",
       "home_club": "NoArlington",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "NoArlington-B11A-DaSilva",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:30 PM"
     },
     {
@@ -569,21 +562,6 @@
       "home_club": "Force",
       "home_score": null,
       "home_team": "Force-B11A-Darling",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-B11A-Cengarle",
-      "date": "2026-11-01",
-      "division": "B11A",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "415651",
-      "home_club": "Dumont",
-      "home_score": null,
-      "home_team": "Dumont-B11A-Zotaj",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -798,6 +776,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-B11A-Cengarle",
+      "date": "2026-11-19",
+      "division": "B11A",
+      "field": "Twin-Boro",
+      "field_id": "206",
+      "game_id": "415651",
+      "home_club": "Dumont",
+      "home_score": null,
+      "home_team": "Dumont-B11A-Zotaj",
+      "is_upcoming": true,
+      "time": "07:15 PM"
+    },
+    {
       "away_club": "Force",
       "away_score": null,
       "away_team": "Force-B11A-Darling",
@@ -873,6 +866,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-10-28T12:28:02.352543Z",
+  "scraped_at": "2026-10-29T12:37:43.381390Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -22,6 +22,20 @@
       "name": "WR Athletic Complex Small A",
       "size": "Small Field (8 vs 8)"
     },
+    "1184": {
+      "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WR Athletic Complex Small B",
+      "size": "Small Field (8 vs 8)"
+    },
+    "1191": {
+      "address": "19 Harrison Avenue, Roseland, NJ 07068",
+      "comments": "9V9",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Thomas J O'Beirne Field- 9v9",
+      "size": "Small Field (8 vs 8)"
+    },
     "367": {
       "address": "880 Bloomfield Ave, Verona, NJ 07044",
       "comments": "Turf Field",
@@ -156,6 +170,21 @@
       "time": "01:00 PM"
     },
     {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B12XW-Garrido",
+      "date": "2026-11-10",
+      "division": "B12XW",
+      "field": "Thomas J O'Beirne Field- 9v9",
+      "field_id": "1191",
+      "game_id": "418171",
+      "home_club": "WestEssex",
+      "home_score": null,
+      "home_team": "WestEssex-B12XW-Pajuelo",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "AviatorsHHSA",
       "away_score": null,
       "away_team": "AviatorsHHSA-B12XW-Chudzik",
@@ -201,6 +230,21 @@
       "time": "05:30 PM"
     },
     {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B12XW-Chudzik",
+      "date": "2026-11-17",
+      "division": "B12XW",
+      "field": "WR Athletic Complex Small B",
+      "field_id": "1184",
+      "game_id": "418270",
+      "home_club": "WoodRidge",
+      "home_score": null,
+      "home_team": "WoodRidge-B12XW-Mueller",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Maywood",
       "away_score": null,
       "away_team": "Maywood-B12XW-Bautista",
@@ -231,66 +275,6 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-B12XW-Leckenby",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418174",
-      "home_club": "Maywood",
-      "home_score": null,
-      "home_team": "Maywood-B12XW-Bautista",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B12XW-Mueller",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418270",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-B12XW-Chudzik",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-B12XW-Garrido",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418171",
-      "home_club": "WestEssex",
-      "home_score": null,
-      "home_team": "WestEssex-B12XW-Pajuelo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "WestEssex",
-      "away_score": null,
-      "away_team": "WestEssex-B12XW-Pajuelo",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418172",
-      "home_club": "Belleville",
-      "home_score": null,
-      "home_team": "Belleville-B12XW-Garrido",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "GlobalJC",
       "away_score": null,
       "away_team": "GlobalJC-B12XW-Nobrega",
@@ -319,8 +303,38 @@
       "home_team": "GlobalJC-B12XW-Nobrega",
       "is_upcoming": true,
       "time": "12:00 AM"
+    },
+    {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-B12XW-Leckenby",
+      "date": "2026-12-03",
+      "division": "B12XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418174",
+      "home_club": "Maywood",
+      "home_score": null,
+      "home_team": "Maywood-B12XW-Bautista",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
+      "away_club": "WestEssex",
+      "away_score": null,
+      "away_team": "WestEssex-B12XW-Pajuelo",
+      "date": "2026-12-03",
+      "division": "B12XW",
+      "field": "To Be Scheduled - Northen Counties Cup",
+      "field_id": "799",
+      "game_id": "418172",
+      "home_club": "Belleville",
+      "home_score": null,
+      "home_team": "Belleville-B12XW-Garrido",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-28T12:29:04.588420Z",
+  "scraped_at": "2026-10-29T12:38:46.262985Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

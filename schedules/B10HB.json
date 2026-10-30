@@ -22,13 +22,6 @@
       "name": "NVRHS-DEMAREST-LOWER 7v7 FIELD",
       "size": "Small Field (8 vs 8)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -80,21 +73,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "ST23",
-      "away_score": null,
-      "away_team": "ST23-B10HB-Rosskamp",
-      "date": "2026-09-12",
-      "division": "B10HB",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "413972",
-      "home_club": "CougarSC",
-      "home_score": null,
-      "home_team": "CougarSC-B10HB-Orgera",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "SaddleBR",
       "away_score": 1,
@@ -396,6 +374,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "ST23",
+      "away_score": null,
+      "away_team": "ST23-B10HB-Rosskamp",
+      "date": "2026-11-08",
+      "division": "B10HB",
+      "field": "Borden Park 1",
+      "field_id": "221",
+      "game_id": "413972",
+      "home_club": "CougarSC",
+      "home_score": null,
+      "home_team": "CougarSC-B10HB-Orgera",
+      "is_upcoming": true,
+      "time": "03:00 PM"
+    },
+    {
       "away_club": "SaddleBR",
       "away_score": null,
       "away_team": "SaddleBR-B10HB-Patel",
@@ -531,6 +524,6 @@
       "time": "07:00 PM"
     }
   ],
-  "scraped_at": "2026-10-29T12:37:32.155137Z",
+  "scraped_at": "2026-10-30T12:28:45.583241Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

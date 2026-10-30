@@ -15,13 +15,6 @@
       "name": "Veterans Field - FS 3",
       "size": "Large Field (11 vs 11)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "137": {
       "address": "Hackensack Avenue and River Street, Hackensack, NJ 07601",
       "comments": "Full sided - Turf",
@@ -55,6 +48,13 @@
       "comments": "",
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "Hitchcock Field",
+      "size": "Large Field (11 vs 11)"
+    },
+    "303": {
+      "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
+      "comments": "11v11 turf field that is also lined for 7v7 & 9v9 games",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Brookdale Stadium",
       "size": "Large Field (11 vs 11)"
     },
     "367": {
@@ -91,13 +91,6 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Forest Avenue",
       "size": "Both (Small & Large)"
-    },
-    "804": {
-      "address": "10 White Rock Road, Verona, NJ 07044",
-      "comments": "Turf Field",
-      "details": "LIGHTS \u2014 ARTIFICIAL",
-      "name": "Freedom Field - Large Sided",
-      "size": "Large Field (11 vs 11)"
     },
     "914": {
       "address": "Davis Ave. and Dukes St., Kearny, NJ 07032",
@@ -593,29 +586,14 @@
       "away_team": "Spartan-B14D-Burucuoglu",
       "date": "2026-10-31",
       "division": "B14D",
-      "field": "Freedom Field - Large Sided",
-      "field_id": "804",
+      "field": "Centennial Field - Large Sided",
+      "field_id": "367",
       "game_id": "414691",
       "home_club": "Verona",
       "home_score": null,
       "home_team": "Verona-B14D-Molisani",
       "is_upcoming": true,
       "time": "04:00 PM"
-    },
-    {
-      "away_club": "GlenRidge",
-      "away_score": null,
-      "away_team": "GlenRidge-B14D-Jerolimic",
-      "date": "2026-11-01",
-      "division": "B14D",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "414687",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-B14D-Wells",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Spartan",
@@ -706,6 +684,21 @@
       "home_team": "Tenafly-B14D-Hu",
       "is_upcoming": true,
       "time": "01:00 PM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B14D-Wells",
+      "date": "2026-11-11",
+      "division": "B14D",
+      "field": "Brookdale Stadium",
+      "field_id": "303",
+      "game_id": "414687",
+      "home_club": "GlenRidge",
+      "home_score": null,
+      "home_team": "GlenRidge-B14D-Jerolimic",
+      "is_upcoming": true,
+      "time": "07:30 PM"
     },
     {
       "away_club": "Hackensack",
@@ -873,6 +866,6 @@
       "time": "05:30 PM"
     }
   ],
-  "scraped_at": "2026-10-29T12:39:25.920453Z",
+  "scraped_at": "2026-10-30T12:30:37.257131Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

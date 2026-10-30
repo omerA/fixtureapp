@@ -36,19 +36,19 @@
       "name": "Westvale Park Small",
       "size": "Small Field (8 vs 8)"
     },
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
+      "size": "Both (Small & Large)"
+    },
     "754": {
       "address": "200 Dahalia Drive, New Milford, NJ 07646",
       "comments": "9v9",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Williams Field 9v9",
       "size": "Small Field (8 vs 8)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
-      "size": "Both (Small & Large)"
     }
   },
   "games": [
@@ -128,6 +128,21 @@
       "time": "06:30 PM"
     },
     {
+      "away_club": "Dumont",
+      "away_score": null,
+      "away_team": "Dumont-G12XB-Zotaj",
+      "date": "2026-11-18",
+      "division": "G12XB",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
+      "game_id": "418039",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-G12XB-Hill",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
       "away_club": "WoodRidge",
       "away_score": null,
       "away_team": "WoodRidge-G12XB-Prior",
@@ -156,23 +171,8 @@
       "home_team": "NMKnights-G12XB-McAndrews",
       "is_upcoming": true,
       "time": "12:00 PM"
-    },
-    {
-      "away_club": "Dumont",
-      "away_score": null,
-      "away_team": "Dumont-G12XB-Zotaj",
-      "date": "2026-12-03",
-      "division": "G12XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418039",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-G12XB-Hill",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-29T12:41:13.345781Z",
+  "scraped_at": "2026-10-30T12:32:20.726440Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

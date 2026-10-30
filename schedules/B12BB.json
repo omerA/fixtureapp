@@ -22,13 +22,6 @@
       "name": "McKeown",
       "size": "Both (Small & Large)"
     },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -56,6 +49,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Maple Park West",
       "size": "Small Field (8 vs 8)"
+    },
+    "641": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex South",
+      "size": "Both (Small & Large)"
     },
     "73": {
       "address": "230 Woodland Avenue, River Edge, NJ 07661",
@@ -404,21 +404,6 @@
       "time": "06:00 PM"
     },
     {
-      "away_club": "RdgfldPk",
-      "away_score": null,
-      "away_team": "RdgfldPk-B12BB-Doyle",
-      "date": "2026-11-07",
-      "division": "B12BB",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "416283",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-B12BB-Allen",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B12BB-Breheny",
@@ -479,6 +464,21 @@
       "time": "03:30 PM"
     },
     {
+      "away_club": "RdgfldPk",
+      "away_score": null,
+      "away_team": "RdgfldPk-B12BB-Doyle",
+      "date": "2026-11-15",
+      "division": "B12BB",
+      "field": "Doug Parcells Athletic Complex South",
+      "field_id": "641",
+      "game_id": "416283",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-B12BB-Allen",
+      "is_upcoming": true,
+      "time": "03:30 PM"
+    },
+    {
       "away_club": "Dumont",
       "away_score": null,
       "away_team": "Dumont-B12BB-Arapi",
@@ -524,6 +524,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-10-29T12:38:20.017843Z",
+  "scraped_at": "2026-10-30T12:29:32.945918Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-10-29T12:35:53.948133Z",
+  "scraped_at": "2026-10-30T12:27:07.430896Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -262,6 +262,88 @@
       "wins": 4
     },
     {
+      "club": "Arsenal",
+      "coach": "McDermott",
+      "draws": 0,
+      "form": "LWLWW",
+      "games": [
+        {
+          "date": "2026-09-27",
+          "game_number": "415779",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12F-Gillies",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "ARS-Fieldstone2"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415789",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12F-Whalen",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "ARS-OldMill"
+        },
+        {
+          "date": "2026-10-29",
+          "game_number": "415797",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-B12F-Buttacavoli",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415799",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-Bott",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "ARS-OldMill"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415810",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12F-Majoch",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416292",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B12F-Glick",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        }
+      ],
+      "goal_diff": 12,
+      "goals_against": 11,
+      "goals_for": 23,
+      "losses": 2,
+      "played": 6,
+      "points": 12,
+      "team_raw": "Arsenal-B12F-McDermott",
+      "wins": 4
+    },
+    {
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 0,
@@ -341,77 +423,6 @@
       "played": 6,
       "points": 9,
       "team_raw": "Maroons-B12F-Gillies",
-      "wins": 3
-    },
-    {
-      "club": "Arsenal",
-      "coach": "McDermott",
-      "draws": 0,
-      "form": "WLWLW",
-      "games": [
-        {
-          "date": "2026-09-27",
-          "game_number": "415779",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B12F-Gillies",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "ARS-Fieldstone2"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415789",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B12F-Whalen",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "ARS-OldMill"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415799",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12F-Bott",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "ARS-OldMill"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415810",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12F-Majoch",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "MONT-GlenfldPk9v9"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416292",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B12F-Glick",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "GLENRDGE-ForestAve"
-        }
-      ],
-      "goal_diff": 10,
-      "goals_against": 8,
-      "goals_for": 18,
-      "losses": 2,
-      "played": 5,
-      "points": 9,
-      "team_raw": "Arsenal-B12F-McDermott",
       "wins": 3
     },
     {
@@ -757,7 +768,7 @@
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 1,
-      "form": "WLDL",
+      "form": "WLDLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -769,6 +780,17 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-29",
+          "game_number": "415797",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12F-McDermott",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         },
         {
           "date": "2026-10-03",
@@ -804,11 +826,11 @@
           "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 17,
-      "goals_for": 11,
-      "losses": 2,
-      "played": 4,
+      "goal_diff": -8,
+      "goals_against": 22,
+      "goals_for": 14,
+      "losses": 3,
+      "played": 5,
       "points": 4,
       "team_raw": "Paramus-B12F-Buttacavoli",
       "wins": 1

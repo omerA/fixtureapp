@@ -1,36 +1,9 @@
 {
   "division": "B10XB",
-  "scraped_at": "2026-10-29T12:35:53.094361Z",
+  "scraped_at": "2026-10-30T12:27:06.201505Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "CougarSC",
-      "coach": "James",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-10",
-          "game_number": "417932",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B10XB-Mohr",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 0,
-      "goals_for": 1,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "CougarSC-B10XB-James",
-      "wins": 1
-    },
     {
       "club": "Dragons",
       "coach": "Goers",
@@ -57,6 +30,60 @@
       "points": 3,
       "team_raw": "Dragons-B10XB-Goers",
       "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "James",
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "417932",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B10XB-Mohr",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 1,
+      "points": 1,
+      "team_raw": "CougarSC-B10XB-James",
+      "wins": 0
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Mohr",
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-10-10",
+          "game_number": "417932",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10XB-James",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 1,
+      "points": 1,
+      "team_raw": "NMKnights-B10XB-Mohr",
+      "wins": 0
     },
     {
       "club": "FairLawnAllSports",
@@ -140,33 +167,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "RiverDell-B10XB-Walters",
-      "wins": 0
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Mohr",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-10",
-          "game_number": "417932",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B10XB-James",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 1,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "NMKnights-B10XB-Mohr",
       "wins": 0
     },
     {

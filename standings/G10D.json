@@ -1,6 +1,6 @@
 {
   "division": "G10D",
-  "scraped_at": "2026-10-30T12:27:09.930784Z",
+  "scraped_at": "2026-10-31T12:00:00.829472Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -98,6 +98,88 @@
       "wins": 6
     },
     {
+      "club": "NoRockland",
+      "coach": "Mavrorasakis",
+      "draws": 0,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-10-19",
+          "game_number": "414476",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10D-OHara",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-10-30",
+          "game_number": "414490",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10D-Casas",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414495",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G10D-Daniell",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414862",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10D-Pajuelo",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414866",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414875",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10D-Donohue",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        }
+      ],
+      "goal_diff": 18,
+      "goals_against": 8,
+      "goals_for": 26,
+      "losses": 1,
+      "played": 6,
+      "points": 15,
+      "team_raw": "NoRockland-G10D-Mavrorasakis",
+      "wins": 5
+    },
+    {
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 1,
@@ -166,77 +248,6 @@
       "played": 5,
       "points": 13,
       "team_raw": "WestEssex-G10D-Pajuelo",
-      "wins": 4
-    },
-    {
-      "club": "NoRockland",
-      "coach": "Mavrorasakis",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-10-19",
-          "game_number": "414476",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10D-OHara",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "NY-NR-NRSA-5"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414495",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G10D-Daniell",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "LKLND-BBeach-Sml-7v7"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414862",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G10D-Pajuelo",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "NY-NR-NRSA-5"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414866",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G10D-Samaniego",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "414875",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G10D-Donohue",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        }
-      ],
-      "goal_diff": 12,
-      "goals_against": 7,
-      "goals_for": 19,
-      "losses": 1,
-      "played": 5,
-      "points": 12,
-      "team_raw": "NoRockland-G10D-Mavrorasakis",
       "wins": 4
     },
     {
@@ -612,6 +623,17 @@
           "venue_code": "MAR-MapleParkEastSm"
         },
         {
+          "date": "2026-10-30",
+          "game_number": "414490",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G10D-Mavrorasakis",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-NR-NRSA-5"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "414494",
           "goals_against": 3,
@@ -634,11 +656,11 @@
           "venue_code": "LKLND-BBeach-Sml-7v7"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 21,
-      "goals_for": 4,
-      "losses": 5,
-      "played": 5,
+      "goal_diff": -23,
+      "goals_against": 28,
+      "goals_for": 5,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "GlenRock-G10D-Casas",
       "wins": 0

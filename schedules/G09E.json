@@ -29,13 +29,6 @@
       "name": "Memorial Park 7v7",
       "size": "Small Field (8 vs 8)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "22": {
       "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
       "comments": "",
@@ -97,6 +90,13 @@
       "comments": "7v7 - 40x65yds with 6.5x18.5ft goals",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "O'Connor Field 2",
+      "size": "Small Field (8 vs 8)"
+    },
+    "770": {
+      "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Pulis 1",
       "size": "Small Field (8 vs 8)"
     },
     "771": {
@@ -581,21 +581,6 @@
       "time": "04:00 PM"
     },
     {
-      "away_club": "Verona",
-      "away_score": null,
-      "away_team": "Verona-G09E-Goman",
-      "date": "2026-11-08",
-      "division": "G09E",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414853",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-G09E-Duka",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Maywood",
       "away_score": null,
       "away_team": "Maywood-G09E-Soto",
@@ -624,6 +609,21 @@
       "home_team": "RiverDell-G09E-Norris",
       "is_upcoming": true,
       "time": "10:30 AM"
+    },
+    {
+      "away_club": "Verona",
+      "away_score": null,
+      "away_team": "Verona-G09E-Goman",
+      "date": "2026-11-08",
+      "division": "G09E",
+      "field": "Pulis 1",
+      "field_id": "770",
+      "game_id": "414853",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-G09E-Duka",
+      "is_upcoming": true,
+      "time": "04:00 PM"
     },
     {
       "away_club": "CougarUtd",
@@ -791,6 +791,6 @@
       "time": "01:15 PM"
     }
   ],
-  "scraped_at": "2026-10-30T12:31:22.023742Z",
+  "scraped_at": "2026-10-31T12:04:51.546788Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

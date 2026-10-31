@@ -43,11 +43,11 @@
       "name": "Father Glotzbach Field2",
       "size": "Small Field (8 vs 8)"
     },
-    "73": {
-      "address": "230 Woodland Avenue, River Edge, NJ 07661",
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
       "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "River Dell Middle School - Small",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
       "size": "Both (Small & Large)"
     },
     "799": {
@@ -59,21 +59,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Force",
-      "away_score": null,
-      "away_team": "Force-B11XB-Darling",
-      "date": "2026-10-04",
-      "division": "B11XB",
-      "field": "River Dell Middle School - Small",
-      "field_id": "73",
-      "game_id": "417939",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-B11XB-Heydt",
-      "is_upcoming": true,
-      "time": "12:30 PM"
-    },
     {
       "away_club": "FairLawnAllSports",
       "away_score": 3,
@@ -106,7 +91,7 @@
     },
     {
       "away_club": "WoodRidge",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "WoodRidge-B11XB-Maccarrone",
       "date": "2026-10-30",
       "division": "B11XB",
@@ -114,10 +99,25 @@
       "field_id": "102",
       "game_id": "417935",
       "home_club": "Warriors",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Warriors-B11XB-Leonard",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:00 PM"
+    },
+    {
+      "away_club": "Force",
+      "away_score": null,
+      "away_team": "Force-B11XB-Darling",
+      "date": "2026-11-08",
+      "division": "B11XB",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
+      "game_id": "417939",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-B11XB-Heydt",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "Nutley",
@@ -180,6 +180,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-30T12:29:24.538574Z",
+  "scraped_at": "2026-10-31T12:02:52.093865Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

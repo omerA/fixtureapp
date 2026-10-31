@@ -8,6 +8,13 @@
       "name": "Clifton Sports",
       "size": "Both (Small & Large)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1162": {
       "address": "19 Zukor Road, New City, NY 10956",
       "comments": "",
@@ -84,13 +91,6 @@
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "NVRHS-DEMAREST-TURF FIELD",
       "size": "Large Field (11 vs 11)"
-    },
-    "297": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "F1",
-      "size": "Both (Small & Large)"
     },
     "32": {
       "address": "55 Pyle Street, Oradell, NJ 07649",
@@ -735,6 +735,21 @@
       "time": "07:30 PM"
     },
     {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-B13F-King",
+      "date": "2026-10-31",
+      "division": "B13F",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "416405",
+      "home_club": "Broncos",
+      "home_score": null,
+      "home_team": "Broncos-B13F-Chaves",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
       "away_club": "Fairview",
       "away_score": null,
       "away_team": "Fairview-B13F-Macias",
@@ -748,21 +763,6 @@
       "home_team": "Dumont-B13F-Zotaj",
       "is_upcoming": true,
       "time": "09:30 AM"
-    },
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-B13F-King",
-      "date": "2026-10-31",
-      "division": "B13F",
-      "field": "Latteri Park",
-      "field_id": "645",
-      "game_id": "416405",
-      "home_club": "Broncos",
-      "home_score": null,
-      "home_team": "Broncos-B13F-Chaves",
-      "is_upcoming": true,
-      "time": "03:00 PM"
     },
     {
       "away_club": "CougarSC",
@@ -960,21 +960,6 @@
       "time": "07:30 PM"
     },
     {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-B13F-King",
-      "date": "2026-11-14",
-      "division": "B13F",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "416417",
-      "home_club": "Fairview",
-      "home_score": null,
-      "home_team": "Fairview-B13F-Macias",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Vikings",
       "away_score": null,
       "away_team": "Vikings-B13F-Siddiqi",
@@ -988,6 +973,21 @@
       "home_team": "WayneBG-B13F-Amaya",
       "is_upcoming": true,
       "time": "08:00 AM"
+    },
+    {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-B13F-King",
+      "date": "2026-11-14",
+      "division": "B13F",
+      "field": "Clifton Sports",
+      "field_id": "1023",
+      "game_id": "416417",
+      "home_club": "Fairview",
+      "home_score": null,
+      "home_team": "Fairview-B13F-Macias",
+      "is_upcoming": true,
+      "time": "10:00 AM"
     },
     {
       "away_club": "Dumont",
@@ -1155,6 +1155,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-10-30T12:30:17.799044Z",
+  "scraped_at": "2026-10-31T12:03:45.805352Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

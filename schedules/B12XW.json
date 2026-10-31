@@ -111,7 +111,7 @@
     },
     {
       "away_club": "Warriors",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Warriors-B12XW-Stratton",
       "date": "2026-10-30",
       "division": "B12XW",
@@ -119,9 +119,9 @@
       "field_id": "716",
       "game_id": "418167",
       "home_club": "Emerson",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Emerson-B12XW-Grompone",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:15 PM"
     },
     {
@@ -138,21 +138,6 @@
       "home_team": "Verona-B12XW-Ahmed",
       "is_upcoming": true,
       "time": "01:30 PM"
-    },
-    {
-      "away_club": "Rutherford",
-      "away_score": null,
-      "away_team": "Rutherford-B12XW-Henderson",
-      "date": "2026-11-06",
-      "division": "B12XW",
-      "field": "Doug Parcells Athletic Complex North",
-      "field_id": "75",
-      "game_id": "418164",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-B12XW-Bott",
-      "is_upcoming": true,
-      "time": "07:00 PM"
     },
     {
       "away_club": "RiverDell",
@@ -245,6 +230,21 @@
       "time": "06:30 PM"
     },
     {
+      "away_club": "Rutherford",
+      "away_score": null,
+      "away_team": "Rutherford-B12XW-Henderson",
+      "date": "2026-11-19",
+      "division": "B12XW",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
+      "game_id": "418164",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-B12XW-Bott",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Maywood",
       "away_score": null,
       "away_team": "Maywood-B12XW-Bautista",
@@ -335,6 +335,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-10-30T12:29:58.076335Z",
+  "scraped_at": "2026-10-31T12:03:25.828467Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

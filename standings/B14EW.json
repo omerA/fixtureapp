@@ -1,6 +1,6 @@
 {
   "division": "B14EW",
-  "scraped_at": "2026-10-30T12:27:08.693523Z",
+  "scraped_at": "2026-10-31T11:59:59.601165Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -194,7 +194,7 @@
       "club": "Vikings",
       "coach": "Donzis",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -263,6 +263,17 @@
           "venue_code": "DRAG-WRMS-LG"
         },
         {
+          "date": "2026-10-30",
+          "game_number": "416479",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B14EW-Sanford",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416482",
           "goals_against": 0,
@@ -274,20 +285,20 @@
           "venue_code": "RDBH-HS-Grass"
         }
       ],
-      "goal_diff": 8,
+      "goal_diff": 11,
       "goals_against": 11,
-      "goals_for": 19,
+      "goals_for": 22,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Vikings-B14EW-Donzis",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Maywood",
       "coach": "Sanford",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -343,13 +354,24 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-30",
+          "game_number": "416479",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14EW-Donzis",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 16,
+      "goal_diff": -5,
+      "goals_against": 19,
       "goals_for": 14,
-      "losses": 3,
-      "played": 5,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "Maywood-B14EW-Sanford",
       "wins": 2

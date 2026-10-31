@@ -1,9 +1,36 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-10-30T12:27:05.425875Z",
+  "scraped_at": "2026-10-31T11:59:56.308466Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Gudovich",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-30",
+          "game_number": "418012",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B09XW-Grunauer",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-B09XW-Gudovich",
+      "wins": 1
+    },
     {
       "club": "NMKnights",
       "coach": "Austin",
@@ -113,21 +140,6 @@
       "wins": 1
     },
     {
-      "club": "Broncos",
-      "coach": "Grunauer",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Broncos-B09XW-Grunauer",
-      "wins": 0
-    },
-    {
       "club": "Emerson",
       "coach": "Rice",
       "draws": 0,
@@ -140,21 +152,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Emerson-B09XW-Rice",
-      "wins": 0
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Gudovich",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-B09XW-Gudovich",
       "wins": 0
     },
     {
@@ -284,6 +281,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Torpedoes-B09XW-Kunwar",
+      "wins": 0
+    },
+    {
+      "club": "Broncos",
+      "coach": "Grunauer",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-30",
+          "game_number": "418012",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09XW-Gudovich",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Broncos-B09XW-Grunauer",
       "wins": 0
     },
     {

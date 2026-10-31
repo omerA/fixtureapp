@@ -1,6 +1,6 @@
 {
   "division": "B11A",
-  "scraped_at": "2026-10-30T12:27:06.310435Z",
+  "scraped_at": "2026-10-31T11:59:57.197163Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -158,10 +158,81 @@
       "wins": 4
     },
     {
+      "club": "FairLawnAllSports",
+      "coach": "Arcentales",
+      "draws": 1,
+      "form": "WDLWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415627",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11A-DaSilva",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415631",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
+          "result": "D",
+          "time": "10:00 AM",
+          "venue_code": "AVIA-HitchcockSmall"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415636",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Zotaj",
+          "result": "L",
+          "time": "11:15 AM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-30",
+          "game_number": "415643",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11A-Sceppaguercio",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415649",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B11A-Glover",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        }
+      ],
+      "goal_diff": 9,
+      "goals_against": 7,
+      "goals_for": 16,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "FairLawnAllSports-B11A-Arcentales",
+      "wins": 3
+    },
+    {
       "club": "Nutley",
       "coach": "Sceppaguercio",
       "draws": 0,
-      "form": "WWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -197,6 +268,17 @@
           "venue_code": "NUT-FatherGlotzbach2"
         },
         {
+          "date": "2026-10-30",
+          "game_number": "415643",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11A-Arcentales",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "415648",
           "goals_against": 4,
@@ -208,11 +290,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 10,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 4,
+      "goal_diff": 5,
+      "goals_against": 13,
+      "goals_for": 18,
+      "losses": 2,
+      "played": 5,
       "points": 9,
       "team_raw": "Nutley-B11A-Sceppaguercio",
       "wins": 3
@@ -276,66 +358,6 @@
       "points": 9,
       "team_raw": "RdgfldPk-B11A-Glover",
       "wins": 3
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Arcentales",
-      "draws": 1,
-      "form": "WDLW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415627",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B11A-DaSilva",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415631",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
-          "result": "D",
-          "time": "10:00 AM",
-          "venue_code": "AVIA-HitchcockSmall"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415636",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11A-Zotaj",
-          "result": "L",
-          "time": "11:15 AM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415649",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B11A-Glover",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "RDGFLDPK-McKeown"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 6,
-      "goals_for": 13,
-      "losses": 1,
-      "played": 4,
-      "points": 7,
-      "team_raw": "FairLawnAllSports-B11A-Arcentales",
-      "wins": 2
     },
     {
       "club": "CougarUtd",

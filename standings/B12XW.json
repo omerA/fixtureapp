@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-10-30T12:27:07.669870Z",
+  "scraped_at": "2026-10-31T11:59:58.563319Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -32,6 +32,33 @@
       "wins": 1
     },
     {
+      "club": "Emerson",
+      "coach": "Grompone",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-30",
+          "game_number": "418167",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B12XW-Stratton",
+          "result": "W",
+          "time": "08:15 PM",
+          "venue_code": "EM-HSTurf2Small"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Emerson-B12XW-Grompone",
+      "wins": 1
+    },
+    {
       "club": "AviatorsHHSA",
       "coach": "Chudzik",
       "draws": 0,
@@ -59,21 +86,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Belleville-B12XW-Garrido",
-      "wins": 0
-    },
-    {
-      "club": "Emerson",
-      "coach": "Grompone",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Emerson-B12XW-Grompone",
       "wins": 0
     },
     {
@@ -152,21 +164,6 @@
       "wins": 0
     },
     {
-      "club": "Warriors",
-      "coach": "Stratton",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Warriors-B12XW-Stratton",
-      "wins": 0
-    },
-    {
       "club": "WayneBG",
       "coach": "Bechara",
       "draws": 0,
@@ -236,6 +233,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Verona-B12XW-Ahmed",
+      "wins": 0
+    },
+    {
+      "club": "Warriors",
+      "coach": "Stratton",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-30",
+          "game_number": "418167",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B12XW-Grompone",
+          "result": "L",
+          "time": "08:15 PM",
+          "venue_code": "EM-HSTurf2Small"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Warriors-B12XW-Stratton",
       "wins": 0
     }
   ]

@@ -8,6 +8,13 @@
       "name": "Foley Field",
       "size": "Large Field (11 vs 11)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1150": {
       "address": "23 Merseles Street, Jersey City, NJ 07302",
       "comments": "",
@@ -360,6 +367,21 @@
       "time": "08:00 PM"
     },
     {
+      "away_club": "JerseyCity",
+      "away_score": null,
+      "away_team": "JerseyCity-B14B-Rich",
+      "date": "2026-10-31",
+      "division": "B14B",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "414238",
+      "home_club": "GlenRock",
+      "home_score": null,
+      "home_team": "GlenRock-B14B-Lynch",
+      "is_upcoming": true,
+      "time": "12:00 AM"
+    },
+    {
       "away_club": "Montclair",
       "away_score": null,
       "away_team": "Montclair-B14B-Patel",
@@ -373,21 +395,6 @@
       "home_team": "NoBergen-B14B-Amaya",
       "is_upcoming": true,
       "time": "12:45 PM"
-    },
-    {
-      "away_club": "JerseyCity",
-      "away_score": null,
-      "away_team": "JerseyCity-B14B-Rich",
-      "date": "2026-10-31",
-      "division": "B14B",
-      "field": "Glen Rock High School - Lower Turf",
-      "field_id": "146",
-      "game_id": "414238",
-      "home_club": "GlenRock",
-      "home_score": null,
-      "home_team": "GlenRock-B14B-Lynch",
-      "is_upcoming": true,
-      "time": "01:30 PM"
     },
     {
       "away_club": "NoBergen",
@@ -510,6 +517,6 @@
       "time": "03:15 PM"
     }
   ],
-  "scraped_at": "2026-10-31T12:04:00.852120Z",
+  "scraped_at": "2026-11-01T13:01:27.110264Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

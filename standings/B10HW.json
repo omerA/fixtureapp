@@ -1,6 +1,6 @@
 {
   "division": "B10HW",
-  "scraped_at": "2026-10-31T11:59:57.056164Z",
+  "scraped_at": "2026-11-01T12:57:47.107922Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "RiverDell",
       "coach": "Marmanides",
       "draws": 2,
-      "form": "WWDDW",
+      "form": "WDDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -77,6 +77,17 @@
           "venue_code": "RDBH-Roosevelt"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414021",
+          "goals_against": 5,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "ARS-Dorchester2"
+        },
+        {
           "date": "2026-10-20",
           "game_number": "415617",
           "goals_against": 3,
@@ -88,14 +99,14 @@
           "venue_code": "PAR-WestbrkSmall"
         }
       ],
-      "goal_diff": 22,
-      "goals_against": 20,
-      "goals_for": 42,
+      "goal_diff": 24,
+      "goals_against": 25,
+      "goals_for": 49,
       "losses": 0,
-      "played": 7,
-      "points": 17,
+      "played": 8,
+      "points": 20,
       "team_raw": "RiverDell-B10HW-Marmanides",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Hotspur",
@@ -254,7 +265,7 @@
       "club": "Arsenal",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -321,13 +332,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414021",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10HW-Marmanides",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "ARS-Dorchester2"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 31,
-      "goals_for": 17,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -16,
+      "goals_against": 38,
+      "goals_for": 22,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Arsenal-B10HW-GuevaraFuentes",
       "wins": 2
@@ -336,7 +358,7 @@
       "club": "Spartan",
       "coach": "Musano",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -394,6 +416,17 @@
           "venue_code": "PAR-WestbrkSmall"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414020",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B10HW-Kelly",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "AMER-LionsSouthSmall"
+        },
+        {
           "date": "2026-10-20",
           "game_number": "415617",
           "goals_against": 3,
@@ -405,20 +438,20 @@
           "venue_code": "PAR-WestbrkSmall"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 36,
-      "goals_for": 12,
+      "goal_diff": -21,
+      "goals_against": 37,
+      "goals_for": 16,
       "losses": 5,
-      "played": 6,
-      "points": 1,
+      "played": 7,
+      "points": 4,
       "team_raw": "Spartan-B10HW-Musano",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Americans",
       "coach": "Kelly",
       "draws": 0,
-      "form": "LLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -463,13 +496,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414020",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10HW-Musano",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "AMER-LionsSouthSmall"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 24,
-      "goals_for": 8,
-      "losses": 4,
-      "played": 4,
+      "goal_diff": -19,
+      "goals_against": 28,
+      "goals_for": 9,
+      "losses": 5,
+      "played": 5,
       "points": 0,
       "team_raw": "Americans-B10HW-Kelly",
       "wins": 0

@@ -64,19 +64,19 @@
       "name": "Memorial Park - Lg",
       "size": "Large Field (11 vs 11)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "194": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
+    },
+    "385": {
+      "address": "175 Old Orangeburg Rd, Orangeburg, NY 10962",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WCFC - Field 2",
+      "size": "Large Field (11 vs 11)"
     },
     "438": {
       "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
@@ -469,7 +469,7 @@
     },
     {
       "away_club": "HobUtd",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "HobUtd-G12A-Cashman",
       "date": "2026-10-31",
       "division": "G12A",
@@ -477,9 +477,9 @@
       "field_id": "101",
       "game_id": "414533",
       "home_club": "Warriors",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Warriors-G12A-Lanz",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
@@ -558,21 +558,6 @@
       "time": "03:00 PM"
     },
     {
-      "away_club": "WayneBG",
-      "away_score": null,
-      "away_team": "WayneBG-G12A-DeCarlo",
-      "date": "2026-11-08",
-      "division": "G12A",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "414546",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-G12A-Kaghado",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "HobUtd",
       "away_score": null,
       "away_team": "HobUtd-G12A-Cashman",
@@ -614,6 +599,21 @@
       "home_club": "Maywood",
       "home_score": null,
       "home_team": "Maywood-G12A-Pardo",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
+      "away_club": "WayneBG",
+      "away_score": null,
+      "away_team": "WayneBG-G12A-DeCarlo",
+      "date": "2026-11-08",
+      "division": "G12A",
+      "field": "WCFC - Field 2",
+      "field_id": "385",
+      "game_id": "414546",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-G12A-Kaghado",
       "is_upcoming": true,
       "time": "06:00 PM"
     },
@@ -723,6 +723,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-10-31T12:05:34.416542Z",
+  "scraped_at": "2026-11-01T13:03:10.641218Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

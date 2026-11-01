@@ -1,6 +1,6 @@
 {
   "division": "B11F",
-  "scraped_at": "2026-10-31T11:59:57.579390Z",
+  "scraped_at": "2026-11-01T12:57:47.539559Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Arsenal",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-10-14",
@@ -66,6 +66,17 @@
           "venue_code": "VIK-Ruckman"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414067",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11F-Zurita",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "ARS-OldMill"
+        },
+        {
           "date": "2026-09-20",
           "game_number": "417762",
           "goals_against": 2,
@@ -77,14 +88,14 @@
           "venue_code": "ARS-Fieldstone2"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 7,
-      "goals_for": 24,
+      "goal_diff": 24,
+      "goals_against": 8,
+      "goals_for": 32,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 15,
       "team_raw": "Arsenal-B11F-GuevaraFuentes",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Vikings",
@@ -243,7 +254,7 @@
       "club": "Nutley",
       "coach": "Zurita",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -279,6 +290,17 @@
           "venue_code": "VIK-Schauble"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414067",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11F-GuevaraFuentes",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "ARS-OldMill"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "417760",
           "goals_against": 4,
@@ -301,11 +323,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 25,
-      "goals_for": 10,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -22,
+      "goals_against": 33,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "Nutley-B11F-Zurita",
       "wins": 1

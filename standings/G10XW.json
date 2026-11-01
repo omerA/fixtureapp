@@ -1,9 +1,63 @@
 {
   "division": "G10XW",
-  "scraped_at": "2026-10-31T12:00:00.987932Z",
+  "scraped_at": "2026-11-01T12:57:50.351601Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WestEssex",
+      "coach": "Pajuelo",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "418205",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10XW-Donohue",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WESSEX-VetSmallSouth"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "WestEssex-G10XW-Pajuelo",
+      "wins": 1
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Casas",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "418208",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10XW-RayRochkind",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "GlenRock-G10XW-Casas",
+      "wins": 1
+    },
     {
       "club": "Thistle",
       "coach": "Millar",
@@ -89,13 +143,25 @@
       "club": "CougarSC",
       "coach": "RayRochkind",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "418208",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G10XW-Casas",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 3,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "CougarSC-G10XW-RayRochkind",
       "wins": 0
@@ -104,45 +170,27 @@
       "club": "Dragons",
       "coach": "Donohue",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "418205",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G10XW-Pajuelo",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WESSEX-VetSmallSouth"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
       "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Dragons-G10XW-Donohue",
-      "wins": 0
-    },
-    {
-      "club": "GlenRock",
-      "coach": "Casas",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "GlenRock-G10XW-Casas",
-      "wins": 0
-    },
-    {
-      "club": "WestEssex",
-      "coach": "Pajuelo",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "WestEssex-G10XW-Pajuelo",
       "wins": 0
     },
     {

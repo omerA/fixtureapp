@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-10-31T12:00:00.750310Z",
+  "scraped_at": "2026-11-01T12:57:50.178339Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -462,7 +462,7 @@
       "club": "NoArlington",
       "coach": "Matos",
       "draws": 1,
-      "form": "LLLWD",
+      "form": "LLWDW",
       "games": [
         {
           "date": "2026-09-20",
@@ -531,6 +531,17 @@
           "venue_code": "NA-Zadroga2"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414463",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G10C-GuevaraFuentes",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "ARS-Dorchester2"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416625",
           "goals_against": 0,
@@ -542,14 +553,14 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 18,
-      "goals_for": 19,
+      "goal_diff": 7,
+      "goals_against": 19,
+      "goals_for": 26,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 10,
       "team_raw": "NoArlington-G10C-Matos",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Force",
@@ -777,6 +788,17 @@
           "venue_code": "ARS-Dorchester2"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414463",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G10C-Matos",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "ARS-Dorchester2"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416624",
           "goals_against": 6,
@@ -799,11 +821,11 @@
           "venue_code": "ARS-Fieldstone6"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 28,
-      "goals_for": 3,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -31,
+      "goals_against": 35,
+      "goals_for": 4,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Arsenal-G10C-GuevaraFuentes",
       "wins": 0

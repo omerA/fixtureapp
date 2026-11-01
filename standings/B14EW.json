@@ -1,6 +1,6 @@
 {
   "division": "B14EW",
-  "scraped_at": "2026-10-31T11:59:59.601165Z",
+  "scraped_at": "2026-11-01T12:57:49.243629Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Dragons",
       "coach": "Gold",
       "draws": 1,
-      "form": "WWWDL",
+      "form": "WWDLW",
       "games": [
         {
           "date": "2026-09-27",
@@ -77,6 +77,17 @@
           "venue_code": "DRAG-WRMS-LG"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "416478",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14EW-Privitera",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "416480",
           "goals_against": 1,
@@ -88,20 +99,20 @@
           "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 12,
-      "goals_for": 32,
+      "goal_diff": 25,
+      "goals_against": 13,
+      "goals_for": 38,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Dragons-B14EW-Gold",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Arsenal",
       "coach": "McDermott",
       "draws": 1,
-      "form": "LWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -170,6 +181,17 @@
           "venue_code": "MAYWOOD-MemorialPkLg"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "416477",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B14EW-Breheney",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "416480",
           "goals_against": 1,
@@ -181,14 +203,14 @@
           "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 10,
-      "goals_for": 28,
+      "goal_diff": 19,
+      "goals_against": 12,
+      "goals_for": 31,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Arsenal-B14EW-McDermott",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Vikings",
@@ -380,7 +402,7 @@
       "club": "Lakeland",
       "coach": "Breheney",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -436,13 +458,24 @@
           "result": "W",
           "time": "05:45 PM",
           "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416477",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B14EW-McDermott",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "ARS-PHHS1"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 24,
-      "goals_for": 20,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -5,
+      "goals_against": 27,
+      "goals_for": 22,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "Lakeland-B14EW-Breheney",
       "wins": 2
@@ -520,6 +553,17 @@
           "venue_code": "LKLND-BBeach-Full"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "416478",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B14EW-Gold",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416482",
           "goals_against": 6,
@@ -531,11 +575,11 @@
           "venue_code": "RDBH-HS-Grass"
         }
       ],
-      "goal_diff": -40,
-      "goals_against": 45,
-      "goals_for": 5,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -45,
+      "goals_against": 51,
+      "goals_for": 6,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "RiverDell-B14EW-Privitera",
       "wins": 0

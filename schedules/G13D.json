@@ -15,13 +15,6 @@
       "name": "Sinatra Park",
       "size": "Both (Small & Large)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "275": {
       "address": "100 central avenue, Old Tappan, NJ 07675",
       "comments": "Large New Turf Field",
@@ -64,6 +57,13 @@
       "name": "Stevens Field",
       "size": "Large Field (11 vs 11)"
     },
+    "571": {
+      "address": "455 Broadway, Norwood, NJ 07648",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Kennedy",
+      "size": "Large Field (11 vs 11)"
+    },
     "819": {
       "address": "Barbour Pond Drive, Wayne, NJ 07470",
       "comments": "",
@@ -87,21 +87,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "WayneBG",
-      "away_score": null,
-      "away_team": "WayneBG-G13D-Nahorniak",
-      "date": "2026-09-13",
-      "division": "G13D",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415198",
-      "home_club": "NoValley",
-      "home_score": null,
-      "home_team": "NoValley-G13D-Mamalian",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Mahwah",
       "away_score": 2,
@@ -433,6 +418,21 @@
       "time": "02:45 PM"
     },
     {
+      "away_club": "WayneBG",
+      "away_score": null,
+      "away_team": "WayneBG-G13D-Nahorniak",
+      "date": "2026-11-12",
+      "division": "G13D",
+      "field": "Kennedy",
+      "field_id": "571",
+      "game_id": "415198",
+      "home_club": "NoValley",
+      "home_score": null,
+      "home_team": "NoValley-G13D-Mamalian",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
       "away_club": "HobUtd",
       "away_score": null,
       "away_team": "HobUtd-G13D-Gray",
@@ -538,6 +538,6 @@
       "time": "02:45 PM"
     }
   ],
-  "scraped_at": "2026-10-31T12:06:05.102604Z",
+  "scraped_at": "2026-11-01T13:03:45.445379Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

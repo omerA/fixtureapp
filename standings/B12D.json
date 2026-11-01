@@ -1,6 +1,6 @@
 {
   "division": "B12D",
-  "scraped_at": "2026-10-31T11:59:58.080512Z",
+  "scraped_at": "2026-11-01T12:57:47.963538Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "WoodRidge",
       "coach": "Mueller",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "414095",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12D-Leckenby",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
         {
           "date": "2026-10-02",
           "game_number": "414096",
@@ -88,14 +99,14 @@
           "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 6,
-      "goals_for": 24,
+      "goal_diff": 19,
+      "goals_against": 7,
+      "goals_for": 26,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "WoodRidge-B12D-Mueller",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Force",
@@ -336,7 +347,7 @@
       "club": "RiverDell",
       "coach": "Leckenby",
       "draws": 2,
-      "form": "DLLDW",
+      "form": "LLDWL",
       "games": [
         {
           "date": "2026-10-24",
@@ -348,6 +359,17 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414095",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12D-Mueller",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         },
         {
           "date": "2026-09-12",
@@ -394,11 +416,11 @@
           "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 12,
-      "goals_for": 10,
-      "losses": 2,
-      "played": 5,
+      "goal_diff": -3,
+      "goals_against": 14,
+      "goals_for": 11,
+      "losses": 3,
+      "played": 6,
       "points": 5,
       "team_raw": "RiverDell-B12D-Leckenby",
       "wins": 1

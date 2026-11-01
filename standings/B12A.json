@@ -1,6 +1,6 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-10-31T11:59:57.859551Z",
+  "scraped_at": "2026-11-01T12:57:47.791781Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "FairLawnAllSports",
       "coach": "DeFina",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-10-15",
@@ -75,22 +75,33 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416250",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12A-McCormack",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 5,
-      "goals_for": 24,
+      "goal_diff": 23,
+      "goals_against": 7,
+      "goals_for": 30,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "FairLawnAllSports-B12A-DeFina",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Spartan",
       "coach": "McCormack",
       "draws": 1,
-      "form": "LWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -157,13 +168,24 @@
           "result": "L",
           "time": "06:15 PM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416250",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12A-DeFina",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 10,
-      "goals_for": 13,
-      "losses": 2,
-      "played": 6,
+      "goal_diff": -1,
+      "goals_against": 16,
+      "goals_for": 15,
+      "losses": 3,
+      "played": 7,
       "points": 10,
       "team_raw": "Spartan-B12A-McCormack",
       "wins": 3
@@ -172,7 +194,7 @@
       "club": "Tenafly",
       "coach": "Leuer",
       "draws": 1,
-      "form": "WWLLD",
+      "form": "WLLDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -239,16 +261,27 @@
           "result": "D",
           "time": "10:00 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416248",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12A-Rotolo",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 13,
-      "goals_for": 11,
+      "goal_diff": 1,
+      "goals_against": 14,
+      "goals_for": 15,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 10,
       "team_raw": "Tenafly-B12A-Leuer",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Nutley",
@@ -407,7 +440,7 @@
       "club": "Hotspur",
       "coach": "Rotolo",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-10-15",
@@ -463,13 +496,24 @@
           "result": "L",
           "time": "02:45 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416248",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12A-Leuer",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 23,
-      "goals_for": 5,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -21,
+      "goals_against": 27,
+      "goals_for": 6,
+      "losses": 5,
+      "played": 6,
       "points": 1,
       "team_raw": "Hotspur-B12A-Rotolo",
       "wins": 0

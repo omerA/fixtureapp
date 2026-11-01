@@ -1,6 +1,6 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-10-31T11:59:54.988081Z",
+  "scraped_at": "2026-11-01T12:57:45.369255Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -101,7 +101,7 @@
       "club": "NMKnights",
       "coach": "Mitchell",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -168,16 +168,27 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415296",
+          "goals_against": 4,
+          "goals_for": 11,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B08C4-Muschinske",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Wdsd4v4"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 25,
-      "goals_for": 49,
+      "goal_diff": 31,
+      "goals_against": 29,
+      "goals_for": 60,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "NMKnights-B08C4-Mitchell",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Vikings",
@@ -418,7 +429,7 @@
       "club": "Ajax",
       "coach": "Muschinske",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -485,13 +496,24 @@
           "result": "L",
           "time": "08:30 AM",
           "venue_code": "AMER-LionsSouth7v7"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415296",
+          "goals_against": 11,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08C4-Mitchell",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Wdsd4v4"
         }
       ],
-      "goal_diff": -32,
-      "goals_against": 58,
-      "goals_for": 26,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -39,
+      "goals_against": 69,
+      "goals_for": 30,
+      "losses": 6,
+      "played": 7,
       "points": 1,
       "team_raw": "Ajax-B08C4-Muschinske",
       "wins": 0

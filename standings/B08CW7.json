@@ -1,6 +1,6 @@
 {
   "division": "B08CW7",
-  "scraped_at": "2026-10-31T11:59:55.106692Z",
+  "scraped_at": "2026-11-01T12:57:45.469298Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Dragons",
       "coach": "Gioffre",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -75,22 +75,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415900",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B08CW7-Fishbein",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 17,
-      "goals_for": 36,
+      "goal_diff": 22,
+      "goals_against": 21,
+      "goals_for": 43,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Dragons-B08CW7-Gioffre",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "WorldClassFC",
       "coach": "Hurtado",
       "draws": 1,
-      "form": "LWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -157,22 +168,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415902",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08CW7-Alves",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 20,
-      "goals_for": 30,
+      "goal_diff": 14,
+      "goals_against": 21,
+      "goals_for": 35,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "WorldClassFC-B08CW7-Hurtado",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "RiverDell",
       "coach": "Fishbein",
       "draws": 2,
-      "form": "LWWDD",
+      "form": "WWDDL",
       "games": [
         {
           "date": "2026-09-19",
@@ -228,13 +250,24 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415900",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08CW7-Gioffre",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 13,
-      "goals_for": 16,
-      "losses": 1,
-      "played": 5,
+      "goal_diff": 0,
+      "goals_against": 20,
+      "goals_for": 20,
+      "losses": 2,
+      "played": 6,
       "points": 8,
       "team_raw": "RiverDell-B08CW7-Fishbein",
       "wins": 2
@@ -314,7 +347,7 @@
       "club": "Vikings",
       "coach": "Alves",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -381,13 +414,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415902",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08CW7-Hurtado",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 22,
-      "goals_for": 12,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -14,
+      "goals_against": 27,
+      "goals_for": 13,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Vikings-B08CW7-Alves",
       "wins": 2

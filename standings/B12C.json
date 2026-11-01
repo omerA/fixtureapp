@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-10-31T11:59:58.023245Z",
+  "scraped_at": "2026-11-01T12:57:47.914482Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "CougarUtd",
       "coach": "DePiccioto",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-10-04",
@@ -75,22 +75,33 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417339",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B12C-Medina",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": 21,
+      "goal_diff": 23,
       "goals_against": 7,
-      "goals_for": 28,
+      "goals_for": 30,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "CougarUtd-B12C-DePiccioto",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "NASA",
       "coach": "Callegari",
       "draws": 1,
-      "form": "WWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -157,22 +168,33 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "WYNE-GeoWashMS"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417343",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B12C-JeanCharles",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 9,
-      "goals_for": 26,
+      "goal_diff": 18,
+      "goals_against": 11,
+      "goals_for": 29,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "NASA-B12C-Callegari",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WorldClassFC",
       "coach": "JeanCharles",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -239,13 +261,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417343",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B12C-Callegari",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 19,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 6,
+      "goal_diff": -1,
+      "goals_against": 22,
+      "goals_for": 21,
+      "losses": 3,
+      "played": 7,
       "points": 12,
       "team_raw": "WorldClassFC-B12C-JeanCharles",
       "wins": 4
@@ -254,7 +287,7 @@
       "club": "GlenRock",
       "coach": "Chafetz",
       "draws": 2,
-      "form": "LWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-10-04",
@@ -321,22 +354,33 @@
           "result": "L",
           "time": "03:15 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417342",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B12C-Sietsma",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RYSA-Heights"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 22,
-      "goals_for": 21,
+      "goal_diff": 2,
+      "goals_against": 25,
+      "goals_for": 27,
       "losses": 2,
-      "played": 6,
-      "points": 8,
+      "played": 7,
+      "points": 11,
       "team_raw": "GlenRock-B12C-Chafetz",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Belleville",
       "coach": "Percio",
       "draws": 1,
-      "form": "LLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -392,22 +436,33 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417341",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B12C-Melki",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams9v9"
         }
       ],
-      "goal_diff": -6,
+      "goal_diff": -2,
       "goals_against": 17,
-      "goals_for": 11,
+      "goals_for": 15,
       "losses": 2,
-      "played": 5,
-      "points": 7,
+      "played": 6,
+      "points": 10,
       "team_raw": "Belleville-B12C-Percio",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Carpio",
       "draws": 2,
-      "form": "DLWLD",
+      "form": "LWLDL",
       "games": [
         {
           "date": "2026-10-16",
@@ -474,13 +529,24 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "FL-CenterRec2"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417340",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B12C-Ceron",
+          "result": "L",
+          "time": "02:45 PM",
+          "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 15,
+      "goal_diff": -9,
+      "goals_against": 20,
       "goals_for": 11,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "points": 5,
       "team_raw": "FairLawnAllSports-B12C-Carpio",
       "wins": 1
@@ -489,7 +555,7 @@
       "club": "NoValley",
       "coach": "Medina",
       "draws": 1,
-      "form": "DWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-10-16",
@@ -545,13 +611,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417339",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12C-DePiccioto",
+          "result": "L",
+          "time": "10:15 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 22,
+      "goal_diff": -7,
+      "goals_against": 24,
       "goals_for": 17,
-      "losses": 3,
-      "played": 5,
+      "losses": 4,
+      "played": 6,
       "points": 4,
       "team_raw": "NoValley-B12C-Medina",
       "wins": 1
@@ -560,7 +637,7 @@
       "club": "RYSA",
       "coach": "Sietsma",
       "draws": 2,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -627,13 +704,24 @@
           "result": "D",
           "time": "01:00 PM",
           "venue_code": "FL-CenterRec2"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417342",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B12C-Chafetz",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RYSA-Heights"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 30,
-      "goals_for": 9,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -24,
+      "goals_against": 36,
+      "goals_for": 12,
+      "losses": 5,
+      "played": 7,
       "points": 2,
       "team_raw": "RYSA-B12C-Sietsma",
       "wins": 0
@@ -642,7 +730,7 @@
       "club": "NMKnights",
       "coach": "Melki",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -709,13 +797,24 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417341",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12C-Percio",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams9v9"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 29,
+      "goal_diff": -26,
+      "goals_against": 33,
       "goals_for": 7,
-      "losses": 5,
-      "played": 6,
+      "losses": 6,
+      "played": 7,
       "points": 1,
       "team_raw": "NMKnights-B12C-Melki",
       "wins": 0
@@ -724,7 +823,7 @@
       "club": "NoArlington",
       "coach": "Ceron",
       "draws": 1,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -791,16 +890,27 @@
           "result": "W",
           "time": "04:30 PM",
           "venue_code": "WYNE-GeoWashMS"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417340",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12C-Carpio",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "FL-CenterRec1A"
         }
       ],
-      "goal_diff": 21,
+      "goal_diff": 26,
       "goals_against": 10,
-      "goals_for": 31,
+      "goals_for": 36,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "NoArlington-B12C-Ceron",
-      "wins": 4
+      "wins": 5
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "division": "B09FW",
-  "scraped_at": "2026-10-31T11:59:56.008403Z",
+  "scraped_at": "2026-11-01T12:57:46.225582Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -89,8 +89,8 @@
     {
       "club": "GlenRock",
       "coach": "Antone",
-      "draws": 1,
-      "form": "WWWDW",
+      "draws": 0,
+      "form": "WWDWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -148,6 +148,17 @@
           "venue_code": "DRAG-JessieGeoSch"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "415495",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B09FW-Carino",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SS-HamiltonA"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417785",
           "goals_against": 1,
@@ -159,12 +170,12 @@
           "venue_code": "NA-Zadroga3"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 12,
-      "goals_for": 36,
-      "losses": 0,
-      "played": 6,
-      "points": 16,
+      "goal_diff": 21,
+      "goals_against": 16,
+      "goals_for": 37,
+      "losses": 1,
+      "played": 7,
+      "points": 15,
       "team_raw": "GlenRock-B09FW-Antone",
       "wins": 5
     },
@@ -254,7 +265,7 @@
       "club": "Maywood",
       "coach": "Huss",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -312,6 +323,17 @@
           "venue_code": "MAYWOOD-MemPark 7v7"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "415496",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09FW-Liberti",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
           "date": "2026-10-23",
           "game_number": "415499",
           "goals_against": 2,
@@ -334,11 +356,11 @@
           "venue_code": "MAYWOOD-MemPark 7v7"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 16,
-      "goals_for": 28,
+      "goal_diff": 11,
+      "goals_against": 14,
+      "goals_for": 25,
       "losses": 3,
-      "played": 7,
+      "played": 8,
       "points": 12,
       "team_raw": "Maywood-B09FW-Huss",
       "wins": 4
@@ -346,8 +368,8 @@
     {
       "club": "NoArlington",
       "coach": "Carino",
-      "draws": 1,
-      "form": "LLLDW",
+      "draws": 0,
+      "form": "LLDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -405,6 +427,17 @@
           "venue_code": "AMER-LionsSouthSmall"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "415495",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09FW-Antone",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "SS-HamiltonA"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417785",
           "goals_against": 1,
@@ -416,20 +449,20 @@
           "venue_code": "NA-Zadroga3"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 23,
-      "goals_for": 21,
+      "goal_diff": 1,
+      "goals_against": 24,
+      "goals_for": 25,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 9,
       "team_raw": "NoArlington-B09FW-Carino",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Dragons",
       "coach": "Liberti",
       "draws": 1,
-      "form": "LWDLL",
+      "form": "WDLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -498,6 +531,17 @@
           "venue_code": "DRAG-JessieGeoSch"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "415496",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B09FW-Huss",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
           "date": "2026-09-24",
           "game_number": "417782",
           "goals_against": 9,
@@ -509,11 +553,11 @@
           "venue_code": "MAYWOOD-MemPark 7v7"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 35,
-      "goals_for": 25,
+      "goal_diff": -9,
+      "goals_against": 32,
+      "goals_for": 23,
       "losses": 4,
-      "played": 7,
+      "played": 8,
       "points": 7,
       "team_raw": "Dragons-B09FW-Liberti",
       "wins": 2

@@ -1,9 +1,91 @@
 {
   "division": "G08A4",
-  "scraped_at": "2026-11-01T12:57:49.444250Z",
+  "scraped_at": "2026-11-02T15:07:10.247232Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Torpedoes",
+      "coach": "Renner",
+      "draws": 1,
+      "form": "LDWWW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "414295",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G08A4-Stockman",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "414297",
+          "goals_against": 11,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G08A4-Curci",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AMER-StLuke"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414301",
+          "goals_against": 7,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A4-Meaney",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414303",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08A4-Gillies",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414310",
+          "goals_against": 6,
+          "goals_for": 9,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08A4-Forsythe",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417644",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G08A4-Charoth",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "JC-GatewayLL4v4"
+        }
+      ],
+      "goal_diff": 18,
+      "goals_against": 29,
+      "goals_for": 47,
+      "losses": 1,
+      "played": 6,
+      "points": 13,
+      "team_raw": "Torpedoes-G08A4-Renner",
+      "wins": 4
+    },
     {
       "club": "Americans",
       "coach": "Curci",
@@ -77,80 +159,9 @@
     },
     {
       "club": "Torpedoes",
-      "coach": "Renner",
-      "draws": 1,
-      "form": "WLDWW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414295",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G08A4-Stockman",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "TORP-Lincoln1"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "414297",
-          "goals_against": 11,
-          "goals_for": 7,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G08A4-Curci",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "AMER-StLuke"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414301",
-          "goals_against": 7,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G08A4-Meaney",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "TORP-Lincoln1"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414303",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G08A4-Gillies",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "MAR-VetsFld3"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "417644",
-          "goals_against": 4,
-          "goals_for": 10,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-G08A4-Charoth",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "JC-GatewayLL4v4"
-        }
-      ],
-      "goal_diff": 15,
-      "goals_against": 23,
-      "goals_for": 38,
-      "losses": 1,
-      "played": 5,
-      "points": 10,
-      "team_raw": "Torpedoes-G08A4-Renner",
-      "wins": 3
-    },
-    {
-      "club": "Torpedoes",
       "coach": "Meaney",
-      "draws": 2,
-      "form": "WDWDL",
+      "draws": 3,
+      "form": "DWDLD",
       "games": [
         {
           "date": "2026-09-27",
@@ -197,6 +208,17 @@
           "venue_code": "JC-GatewayLL4v4"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "414309",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G08A4-Stockman",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "414318",
           "goals_against": 3,
@@ -220,11 +242,11 @@
         }
       ],
       "goal_diff": 2,
-      "goals_against": 31,
-      "goals_for": 33,
+      "goals_against": 35,
+      "goals_for": 37,
       "losses": 2,
-      "played": 6,
-      "points": 8,
+      "played": 7,
+      "points": 9,
       "team_raw": "Torpedoes-G08A4-Meaney",
       "wins": 2
     },
@@ -232,7 +254,7 @@
       "club": "Maroons",
       "coach": "Forsythe",
       "draws": 0,
-      "form": "LWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-10-18",
@@ -257,6 +279,17 @@
           "venue_code": "MAR-VetsFld3"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "414310",
+          "goals_against": 9,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A4-Renner",
+          "result": "L",
+          "time": "09:15 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
           "date": "2026-09-06",
           "game_number": "417638",
           "goals_against": 10,
@@ -279,11 +312,11 @@
           "venue_code": "MAR-VetsFld3"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 15,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 3,
+      "goal_diff": 0,
+      "goals_against": 24,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 4,
       "points": 6,
       "team_raw": "Maroons-G08A4-Forsythe",
       "wins": 2
@@ -433,8 +466,8 @@
     {
       "club": "Ajax",
       "coach": "Stockman",
-      "draws": 0,
-      "form": "LLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-09-20",
@@ -470,6 +503,17 @@
           "venue_code": "AJAX-MPHS-Wdsd4v4"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "414309",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08A4-Meaney",
+          "result": "D",
+          "time": "08:00 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "414311",
           "goals_against": 4,
@@ -482,11 +526,11 @@
         }
       ],
       "goal_diff": -19,
-      "goals_against": 32,
-      "goals_for": 13,
+      "goals_against": 36,
+      "goals_for": 17,
       "losses": 4,
-      "played": 4,
-      "points": 0,
+      "played": 5,
+      "points": 1,
       "team_raw": "Ajax-G08A4-Stockman",
       "wins": 0
     }

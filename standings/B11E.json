@@ -1,6 +1,6 @@
 {
   "division": "B11E",
-  "scraped_at": "2026-11-01T12:57:47.452892Z",
+  "scraped_at": "2026-11-02T15:07:07.922965Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -284,92 +284,10 @@
       "wins": 4
     },
     {
-      "club": "WayneBG",
-      "coach": "Camara",
-      "draws": 0,
-      "form": "LLLWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "417275",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "RIDGFLD",
-          "opponent_raw": "RIDGFLD-B11E-Viafara",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417276",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B11E-Iacono",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "LYND-RecCtrFld4"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "417281",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B11E-Hegyi",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417282",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B11E-OHara",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "MAR-MapleParkWestSm"
-        },
-        {
-          "date": "2026-10-21",
-          "game_number": "417287",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B11E-Valdes",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-10-28",
-          "game_number": "417293",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B11E-Iacono",
-          "result": "L",
-          "time": "07:45 PM",
-          "venue_code": "WYNE-Alps2"
-        }
-      ],
-      "goal_diff": -13,
-      "goals_against": 24,
-      "goals_for": 11,
-      "losses": 4,
-      "played": 6,
-      "points": 6,
-      "team_raw": "WayneBG-B11E-Camara",
-      "wins": 2
-    },
-    {
       "club": "RIDGFLD",
       "coach": "Viafara",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -427,6 +345,17 @@
           "venue_code": "MAR-MapleParkWestSm"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "417290",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11E-Camara",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
           "date": "2026-10-31",
           "game_number": "417292",
           "goals_against": 2,
@@ -438,13 +367,106 @@
           "venue_code": "PAR-ParkwayMS9"
         }
       ],
-      "goal_diff": 2,
+      "goal_diff": 6,
       "goals_against": 21,
-      "goals_for": 23,
+      "goals_for": 27,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "RIDGFLD-B11E-Viafara",
+      "wins": 3
+    },
+    {
+      "club": "WayneBG",
+      "coach": "Camara",
+      "draws": 0,
+      "form": "LLWLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "417275",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B11E-Viafara",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417276",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B11E-Iacono",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "417281",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B11E-Hegyi",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417282",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11E-OHara",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-10-21",
+          "game_number": "417287",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11E-Valdes",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417290",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B11E-Viafara",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-28",
+          "game_number": "417293",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B11E-Iacono",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "WYNE-Alps2"
+        }
+      ],
+      "goal_diff": -17,
+      "goals_against": 28,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "WayneBG-B11E-Camara",
       "wins": 2
     },
     {

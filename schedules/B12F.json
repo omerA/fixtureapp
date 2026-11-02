@@ -43,13 +43,6 @@
       "name": "Brookdale Stadium 9v9",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "196": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
       "comments": "",
@@ -154,6 +147,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Forest Avenue",
       "size": "Both (Small & Large)"
+    },
+    "770": {
+      "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Pulis 1",
+      "size": "Small Field (8 vs 8)"
     },
     "771": {
       "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
@@ -721,7 +721,7 @@
     },
     {
       "away_club": "Paramus",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Paramus-B12F-Buttacavoli",
       "date": "2026-11-01",
       "division": "B12F",
@@ -729,25 +729,10 @@
       "field_id": "77",
       "game_id": "415809",
       "home_club": "GlenRidge",
-      "home_score": null,
+      "home_score": 5,
       "home_team": "GlenRidge-B12F-Glick",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
-    },
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-B12F-Buttacavoli",
-      "date": "2026-11-07",
-      "division": "B12F",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416294",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-B12F-Dzilla",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "RiverDell",
@@ -778,6 +763,21 @@
       "home_team": "Maroons-B12F-Gillies",
       "is_upcoming": true,
       "time": "05:15 PM"
+    },
+    {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-B12F-Buttacavoli",
+      "date": "2026-11-11",
+      "division": "B12F",
+      "field": "Pulis 1",
+      "field_id": "770",
+      "game_id": "416294",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-B12F-Dzilla",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     },
     {
       "away_club": "GlenRidge",
@@ -990,6 +990,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-11-01T13:00:36.996957Z",
+  "scraped_at": "2026-11-02T15:09:51.992852Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-11-01T12:57:50.303892Z",
+  "scraped_at": "2026-11-02T15:07:11.308979Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -75,16 +75,27 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "EP-BoroughFld-Sml"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414921",
+          "goals_against": 3,
+          "goals_for": 9,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G10E-Grimm",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
         }
       ],
-      "goal_diff": 35,
-      "goals_against": 3,
-      "goals_for": 38,
+      "goal_diff": 41,
+      "goals_against": 6,
+      "goals_for": 47,
       "losses": 0,
-      "played": 6,
-      "points": 18,
+      "played": 7,
+      "points": 21,
       "team_raw": "ElmwoodPk-G10E-Meneses",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Thistle",
@@ -146,22 +157,33 @@
           "result": "W",
           "time": "10:15 AM",
           "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414923",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10E-Martin",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "THIS-Harvey Back SS"
         }
       ],
-      "goal_diff": 35,
+      "goal_diff": 42,
       "goals_against": 4,
-      "goals_for": 39,
+      "goals_for": 46,
       "losses": 0,
-      "played": 5,
-      "points": 15,
+      "played": 6,
+      "points": 18,
       "team_raw": "Thistle-G10E-Millar",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "HobUtd",
       "coach": "Grimm",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -217,13 +239,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414921",
+          "goals_against": 9,
+          "goals_for": 3,
+          "opponent_club": "ElmwoodPk",
+          "opponent_raw": "ElmwoodPk-G10E-Meneses",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 5,
-      "goals_for": 22,
-      "losses": 0,
-      "played": 5,
+      "goal_diff": 11,
+      "goals_against": 14,
+      "goals_for": 25,
+      "losses": 1,
+      "played": 6,
       "points": 15,
       "team_raw": "HobUtd-G10E-Grimm",
       "wins": 5
@@ -232,7 +265,7 @@
       "club": "Clarkstown",
       "coach": "Allen",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-09-13",
@@ -299,104 +332,33 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "EP-BoroughFld-Sml"
-        }
-      ],
-      "goal_diff": 4,
-      "goals_against": 21,
-      "goals_for": 25,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Clarkstown-G10E-Allen",
-      "wins": 3
-    },
-    {
-      "club": "GlobalJC",
-      "coach": "RicardoVaca",
-      "draws": 0,
-      "form": "WLLWW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "414893",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G10E-Timmerman",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "JC-GatewaySm1"
         },
         {
-          "date": "2026-09-20",
-          "game_number": "414897",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10E-vanGulik",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "414902",
-          "goals_against": 4,
-          "goals_for": 8,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10E-Martin",
-          "result": "W",
-          "time": "05:45 PM",
-          "venue_code": "JC-GatewaySm1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414906",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "ElmwoodPk",
-          "opponent_raw": "ElmwoodPk-G10E-Meneses",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "EP-BoroughFld-Sml"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414914",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G10E-Mault",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-OConnor2"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414917",
-          "goals_against": 2,
+          "date": "2026-11-01",
+          "game_number": "414920",
+          "goals_against": 3,
           "goals_for": 5,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G10E-RayRochkind",
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G10E-RicardoVaca",
           "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "JC-GatewaySm1"
+          "time": "05:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 26,
-      "goals_for": 25,
+      "goal_diff": 6,
+      "goals_against": 24,
+      "goals_for": 30,
       "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "GlobalJC-G10E-RicardoVaca",
-      "wins": 3
+      "played": 7,
+      "points": 12,
+      "team_raw": "Clarkstown-G10E-Allen",
+      "wins": 4
     },
     {
       "club": "Emerson",
       "coach": "Timmerman",
       "draws": 1,
-      "form": "WLLLD",
+      "form": "LLLDW",
       "games": [
         {
           "date": "2026-09-13",
@@ -463,22 +425,126 @@
           "result": "D",
           "time": "10:30 AM",
           "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414922",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10E-vanGulik",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 14,
-      "goals_for": 10,
+      "goal_diff": -1,
+      "goals_against": 16,
+      "goals_for": 15,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 10,
       "team_raw": "Emerson-G10E-Timmerman",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "GlobalJC",
+      "coach": "RicardoVaca",
+      "draws": 0,
+      "form": "LLWWL",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "414893",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10E-Timmerman",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414897",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10E-vanGulik",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414902",
+          "goals_against": 4,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10E-Martin",
+          "result": "W",
+          "time": "05:45 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414906",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "ElmwoodPk",
+          "opponent_raw": "ElmwoodPk-G10E-Meneses",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "EP-BoroughFld-Sml"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414914",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10E-Mault",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414917",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10E-RayRochkind",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414920",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10E-Allen",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 31,
+      "goals_for": 28,
+      "losses": 4,
+      "played": 7,
+      "points": 9,
+      "team_raw": "GlobalJC-G10E-RicardoVaca",
+      "wins": 3
     },
     {
       "club": "WOrange",
       "coach": "Mault",
-      "draws": 1,
-      "form": "LLLWD",
+      "draws": 2,
+      "form": "LLWDD",
       "games": [
         {
           "date": "2026-09-20",
@@ -534,22 +600,33 @@
           "result": "D",
           "time": "10:30 AM",
           "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414924",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10E-RayRochkind",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
       "goal_diff": -14,
-      "goals_against": 23,
-      "goals_for": 9,
+      "goals_against": 24,
+      "goals_for": 10,
       "losses": 3,
-      "played": 5,
-      "points": 4,
+      "played": 6,
+      "points": 5,
       "team_raw": "WOrange-G10E-Mault",
       "wins": 1
     },
     {
       "club": "CougarSC",
       "coach": "RayRochkind",
-      "draws": 0,
-      "form": "LLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-10-03",
@@ -605,14 +682,25 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414924",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10E-Mault",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
       "goal_diff": -17,
-      "goals_against": 32,
-      "goals_for": 15,
+      "goals_against": 33,
+      "goals_for": 16,
       "losses": 4,
-      "played": 5,
-      "points": 3,
+      "played": 6,
+      "points": 4,
       "team_raw": "CougarSC-G10E-RayRochkind",
       "wins": 1
     },
@@ -676,13 +764,24 @@
           "result": "L",
           "time": "10:15 AM",
           "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414922",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10E-Timmerman",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 37,
-      "goals_for": 4,
-      "losses": 5,
-      "played": 5,
+      "goal_diff": -36,
+      "goals_against": 42,
+      "goals_for": 6,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "Maroons-G10E-vanGulik",
       "wins": 0
@@ -747,13 +846,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414923",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G10E-Millar",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "THIS-Harvey Back SS"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 38,
+      "goal_diff": -29,
+      "goals_against": 45,
       "goals_for": 16,
-      "losses": 5,
-      "played": 5,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "Vikings-G10E-Martin",
       "wins": 0

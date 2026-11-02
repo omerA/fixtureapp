@@ -15,13 +15,6 @@
       "name": "Knights Of Columbus",
       "size": "Small Field (8 vs 8)"
     },
-    "1285": {
-      "address": "340 Franklin Turnpike, Ho-Ho-Kus, NJ 07423",
-      "comments": "4v4",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "St. Luke's - 4v4 - East",
-      "size": "Small Field (8 vs 8)"
-    },
     "243": {
       "address": "134 Woodcliff Avenue, Woodcliff Lake, NJ 07677",
       "comments": "",
@@ -360,7 +353,7 @@
     },
     {
       "away_club": "FF",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "FF-B08A4-Cortez",
       "date": "2026-11-01",
       "division": "B08A4",
@@ -368,14 +361,14 @@
       "field_id": "845",
       "game_id": "417393",
       "home_club": "Americans",
-      "home_score": null,
+      "home_score": 10,
       "home_team": "Americans-B08A4-Falciglia",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
       "away_club": "Spartan",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Spartan-B08A4-Hegyi",
       "date": "2026-11-01",
       "division": "B08A4",
@@ -383,14 +376,14 @@
       "field_id": "243",
       "game_id": "417378",
       "home_club": "Arsenal",
-      "home_score": null,
+      "home_score": 9,
       "home_team": "Arsenal-B08A4-Dickins",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
       "away_club": "Spartan",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Spartan-B08A4-Hegyi",
       "date": "2026-11-01",
       "division": "B08A4",
@@ -398,9 +391,9 @@
       "field_id": "330",
       "game_id": "417391",
       "home_club": "CougarSC",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "CougarSC-B08A4-Mazzullo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:00 PM"
     },
     {
@@ -439,8 +432,8 @@
       "away_team": "Dumont-B08A4-Zotaj",
       "date": "2026-11-14",
       "division": "B08A4",
-      "field": "St. Luke's - 4v4 - East",
-      "field_id": "1285",
+      "field": "Lions Park South Playground",
+      "field_id": "845",
       "game_id": "417399",
       "home_club": "Americans",
       "home_score": null,
@@ -524,6 +517,6 @@
       "time": "12:00 PM"
     }
   ],
-  "scraped_at": "2026-11-01T12:57:53.159529Z",
+  "scraped_at": "2026-11-02T15:07:14.592607Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

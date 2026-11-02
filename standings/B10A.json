@@ -1,6 +1,6 @@
 {
   "division": "B10A",
-  "scraped_at": "2026-11-01T12:57:46.520002Z",
+  "scraped_at": "2026-11-02T15:07:06.830161Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -101,7 +101,7 @@
       "club": "FairLawnAllSports",
       "coach": "Villanueva",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -168,13 +168,24 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417139",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B10A-Marante",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": 12,
+      "goal_diff": 11,
       "goals_against": 17,
-      "goals_for": 29,
+      "goals_for": 28,
       "losses": 2,
-      "played": 6,
+      "played": 7,
       "points": 12,
       "team_raw": "FairLawnAllSports-B10A-Villanueva",
       "wins": 4
@@ -336,7 +347,7 @@
       "club": "UnionCity",
       "coach": "Marante",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-10-25",
@@ -403,13 +414,24 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417139",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10A-Villanueva",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 33,
+      "goal_diff": -24,
+      "goals_against": 32,
       "goals_for": 8,
       "losses": 5,
-      "played": 6,
+      "played": 7,
       "points": 1,
       "team_raw": "UnionCity-B10A-Marante",
       "wins": 0

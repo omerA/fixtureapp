@@ -1,6 +1,6 @@
 {
   "division": "B09E",
-  "scraped_at": "2026-11-01T12:57:46.054577Z",
+  "scraped_at": "2026-11-02T15:07:06.286466Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -276,7 +276,7 @@
       "club": "RIDGFLD",
       "coach": "Palau",
       "draws": 0,
-      "form": "WWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -299,6 +299,17 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "RDGFLDFC-WillisSml"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417066",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09E-Harrison",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
         },
         {
           "date": "2026-10-03",
@@ -345,14 +356,14 @@
           "venue_code": "RDGFLDFC-Willis"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 26,
-      "goals_for": 19,
+      "goal_diff": -5,
+      "goals_against": 28,
+      "goals_for": 23,
       "losses": 3,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 12,
       "team_raw": "RIDGFLD-B09E-Palau",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "UnionCity",
@@ -533,7 +544,7 @@
       "club": "Maroons",
       "coach": "Harrison",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -545,6 +556,17 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417066",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B09E-Palau",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
         },
         {
           "date": "2026-10-03",
@@ -591,11 +613,11 @@
           "venue_code": "MAR-VetsFld2"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 22,
-      "goals_for": 8,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -16,
+      "goals_against": 26,
+      "goals_for": 10,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "Maroons-B09E-Harrison",
       "wins": 1

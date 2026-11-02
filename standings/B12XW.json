@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-11-01T12:57:48.367128Z",
+  "scraped_at": "2026-11-02T15:07:08.993446Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "BLMFLD",
       "coach": "Pereira",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-10-25",
@@ -20,13 +20,24 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "418160",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12XW-Ahmed",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-Centennial"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 0,
-      "goals_for": 3,
+      "goal_diff": 7,
+      "goals_against": 2,
+      "goals_for": 9,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "BLMFLD-B12XW-Pereira",
       "wins": 1
@@ -209,33 +220,6 @@
       "wins": 0
     },
     {
-      "club": "Verona",
-      "coach": "Ahmed",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "418159",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-B12XW-Pereira",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "BLMFLD-LionsGate"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 3,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Verona-B12XW-Ahmed",
-      "wins": 0
-    },
-    {
       "club": "Warriors",
       "coach": "Stratton",
       "draws": 0,
@@ -260,6 +244,44 @@
       "played": 1,
       "points": 0,
       "team_raw": "Warriors-B12XW-Stratton",
+      "wins": 0
+    },
+    {
+      "club": "Verona",
+      "coach": "Ahmed",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "418159",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B12XW-Pereira",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "418160",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B12XW-Pereira",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-Centennial"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 9,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "Verona-B12XW-Ahmed",
       "wins": 0
     }
   ]

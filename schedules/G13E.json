@@ -36,13 +36,6 @@
       "name": "To Be Scheduled-Visitor",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "284": {
       "address": "100 Columbus Rd, Demarest, NJ 07627",
       "comments": "",
@@ -87,21 +80,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Spartan",
-      "away_score": null,
-      "away_team": "Spartan-G13E-Haug",
-      "date": "2026-09-06",
-      "division": "G13E",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "418125",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-G13E-Longheira",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "CougarSC",
       "away_score": null,
@@ -314,7 +292,7 @@
     },
     {
       "away_club": "CougarSC",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "CougarSC-G13E-Wainschel",
       "date": "2026-11-01",
       "division": "G13E",
@@ -322,14 +300,14 @@
       "field_id": "284",
       "game_id": "415246",
       "home_club": "Vikings",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Vikings-G13E-Kaluza",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "SaddleBR",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "SaddleBR-G13E-DAngelo",
       "date": "2026-11-01",
       "division": "G13E",
@@ -337,9 +315,9 @@
       "field_id": "293",
       "game_id": "415244",
       "home_club": "AviatorsHHSA",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "AviatorsHHSA-G13E-Longheira",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:00 PM"
     },
     {
@@ -386,6 +364,21 @@
       "home_team": "CougarSC-G13E-Wainschel",
       "is_upcoming": true,
       "time": "09:00 AM"
+    },
+    {
+      "away_club": "Spartan",
+      "away_score": null,
+      "away_team": "Spartan-G13E-Haug",
+      "date": "2026-11-14",
+      "division": "G13E",
+      "field": "Hitchcock Field",
+      "field_id": "293",
+      "game_id": "418125",
+      "home_club": "AviatorsHHSA",
+      "home_score": null,
+      "home_team": "AviatorsHHSA-G13E-Longheira",
+      "is_upcoming": true,
+      "time": "11:00 AM"
     },
     {
       "away_club": "SaddleBR",
@@ -463,6 +456,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-11-01T13:03:48.263927Z",
+  "scraped_at": "2026-11-02T15:12:44.795035Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

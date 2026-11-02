@@ -22,6 +22,13 @@
       "name": "Waldwick H.S. Turf Field 3 - full",
       "size": "Large Field (11 vs 11)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1121": {
       "address": "330 River Rd, New Milford, NJ 07646",
       "comments": "11v11",
@@ -42,20 +49,6 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Manchester Regional High School - Turf",
       "size": "Large Field (11 vs 11)"
-    },
-    "189": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
     },
     "195": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
@@ -176,21 +169,6 @@
       "home_club": "Rutherford",
       "home_score": null,
       "home_team": "Rutherford-G14C-Zdon",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G14C-Anderson",
-      "date": "2026-09-13",
-      "division": "G14C",
-      "field": "To Be Scheduled-Home",
-      "field_id": "189",
-      "game_id": "416762",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-G14C-Puzino",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -358,21 +336,6 @@
       "home_team": "AviatorsHHSA-G14C-Andersen",
       "is_upcoming": false,
       "time": "05:00 PM"
-    },
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G14C-Anderson",
-      "date": "2026-09-27",
-      "division": "G14C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416771",
-      "home_club": "Southside",
-      "home_score": null,
-      "home_team": "Southside-G14C-Oscanoa",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Spartan",
@@ -781,7 +744,7 @@
     },
     {
       "away_club": "NMKnights",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "NMKnights-G14C-Anderson",
       "date": "2026-11-01",
       "division": "G14C",
@@ -789,29 +752,14 @@
       "field_id": "293",
       "game_id": "416793",
       "home_club": "AviatorsHHSA",
-      "home_score": null,
+      "home_score": 8,
       "home_team": "AviatorsHHSA-G14C-Andersen",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-G14C-Tenney",
-      "date": "2026-11-01",
-      "division": "G14C",
-      "field": "Cochrane Field - 2 at Caven Point - 9v9",
-      "field_id": "852",
-      "game_id": "416791",
-      "home_club": "JerseyCity",
-      "home_score": null,
-      "home_team": "JerseyCity-G14C-Gallagher",
-      "is_upcoming": true,
-      "time": "01:00 PM"
-    },
-    {
       "away_club": "FairLawnAllSports",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "FairLawnAllSports-G14C-Puzino",
       "date": "2026-11-01",
       "division": "G14C",
@@ -819,14 +767,29 @@
       "field_id": "279",
       "game_id": "416789",
       "home_club": "Rutherford",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Rutherford-G14C-Zdon",
-      "is_upcoming": true,
+      "is_upcoming": false,
+      "time": "01:00 PM"
+    },
+    {
+      "away_club": "Hotspur",
+      "away_score": 0,
+      "away_team": "Hotspur-G14C-Tenney",
+      "date": "2026-11-01",
+      "division": "G14C",
+      "field": "Cochrane Field - 2 at Caven Point - 9v9",
+      "field_id": "852",
+      "game_id": "416791",
+      "home_club": "JerseyCity",
+      "home_score": 0,
+      "home_team": "JerseyCity-G14C-Gallagher",
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "Montclair",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Montclair-G14C-Lehman",
       "date": "2026-11-01",
       "division": "G14C",
@@ -834,14 +797,14 @@
       "field_id": "1007",
       "game_id": "416792",
       "home_club": "Spartan",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Spartan-G14C-Crollo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:15 PM"
     },
     {
       "away_club": "NoRockland",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "NoRockland-G14C-Barrios",
       "date": "2026-11-01",
       "division": "G14C",
@@ -849,14 +812,14 @@
       "field_id": "733",
       "game_id": "417879",
       "home_club": "Bergenfield",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Bergenfield-G14C-Secillano",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
     },
     {
       "away_club": "Southside",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Southside-G14C-Oscanoa",
       "date": "2026-11-01",
       "division": "G14C",
@@ -864,16 +827,16 @@
       "field_id": "102",
       "game_id": "416790",
       "home_club": "Warriors",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Warriors-G14C-Clark",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:00 PM"
     },
     {
       "away_club": "JerseyCity",
       "away_score": null,
       "away_team": "JerseyCity-G14C-Gallagher",
-      "date": "2026-11-08",
+      "date": "2026-11-07",
       "division": "G14C",
       "field": "Manchester Regional High School - Turf",
       "field_id": "1212",
@@ -882,7 +845,22 @@
       "home_score": null,
       "home_team": "Southside-G14C-Oscanoa",
       "is_upcoming": true,
-      "time": "08:00 AM"
+      "time": "06:00 PM"
+    },
+    {
+      "away_club": "Rutherford",
+      "away_score": null,
+      "away_team": "Rutherford-G14C-Zdon",
+      "date": "2026-11-08",
+      "division": "G14C",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "416795",
+      "home_club": "Hotspur",
+      "home_score": null,
+      "home_team": "Hotspur-G14C-Tenney",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     },
     {
       "away_club": "AviatorsHHSA",
@@ -930,19 +908,19 @@
       "time": "11:30 AM"
     },
     {
-      "away_club": "Rutherford",
+      "away_club": "NMKnights",
       "away_score": null,
-      "away_team": "Rutherford-G14C-Zdon",
-      "date": "2026-11-08",
+      "away_team": "NMKnights-G14C-Anderson",
+      "date": "2026-11-09",
       "division": "G14C",
-      "field": "Ramsey HS Turf Field 2",
-      "field_id": "732",
-      "game_id": "416795",
-      "home_club": "Hotspur",
+      "field": "FLHS Turf",
+      "field_id": "673",
+      "game_id": "416762",
+      "home_club": "FairLawnAllSports",
       "home_score": null,
-      "home_team": "Hotspur-G14C-Tenney",
+      "home_team": "FairLawnAllSports-G14C-Puzino",
       "is_upcoming": true,
-      "time": "03:00 PM"
+      "time": "07:00 PM"
     },
     {
       "away_club": "Southside",
@@ -1065,6 +1043,21 @@
       "time": "05:00 PM"
     },
     {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-G14C-Anderson",
+      "date": "2026-11-18",
+      "division": "G14C",
+      "field": "Manchester Regional High School - Turf",
+      "field_id": "1212",
+      "game_id": "416771",
+      "home_club": "Southside",
+      "home_score": null,
+      "home_team": "Southside-G14C-Oscanoa",
+      "is_upcoming": true,
+      "time": "08:00 PM"
+    },
+    {
       "away_club": "NoRockland",
       "away_score": null,
       "away_team": "NoRockland-G14C-Barrios",
@@ -1155,6 +1148,6 @@
       "time": "06:45 PM"
     }
   ],
-  "scraped_at": "2026-11-01T13:03:58.175067Z",
+  "scraped_at": "2026-11-02T15:12:53.366498Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

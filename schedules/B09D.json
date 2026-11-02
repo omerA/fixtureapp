@@ -790,7 +790,7 @@
     },
     {
       "away_club": "Clarkstown",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Clarkstown-B09D-MongeCalderon",
       "date": "2026-11-01",
       "division": "B09D",
@@ -798,14 +798,14 @@
       "field_id": "52",
       "game_id": "417036",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 5,
       "home_team": "Maroons-B09D-Harrison",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:30 PM"
     },
     {
       "away_club": "CougarSC",
-      "away_score": null,
+      "away_score": 5,
       "away_team": "CougarSC-B09D-Mankey",
       "date": "2026-11-01",
       "division": "B09D",
@@ -813,10 +813,25 @@
       "field_id": "739",
       "game_id": "416014",
       "home_club": "Montclair",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Montclair-B09D-Bell",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:30 PM"
+    },
+    {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B09D-Mankey",
+      "date": "2026-11-07",
+      "division": "B09D",
+      "field": "Latteri Park",
+      "field_id": "645",
+      "game_id": "417040",
+      "home_club": "Broncos",
+      "home_score": null,
+      "home_team": "Broncos-B09D-Grunauer",
+      "is_upcoming": true,
+      "time": "11:30 AM"
     },
     {
       "away_club": "NMKnights",
@@ -847,21 +862,6 @@
       "home_team": "Clarkstown-B09D-MongeCalderon",
       "is_upcoming": true,
       "time": "01:45 PM"
-    },
-    {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B09D-Mankey",
-      "date": "2026-11-07",
-      "division": "B09D",
-      "field": "Latteri Park",
-      "field_id": "645",
-      "game_id": "417040",
-      "home_club": "Broncos",
-      "home_score": null,
-      "home_team": "Broncos-B09D-Grunauer",
-      "is_upcoming": true,
-      "time": "03:00 PM"
     },
     {
       "away_club": "Maroons",
@@ -1134,6 +1134,6 @@
       "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-11-01T12:58:40.098666Z",
+  "scraped_at": "2026-11-02T15:07:56.711420Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

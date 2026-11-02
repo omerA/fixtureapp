@@ -1,6 +1,6 @@
 {
   "division": "B13XW",
-  "scraped_at": "2026-11-01T12:57:48.850932Z",
+  "scraped_at": "2026-11-02T15:07:09.552786Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -73,31 +73,28 @@
       "club": "Harrison",
       "coach": "RodriguezEspinoza",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "418137",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13XW-Seaman",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "Harrison-B13XW-RodriguezEspinoza",
-      "wins": 0
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Seaman",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-B13XW-Seaman",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "SaddleBR",
@@ -165,6 +162,33 @@
       "played": 2,
       "points": 0,
       "team_raw": "Harrison-B13XW-Vassallo",
+      "wins": 0
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Seaman",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "418137",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B13XW-RodriguezEspinoza",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Rutherford-B13XW-Seaman",
       "wins": 0
     },
     {

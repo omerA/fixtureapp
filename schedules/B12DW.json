@@ -78,13 +78,6 @@
       "name": "Waldwick Superdome Outdoor",
       "size": "Small Field (8 vs 8)"
     },
-    "67": {
-      "address": "280 West Saddle River Road, Upper Saddle River, NJ 07458",
-      "comments": "Median 9 v 9 Field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Presentation Church",
-      "size": "Small Field (8 vs 8)"
-    },
     "845": {
       "address": "234 Lake Street, Upper Saddle River, NJ 07458",
       "comments": "Median 9 v 9 Field",
@@ -649,7 +642,7 @@
     },
     {
       "away_club": "Maywood",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Maywood-B12DW-Bautista",
       "date": "2026-10-31",
       "division": "B12DW",
@@ -657,9 +650,9 @@
       "field_id": "1150",
       "game_id": "414141",
       "home_club": "GlobalJC",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "GlobalJC-B12DW-Nobrega",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:15 PM"
     },
     {
@@ -679,7 +672,7 @@
     },
     {
       "away_club": "WOrange",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "WOrange-B12DW-Martinez",
       "date": "2026-11-01",
       "division": "B12DW",
@@ -687,14 +680,14 @@
       "field_id": "95",
       "game_id": "414121",
       "home_club": "Lyndhurst",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Lyndhurst-B12DW-Hykey",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
       "away_club": "Mahwah",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Mahwah-B12DW-Wood",
       "date": "2026-11-01",
       "division": "B12DW",
@@ -702,9 +695,9 @@
       "field_id": "204",
       "game_id": "414127",
       "home_club": "CougarUtd",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "CougarUtd-B12DW-Jang",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:45 PM"
     },
     {
@@ -846,16 +839,16 @@
       "away_club": "AviatorsHHSA",
       "away_score": null,
       "away_team": "AviatorsHHSA-B12DW-Chudzik",
-      "date": "2026-11-21",
+      "date": "2026-11-15",
       "division": "B12DW",
-      "field": "Presentation Church",
-      "field_id": "67",
+      "field": "Lions Park South Playground",
+      "field_id": "845",
       "game_id": "414155",
       "home_club": "Americans",
       "home_score": null,
       "home_team": "Americans-B12DW-Fiori",
       "is_upcoming": true,
-      "time": "09:15 AM"
+      "time": "01:45 PM"
     },
     {
       "away_club": "CougarUtd",
@@ -948,6 +941,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-11-01T13:00:30.735296Z",
+  "scraped_at": "2026-11-02T15:09:46.139554Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

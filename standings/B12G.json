@@ -1,6 +1,6 @@
 {
   "division": "B12G",
-  "scraped_at": "2026-11-01T12:57:48.273027Z",
+  "scraped_at": "2026-11-02T15:07:08.880297Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -401,8 +401,8 @@
     {
       "club": "HobUtd",
       "coach": "Timek",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-09-27",
@@ -425,6 +425,17 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416323",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
         },
         {
           "date": "2026-10-03",
@@ -472,19 +483,112 @@
         }
       ],
       "goal_diff": 14,
-      "goals_against": 14,
-      "goals_for": 28,
+      "goals_against": 16,
+      "goals_for": 30,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 13,
       "team_raw": "HobUtd-B12G-Timek",
       "wins": 4
     },
     {
+      "club": "WayneBG",
+      "coach": "Bechara",
+      "draws": 2,
+      "form": "WDLDW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "416311",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B12G-Nunfio",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-10",
+          "game_number": "416321",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B12G-Hernandez",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "416322",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12G-Rodriguez",
+          "result": "D",
+          "time": "12:15 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416331",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12G-Smalley",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416335",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B12G-Pedro",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416341",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12G-Loffredo",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "WYNE-ShaiShaknai"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417772",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B12G-Myriee",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "TEANECK-VoteeNorth"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 22,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 7,
+      "points": 11,
+      "team_raw": "WayneBG-B12G-Bechara",
+      "wins": 3
+    },
+    {
       "club": "Clarkstown",
       "coach": "MongeCalderon",
-      "draws": 1,
-      "form": "LWDWW",
+      "draws": 2,
+      "form": "WDWWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -507,6 +611,17 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416323",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B12G-Timek",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
         },
         {
           "date": "2026-10-03",
@@ -554,105 +669,12 @@
         }
       ],
       "goal_diff": 5,
-      "goals_against": 17,
-      "goals_for": 22,
+      "goals_against": 19,
+      "goals_for": 24,
       "losses": 2,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Clarkstown-B12G-MongeCalderon",
-      "wins": 3
-    },
-    {
-      "club": "ST23",
-      "coach": "Pedro",
-      "draws": 0,
-      "form": "WLWLL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416309",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B12G-Hernandez",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "NA-Zadroga3"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "416312",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B12G-Rodriguez",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416320",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B12G-Smalley",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416329",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B12G-Loffredo",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "COUGSC-Meadowlands"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416335",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12G-Bechara",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416337",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12G-Garrido",
-          "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416345",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 23,
-      "goals_for": 25,
-      "losses": 4,
       "played": 7,
-      "points": 9,
-      "team_raw": "ST23-B12G-Pedro",
+      "points": 10,
+      "team_raw": "Clarkstown-B12G-MongeCalderon",
       "wins": 3
     },
     {
@@ -749,86 +771,97 @@
       "wins": 2
     },
     {
-      "club": "WayneBG",
-      "coach": "Bechara",
-      "draws": 2,
-      "form": "LWDLD",
+      "club": "ST23",
+      "coach": "Pedro",
+      "draws": 0,
+      "form": "WLWLL",
       "games": [
         {
-          "date": "2026-10-04",
-          "game_number": "416311",
-          "goals_against": 7,
-          "goals_for": 3,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B12G-Nunfio",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-10-10",
-          "game_number": "416321",
+          "date": "2026-09-20",
+          "game_number": "416309",
           "goals_against": 1,
-          "goals_for": 8,
+          "goals_for": 7,
           "opponent_club": "NoArlington",
           "opponent_raw": "NoArlington-B12G-Hernandez",
           "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "WYNE-ShaiShaknai"
+          "time": "03:00 PM",
+          "venue_code": "NA-Zadroga3"
         },
         {
-          "date": "2026-10-11",
-          "game_number": "416322",
-          "goals_against": 3,
-          "goals_for": 3,
+          "date": "2026-09-12",
+          "game_number": "416312",
+          "goals_against": 6,
+          "goals_for": 0,
           "opponent_club": "Bergenfield",
           "opponent_raw": "Bergenfield-B12G-Rodriguez",
-          "result": "D",
-          "time": "12:15 PM",
+          "result": "L",
+          "time": "03:30 PM",
           "venue_code": "BGFD-RoyBrown"
         },
         {
-          "date": "2026-10-03",
-          "game_number": "416331",
-          "goals_against": 0,
-          "goals_for": 4,
+          "date": "2026-09-19",
+          "game_number": "416320",
+          "goals_against": 1,
+          "goals_for": 6,
           "opponent_club": "Tenafly",
           "opponent_raw": "Tenafly-B12G-Smalley",
           "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "WYNE-Alps2"
+          "time": "11:45 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416329",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B12G-Loffredo",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "COUGSC-Meadowlands"
         },
         {
           "date": "2026-10-18",
           "game_number": "416335",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B12G-Pedro",
-          "result": "L",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12G-Bechara",
+          "result": "W",
           "time": "09:30 AM",
           "venue_code": "WYNE-Alps2"
         },
         {
           "date": "2026-10-24",
-          "game_number": "416341",
-          "goals_against": 1,
+          "game_number": "416337",
+          "goals_against": 3,
           "goals_for": 1,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B12G-Loffredo",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "WYNE-ShaiShaknai"
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12G-Garrido",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416345",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B12G-MongeCalderon",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 19,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 6,
-      "points": 8,
-      "team_raw": "WayneBG-B12G-Bechara",
-      "wins": 2
+      "goal_diff": 2,
+      "goals_against": 23,
+      "goals_for": 25,
+      "losses": 4,
+      "played": 7,
+      "points": 9,
+      "team_raw": "ST23-B12G-Pedro",
+      "wins": 3
     },
     {
       "club": "Tenafly",
@@ -983,13 +1016,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417772",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12G-Bechara",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "TEANECK-VoteeNorth"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 24,
-      "goals_for": 5,
-      "losses": 5,
-      "played": 5,
+      "goal_diff": -23,
+      "goals_against": 31,
+      "goals_for": 8,
+      "losses": 6,
+      "played": 6,
       "points": 0,
       "team_raw": "TeaneckTravel-B12G-Myriee",
       "wins": 0

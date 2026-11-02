@@ -1,6 +1,6 @@
 {
   "division": "B15B",
-  "scraped_at": "2026-11-01T12:57:49.349194Z",
+  "scraped_at": "2026-11-02T15:07:10.132062Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -320,7 +320,7 @@
       "club": "Spartan",
       "coach": "Guedes",
       "draws": 1,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-10-18",
@@ -343,6 +343,17 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "WALD-HSTurf-3"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417584",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B15B-Lopez",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "PAR-ParkwayMS11"
         },
         {
           "date": "2026-10-03",
@@ -400,11 +411,11 @@
           "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 15,
-      "goals_for": 18,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": 1,
+      "goals_against": 20,
+      "goals_for": 21,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "Spartan-B15B-Guedes",
       "wins": 2
@@ -495,7 +506,7 @@
       "club": "FairLawnAllSports",
       "coach": "Lopez",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-10-09",
@@ -518,6 +529,17 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417584",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B15B-Guedes",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "PAR-ParkwayMS11"
         },
         {
           "date": "2026-10-03",
@@ -575,14 +597,14 @@
           "venue_code": "FL-CenterRec1"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 29,
-      "goals_for": 9,
+      "goal_diff": -18,
+      "goals_against": 32,
+      "goals_for": 14,
       "losses": 7,
-      "played": 7,
-      "points": 0,
+      "played": 8,
+      "points": 3,
       "team_raw": "FairLawnAllSports-B15B-Lopez",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

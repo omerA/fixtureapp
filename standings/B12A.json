@@ -1,6 +1,6 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-11-01T12:57:47.791781Z",
+  "scraped_at": "2026-11-02T15:07:08.315612Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -287,7 +287,7 @@
       "club": "Nutley",
       "coach": "Benevento",
       "draws": 1,
-      "form": "DWLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -323,6 +323,17 @@
           "venue_code": "TEN-Municipal"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "416240",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12A-Rotolo",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "HOT-McFarran"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "416243",
           "goals_against": 3,
@@ -345,11 +356,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 9,
-      "goals_for": 8,
-      "losses": 2,
-      "played": 5,
+      "goal_diff": -3,
+      "goals_against": 12,
+      "goals_for": 9,
+      "losses": 3,
+      "played": 6,
       "points": 7,
       "team_raw": "Nutley-B12A-Benevento",
       "wins": 2
@@ -440,7 +451,7 @@
       "club": "Hotspur",
       "coach": "Rotolo",
       "draws": 1,
-      "form": "DLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-10-15",
@@ -473,6 +484,17 @@
           "opponent_raw": "Spartan-B12A-McCormack",
           "result": "L",
           "time": "07:30 PM",
+          "venue_code": "HOT-McFarran"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416240",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Benevento",
+          "result": "W",
+          "time": "07:45 PM",
           "venue_code": "HOT-McFarran"
         },
         {
@@ -509,14 +531,14 @@
           "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 27,
-      "goals_for": 6,
+      "goal_diff": -19,
+      "goals_against": 28,
+      "goals_for": 9,
       "losses": 5,
-      "played": 6,
-      "points": 1,
+      "played": 7,
+      "points": 4,
       "team_raw": "Hotspur-B12A-Rotolo",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

@@ -1,9 +1,36 @@
 {
   "division": "B12XB",
-  "scraped_at": "2026-11-01T12:57:48.340332Z",
+  "scraped_at": "2026-11-02T15:07:08.961745Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "FairLawnAllSports",
+      "coach": "DeFina",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "417943",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B12XB-Melki",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 0,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-B12XB-DeFina",
+      "wins": 1
+    },
     {
       "club": "Nutley",
       "coach": "Benevento",
@@ -74,21 +101,6 @@
       "wins": 0
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "DeFina",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-B12XB-DeFina",
-      "wins": 0
-    },
-    {
       "club": "Lyndhurst",
       "coach": "Seddiki",
       "draws": 0,
@@ -101,21 +113,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Lyndhurst-B12XB-Seddiki",
-      "wins": 0
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Melki",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "NMKnights-B12XB-Melki",
       "wins": 0
     },
     {
@@ -170,6 +167,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Belleville-B12XB-Percio",
+      "wins": 0
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Melki",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "417943",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12XB-DeFina",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 5,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "NMKnights-B12XB-Melki",
       "wins": 0
     }
   ]

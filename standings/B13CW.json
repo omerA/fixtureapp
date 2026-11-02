@@ -1,6 +1,6 @@
 {
   "division": "B13CW",
-  "scraped_at": "2026-11-01T12:57:48.550712Z",
+  "scraped_at": "2026-11-02T15:07:09.232482Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -191,6 +191,88 @@
       "wins": 5
     },
     {
+      "club": "TeaneckFC",
+      "coach": "Valle",
+      "draws": 1,
+      "form": "LLLDW",
+      "games": [
+        {
+          "date": "2026-10-29",
+          "game_number": "414218",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B13CW-Alexander",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "NY-NR-NRSA-1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414225",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B13CW-Tramontano",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415817",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13CW-Birnie",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415820",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13CW-Sullivan",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415824",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B13CW-Alexander",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415828",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B13CW-Tramontano",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "NMilford-Kennedy"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 15,
+      "goals_for": 12,
+      "losses": 3,
+      "played": 6,
+      "points": 7,
+      "team_raw": "TeaneckFC-B13CW-Valle",
+      "wins": 2
+    },
+    {
       "club": "RiverDell",
       "coach": "Sullivan",
       "draws": 1,
@@ -333,71 +415,22 @@
       "wins": 1
     },
     {
-      "club": "TeaneckFC",
-      "coach": "Valle",
-      "draws": 0,
-      "form": "WLLL",
-      "games": [
-        {
-          "date": "2026-10-18",
-          "game_number": "414225",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B13CW-Tramontano",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415817",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B13CW-Birnie",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "NoVAL-OTHS turf"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415820",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B13CW-Sullivan",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415828",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B13CW-Tramontano",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "NMilford-Kennedy"
-        }
-      ],
-      "goal_diff": -6,
-      "goals_against": 11,
-      "goals_for": 5,
-      "losses": 3,
-      "played": 4,
-      "points": 3,
-      "team_raw": "TeaneckFC-B13CW-Valle",
-      "wins": 1
-    },
-    {
       "club": "NoRockland",
       "coach": "Alexander",
-      "draws": 1,
+      "draws": 2,
       "form": "LDLLL",
       "games": [
+        {
+          "date": "2026-10-29",
+          "game_number": "414218",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B13CW-Valle",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "NY-NR-NRSA-1"
+        },
         {
           "date": "2026-09-19",
           "game_number": "414221",
@@ -443,6 +476,17 @@
           "venue_code": "VIK-NVRHS Turf"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "415824",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B13CW-Valle",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
           "date": "2026-10-31",
           "game_number": "415825",
           "goals_against": 2,
@@ -465,12 +509,12 @@
           "venue_code": "NY-NR-NRSA-1"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 22,
-      "goals_for": 10,
-      "losses": 5,
-      "played": 6,
-      "points": 1,
+      "goal_diff": -15,
+      "goals_against": 29,
+      "goals_for": 14,
+      "losses": 6,
+      "played": 8,
+      "points": 2,
       "team_raw": "NoRockland-B13CW-Alexander",
       "wins": 0
     }

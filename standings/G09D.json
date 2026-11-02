@@ -1,6 +1,6 @@
 {
   "division": "G09D",
-  "scraped_at": "2026-11-01T12:57:49.847694Z",
+  "scraped_at": "2026-11-02T15:07:10.749076Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Hotspur",
       "coach": "Balch",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -75,22 +75,33 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414802",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G09D-Porrino",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "HOT-NoCentral"
         }
       ],
-      "goal_diff": 28,
+      "goal_diff": 34,
       "goals_against": 10,
-      "goals_for": 38,
+      "goals_for": 44,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "Hotspur-G09D-Balch",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Angotti",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -146,22 +157,33 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "FL-CenterRec2B"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414801",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G09D-VanDeStouwe",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
-      "goal_diff": 22,
-      "goals_against": 13,
-      "goals_for": 35,
+      "goal_diff": 23,
+      "goals_against": 15,
+      "goals_for": 38,
       "losses": 0,
-      "played": 5,
-      "points": 13,
+      "played": 6,
+      "points": 16,
       "team_raw": "FairLawnAllSports-G09D-Angotti",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "UnionCity",
       "coach": "Reyes",
       "draws": 2,
-      "form": "WDWLD",
+      "form": "DWLDL",
       "games": [
         {
           "date": "2026-10-03",
@@ -228,22 +250,104 @@
           "result": "D",
           "time": "04:45 PM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414803",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09D-Dzilla",
+          "result": "L",
+          "time": "11:15 AM",
+          "venue_code": "UNIONCITY-Marti"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 24,
-      "goals_for": 24,
-      "losses": 1,
-      "played": 6,
+      "goal_diff": -3,
+      "goals_against": 29,
+      "goals_for": 26,
+      "losses": 2,
+      "played": 7,
       "points": 11,
       "team_raw": "UnionCity-G09D-Reyes",
+      "wins": 3
+    },
+    {
+      "club": "Torpedoes",
+      "coach": "Dzilla",
+      "draws": 1,
+      "form": "DWWLW",
+      "games": [
+        {
+          "date": "2026-09-18",
+          "game_number": "414423",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G09D-Carofilis",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414430",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G09D-Emara",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414794",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G09D-Porrino",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414797",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09D-Balch",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414803",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G09D-Reyes",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "UNIONCITY-Marti"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 11,
+      "goals_for": 13,
+      "losses": 1,
+      "played": 5,
+      "points": 10,
+      "team_raw": "Torpedoes-G09D-Dzilla",
       "wins": 3
     },
     {
       "club": "GlenRidge",
       "coach": "VanDeStouwe",
       "draws": 1,
-      "form": "WLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-10-10",
@@ -301,6 +405,17 @@
           "venue_code": "UNIONCITY-Marti"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "414801",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09D-Angotti",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "414804",
           "goals_against": 0,
@@ -312,80 +427,20 @@
           "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 14,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 6,
+      "goal_diff": 2,
+      "goals_against": 17,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 7,
       "points": 10,
       "team_raw": "GlenRidge-G09D-VanDeStouwe",
       "wins": 3
     },
     {
-      "club": "Torpedoes",
-      "coach": "Dzilla",
-      "draws": 1,
-      "form": "DWWL",
-      "games": [
-        {
-          "date": "2026-09-18",
-          "game_number": "414423",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G09D-Carofilis",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "TORP-Pulis1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414430",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G09D-Emara",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414794",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G09D-Porrino",
-          "result": "W",
-          "time": "09:45 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414797",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G09D-Balch",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "HOT-NoCentral"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 9,
-      "goals_for": 8,
-      "losses": 1,
-      "played": 4,
-      "points": 7,
-      "team_raw": "Torpedoes-G09D-Dzilla",
-      "wins": 2
-    },
-    {
       "club": "NMKnights",
       "coach": "Porrino",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-10-03",
@@ -441,13 +496,24 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414802",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09D-Balch",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "HOT-NoCentral"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 19,
+      "goal_diff": -9,
+      "goals_against": 25,
       "goals_for": 16,
-      "losses": 4,
-      "played": 5,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "NMKnights-G09D-Porrino",
       "wins": 1
@@ -455,8 +521,8 @@
     {
       "club": "WayneBG",
       "coach": "Carofilis",
-      "draws": 1,
-      "form": "LWLLL",
+      "draws": 2,
+      "form": "WLLLD",
       "games": [
         {
           "date": "2026-10-10",
@@ -514,6 +580,17 @@
           "venue_code": "FL-CenterRec2B"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "414800",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G09D-Emara",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "414804",
           "goals_against": 2,
@@ -526,19 +603,19 @@
         }
       ],
       "goal_diff": -17,
-      "goals_against": 21,
-      "goals_for": 4,
+      "goals_against": 23,
+      "goals_for": 6,
       "losses": 4,
-      "played": 6,
-      "points": 1,
+      "played": 7,
+      "points": 2,
       "team_raw": "WayneBG-G09D-Carofilis",
       "wins": 0
     },
     {
       "club": "AviatorsHHSA",
       "coach": "Emara",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-09-13",
@@ -605,14 +682,25 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414800",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G09D-Carofilis",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
       "goal_diff": -32,
-      "goals_against": 39,
-      "goals_for": 7,
+      "goals_against": 41,
+      "goals_for": 9,
       "losses": 6,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 1,
       "team_raw": "AviatorsHHSA-G09D-Emara",
       "wins": 0
     }

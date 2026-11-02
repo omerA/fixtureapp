@@ -1,6 +1,6 @@
 {
   "division": "B11G",
-  "scraped_at": "2026-11-01T12:57:47.590455Z",
+  "scraped_at": "2026-11-02T15:07:08.083645Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Mahwah",
       "coach": "Kothiyal",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -77,6 +77,17 @@
           "venue_code": "RDBH-MS-Sm"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "415686",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B11G-Gedeon",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
           "date": "2026-10-23",
           "game_number": "415690",
           "goals_against": 2,
@@ -88,14 +99,14 @@
           "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 23,
-      "goals_for": 41,
+      "goal_diff": 22,
+      "goals_against": 24,
+      "goals_for": 46,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Mahwah-B11G-Kothiyal",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "RiverDell",
@@ -189,88 +200,6 @@
       "points": 15,
       "team_raw": "RiverDell-B11G-Gratale",
       "wins": 5
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Gedeon",
-      "draws": 2,
-      "form": "WDDWW",
-      "games": [
-        {
-          "date": "2026-10-18",
-          "game_number": "414079",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11G-Zotaj",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "DUM-TwinBoro"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414082",
-          "goals_against": 8,
-          "goals_for": 4,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B11G-Kothiyal",
-          "result": "L",
-          "time": "08:30 AM",
-          "venue_code": "COUGSC-LightningSml"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414087",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B11G-Gratale",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414088",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B11G-Steinman",
-          "result": "W",
-          "time": "08:30 AM",
-          "venue_code": "COUGSC-LightningSml"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414593",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B11G-DeCarlo",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "COUGSC-Cameron"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415682",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11G-Zotaj",
-          "result": "W",
-          "time": "08:30 AM",
-          "venue_code": "COUGSC-LightningSml"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 17,
-      "goals_for": 23,
-      "losses": 1,
-      "played": 6,
-      "points": 11,
-      "team_raw": "CougarSC-B11G-Gedeon",
-      "wins": 3
     },
     {
       "club": "Emerson",
@@ -374,6 +303,99 @@
       "played": 8,
       "points": 11,
       "team_raw": "Emerson-B11G-DeCarlo",
+      "wins": 3
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Gedeon",
+      "draws": 2,
+      "form": "DDWWL",
+      "games": [
+        {
+          "date": "2026-10-18",
+          "game_number": "414079",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11G-Zotaj",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414082",
+          "goals_against": 8,
+          "goals_for": 4,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B11G-Kothiyal",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414087",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11G-Gratale",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414088",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11G-Steinman",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414593",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B11G-DeCarlo",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "COUGSC-Cameron"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415682",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11G-Zotaj",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415686",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B11G-Kothiyal",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "MAHWAH-CSF"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 22,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 7,
+      "points": 11,
+      "team_raw": "CougarSC-B11G-Gedeon",
       "wins": 3
     },
     {

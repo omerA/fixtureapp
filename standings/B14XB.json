@@ -1,6 +1,6 @@
 {
   "division": "B14XB",
-  "scraped_at": "2026-11-01T12:57:49.269929Z",
+  "scraped_at": "2026-11-02T15:07:10.035970Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -35,7 +35,7 @@
       "club": "GlenRock",
       "coach": "Lynch",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-10-25",
@@ -47,13 +47,24 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "418081",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14XB-Tischio",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 1,
+      "goal_diff": 4,
+      "goals_against": 0,
       "goals_for": 4,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "GlenRock-B14XB-Lynch",
       "wins": 1
@@ -119,7 +130,7 @@
       "club": "Nutley",
       "coach": "Tischio",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-10-25",
@@ -131,13 +142,24 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "418081",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14XB-Lynch",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": -3,
+      "goal_diff": -4,
       "goals_against": 4,
-      "goals_for": 1,
+      "goals_for": 0,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Nutley-B14XB-Tischio",
       "wins": 0

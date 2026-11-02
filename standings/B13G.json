@@ -1,6 +1,6 @@
 {
   "division": "B13G",
-  "scraped_at": "2026-11-01T12:57:48.797155Z",
+  "scraped_at": "2026-11-02T15:07:09.491465Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -191,92 +191,10 @@
       "wins": 4
     },
     {
-      "club": "Spartan",
-      "coach": "Bosco",
-      "draws": 1,
-      "form": "WWLLW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "417512",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B13G-Heimerle",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417515",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-B13G-Torres",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417521",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B13G-Chowdhury",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417522",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B13G-Regan",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "417527",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B13G-Heimerle",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "417533",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B13G-dePaula",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 7,
-      "goals_for": 15,
-      "losses": 2,
-      "played": 6,
-      "points": 10,
-      "team_raw": "Spartan-B13G-Bosco",
-      "wins": 3
-    },
-    {
       "club": "Bergenfield",
       "coach": "Torres",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -334,6 +252,17 @@
           "venue_code": "NUT-FatherGlotzbach1"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "417528",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13G-Bosco",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
           "date": "2026-10-25",
           "game_number": "417531",
           "goals_against": 1,
@@ -345,13 +274,106 @@
           "venue_code": "BGFD-Vivyen A"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 21,
-      "goals_for": 11,
+      "goal_diff": -8,
+      "goals_against": 22,
+      "goals_for": 14,
       "losses": 3,
-      "played": 6,
-      "points": 9,
+      "played": 7,
+      "points": 12,
       "team_raw": "Bergenfield-B13G-Torres",
+      "wins": 4
+    },
+    {
+      "club": "Spartan",
+      "coach": "Bosco",
+      "draws": 1,
+      "form": "WLLWL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "417512",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B13G-Heimerle",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417515",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B13G-Torres",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417521",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B13G-Chowdhury",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417522",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B13G-Regan",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417527",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B13G-Heimerle",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417528",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B13G-Torres",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "417533",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13G-dePaula",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 10,
+      "goals_for": 16,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
+      "team_raw": "Spartan-B13G-Bosco",
       "wins": 3
     },
     {

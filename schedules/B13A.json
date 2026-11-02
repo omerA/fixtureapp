@@ -381,7 +381,7 @@
     },
     {
       "away_club": "FairLawnAllSports",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "FairLawnAllSports-B13A-Rake",
       "date": "2026-11-01",
       "division": "B13A",
@@ -389,9 +389,9 @@
       "field_id": "18",
       "game_id": "417499",
       "home_club": "Tenafly",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Tenafly-B13A-Schwartzberg",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:45 PM"
     },
     {
@@ -408,21 +408,6 @@
       "home_team": "Nutley-B13A-Clifford",
       "is_upcoming": true,
       "time": "09:00 AM"
-    },
-    {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B13A-Kolodiy",
-      "date": "2026-11-07",
-      "division": "B13A",
-      "field": "FLHS Turf",
-      "field_id": "673",
-      "game_id": "417501",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B13A-Rake",
-      "is_upcoming": true,
-      "time": "05:00 PM"
     },
     {
       "away_club": "AviatorsHHSA",
@@ -515,6 +500,21 @@
       "time": "12:00 PM"
     },
     {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-B13A-Kolodiy",
+      "date": "2026-11-20",
+      "division": "B13A",
+      "field": "FLHS Turf",
+      "field_id": "673",
+      "game_id": "417501",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B13A-Rake",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Ajax",
       "away_score": null,
       "away_team": "Ajax-B13A-Aufiero",
@@ -545,6 +545,6 @@
       "time": "06:30 PM"
     }
   ],
-  "scraped_at": "2026-11-01T13:00:52.211484Z",
+  "scraped_at": "2026-11-02T15:10:06.036208Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

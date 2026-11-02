@@ -1,6 +1,6 @@
 {
   "division": "G13XB",
-  "scraped_at": "2026-11-01T12:57:51.279440Z",
+  "scraped_at": "2026-11-02T15:07:12.529947Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "RiverDell",
       "coach": "DelCorral",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-10-24",
@@ -20,16 +20,27 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "418201",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13XB-Collins",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": 4,
+      "goal_diff": 8,
       "goals_against": 0,
-      "goals_for": 4,
+      "goals_for": 8,
       "losses": 0,
-      "played": 1,
-      "points": 3,
+      "played": 2,
+      "points": 6,
       "team_raw": "RiverDell-G13XB-DelCorral",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Ajax",
@@ -95,7 +106,7 @@
       "club": "Dragons",
       "coach": "Collins",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-10-24",
@@ -107,13 +118,24 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "418201",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13XB-DelCorral",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 4,
+      "goal_diff": -8,
+      "goals_against": 8,
       "goals_for": 0,
-      "losses": 1,
-      "played": 1,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "Dragons-G13XB-Collins",
       "wins": 0

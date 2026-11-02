@@ -29,6 +29,13 @@
       "name": "Back Beach Park 1 Small-Sided 7v7",
       "size": "Small Field (8 vs 8)"
     },
+    "1234": {
+      "address": "235 Harrington Ave., Westwood, NJ 07675",
+      "comments": "7v7 field",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Westvale Back 7v7",
+      "size": "Small Field (8 vs 8)"
+    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -78,6 +85,13 @@
       "name": "Volunteers Field",
       "size": "Both (Small & Large)"
     },
+    "770": {
+      "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Pulis 1",
+      "size": "Small Field (8 vs 8)"
+    },
     "799": {
       "address": "PO Box 26, HohoKus, NJ 07423",
       "comments": "",
@@ -96,7 +110,7 @@
   "games": [
     {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "Torpedoes-B10XW-Grados",
       "date": "2026-11-01",
       "division": "B10XW",
@@ -104,9 +118,9 @@
       "field_id": "726",
       "game_id": "418063",
       "home_club": "SaddleBR",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "SaddleBR-B10XW-Patel",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "03:00 PM"
     },
     {
@@ -123,6 +137,36 @@
       "home_team": "RdgfldPk-B10XW-Doyle",
       "is_upcoming": true,
       "time": "07:30 PM"
+    },
+    {
+      "away_club": "SaddleBR",
+      "away_score": null,
+      "away_team": "SaddleBR-B10XW-Patel",
+      "date": "2026-11-06",
+      "division": "B10XW",
+      "field": "Pulis 1",
+      "field_id": "770",
+      "game_id": "418062",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-B10XW-Grados",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-B10XW-OHara",
+      "date": "2026-11-07",
+      "division": "B10XW",
+      "field": "Westvale Back 7v7",
+      "field_id": "1234",
+      "game_id": "418059",
+      "home_club": "Dragons",
+      "home_score": null,
+      "home_team": "Dragons-B10XW-Friedman",
+      "is_upcoming": true,
+      "time": "10:00 AM"
     },
     {
       "away_club": "Verona",
@@ -245,21 +289,6 @@
       "time": "11:45 AM"
     },
     {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-B10XW-Millard",
-      "date": "2026-11-22",
-      "division": "B10XW",
-      "field": "Lyndhurst Rec Center Field 1A",
-      "field_id": "1010",
-      "game_id": "418052",
-      "home_club": "Lyndhurst",
-      "home_score": null,
-      "home_team": "Lyndhurst-B10XW-Westemeyer",
-      "is_upcoming": true,
-      "time": "01:00 PM"
-    },
-    {
       "away_club": "Dragons",
       "away_score": null,
       "away_team": "Dragons-B10XW-Friedman",
@@ -275,34 +304,19 @@
       "time": "01:00 PM"
     },
     {
-      "away_club": "Maroons",
+      "away_club": "CougarSC",
       "away_score": null,
-      "away_team": "Maroons-B10XW-OHara",
-      "date": "2026-12-03",
+      "away_team": "CougarSC-B10XW-Millard",
+      "date": "2026-11-22",
       "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418059",
-      "home_club": "Dragons",
+      "field": "Lyndhurst Rec Center Field 1A",
+      "field_id": "1010",
+      "game_id": "418052",
+      "home_club": "Lyndhurst",
       "home_score": null,
-      "home_team": "Dragons-B10XW-Friedman",
+      "home_team": "Lyndhurst-B10XW-Westemeyer",
       "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "SaddleBR",
-      "away_score": null,
-      "away_team": "SaddleBR-B10XW-Patel",
-      "date": "2026-12-03",
-      "division": "B10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418062",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-B10XW-Grados",
-      "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "01:00 PM"
     },
     {
       "away_club": "WoodRidge",
@@ -335,6 +349,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-01T12:59:41.421525Z",
+  "scraped_at": "2026-11-02T15:08:56.390062Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

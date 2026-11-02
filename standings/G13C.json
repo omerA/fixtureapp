@@ -1,6 +1,6 @@
 {
   "division": "G13C",
-  "scraped_at": "2026-11-01T12:57:51.185625Z",
+  "scraped_at": "2026-11-02T15:07:12.381463Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lyndhurst",
       "coach": "Gonzalez",
       "draws": 1,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-13",
@@ -77,6 +77,17 @@
           "venue_code": "LYND-RecCtrFld1"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "415186",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-G13C-Deubel",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "RYSA-MBS"
+        },
+        {
           "date": "2026-10-08",
           "game_number": "415194",
           "goals_against": 1,
@@ -88,11 +99,11 @@
           "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 7,
-      "goals_for": 19,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 10,
+      "goals_against": 10,
+      "goals_for": 20,
+      "losses": 2,
+      "played": 8,
       "points": 16,
       "team_raw": "Lyndhurst-G13C-Gonzalez",
       "wins": 5
@@ -101,7 +112,7 @@
       "club": "RYSA",
       "coach": "Deubel",
       "draws": 1,
-      "form": "WDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-10-08",
@@ -146,22 +157,33 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415186",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G13C-Gonzalez",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "RYSA-MBS"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 4,
-      "goals_for": 13,
+      "goal_diff": 11,
+      "goals_against": 5,
+      "goals_for": 16,
       "losses": 0,
-      "played": 4,
-      "points": 10,
+      "played": 5,
+      "points": 13,
       "team_raw": "RYSA-G13C-Deubel",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Ajax",
       "coach": "Jackson",
       "draws": 2,
-      "form": "DWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-09-13",
@@ -217,22 +239,33 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415184",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G13C-Macias",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 4,
       "goals_against": 4,
-      "goals_for": 7,
+      "goals_for": 8,
       "losses": 1,
-      "played": 5,
-      "points": 8,
+      "played": 6,
+      "points": 11,
       "team_raw": "Ajax-G13C-Jackson",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Fairview",
       "coach": "Macias",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-10-24",
@@ -290,6 +323,17 @@
           "venue_code": "CLIF-CliftonSports"
         },
         {
+          "date": "2026-11-01",
+          "game_number": "415184",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G13C-Jackson",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        },
+        {
           "date": "2026-10-08",
           "game_number": "415194",
           "goals_against": 3,
@@ -301,69 +345,20 @@
           "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 16,
+      "goal_diff": -7,
+      "goals_against": 17,
       "goals_for": 10,
-      "losses": 4,
-      "played": 6,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Fairview-G13C-Macias",
       "wins": 2
     },
     {
-      "club": "GlobalJC",
-      "coach": "Charoth",
-      "draws": 0,
-      "form": "LWL",
-      "games": [
-        {
-          "date": "2026-10-24",
-          "game_number": "415167",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G13C-Macias",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "JC-Gateway-New"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415177",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G13C-Gonzalez",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415181",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-G13C-Macias",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "CLIF-CliftonSports"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 9,
-      "goals_for": 6,
-      "losses": 2,
-      "played": 3,
-      "points": 3,
-      "team_raw": "GlobalJC-G13C-Charoth",
-      "wins": 1
-    },
-    {
       "club": "TeaneckFC",
       "coach": "Valle",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-10-08",
@@ -419,16 +414,87 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415185",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G13C-Charoth",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 18,
-      "goals_for": 3,
+      "goal_diff": -13,
+      "goals_against": 19,
+      "goals_for": 6,
       "losses": 5,
-      "played": 5,
-      "points": 0,
+      "played": 6,
+      "points": 3,
       "team_raw": "TeaneckFC-G13C-Valle",
-      "wins": 0
+      "wins": 1
+    },
+    {
+      "club": "GlobalJC",
+      "coach": "Charoth",
+      "draws": 0,
+      "form": "LWLL",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "415167",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G13C-Macias",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415177",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G13C-Gonzalez",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415181",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-G13C-Macias",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "CLIF-CliftonSports"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415185",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-G13C-Valle",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "JC-Gateway-New"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 12,
+      "goals_for": 7,
+      "losses": 3,
+      "played": 4,
+      "points": 3,
+      "team_raw": "GlobalJC-G13C-Charoth",
+      "wins": 1
     }
   ]
 }

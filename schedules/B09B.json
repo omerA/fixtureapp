@@ -36,19 +36,19 @@
       "name": "Sinatra Park- South",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "301": {
       "address": "610 North Central Ave, Mahwah, NJ 07430",
       "comments": "GPS Coordinates: 41.0772903, -74.1502984",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "North Central",
       "size": "Small Field (8 vs 8)"
+    },
+    "374": {
+      "address": "Williams Drive, Ramsey, NJ 07446",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Lower McFarran Field",
+      "size": "Large Field (11 vs 11)"
     },
     "604": {
       "address": "65 Park Avenue, Nutley, NJ 07110",
@@ -162,21 +162,6 @@
       "home_team": "HobUtd-B09B-Kapur",
       "is_upcoming": false,
       "time": "07:30 PM"
-    },
-    {
-      "away_club": "Nutley",
-      "away_score": null,
-      "away_team": "Nutley-B09B-Crespo",
-      "date": "2026-09-26",
-      "division": "B09B",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415441",
-      "home_club": "Hotspur",
-      "home_score": null,
-      "home_team": "Hotspur-B09B-Anari",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "HobUtd",
@@ -434,6 +419,21 @@
       "time": "01:30 PM"
     },
     {
+      "away_club": "Nutley",
+      "away_score": null,
+      "away_team": "Nutley-B09B-Crespo",
+      "date": "2026-11-08",
+      "division": "B09B",
+      "field": "Lower McFarran Field",
+      "field_id": "374",
+      "game_id": "415441",
+      "home_club": "Hotspur",
+      "home_score": null,
+      "home_team": "Hotspur-B09B-Anari",
+      "is_upcoming": true,
+      "time": "01:00 PM"
+    },
+    {
       "away_club": "Arsenal",
       "away_score": null,
       "away_team": "Arsenal-B09B-Nguyen",
@@ -524,6 +524,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-11-02T15:07:51.005364Z",
+  "scraped_at": "2026-11-03T13:55:47.538385Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "G10XW",
-  "scraped_at": "2026-11-02T15:07:11.363530Z",
+  "scraped_at": "2026-11-03T13:55:08.155427Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -59,6 +59,44 @@
       "wins": 1
     },
     {
+      "club": "Tenafly",
+      "coach": "DiClemente",
+      "draws": 0,
+      "form": "DW",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "418206",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10XW-OHara",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-02",
+          "game_number": "418207",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10XW-OHara",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 3,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Tenafly-G10XW-DiClemente",
+      "wins": 1
+    },
+    {
       "club": "Thistle",
       "coach": "Millar",
       "draws": 0,
@@ -88,8 +126,8 @@
     {
       "club": "Maroons",
       "coach": "OHara",
-      "draws": 1,
-      "form": "D",
+      "draws": 0,
+      "form": "DL",
       "games": [
         {
           "date": "2026-10-03",
@@ -101,42 +139,26 @@
           "result": "D",
           "time": "08:30 AM",
           "venue_code": "TEN-Sunnyside"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 4,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
-      "points": 1,
-      "team_raw": "Maroons-G10XW-OHara",
-      "wins": 0
-    },
-    {
-      "club": "Tenafly",
-      "coach": "DiClemente",
-      "draws": 1,
-      "form": "D",
-      "games": [
+        },
         {
-          "date": "2026-10-03",
-          "game_number": "418206",
+          "date": "2026-11-02",
+          "game_number": "418207",
           "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G10XW-OHara",
-          "result": "D",
-          "time": "08:30 AM",
-          "venue_code": "TEN-Sunnyside"
+          "goals_for": 3,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G10XW-DiClemente",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 0,
+      "goal_diff": -1,
       "goals_against": 4,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
-      "points": 1,
-      "team_raw": "Tenafly-G10XW-DiClemente",
+      "goals_for": 3,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "Maroons-G10XW-OHara",
       "wins": 0
     },
     {

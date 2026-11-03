@@ -22,6 +22,13 @@
       "name": "Faber Turf Small",
       "size": "Small Field (8 vs 8)"
     },
+    "182": {
+      "address": "1 Palm Street, Township of Washington, NJ 07676",
+      "comments": "70 X 45",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Jessie George School Field",
+      "size": "Small Field (8 vs 8)"
+    },
     "221": {
       "address": "62 Orchard Road, Maplewood, NJ 07040",
       "comments": "",
@@ -114,7 +121,7 @@
     },
     {
       "away_club": "Tenafly",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Tenafly-G10XW-DiClemente",
       "date": "2026-11-02",
       "division": "G10XW",
@@ -122,10 +129,25 @@
       "field_id": "584",
       "game_id": "418207",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Maroons-G10XW-OHara",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
+    },
+    {
+      "away_club": "WestEssex",
+      "away_score": null,
+      "away_team": "WestEssex-G10XW-Pajuelo",
+      "date": "2026-11-14",
+      "division": "G10XW",
+      "field": "Jessie George School Field",
+      "field_id": "182",
+      "game_id": "418204",
+      "home_club": "Dragons",
+      "home_score": null,
+      "home_team": "Dragons-G10XW-Donohue",
+      "is_upcoming": true,
+      "time": "09:00 AM"
     },
     {
       "away_club": "CougarSC",
@@ -156,23 +178,8 @@
       "home_team": "Thistle-G10XW-Millar",
       "is_upcoming": true,
       "time": "12:00 AM"
-    },
-    {
-      "away_club": "WestEssex",
-      "away_score": null,
-      "away_team": "WestEssex-G10XW-Pajuelo",
-      "date": "2026-12-03",
-      "division": "G10XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418204",
-      "home_club": "Dragons",
-      "home_score": null,
-      "home_team": "Dragons-G10XW-Donohue",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-02T15:11:50.540409Z",
+  "scraped_at": "2026-11-03T13:59:48.251364Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

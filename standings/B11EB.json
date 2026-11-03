@@ -1,6 +1,6 @@
 {
   "division": "B11EB",
-  "scraped_at": "2026-11-02T15:07:07.977367Z",
+  "scraped_at": "2026-11-03T13:55:05.701221Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -183,8 +183,19 @@
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "414027",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B11EB-Gyde",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
         {
           "date": "2026-10-03",
           "game_number": "414030",
@@ -263,11 +274,11 @@
           "venue_code": "HobUTD-1600Park"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 16,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": -3,
+      "goals_against": 18,
+      "goals_for": 15,
+      "losses": 4,
+      "played": 8,
       "points": 12,
       "team_raw": "Southside-B11EB-Zamora",
       "wins": 4
@@ -462,8 +473,19 @@
       "club": "Montclair",
       "coach": "Gyde",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "414027",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B11EB-Zamora",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
         {
           "date": "2026-10-03",
           "game_number": "414029",
@@ -531,14 +553,14 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 25,
-      "goals_for": 9,
+      "goal_diff": -15,
+      "goals_against": 26,
+      "goals_for": 11,
       "losses": 6,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 3,
       "team_raw": "Montclair-B11EB-Gyde",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

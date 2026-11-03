@@ -1,9 +1,36 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-11-02T15:07:06.742076Z",
+  "scraped_at": "2026-11-03T13:55:04.869952Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Breheny",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "418103",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09XB-Kapur",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "HobUTD-1600Park"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 0,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Maroons-B09XB-Breheny",
+      "wins": 1
+    },
     {
       "club": "Arsenal",
       "coach": "Nguyen",
@@ -58,21 +85,6 @@
       "wins": 0
     },
     {
-      "club": "HobUtd",
-      "coach": "Kapur",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "HobUtd-B09XB-Kapur",
-      "wins": 0
-    },
-    {
       "club": "Hotspur",
       "coach": "Anari",
       "draws": 0,
@@ -85,21 +97,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Hotspur-B09XB-Anari",
-      "wins": 0
-    },
-    {
-      "club": "Maroons",
-      "coach": "Breheny",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maroons-B09XB-Breheny",
       "wins": 0
     },
     {
@@ -168,6 +165,33 @@
       "played": 2,
       "points": 0,
       "team_raw": "CougarUtd-B09XB-Edry",
+      "wins": 0
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Kapur",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "418103",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09XB-Breheny",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "HobUTD-1600Park"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 5,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "HobUtd-B09XB-Kapur",
       "wins": 0
     }
   ]

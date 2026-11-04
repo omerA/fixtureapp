@@ -756,6 +756,7 @@
       "Rutherford-B10F-McDonald",
       "Rutherford-B10XW-Millar",
       "Rutherford-B11GW-Carlstein",
+      "Rutherford-B11XW-Carlstein",
       "Rutherford-B12H-Henderson",
       "Rutherford-B12XW-Henderson",
       "Rutherford-B13E-Seaman",
@@ -797,6 +798,7 @@
       "Southside-B09XB-Zamora",
       "Southside-B10G-Lainee",
       "Southside-B11EB-Zamora",
+      "Southside-B11XW-Zamora",
       "Southside-B12H-Lainee",
       "Southside-B13CB-Fernandez",
       "Southside-B13G-Chowdhury",
@@ -4408,6 +4410,11 @@
       "coach": "Carlstein",
       "division": "B11GW"
     },
+    "Rutherford-B11XW-Carlstein": {
+      "club": "Rutherford",
+      "coach": "Carlstein",
+      "division": "B11XW"
+    },
     "Rutherford-B12H-Henderson": {
       "club": "Rutherford",
       "coach": "Henderson",
@@ -4582,6 +4589,11 @@
       "club": "Southside",
       "coach": "Zamora",
       "division": "B11EB"
+    },
+    "Southside-B11XW-Zamora": {
+      "club": "Southside",
+      "coach": "Zamora",
+      "division": "B11XW"
     },
     "Southside-B12H-Lainee": {
       "club": "Southside",
@@ -6008,7 +6020,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-11-03T13:55:03.484590+00:00",
+  "scraped_at": "2026-11-04T14:03:58.656710+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

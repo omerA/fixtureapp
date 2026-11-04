@@ -1,14 +1,14 @@
 {
   "division": "B11EB",
-  "scraped_at": "2026-11-03T13:55:05.701221Z",
+  "scraped_at": "2026-11-04T14:04:00.412393Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "GlenRidge",
       "coach": "Yucel",
-      "draws": 2,
-      "form": "WWWDD",
+      "draws": 3,
+      "form": "WWDDD",
       "games": [
         {
           "date": "2026-09-26",
@@ -55,6 +55,17 @@
           "venue_code": "GLENRDGE-ForestAve"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414038",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B11EB-Gyde",
+          "result": "D",
+          "time": "12:15 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "417303",
           "goals_against": 3,
@@ -78,11 +89,11 @@
         }
       ],
       "goal_diff": 22,
-      "goals_against": 8,
-      "goals_for": 30,
+      "goals_against": 9,
+      "goals_for": 31,
       "losses": 0,
-      "played": 6,
-      "points": 14,
+      "played": 7,
+      "points": 15,
       "team_raw": "GlenRidge-B11EB-Yucel",
       "wins": 4
     },
@@ -472,8 +483,8 @@
     {
       "club": "Montclair",
       "coach": "Gyde",
-      "draws": 0,
-      "form": "LLLLW",
+      "draws": 1,
+      "form": "LLLDW",
       "games": [
         {
           "date": "2026-11-01",
@@ -520,6 +531,17 @@
           "venue_code": "HobUtd-SinatraPark"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414038",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B11EB-Yucel",
+          "result": "D",
+          "time": "12:15 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "414042",
           "goals_against": 3,
@@ -554,11 +576,11 @@
         }
       ],
       "goal_diff": -15,
-      "goals_against": 26,
-      "goals_for": 11,
+      "goals_against": 27,
+      "goals_for": 12,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "Montclair-B11EB-Gyde",
       "wins": 1
     }

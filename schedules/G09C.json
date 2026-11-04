@@ -50,6 +50,13 @@
       "name": "Borden Park 1",
       "size": "Small Field (8 vs 8)"
     },
+    "25": {
+      "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Pulis 4",
+      "size": "Small Field (8 vs 8)"
+    },
     "27": {
       "address": "Mason Avenue, Wyckoff, NJ 07481",
       "comments": "",
@@ -73,21 +80,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-G09C-Medeiros",
-      "date": "2026-09-13",
-      "division": "G09C",
-      "field": "Pulis 3",
-      "field_id": "22",
-      "game_id": "414377",
-      "home_club": "Torpedoes",
-      "home_score": null,
-      "home_team": "Torpedoes-G09C-Grados",
-      "is_upcoming": true,
-      "time": "09:45 AM"
-    },
     {
       "away_club": "Warriors",
       "away_score": 0,
@@ -554,6 +546,21 @@
       "time": "01:30 PM"
     },
     {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-G09C-Medeiros",
+      "date": "2026-11-20",
+      "division": "G09C",
+      "field": "Pulis 4",
+      "field_id": "25",
+      "game_id": "414377",
+      "home_club": "Torpedoes",
+      "home_score": null,
+      "home_team": "Torpedoes-G09C-Grados",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
       "away_club": "Warriors",
       "away_score": null,
       "away_team": "Warriors-G09C-Bresnan",
@@ -599,6 +606,6 @@
       "time": "12:15 PM"
     }
   ],
-  "scraped_at": "2026-11-03T13:59:17.020925Z",
+  "scraped_at": "2026-11-04T14:08:17.354886Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

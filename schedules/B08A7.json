@@ -43,19 +43,19 @@
       "name": "Gateway Small 2",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "306": {
       "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
       "comments": "7v7 field",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Brookdale Meadow C",
       "size": "Small Field (8 vs 8)"
+    },
+    "385": {
+      "address": "175 Old Orangeburg Rd, Orangeburg, NY 10962",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WCFC - Field 2",
+      "size": "Large Field (11 vs 11)"
     },
     "739": {
       "address": "Brookdale Park, 473 Watchung Ave., Bloomfield, NJ 07003",
@@ -156,21 +156,6 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "Tenafly",
-      "away_score": null,
-      "away_team": "Tenafly-B08A7-DORON",
-      "date": "2026-09-26",
-      "division": "B08A7",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "417413",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-B08A7-GuevaraFuentes",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "GlobalJC",
       "away_score": 6,
       "away_team": "GlobalJC-B08A7-Nelson",
@@ -186,21 +171,6 @@
       "time": "03:30 PM"
     },
     {
-      "away_club": "Montclair",
-      "away_score": 3,
-      "away_team": "Montclair-B08A7-Santillan",
-      "date": "2026-10-03",
-      "division": "B08A7",
-      "field": "Regan Field Small 1",
-      "field_id": "808",
-      "game_id": "417414",
-      "home_club": "CougarUtd",
-      "home_score": 7,
-      "home_team": "CougarUtd-B08A7-Edry",
-      "is_upcoming": false,
-      "time": "03:30 PM"
-    },
-    {
       "away_club": "Clarkstown",
       "away_score": 2,
       "away_team": "Clarkstown-B08A7-Aberasturi",
@@ -212,6 +182,21 @@
       "home_club": "Tenafly",
       "home_score": 9,
       "home_team": "Tenafly-B08A7-DORON",
+      "is_upcoming": false,
+      "time": "03:30 PM"
+    },
+    {
+      "away_club": "Montclair",
+      "away_score": 3,
+      "away_team": "Montclair-B08A7-Santillan",
+      "date": "2026-10-03",
+      "division": "B08A7",
+      "field": "Regan Field Small 1",
+      "field_id": "808",
+      "game_id": "417414",
+      "home_club": "CougarUtd",
+      "home_score": 7,
+      "home_team": "CougarUtd-B08A7-Edry",
       "is_upcoming": false,
       "time": "03:30 PM"
     },
@@ -471,6 +456,21 @@
       "time": "03:45 PM"
     },
     {
+      "away_club": "Tenafly",
+      "away_score": null,
+      "away_team": "Tenafly-B08A7-DORON",
+      "date": "2026-11-15",
+      "division": "B08A7",
+      "field": "WCFC - Field 2",
+      "field_id": "385",
+      "game_id": "417413",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-B08A7-GuevaraFuentes",
+      "is_upcoming": true,
+      "time": "04:00 PM"
+    },
+    {
       "away_club": "CougarUtd",
       "away_score": null,
       "away_team": "CougarUtd-B08A7-Edry",
@@ -531,6 +531,6 @@
       "time": "02:15 PM"
     }
   ],
-  "scraped_at": "2026-11-03T13:55:13.396855Z",
+  "scraped_at": "2026-11-04T14:04:07.359354Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

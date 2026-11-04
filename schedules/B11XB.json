@@ -8,6 +8,13 @@
       "name": "Hopper Ave Field",
       "size": "Both (Small & Large)"
     },
+    "1183": {
+      "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WR Athletic Complex Small A",
+      "size": "Small Field (8 vs 8)"
+    },
     "157": {
       "address": "398 West Mombasha Road, Monroe, NY 10950",
       "comments": "]",
@@ -48,13 +55,6 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Doug Parcells Athletic Complex North",
-      "size": "Both (Small & Large)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
     }
   },
@@ -135,6 +135,21 @@
       "time": "07:30 PM"
     },
     {
+      "away_club": "Warriors",
+      "away_score": null,
+      "away_team": "Warriors-B11XB-Leonard",
+      "date": "2026-11-17",
+      "division": "B11XB",
+      "field": "WR Athletic Complex Small A",
+      "field_id": "1183",
+      "game_id": "417936",
+      "home_club": "WoodRidge",
+      "home_score": null,
+      "home_team": "WoodRidge-B11XB-Maccarrone",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "GlenRock",
       "away_score": null,
       "away_team": "GlenRock-B11XB-Ramos",
@@ -163,23 +178,8 @@
       "home_team": "FairLawnAllSports-B11XB-Arcentales",
       "is_upcoming": true,
       "time": "07:30 PM"
-    },
-    {
-      "away_club": "Warriors",
-      "away_score": null,
-      "away_team": "Warriors-B11XB-Leonard",
-      "date": "2026-12-03",
-      "division": "B11XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417936",
-      "home_club": "WoodRidge",
-      "home_score": null,
-      "home_team": "WoodRidge-B11XB-Maccarrone",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-03T13:57:23.788706Z",
+  "scraped_at": "2026-11-04T14:06:23.951880Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

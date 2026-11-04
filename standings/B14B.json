@@ -1,6 +1,6 @@
 {
   "division": "B14B",
-  "scraped_at": "2026-11-03T13:55:06.918372Z",
+  "scraped_at": "2026-11-04T14:04:01.336713Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "NoBergen",
       "coach": "Amaya",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-10-17",
@@ -31,6 +31,17 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414236",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B14B-Patel",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         },
         {
           "date": "2026-09-12",
@@ -77,14 +88,14 @@
           "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 8,
-      "goals_for": 24,
+      "goal_diff": 18,
+      "goals_against": 9,
+      "goals_for": 27,
       "losses": 1,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 18,
       "team_raw": "NoBergen-B14B-Amaya",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "GlenRock",
@@ -314,7 +325,7 @@
       "club": "Montclair",
       "coach": "Patel",
       "draws": 1,
-      "form": "LLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-10-03",
@@ -348,6 +359,17 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414236",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14B-Amaya",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         },
         {
           "date": "2026-10-23",
@@ -394,11 +416,11 @@
           "venue_code": "MONT-BrookdaleStad"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 22,
-      "goals_for": 7,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -17,
+      "goals_against": 25,
+      "goals_for": 8,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Montclair-B14B-Patel",
       "wins": 1

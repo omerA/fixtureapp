@@ -1,6 +1,6 @@
 {
   "division": "B12G",
-  "scraped_at": "2026-11-03T13:55:06.396267Z",
+  "scraped_at": "2026-11-04T14:04:00.910721Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -680,9 +680,20 @@
     {
       "club": "Bergenfield",
       "coach": "Rodriguez",
-      "draws": 3,
-      "form": "LDDLW",
+      "draws": 4,
+      "form": "DDLWD",
       "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "416310",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12G-Smalley",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "TEN-Municipal"
+        },
         {
           "date": "2026-09-12",
           "game_number": "416312",
@@ -762,11 +773,11 @@
         }
       ],
       "goal_diff": -3,
-      "goals_against": 21,
-      "goals_for": 18,
+      "goals_against": 23,
+      "goals_for": 20,
       "losses": 2,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 10,
       "team_raw": "Bergenfield-B12G-Rodriguez",
       "wins": 2
     },
@@ -866,9 +877,20 @@
     {
       "club": "Tenafly",
       "coach": "Smalley",
-      "draws": 0,
-      "form": "LLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "416310",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B12G-Rodriguez",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "TEN-Municipal"
+        },
         {
           "date": "2026-09-19",
           "game_number": "416320",
@@ -948,11 +970,11 @@
         }
       ],
       "goal_diff": -12,
-      "goals_against": 21,
-      "goals_for": 9,
+      "goals_against": 23,
+      "goals_for": 11,
       "losses": 5,
-      "played": 7,
-      "points": 6,
+      "played": 8,
+      "points": 7,
       "team_raw": "Tenafly-B12G-Smalley",
       "wins": 2
     },

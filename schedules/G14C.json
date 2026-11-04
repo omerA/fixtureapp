@@ -50,13 +50,6 @@
       "name": "Manchester Regional High School - Turf",
       "size": "Large Field (11 vs 11)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "279": {
       "address": "64 Darwin Avenue, Rutherford, NJ 07070",
       "comments": "",
@@ -83,6 +76,13 @@
       "comments": "",
       "details": "LIGHTS \u2014 GRASS",
       "name": "North Rockland-1",
+      "size": "Large Field (11 vs 11)"
+    },
+    "397": {
+      "address": "Darwin and Monona Avenue, Rutherford, NJ 07070",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Memorial No 1",
       "size": "Large Field (11 vs 11)"
     },
     "481": {
@@ -150,21 +150,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "JerseyCity",
-      "away_score": null,
-      "away_team": "JerseyCity-G14C-Gallagher",
-      "date": "2026-09-06",
-      "division": "G14C",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "416757",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-G14C-Zdon",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "AviatorsHHSA",
       "away_score": 4,
@@ -886,21 +871,6 @@
       "time": "11:30 AM"
     },
     {
-      "away_club": "Bergenfield",
-      "away_score": null,
-      "away_team": "Bergenfield-G14C-Secillano",
-      "date": "2026-11-09",
-      "division": "G14C",
-      "field": "Rutherford-Tryon Field",
-      "field_id": "279",
-      "game_id": "417873",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-G14C-Zdon",
-      "is_upcoming": true,
-      "time": "07:00 PM"
-    },
-    {
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-G14C-Anderson",
@@ -912,6 +882,21 @@
       "home_club": "FairLawnAllSports",
       "home_score": null,
       "home_team": "FairLawnAllSports-G14C-Puzino",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
+      "away_club": "Bergenfield",
+      "away_score": null,
+      "away_team": "Bergenfield-G14C-Secillano",
+      "date": "2026-11-09",
+      "division": "G14C",
+      "field": "Rutherford-Tryon Field",
+      "field_id": "279",
+      "game_id": "417873",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-G14C-Zdon",
       "is_upcoming": true,
       "time": "07:00 PM"
     },
@@ -1036,6 +1021,21 @@
       "time": "05:00 PM"
     },
     {
+      "away_club": "JerseyCity",
+      "away_score": null,
+      "away_team": "JerseyCity-G14C-Gallagher",
+      "date": "2026-11-18",
+      "division": "G14C",
+      "field": "Memorial No 1",
+      "field_id": "397",
+      "game_id": "416757",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-G14C-Zdon",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-G14C-Anderson",
@@ -1141,6 +1141,6 @@
       "time": "06:45 PM"
     }
   ],
-  "scraped_at": "2026-11-03T14:00:51.437721Z",
+  "scraped_at": "2026-11-04T14:09:51.051940Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

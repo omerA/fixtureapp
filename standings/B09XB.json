@@ -1,6 +1,6 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-11-04T14:03:59.713686Z",
+  "scraped_at": "2026-11-05T14:18:41.983961Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,6 +29,33 @@
       "played": 1,
       "points": 3,
       "team_raw": "Maroons-B09XB-Breheny",
+      "wins": 1
+    },
+    {
+      "club": "Nutley",
+      "coach": "Crespo",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-04",
+          "game_number": "418099",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09XB-Gioffre",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 1,
+      "goals_for": 6,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Nutley-B09XB-Crespo",
       "wins": 1
     },
     {
@@ -70,21 +97,6 @@
       "wins": 1
     },
     {
-      "club": "Dragons",
-      "coach": "Gioffre",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dragons-B09XB-Gioffre",
-      "wins": 0
-    },
-    {
       "club": "Hotspur",
       "coach": "Anari",
       "draws": 0,
@@ -97,21 +109,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Hotspur-B09XB-Anari",
-      "wins": 0
-    },
-    {
-      "club": "Nutley",
-      "coach": "Crespo",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Nutley-B09XB-Crespo",
       "wins": 0
     },
     {
@@ -192,6 +189,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "HobUtd-B09XB-Kapur",
+      "wins": 0
+    },
+    {
+      "club": "Dragons",
+      "coach": "Gioffre",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-04",
+          "game_number": "418099",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09XB-Crespo",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 6,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Dragons-B09XB-Gioffre",
       "wins": 0
     }
   ]

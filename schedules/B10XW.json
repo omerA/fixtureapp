@@ -29,6 +29,13 @@
       "name": "WR Athletic Complex Small B",
       "size": "Small Field (8 vs 8)"
     },
+    "1193": {
+      "address": "19 Harrison Ave, Roseland, NJ 07068",
+      "comments": "7v7 and 9V9",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Harrison Field",
+      "size": "Small Field (8 vs 8)"
+    },
     "1200": {
       "address": "Back Beach Park, Haskell, NJ 07420",
       "comments": "7v7",
@@ -76,13 +83,6 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Doug Parcells Athletic Complex North",
-      "size": "Both (Small & Large)"
-    },
-    "751": {
-      "address": "15 Oak Lane, Essex Fells, NJ 07021",
-      "comments": "9V9",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Volunteers Field",
       "size": "Both (Small & Large)"
     },
     "770": {
@@ -199,6 +199,21 @@
       "time": "01:45 PM"
     },
     {
+      "away_club": "CougarUtd",
+      "away_score": null,
+      "away_team": "CougarUtd-B10XW-Shkedy",
+      "date": "2026-11-08",
+      "division": "B10XW",
+      "field": "Harrison Field",
+      "field_id": "1193",
+      "game_id": "418067",
+      "home_club": "WestEssex",
+      "home_score": null,
+      "home_team": "WestEssex-B10XW-Scorciolla",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Lyndhurst",
       "away_score": null,
       "away_team": "Lyndhurst-B10XW-Westemeyer",
@@ -274,21 +289,6 @@
       "time": "06:30 PM"
     },
     {
-      "away_club": "CougarUtd",
-      "away_score": null,
-      "away_team": "CougarUtd-B10XW-Shkedy",
-      "date": "2026-11-21",
-      "division": "B10XW",
-      "field": "Volunteers Field",
-      "field_id": "751",
-      "game_id": "418067",
-      "home_club": "WestEssex",
-      "home_score": null,
-      "home_team": "WestEssex-B10XW-Scorciolla",
-      "is_upcoming": true,
-      "time": "11:45 AM"
-    },
-    {
       "away_club": "Dragons",
       "away_score": null,
       "away_team": "Dragons-B10XW-Friedman",
@@ -349,6 +349,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-04T14:05:50.137288Z",
+  "scraped_at": "2026-11-05T14:20:27.987830Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

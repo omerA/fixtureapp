@@ -280,6 +280,7 @@
       "FairLawnAllSports-G13XB-Rand",
       "FairLawnAllSports-G14B-Rand",
       "FairLawnAllSports-G14C-Puzino",
+      "FairLawnAllSports-G14XB-Puzino",
       "FairLawnAllSports-G15A-Cepeda"
     ],
     "Fairview": [
@@ -582,6 +583,7 @@
       "NMKnights-G12XB-McAndrews",
       "NMKnights-G12XW-Duque",
       "NMKnights-G14C-Anderson",
+      "NMKnights-G14XB-Anderson",
       "NMKnights-G14XB-Regas",
       "NMKnights-G15A-Regas"
     ],
@@ -2320,6 +2322,11 @@
       "coach": "Puzino",
       "division": "G14C"
     },
+    "FairLawnAllSports-G14XB-Puzino": {
+      "club": "FairLawnAllSports",
+      "coach": "Puzino",
+      "division": "G14XB"
+    },
     "FairLawnAllSports-G15A-Cepeda": {
       "club": "FairLawnAllSports",
       "coach": "Cepeda",
@@ -3649,6 +3656,11 @@
       "club": "NMKnights",
       "coach": "Anderson",
       "division": "G14C"
+    },
+    "NMKnights-G14XB-Anderson": {
+      "club": "NMKnights",
+      "coach": "Anderson",
+      "division": "G14XB"
     },
     "NMKnights-G14XB-Regas": {
       "club": "NMKnights",
@@ -6020,7 +6032,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-11-05T14:18:40.774995+00:00",
+  "scraped_at": "2026-11-06T14:01:22.443617+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

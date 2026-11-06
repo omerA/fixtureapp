@@ -1,6 +1,6 @@
 {
   "division": "B12A",
-  "scraped_at": "2026-11-05T14:18:43.002823Z",
+  "scraped_at": "2026-11-06T14:01:25.013561Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -284,92 +284,10 @@
       "wins": 3
     },
     {
-      "club": "Nutley",
-      "coach": "Benevento",
-      "draws": 1,
-      "form": "WLLWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416232",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B12A-McCormack",
-          "result": "D",
-          "time": "08:30 AM",
-          "venue_code": "PAR-ParkwayMS9"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416234",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12A-Seddiki",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "416238",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B12A-Leuer",
-          "result": "L",
-          "time": "05:45 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416240",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B12A-Rotolo",
-          "result": "L",
-          "time": "07:45 PM",
-          "venue_code": "HOT-McFarran"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416243",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B12A-DeFina",
-          "result": "L",
-          "time": "04:15 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416246",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B12A-McCormack",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "NUT-FatherGlotzbach2"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 12,
-      "goals_for": 9,
-      "losses": 3,
-      "played": 6,
-      "points": 7,
-      "team_raw": "Nutley-B12A-Benevento",
-      "wins": 2
-    },
-    {
       "club": "Lyndhurst",
       "coach": "Seddiki",
       "draws": 3,
-      "form": "LLDDD",
+      "form": "LDDDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -436,16 +354,120 @@
           "result": "D",
           "time": "10:00 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "416249",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B12A-Benevento",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld3"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 18,
-      "goals_for": 17,
+      "goal_diff": 0,
+      "goals_against": 21,
+      "goals_for": 21,
       "losses": 2,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "Lyndhurst-B12A-Seddiki",
-      "wins": 1
+      "wins": 2
+    },
+    {
+      "club": "Nutley",
+      "coach": "Benevento",
+      "draws": 1,
+      "form": "LLWLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416232",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12A-McCormack",
+          "result": "D",
+          "time": "08:30 AM",
+          "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416234",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12A-Seddiki",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "416238",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B12A-Leuer",
+          "result": "L",
+          "time": "05:45 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416240",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12A-Rotolo",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "HOT-McFarran"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416243",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12A-DeFina",
+          "result": "L",
+          "time": "04:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416246",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12A-McCormack",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "416249",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12A-Seddiki",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld3"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 16,
+      "goals_for": 12,
+      "losses": 4,
+      "played": 7,
+      "points": 7,
+      "team_raw": "Nutley-B12A-Benevento",
+      "wins": 2
     },
     {
       "club": "Hotspur",

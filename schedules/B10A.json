@@ -43,13 +43,6 @@
       "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "646": {
       "address": "1800 Summit Ave, Union City, NJ 07087",
       "comments": "",
@@ -66,21 +59,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-B10A-Mohr",
-      "date": "2026-09-05",
-      "division": "B10A",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "417125",
-      "home_club": "UnionCity",
-      "home_score": null,
-      "home_team": "UnionCity-B10A-Marante",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Clarkstown",
       "away_score": 2,
@@ -415,6 +393,21 @@
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-B10A-Mohr",
+      "date": "2026-11-15",
+      "division": "B10A",
+      "field": "Jose Marti Field",
+      "field_id": "646",
+      "game_id": "417125",
+      "home_club": "UnionCity",
+      "home_score": null,
+      "home_team": "UnionCity-B10A-Marante",
+      "is_upcoming": true,
+      "time": "02:45 PM"
+    },
+    {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-B10A-Mohr",
       "date": "2026-11-21",
       "division": "B10A",
       "field": "Center Rec Field 2A",
@@ -442,6 +435,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-11-05T14:19:54.419994Z",
+  "scraped_at": "2026-11-06T14:02:38.440089Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

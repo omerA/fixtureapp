@@ -64,6 +64,13 @@
       "name": "Doug Parcells Athletic Complex South",
       "size": "Both (Small & Large)"
     },
+    "673": {
+      "address": "10-10 20th Street, Fair Lawn, NJ 07410",
+      "comments": "Turf field -- only players allowed on field level no use of track while games are bing played",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "FLHS Turf",
+      "size": "Large Field (11 vs 11)"
+    },
     "77": {
       "address": "287 Forest Avenue, Glen ridge, NJ 07028",
       "comments": "9v9 and 11v11 ONLY",
@@ -168,6 +175,21 @@
       "home_team": "NoBergen-B13XB-GraterolBriceno",
       "is_upcoming": true,
       "time": "06:30 PM"
+    },
+    {
+      "away_club": "GlenRidge",
+      "away_score": null,
+      "away_team": "GlenRidge-B13XB-Cohn",
+      "date": "2026-11-13",
+      "division": "B13XB",
+      "field": "FLHS Turf",
+      "field_id": "673",
+      "game_id": "418020",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B13XB-Rake",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     },
     {
       "away_club": "NMKnights",
@@ -290,21 +312,6 @@
       "time": "11:00 AM"
     },
     {
-      "away_club": "GlenRidge",
-      "away_score": null,
-      "away_team": "GlenRidge-B13XB-Cohn",
-      "date": "2026-12-03",
-      "division": "B13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418020",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B13XB-Rake",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Belleville",
       "away_score": null,
       "away_team": "Belleville-B13XB-Chavarria",
@@ -335,6 +342,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-05T14:21:58.286178Z",
+  "scraped_at": "2026-11-06T14:04:43.685607Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

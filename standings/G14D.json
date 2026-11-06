@@ -1,6 +1,6 @@
 {
   "division": "G14D",
-  "scraped_at": "2026-11-05T14:18:45.858277Z",
+  "scraped_at": "2026-11-06T14:01:28.273034Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -150,7 +150,7 @@
       "club": "Hackensack",
       "coach": "Santacruz",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -217,22 +217,33 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "416836",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 14,
-      "goals_for": 10,
+      "goal_diff": -3,
+      "goals_against": 17,
+      "goals_for": 14,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "Hackensack-G14D-Santacruz",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Lyndhurst",
       "coach": "Bifulco",
       "draws": 2,
-      "form": "LDWLL",
+      "form": "DWLLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -299,13 +310,24 @@
           "result": "D",
           "time": "02:30 PM",
           "venue_code": "DRAG-WRMS-LG"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "416836",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G14D-Santacruz",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 16,
-      "goals_for": 9,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -8,
+      "goals_against": 20,
+      "goals_for": 12,
+      "losses": 4,
+      "played": 7,
       "points": 5,
       "team_raw": "Lyndhurst-G14D-Bifulco",
       "wins": 1

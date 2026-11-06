@@ -1,6 +1,13 @@
 {
   "division": "B11B",
   "fields": {
+    "1025": {
+      "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Wood Ridge Athletic Complex",
+      "size": "Both (Small & Large)"
+    },
     "1183": {
       "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
       "comments": "",
@@ -14,13 +21,6 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "WR Athletic Complex Small B",
       "size": "Small Field (8 vs 8)"
-    },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
     },
     "297": {
       "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
@@ -381,21 +381,6 @@
       "time": "04:00 PM"
     },
     {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B11B-Maccarrone",
-      "date": "2026-11-07",
-      "division": "B11B",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416168",
-      "home_club": "Fairview",
-      "home_score": null,
-      "home_team": "Fairview-B11B-Ventura",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-B11B-Paulose",
@@ -501,6 +486,21 @@
       "time": "02:45 PM"
     },
     {
+      "away_club": "WorldClassFC",
+      "away_score": null,
+      "away_team": "WorldClassFC-B11B-Contreras",
+      "date": "2026-11-19",
+      "division": "B11B",
+      "field": "Wood Ridge Athletic Complex",
+      "field_id": "1025",
+      "game_id": "416166",
+      "home_club": "WoodRidge",
+      "home_score": null,
+      "home_team": "WoodRidge-B11B-Maccarrone",
+      "is_upcoming": true,
+      "time": "06:00 PM"
+    },
+    {
       "away_club": "Fairview",
       "away_score": null,
       "away_team": "Fairview-B11B-Ventura",
@@ -516,21 +516,21 @@
       "time": "09:00 AM"
     },
     {
-      "away_club": "WoodRidge",
+      "away_club": "Fairview",
       "away_score": null,
-      "away_team": "WoodRidge-B11B-Maccarrone",
+      "away_team": "Fairview-B11B-Ventura",
       "date": "2026-11-22",
       "division": "B11B",
-      "field": "WCFC - Field 4",
-      "field_id": "665",
-      "game_id": "416166",
-      "home_club": "WorldClassFC",
+      "field": "Wood Ridge Athletic Complex",
+      "field_id": "1025",
+      "game_id": "416168",
+      "home_club": "WoodRidge",
       "home_score": null,
-      "home_team": "WorldClassFC-B11B-Contreras",
+      "home_team": "WoodRidge-B11B-Maccarrone",
       "is_upcoming": true,
-      "time": "03:00 PM"
+      "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-11-05T14:20:33.702627Z",
+  "scraped_at": "2026-11-06T14:03:18.308230Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

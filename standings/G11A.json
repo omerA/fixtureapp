@@ -1,6 +1,6 @@
 {
   "division": "G11A",
-  "scraped_at": "2026-11-05T14:18:45.017654Z",
+  "scraped_at": "2026-11-06T14:01:27.318797Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -346,8 +346,8 @@
     {
       "club": "FairLawnAllSports",
       "coach": "Kubasta",
-      "draws": 1,
-      "form": "WLLDW",
+      "draws": 2,
+      "form": "LLDWD",
       "games": [
         {
           "date": "2026-09-19",
@@ -381,6 +381,17 @@
           "result": "L",
           "time": "06:45 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "415092",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11A-Heim",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "FL-DeBrow1"
         },
         {
           "date": "2026-10-18",
@@ -417,11 +428,11 @@
         }
       ],
       "goal_diff": -6,
-      "goals_against": 17,
-      "goals_for": 11,
+      "goals_against": 18,
+      "goals_for": 12,
       "losses": 3,
-      "played": 6,
-      "points": 7,
+      "played": 7,
+      "points": 8,
       "team_raw": "FairLawnAllSports-G11A-Kubasta",
       "wins": 2
     },
@@ -499,8 +510,8 @@
     {
       "club": "WorldClassFC",
       "coach": "Heim",
-      "draws": 1,
-      "form": "LDLL",
+      "draws": 2,
+      "form": "LDLLD",
       "games": [
         {
           "date": "2026-09-13",
@@ -512,6 +523,17 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "415092",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G11A-Kubasta",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "FL-DeBrow1"
         },
         {
           "date": "2026-10-18",
@@ -548,11 +570,11 @@
         }
       ],
       "goal_diff": -9,
-      "goals_against": 14,
-      "goals_for": 5,
+      "goals_against": 15,
+      "goals_for": 6,
       "losses": 3,
-      "played": 4,
-      "points": 1,
+      "played": 5,
+      "points": 2,
       "team_raw": "WorldClassFC-G11A-Heim",
       "wins": 0
     },

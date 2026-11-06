@@ -8,13 +8,6 @@
       "name": "Midland Park HS - Stadium",
       "size": "Large Field (11 vs 11)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "1293": {
       "address": "470-482 Valley St, South Orange, NJ 07079",
       "comments": "",
@@ -34,13 +27,6 @@
       "comments": "100 x 57. 80 x 45",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Municipal Field",
-      "size": "Both (Small & Large)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
     "287": {
@@ -153,21 +139,6 @@
       "home_team": "FairLawnAllSports-B13A-Rake",
       "is_upcoming": false,
       "time": "07:00 PM"
-    },
-    {
-      "away_club": "Nutley",
-      "away_score": null,
-      "away_team": "Nutley-B13A-Clifford",
-      "date": "2026-09-26",
-      "division": "B13A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "417485",
-      "home_club": "Ajax",
-      "home_score": null,
-      "home_team": "Ajax-B13A-Aufiero",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "AviatorsHHSA",
@@ -288,21 +259,6 @@
       "home_team": "CougarSC-B13A-Kolodiy",
       "is_upcoming": false,
       "time": "07:30 PM"
-    },
-    {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-B13A-Sharry",
-      "date": "2026-10-17",
-      "division": "B13A",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "417493",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B13A-Rake",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Tenafly",
@@ -543,8 +499,38 @@
       "home_team": "Nutley-B13A-Clifford",
       "is_upcoming": true,
       "time": "06:30 PM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B13A-Sharry",
+      "date": "2026-11-23",
+      "division": "B13A",
+      "field": "FLHS Turf",
+      "field_id": "673",
+      "game_id": "417493",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B13A-Rake",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
+      "away_club": "Nutley",
+      "away_score": null,
+      "away_team": "Nutley-B13A-Clifford",
+      "date": "2026-11-28",
+      "division": "B13A",
+      "field": "Midland Park HS - Stadium",
+      "field_id": "1038",
+      "game_id": "417485",
+      "home_club": "Ajax",
+      "home_score": null,
+      "home_team": "Ajax-B13A-Aufiero",
+      "is_upcoming": true,
+      "time": "06:00 PM"
     }
   ],
-  "scraped_at": "2026-11-05T14:21:35.345852Z",
+  "scraped_at": "2026-11-06T14:04:20.986656Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

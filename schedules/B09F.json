@@ -71,6 +71,13 @@
       "name": "Waldwick Superdome Indoor 1",
       "size": "Small Field (8 vs 8)"
     },
+    "641": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex South",
+      "size": "Both (Small & Large)"
+    },
     "716": {
       "address": "131 Main Street, Emerson, NJ 07630",
       "comments": "",
@@ -351,7 +358,7 @@
     },
     {
       "away_club": "Rutherford",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Rutherford-B09F-Booth",
       "date": "2026-11-06",
       "division": "B09F",
@@ -359,9 +366,9 @@
       "field_id": "716",
       "game_id": "413866",
       "home_club": "Emerson",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Emerson-B09F-Rice",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
     },
     {
@@ -370,8 +377,8 @@
       "away_team": "Rutherford-B09F-Booth",
       "date": "2026-11-07",
       "division": "B09F",
-      "field": "Roosevelt School",
-      "field_id": "74",
+      "field": "Doug Parcells Athletic Complex South",
+      "field_id": "641",
       "game_id": "413873",
       "home_club": "RiverDell",
       "home_score": null,
@@ -545,6 +552,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-11-06T14:02:21.429651Z",
+  "scraped_at": "2026-11-07T12:47:17.316101Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

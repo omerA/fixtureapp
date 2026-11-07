@@ -1,14 +1,14 @@
 {
   "division": "G11B",
-  "scraped_at": "2026-11-06T14:01:27.369074Z",
+  "scraped_at": "2026-11-07T12:46:24.224973Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dragons",
       "coach": "Cotter",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-09-13",
@@ -66,6 +66,17 @@
           "venue_code": "EM-Hillman"
         },
         {
+          "date": "2026-11-06",
+          "game_number": "415363",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11B-Pardo",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
           "date": "2026-10-25",
           "game_number": "417908",
           "goals_against": 0,
@@ -78,11 +89,11 @@
         }
       ],
       "goal_diff": 22,
-      "goals_against": 2,
-      "goals_for": 24,
+      "goals_against": 6,
+      "goals_for": 28,
       "losses": 0,
-      "played": 6,
-      "points": 18,
+      "played": 7,
+      "points": 19,
       "team_raw": "Dragons-G11B-Cotter",
       "wins": 6
     },
@@ -554,8 +565,8 @@
     {
       "club": "Maywood",
       "coach": "Pardo",
-      "draws": 1,
-      "form": "WDLL",
+      "draws": 2,
+      "form": "WDLLD",
       "games": [
         {
           "date": "2026-09-13",
@@ -600,14 +611,25 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-11-06",
+          "game_number": "415363",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11B-Cotter",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 8,
-      "goals_for": 8,
+      "goals_against": 12,
+      "goals_for": 12,
       "losses": 2,
-      "played": 4,
-      "points": 4,
+      "played": 5,
+      "points": 5,
       "team_raw": "Maywood-G11B-Pardo",
       "wins": 1
     },

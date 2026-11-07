@@ -50,13 +50,6 @@
       "name": "Lincoln School - Field 1",
       "size": "Small Field (8 vs 8)"
     },
-    "297": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "F1",
-      "size": "Both (Small & Large)"
-    },
     "65": {
       "address": "40 East Allendale Avenue, Allendale, NJ 07401",
       "comments": "Small 7 v 7",
@@ -169,21 +162,6 @@
       "home_team": "Maroons-G08A4-Gillies",
       "is_upcoming": false,
       "time": "01:00 PM"
-    },
-    {
-      "away_club": "GlobalJC",
-      "away_score": null,
-      "away_team": "GlobalJC-G08A4-Charoth",
-      "date": "2026-09-20",
-      "division": "G08A4",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "417645",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G08A4-Forsythe",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Ajax",
@@ -426,21 +404,6 @@
       "time": "03:00 PM"
     },
     {
-      "away_club": "GlobalJC",
-      "away_score": null,
-      "away_team": "GlobalJC-G08A4-Charoth",
-      "date": "2026-11-01",
-      "division": "G08A4",
-      "field": "F1",
-      "field_id": "297",
-      "game_id": "414308",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G08A4-Gillies",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Ajax",
       "away_score": 4,
       "away_team": "Ajax-G08A4-Stockman",
@@ -604,8 +567,38 @@
       "home_team": "Torpedoes-G08A4-Renner",
       "is_upcoming": true,
       "time": "09:00 AM"
+    },
+    {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-G08A4-Charoth",
+      "date": "2026-11-22",
+      "division": "G08A4",
+      "field": "Veterans Field - FS 3",
+      "field_id": "1109",
+      "game_id": "414308",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G08A4-Gillies",
+      "is_upcoming": true,
+      "time": "12:30 PM"
+    },
+    {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-G08A4-Charoth",
+      "date": "2026-11-22",
+      "division": "G08A4",
+      "field": "Veterans Field - FS 3",
+      "field_id": "1109",
+      "game_id": "417645",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G08A4-Forsythe",
+      "is_upcoming": true,
+      "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-11-06T14:05:17.821171Z",
+  "scraped_at": "2026-11-07T12:50:14.974946Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

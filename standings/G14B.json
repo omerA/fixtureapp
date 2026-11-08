@@ -1,6 +1,6 @@
 {
   "division": "G14B",
-  "scraped_at": "2026-11-07T12:46:24.973177Z",
+  "scraped_at": "2026-11-08T13:03:37.534836Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -100,8 +100,8 @@
     {
       "club": "Lakeland",
       "coach": "Videc",
-      "draws": 0,
-      "form": "WLWWW",
+      "draws": 1,
+      "form": "LWWWD",
       "games": [
         {
           "date": "2026-10-03",
@@ -168,14 +168,25 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416746",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14B-Murillo",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "LKLND-BBeach-Full"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 18,
-      "goals_for": 14,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
+      "goal_diff": 3,
+      "goals_against": 13,
+      "goals_for": 16,
+      "losses": 1,
+      "played": 7,
+      "points": 13,
       "team_raw": "Lakeland-G14B-Videc",
       "wins": 4
     },
@@ -271,88 +282,6 @@
       "points": 10,
       "team_raw": "WayneBG-G14B-Scaturro",
       "wins": 3
-    },
-    {
-      "club": "NoBergen",
-      "coach": "Murillo",
-      "draws": 2,
-      "form": "WWDDL",
-      "games": [
-        {
-          "date": "2026-09-26",
-          "game_number": "416715",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G14B-Kehati",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416719",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G14B-Videc",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416721",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G14B-Marri",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "MONT-WatsessingPk"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416727",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G14B-Scaturro",
-          "result": "D",
-          "time": "09:45 AM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416735",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G14B-Marchetti",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416743",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G14B-Kehati",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 12,
-      "goals_for": 18,
-      "losses": 1,
-      "played": 6,
-      "points": 8,
-      "team_raw": "NoBergen-G14B-Murillo",
-      "wins": 2
     },
     {
       "club": "HobUtd",
@@ -517,6 +446,99 @@
       "points": 6,
       "team_raw": "BLMFLD-G14B-Marri",
       "wins": 2
+    },
+    {
+      "club": "NoBergen",
+      "coach": "Murillo",
+      "draws": 3,
+      "form": "WDDLD",
+      "games": [
+        {
+          "date": "2026-09-26",
+          "game_number": "416715",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-Kehati",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416719",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14B-Videc",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416721",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G14B-Marri",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "MONT-WatsessingPk"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416727",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G14B-Scaturro",
+          "result": "D",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416735",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14B-Marchetti",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416743",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-Kehati",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416746",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14B-Videc",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "LKLND-BBeach-Full"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 14,
+      "goals_for": 13,
+      "losses": 1,
+      "played": 7,
+      "points": 6,
+      "team_raw": "NoBergen-G14B-Murillo",
+      "wins": 1
     },
     {
       "club": "Vikings",

@@ -1,6 +1,6 @@
 {
   "division": "B08CB7",
-  "scraped_at": "2026-11-07T12:46:20.011943Z",
+  "scraped_at": "2026-11-08T13:03:33.308282Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -98,103 +98,10 @@
       "wins": 6
     },
     {
-      "club": "HobUtd",
-      "coach": "Mortefolio",
-      "draws": 1,
-      "form": "WLDWW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415308",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B08CB7-Klobe",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "JC-CochraneCaven-3"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415312",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B08CB7-Wechsler",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415314",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B08CB7-Mancheno",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "ARS-Fieldstone5"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415317",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B08CB7-Elram",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415321",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B08CB7-Callegari",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "WYNE-GeoWashMS"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415324",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-B08CB7-Klobe",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "HobUTD-SinatraPkSth"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "415327",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B08CB7-Wechsler",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "MONT-BrookdaleC"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 28,
-      "goals_for": 27,
-      "losses": 2,
-      "played": 7,
-      "points": 13,
-      "team_raw": "HobUtd-B08CB7-Mortefolio",
-      "wins": 4
-    },
-    {
       "club": "Arsenal",
       "coach": "Mancheno",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -272,15 +179,130 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415329",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B08CB7-Mortefolio",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 22,
-      "goals_for": 34,
+      "goal_diff": 16,
+      "goals_against": 25,
+      "goals_for": 41,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Arsenal-B08CB7-Mancheno",
+      "wins": 5
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Mortefolio",
+      "draws": 1,
+      "form": "LDWWL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415308",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B08CB7-Klobe",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "JC-CochraneCaven-3"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415312",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08CB7-Wechsler",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415314",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B08CB7-Mancheno",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "ARS-Fieldstone5"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415317",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B08CB7-Elram",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415321",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B08CB7-Callegari",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415324",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B08CB7-Klobe",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415327",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08CB7-Wechsler",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415329",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B08CB7-Mancheno",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "HobUTD-SinatraPkSth"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 35,
+      "goals_for": 30,
+      "losses": 3,
+      "played": 8,
+      "points": 13,
+      "team_raw": "HobUtd-B08CB7-Mortefolio",
       "wins": 4
     },
     {
@@ -380,7 +402,7 @@
       "club": "JerseyCity",
       "coach": "Klobe",
       "draws": 1,
-      "form": "LWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -458,16 +480,27 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "JC-CochraneCaven-4"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415330",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B08CB7-Elram",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "JC-CochraneCaven-3"
         }
       ],
-      "goal_diff": -11,
+      "goal_diff": -4,
       "goals_against": 34,
-      "goals_for": 23,
+      "goals_for": 30,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 10,
       "team_raw": "JerseyCity-B08CB7-Klobe",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Tenafly",
@@ -551,13 +584,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415330",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B08CB7-Klobe",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "JC-CochraneCaven-3"
         }
       ],
-      "goal_diff": -38,
-      "goals_against": 52,
+      "goal_diff": -45,
+      "goals_against": 59,
       "goals_for": 14,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Tenafly-B08CB7-Elram",
       "wins": 0

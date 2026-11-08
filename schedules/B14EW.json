@@ -29,13 +29,6 @@
       "name": "Westwood Regional High School",
       "size": "Large Field (11 vs 11)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "201": {
       "address": "23 Third Avenue, Westwood, NJ 07675",
       "comments": "11 v11",
@@ -168,21 +161,6 @@
       "home_team": "Maywood-B14EW-Sanford",
       "is_upcoming": false,
       "time": "07:00 PM"
-    },
-    {
-      "away_club": "Lakeland",
-      "away_score": null,
-      "away_team": "Lakeland-B14EW-Breheney",
-      "date": "2026-09-26",
-      "division": "B14EW",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416466",
-      "home_club": "Maywood",
-      "home_score": null,
-      "home_team": "Maywood-B14EW-Sanford",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Dragons",
@@ -441,7 +419,7 @@
     },
     {
       "away_club": "Maywood",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Maywood-B14EW-Sanford",
       "date": "2026-11-07",
       "division": "B14EW",
@@ -449,9 +427,9 @@
       "field_id": "1202",
       "game_id": "416481",
       "home_club": "Lakeland",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Lakeland-B14EW-Breheney",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:30 PM"
     },
     {
@@ -493,6 +471,21 @@
       "field": "Memorial Park - Lg",
       "field_id": "1255",
       "game_id": "416484",
+      "home_club": "Maywood",
+      "home_score": null,
+      "home_team": "Maywood-B14EW-Sanford",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
+      "away_club": "Lakeland",
+      "away_score": null,
+      "away_team": "Lakeland-B14EW-Breheney",
+      "date": "2026-11-17",
+      "division": "B14EW",
+      "field": "Memorial Park - Lg",
+      "field_id": "1255",
+      "game_id": "416466",
       "home_club": "Maywood",
       "home_score": null,
       "home_team": "Maywood-B14EW-Sanford",
@@ -545,6 +538,6 @@
       "time": "12:00 PM"
     }
   ],
-  "scraped_at": "2026-11-07T12:50:01.114983Z",
+  "scraped_at": "2026-11-08T13:07:18.881291Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

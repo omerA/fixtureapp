@@ -1,14 +1,14 @@
 {
   "division": "B11H",
-  "scraped_at": "2026-11-07T12:46:21.896569Z",
+  "scraped_at": "2026-11-08T13:03:34.938390Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Broncos",
       "coach": "Chavez",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -55,6 +55,17 @@
           "venue_code": "CLIF-Latteri"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415748",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11H-Lawrence",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417820",
           "goals_against": 0,
@@ -78,19 +89,19 @@
         }
       ],
       "goal_diff": 22,
-      "goals_against": 9,
-      "goals_for": 31,
+      "goals_against": 11,
+      "goals_for": 33,
       "losses": 0,
-      "played": 6,
-      "points": 15,
+      "played": 7,
+      "points": 16,
       "team_raw": "Broncos-B11H-Chavez",
       "wins": 5
     },
     {
       "club": "Maroons",
       "coach": "Lawrence",
-      "draws": 1,
-      "form": "WDWLW",
+      "draws": 2,
+      "form": "DWLWD",
       "games": [
         {
           "date": "2026-09-19",
@@ -137,6 +148,17 @@
           "venue_code": "TORP-Pulis4"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415748",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B11H-Chavez",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
           "date": "2026-10-28",
           "game_number": "416229",
           "goals_against": 2,
@@ -171,11 +193,11 @@
         }
       ],
       "goal_diff": 13,
-      "goals_against": 14,
-      "goals_for": 27,
+      "goals_against": 16,
+      "goals_for": 29,
       "losses": 1,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 14,
       "team_raw": "Maroons-B11H-Lawrence",
       "wins": 4
     },
@@ -183,7 +205,7 @@
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 1,
-      "form": "DWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-10-18",
@@ -241,6 +263,17 @@
           "venue_code": "WYNE-Alps2"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "416223",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B11H-Gjoca",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
           "date": "2026-10-28",
           "game_number": "416229",
           "goals_against": 1,
@@ -274,11 +307,11 @@
           "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 26,
-      "goals_for": 16,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -13,
+      "goals_against": 30,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 9,
       "points": 10,
       "team_raw": "WayneBG-B11H-Camara",
       "wins": 3
@@ -287,7 +320,7 @@
       "club": "Torpedoes",
       "coach": "Gjoca",
       "draws": 1,
-      "form": "LDLLW",
+      "form": "DLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -356,6 +389,17 @@
           "venue_code": "TORP-Pulis4"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "416223",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11H-Camara",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
           "date": "2026-10-16",
           "game_number": "417822",
           "goals_against": 7,
@@ -367,14 +411,14 @@
           "venue_code": "TORP-Pulis1"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 27,
-      "goals_for": 16,
+      "goal_diff": -8,
+      "goals_against": 28,
+      "goals_for": 20,
       "losses": 4,
-      "played": 7,
-      "points": 4,
+      "played": 8,
+      "points": 7,
       "team_raw": "Torpedoes-B11H-Gjoca",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Vikings",

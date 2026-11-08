@@ -1,118 +1,14 @@
 {
   "division": "B09D",
-  "scraped_at": "2026-11-07T12:46:20.481025Z",
+  "scraped_at": "2026-11-08T13:03:33.707364Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "Spartan",
-      "coach": "Musano",
-      "draws": 0,
-      "form": "LWWWW",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "415980",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Broncos",
-          "opponent_raw": "Broncos-B09D-Grunauer",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "415986",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09D-Leone",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415992",
-          "goals_against": 4,
-          "goals_for": 6,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B09D-Hugues",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "VERONA-ForestAve"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415995",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09D-Mankey",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416003",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B09D-MongeCalderon",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416011",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09D-Jackson",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "VIK-Demarest-Low7v7"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416015",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09D-Harrison",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "417039",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B09D-Klics",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NoVAL-Northvale"
-        }
-      ],
-      "goal_diff": 33,
-      "goals_against": 20,
-      "goals_for": 53,
-      "losses": 1,
-      "played": 8,
-      "points": 21,
-      "team_raw": "Spartan-B09D-Musano",
-      "wins": 7
-    },
-    {
       "club": "NMKnights",
       "coach": "Austin",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-10-25",
@@ -201,22 +97,33 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "NMilford-Williams7v7"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417042",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09D-Musano",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 29,
-      "goals_for": 48,
+      "goal_diff": 22,
+      "goals_against": 30,
+      "goals_for": 52,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "NMKnights-B09D-Austin",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Maroons",
       "coach": "Harrison",
       "draws": 1,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-10-25",
@@ -305,16 +212,142 @@
           "result": "W",
           "time": "12:30 PM",
           "venue_code": "MAR-VetsFld1"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417044",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09D-Jackson",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
         }
       ],
-      "goal_diff": 23,
+      "goal_diff": 29,
       "goals_against": 18,
-      "goals_for": 41,
+      "goals_for": 47,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Maroons-B09D-Harrison",
-      "wins": 6
+      "wins": 7
+    },
+    {
+      "club": "Spartan",
+      "coach": "Musano",
+      "draws": 0,
+      "form": "WWWWL",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "415980",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B09D-Grunauer",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "415986",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09D-Leone",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415992",
+          "goals_against": 4,
+          "goals_for": 6,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B09D-Hugues",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415995",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09D-Mankey",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416003",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B09D-MongeCalderon",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416011",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09D-Jackson",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416015",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09D-Harrison",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417039",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B09D-Klics",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417042",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09D-Austin",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        }
+      ],
+      "goal_diff": 30,
+      "goals_against": 24,
+      "goals_for": 54,
+      "losses": 2,
+      "played": 9,
+      "points": 21,
+      "team_raw": "Spartan-B09D-Musano",
+      "wins": 7
     },
     {
       "club": "AviatorsHHSA",
@@ -516,8 +549,8 @@
     {
       "club": "CougarSC",
       "coach": "Mankey",
-      "draws": 0,
-      "form": "LWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-10-17",
@@ -606,14 +639,25 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417040",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B09D-Grunauer",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "CLIF-Latteri"
         }
       ],
       "goal_diff": -10,
-      "goals_against": 32,
-      "goals_for": 22,
+      "goals_against": 38,
+      "goals_for": 28,
       "losses": 4,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 13,
       "team_raw": "CougarSC-B09D-Mankey",
       "wins": 4
     },
@@ -713,8 +757,8 @@
     {
       "club": "Broncos",
       "coach": "Grunauer",
-      "draws": 1,
-      "form": "LLLLW",
+      "draws": 2,
+      "form": "LLLWD",
       "games": [
         {
           "date": "2026-10-25",
@@ -792,14 +836,25 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417040",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09D-Mankey",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "CLIF-Latteri"
         }
       ],
       "goal_diff": -8,
-      "goals_against": 33,
-      "goals_for": 25,
+      "goals_against": 39,
+      "goals_for": 31,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 8,
       "team_raw": "Broncos-B09D-Grunauer",
       "wins": 2
     },
@@ -978,13 +1033,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417044",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09D-Harrison",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 34,
+      "goal_diff": -25,
+      "goals_against": 40,
       "goals_for": 15,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Vikings-B09D-Jackson",
       "wins": 1

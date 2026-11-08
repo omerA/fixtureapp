@@ -1,6 +1,6 @@
 {
   "division": "G10E",
-  "scraped_at": "2026-11-07T12:46:24.064050Z",
+  "scraped_at": "2026-11-08T13:03:36.798158Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -544,8 +544,19 @@
       "club": "WOrange",
       "coach": "Mault",
       "draws": 2,
-      "form": "LLWDD",
+      "form": "LWDDW",
       "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "414894",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10E-Martin",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WORANGE-Lincoln-Sml"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414896",
@@ -613,20 +624,20 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 24,
-      "goals_for": 10,
+      "goal_diff": -12,
+      "goals_against": 26,
+      "goals_for": 14,
       "losses": 3,
-      "played": 6,
-      "points": 5,
+      "played": 7,
+      "points": 8,
       "team_raw": "WOrange-G10E-Mault",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "CougarSC",
       "coach": "RayRochkind",
       "draws": 1,
-      "form": "LWLLD",
+      "form": "WLLDL",
       "games": [
         {
           "date": "2026-10-03",
@@ -649,6 +660,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "414901",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G10E-vanGulik",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-10-04",
@@ -695,11 +717,11 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 33,
+      "goal_diff": -21,
+      "goals_against": 37,
       "goals_for": 16,
-      "losses": 4,
-      "played": 6,
+      "losses": 5,
+      "played": 7,
       "points": 4,
       "team_raw": "CougarSC-G10E-RayRochkind",
       "wins": 1
@@ -708,7 +730,7 @@
       "club": "Maroons",
       "coach": "vanGulik",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-10-17",
@@ -731,6 +753,17 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "414901",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10E-RayRochkind",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-10-04",
@@ -777,14 +810,14 @@
           "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": -36,
+      "goal_diff": -32,
       "goals_against": 42,
-      "goals_for": 6,
+      "goals_for": 10,
       "losses": 6,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 3,
       "team_raw": "Maroons-G10E-vanGulik",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Vikings",
@@ -792,6 +825,17 @@
       "draws": 0,
       "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "414894",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G10E-Mault",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WORANGE-Lincoln-Sml"
+        },
         {
           "date": "2026-10-31",
           "game_number": "414899",
@@ -859,11 +903,11 @@
           "venue_code": "THIS-Harvey Back SS"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 45,
-      "goals_for": 16,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -31,
+      "goals_against": 49,
+      "goals_for": 18,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Vikings-G10E-Martin",
       "wins": 0

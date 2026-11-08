@@ -15,13 +15,6 @@
       "name": "Municipal Field",
       "size": "Both (Small & Large)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "395": {
       "address": "343 Belleville Ave, Belleville, NJ 07109",
       "comments": "Both Full and Small Sided",
@@ -141,21 +134,6 @@
       "home_team": "UnionCity-B11C-Martel",
       "is_upcoming": false,
       "time": "02:30 PM"
-    },
-    {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-B11C-Martinez",
-      "date": "2026-09-26",
-      "division": "B11C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416184",
-      "home_club": "UnionCity",
-      "home_score": null,
-      "home_team": "UnionCity-B11C-Martel",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "NoValley",
@@ -354,7 +332,7 @@
     },
     {
       "away_club": "Tenafly",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Tenafly-B11C-Salazar",
       "date": "2026-11-07",
       "division": "B11C",
@@ -362,14 +340,14 @@
       "field_id": "416",
       "game_id": "416199",
       "home_club": "NoValley",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "NoValley-B11C-Waraska",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
       "away_club": "UnionCity",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "UnionCity-B11C-Martel",
       "date": "2026-11-07",
       "division": "B11C",
@@ -377,14 +355,14 @@
       "field_id": "395",
       "game_id": "416197",
       "home_club": "Belleville",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Belleville-B11C-Martinez",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:30 AM"
     },
     {
       "away_club": "GlenRock",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "GlenRock-B11C-Ramos",
       "date": "2026-11-07",
       "division": "B11C",
@@ -392,9 +370,9 @@
       "field_id": "798",
       "game_id": "416198",
       "home_club": "NoBergen",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "NoBergen-B11C-Romero",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:30 PM"
     },
     {
@@ -411,6 +389,21 @@
       "home_team": "NoBergen-B11C-Romero",
       "is_upcoming": true,
       "time": "02:30 PM"
+    },
+    {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B11C-Martinez",
+      "date": "2026-11-13",
+      "division": "B11C",
+      "field": "Jose Marti Field",
+      "field_id": "646",
+      "game_id": "416184",
+      "home_club": "UnionCity",
+      "home_score": null,
+      "home_team": "UnionCity-B11C-Martel",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     },
     {
       "away_club": "Belleville",
@@ -503,6 +496,6 @@
       "time": "04:30 PM"
     }
   ],
-  "scraped_at": "2026-11-07T12:48:17.725466Z",
+  "scraped_at": "2026-11-08T13:05:35.727953Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

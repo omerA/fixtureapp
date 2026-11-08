@@ -1,102 +1,9 @@
 {
   "division": "G09A",
-  "scraped_at": "2026-11-07T12:46:23.533093Z",
+  "scraped_at": "2026-11-08T13:03:36.351905Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Warriors",
-      "coach": "Kivlehan",
-      "draws": 1,
-      "form": "WWWLW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "416506",
-          "goals_against": 6,
-          "goals_for": 6,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G09A-Contreras",
-          "result": "D",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416509",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G09A-Mcnally",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416511",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G09A-Flaherty",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416514",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09A-Silva",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416518",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G09A-Rodriguez",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416521",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G09A-Contreras",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416522",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G09A-Mcnally",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "JC-CochraneCaven-3"
-        }
-      ],
-      "goal_diff": 21,
-      "goals_against": 16,
-      "goals_for": 37,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
-      "team_raw": "Warriors-G09A-Kivlehan",
-      "wins": 5
-    },
     {
       "club": "Vikings",
       "coach": "Rodriguez",
@@ -194,7 +101,7 @@
       "club": "WorldClassFC",
       "coach": "Contreras",
       "draws": 1,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -217,6 +124,17 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416512",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09A-Silva",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TORP-Pulis3"
         },
         {
           "date": "2026-10-04",
@@ -263,14 +181,107 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 14,
-      "goals_for": 27,
+      "goal_diff": 18,
+      "goals_against": 15,
+      "goals_for": 33,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "WorldClassFC-G09A-Contreras",
-      "wins": 4
+      "wins": 5
+    },
+    {
+      "club": "Warriors",
+      "coach": "Kivlehan",
+      "draws": 1,
+      "form": "WWWLW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "416506",
+          "goals_against": 6,
+          "goals_for": 6,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09A-Contreras",
+          "result": "D",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416509",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G09A-Mcnally",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416511",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G09A-Flaherty",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416514",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09A-Silva",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416518",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09A-Rodriguez",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416521",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09A-Contreras",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416522",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G09A-Mcnally",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "JC-CochraneCaven-3"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 16,
+      "goals_for": 37,
+      "losses": 1,
+      "played": 7,
+      "points": 16,
+      "team_raw": "Warriors-G09A-Kivlehan",
+      "wins": 5
     },
     {
       "club": "JerseyCity",
@@ -358,7 +369,7 @@
       "club": "Torpedoes",
       "coach": "Silva",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -369,6 +380,17 @@
           "opponent_raw": "Vikings-G09A-Rodriguez",
           "result": "L",
           "time": "09:30 AM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416512",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09A-Contreras",
+          "result": "L",
+          "time": "02:30 PM",
           "venue_code": "TORP-Pulis3"
         },
         {
@@ -416,11 +438,11 @@
           "venue_code": "VIK-Demarest-Low7v7"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 25,
-      "goals_for": 5,
-      "losses": 4,
-      "played": 5,
+      "goal_diff": -25,
+      "goals_against": 31,
+      "goals_for": 6,
+      "losses": 5,
+      "played": 6,
       "points": 3,
       "team_raw": "Torpedoes-G09A-Silva",
       "wins": 1

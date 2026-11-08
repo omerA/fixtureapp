@@ -29,13 +29,6 @@
       "name": "Dumont High School",
       "size": "Large Field (11 vs 11)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "275": {
       "address": "100 central avenue, Old Tappan, NJ 07675",
       "comments": "Large New Turf Field",
@@ -176,21 +169,6 @@
       "home_team": "WorldClassFC-B14A-Hirt",
       "is_upcoming": false,
       "time": "04:30 PM"
-    },
-    {
-      "away_club": "NoValley",
-      "away_score": null,
-      "away_team": "NoValley-B14A-Torrie",
-      "date": "2026-09-26",
-      "division": "B14A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "417548",
-      "home_club": "WorldClassFC",
-      "home_score": null,
-      "home_team": "WorldClassFC-B14A-Hirt",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Vikings",
@@ -389,7 +367,7 @@
     },
     {
       "away_club": "Warriors",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Warriors-B14A-Krysa",
       "date": "2026-11-07",
       "division": "B14A",
@@ -397,9 +375,9 @@
       "field_id": "1109",
       "game_id": "417561",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Maroons-B14A-Breheny",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:30 AM"
     },
     {
@@ -419,7 +397,7 @@
     },
     {
       "away_club": "Vikings",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Vikings-B14A-Adeboye",
       "date": "2026-11-07",
       "division": "B14A",
@@ -427,9 +405,9 @@
       "field_id": "187",
       "game_id": "417563",
       "home_club": "Dumont",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Dumont-B14A-Arapi",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "04:00 PM"
     },
     {
@@ -523,6 +501,21 @@
       "time": "08:00 PM"
     },
     {
+      "away_club": "NoValley",
+      "away_score": null,
+      "away_team": "NoValley-B14A-Torrie",
+      "date": "2026-11-22",
+      "division": "B14A",
+      "field": "WCFC - Field 1",
+      "field_id": "366",
+      "game_id": "417548",
+      "home_club": "WorldClassFC",
+      "home_score": null,
+      "home_team": "WorldClassFC-B14A-Hirt",
+      "is_upcoming": true,
+      "time": "10:30 AM"
+    },
+    {
       "away_club": "Vikings",
       "away_score": null,
       "away_team": "Vikings-B14A-Adeboye",
@@ -538,6 +531,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-11-07T12:49:47.055548Z",
+  "scraped_at": "2026-11-08T13:07:04.701428Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-11-07T12:46:20.858247Z",
+  "scraped_at": "2026-11-08T13:03:34.027783Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -97,34 +97,31 @@
       "wins": 1
     },
     {
-      "club": "Hotspur",
-      "coach": "Anari",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Hotspur-B09XB-Anari",
-      "wins": 0
-    },
-    {
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "418101",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B09XB-Anari",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 2,
+      "goals_for": 6,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "Southside-B09XB-Zamora",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "CougarUtd",
@@ -189,6 +186,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "HobUtd-B09XB-Kapur",
+      "wins": 0
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Anari",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "418101",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09XB-Zamora",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 6,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Hotspur-B09XB-Anari",
       "wins": 0
     },
     {

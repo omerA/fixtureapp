@@ -1,6 +1,6 @@
 {
   "division": "B10B",
-  "scraped_at": "2026-11-07T12:46:20.977523Z",
+  "scraped_at": "2026-11-08T13:03:34.165272Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -101,7 +101,7 @@
       "club": "Belleville",
       "coach": "Martinez",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-10-24",
@@ -124,6 +124,17 @@
           "result": "W",
           "time": "01:45 PM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "413896",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B10B-Callegari",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "WYNE-GeoWashMS"
         },
         {
           "date": "2026-09-12",
@@ -181,20 +192,20 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 20,
       "goals_against": 13,
-      "goals_for": 26,
+      "goals_for": 33,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "Belleville-B10B-Martinez",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Verona",
       "coach": "Elio",
       "draws": 1,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-10-24",
@@ -217,6 +228,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "413894",
+          "goals_against": 5,
+          "goals_for": 10,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B10B-Dominguez",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2C"
         },
         {
           "date": "2026-09-12",
@@ -274,14 +296,14 @@
           "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 15,
-      "goals_for": 28,
+      "goal_diff": 18,
+      "goals_against": 20,
+      "goals_for": 38,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Verona-B10B-Elio",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Dragons",
@@ -588,7 +610,7 @@
       "club": "NASA",
       "coach": "Callegari",
       "draws": 1,
-      "form": "DLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -611,6 +633,17 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "413896",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B10B-Martinez",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "WYNE-GeoWashMS"
         },
         {
           "date": "2026-09-12",
@@ -657,11 +690,11 @@
           "venue_code": "WYNE-GeoWashMS"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 30,
+      "goal_diff": -17,
+      "goals_against": 37,
       "goals_for": 20,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "NASA-B10B-Callegari",
       "wins": 2
@@ -669,8 +702,8 @@
     {
       "club": "CougarSC",
       "coach": "James",
-      "draws": 2,
-      "form": "LDLWL",
+      "draws": 3,
+      "form": "DLWLD",
       "games": [
         {
           "date": "2026-10-31",
@@ -682,6 +715,17 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "413895",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10B-Coughlin",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-10-04",
@@ -751,19 +795,19 @@
         }
       ],
       "goal_diff": -3,
-      "goals_against": 20,
-      "goals_for": 17,
+      "goals_against": 21,
+      "goals_for": 18,
       "losses": 4,
-      "played": 7,
-      "points": 5,
+      "played": 8,
+      "points": 6,
       "team_raw": "CougarSC-B10B-James",
       "wins": 1
     },
     {
       "club": "Vikings",
       "coach": "Coughlin",
-      "draws": 1,
-      "form": "DLLWL",
+      "draws": 2,
+      "form": "LLWLD",
       "games": [
         {
           "date": "2026-10-24",
@@ -786,6 +830,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "413895",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10B-James",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-09-12",
@@ -844,11 +899,11 @@
         }
       ],
       "goal_diff": -17,
-      "goals_against": 30,
-      "goals_for": 13,
+      "goals_against": 31,
+      "goals_for": 14,
       "losses": 5,
-      "played": 7,
-      "points": 4,
+      "played": 8,
+      "points": 5,
       "team_raw": "Vikings-B10B-Coughlin",
       "wins": 1
     },
@@ -868,6 +923,17 @@
           "result": "L",
           "time": "01:45 PM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "413894",
+          "goals_against": 10,
+          "goals_for": 5,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10B-Elio",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2C"
         },
         {
           "date": "2026-09-12",
@@ -925,11 +991,11 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 31,
-      "goals_for": 10,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -26,
+      "goals_against": 41,
+      "goals_for": 15,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Clarkstown-B10B-Dominguez",
       "wins": 0

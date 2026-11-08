@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-11-07T12:46:22.650560Z",
+  "scraped_at": "2026-11-08T13:03:35.571664Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -112,7 +112,7 @@
       "club": "Hotspur",
       "coach": "Petrie",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-26",
@@ -159,6 +159,17 @@
           "venue_code": "HOT-Tisdale"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415865",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B13D-Drumgoole",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "HOT-Tisdale"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "417744",
           "goals_against": 0,
@@ -170,11 +181,11 @@
           "venue_code": "HOT-HS Turf 2"
         }
       ],
-      "goal_diff": 17,
-      "goals_against": 9,
+      "goal_diff": 19,
+      "goals_against": 7,
       "goals_for": 26,
       "losses": 1,
-      "played": 5,
+      "played": 6,
       "points": 12,
       "team_raw": "Hotspur-B13D-Petrie",
       "wins": 4
@@ -183,7 +194,7 @@
       "club": "RYSA",
       "coach": "Drumgoole",
       "draws": 1,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -252,6 +263,17 @@
           "venue_code": "RYSA-FAMS"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415865",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "HOT-Tisdale"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "417744",
           "goals_against": 7,
@@ -263,11 +285,11 @@
           "venue_code": "HOT-HS Turf 2"
         }
       ],
-      "goal_diff": -9,
+      "goal_diff": -11,
       "goals_against": 22,
-      "goals_for": 13,
+      "goals_for": 11,
       "losses": 4,
-      "played": 7,
+      "played": 8,
       "points": 7,
       "team_raw": "RYSA-B13D-Drumgoole",
       "wins": 2

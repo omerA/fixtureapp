@@ -1,6 +1,6 @@
 {
   "division": "B11G",
-  "scraped_at": "2026-11-07T12:46:21.825340Z",
+  "scraped_at": "2026-11-08T13:03:34.875538Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -112,7 +112,7 @@
       "club": "RiverDell",
       "coach": "Gratale",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -190,16 +190,27 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415688",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B11G-Gedeon",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 20,
-      "goals_for": 26,
+      "goal_diff": 7,
+      "goals_against": 23,
+      "goals_for": 30,
       "losses": 2,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 18,
       "team_raw": "RiverDell-B11G-Gratale",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Emerson",
@@ -309,7 +320,7 @@
       "club": "CougarSC",
       "coach": "Gedeon",
       "draws": 2,
-      "form": "DDWWL",
+      "form": "DWWLL",
       "games": [
         {
           "date": "2026-10-18",
@@ -387,13 +398,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415688",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11G-Gratale",
+          "result": "L",
+          "time": "08:30 AM",
+          "venue_code": "COUGSC-LightningSml"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 22,
-      "goals_for": 24,
-      "losses": 2,
-      "played": 7,
+      "goal_diff": 1,
+      "goals_against": 26,
+      "goals_for": 27,
+      "losses": 3,
+      "played": 8,
       "points": 11,
       "team_raw": "CougarSC-B11G-Gedeon",
       "wins": 3
@@ -401,8 +423,8 @@
     {
       "club": "Dumont",
       "coach": "Zotaj",
-      "draws": 1,
-      "form": "LDLLW",
+      "draws": 2,
+      "form": "DLLWD",
       "games": [
         {
           "date": "2026-10-18",
@@ -480,22 +502,33 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "EM-Hillman"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415689",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11G-Steinman",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
       "goal_diff": -22,
-      "goals_against": 42,
-      "goals_for": 20,
+      "goals_against": 46,
+      "goals_for": 24,
       "losses": 5,
-      "played": 7,
-      "points": 4,
+      "played": 8,
+      "points": 5,
       "team_raw": "Dumont-B11G-Zotaj",
       "wins": 1
     },
     {
       "club": "NoValley",
       "coach": "Steinman",
-      "draws": 0,
-      "form": "LLWLL",
+      "draws": 1,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-09-12",
@@ -573,14 +606,25 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415689",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11G-Zotaj",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "DUM-TwinBoro"
         }
       ],
       "goal_diff": -19,
-      "goals_against": 35,
-      "goals_for": 16,
+      "goals_against": 39,
+      "goals_for": 20,
       "losses": 6,
-      "played": 7,
-      "points": 3,
+      "played": 8,
+      "points": 4,
       "team_raw": "NoValley-B11G-Steinman",
       "wins": 1
     }

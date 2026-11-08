@@ -1,6 +1,6 @@
 {
   "division": "B14B",
-  "scraped_at": "2026-11-07T12:46:22.909818Z",
+  "scraped_at": "2026-11-08T13:03:35.813762Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "NoBergen",
       "coach": "Amaya",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-10-17",
@@ -42,6 +42,17 @@
           "result": "W",
           "time": "12:45 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "414239",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B14B-Ramirez",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "JC-Gateway-New"
         },
         {
           "date": "2026-09-12",
@@ -88,14 +99,14 @@
           "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 9,
-      "goals_for": 27,
+      "goal_diff": 19,
+      "goals_against": 11,
+      "goals_for": 30,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "NoBergen-B14B-Amaya",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "GlenRock",
@@ -172,7 +183,7 @@
       "club": "GlobalJC",
       "coach": "Ramirez",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-10-03",
@@ -208,6 +219,17 @@
           "venue_code": "BLMFLD-Foley"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "414239",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14B-Amaya",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "JC-Gateway-New"
+        },
+        {
           "date": "2026-09-12",
           "game_number": "417570",
           "goals_against": 1,
@@ -241,11 +263,11 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 13,
-      "goals_for": 18,
-      "losses": 2,
-      "played": 6,
+      "goal_diff": 4,
+      "goals_against": 16,
+      "goals_for": 20,
+      "losses": 3,
+      "played": 7,
       "points": 12,
       "team_raw": "GlobalJC-B14B-Ramirez",
       "wins": 4

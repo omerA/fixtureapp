@@ -1,6 +1,6 @@
 {
   "division": "G13E",
-  "scraped_at": "2026-11-07T12:46:24.910385Z",
+  "scraped_at": "2026-11-08T13:03:37.484940Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "SaddleBR",
       "coach": "DAngelo",
       "draws": 1,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -66,6 +66,17 @@
           "venue_code": "AVIA-Hitchcock"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415249",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13E-Kaluza",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "418122",
           "goals_against": 0,
@@ -77,14 +88,14 @@
           "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": 25,
+      "goal_diff": 30,
       "goals_against": 4,
-      "goals_for": 29,
+      "goals_for": 34,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "SaddleBR-G13E-DAngelo",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "AviatorsHHSA",
@@ -161,7 +172,7 @@
       "club": "Vikings",
       "coach": "Kaluza",
       "draws": 1,
-      "form": "LDLWW",
+      "form": "DLWWL",
       "games": [
         {
           "date": "2026-09-27",
@@ -208,6 +219,17 @@
           "venue_code": "VIK-NVRHS Turf"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415249",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G13E-DAngelo",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "418126",
           "goals_against": 4,
@@ -219,11 +241,11 @@
           "venue_code": "VIK-DemarestHS-Upper"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 9,
+      "goal_diff": -7,
+      "goals_against": 14,
       "goals_for": 7,
-      "losses": 2,
-      "played": 5,
+      "losses": 3,
+      "played": 6,
       "points": 7,
       "team_raw": "Vikings-G13E-Kaluza",
       "wins": 2

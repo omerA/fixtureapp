@@ -1,6 +1,6 @@
 {
   "division": "B12F",
-  "scraped_at": "2026-11-07T12:46:22.294483Z",
+  "scraped_at": "2026-11-08T13:03:35.266764Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -481,81 +481,10 @@
       "wins": 3
     },
     {
-      "club": "GlobalJC",
-      "coach": "Whalen",
-      "draws": 1,
-      "form": "LWLWD",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "415789",
-          "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B12F-McDermott",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "ARS-OldMill"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415795",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B12F-Majoch",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "MONT-BrookdleStad9v9"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415802",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-B12F-Ahmed",
-          "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415805",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B12F-Glick",
-          "result": "L",
-          "time": "05:30 PM",
-          "venue_code": "JC-Gateway-New"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415813",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12F-Gardiner",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "VIK-Ruckman"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 16,
-      "goals_for": 14,
-      "losses": 2,
-      "played": 5,
-      "points": 7,
-      "team_raw": "GlobalJC-B12F-Whalen",
-      "wins": 2
-    },
-    {
       "club": "Vikings",
       "coach": "Gardiner",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-10-04",
@@ -633,15 +562,97 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416296",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12F-Bott",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-Ruckman"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 18,
-      "goals_for": 14,
+      "goal_diff": -2,
+      "goals_against": 20,
+      "goals_for": 18,
       "losses": 5,
-      "played": 7,
-      "points": 6,
+      "played": 8,
+      "points": 9,
       "team_raw": "Vikings-B12F-Gardiner",
+      "wins": 3
+    },
+    {
+      "club": "GlobalJC",
+      "coach": "Whalen",
+      "draws": 1,
+      "form": "LWLWD",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "415789",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B12F-McDermott",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "ARS-OldMill"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415795",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B12F-Majoch",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "MONT-BrookdleStad9v9"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415802",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B12F-Ahmed",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415805",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B12F-Glick",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415813",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Gardiner",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "VIK-Ruckman"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 16,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 5,
+      "points": 7,
+      "team_raw": "GlobalJC-B12F-Whalen",
       "wins": 2
     },
     {
@@ -916,7 +927,7 @@
       "club": "RiverDell",
       "coach": "Bott",
       "draws": 1,
-      "form": "LLWLD",
+      "form": "LWLDL",
       "games": [
         {
           "date": "2026-10-25",
@@ -983,13 +994,24 @@
           "result": "D",
           "time": "11:00 AM",
           "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416296",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12F-Gardiner",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-Ruckman"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 31,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -18,
+      "goals_against": 35,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 7,
       "points": 4,
       "team_raw": "RiverDell-B12F-Bott",
       "wins": 1

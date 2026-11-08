@@ -1,6 +1,6 @@
 {
   "division": "B14EW",
-  "scraped_at": "2026-11-07T12:46:23.154997Z",
+  "scraped_at": "2026-11-08T13:03:36.037076Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -317,92 +317,10 @@
       "wins": 5
     },
     {
-      "club": "Maywood",
-      "coach": "Sanford",
-      "draws": 0,
-      "form": "WLWLL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416459",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B14EW-McDermott",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416464",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B14EW-Donzis",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkSm"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416468",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B14EW-Gold",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "DRAG-WRMS-LG"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416472",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B14EW-Privitera",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416476",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B14EW-McDermott",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-10-30",
-          "game_number": "416479",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B14EW-Donzis",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 19,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 6,
-      "points": 6,
-      "team_raw": "Maywood-B14EW-Sanford",
-      "wins": 2
-    },
-    {
       "club": "Lakeland",
       "coach": "Breheney",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -469,15 +387,119 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416481",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B14EW-Sanford",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "LKLND-BBeach-Full"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 27,
-      "goals_for": 22,
+      "goal_diff": -3,
+      "goals_against": 29,
+      "goals_for": 26,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "Lakeland-B14EW-Breheney",
+      "wins": 3
+    },
+    {
+      "club": "Maywood",
+      "coach": "Sanford",
+      "draws": 0,
+      "form": "LWLLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416459",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B14EW-McDermott",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416464",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14EW-Donzis",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkSm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416468",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B14EW-Gold",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "DRAG-WRMS-LG"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416472",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14EW-Privitera",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416476",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B14EW-McDermott",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-10-30",
+          "game_number": "416479",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14EW-Donzis",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416481",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B14EW-Breheney",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "LKLND-BBeach-Full"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 23,
+      "goals_for": 16,
+      "losses": 5,
+      "played": 7,
+      "points": 6,
+      "team_raw": "Maywood-B14EW-Sanford",
       "wins": 2
     },
     {

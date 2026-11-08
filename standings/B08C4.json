@@ -1,6 +1,6 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-11-07T12:46:19.972451Z",
+  "scraped_at": "2026-11-08T13:03:33.275090Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -101,7 +101,7 @@
       "club": "NMKnights",
       "coach": "Mitchell",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -179,13 +179,24 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "AJAX-MPHS-Wdsd4v4"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415301",
+          "goals_against": 9,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C4-Graciano",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
         }
       ],
-      "goal_diff": 31,
-      "goals_against": 29,
-      "goals_for": 60,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 29,
+      "goals_against": 38,
+      "goals_for": 67,
+      "losses": 2,
+      "played": 8,
       "points": 18,
       "team_raw": "NMKnights-B08C4-Mitchell",
       "wins": 6
@@ -194,7 +205,7 @@
       "club": "Vikings",
       "coach": "Graciano",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-11-01",
@@ -261,16 +272,27 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415301",
+          "goals_against": 7,
+          "goals_for": 9,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08C4-Mitchell",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 25,
-      "goals_for": 36,
+      "goal_diff": 13,
+      "goals_against": 32,
+      "goals_for": 45,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "Vikings-B08C4-Graciano",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Maroons",

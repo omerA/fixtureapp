@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-11-07T12:46:23.954840Z",
+  "scraped_at": "2026-11-08T13:03:36.706699Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -112,7 +112,7 @@
       "club": "Lyndhurst",
       "coach": "Bifulco",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-10-06",
@@ -201,13 +201,24 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416623",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10C-Jain",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 19,
+      "goal_diff": 20,
       "goals_against": 13,
-      "goals_for": 32,
+      "goals_for": 33,
       "losses": 1,
-      "played": 8,
+      "played": 9,
       "points": 21,
       "team_raw": "Lyndhurst-G10C-Bifulco",
       "wins": 7
@@ -402,7 +413,7 @@
       "club": "Vikings",
       "coach": "Jain",
       "draws": 2,
-      "form": "LWWDD",
+      "form": "WWDDL",
       "games": [
         {
           "date": "2026-09-20",
@@ -480,13 +491,24 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416623",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G10C-Bifulco",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 14,
+      "goal_diff": 0,
+      "goals_against": 15,
       "goals_for": 15,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "points": 11,
       "team_raw": "Vikings-G10C-Jain",
       "wins": 3
@@ -495,7 +517,7 @@
       "club": "NoArlington",
       "coach": "Matos",
       "draws": 1,
-      "form": "LWDWL",
+      "form": "WDWLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -586,6 +608,17 @@
           "venue_code": "ARS-Dorchester2"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "414471",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G10C-Sin",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416625",
           "goals_against": 0,
@@ -597,11 +630,11 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 24,
+      "goal_diff": 1,
+      "goals_against": 28,
       "goals_for": 29,
       "losses": 5,
-      "played": 9,
+      "played": 10,
       "points": 10,
       "team_raw": "NoArlington-G10C-Matos",
       "wins": 3
@@ -692,7 +725,7 @@
       "club": "Nutley",
       "coach": "Sin",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -772,6 +805,17 @@
           "venue_code": "LYND-RecCtrFld1A"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "414471",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G10C-Matos",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416625",
           "goals_against": 5,
@@ -783,11 +827,11 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": -26,
+      "goal_diff": -22,
       "goals_against": 36,
-      "goals_for": 10,
+      "goals_for": 14,
       "losses": 7,
-      "played": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "Nutley-G10C-Sin",
       "wins": 1

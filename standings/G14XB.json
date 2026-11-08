@@ -1,6 +1,6 @@
 {
   "division": "G14XB",
-  "scraped_at": "2026-11-07T12:46:25.132288Z",
+  "scraped_at": "2026-11-08T13:03:37.682807Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,6 +29,33 @@
       "played": 1,
       "points": 3,
       "team_raw": "NMKnights-G14XB-Regas",
+      "wins": 1
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Marchetti",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "417970",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G14XB-Clark",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 1,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "RiverDell-G14XB-Marchetti",
       "wins": 1
     },
     {
@@ -89,31 +116,28 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Marchetti",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "RiverDell-G14XB-Marchetti",
-      "wins": 0
-    },
-    {
       "club": "Warriors",
       "coach": "Clark",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "417970",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14XB-Marchetti",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 2,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
       "team_raw": "Warriors-G14XB-Clark",
       "wins": 0

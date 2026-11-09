@@ -1,6 +1,6 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-11-08T13:03:34.049988Z",
+  "scraped_at": "2026-11-09T15:37:24.815394Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -97,11 +97,49 @@
       "wins": 1
     },
     {
-      "club": "CougarSC",
-      "coach": "PerryLedoux",
+      "club": "WoodRidge",
+      "coach": "Hughes",
       "draws": 0,
       "form": "W",
       "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418001",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09XW-Buser",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-DPAC South"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "WoodRidge-B09XW-Hughes",
+      "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "PerryLedoux",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418007",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09XW-Kunwar",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "TORP-Pulis4"
+        },
         {
           "date": "2026-10-25",
           "game_number": "418008",
@@ -114,11 +152,11 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 1,
+      "goal_diff": 2,
+      "goals_against": 2,
       "goals_for": 4,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "CougarSC-B09XW-PerryLedoux",
       "wins": 1
@@ -193,21 +231,6 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Buser",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "RiverDell-B09XW-Buser",
-      "wins": 0
-    },
-    {
       "club": "Rutherford",
       "coach": "Balmos",
       "draws": 0,
@@ -220,21 +243,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Rutherford-B09XW-Balmos",
-      "wins": 0
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Hughes",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "WoodRidge-B09XW-Hughes",
       "wins": 0
     },
     {
@@ -306,8 +314,19 @@
       "club": "Torpedoes",
       "coach": "Kunwar",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418007",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09XW-PerryLedoux",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "TORP-Pulis4"
+        },
         {
           "date": "2026-10-25",
           "game_number": "418008",
@@ -320,13 +339,40 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
+      "goal_diff": -2,
+      "goals_against": 4,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "Torpedoes-B09XW-Kunwar",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Buser",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418001",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09XW-Hughes",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-DPAC South"
+        }
+      ],
       "goal_diff": -3,
       "goals_against": 4,
       "goals_for": 1,
       "losses": 1,
       "played": 1,
       "points": 0,
-      "team_raw": "Torpedoes-B09XW-Kunwar",
+      "team_raw": "RiverDell-B09XW-Buser",
       "wins": 0
     },
     {

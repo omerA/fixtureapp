@@ -1,6 +1,6 @@
 {
   "division": "B11H",
-  "scraped_at": "2026-11-08T13:03:34.938390Z",
+  "scraped_at": "2026-11-09T15:37:25.618673Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Broncos",
       "coach": "Chavez",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -55,6 +55,17 @@
           "venue_code": "CLIF-Latteri"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "415747",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11H-Nakashian",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VIK-Ruckman"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "415748",
           "goals_against": 2,
@@ -88,14 +99,14 @@
           "venue_code": "TORP-Pulis1"
         }
       ],
-      "goal_diff": 22,
-      "goals_against": 11,
-      "goals_for": 33,
+      "goal_diff": 28,
+      "goals_against": 13,
+      "goals_for": 41,
       "losses": 0,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Broncos-B11H-Chavez",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Maroons",
@@ -424,7 +435,7 @@
       "club": "Vikings",
       "coach": "Nakashian",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-10-18",
@@ -482,6 +493,17 @@
           "venue_code": "WYNE-Alps2"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "415747",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B11H-Chavez",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "VIK-Ruckman"
+        },
+        {
           "date": "2026-10-25",
           "game_number": "417821",
           "goals_against": 5,
@@ -493,11 +515,11 @@
           "venue_code": "MAR-VetsFld2"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 21,
-      "goals_for": 7,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -20,
+      "goals_against": 29,
+      "goals_for": 9,
+      "losses": 6,
+      "played": 7,
       "points": 1,
       "team_raw": "Vikings-B11H-Nakashian",
       "wins": 0

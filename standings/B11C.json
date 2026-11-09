@@ -1,6 +1,6 @@
 {
   "division": "B11C",
-  "scraped_at": "2026-11-08T13:03:34.674957Z",
+  "scraped_at": "2026-11-09T15:37:25.378621Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -109,6 +109,99 @@
       "wins": 5
     },
     {
+      "club": "UnionCity",
+      "coach": "Martel",
+      "draws": 1,
+      "form": "WWWLD",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416176",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11C-Ramos",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416181",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11C-Salazar",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416186",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B11C-Romero",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416190",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11C-Waraska",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416193",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11C-Ramos",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416196",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11C-Salazar",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416197",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11C-Martinez",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "BELLE-BellePkFull"
+        }
+      ],
+      "goal_diff": 13,
+      "goals_against": 11,
+      "goals_for": 24,
+      "losses": 2,
+      "played": 7,
+      "points": 13,
+      "team_raw": "UnionCity-B11C-Martel",
+      "wins": 4
+    },
+    {
       "club": "NoValley",
       "coach": "Waraska",
       "draws": 1,
@@ -213,86 +306,108 @@
       "wins": 4
     },
     {
-      "club": "UnionCity",
-      "coach": "Martel",
-      "draws": 0,
-      "form": "LWWWL",
+      "club": "NoBergen",
+      "coach": "Romero",
+      "draws": 2,
+      "form": "DWLWD",
       "games": [
         {
           "date": "2026-09-12",
-          "game_number": "416176",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11C-Ramos",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416181",
+          "game_number": "416178",
           "goals_against": 4,
           "goals_for": 2,
           "opponent_club": "Tenafly",
           "opponent_raw": "Tenafly-B11C-Salazar",
           "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416180",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11C-Waraska",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "416182",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11C-Ramos",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416186",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-B11C-Martel",
+          "result": "D",
           "time": "02:30 PM",
-          "venue_code": "UNIONCITY-Marti"
+          "venue_code": "NoBergen-HudsonPk2"
         },
         {
           "date": "2026-10-17",
-          "game_number": "416190",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B11C-Waraska",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "UNIONCITY-Marti"
+          "game_number": "416188",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11C-Martinez",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "BELLE-BellePkFull"
         },
         {
           "date": "2026-10-24",
-          "game_number": "416193",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11C-Ramos",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416196",
-          "goals_against": 0,
+          "game_number": "416192",
+          "goals_against": 1,
           "goals_for": 3,
           "opponent_club": "Tenafly",
           "opponent_raw": "Tenafly-B11C-Salazar",
           "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "TEN-Municipal"
+          "time": "05:45 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416195",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B11C-Waraska",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NoVAL-Chestnut"
         },
         {
           "date": "2026-11-07",
-          "game_number": "416197",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B11C-Martinez",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "BELLE-BellePkFull"
+          "game_number": "416198",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11C-Ramos",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 9,
-      "goals_for": 22,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
-      "team_raw": "UnionCity-B11C-Martel",
-      "wins": 4
+      "goal_diff": -4,
+      "goals_against": 19,
+      "goals_for": 15,
+      "losses": 4,
+      "played": 8,
+      "points": 8,
+      "team_raw": "NoBergen-B11C-Romero",
+      "wins": 2
     },
     {
       "club": "Belleville",
@@ -385,99 +500,6 @@
       "played": 7,
       "points": 8,
       "team_raw": "Belleville-B11C-Martinez",
-      "wins": 2
-    },
-    {
-      "club": "NoBergen",
-      "coach": "Romero",
-      "draws": 1,
-      "form": "LDWLW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416178",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11C-Salazar",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416180",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B11C-Waraska",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "416182",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11C-Ramos",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "SS-FaberTurfSml"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416188",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B11C-Martinez",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416192",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B11C-Salazar",
-          "result": "W",
-          "time": "05:45 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416195",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B11C-Waraska",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "NoVAL-Chestnut"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "416198",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B11C-Ramos",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 17,
-      "goals_for": 13,
-      "losses": 4,
-      "played": 7,
-      "points": 7,
-      "team_raw": "NoBergen-B11C-Romero",
       "wins": 2
     },
     {

@@ -1,6 +1,6 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-11-08T13:03:34.964986Z",
+  "scraped_at": "2026-11-09T15:37:25.647559Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -32,19 +32,31 @@
       "wins": 1
     },
     {
-      "club": "Belleville",
-      "coach": "Ulloa",
+      "club": "GlenRidge",
+      "coach": "Yucel",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418046",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11XW-Ulloa",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "BELLE-BellePkSm"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 2,
+      "goals_for": 6,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Belleville-B11XW-Ulloa",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "GlenRidge-B11XW-Yucel",
+      "wins": 1
     },
     {
       "club": "CougarSC",
@@ -77,21 +89,6 @@
       "wins": 0
     },
     {
-      "club": "GlenRidge",
-      "coach": "Yucel",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "GlenRidge-B11XW-Yucel",
-      "wins": 0
-    },
-    {
       "club": "Rutherford",
       "coach": "Carlstein",
       "draws": 0,
@@ -119,6 +116,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "Southside-B11XW-Zamora",
+      "wins": 0
+    },
+    {
+      "club": "Belleville",
+      "coach": "Ulloa",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418046",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B11XW-Yucel",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "BELLE-BellePkSm"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 6,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Belleville-B11XW-Ulloa",
       "wins": 0
     },
     {

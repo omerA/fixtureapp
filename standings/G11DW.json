@@ -1,14 +1,14 @@
 {
   "division": "G11DW",
-  "scraped_at": "2026-11-08T13:03:37.056343Z",
+  "scraped_at": "2026-11-09T15:37:27.595257Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Nutley",
       "coach": "Hyndman",
-      "draws": 1,
-      "form": "WWWDW",
+      "draws": 2,
+      "form": "WWDWD",
       "games": [
         {
           "date": "2026-10-18",
@@ -40,6 +40,17 @@
           "opponent_club": "Belleville",
           "opponent_raw": "Belleville-G11DW-Avila",
           "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414507",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G11DW-Parsons",
+          "result": "D",
           "time": "11:00 AM",
           "venue_code": "NUT-FatherGlotzbach2"
         },
@@ -89,11 +100,11 @@
         }
       ],
       "goal_diff": 19,
-      "goals_against": 4,
-      "goals_for": 23,
+      "goals_against": 6,
+      "goals_for": 25,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 20,
       "team_raw": "Nutley-G11DW-Hyndman",
       "wins": 6
     },
@@ -264,8 +275,8 @@
     {
       "club": "BLMFLD",
       "coach": "Parsons",
-      "draws": 1,
-      "form": "LLWDL",
+      "draws": 2,
+      "form": "LWDLD",
       "games": [
         {
           "date": "2026-10-25",
@@ -288,6 +299,17 @@
           "result": "L",
           "time": "08:45 AM",
           "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414507",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G11DW-Hyndman",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-09-13",
@@ -346,11 +368,11 @@
         }
       ],
       "goal_diff": 0,
-      "goals_against": 17,
-      "goals_for": 17,
+      "goals_against": 19,
+      "goals_for": 19,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 8,
       "team_raw": "BLMFLD-G11DW-Parsons",
       "wins": 2
     },
@@ -358,7 +380,7 @@
       "club": "Belleville",
       "coach": "Avila",
       "draws": 2,
-      "form": "WDLDL",
+      "form": "DLDLW",
       "games": [
         {
           "date": "2026-10-18",
@@ -392,6 +414,17 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414506",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G11DW-Holder",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "HACK-Johnson2"
         },
         {
           "date": "2026-09-13",
@@ -438,14 +471,14 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": -5,
+      "goal_diff": -3,
       "goals_against": 20,
-      "goals_for": 15,
+      "goals_for": 17,
       "losses": 4,
-      "played": 7,
-      "points": 5,
+      "played": 8,
+      "points": 8,
       "team_raw": "Belleville-G11DW-Avila",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Hackensack",
@@ -473,6 +506,17 @@
           "opponent_raw": "SaddleBR-G11DW-Camporeale",
           "result": "L",
           "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414506",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G11DW-Avila",
+          "result": "L",
+          "time": "06:00 PM",
           "venue_code": "HACK-Johnson2"
         },
         {
@@ -531,11 +575,11 @@
           "venue_code": "BLMFLD-LionsGate"
         }
       ],
-      "goal_diff": -37,
-      "goals_against": 41,
+      "goal_diff": -39,
+      "goals_against": 43,
       "goals_for": 4,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Hackensack-G11DW-Holder",
       "wins": 0

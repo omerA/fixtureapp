@@ -43,6 +43,13 @@
       "name": "Father Glotzbach Field2",
       "size": "Small Field (8 vs 8)"
     },
+    "77": {
+      "address": "287 Forest Avenue, Glen ridge, NJ 07028",
+      "comments": "9v9 and 11v11 ONLY",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Forest Avenue",
+      "size": "Both (Small & Large)"
+    },
     "799": {
       "address": "PO Box 26, HohoKus, NJ 07423",
       "comments": "",
@@ -69,7 +76,7 @@
     },
     {
       "away_club": "GlenRidge",
-      "away_score": null,
+      "away_score": 6,
       "away_team": "GlenRidge-B11XW-Yucel",
       "date": "2026-11-08",
       "division": "B11XW",
@@ -77,9 +84,9 @@
       "field_id": "207",
       "game_id": "418046",
       "home_club": "Belleville",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Belleville-B11XW-Ulloa",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:00 AM"
     },
     {
@@ -128,6 +135,21 @@
       "time": "08:30 AM"
     },
     {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B11XW-Ulloa",
+      "date": "2026-11-15",
+      "division": "B11XW",
+      "field": "Forest Avenue",
+      "field_id": "77",
+      "game_id": "418047",
+      "home_club": "GlenRidge",
+      "home_score": null,
+      "home_team": "GlenRidge-B11XW-Yucel",
+      "is_upcoming": true,
+      "time": "10:00 AM"
+    },
+    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B11XW-OHara",
@@ -141,21 +163,6 @@
       "home_team": "Nutley-B11XW-Zurita",
       "is_upcoming": true,
       "time": "09:15 AM"
-    },
-    {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-B11XW-Ulloa",
-      "date": "2026-12-03",
-      "division": "B11XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418047",
-      "home_club": "GlenRidge",
-      "home_score": null,
-      "home_team": "GlenRidge-B11XW-Yucel",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Southside",
@@ -173,6 +180,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-08T13:06:01.954388Z",
+  "scraped_at": "2026-11-09T15:39:45.122034Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

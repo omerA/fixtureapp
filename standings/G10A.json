@@ -1,9 +1,113 @@
 {
   "division": "G10A",
-  "scraped_at": "2026-11-08T13:03:36.600759Z",
+  "scraped_at": "2026-11-09T15:37:27.188893Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WorldClassFC",
+      "coach": "Mathelier",
+      "draws": 0,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "415060",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G10A-Maringola",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415061",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10A-Wolff",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416562",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10A-Sandt",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field1A"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416566",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10A-Voorheis",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416569",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10A-JuarezOsorio",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field2A"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416574",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10A-Ou",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416578",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G10A-Singh",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416580",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G10A-Maringola",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 8,
+      "goals_for": 29,
+      "losses": 1,
+      "played": 8,
+      "points": 18,
+      "team_raw": "WorldClassFC-G10A-Mathelier",
+      "wins": 6
+    },
     {
       "club": "Dragons",
       "coach": "Sandt",
@@ -109,103 +213,10 @@
       "wins": 6
     },
     {
-      "club": "WorldClassFC",
-      "coach": "Mathelier",
-      "draws": 1,
-      "form": "LWWWW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415060",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G10A-Maringola",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415061",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G10A-Wolff",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416562",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G10A-Sandt",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "NY-WC-Field1A"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416566",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G10A-Voorheis",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416569",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10A-JuarezOsorio",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "NY-WC-Field2A"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416574",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10A-Ou",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "VIK-Demarest-Low7v7"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416578",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G10A-Singh",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field3"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 8,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
-      "team_raw": "WorldClassFC-G10A-Mathelier",
-      "wins": 5
-    },
-    {
       "club": "Clarkstown",
       "coach": "JuarezOsorio",
       "draws": 1,
-      "form": "WLDLW",
+      "form": "LDLWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -283,13 +294,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416582",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10A-Voorheis",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
       "goal_diff": 4,
-      "goals_against": 26,
-      "goals_for": 30,
+      "goals_against": 28,
+      "goals_for": 32,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "points": 13,
       "team_raw": "Clarkstown-G10A-JuarezOsorio",
       "wins": 4
@@ -298,7 +320,7 @@
       "club": "WorldClassFC",
       "coach": "Voorheis",
       "draws": 2,
-      "form": "LWDWD",
+      "form": "WDWDL",
       "games": [
         {
           "date": "2026-09-13",
@@ -376,115 +398,33 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416582",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10A-JuarezOsorio",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
       "goal_diff": 7,
-      "goals_against": 12,
-      "goals_for": 19,
+      "goals_against": 14,
+      "goals_for": 21,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "points": 11,
       "team_raw": "WorldClassFC-G10A-Voorheis",
       "wins": 3
     },
     {
-      "club": "Maywood",
-      "coach": "Maringola",
-      "draws": 3,
-      "form": "WDLDW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415060",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G10A-Mathelier",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415062",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G10A-Sandt",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-10-09",
-          "game_number": "415065",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G10A-JuarezOsorio",
-          "result": "D",
-          "time": "07:00 PM",
-          "venue_code": "NY-CLARK-Zukor2A"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416564",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G10A-Singh",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-11",
-          "game_number": "416567",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G10A-Wolff",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416573",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G10A-Voorheis",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416577",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10A-Ou",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 15,
-      "goals_for": 24,
-      "losses": 2,
-      "played": 7,
-      "points": 9,
-      "team_raw": "Maywood-G10A-Maringola",
-      "wins": 2
-    },
-    {
       "club": "CougarSC",
       "coach": "Wolff",
-      "draws": 2,
-      "form": "WDLLD",
+      "draws": 1,
+      "form": "DLLDW",
       "games": [
         {
           "date": "2026-11-07",
@@ -562,15 +502,130 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416579",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G10A-Singh",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -1,
+      "goal_diff": 1,
       "goals_against": 13,
-      "goals_for": 12,
+      "goals_for": 14,
       "losses": 3,
-      "played": 7,
-      "points": 8,
+      "played": 8,
+      "points": 10,
       "team_raw": "CougarSC-G10A-Wolff",
+      "wins": 3
+    },
+    {
+      "club": "Maywood",
+      "coach": "Maringola",
+      "draws": 2,
+      "form": "DLDWL",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "415060",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10A-Mathelier",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415062",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G10A-Sandt",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "415065",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G10A-JuarezOsorio",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416564",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G10A-Singh",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "416567",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10A-Wolff",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416573",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10A-Voorheis",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416577",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10A-Ou",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416580",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G10A-Mathelier",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 22,
+      "goals_for": 24,
+      "losses": 3,
+      "played": 8,
+      "points": 8,
+      "team_raw": "Maywood-G10A-Maringola",
       "wins": 2
     },
     {
@@ -680,8 +735,8 @@
     {
       "club": "RiverDell",
       "coach": "Singh",
-      "draws": 1,
-      "form": "LLLLD",
+      "draws": 0,
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-11-07",
@@ -759,14 +814,25 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416579",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G10A-Wolff",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 29,
+      "goal_diff": -27,
+      "goals_against": 31,
       "goals_for": 4,
-      "losses": 6,
-      "played": 7,
-      "points": 1,
+      "losses": 7,
+      "played": 8,
+      "points": 0,
       "team_raw": "RiverDell-G10A-Singh",
       "wins": 0
     }

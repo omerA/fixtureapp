@@ -1,13 +1,6 @@
 {
   "division": "G11A",
   "fields": {
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "336": {
       "address": "Bergenline Ave, Closter, NJ 07624",
       "comments": "",
@@ -42,6 +35,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Habernickel Park",
       "size": "Both (Small & Large)"
+    },
+    "53": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "60 x 110",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - SS 2",
+      "size": "Small Field (8 vs 8)"
     },
     "585": {
       "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
@@ -221,21 +221,6 @@
       "home_team": "FairLawnAllSports-G11A-Kubasta",
       "is_upcoming": false,
       "time": "06:45 PM"
-    },
-    {
-      "away_club": "RiverDell",
-      "away_score": null,
-      "away_team": "RiverDell-G11A-Mapes",
-      "date": "2026-10-16",
-      "division": "G11A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415077",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G11A-Cotter",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "WestEssex",
@@ -494,7 +479,7 @@
     },
     {
       "away_club": "WayneBG",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "WayneBG-G11A-Vinces",
       "date": "2026-11-08",
       "division": "G11A",
@@ -502,14 +487,14 @@
       "field_id": "751",
       "game_id": "415108",
       "home_club": "WestEssex",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "WestEssex-G11A-Pajuelo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "08:15 AM"
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Maroons-G11A-Cotter",
       "date": "2026-11-08",
       "division": "G11A",
@@ -517,14 +502,14 @@
       "field_id": "73",
       "game_id": "415106",
       "home_club": "RiverDell",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "RiverDell-G11A-Mapes",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
       "away_club": "WorldClassFC",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "WorldClassFC-G11A-Brownell",
       "date": "2026-11-08",
       "division": "G11A",
@@ -532,14 +517,14 @@
       "field_id": "438",
       "game_id": "415105",
       "home_club": "FairLawnAllSports",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "FairLawnAllSports-G11A-Kubasta",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:00 AM"
     },
     {
       "away_club": "WorldClassFC",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "WorldClassFC-G11A-Heim",
       "date": "2026-11-08",
       "division": "G11A",
@@ -547,10 +532,25 @@
       "field_id": "404",
       "game_id": "415107",
       "home_club": "Vikings",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Vikings-G11A-Schneiderman",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
+    },
+    {
+      "away_club": "RiverDell",
+      "away_score": null,
+      "away_team": "RiverDell-G11A-Mapes",
+      "date": "2026-11-14",
+      "division": "G11A",
+      "field": "Veterans Field - SS 2",
+      "field_id": "53",
+      "game_id": "415077",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G11A-Cotter",
+      "is_upcoming": true,
+      "time": "03:00 PM"
     },
     {
       "away_club": "WestEssex",
@@ -688,6 +688,6 @@
       "time": "05:00 PM"
     }
   ],
-  "scraped_at": "2026-11-08T13:08:23.644424Z",
+  "scraped_at": "2026-11-09T15:42:07.281451Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

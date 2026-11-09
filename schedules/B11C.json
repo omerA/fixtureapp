@@ -377,7 +377,7 @@
     },
     {
       "away_club": "UnionCity",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "UnionCity-B11C-Martel",
       "date": "2026-11-08",
       "division": "B11C",
@@ -385,9 +385,9 @@
       "field_id": "798",
       "game_id": "416186",
       "home_club": "NoBergen",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "NoBergen-B11C-Romero",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:30 PM"
     },
     {
@@ -402,6 +402,21 @@
       "home_club": "UnionCity",
       "home_score": null,
       "home_team": "UnionCity-B11C-Martel",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
+      "away_club": "Tenafly",
+      "away_score": null,
+      "away_team": "Tenafly-B11C-Salazar",
+      "date": "2026-11-13",
+      "division": "B11C",
+      "field": "Faber Turf Small",
+      "field_id": "170",
+      "game_id": "416203",
+      "home_club": "GlenRock",
+      "home_score": null,
+      "home_team": "GlenRock-B11C-Ramos",
       "is_upcoming": true,
       "time": "07:00 PM"
     },
@@ -479,23 +494,8 @@
       "home_team": "NoBergen-B11C-Romero",
       "is_upcoming": true,
       "time": "12:45 PM"
-    },
-    {
-      "away_club": "Tenafly",
-      "away_score": null,
-      "away_team": "Tenafly-B11C-Salazar",
-      "date": "2026-11-21",
-      "division": "B11C",
-      "field": "Faber Turf Small",
-      "field_id": "170",
-      "game_id": "416203",
-      "home_club": "GlenRock",
-      "home_score": null,
-      "home_team": "GlenRock-B11C-Ramos",
-      "is_upcoming": true,
-      "time": "04:30 PM"
     }
   ],
-  "scraped_at": "2026-11-08T13:05:35.727953Z",
+  "scraped_at": "2026-11-09T15:39:20.164543Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

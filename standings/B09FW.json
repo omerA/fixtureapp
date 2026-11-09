@@ -1,14 +1,14 @@
 {
   "division": "B09FW",
-  "scraped_at": "2026-11-08T13:03:33.883883Z",
+  "scraped_at": "2026-11-09T15:37:24.659275Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Torpedoes",
       "coach": "Nikolaidis",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -75,16 +75,131 @@
           "result": "W",
           "time": "07:30 PM",
           "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415500",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09FW-Antone",
+          "result": "D",
+          "time": "12:45 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
       "goal_diff": 32,
-      "goals_against": 5,
-      "goals_for": 37,
+      "goals_against": 7,
+      "goals_for": 39,
       "losses": 0,
-      "played": 6,
-      "points": 18,
+      "played": 7,
+      "points": 19,
       "team_raw": "Torpedoes-B09FW-Nikolaidis",
       "wins": 6
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Antone",
+      "draws": 1,
+      "form": "WDWLD",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "413880",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B09FW-Svarnas",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "AMER-LionsSouthSmall"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414590",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B09FW-Ferreira",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "SS-HamiltonB"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415481",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B09FW-Tobias",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "Teaneck-Argonne"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415484",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B09FW-Huss",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415491",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09FW-Liberti",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415495",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B09FW-Carino",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SS-HamiltonA"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415500",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09FW-Nikolaidis",
+          "result": "D",
+          "time": "12:45 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "417785",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B09FW-Carino",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "NA-Zadroga3"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 18,
+      "goals_for": 39,
+      "losses": 1,
+      "played": 8,
+      "points": 16,
+      "team_raw": "GlenRock-B09FW-Antone",
+      "wins": 5
     },
     {
       "club": "JerseyCity",
@@ -177,99 +292,6 @@
       "played": 7,
       "points": 16,
       "team_raw": "JerseyCity-B09FW-Servance",
-      "wins": 5
-    },
-    {
-      "club": "GlenRock",
-      "coach": "Antone",
-      "draws": 0,
-      "form": "WWDWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "413880",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B09FW-Svarnas",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "AMER-LionsSouthSmall"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414590",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B09FW-Ferreira",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "SS-HamiltonB"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415481",
-          "goals_against": 4,
-          "goals_for": 10,
-          "opponent_club": "TeaneckTravel",
-          "opponent_raw": "TeaneckTravel-B09FW-Tobias",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "Teaneck-Argonne"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415484",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B09FW-Huss",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415491",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B09FW-Liberti",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "415495",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B09FW-Carino",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "SS-HamiltonA"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "417785",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B09FW-Carino",
-          "result": "D",
-          "time": "02:30 PM",
-          "venue_code": "NA-Zadroga3"
-        }
-      ],
-      "goal_diff": 21,
-      "goals_against": 16,
-      "goals_for": 37,
-      "losses": 1,
-      "played": 7,
-      "points": 15,
-      "team_raw": "GlenRock-B09FW-Antone",
       "wins": 5
     },
     {
@@ -380,7 +402,7 @@
       "club": "NoArlington",
       "coach": "Carino",
       "draws": 0,
-      "form": "LLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -438,6 +460,17 @@
           "venue_code": "AMER-LionsSouthSmall"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "415493",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B09FW-Ferreira",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
           "date": "2026-10-31",
           "game_number": "415495",
           "goals_against": 2,
@@ -460,14 +493,14 @@
           "venue_code": "NA-Zadroga3"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 24,
-      "goals_for": 25,
+      "goal_diff": 4,
+      "goals_against": 25,
+      "goals_for": 29,
       "losses": 3,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "NoArlington-B09FW-Carino",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Dragons",
@@ -670,7 +703,7 @@
       "club": "AviatorsHHSA",
       "coach": "Ferreira",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -717,6 +750,17 @@
           "venue_code": "AVIA-DepkenSmall"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "415493",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B09FW-Carino",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "415501",
           "goals_against": 4,
@@ -739,11 +783,11 @@
           "venue_code": "Teaneck-Argonne"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 30,
-      "goals_for": 11,
-      "losses": 5,
-      "played": 6,
+      "goal_diff": -22,
+      "goals_against": 34,
+      "goals_for": 12,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "AviatorsHHSA-B09FW-Ferreira",
       "wins": 1

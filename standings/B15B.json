@@ -1,6 +1,6 @@
 {
   "division": "B15B",
-  "scraped_at": "2026-11-08T13:03:36.105173Z",
+  "scraped_at": "2026-11-09T15:37:26.703202Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -238,7 +238,7 @@
       "club": "CougarSC",
       "coach": "Smith",
       "draws": 1,
-      "form": "DLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-10-18",
@@ -305,16 +305,27 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417598",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B15B-Rivera",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "COUGSC-Meadowlands"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 6,
       "goals_against": 13,
-      "goals_for": 16,
+      "goals_for": 19,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "CougarSC-B15B-Smith",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Spartan",
@@ -424,7 +435,7 @@
       "club": "Southside",
       "coach": "Rivera",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -491,13 +502,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417598",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B15B-Smith",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "COUGSC-Meadowlands"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 18,
+      "goal_diff": -9,
+      "goals_against": 21,
       "goals_for": 12,
-      "losses": 5,
-      "played": 6,
+      "losses": 6,
+      "played": 7,
       "points": 3,
       "team_raw": "Southside-B15B-Rivera",
       "wins": 1

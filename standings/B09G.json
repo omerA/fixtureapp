@@ -1,6 +1,6 @@
 {
   "division": "B09G",
-  "scraped_at": "2026-11-08T13:03:33.947081Z",
+  "scraped_at": "2026-11-09T15:37:24.718088Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -539,7 +539,7 @@
       "club": "RiverDell",
       "coach": "McGee",
       "draws": 1,
-      "form": "LLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-09-25",
@@ -562,6 +562,17 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415530",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09G-Sagi",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC South"
         },
         {
           "date": "2026-10-03",
@@ -619,14 +630,14 @@
           "venue_code": "RDBH-DPAC South"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 24,
-      "goals_for": 22,
+      "goal_diff": 0,
+      "goals_against": 26,
+      "goals_for": 26,
       "losses": 3,
-      "played": 7,
-      "points": 10,
+      "played": 8,
+      "points": 13,
       "team_raw": "RiverDell-B09G-McGee",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Torpedoes",
@@ -944,7 +955,7 @@
       "club": "HobUtd",
       "coach": "Sagi",
       "draws": 1,
-      "form": "WLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-10-25",
@@ -978,6 +989,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415530",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09G-McGee",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC South"
         },
         {
           "date": "2026-10-03",
@@ -1035,11 +1057,11 @@
           "venue_code": "HobUTD-SinatraPkSth"
         }
       ],
-      "goal_diff": -30,
-      "goals_against": 48,
-      "goals_for": 18,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -32,
+      "goals_against": 52,
+      "goals_for": 20,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "HobUtd-B09G-Sagi",
       "wins": 1

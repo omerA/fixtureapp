@@ -703,7 +703,7 @@
     },
     {
       "away_club": "GlobalJC",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "GlobalJC-B12DW-Nobrega",
       "date": "2026-11-08",
       "division": "B12DW",
@@ -711,9 +711,9 @@
       "field_id": "204",
       "game_id": "414118",
       "home_club": "CougarUtd",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "CougarUtd-B12DW-Jang",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:45 AM"
     },
     {
@@ -807,21 +807,6 @@
       "time": "01:00 PM"
     },
     {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-B12DW-Chudzik",
-      "date": "2026-11-15",
-      "division": "B12DW",
-      "field": "Lions Park South Playground",
-      "field_id": "845",
-      "game_id": "414155",
-      "home_club": "Americans",
-      "home_score": null,
-      "home_team": "Americans-B12DW-Fiori",
-      "is_upcoming": true,
-      "time": "01:45 PM"
-    },
-    {
       "away_club": "Americans",
       "away_score": null,
       "away_team": "Americans-B12DW-Fiori",
@@ -850,6 +835,21 @@
       "home_team": "WOrange-B12DW-Martinez",
       "is_upcoming": true,
       "time": "10:30 AM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-B12DW-Chudzik",
+      "date": "2026-11-21",
+      "division": "B12DW",
+      "field": "Lions Park South Playground",
+      "field_id": "845",
+      "game_id": "414155",
+      "home_club": "Americans",
+      "home_score": null,
+      "home_team": "Americans-B12DW-Fiori",
+      "is_upcoming": true,
+      "time": "10:45 AM"
     },
     {
       "away_club": "Vikings",
@@ -927,6 +927,6 @@
       "time": "02:30 PM"
     }
   ],
-  "scraped_at": "2026-11-08T13:06:16.135628Z",
+  "scraped_at": "2026-11-09T15:39:59.232482Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

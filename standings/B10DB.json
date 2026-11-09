@@ -1,6 +1,6 @@
 {
   "division": "B10DB",
-  "scraped_at": "2026-11-08T13:03:34.279049Z",
+  "scraped_at": "2026-11-09T15:37:25.013191Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lyndhurst",
       "coach": "Westemeyer",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -31,6 +31,17 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415585",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10DB-Millar",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "RUTH-Memorial3"
         },
         {
           "date": "2026-10-03",
@@ -88,20 +99,20 @@
           "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 36,
-      "goals_against": 20,
-      "goals_for": 56,
+      "goal_diff": 37,
+      "goals_against": 22,
+      "goals_for": 59,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "Lyndhurst-B10DB-Westemeyer",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Rutherford",
       "coach": "Millar",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -124,6 +135,17 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415585",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10DB-Westemeyer",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "RUTH-Memorial3"
         },
         {
           "date": "2026-10-03",
@@ -170,11 +192,11 @@
           "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 13,
-      "goals_for": 42,
-      "losses": 0,
-      "played": 6,
+      "goal_diff": 28,
+      "goals_against": 16,
+      "goals_for": 44,
+      "losses": 1,
+      "played": 7,
       "points": 16,
       "team_raw": "Rutherford-B10DB-Millar",
       "wins": 5

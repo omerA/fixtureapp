@@ -15,6 +15,13 @@
       "name": "Veterans Field HAWTH",
       "size": "Both (Small & Large)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1161": {
       "address": "19 Zukor Road, New City, NY 10956",
       "comments": "",
@@ -665,7 +672,7 @@
     },
     {
       "away_club": "Ajax",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Ajax-G11C-Jackson",
       "date": "2026-11-08",
       "division": "G11C",
@@ -673,14 +680,14 @@
       "field_id": "416",
       "game_id": "415387",
       "home_club": "NoValley",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "NoValley-G11C-Beezer",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:30 AM"
     },
     {
       "away_club": "Lakeland",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Lakeland-G11C-Egbert",
       "date": "2026-11-08",
       "division": "G11C",
@@ -688,10 +695,25 @@
       "field_id": "102",
       "game_id": "416633",
       "home_club": "Warriors",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Warriors-G11C-Reed",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:00 PM"
+    },
+    {
+      "away_club": "Warriors",
+      "away_score": null,
+      "away_team": "Warriors-G11C-Reed",
+      "date": "2026-11-13",
+      "division": "G11C",
+      "field": "TBS Postponed",
+      "field_id": "1111",
+      "game_id": "416638",
+      "home_club": "Paramus",
+      "home_score": null,
+      "home_team": "Paramus-G11C-Buttacavoli",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     },
     {
       "away_club": "NoValley",
@@ -769,21 +791,6 @@
       "time": "02:15 PM"
     },
     {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-G11C-Buttacavoli",
-      "date": "2026-11-15",
-      "division": "G11C",
-      "field": "Hopper Ave Field",
-      "field_id": "102",
-      "game_id": "416638",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-G11C-Reed",
-      "is_upcoming": true,
-      "time": "05:00 PM"
-    },
-    {
       "away_club": "Warriors",
       "away_score": null,
       "away_team": "Warriors-G11C-Reed",
@@ -859,6 +866,6 @@
       "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-11-08T13:08:29.390654Z",
+  "scraped_at": "2026-11-09T15:42:13.041215Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

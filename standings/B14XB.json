@@ -1,9 +1,36 @@
 {
   "division": "B14XB",
-  "scraped_at": "2026-11-08T13:03:36.052773Z",
+  "scraped_at": "2026-11-09T15:37:26.654281Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Breheny",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418078",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B14XB-Lotz",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Maroons-B14XB-Breheny",
+      "wins": 1
+    },
     {
       "club": "NoBergen",
       "coach": "Amaya",
@@ -97,36 +124,6 @@
       "wins": 1
     },
     {
-      "club": "Maroons",
-      "coach": "Breheny",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maroons-B14XB-Breheny",
-      "wins": 0
-    },
-    {
-      "club": "NoValley",
-      "coach": "Lotz",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "NoValley-B14XB-Lotz",
-      "wins": 0
-    },
-    {
       "club": "Nutley",
       "coach": "Tischio",
       "draws": 0,
@@ -162,6 +159,33 @@
       "played": 2,
       "points": 0,
       "team_raw": "Nutley-B14XB-Tischio",
+      "wins": 0
+    },
+    {
+      "club": "NoValley",
+      "coach": "Lotz",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418078",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B14XB-Breheny",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "NoValley-B14XB-Lotz",
       "wins": 0
     },
     {

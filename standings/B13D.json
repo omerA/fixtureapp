@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-11-08T13:03:35.571664Z",
+  "scraped_at": "2026-11-09T15:37:26.222934Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -193,8 +193,8 @@
     {
       "club": "RYSA",
       "coach": "Drumgoole",
-      "draws": 1,
-      "form": "LLWLL",
+      "draws": 2,
+      "form": "LWLLD",
       "games": [
         {
           "date": "2026-09-19",
@@ -283,14 +283,25 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417747",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B13D-Escandon",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "RYSA-FAMS"
         }
       ],
       "goal_diff": -11,
-      "goals_against": 22,
-      "goals_for": 11,
+      "goals_against": 23,
+      "goals_for": 12,
       "losses": 4,
-      "played": 8,
-      "points": 7,
+      "played": 9,
+      "points": 8,
       "team_raw": "RYSA-B13D-Drumgoole",
       "wins": 2
     },
@@ -390,8 +401,8 @@
     {
       "club": "Thistle",
       "coach": "Escandon",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-09-19",
@@ -447,14 +458,25 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "THIS-Franklin"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417747",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B13D-Drumgoole",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "RYSA-FAMS"
         }
       ],
       "goal_diff": -16,
-      "goals_against": 20,
-      "goals_for": 4,
+      "goals_against": 21,
+      "goals_for": 5,
       "losses": 5,
-      "played": 5,
-      "points": 0,
+      "played": 6,
+      "points": 1,
       "team_raw": "Thistle-B13D-Escandon",
       "wins": 0
     }

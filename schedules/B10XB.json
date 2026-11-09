@@ -15,13 +15,6 @@
       "name": "Williams Field 7v7",
       "size": "Small Field (8 vs 8)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -41,6 +34,13 @@
       "comments": "",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Borden Park 1",
+      "size": "Small Field (8 vs 8)"
+    },
+    "604": {
+      "address": "65 Park Avenue, Nutley, NJ 07110",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Monsignor Owens Park2",
       "size": "Small Field (8 vs 8)"
     },
     "75": {
@@ -135,21 +135,6 @@
       "time": "02:30 PM"
     },
     {
-      "away_club": "FairLawnAllSports",
-      "away_score": null,
-      "away_team": "FairLawnAllSports-B10XB-Villanueva",
-      "date": "2026-11-08",
-      "division": "B10XB",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "417929",
-      "home_club": "Nutley",
-      "home_score": null,
-      "home_team": "Nutley-B10XB-Rosales",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "RiverDell",
       "away_score": null,
       "away_team": "RiverDell-B10XB-Walters",
@@ -178,8 +163,23 @@
       "home_team": "Dragons-B10XB-Goers",
       "is_upcoming": true,
       "time": "03:00 PM"
+    },
+    {
+      "away_club": "FairLawnAllSports",
+      "away_score": null,
+      "away_team": "FairLawnAllSports-B10XB-Villanueva",
+      "date": "2026-11-22",
+      "division": "B10XB",
+      "field": "Monsignor Owens Park2",
+      "field_id": "604",
+      "game_id": "417929",
+      "home_club": "Nutley",
+      "home_score": null,
+      "home_team": "Nutley-B10XB-Rosales",
+      "is_upcoming": true,
+      "time": "05:30 PM"
     }
   ],
-  "scraped_at": "2026-11-08T13:05:24.531364Z",
+  "scraped_at": "2026-11-09T15:39:08.953235Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

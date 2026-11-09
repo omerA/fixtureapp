@@ -50,13 +50,6 @@
       "name": "Municipal Field",
       "size": "Both (Small & Large)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "398": {
       "address": "199 Monona Avenue, Rutherford, NJ 07070",
       "comments": "7v7 and 9v9",
@@ -147,21 +140,6 @@
       "home_team": "FF-B11GW-Cortez",
       "is_upcoming": false,
       "time": "01:15 PM"
-    },
-    {
-      "away_club": "Tenafly",
-      "away_score": null,
-      "away_team": "Tenafly-B11GW-Martinelli",
-      "date": "2026-09-26",
-      "division": "B11GW",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415703",
-      "home_club": "Clarkstown",
-      "home_score": null,
-      "home_team": "Clarkstown-B11GW-Rolston",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "FF",
@@ -375,7 +353,7 @@
     },
     {
       "away_club": "Dragons",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Dragons-B11GW-Dean",
       "date": "2026-11-08",
       "division": "B11GW",
@@ -383,14 +361,14 @@
       "field_id": "1181",
       "game_id": "415715",
       "home_club": "Clarkstown",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Clarkstown-B11GW-Rolston",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:30 AM"
     },
     {
       "away_club": "Rutherford",
-      "away_score": null,
+      "away_score": 5,
       "away_team": "Rutherford-B11GW-Carlstein",
       "date": "2026-11-08",
       "division": "B11GW",
@@ -398,9 +376,9 @@
       "field_id": "1201",
       "game_id": "415719",
       "home_club": "Lakeland",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "Lakeland-B11GW-Curran",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:00 PM"
     },
     {
@@ -509,6 +487,21 @@
       "time": "03:15 PM"
     },
     {
+      "away_club": "Tenafly",
+      "away_score": null,
+      "away_team": "Tenafly-B11GW-Martinelli",
+      "date": "2026-11-22",
+      "division": "B11GW",
+      "field": "Zukor Park 2C",
+      "field_id": "1181",
+      "game_id": "415703",
+      "home_club": "Clarkstown",
+      "home_score": null,
+      "home_team": "Clarkstown-B11GW-Rolston",
+      "is_upcoming": true,
+      "time": "12:00 PM"
+    },
+    {
       "away_club": "Lakeland",
       "away_score": null,
       "away_team": "Lakeland-B11GW-Curran",
@@ -524,6 +517,6 @@
       "time": "03:45 PM"
     }
   ],
-  "scraped_at": "2026-11-08T13:05:52.720248Z",
+  "scraped_at": "2026-11-09T15:39:36.921080Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

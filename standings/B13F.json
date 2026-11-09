@@ -1,9 +1,102 @@
 {
   "division": "B13F",
-  "scraped_at": "2026-11-08T13:03:35.661951Z",
+  "scraped_at": "2026-11-09T15:37:26.323372Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Fairview",
+      "coach": "Macias",
+      "draws": 0,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "416372",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13F-Zotaj",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "DUM-Honiss"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416378",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13F-Siddiqi",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "VIK-DemarestHS-Upper"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416382",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13F-Amaya",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-WayneHillsHS"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416392",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B13F-Escher",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-10-11",
+          "game_number": "416400",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13F-Ravano",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "COUGSC-OrangePark"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416410",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13F-Lehman",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-WRMS-LG"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417736",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13F-Moran",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "NY-CLARK-Germonds"
+        }
+      ],
+      "goal_diff": 25,
+      "goals_against": 11,
+      "goals_for": 36,
+      "losses": 0,
+      "played": 7,
+      "points": 21,
+      "team_raw": "Fairview-B13F-Macias",
+      "wins": 7
+    },
     {
       "club": "Dumont",
       "coach": "Zotaj",
@@ -109,92 +202,10 @@
       "wins": 7
     },
     {
-      "club": "Fairview",
-      "coach": "Macias",
-      "draws": 0,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-10-31",
-          "game_number": "416372",
-          "goals_against": 5,
-          "goals_for": 6,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B13F-Zotaj",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "DUM-Honiss"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416378",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B13F-Siddiqi",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "VIK-DemarestHS-Upper"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416382",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B13F-Amaya",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "WYNE-WayneHillsHS"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416392",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B13F-Escher",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "LKLND-BBeach-Full"
-        },
-        {
-          "date": "2026-10-11",
-          "game_number": "416400",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13F-Ravano",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "COUGSC-OrangePark"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "416410",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13F-Lehman",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-WRMS-LG"
-        }
-      ],
-      "goal_diff": 21,
-      "goals_against": 11,
-      "goals_for": 32,
-      "losses": 0,
-      "played": 6,
-      "points": 18,
-      "team_raw": "Fairview-B13F-Macias",
-      "wins": 6
-    },
-    {
       "club": "Lakeland",
       "coach": "Escher",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-10-25",
@@ -272,13 +283,24 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416413",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13F-King",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 12,
-      "goals_for": 30,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 17,
+      "goals_against": 14,
+      "goals_for": 31,
+      "losses": 2,
+      "played": 8,
       "points": 18,
       "team_raw": "Lakeland-B13F-Escher",
       "wins": 6
@@ -402,7 +424,7 @@
       "club": "FF",
       "coach": "Lezcano",
       "draws": 1,
-      "form": "WLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-10-04",
@@ -471,6 +493,17 @@
           "venue_code": "VIK-NVRHS Turf"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416409",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13F-Amaya",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "416412",
           "goals_against": 5,
@@ -493,20 +526,20 @@
           "venue_code": "NY-CLARK-Germonds"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 15,
-      "goals_for": 26,
+      "goal_diff": 14,
+      "goals_against": 18,
+      "goals_for": 32,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "FF-B13F-Lezcano",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "WayneBG",
       "coach": "Amaya",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-10-04",
@@ -586,6 +619,17 @@
           "venue_code": "RDBH-HS-Grass"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416409",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B13F-Lezcano",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "416411",
           "goals_against": 5,
@@ -597,11 +641,11 @@
           "venue_code": "DUM-HS"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 33,
-      "goals_for": 19,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -17,
+      "goals_against": 39,
+      "goals_for": 22,
+      "losses": 6,
+      "played": 9,
       "points": 9,
       "team_raw": "WayneBG-B13F-Amaya",
       "wins": 3
@@ -725,7 +769,7 @@
       "club": "Clarkstown",
       "coach": "Moran",
       "draws": 1,
-      "form": "WDWLL",
+      "form": "DWLLL",
       "games": [
         {
           "date": "2026-10-25",
@@ -772,6 +816,17 @@
           "venue_code": "NY-CLARK-Germonds"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "417736",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B13F-Macias",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "NY-CLARK-Germonds"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "417737",
           "goals_against": 4,
@@ -794,11 +849,11 @@
           "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 15,
+      "goal_diff": -3,
+      "goals_against": 19,
       "goals_for": 16,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "points": 7,
       "team_raw": "Clarkstown-B13F-Moran",
       "wins": 2
@@ -908,6 +963,121 @@
       "wins": 2
     },
     {
+      "club": "RiverDell",
+      "coach": "King",
+      "draws": 1,
+      "form": "DLLWL",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "416374",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B13F-Hernandez",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "416377",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13F-Lehman",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "RDBH-MS-Lg"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "416387",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B13F-Lezcano",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416393",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13F-Zotaj",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416398",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13F-Siddiqi",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "VIK-DemarestHS-Upper"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416403",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13F-Amaya",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416405",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Broncos",
+          "opponent_raw": "Broncos-B13F-Chaves",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416413",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B13F-Escher",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417733",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13F-Moran",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "RDBH-HS-Grass"
+        }
+      ],
+      "goal_diff": -34,
+      "goals_against": 42,
+      "goals_for": 8,
+      "losses": 7,
+      "played": 9,
+      "points": 4,
+      "team_raw": "RiverDell-B13F-King",
+      "wins": 1
+    },
+    {
       "club": "TeaneckFC",
       "coach": "Hernandez",
       "draws": 1,
@@ -1001,103 +1171,10 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "King",
-      "draws": 1,
-      "form": "LLDLL",
-      "games": [
-        {
-          "date": "2026-10-14",
-          "game_number": "416374",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "TeaneckFC",
-          "opponent_raw": "TeaneckFC-B13F-Hernandez",
-          "result": "D",
-          "time": "07:30 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "416377",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13F-Lehman",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "RDBH-MS-Lg"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "416387",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B13F-Lezcano",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416393",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B13F-Zotaj",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416398",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B13F-Siddiqi",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "VIK-DemarestHS-Upper"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416403",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B13F-Amaya",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-HS-Grass"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417733",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B13F-Moran",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "RDBH-HS-Grass"
-        }
-      ],
-      "goal_diff": -31,
-      "goals_against": 37,
-      "goals_for": 6,
-      "losses": 6,
-      "played": 7,
-      "points": 1,
-      "team_raw": "RiverDell-B13F-King",
-      "wins": 0
-    },
-    {
       "club": "Broncos",
       "coach": "Chaves",
       "draws": 1,
-      "form": "WWDLW",
+      "form": "WDLWW",
       "games": [
         {
           "date": "2026-10-04",
@@ -1155,6 +1232,17 @@
           "venue_code": "DRAG-WRMS-LG"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416405",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13F-King",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "CLIF-Latteri"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "416412",
           "goals_against": 1,
@@ -1177,14 +1265,14 @@
           "venue_code": "NY-CLARK-ZukorMain"
         }
       ],
-      "goal_diff": 20,
+      "goal_diff": 24,
       "goals_against": 9,
-      "goals_for": 29,
+      "goals_for": 33,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "Broncos-B13F-Chaves",
-      "wins": 4
+      "wins": 5
     }
   ]
 }

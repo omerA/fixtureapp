@@ -1,9 +1,113 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-11-08T13:03:33.275090Z",
+  "scraped_at": "2026-11-09T15:37:24.081136Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Vikings",
+      "coach": "Graciano",
+      "draws": 1,
+      "form": "WDWWW",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "415279",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08C4-Chambers",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415283",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08C4-Crollo",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415285",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08C4-Mitchell",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams4v4"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415289",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B08C4-Muschinske",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415292",
+          "goals_against": 8,
+          "goals_for": 11,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08C4-Lee",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415295",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08C4-Chambers",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415298",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08C4-Crollo",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415301",
+          "goals_against": 7,
+          "goals_for": 9,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08C4-Mitchell",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "VIK-NVRHS-DemarUP"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 34,
+      "goals_for": 53,
+      "losses": 1,
+      "played": 8,
+      "points": 19,
+      "team_raw": "Vikings-B08C4-Graciano",
+      "wins": 6
+    },
     {
       "club": "Americans",
       "coach": "Lee",
@@ -202,99 +306,6 @@
       "wins": 6
     },
     {
-      "club": "Vikings",
-      "coach": "Graciano",
-      "draws": 1,
-      "form": "WWDWW",
-      "games": [
-        {
-          "date": "2026-11-01",
-          "game_number": "415279",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B08C4-Chambers",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "MAR-VetsFld3"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415285",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B08C4-Mitchell",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "NMilford-Williams4v4"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415289",
-          "goals_against": 2,
-          "goals_for": 8,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B08C4-Muschinske",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "VIK-NVRHS-DemarUP"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415292",
-          "goals_against": 8,
-          "goals_for": 11,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B08C4-Lee",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "VIK-NVRHS-DemarUP"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415295",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B08C4-Chambers",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "VIK-NVRHS-DemarUP"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415298",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B08C4-Crollo",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "PAR-ParkwayMS7"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "415301",
-          "goals_against": 7,
-          "goals_for": 9,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B08C4-Mitchell",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "VIK-NVRHS-DemarUP"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 32,
-      "goals_for": 45,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
-      "team_raw": "Vikings-B08C4-Graciano",
-      "wins": 5
-    },
-    {
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 1,
@@ -380,7 +391,7 @@
       "club": "Spartan",
       "coach": "Crollo",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -391,6 +402,17 @@
           "opponent_raw": "NMKnights-B08C4-Mitchell",
           "result": "L",
           "time": "09:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415283",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C4-Graciano",
+          "result": "L",
+          "time": "08:30 AM",
           "venue_code": "PAR-ParkwayMS7"
         },
         {
@@ -460,11 +482,11 @@
           "venue_code": "AMER-ReynoldsNorth"
         }
       ],
-      "goal_diff": -36,
-      "goals_against": 58,
-      "goals_for": 22,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -42,
+      "goals_against": 66,
+      "goals_for": 24,
+      "losses": 7,
+      "played": 8,
       "points": 1,
       "team_raw": "Spartan-B08C4-Crollo",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B10C",
-  "scraped_at": "2026-11-08T13:03:34.215747Z",
+  "scraped_at": "2026-11-09T15:37:24.953503Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -424,7 +424,7 @@
       "club": "NoValley",
       "coach": "Lenihan",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -447,6 +447,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "413920",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B10C-Sarr",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm2"
         },
         {
           "date": "2026-10-03",
@@ -504,14 +515,14 @@
           "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 29,
-      "goals_for": 33,
+      "goal_diff": 5,
+      "goals_against": 30,
+      "goals_for": 35,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "NoValley-B10C-Lenihan",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "GlenRock",
@@ -725,7 +736,7 @@
       "club": "GlobalJC",
       "coach": "Sarr",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -748,6 +759,17 @@
           "result": "L",
           "time": "02:15 PM",
           "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "413920",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10C-Lenihan",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "JC-GatewaySm2"
         },
         {
           "date": "2026-10-03",
@@ -805,11 +827,11 @@
           "venue_code": "JC-GatewaySm1"
         }
       ],
-      "goal_diff": -30,
-      "goals_against": 40,
-      "goals_for": 10,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -31,
+      "goals_against": 42,
+      "goals_for": 11,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "GlobalJC-B10C-Sarr",
       "wins": 1

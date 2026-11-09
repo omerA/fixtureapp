@@ -1,6 +1,6 @@
 {
   "division": "B14A",
-  "scraped_at": "2026-11-08T13:03:35.782564Z",
+  "scraped_at": "2026-11-09T15:37:26.415441Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Warriors",
       "coach": "Krysa",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -77,6 +77,17 @@
           "venue_code": "NY-WC-Field1"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "417560",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B14A-Torrie",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-3"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "417561",
           "goals_against": 1,
@@ -88,14 +99,14 @@
           "venue_code": "MAR-VetsFld3"
         }
       ],
-      "goal_diff": 11,
+      "goal_diff": 14,
       "goals_against": 8,
-      "goals_for": 19,
+      "goals_for": 22,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "Warriors-B14A-Krysa",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Dumont",
@@ -309,7 +320,7 @@
       "club": "NoValley",
       "coach": "Torrie",
       "draws": 2,
-      "form": "DLDWL",
+      "form": "LDWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -365,13 +376,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417560",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B14A-Krysa",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-3"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 13,
+      "goal_diff": -4,
+      "goals_against": 16,
       "goals_for": 12,
-      "losses": 2,
-      "played": 5,
+      "losses": 3,
+      "played": 6,
       "points": 5,
       "team_raw": "NoValley-B14A-Torrie",
       "wins": 1

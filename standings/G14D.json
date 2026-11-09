@@ -1,14 +1,14 @@
 {
   "division": "G14D",
-  "scraped_at": "2026-11-08T13:03:37.641670Z",
+  "scraped_at": "2026-11-09T15:37:28.148853Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Maywood",
       "coach": "Glynn",
-      "draws": 1,
-      "form": "WWWLW",
+      "draws": 2,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-10-27",
@@ -75,82 +75,33 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416830",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G14D-Santacruz",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "HACK-Johnson2"
         }
       ],
       "goal_diff": 10,
-      "goals_against": 12,
-      "goals_for": 22,
+      "goals_against": 13,
+      "goals_for": 23,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 14,
       "team_raw": "Maywood-G14D-Glynn",
       "wins": 4
     },
     {
-      "club": "Maroons",
-      "coach": "Manning",
-      "draws": 0,
-      "form": "WWLW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416812",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-G14D-Santacruz",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "HACK-Johnson2"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416820",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-G14D-Glynn",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416823",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G14D-Canales",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-09-24",
-          "game_number": "416825",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G14D-Bifulco",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "LYND-RecCtrFld1"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 6,
-      "goals_for": 8,
-      "losses": 1,
-      "played": 4,
-      "points": 9,
-      "team_raw": "Maroons-G14D-Manning",
-      "wins": 3
-    },
-    {
       "club": "Hackensack",
       "coach": "Santacruz",
-      "draws": 0,
-      "form": "WLLWW",
+      "draws": 1,
+      "form": "LLWWD",
       "games": [
         {
           "date": "2026-09-13",
@@ -219,6 +170,17 @@
           "venue_code": "HACK-Johnson2"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416830",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14D-Glynn",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
           "date": "2026-11-05",
           "game_number": "416836",
           "goals_against": 3,
@@ -231,19 +193,79 @@
         }
       ],
       "goal_diff": -3,
-      "goals_against": 17,
-      "goals_for": 14,
+      "goals_against": 18,
+      "goals_for": 15,
       "losses": 4,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 10,
       "team_raw": "Hackensack-G14D-Santacruz",
+      "wins": 3
+    },
+    {
+      "club": "Maroons",
+      "coach": "Manning",
+      "draws": 0,
+      "form": "WWLW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416812",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-G14D-Santacruz",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416820",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G14D-Glynn",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416823",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G14D-Canales",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-09-24",
+          "game_number": "416825",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 6,
+      "goals_for": 8,
+      "losses": 1,
+      "played": 4,
+      "points": 9,
+      "team_raw": "Maroons-G14D-Manning",
       "wins": 3
     },
     {
       "club": "UnionCity",
       "coach": "Canales",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-10-27",
@@ -321,22 +343,33 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416831",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G14D-Bifulco",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "LYND-RecCtrFld1"
         }
       ],
-      "goal_diff": -4,
+      "goal_diff": -2,
       "goals_against": 14,
-      "goals_for": 10,
+      "goals_for": 12,
       "losses": 5,
-      "played": 7,
-      "points": 6,
+      "played": 8,
+      "points": 9,
       "team_raw": "UnionCity-G14D-Canales",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Lyndhurst",
       "coach": "Bifulco",
       "draws": 2,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -405,6 +438,17 @@
           "venue_code": "MAYWOOD-MemorialPkLg"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416831",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G14D-Canales",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "LYND-RecCtrFld1"
+        },
+        {
           "date": "2026-10-03",
           "game_number": "416833",
           "goals_against": 1,
@@ -427,11 +471,11 @@
           "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 25,
+      "goal_diff": -14,
+      "goals_against": 27,
       "goals_for": 13,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 5,
       "team_raw": "Lyndhurst-G14D-Bifulco",
       "wins": 1

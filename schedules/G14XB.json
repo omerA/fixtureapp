@@ -22,6 +22,13 @@
       "name": "Brookdale Stadium",
       "size": "Large Field (11 vs 11)"
     },
+    "673": {
+      "address": "10-10 20th Street, Fair Lawn, NJ 07410",
+      "comments": "Turf field -- only players allowed on field level no use of track while games are bing played",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "FLHS Turf",
+      "size": "Large Field (11 vs 11)"
+    },
     "75": {
       "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
       "comments": "",
@@ -121,6 +128,21 @@
       "time": "08:00 PM"
     },
     {
+      "away_club": "NMKnights",
+      "away_score": null,
+      "away_team": "NMKnights-G14XB-Anderson",
+      "date": "2026-11-30",
+      "division": "G14XB",
+      "field": "FLHS Turf",
+      "field_id": "673",
+      "game_id": "417967",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-G14XB-Puzino",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Montclair",
       "away_score": null,
       "away_team": "Montclair-G14XB-Lehman",
@@ -132,21 +154,6 @@
       "home_club": "NMKnights",
       "home_score": null,
       "home_team": "NMKnights-G14XB-Regas",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "NMKnights",
-      "away_score": null,
-      "away_team": "NMKnights-G14XB-Anderson",
-      "date": "2026-12-03",
-      "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417967",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-G14XB-Puzino",
       "is_upcoming": true,
       "time": "12:00 AM"
     },
@@ -166,6 +173,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-08T13:09:31.857605Z",
+  "scraped_at": "2026-11-09T15:43:14.898648Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

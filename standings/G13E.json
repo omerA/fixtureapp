@@ -1,6 +1,6 @@
 {
   "division": "G13E",
-  "scraped_at": "2026-11-08T13:03:37.484940Z",
+  "scraped_at": "2026-11-09T15:37:28.014169Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "SaddleBR",
       "coach": "DAngelo",
       "draws": 1,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -86,13 +86,24 @@
           "result": "W",
           "time": "01:45 PM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "418124",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13E-Kaluza",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
         }
       ],
-      "goal_diff": 30,
+      "goal_diff": 32,
       "goals_against": 4,
-      "goals_for": 34,
+      "goals_for": 36,
       "losses": 1,
-      "played": 7,
+      "played": 8,
       "points": 16,
       "team_raw": "SaddleBR-G13E-DAngelo",
       "wins": 5
@@ -172,7 +183,7 @@
       "club": "Vikings",
       "coach": "Kaluza",
       "draws": 1,
-      "form": "DLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-09-27",
@@ -230,6 +241,17 @@
           "venue_code": "SaddleBR-VeteransFld"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "418124",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G13E-DAngelo",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "418126",
           "goals_against": 4,
@@ -241,11 +263,11 @@
           "venue_code": "VIK-DemarestHS-Upper"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 14,
+      "goal_diff": -9,
+      "goals_against": 16,
       "goals_for": 7,
       "losses": 3,
-      "played": 6,
+      "played": 7,
       "points": 7,
       "team_raw": "Vikings-G13E-Kaluza",
       "wins": 2

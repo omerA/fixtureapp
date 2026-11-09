@@ -1,6 +1,6 @@
 {
   "division": "G14C",
-  "scraped_at": "2026-11-08T13:03:37.611677Z",
+  "scraped_at": "2026-11-09T15:37:28.119399Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "AviatorsHHSA",
       "coach": "Andersen",
       "draws": 1,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-26",
@@ -88,6 +88,17 @@
           "venue_code": "AVIA-Hitchcock"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416798",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14C-Puzino",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
           "date": "2026-09-27",
           "game_number": "417875",
           "goals_against": 0,
@@ -99,14 +110,14 @@
           "venue_code": "BGFD-Vivyen A"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 7,
-      "goals_for": 33,
+      "goal_diff": 28,
+      "goals_against": 10,
+      "goals_for": 38,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "AviatorsHHSA-G14C-Andersen",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "NoRockland",
@@ -146,6 +157,17 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "NY-NR-NRSA-1"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416772",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G14C-Gallagher",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "JC-CochraneCaven"
         },
         {
           "date": "2026-10-04",
@@ -192,14 +214,14 @@
           "venue_code": "BGFD-Vivyen A"
         }
       ],
-      "goal_diff": 15,
+      "goal_diff": 18,
       "goals_against": 8,
-      "goals_for": 23,
+      "goals_for": 26,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "NoRockland-G14C-Barrios",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Warriors",
@@ -703,7 +725,7 @@
       "club": "JerseyCity",
       "coach": "Gallagher",
       "draws": 2,
-      "form": "DWLDL",
+      "form": "WLDLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -726,6 +748,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416772",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G14C-Barrios",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "JC-CochraneCaven"
         },
         {
           "date": "2026-10-04",
@@ -783,20 +816,113 @@
           "venue_code": "Haledon-MnchstHS-Lrg"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 16,
+      "goal_diff": -7,
+      "goals_against": 19,
       "goals_for": 12,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "points": 8,
       "team_raw": "JerseyCity-G14C-Gallagher",
+      "wins": 2
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Anderson",
+      "draws": 1,
+      "form": "LLLLW",
+      "games": [
+        {
+          "date": "2026-09-20",
+          "game_number": "416768",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G14C-Tenney",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416777",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G14C-Clark",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416780",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G14C-Gallagher",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416784",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G14C-Zdon",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "NMilford-Kennedy"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416793",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G14C-Andersen",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416796",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G14C-Crollo",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-09-24",
+          "game_number": "417872",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-G14C-Secillano",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 24,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 7,
+      "points": 7,
+      "team_raw": "NMKnights-G14C-Anderson",
       "wins": 2
     },
     {
       "club": "FairLawnAllSports",
       "coach": "Puzino",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -865,6 +991,17 @@
           "venue_code": "RUTH-Tryon"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416798",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G14C-Andersen",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
           "date": "2026-10-11",
           "game_number": "417874",
           "goals_against": 0,
@@ -876,11 +1013,11 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 17,
-      "goals_for": 12,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -7,
+      "goals_against": 22,
+      "goals_for": 15,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "FairLawnAllSports-G14C-Puzino",
       "wins": 2
@@ -889,7 +1026,7 @@
       "club": "Spartan",
       "coach": "Crollo",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -958,6 +1095,17 @@
           "venue_code": "PAR-ParkwayMS11"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416796",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G14C-Anderson",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
           "date": "2026-10-18",
           "game_number": "417877",
           "goals_against": 1,
@@ -969,96 +1117,14 @@
           "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 21,
+      "goal_diff": -19,
+      "goals_against": 25,
       "goals_for": 6,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Spartan-G14C-Crollo",
       "wins": 2
-    },
-    {
-      "club": "NMKnights",
-      "coach": "Anderson",
-      "draws": 1,
-      "form": "WLLLL",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "416768",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-G14C-Tenney",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "NMilford-NMHS-Main"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416777",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G14C-Clark",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "NMilford-NMHS-Main"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416780",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "JerseyCity",
-          "opponent_raw": "JerseyCity-G14C-Gallagher",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "JC-CochraneCaven"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416784",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G14C-Zdon",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "NMilford-Kennedy"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416793",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G14C-Andersen",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "AVIA-Hitchcock"
-        },
-        {
-          "date": "2026-09-24",
-          "game_number": "417872",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Bergenfield",
-          "opponent_raw": "Bergenfield-G14C-Secillano",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        }
-      ],
-      "goal_diff": -11,
-      "goals_against": 24,
-      "goals_for": 13,
-      "losses": 4,
-      "played": 6,
-      "points": 4,
-      "team_raw": "NMKnights-G14C-Anderson",
-      "wins": 1
     },
     {
       "club": "Bergenfield",

@@ -1,6 +1,6 @@
 {
   "division": "G08B4",
-  "scraped_at": "2026-11-08T13:03:36.233886Z",
+  "scraped_at": "2026-11-09T15:37:26.826472Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -90,7 +90,7 @@
       "club": "Torpedoes",
       "coach": "Madonia",
       "draws": 1,
-      "form": "WLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-09-19",
@@ -168,16 +168,27 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414737",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G08B4-Scalici",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 25,
-      "goals_for": 46,
+      "goal_diff": 27,
+      "goals_against": 29,
+      "goals_for": 56,
       "losses": 2,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Torpedoes-G08B4-Madonia",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Spartan",
@@ -545,13 +556,24 @@
           "result": "L",
           "time": "05:45 PM",
           "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414737",
+          "goals_against": 10,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G08B4-Madonia",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 47,
-      "goals_for": 19,
-      "losses": 6,
-      "played": 6,
+      "goal_diff": -34,
+      "goals_against": 57,
+      "goals_for": 23,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Ajax-G08B4-Scalici",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B10HW",
-  "scraped_at": "2026-11-08T13:03:34.532342Z",
+  "scraped_at": "2026-11-09T15:37:25.241171Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "RiverDell",
       "coach": "Marmanides",
       "draws": 2,
-      "form": "WDDWW",
+      "form": "DDWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -88,6 +88,17 @@
           "venue_code": "ARS-Dorchester2"
         },
         {
+          "date": "2026-11-07",
+          "game_number": "415614",
+          "goals_against": 9,
+          "goals_for": 5,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10HW-Perrone",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
           "date": "2026-10-20",
           "game_number": "415617",
           "goals_against": 3,
@@ -99,11 +110,11 @@
           "venue_code": "PAR-WestbrkSmall"
         }
       ],
-      "goal_diff": 24,
-      "goals_against": 25,
-      "goals_for": 49,
-      "losses": 0,
-      "played": 8,
+      "goal_diff": 20,
+      "goals_against": 34,
+      "goals_for": 54,
+      "losses": 1,
+      "played": 9,
       "points": 20,
       "team_raw": "RiverDell-B10HW-Marmanides",
       "wins": 6
@@ -194,7 +205,7 @@
       "club": "Emerson",
       "coach": "Perrone",
       "draws": 0,
-      "form": "LLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -261,16 +272,27 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415614",
+          "goals_against": 5,
+          "goals_for": 9,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10HW-Marmanides",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC South"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 23,
-      "goals_for": 29,
+      "goal_diff": 10,
+      "goals_against": 28,
+      "goals_for": 38,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 15,
       "team_raw": "Emerson-B10HW-Perrone",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Arsenal",

@@ -1,6 +1,6 @@
 {
   "division": "B14D",
-  "scraped_at": "2026-11-08T13:03:35.912225Z",
+  "scraped_at": "2026-11-09T15:37:26.534936Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Harrison",
       "coach": "RodriguezEspinoza",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -31,6 +31,17 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414671",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B14D-Hu",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "TEN-Municipal"
         },
         {
           "date": "2026-10-03",
@@ -88,14 +99,14 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": 19,
+      "goal_diff": 26,
       "goals_against": 4,
-      "goals_for": 23,
+      "goals_for": 30,
       "losses": 1,
-      "played": 7,
-      "points": 18,
+      "played": 8,
+      "points": 21,
       "team_raw": "Harrison-B14D-RodriguezEspinoza",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "NoArlington",
@@ -103,6 +114,17 @@
       "draws": 1,
       "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "414666",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B14D-Burucuoglu",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
         {
           "date": "2026-09-26",
           "game_number": "414668",
@@ -170,14 +192,14 @@
           "venue_code": "MAR-VetsFld3"
         }
       ],
-      "goal_diff": 18,
-      "goals_against": 11,
-      "goals_for": 29,
+      "goal_diff": 25,
+      "goals_against": 12,
+      "goals_for": 37,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "NoArlington-B14D-McSorley",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Verona",
@@ -391,7 +413,7 @@
       "club": "Spartan",
       "coach": "Burucuoglu",
       "draws": 1,
-      "form": "LDWWL",
+      "form": "DWWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -403,6 +425,17 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414666",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B14D-McSorley",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "PAR-ParkwayMS11"
         },
         {
           "date": "2026-10-04",
@@ -460,11 +493,11 @@
           "venue_code": "VERONA-Centennial"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 13,
-      "goals_for": 21,
-      "losses": 2,
-      "played": 6,
+      "goal_diff": 1,
+      "goals_against": 21,
+      "goals_for": 22,
+      "losses": 3,
+      "played": 7,
       "points": 10,
       "team_raw": "Spartan-B14D-Burucuoglu",
       "wins": 3
@@ -659,7 +692,7 @@
       "club": "Tenafly",
       "coach": "Hu",
       "draws": 1,
-      "form": "LLWWD",
+      "form": "LWWDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -682,6 +715,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "AVIA-Hitchcock"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414671",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B14D-RodriguezEspinoza",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "TEN-Municipal"
         },
         {
           "date": "2026-10-03",
@@ -739,11 +783,11 @@
           "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 29,
+      "goal_diff": -24,
+      "goals_against": 36,
       "goals_for": 12,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "Tenafly-B14D-Hu",
       "wins": 2

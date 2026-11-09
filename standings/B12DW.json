@@ -1,6 +1,6 @@
 {
   "division": "B12DW",
-  "scraped_at": "2026-11-08T13:03:35.185431Z",
+  "scraped_at": "2026-11-09T15:37:25.855732Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -295,6 +295,88 @@
       "wins": 5
     },
     {
+      "club": "CougarUtd",
+      "coach": "Jang",
+      "draws": 1,
+      "form": "WLWDW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "414107",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12DW-Hykey",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414118",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12DW-Nobrega",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414124",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B12DW-Mullen",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414127",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B12DW-Wood",
+          "result": "D",
+          "time": "01:45 PM",
+          "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414130",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B12DW-Pereira",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414137",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B12DW-Tran",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGUTD-Front"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 13,
+      "goals_for": 19,
+      "losses": 1,
+      "played": 6,
+      "points": 13,
+      "team_raw": "CougarUtd-B12DW-Jang",
+      "wins": 4
+    },
+    {
       "club": "Mahwah",
       "coach": "Wood",
       "draws": 2,
@@ -396,77 +478,6 @@
       "played": 8,
       "points": 11,
       "team_raw": "Mahwah-B12DW-Wood",
-      "wins": 3
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "Jang",
-      "draws": 1,
-      "form": "WWLWD",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "414107",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12DW-Hykey",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "COUGUTD-Front"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414124",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B12DW-Mullen",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "WYNE-Alps2"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "414127",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Mahwah",
-          "opponent_raw": "Mahwah-B12DW-Wood",
-          "result": "D",
-          "time": "01:45 PM",
-          "venue_code": "COUGUTD-Front"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414130",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-B12DW-Pereira",
-          "result": "L",
-          "time": "06:45 PM",
-          "venue_code": "BLMFLD-LionsGate"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "414137",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B12DW-Tran",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "COUGUTD-Front"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 12,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 5,
-      "points": 10,
-      "team_raw": "CougarUtd-B12DW-Jang",
       "wins": 3
     },
     {
@@ -763,7 +774,7 @@
       "club": "GlobalJC",
       "coach": "Nobrega",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -786,6 +797,17 @@
           "result": "L",
           "time": "03:30 PM",
           "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414118",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12DW-Jang",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "COUGUTD-Front"
         },
         {
           "date": "2026-10-03",
@@ -843,11 +865,11 @@
           "venue_code": "WYNE-ShaiShaknai"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 27,
-      "goals_for": 13,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -15,
+      "goals_against": 29,
+      "goals_for": 14,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "GlobalJC-B12DW-Nobrega",
       "wins": 2

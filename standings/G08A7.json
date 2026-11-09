@@ -1,6 +1,6 @@
 {
   "division": "G08A7",
-  "scraped_at": "2026-11-08T13:03:36.202652Z",
+  "scraped_at": "2026-11-09T15:37:26.797076Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "WorldClassFC",
       "coach": "VanDyke",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-10-03",
@@ -75,22 +75,33 @@
           "result": "W",
           "time": "03:30 PM",
           "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414341",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G08A7-JuarezOsorio",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 7,
-      "goals_for": 33,
+      "goal_diff": 32,
+      "goals_against": 8,
+      "goals_for": 40,
       "losses": 0,
-      "played": 6,
-      "points": 16,
+      "played": 7,
+      "points": 19,
       "team_raw": "WorldClassFC-G08A7-VanDyke",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Vikings",
       "coach": "Lee",
       "draws": 1,
-      "form": "LWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-10-03",
@@ -157,16 +168,27 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414342",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08A7-Forsythe",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 18,
+      "goal_diff": 20,
       "goals_against": 14,
-      "goals_for": 32,
+      "goals_for": 34,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "Vikings-G08A7-Lee",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "BLMFLD",
@@ -276,7 +298,7 @@
       "club": "Clarkstown",
       "coach": "JuarezOsorio",
       "draws": 2,
-      "form": "WWDDL",
+      "form": "WDDLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -343,13 +365,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414341",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08A7-VanDyke",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 26,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 6,
+      "goal_diff": -13,
+      "goals_against": 33,
+      "goals_for": 20,
+      "losses": 3,
+      "played": 7,
       "points": 8,
       "team_raw": "Clarkstown-G08A7-JuarezOsorio",
       "wins": 2
@@ -358,7 +391,7 @@
       "club": "Maroons",
       "coach": "Forsythe",
       "draws": 0,
-      "form": "WLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -425,13 +458,24 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414342",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08A7-Lee",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 23,
+      "goal_diff": -12,
+      "goals_against": 25,
       "goals_for": 13,
-      "losses": 4,
-      "played": 6,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "Maroons-G08A7-Forsythe",
       "wins": 2

@@ -8,6 +8,13 @@
       "name": "Wood Ridge Athletic Complex",
       "size": "Both (Small & Large)"
     },
+    "1109": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - FS 3",
+      "size": "Large Field (11 vs 11)"
+    },
     "146": {
       "address": "600 Hamilton Ave, Glen Rock, NJ 07452",
       "comments": "Turf Field",
@@ -48,13 +55,6 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "James Braddock / Soccer Field behind bleachers",
-      "size": "Both (Small & Large)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
     }
   },
@@ -121,7 +121,7 @@
     },
     {
       "away_club": "Maroons",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "Maroons-B14XB-Breheny",
       "date": "2026-11-08",
       "division": "B14XB",
@@ -129,9 +129,9 @@
       "field_id": "275",
       "game_id": "418078",
       "home_club": "NoValley",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "NoValley-B14XB-Lotz",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
@@ -150,6 +150,21 @@
       "time": "07:15 PM"
     },
     {
+      "away_club": "NoValley",
+      "away_score": null,
+      "away_team": "NoValley-B14XB-Lotz",
+      "date": "2026-11-15",
+      "division": "B14XB",
+      "field": "Veterans Field - FS 3",
+      "field_id": "1109",
+      "game_id": "418079",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B14XB-Breheny",
+      "is_upcoming": true,
+      "time": "12:00 PM"
+    },
+    {
       "away_club": "Dumont",
       "away_score": null,
       "away_team": "Dumont-B14XB-Arapi",
@@ -163,23 +178,8 @@
       "home_team": "WoodRidge-B14XB-McLean",
       "is_upcoming": true,
       "time": "06:00 PM"
-    },
-    {
-      "away_club": "NoValley",
-      "away_score": null,
-      "away_team": "NoValley-B14XB-Lotz",
-      "date": "2026-12-03",
-      "division": "B14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418079",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B14XB-Breheny",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-08T13:07:21.580260Z",
+  "scraped_at": "2026-11-09T15:41:03.827069Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,9 +1,124 @@
 {
   "division": "B13F",
-  "scraped_at": "2026-11-09T15:37:26.323372Z",
+  "scraped_at": "2026-11-10T14:38:25.975527Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Dumont",
+      "coach": "Zotaj",
+      "draws": 0,
+      "form": "WLWWW",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "416372",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B13F-Macias",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "DUM-Honiss"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416375",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13F-Ravano",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "DUM-Honiss"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416384",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B13F-Hernandez",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeFB"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "416386",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13F-Lehman",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416393",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13F-King",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416396",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B13F-Lezcano",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416408",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13F-Siddiqi",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416411",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13F-Amaya",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "DUM-HS"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417737",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13F-Moran",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "DUM-HS"
+        }
+      ],
+      "goal_diff": 38,
+      "goals_against": 12,
+      "goals_for": 50,
+      "losses": 1,
+      "played": 9,
+      "points": 24,
+      "team_raw": "Dumont-B13F-Zotaj",
+      "wins": 8
+    },
     {
       "club": "Fairview",
       "coach": "Macias",
@@ -95,110 +210,6 @@
       "played": 7,
       "points": 21,
       "team_raw": "Fairview-B13F-Macias",
-      "wins": 7
-    },
-    {
-      "club": "Dumont",
-      "coach": "Zotaj",
-      "draws": 0,
-      "form": "WWLWW",
-      "games": [
-        {
-          "date": "2026-10-31",
-          "game_number": "416372",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B13F-Macias",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "DUM-Honiss"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416375",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13F-Ravano",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "DUM-Honiss"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "416386",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13F-Lehman",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DUM-HS"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416393",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B13F-King",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "RDBH-HS-Stadium"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416396",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "FF",
-          "opponent_raw": "FF-B13F-Lezcano",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DUM-HS"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416408",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B13F-Siddiqi",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "416411",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-B13F-Amaya",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "DUM-HS"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "417737",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B13F-Moran",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "DUM-HS"
-        }
-      ],
-      "goal_diff": 31,
-      "goals_against": 12,
-      "goals_for": 43,
-      "losses": 1,
-      "played": 8,
-      "points": 21,
-      "team_raw": "Dumont-B13F-Zotaj",
       "wins": 7
     },
     {
@@ -1106,6 +1117,17 @@
           "venue_code": "TEANECK-VoteeSoccer"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "416384",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13F-Zotaj",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TEANECK-VoteeFB"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "416388",
           "goals_against": 3,
@@ -1161,11 +1183,11 @@
           "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 37,
+      "goal_diff": -34,
+      "goals_against": 44,
       "goals_for": 10,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "points": 1,
       "team_raw": "TeaneckFC-B13F-Hernandez",
       "wins": 0

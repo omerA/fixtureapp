@@ -1,6 +1,6 @@
 {
   "division": "G09F",
-  "scraped_at": "2026-11-09T15:37:27.148307Z",
+  "scraped_at": "2026-11-10T14:38:27.459485Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -295,6 +295,99 @@
       "wins": 4
     },
     {
+      "club": "Southside",
+      "coach": "Oscanoa",
+      "draws": 0,
+      "form": "LWWLW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "415009",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G09F-Urbanovich",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415014",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09F-Eng",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415017",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09F-Puglia",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415024",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G09F-Boone",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415028",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09F-Wehmann",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415035",
+          "goals_against": 8,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G09F-Cartagena",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415046",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09F-Demoraes",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "TEN-Sunnyside"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 17,
+      "goals_for": 23,
+      "losses": 3,
+      "played": 7,
+      "points": 12,
+      "team_raw": "Southside-G09F-Oscanoa",
+      "wins": 4
+    },
+    {
       "club": "Dragons",
       "coach": "Wehmann",
       "draws": 0,
@@ -478,88 +571,6 @@
       "played": 6,
       "points": 10,
       "team_raw": "RYSA-G09F-Calderon",
-      "wins": 3
-    },
-    {
-      "club": "Southside",
-      "coach": "Oscanoa",
-      "draws": 0,
-      "form": "LLWWL",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415009",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G09F-Urbanovich",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "NUT-MsgnorOwenPk2"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415014",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-G09F-Eng",
-          "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415017",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G09F-Puglia",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415024",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G09F-Boone",
-          "result": "L",
-          "time": "12:45 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415028",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G09F-Wehmann",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415035",
-          "goals_against": 8,
-          "goals_for": 4,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-G09F-Cartagena",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 17,
-      "goals_for": 16,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Southside-G09F-Oscanoa",
       "wins": 3
     },
     {
@@ -1049,13 +1060,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "WDRDG-AthleticComp-W"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415046",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G09F-Oscanoa",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": -41,
-      "goals_against": 43,
+      "goal_diff": -48,
+      "goals_against": 50,
       "goals_for": 2,
-      "losses": 6,
-      "played": 6,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "Tenafly-G09F-Demoraes",
       "wins": 0

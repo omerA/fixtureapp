@@ -1,6 +1,13 @@
 {
   "division": "G12XW",
   "fields": {
+    "1183": {
+      "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "WR Athletic Complex Small A",
+      "size": "Small Field (8 vs 8)"
+    },
     "170": {
       "address": "320 Doremus Ave, Glen Rock, NJ 07452",
       "comments": "7v7 field",
@@ -22,6 +29,20 @@
       "name": "Veterans Field - SS 2",
       "size": "Small Field (8 vs 8)"
     },
+    "543": {
+      "address": "19 Ralph Rd., West Orange, NJ 07052",
+      "comments": "9v9 - 50x80yds with 6.5x18.5ft goals",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "O'Connor Field 3",
+      "size": "Small Field (8 vs 8)"
+    },
+    "585": {
+      "address": "230 Northern Pkwy, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Maple Park West",
+      "size": "Small Field (8 vs 8)"
+    },
     "641": {
       "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
       "comments": "",
@@ -35,13 +56,6 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Williams Field 9v9",
       "size": "Small Field (8 vs 8)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
-      "size": "Both (Small & Large)"
     }
   },
   "games": [
@@ -76,6 +90,21 @@
       "time": "06:00 PM"
     },
     {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-G12XW-Austin",
+      "date": "2026-11-14",
+      "division": "G12XW",
+      "field": "O'Connor Field 3",
+      "field_id": "543",
+      "game_id": "418276",
+      "home_club": "WOrange",
+      "home_score": null,
+      "home_team": "WOrange-G12XW-Tutalo",
+      "is_upcoming": true,
+      "time": "08:45 AM"
+    },
+    {
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-G12XW-Duque",
@@ -106,6 +135,36 @@
       "time": "11:45 AM"
     },
     {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-G12XW-Avila",
+      "date": "2026-11-18",
+      "division": "G12XW",
+      "field": "WR Athletic Complex Small A",
+      "field_id": "1183",
+      "game_id": "418141",
+      "home_club": "WoodRidge",
+      "home_score": null,
+      "home_team": "WoodRidge-G12XW-Squeo",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
+      "away_club": "WOrange",
+      "away_score": null,
+      "away_team": "WOrange-G12XW-Tutalo",
+      "date": "2026-11-19",
+      "division": "G12XW",
+      "field": "Maple Park West",
+      "field_id": "585",
+      "game_id": "418277",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G12XW-Austin",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
       "away_club": "RiverDell",
       "away_score": null,
       "away_team": "RiverDell-G12XW-DelGreco",
@@ -119,53 +178,8 @@
       "home_team": "GlenRock-G12XW-Weinstein",
       "is_upcoming": true,
       "time": "06:15 PM"
-    },
-    {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-G12XW-Avila",
-      "date": "2026-12-03",
-      "division": "G12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418141",
-      "home_club": "WoodRidge",
-      "home_score": null,
-      "home_team": "WoodRidge-G12XW-Squeo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-G12XW-Austin",
-      "date": "2026-12-03",
-      "division": "G12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418276",
-      "home_club": "WOrange",
-      "home_score": null,
-      "home_team": "WOrange-G12XW-Tutalo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "WOrange",
-      "away_score": null,
-      "away_team": "WOrange-G12XW-Tutalo",
-      "date": "2026-12-03",
-      "division": "G12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418277",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G12XW-Austin",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-09T15:42:44.010370Z",
+  "scraped_at": "2026-11-10T14:43:50.774598Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

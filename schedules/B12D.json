@@ -57,6 +57,13 @@
       "name": "Doug Parcells Athletic Complex North",
       "size": "Both (Small & Large)"
     },
+    "906": {
+      "address": "8 English Avenue, Elmwood Park, NJ 07407",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "ENGLISH AVENUE FIELD",
+      "size": "Small Field (8 vs 8)"
+    },
     "977": {
       "address": "Linden Avenue - Grand Avenue, Ridgefield, NJ 07657",
       "comments": "",
@@ -464,6 +471,21 @@
       "time": "10:00 AM"
     },
     {
+      "away_club": "RIDGFLD",
+      "away_score": null,
+      "away_team": "RIDGFLD-B12D-Salinas",
+      "date": "2026-11-16",
+      "division": "B12D",
+      "field": "ENGLISH AVENUE FIELD",
+      "field_id": "906",
+      "game_id": "414103",
+      "home_club": "ElmwoodPk",
+      "home_score": null,
+      "home_team": "ElmwoodPk-B12D-Meneses",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Warriors",
       "away_score": null,
       "away_team": "Warriors-B12D-Stratton",
@@ -494,21 +516,6 @@
       "time": "10:00 AM"
     },
     {
-      "away_club": "ElmwoodPk",
-      "away_score": null,
-      "away_team": "ElmwoodPk-B12D-Meneses",
-      "date": "2026-11-21",
-      "division": "B12D",
-      "field": "Willis Field",
-      "field_id": "977",
-      "game_id": "414103",
-      "home_club": "RIDGFLD",
-      "home_score": null,
-      "home_team": "RIDGFLD-B12D-Salinas",
-      "is_upcoming": true,
-      "time": "01:30 PM"
-    },
-    {
       "away_club": "Force",
       "away_score": null,
       "away_team": "Force-B12D-McGee",
@@ -524,6 +531,6 @@
       "time": "12:30 PM"
     }
   ],
-  "scraped_at": "2026-11-09T15:39:56.345654Z",
+  "scraped_at": "2026-11-10T14:41:00.374521Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

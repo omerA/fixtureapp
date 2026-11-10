@@ -88,7 +88,8 @@
       "Belleville-B13XB-Chavarria",
       "Belleville-B14EB-Calvache",
       "Belleville-B14XW-Calvache",
-      "Belleville-G11DW-Avila"
+      "Belleville-G11DW-Avila",
+      "Belleville-G12XW-Avila"
     ],
     "Bergenfield": [
       "Bergenfield-B08D7-Cifuentes",
@@ -263,6 +264,7 @@
       "FairLawnAllSports-B12C-Carpio",
       "FairLawnAllSports-B12E-Mrkulic",
       "FairLawnAllSports-B12XB-DeFina",
+      "FairLawnAllSports-B12XW-Mrkulic",
       "FairLawnAllSports-B13A-Rake",
       "FairLawnAllSports-B13B-Shalom",
       "FairLawnAllSports-B13XB-Rake",
@@ -352,6 +354,7 @@
       "GlobalJC-B11D-Valles",
       "GlobalJC-B12DW-Nobrega",
       "GlobalJC-B12F-Whalen",
+      "GlobalJC-B12XW-Nobrega",
       "GlobalJC-B14B-Ramirez",
       "GlobalJC-G08A4-Charoth",
       "GlobalJC-G10B-Coulson",
@@ -517,6 +520,7 @@
       "Maroons-G11XB-Cotter",
       "Maroons-G12B-Forsythe",
       "Maroons-G12DB-Austin",
+      "Maroons-G12XW-Austin",
       "Maroons-G12XW-vanGulik",
       "Maroons-G13D-Austin",
       "Maroons-G14D-Manning",
@@ -979,6 +983,7 @@
       "WOrange-G10E-Mault",
       "WOrange-G11B-DePinho",
       "WOrange-G12DW-Tutalo",
+      "WOrange-G12XW-Tutalo",
       "WOrange-G14E-DePinho"
     ],
     "Warriors": [
@@ -1058,7 +1063,8 @@
       "WoodRidge-G09F-Cartagena",
       "WoodRidge-G11DB-Squeo",
       "WoodRidge-G12B-Prior",
-      "WoodRidge-G12XB-Prior"
+      "WoodRidge-G12XB-Prior",
+      "WoodRidge-G12XW-Squeo"
     ],
     "WorldClassFC": [
       "WorldClassFC-B08A7-GuevaraFuentes",
@@ -1476,6 +1482,11 @@
       "club": "Belleville",
       "coach": "Avila",
       "division": "G11DW"
+    },
+    "Belleville-G12XW-Avila": {
+      "club": "Belleville",
+      "coach": "Avila",
+      "division": "G12XW"
     },
     "Bergenfield-B08D7-Cifuentes": {
       "club": "Bergenfield",
@@ -2237,6 +2248,11 @@
       "coach": "DeFina",
       "division": "B12XB"
     },
+    "FairLawnAllSports-B12XW-Mrkulic": {
+      "club": "FairLawnAllSports",
+      "coach": "Mrkulic",
+      "division": "B12XW"
+    },
     "FairLawnAllSports-B13A-Rake": {
       "club": "FairLawnAllSports",
       "coach": "Rake",
@@ -2631,6 +2647,11 @@
       "club": "GlobalJC",
       "coach": "Whalen",
       "division": "B12F"
+    },
+    "GlobalJC-B12XW-Nobrega": {
+      "club": "GlobalJC",
+      "coach": "Nobrega",
+      "division": "B12XW"
     },
     "GlobalJC-B14B-Ramirez": {
       "club": "GlobalJC",
@@ -3366,6 +3387,11 @@
       "club": "Maroons",
       "coach": "Austin",
       "division": "G12DB"
+    },
+    "Maroons-G12XW-Austin": {
+      "club": "Maroons",
+      "coach": "Austin",
+      "division": "G12XW"
     },
     "Maroons-G12XW-vanGulik": {
       "club": "Maroons",
@@ -5397,6 +5423,11 @@
       "coach": "Tutalo",
       "division": "G12DW"
     },
+    "WOrange-G12XW-Tutalo": {
+      "club": "WOrange",
+      "coach": "Tutalo",
+      "division": "G12XW"
+    },
     "WOrange-G14E-DePinho": {
       "club": "WOrange",
       "coach": "DePinho",
@@ -5757,6 +5788,11 @@
       "coach": "Prior",
       "division": "G12XB"
     },
+    "WoodRidge-G12XW-Squeo": {
+      "club": "WoodRidge",
+      "coach": "Squeo",
+      "division": "G12XW"
+    },
     "WorldClassFC-B08A7-GuevaraFuentes": {
       "club": "WorldClassFC",
       "coach": "GuevaraFuentes",
@@ -6032,7 +6068,7 @@
     "G14R"
   ],
   "errors": {},
-  "scraped_at": "2026-11-09T15:37:23.728369+00:00",
+  "scraped_at": "2026-11-10T14:38:21.280279+00:00",
   "season": "2026-fall",
   "source": "https://www.ncsanj.com/standings.cfm"
 }

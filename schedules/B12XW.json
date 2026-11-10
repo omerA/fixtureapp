@@ -15,6 +15,13 @@
       "name": "Lionsgate Turf",
       "size": "Small Field (8 vs 8)"
     },
+    "1150": {
+      "address": "23 Merseles Street, Jersey City, NJ 07302",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Gateway Field",
+      "size": "Both (Small & Large)"
+    },
     "1183": {
       "address": "30 Kennedy Lane, Wood Ridge, NJ 07075",
       "comments": "",
@@ -49,6 +56,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Memorial No 3",
       "size": "Small Field (8 vs 8)"
+    },
+    "438": {
+      "address": "14-00 Berdan Ave, Fair Lawn, NJ 07410",
+      "comments": "9 v 9 ONLY",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Center Rec Field 1A",
+      "size": "Large Field (11 vs 11)"
     },
     "716": {
       "address": "131 Main Street, Emerson, NJ 07630",
@@ -245,6 +259,21 @@
       "time": "07:00 PM"
     },
     {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-B12XW-Nobrega",
+      "date": "2026-11-20",
+      "division": "B12XW",
+      "field": "Center Rec Field 1A",
+      "field_id": "438",
+      "game_id": "418161",
+      "home_club": "FairLawnAllSports",
+      "home_score": null,
+      "home_team": "FairLawnAllSports-B12XW-Mrkulic",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Maywood",
       "away_score": null,
       "away_team": "Maywood-B12XW-Bautista",
@@ -275,34 +304,19 @@
       "time": "12:00 PM"
     },
     {
-      "away_club": "GlobalJC",
-      "away_score": null,
-      "away_team": "GlobalJC-B12XW-Nobrega",
-      "date": "2026-12-03",
-      "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418161",
-      "home_club": "FairLawnAllSports",
-      "home_score": null,
-      "home_team": "FairLawnAllSports-B12XW-Mrkulic",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "FairLawnAllSports",
       "away_score": null,
       "away_team": "FairLawnAllSports-B12XW-Mrkulic",
-      "date": "2026-12-03",
+      "date": "2026-11-22",
       "division": "B12XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
+      "field": "Gateway Field",
+      "field_id": "1150",
       "game_id": "418162",
       "home_club": "GlobalJC",
       "home_score": null,
       "home_team": "GlobalJC-B12XW-Nobrega",
       "is_upcoming": true,
-      "time": "12:00 AM"
+      "time": "05:30 PM"
     },
     {
       "away_club": "RiverDell",
@@ -335,6 +349,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-09T15:40:15.995599Z",
+  "scraped_at": "2026-11-10T14:41:20.302792Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "G11XB",
-  "scraped_at": "2026-11-09T15:37:27.611854Z",
+  "scraped_at": "2026-11-10T14:38:28.329917Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -111,7 +111,7 @@
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-08",
@@ -123,13 +123,24 @@
           "result": "W",
           "time": "06:15 PM",
           "venue_code": "WEssex-TOBeirne-9v9"
+        },
+        {
+          "date": "2026-11-09",
+          "game_number": "417960",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G11XB-Emara",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
         }
       ],
       "goal_diff": 2,
-      "goals_against": 1,
-      "goals_for": 3,
+      "goals_against": 3,
+      "goals_for": 5,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "WestEssex-G11XB-Pajuelo",
       "wins": 1
@@ -176,7 +187,7 @@
       "club": "AviatorsHHSA",
       "coach": "Emara",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-11-08",
@@ -188,13 +199,24 @@
           "result": "L",
           "time": "06:15 PM",
           "venue_code": "WEssex-TOBeirne-9v9"
+        },
+        {
+          "date": "2026-11-09",
+          "game_number": "417960",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G11XB-Pajuelo",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
         }
       ],
       "goal_diff": -2,
-      "goals_against": 3,
-      "goals_for": 1,
+      "goals_against": 5,
+      "goals_for": 3,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "AviatorsHHSA-G11XB-Emara",
       "wins": 0

@@ -85,13 +85,6 @@
       "name": "St. Luke's - 4v4 - East",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "369": {
       "address": "32 Halsted Street, Verona, NJ 07044",
       "comments": "Grass Field",
@@ -256,21 +249,6 @@
       "home_team": "GlobalJC-B08B4-Charoth",
       "is_upcoming": false,
       "time": "12:30 PM"
-    },
-    {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B08B4-Cole",
-      "date": "2026-09-26",
-      "division": "B08B4",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "413686",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-B08B4-Charoth",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Thistle",
@@ -709,7 +687,7 @@
     },
     {
       "away_club": "Paramus",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Paramus-B08B4-Valdivia",
       "date": "2026-11-10",
       "division": "B08B4",
@@ -717,9 +695,9 @@
       "field_id": "1265",
       "game_id": "417439",
       "home_club": "WoodRidge",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "WoodRidge-B08B4-Cole",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
     },
     {
@@ -873,6 +851,21 @@
       "time": "06:30 PM"
     },
     {
+      "away_club": "WoodRidge",
+      "away_score": null,
+      "away_team": "WoodRidge-B08B4-Cole",
+      "date": "2026-11-19",
+      "division": "B08B4",
+      "field": "Gateway Little League Field",
+      "field_id": "1218",
+      "game_id": "413686",
+      "home_club": "GlobalJC",
+      "home_score": null,
+      "home_team": "GlobalJC-B08B4-Charoth",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Harrison",
       "away_score": null,
       "away_team": "Harrison-B08B4-Guevara",
@@ -918,6 +911,21 @@
       "time": "11:00 AM"
     },
     {
+      "away_club": "WoodRidge",
+      "away_score": null,
+      "away_team": "WoodRidge-B08B4-Cole",
+      "date": "2026-11-21",
+      "division": "B08B4",
+      "field": "Willis Field  Upper Field",
+      "field_id": "1177",
+      "game_id": "413724",
+      "home_club": "RIDGFLD",
+      "home_score": null,
+      "home_team": "RIDGFLD-B08B4-Barrios",
+      "is_upcoming": true,
+      "time": "11:30 AM"
+    },
+    {
       "away_club": "Verona",
       "away_score": null,
       "away_team": "Verona-B08B4-Leao",
@@ -931,23 +939,8 @@
       "home_team": "Americans-B08B4-Lupinacci",
       "is_upcoming": true,
       "time": "12:00 PM"
-    },
-    {
-      "away_club": "WoodRidge",
-      "away_score": null,
-      "away_team": "WoodRidge-B08B4-Cole",
-      "date": "2026-11-21",
-      "division": "B08B4",
-      "field": "Willis Field  Upper Field",
-      "field_id": "1177",
-      "game_id": "413724",
-      "home_club": "RIDGFLD",
-      "home_score": null,
-      "home_team": "RIDGFLD-B08B4-Barrios",
-      "is_upcoming": true,
-      "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-11-10T14:38:37.049709Z",
+  "scraped_at": "2026-11-11T13:51:59.064826Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

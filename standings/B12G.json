@@ -1,6 +1,6 @@
 {
   "division": "B12G",
-  "scraped_at": "2026-11-10T14:38:25.412095Z",
+  "scraped_at": "2026-11-11T13:51:48.665533Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -1125,7 +1125,7 @@
       "club": "TeaneckTravel",
       "coach": "Myriee",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-10-18",
@@ -1203,16 +1203,27 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "TEANECK-VoteeNorth"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417773",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B12G-Hernandez",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TEANECK-VoteeNorth"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 37,
-      "goals_for": 10,
+      "goal_diff": -24,
+      "goals_against": 39,
+      "goals_for": 15,
       "losses": 7,
-      "played": 7,
-      "points": 0,
+      "played": 8,
+      "points": 3,
       "team_raw": "TeaneckTravel-B12G-Myriee",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "NoArlington",
@@ -1307,13 +1318,24 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417773",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B12G-Myriee",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "TEANECK-VoteeNorth"
         }
       ],
-      "goal_diff": -51,
-      "goals_against": 56,
-      "goals_for": 5,
-      "losses": 8,
-      "played": 8,
+      "goal_diff": -54,
+      "goals_against": 61,
+      "goals_for": 7,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "NoArlington-B12G-Hernandez",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-11-10T14:38:25.523147Z",
+  "scraped_at": "2026-11-11T13:51:48.755445Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -70,34 +70,58 @@
       "wins": 1
     },
     {
-      "club": "AviatorsHHSA",
-      "coach": "Chudzik",
+      "club": "WestEssex",
+      "coach": "Pajuelo",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418171",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12XW-Garrido",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "AviatorsHHSA-B12XW-Chudzik",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "WestEssex-B12XW-Pajuelo",
+      "wins": 1
     },
     {
-      "club": "Belleville",
-      "coach": "Garrido",
+      "club": "WoodRidge",
+      "coach": "Mueller",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418269",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B12XW-Chudzik",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Belleville-B12XW-Garrido",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "WoodRidge-B12XW-Mueller",
+      "wins": 1
     },
     {
       "club": "FairLawnAllSports",
@@ -220,33 +244,57 @@
       "wins": 0
     },
     {
-      "club": "WestEssex",
-      "coach": "Pajuelo",
+      "club": "AviatorsHHSA",
+      "coach": "Chudzik",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418269",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12XW-Mueller",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "WestEssex-B12XW-Pajuelo",
+      "team_raw": "AviatorsHHSA-B12XW-Chudzik",
       "wins": 0
     },
     {
-      "club": "WoodRidge",
-      "coach": "Mueller",
+      "club": "Belleville",
+      "coach": "Garrido",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418171",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B12XW-Pajuelo",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
       "points": 0,
-      "team_raw": "WoodRidge-B12XW-Mueller",
+      "team_raw": "Belleville-B12XW-Garrido",
       "wins": 0
     },
     {

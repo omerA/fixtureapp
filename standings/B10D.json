@@ -1,6 +1,6 @@
 {
   "division": "B10D",
-  "scraped_at": "2026-11-10T14:38:23.559970Z",
+  "scraped_at": "2026-11-11T13:51:47.169022Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -298,7 +298,7 @@
       "club": "NoValley",
       "coach": "Voellm",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -365,16 +365,27 @@
           "result": "L",
           "time": "10:15 AM",
           "venue_code": "NoVAL-Northvale"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415570",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B10D-Nylander",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "TEANECK-VoteeNorth"
         }
       ],
-      "goal_diff": -8,
+      "goal_diff": -3,
       "goals_against": 28,
-      "goals_for": 20,
+      "goals_for": 25,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "NoValley-B10D-Voellm",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "TeaneckTravel",
@@ -447,13 +458,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415570",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10D-Voellm",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "TEANECK-VoteeNorth"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 39,
+      "goal_diff": -38,
+      "goals_against": 44,
       "goals_for": 6,
-      "losses": 6,
-      "played": 6,
+      "losses": 7,
+      "played": 7,
       "points": 0,
       "team_raw": "TeaneckTravel-B10D-Nylander",
       "wins": 0

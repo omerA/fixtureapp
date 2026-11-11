@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-11-10T14:38:27.341902Z",
+  "scraped_at": "2026-11-11T13:51:50.246128Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -111,8 +111,8 @@
     {
       "club": "CougarUtd",
       "coach": "Chang",
-      "draws": 0,
-      "form": "LWLWW",
+      "draws": 1,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-10-31",
@@ -181,6 +181,17 @@
           "venue_code": "COUGUTD-ReganSmall1"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "414851",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09E-Rothman",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
           "date": "2026-10-17",
           "game_number": "414856",
           "goals_against": 0,
@@ -203,14 +214,14 @@
           "venue_code": "COUGUTD-ReganSmall1"
         }
       ],
-      "goal_diff": 25,
+      "goal_diff": 21,
       "goals_against": 16,
-      "goals_for": 41,
+      "goals_for": 37,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 16,
       "team_raw": "CougarUtd-G09E-Chang",
-      "wins": 6
+      "wins": 5
     },
     {
       "club": "WestEssex",
@@ -401,8 +412,8 @@
     {
       "club": "HobUtd",
       "coach": "Rothman",
-      "draws": 1,
-      "form": "LLLWW",
+      "draws": 2,
+      "form": "LLWWD",
       "games": [
         {
           "date": "2026-11-07",
@@ -471,6 +482,17 @@
           "venue_code": "MAR-MapleParkEastSm"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "414851",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09E-Chang",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "417663",
           "goals_against": 5,
@@ -493,12 +515,12 @@
           "venue_code": "TORP-Lincoln1"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 27,
+      "goal_diff": -7,
+      "goals_against": 23,
       "goals_for": 16,
-      "losses": 4,
-      "played": 8,
-      "points": 7,
+      "losses": 3,
+      "played": 9,
+      "points": 8,
       "team_raw": "HobUtd-G09E-Rothman",
       "wins": 2
     },

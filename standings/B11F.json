@@ -1,6 +1,6 @@
 {
   "division": "B11F",
-  "scraped_at": "2026-11-10T14:38:24.542442Z",
+  "scraped_at": "2026-11-11T13:51:47.964479Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -216,7 +216,7 @@
       "club": "GlenRock",
       "coach": "Oakland",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-11-01",
@@ -263,6 +263,17 @@
           "venue_code": "SS-FaberTurfSml"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "414064",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B11F-Preciado",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "414070",
           "goals_against": 2,
@@ -296,11 +307,11 @@
           "venue_code": "ARS-Fieldstone2"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 14,
-      "goals_for": 16,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 1,
+      "goals_against": 17,
+      "goals_for": 18,
+      "losses": 2,
+      "played": 8,
       "points": 13,
       "team_raw": "GlenRock-B11F-Oakland",
       "wins": 4
@@ -402,7 +413,7 @@
       "club": "TeaneckFC",
       "coach": "Preciado",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-11-01",
@@ -438,6 +449,17 @@
           "venue_code": "ARS-Fieldstone2"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "414064",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11F-Oakland",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-10-07",
           "game_number": "414068",
           "goals_against": 2,
@@ -471,14 +493,14 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 19,
-      "goals_for": 6,
+      "goal_diff": -12,
+      "goals_against": 21,
+      "goals_for": 9,
       "losses": 5,
-      "played": 6,
-      "points": 0,
+      "played": 7,
+      "points": 3,
       "team_raw": "TeaneckFC-B11F-Preciado",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "division": "B13CB",
-  "scraped_at": "2026-11-10T14:38:25.685327Z",
+  "scraped_at": "2026-11-11T13:51:48.887227Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -205,7 +205,7 @@
       "club": "NoBergen",
       "coach": "GraterolBriceno",
       "draws": 1,
-      "form": "DLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -263,6 +263,17 @@
           "venue_code": "NoBergen-HudsonPk2"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "414208",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B13CB-Dam",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "414210",
           "goals_against": 1,
@@ -274,20 +285,20 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 13,
-      "goals_for": 15,
+      "goal_diff": 7,
+      "goals_against": 15,
+      "goals_for": 22,
       "losses": 2,
-      "played": 6,
-      "points": 10,
+      "played": 7,
+      "points": 13,
       "team_raw": "NoBergen-B13CB-GraterolBriceno",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Force",
       "coach": "Dam",
       "draws": 1,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -356,6 +367,17 @@
           "venue_code": "NY-MW-CentralVal12"
         },
         {
+          "date": "2026-11-08",
+          "game_number": "414208",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13CB-GraterolBriceno",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "414216",
           "goals_against": 0,
@@ -367,11 +389,11 @@
           "venue_code": "NY-MW-CentralVal12"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 17,
-      "goals_for": 22,
-      "losses": 3,
-      "played": 7,
+      "goal_diff": 0,
+      "goals_against": 24,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 8,
       "points": 10,
       "team_raw": "Force-B13CB-Dam",
       "wins": 3

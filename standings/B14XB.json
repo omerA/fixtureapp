@@ -1,6 +1,6 @@
 {
   "division": "B14XB",
-  "scraped_at": "2026-11-10T14:38:26.572256Z",
+  "scraped_at": "2026-11-11T13:51:49.613611Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -35,8 +35,19 @@
       "club": "NoBergen",
       "coach": "Amaya",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
+        {
+          "date": "2026-11-09",
+          "game_number": "418082",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14XB-Recanati",
+          "result": "W",
+          "time": "07:15 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
         {
           "date": "2026-10-25",
           "game_number": "418083",
@@ -49,11 +60,11 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 5,
       "goals_against": 0,
-      "goals_for": 7,
+      "goals_for": 5,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "NoBergen-B14XB-Amaya",
       "wins": 1
@@ -162,6 +173,44 @@
       "wins": 0
     },
     {
+      "club": "RiverDell",
+      "coach": "Recanati",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-09",
+          "game_number": "418082",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14XB-Amaya",
+          "result": "L",
+          "time": "07:15 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "418083",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14XB-Amaya",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 5,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "RiverDell-B14XB-Recanati",
+      "wins": 0
+    },
+    {
       "club": "NoValley",
       "coach": "Lotz",
       "draws": 0,
@@ -186,33 +235,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "NoValley-B14XB-Lotz",
-      "wins": 0
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Recanati",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "418083",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B14XB-Amaya",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 7,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "RiverDell-B14XB-Recanati",
       "wins": 0
     },
     {

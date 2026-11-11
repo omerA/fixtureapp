@@ -1,6 +1,6 @@
 {
   "division": "G09A",
-  "scraped_at": "2026-11-10T14:38:27.074648Z",
+  "scraped_at": "2026-11-11T13:51:50.018745Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -320,8 +320,19 @@
       "club": "JerseyCity",
       "coach": "Mcnally",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLW",
       "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "416504",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09A-Silva",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "TORP-Pulis1"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416509",
@@ -400,21 +411,32 @@
           "venue_code": "VIK-Demarest-Low7v7"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 23,
-      "goals_for": 7,
+      "goal_diff": -13,
+      "goals_against": 25,
+      "goals_for": 12,
       "losses": 5,
-      "played": 7,
-      "points": 6,
+      "played": 8,
+      "points": 9,
       "team_raw": "JerseyCity-G09A-Mcnally",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Torpedoes",
       "coach": "Silva",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "416504",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-G09A-Mcnally",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "TORP-Pulis1"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416508",
@@ -493,11 +515,11 @@
           "venue_code": "TORP-Pulis3"
         }
       ],
-      "goal_diff": -32,
-      "goals_against": 38,
-      "goals_for": 6,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -35,
+      "goals_against": 43,
+      "goals_for": 8,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "Torpedoes-G09A-Silva",
       "wins": 1

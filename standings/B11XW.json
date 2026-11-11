@@ -1,9 +1,36 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-11-10T14:38:24.755354Z",
+  "scraped_at": "2026-11-11T13:51:48.145199Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "CougarSC",
+      "coach": "James",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418043",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B11XW-Dean",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "DRAG-WestvalePkSmall"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 1,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "CougarSC-B11XW-James",
+      "wins": 1
+    },
     {
       "club": "Maroons",
       "coach": "OHara",
@@ -86,36 +113,6 @@
       "wins": 1
     },
     {
-      "club": "CougarSC",
-      "coach": "James",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-B11XW-James",
-      "wins": 0
-    },
-    {
-      "club": "Dragons",
-      "coach": "Dean",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Dragons-B11XW-Dean",
-      "wins": 0
-    },
-    {
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
@@ -194,6 +191,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "Nutley-B11XW-Zurita",
+      "wins": 0
+    },
+    {
+      "club": "Dragons",
+      "coach": "Dean",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418043",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B11XW-James",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "DRAG-WestvalePkSmall"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 8,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Dragons-B11XW-Dean",
       "wins": 0
     }
   ]

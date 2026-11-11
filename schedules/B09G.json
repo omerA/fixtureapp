@@ -36,6 +36,13 @@
       "name": "Knights Of Columbus",
       "size": "Small Field (8 vs 8)"
     },
+    "1250": {
+      "address": "52 First Ave, Kearny, NJ 07032",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Harvey Back SS3",
+      "size": "Small Field (8 vs 8)"
+    },
     "158": {
       "address": "146 Thomas St., Emerson, NJ 07630",
       "comments": "",
@@ -49,13 +56,6 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "High Mountain School",
       "size": "Small Field (8 vs 8)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
     },
     "22": {
       "address": "Spring Meadow Drive, Wyckoff, NJ 07481",
@@ -300,21 +300,6 @@
       "home_team": "Torpedoes-B09G-Kunwar",
       "is_upcoming": false,
       "time": "06:00 PM"
-    },
-    {
-      "away_club": "Emerson",
-      "away_score": null,
-      "away_team": "Emerson-B09G-Morrisey",
-      "date": "2026-09-26",
-      "division": "B09G",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415533",
-      "home_club": "Thistle",
-      "home_score": null,
-      "home_team": "Thistle-B09G-Roemer",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "FF",
@@ -903,7 +888,7 @@
     },
     {
       "away_club": "RYSA",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "RYSA-B09G-Hayes",
       "date": "2026-11-08",
       "division": "B09G",
@@ -911,9 +896,9 @@
       "field_id": "528",
       "game_id": "415531",
       "home_club": "Rutherford",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Rutherford-B09G-Balmos",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:45 PM"
     },
     {
@@ -1037,6 +1022,21 @@
       "time": "01:30 PM"
     },
     {
+      "away_club": "Emerson",
+      "away_score": null,
+      "away_team": "Emerson-B09G-Morrisey",
+      "date": "2026-11-20",
+      "division": "B09G",
+      "field": "Harvey Back SS3",
+      "field_id": "1250",
+      "game_id": "415533",
+      "home_club": "Thistle",
+      "home_score": null,
+      "home_team": "Thistle-B09G-Roemer",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Torpedoes",
       "away_score": null,
       "away_team": "Torpedoes-B09G-Kunwar",
@@ -1127,6 +1127,6 @@
       "time": "05:45 PM"
     }
   ],
-  "scraped_at": "2026-11-10T14:39:28.796253Z",
+  "scraped_at": "2026-11-11T13:52:49.902371Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

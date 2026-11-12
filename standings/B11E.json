@@ -1,6 +1,6 @@
 {
   "division": "B11E",
-  "scraped_at": "2026-11-11T13:51:47.880273Z",
+  "scraped_at": "2026-11-12T14:55:25.058743Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -413,7 +413,7 @@
       "club": "WayneBG",
       "coach": "Camara",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -502,13 +502,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-11-11",
+          "game_number": "417300",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B11E-Valdes",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -21,
-      "goals_against": 33,
-      "goals_for": 12,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -23,
+      "goals_against": 37,
+      "goals_for": 14,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "WayneBG-B11E-Camara",
       "wins": 2
@@ -517,7 +528,7 @@
       "club": "Americans",
       "coach": "Valdes",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -595,16 +606,27 @@
           "result": "L",
           "time": "11:00 AM",
           "venue_code": "AMER-StLuke"
+        },
+        {
+          "date": "2026-11-11",
+          "game_number": "417300",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B11E-Camara",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -36,
-      "goals_against": 42,
-      "goals_for": 6,
+      "goal_diff": -34,
+      "goals_against": 44,
+      "goals_for": 10,
       "losses": 7,
-      "played": 7,
-      "points": 0,
+      "played": 8,
+      "points": 3,
       "team_raw": "Americans-B11E-Valdes",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

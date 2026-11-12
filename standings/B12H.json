@@ -1,6 +1,6 @@
 {
   "division": "B12H",
-  "scraped_at": "2026-11-11T13:51:48.707704Z",
+  "scraped_at": "2026-11-12T14:55:25.686553Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -194,7 +194,7 @@
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 0,
-      "form": "WLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-10-25",
@@ -250,16 +250,27 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-11-11",
+          "game_number": "417476",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12H-Luzzetti",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 14,
-      "goals_for": 21,
+      "goal_diff": 9,
+      "goals_against": 16,
+      "goals_for": 25,
       "losses": 2,
-      "played": 5,
-      "points": 9,
+      "played": 6,
+      "points": 12,
       "team_raw": "Maroons-B12H-Gillies",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Southside",
@@ -358,7 +369,7 @@
       "club": "Hotspur",
       "coach": "Luzzetti",
       "draws": 1,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-10-10",
@@ -436,13 +447,24 @@
           "result": "L",
           "time": "09:30 AM",
           "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-11-11",
+          "game_number": "417476",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12H-Gillies",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 22,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -9,
+      "goals_against": 26,
+      "goals_for": 17,
+      "losses": 5,
+      "played": 8,
       "points": 7,
       "team_raw": "Hotspur-B12H-Luzzetti",
       "wins": 2

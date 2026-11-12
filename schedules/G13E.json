@@ -29,13 +29,6 @@
       "name": "Miller Field - Millburn HS",
       "size": "Large Field (11 vs 11)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "284": {
       "address": "100 Columbus Rd, Demarest, NJ 07627",
       "comments": "",
@@ -80,21 +73,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "CougarSC",
-      "away_score": null,
-      "away_team": "CougarSC-G13E-Wainschel",
-      "date": "2026-09-13",
-      "division": "G13E",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "415226",
-      "home_club": "AviatorsHHSA",
-      "home_score": null,
-      "home_team": "AviatorsHHSA-G13E-Longheira",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "AviatorsHHSA",
       "away_score": 2,
@@ -411,6 +389,21 @@
       "time": "12:30 PM"
     },
     {
+      "away_club": "CougarSC",
+      "away_score": null,
+      "away_team": "CougarSC-G13E-Wainschel",
+      "date": "2026-11-21",
+      "division": "G13E",
+      "field": "Hitchcock Field",
+      "field_id": "293",
+      "game_id": "415226",
+      "home_club": "AviatorsHHSA",
+      "home_score": null,
+      "home_team": "AviatorsHHSA-G13E-Longheira",
+      "is_upcoming": true,
+      "time": "11:00 AM"
+    },
+    {
       "away_club": "Spartan",
       "away_score": null,
       "away_team": "Spartan-G13E-Haug",
@@ -456,6 +449,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-11-11T13:57:23.053854Z",
+  "scraped_at": "2026-11-12T15:00:57.794844Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

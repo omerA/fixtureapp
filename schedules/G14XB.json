@@ -43,18 +43,18 @@
       "name": "Doug Parcells Athletic Complex North",
       "size": "Both (Small & Large)"
     },
+    "766": {
+      "address": "930 River Rd, New Milford, NJ 07646",
+      "comments": "Fall is used for 11v11, Spring is used for 4v4",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Kennedy Field",
+      "size": "Both (Small & Large)"
+    },
     "798": {
       "address": "8701 JFK Boulevard East, North Bergen, NJ 07047",
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "James Braddock / Soccer Field behind bleachers",
-      "size": "Both (Small & Large)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
     }
   },
@@ -150,6 +150,21 @@
       "time": "08:00 PM"
     },
     {
+      "away_club": "Montclair",
+      "away_score": null,
+      "away_team": "Montclair-G14XB-Lehman",
+      "date": "2026-11-30",
+      "division": "G14XB",
+      "field": "Kennedy Field",
+      "field_id": "766",
+      "game_id": "417965",
+      "home_club": "NMKnights",
+      "home_score": null,
+      "home_team": "NMKnights-G14XB-Regas",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "NMKnights",
       "away_score": null,
       "away_team": "NMKnights-G14XB-Anderson",
@@ -163,23 +178,8 @@
       "home_team": "FairLawnAllSports-G14XB-Puzino",
       "is_upcoming": true,
       "time": "07:00 PM"
-    },
-    {
-      "away_club": "Montclair",
-      "away_score": null,
-      "away_team": "Montclair-G14XB-Lehman",
-      "date": "2026-12-02",
-      "division": "G14XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "417965",
-      "home_club": "NMKnights",
-      "home_score": null,
-      "home_team": "NMKnights-G14XB-Regas",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-11T13:57:39.775172Z",
+  "scraped_at": "2026-11-12T15:01:14.574957Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -50,13 +50,6 @@
       "name": "Harrison Field",
       "size": "Small Field (8 vs 8)"
     },
-    "1291": {
-      "address": "159 Harriman Heights Rd, Monroe, NY 10950",
-      "comments": "7v7 grass field",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Sapphire  Elementary School",
-      "size": "Small Field (8 vs 8)"
-    },
     "137": {
       "address": "Hackensack Avenue and River Street, Hackensack, NJ 07601",
       "comments": "Full sided - Turf",
@@ -175,6 +168,13 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Veterans Field RidPk",
       "size": "Small Field (8 vs 8)"
+    },
+    "984": {
+      "address": "122 State School Road, Warwick, NY 10990",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Hudson Sports Complex",
+      "size": "Both (Small & Large)"
     }
   },
   "games": [
@@ -930,7 +930,7 @@
     },
     {
       "away_club": "Torpedoes",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Torpedoes-B10F-Grados",
       "date": "2026-11-11",
       "division": "B10F",
@@ -938,9 +938,9 @@
       "field_id": "43",
       "game_id": "416144",
       "home_club": "NoRockland",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "NoRockland-B10F-Mavrorasakis",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
     },
     {
@@ -964,8 +964,8 @@
       "away_team": "WestEssex-B10F-Scorciolla",
       "date": "2026-11-14",
       "division": "B10F",
-      "field": "Sapphire  Elementary School",
-      "field_id": "1291",
+      "field": "Hudson Sports Complex",
+      "field_id": "984",
       "game_id": "417213",
       "home_club": "Force",
       "home_score": null,
@@ -1169,6 +1169,6 @@
       "time": "12:45 PM"
     }
   ],
-  "scraped_at": "2026-11-11T13:53:20.844637Z",
+  "scraped_at": "2026-11-12T14:56:59.740512Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

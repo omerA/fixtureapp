@@ -1,36 +1,9 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-11-11T13:51:47.594903Z",
+  "scraped_at": "2026-11-12T14:55:24.831448Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "WestEssex",
-      "coach": "Scorciolla",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-08",
-          "game_number": "418067",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B10XW-Shkedy",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "WEssex-Harrison"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 0,
-      "goals_for": 7,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "WestEssex-B10XW-Scorciolla",
-      "wins": 1
-    },
     {
       "club": "HobUtd",
       "coach": "Gandolfi",
@@ -230,6 +203,44 @@
       "wins": 0
     },
     {
+      "club": "WestEssex",
+      "coach": "Scorciolla",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-12-03",
+          "game_number": "418066",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B10XW-Shkedy",
+          "result": "W",
+          "time": "12:00 AM",
+          "venue_code": "TBS(NCC)"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "418067",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B10XW-Shkedy",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WEssex-Harrison"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 1,
+      "points": 0,
+      "team_raw": "WestEssex-B10XW-Scorciolla",
+      "wins": 0
+    },
+    {
       "club": "RdgfldPk",
       "coach": "Doyle",
       "draws": 0,
@@ -341,8 +352,19 @@
       "club": "CougarUtd",
       "coach": "Shkedy",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-12-03",
+          "game_number": "418066 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10XW-Scorciolla",
+          "result": "L",
+          "time": "12:00 AM",
+          "venue_code": "TBS(NCC)"
+        },
         {
           "date": "2026-11-08",
           "game_number": "418067",
@@ -355,10 +377,10 @@
           "venue_code": "WEssex-Harrison"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 7,
+      "goal_diff": 0,
+      "goals_against": 0,
       "goals_for": 0,
-      "losses": 1,
+      "losses": 0,
       "played": 1,
       "points": 0,
       "team_raw": "CougarUtd-B10XW-Shkedy",

@@ -22,18 +22,18 @@
       "name": "McKeown",
       "size": "Both (Small & Large)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "206": {
       "address": "Dance Blvd, Dumont, NJ 07628",
       "comments": "",
       "details": "LIGHTS \u2014 GRASS",
       "name": "Twin-Boro",
+      "size": "Small Field (8 vs 8)"
+    },
+    "53": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "60 x 110",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - SS 2",
       "size": "Small Field (8 vs 8)"
     },
     "584": {
@@ -162,21 +162,6 @@
       "home_team": "RiverDell-B12BB-Allen",
       "is_upcoming": false,
       "time": "04:30 PM"
-    },
-    {
-      "away_club": "NoBergen",
-      "away_score": null,
-      "away_team": "NoBergen-B12BB-CardonaLopez",
-      "date": "2026-09-26",
-      "division": "B12BB",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416266",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B12BB-Breheny",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "RiverDell",
@@ -479,6 +464,21 @@
       "time": "03:30 PM"
     },
     {
+      "away_club": "NoBergen",
+      "away_score": null,
+      "away_team": "NoBergen-B12BB-CardonaLopez",
+      "date": "2026-11-16",
+      "division": "B12BB",
+      "field": "Veterans Field - SS 2",
+      "field_id": "53",
+      "game_id": "416266",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B12BB-Breheny",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Dumont",
       "away_score": null,
       "away_team": "Dumont-B12BB-Arapi",
@@ -524,6 +524,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-11-11T13:54:14.645586Z",
+  "scraped_at": "2026-11-12T14:57:52.742462Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

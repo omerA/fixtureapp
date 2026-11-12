@@ -22,18 +22,18 @@
       "name": "Wood Ridge Athletic Complex West-Small Side A",
       "size": "Small Field (8 vs 8)"
     },
+    "1285": {
+      "address": "340 Franklin Turnpike, Ho-Ho-Kus, NJ 07423",
+      "comments": "4v4",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "St. Luke's - 4v4 - East",
+      "size": "Small Field (8 vs 8)"
+    },
     "137": {
       "address": "Hackensack Avenue and River Street, Hackensack, NJ 07601",
       "comments": "Full sided - Turf",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Johnson Park 2",
-      "size": "Both (Small & Large)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
     "196": {
@@ -82,21 +82,6 @@
       "field": "To Be Scheduled-League",
       "field_id": "196",
       "game_id": "414351",
-      "home_club": "Americans",
-      "home_score": null,
-      "home_team": "Americans-G08B4-Ross",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Maroons",
-      "away_score": null,
-      "away_team": "Maroons-G08B4-Forsythe",
-      "date": "2026-09-13",
-      "division": "G08B4",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414356",
       "home_club": "Americans",
       "home_score": null,
       "home_team": "Americans-G08B4-Ross",
@@ -557,6 +542,21 @@
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-G08B4-Forsythe",
+      "date": "2026-11-21",
+      "division": "G08B4",
+      "field": "St. Luke's - 4v4 - East",
+      "field_id": "1285",
+      "game_id": "414356",
+      "home_club": "Americans",
+      "home_score": null,
+      "home_team": "Americans-G08B4-Ross",
+      "is_upcoming": true,
+      "time": "11:00 AM"
+    },
+    {
+      "away_club": "Maroons",
+      "away_score": null,
+      "away_team": "Maroons-G08B4-Forsythe",
       "date": "2026-11-22",
       "division": "G08B4",
       "field": "Lincoln School - Field 1",
@@ -599,6 +599,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-11-11T13:55:47.594494Z",
+  "scraped_at": "2026-11-12T14:59:22.374582Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

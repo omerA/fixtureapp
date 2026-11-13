@@ -22,13 +22,6 @@
       "name": "To Be Scheduled-Home",
       "size": "Both (Small & Large)"
     },
-    "190": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Visitor",
-      "size": "Both (Small & Large)"
-    },
     "284": {
       "address": "100 Columbus Rd, Demarest, NJ 07627",
       "comments": "",
@@ -228,21 +221,6 @@
       "home_team": "Maroons-G12DB-Austin",
       "is_upcoming": false,
       "time": "07:00 PM"
-    },
-    {
-      "away_club": "Hotspur",
-      "away_score": null,
-      "away_team": "Hotspur-G12DB-DeRosa",
-      "date": "2026-10-18",
-      "division": "G12DB",
-      "field": "To Be Scheduled-Visitor",
-      "field_id": "190",
-      "game_id": "416958",
-      "home_club": "Mahwah",
-      "home_score": null,
-      "home_team": "Mahwah-G12DB-Cullaro",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Vikings",
@@ -543,8 +521,23 @@
       "home_team": "Vikings-G12DB-Crowley",
       "is_upcoming": true,
       "time": "01:30 PM"
+    },
+    {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-G12DB-DeRosa",
+      "date": "2026-11-29",
+      "division": "G12DB",
+      "field": "Continental Soliders Field",
+      "field_id": "108",
+      "game_id": "416958",
+      "home_club": "Mahwah",
+      "home_score": null,
+      "home_team": "Mahwah-G12DB-Cullaro",
+      "is_upcoming": true,
+      "time": "10:00 AM"
     }
   ],
-  "scraped_at": "2026-11-12T15:00:35.456326Z",
+  "scraped_at": "2026-11-13T14:18:09.148945Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

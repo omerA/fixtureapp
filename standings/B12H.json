@@ -1,6 +1,6 @@
 {
   "division": "B12H",
-  "scraped_at": "2026-11-13T14:12:58.154890Z",
+  "scraped_at": "2026-11-14T13:15:20.533192Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -98,6 +98,99 @@
       "wins": 7
     },
     {
+      "club": "Maroons",
+      "coach": "Gillies",
+      "draws": 0,
+      "form": "WWLWW",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "417450",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B12H-Lainee",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417453",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12H-Crollo",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417459",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12H-Henderson",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-13",
+          "game_number": "417461",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12H-Luzzetti",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417465",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B12H-Lainee",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "MAR-VetsFld2"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417469",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B12H-Crollo",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "PAR-ParkwayMS9"
+        },
+        {
+          "date": "2026-11-11",
+          "game_number": "417476",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12H-Luzzetti",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HOT-McFarran"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 18,
+      "goals_for": 28,
+      "losses": 2,
+      "played": 7,
+      "points": 15,
+      "team_raw": "Maroons-B12H-Gillies",
+      "wins": 5
+    },
+    {
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 0,
@@ -188,88 +281,6 @@
       "played": 7,
       "points": 12,
       "team_raw": "WestEssex-B12H-Pajuelo",
-      "wins": 4
-    },
-    {
-      "club": "Maroons",
-      "coach": "Gillies",
-      "draws": 0,
-      "form": "LWWLW",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "417450",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B12H-Lainee",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417453",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B12H-Crollo",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417459",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B12H-Henderson",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "417465",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B12H-Lainee",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "MAR-VetsFld2"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "417469",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B12H-Crollo",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "PAR-ParkwayMS9"
-        },
-        {
-          "date": "2026-11-11",
-          "game_number": "417476",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B12H-Luzzetti",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "HOT-McFarran"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 16,
-      "goals_for": 25,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
-      "team_raw": "Maroons-B12H-Gillies",
       "wins": 4
     },
     {
@@ -369,7 +380,7 @@
       "club": "Hotspur",
       "coach": "Luzzetti",
       "draws": 1,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-10-10",
@@ -403,6 +414,17 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-11-13",
+          "game_number": "417461",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12H-Gillies",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         },
         {
           "date": "2026-10-25",
@@ -460,11 +482,11 @@
           "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 26,
-      "goals_for": 17,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -10,
+      "goals_against": 29,
+      "goals_for": 19,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "Hotspur-B12H-Luzzetti",
       "wins": 2

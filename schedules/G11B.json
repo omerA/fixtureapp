@@ -1,13 +1,6 @@
 {
   "division": "G11B",
   "fields": {
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "1141": {
       "address": "525 Sinatra Dr, Hoboken, NJ 07030",
       "comments": "",
@@ -49,6 +42,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Kennedy Dells Park  - 1",
       "size": "Large Field (11 vs 11)"
+    },
+    "194": {
+      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "To Be Scheduled-Rain or Snow",
+      "size": "Both (Small & Large)"
     },
     "204": {
       "address": "Corner of Third St and Madison Ave, Cresskill, NJ 07626",
@@ -401,21 +401,6 @@
       "time": "01:00 PM"
     },
     {
-      "away_club": "WOrange",
-      "away_score": null,
-      "away_team": "WOrange-G11B-DePinho",
-      "date": "2026-10-25",
-      "division": "G11B",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "415353",
-      "home_club": "Maywood",
-      "home_score": null,
-      "home_team": "Maywood-G11B-Pardo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Dragons",
       "away_score": 7,
       "away_team": "Dragons-G11B-Cotter",
@@ -601,14 +586,14 @@
       "away_team": "AviatorsHHSA-G11B-Emara",
       "date": "2026-11-13",
       "division": "G11B",
-      "field": "Memorial Park - Lg",
-      "field_id": "1255",
+      "field": "To Be Scheduled-Rain or Snow",
+      "field_id": "194",
       "game_id": "417909",
       "home_club": "Maywood",
       "home_score": null,
       "home_team": "Maywood-G11B-Pardo",
       "is_upcoming": true,
-      "time": "06:15 PM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "Maroons",
@@ -731,6 +716,21 @@
       "time": "12:15 PM"
     },
     {
+      "away_club": "WOrange",
+      "away_score": null,
+      "away_team": "WOrange-G11B-DePinho",
+      "date": "2026-11-21",
+      "division": "G11B",
+      "field": "Memorial Park - Lg",
+      "field_id": "1255",
+      "game_id": "415353",
+      "home_club": "Maywood",
+      "home_score": null,
+      "home_team": "Maywood-G11B-Pardo",
+      "is_upcoming": true,
+      "time": "05:30 PM"
+    },
+    {
       "away_club": "AviatorsHHSA",
       "away_score": null,
       "away_team": "AviatorsHHSA-G11B-Emara",
@@ -791,6 +791,6 @@
       "time": "04:15 PM"
     }
   ],
-  "scraped_at": "2026-11-13T14:17:43.625526Z",
+  "scraped_at": "2026-11-14T13:20:06.547061Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

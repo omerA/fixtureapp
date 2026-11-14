@@ -1,6 +1,6 @@
 {
   "division": "B13CB",
-  "scraped_at": "2026-11-13T14:12:58.318723Z",
+  "scraped_at": "2026-11-14T13:15:20.675456Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -112,7 +112,7 @@
       "club": "Belleville",
       "coach": "Chavarria",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -190,13 +190,24 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-11-13",
+          "game_number": "414209",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B13CB-Dam",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "NY-MW-CentralVal12"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 27,
+      "goal_diff": -7,
+      "goals_against": 30,
       "goals_for": 23,
-      "losses": 2,
-      "played": 7,
+      "losses": 3,
+      "played": 8,
       "points": 15,
       "team_raw": "Belleville-B13CB-Chavarria",
       "wins": 5
@@ -298,7 +309,7 @@
       "club": "Force",
       "coach": "Dam",
       "draws": 1,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -378,6 +389,17 @@
           "venue_code": "NoBergen-HudsonPk2"
         },
         {
+          "date": "2026-11-13",
+          "game_number": "414209",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B13CB-Chavarria",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NY-MW-CentralVal12"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "414216",
           "goals_against": 0,
@@ -389,14 +411,14 @@
           "venue_code": "NY-MW-CentralVal12"
         }
       ],
-      "goal_diff": 0,
+      "goal_diff": 3,
       "goals_against": 24,
-      "goals_for": 24,
+      "goals_for": 27,
       "losses": 4,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 13,
       "team_raw": "Force-B13CB-Dam",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "JerseyCity",

@@ -1,6 +1,6 @@
 {
   "division": "G13XB",
-  "scraped_at": "2026-11-13T14:13:00.952539Z",
+  "scraped_at": "2026-11-14T13:15:22.826628Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -43,19 +43,31 @@
       "wins": 2
     },
     {
-      "club": "Ajax",
-      "coach": "Jackson",
+      "club": "FairLawnAllSports",
+      "coach": "Rand",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418198",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G13XB-Jackson",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        }
+      ],
+      "goal_diff": 1,
       "goals_against": 0,
-      "goals_for": 0,
+      "goals_for": 1,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Ajax-G13XB-Jackson",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-G13XB-Rand",
+      "wins": 1
     },
     {
       "club": "BLMFLD",
@@ -73,21 +85,6 @@
       "wins": 0
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Rand",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-G13XB-Rand",
-      "wins": 0
-    },
-    {
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 0,
@@ -100,6 +97,33 @@
       "played": 0,
       "points": 0,
       "team_raw": "Paramus-G13XB-Buttacavoli",
+      "wins": 0
+    },
+    {
+      "club": "Ajax",
+      "coach": "Jackson",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418198",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G13XB-Rand",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 1,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Ajax-G13XB-Jackson",
       "wins": 0
     },
     {

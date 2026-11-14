@@ -8,6 +8,13 @@
       "name": "Center Rec 2B",
       "size": "Small Field (8 vs 8)"
     },
+    "1067": {
+      "address": "15 Oak Lane, Essex Fells, NJ 07021",
+      "comments": "This is 7v7 Only",
+      "details": "NO-LIGHTS \u2014 GRASS",
+      "name": "Veterans Small Sided North WEssex",
+      "size": "Both (Small & Large)"
+    },
     "1088": {
       "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
       "comments": "",
@@ -881,7 +888,7 @@
     },
     {
       "away_club": "NASA",
-      "away_score": null,
+      "away_score": 9,
       "away_team": "NASA-B09H-Callegari",
       "date": "2026-11-13",
       "division": "B09H",
@@ -889,9 +896,9 @@
       "field_id": "998",
       "game_id": "416056",
       "home_club": "FairLawnAllSports",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "FairLawnAllSports-B09H-Bashan",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:30 PM"
     },
     {
@@ -900,14 +907,14 @@
       "away_team": "Spartan-B09H-McCormack",
       "date": "2026-11-14",
       "division": "B09H",
-      "field": "Volunteers Field",
-      "field_id": "751",
+      "field": "Veterans Small Sided North WEssex",
+      "field_id": "1067",
       "game_id": "417115",
       "home_club": "WestEssex",
       "home_score": null,
       "home_team": "WestEssex-B09H-Sevilla",
       "is_upcoming": true,
-      "time": "10:00 AM"
+      "time": "10:30 AM"
     },
     {
       "away_club": "Vikings",
@@ -1120,6 +1127,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-11-13T14:14:02.836242Z",
+  "scraped_at": "2026-11-14T13:16:25.155417Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

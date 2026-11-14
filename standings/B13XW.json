@@ -1,6 +1,6 @@
 {
   "division": "B13XW",
-  "scraped_at": "2026-11-13T14:12:58.618735Z",
+  "scraped_at": "2026-11-14T13:15:20.944427Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -99,30 +99,54 @@
     {
       "club": "SaddleBR",
       "coach": "Cadenas",
-      "draws": 0,
-      "form": "",
-      "games": [],
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418133",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13XW-Amaya",
+          "result": "D",
+          "time": "07:45 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        }
+      ],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 2,
+      "goals_for": 2,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 1,
       "team_raw": "SaddleBR-B13XW-Cadenas",
       "wins": 0
     },
     {
       "club": "WayneBG",
       "coach": "Amaya",
-      "draws": 0,
-      "form": "",
-      "games": [],
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418133",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B13XW-Cadenas",
+          "result": "D",
+          "time": "07:45 PM",
+          "venue_code": "SaddleBR-VeteransFld"
+        }
+      ],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 2,
+      "goals_for": 2,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 1,
       "team_raw": "WayneBG-B13XW-Amaya",
       "wins": 0
     },

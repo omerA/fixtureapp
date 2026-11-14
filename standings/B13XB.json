@@ -1,9 +1,74 @@
 {
   "division": "B13XB",
-  "scraped_at": "2026-11-13T14:12:58.599244Z",
+  "scraped_at": "2026-11-14T13:15:20.925961Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "NMKnights",
+      "coach": "Tramontano",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-09",
+          "game_number": "418015",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B13XB-Aufiero",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-11-13",
+          "game_number": "418016",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B13XB-Aufiero",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 1,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "NMKnights-B13XB-Tramontano",
+      "wins": 1
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Rake",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418020",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13XB-Cohn",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 2,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-B13XB-Rake",
+      "wins": 1
+    },
     {
       "club": "GlenRock",
       "coach": "Gulmi",
@@ -32,30 +97,30 @@
       "wins": 1
     },
     {
-      "club": "NMKnights",
-      "coach": "Tramontano",
+      "club": "NoBergen",
+      "coach": "GraterolBriceno",
       "draws": 0,
       "form": "W",
       "games": [
         {
-          "date": "2026-11-09",
-          "game_number": "418015",
+          "date": "2026-11-12",
+          "game_number": "418023",
           "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B13XB-Aufiero",
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13XB-Shalom",
           "result": "W",
-          "time": "07:45 PM",
-          "venue_code": "NMilford-NMHS-Main"
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 1,
+      "goal_diff": 3,
       "goals_against": 2,
-      "goals_for": 3,
+      "goals_for": 5,
       "losses": 0,
       "played": 1,
       "points": 3,
-      "team_raw": "NMKnights-B13XB-Tramontano",
+      "team_raw": "NoBergen-B13XB-GraterolBriceno",
       "wins": 1
     },
     {
@@ -98,66 +163,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Belleville-B13XB-Chavarria",
-      "wins": 0
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Rake",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-B13XB-Rake",
-      "wins": 0
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Shalom",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "FairLawnAllSports-B13XB-Shalom",
-      "wins": 0
-    },
-    {
-      "club": "GlenRidge",
-      "coach": "Cohn",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "GlenRidge-B13XB-Cohn",
-      "wins": 0
-    },
-    {
-      "club": "NoBergen",
-      "coach": "GraterolBriceno",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "NoBergen-B13XB-GraterolBriceno",
       "wins": 0
     },
     {
@@ -239,7 +244,7 @@
       "club": "Ajax",
       "coach": "Aufiero",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-11-09",
@@ -251,13 +256,24 @@
           "result": "L",
           "time": "07:45 PM",
           "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-11-13",
+          "game_number": "418016",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B13XB-Tramontano",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
         }
       ],
-      "goal_diff": -1,
+      "goal_diff": -2,
       "goals_against": 3,
-      "goals_for": 2,
+      "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Ajax-B13XB-Aufiero",
       "wins": 0
@@ -287,6 +303,60 @@
       "played": 1,
       "points": 0,
       "team_raw": "CougarSC-B13XB-Kolodiy",
+      "wins": 0
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Shalom",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-12",
+          "game_number": "418023",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13XB-GraterolBriceno",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 5,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "FairLawnAllSports-B13XB-Shalom",
+      "wins": 0
+    },
+    {
+      "club": "GlenRidge",
+      "coach": "Cohn",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418020",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13XB-Rake",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 5,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "GlenRidge-B13XB-Cohn",
       "wins": 0
     },
     {

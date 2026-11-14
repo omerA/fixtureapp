@@ -22,6 +22,13 @@
       "name": "Belleville Park - Turf",
       "size": "Both (Small & Large)"
     },
+    "398": {
+      "address": "199 Monona Avenue, Rutherford, NJ 07070",
+      "comments": "7v7 and 9v9",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Memorial No 3",
+      "size": "Small Field (8 vs 8)"
+    },
     "556": {
       "address": "Harrington Avenue and Sand Road, Westwood, NJ, Westwood, NJ 07675",
       "comments": "",
@@ -48,13 +55,6 @@
       "comments": "9v9 and 11v11 ONLY",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Forest Avenue",
-      "size": "Both (Small & Large)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
     }
   },
@@ -150,6 +150,21 @@
       "time": "10:00 AM"
     },
     {
+      "away_club": "Southside",
+      "away_score": null,
+      "away_team": "Southside-B11XW-Zamora",
+      "date": "2026-11-18",
+      "division": "B11XW",
+      "field": "Memorial No 3",
+      "field_id": "398",
+      "game_id": "418040",
+      "home_club": "Rutherford",
+      "home_score": null,
+      "home_team": "Rutherford-B11XW-Carlstein",
+      "is_upcoming": true,
+      "time": "07:00 PM"
+    },
+    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B11XW-OHara",
@@ -163,23 +178,8 @@
       "home_team": "Nutley-B11XW-Zurita",
       "is_upcoming": true,
       "time": "09:15 AM"
-    },
-    {
-      "away_club": "Southside",
-      "away_score": null,
-      "away_team": "Southside-B11XW-Zamora",
-      "date": "2026-12-03",
-      "division": "B11XW",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418040",
-      "home_club": "Rutherford",
-      "home_score": null,
-      "home_team": "Rutherford-B11XW-Carlstein",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-13T14:15:18.981440Z",
+  "scraped_at": "2026-11-14T13:17:41.965161Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

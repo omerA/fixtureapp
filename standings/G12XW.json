@@ -1,6 +1,6 @@
 {
   "division": "G12XW",
-  "scraped_at": "2026-11-14T13:15:22.626952Z",
+  "scraped_at": "2026-11-15T13:45:13.488947Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -32,30 +32,68 @@
       "wins": 1
     },
     {
-      "club": "NMKnights",
-      "coach": "Duque",
+      "club": "WOrange",
+      "coach": "Tutalo",
       "draws": 0,
       "form": "W",
       "games": [
         {
-          "date": "2026-10-24",
-          "game_number": "418144",
-          "goals_against": 3,
-          "goals_for": 5,
+          "date": "2026-11-14",
+          "game_number": "418276",
+          "goals_against": 0,
+          "goals_for": 1,
           "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12XW-vanGulik",
+          "opponent_raw": "Maroons-G12XW-Austin",
           "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NMilford-Williams9v9"
+          "time": "08:45 AM",
+          "venue_code": "WORANGE-Oconnor"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 3,
-      "goals_for": 5,
+      "goal_diff": 1,
+      "goals_against": 0,
+      "goals_for": 1,
       "losses": 0,
       "played": 1,
       "points": 3,
-      "team_raw": "NMKnights-G12XW-Duque",
+      "team_raw": "WOrange-G12XW-Tutalo",
+      "wins": 1
+    },
+    {
+      "club": "Maroons",
+      "coach": "vanGulik",
+      "draws": 0,
+      "form": "LW",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "418144",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12XW-Duque",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "418145",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12XW-Duque",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAR-VetsFld2"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 1,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Maroons-G12XW-vanGulik",
       "wins": 1
     },
     {
@@ -74,21 +112,6 @@
       "wins": 0
     },
     {
-      "club": "Maroons",
-      "coach": "Austin",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Maroons-G12XW-Austin",
-      "wins": 0
-    },
-    {
       "club": "WoodRidge",
       "coach": "Squeo",
       "draws": 0,
@@ -101,21 +124,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "WoodRidge-G12XW-Squeo",
-      "wins": 0
-    },
-    {
-      "club": "WOrange",
-      "coach": "Tutalo",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "WOrange-G12XW-Tutalo",
       "wins": 0
     },
     {
@@ -147,29 +155,67 @@
     },
     {
       "club": "Maroons",
-      "coach": "vanGulik",
+      "coach": "Austin",
       "draws": 0,
       "form": "L",
       "games": [
         {
-          "date": "2026-10-24",
-          "game_number": "418144",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-G12XW-Duque",
+          "date": "2026-11-14",
+          "game_number": "418276",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G12XW-Tutalo",
           "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "NMilford-Williams9v9"
+          "time": "08:45 AM",
+          "venue_code": "WORANGE-Oconnor"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 5,
-      "goals_for": 3,
+      "goal_diff": -1,
+      "goals_against": 1,
+      "goals_for": 0,
       "losses": 1,
       "played": 1,
       "points": 0,
-      "team_raw": "Maroons-G12XW-vanGulik",
+      "team_raw": "Maroons-G12XW-Austin",
+      "wins": 0
+    },
+    {
+      "club": "NMKnights",
+      "coach": "Duque",
+      "draws": 0,
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "418144",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12XW-vanGulik",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "418145",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12XW-vanGulik",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MAR-VetsFld2"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 8,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "NMKnights-G12XW-Duque",
       "wins": 0
     }
   ]

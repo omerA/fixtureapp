@@ -8,6 +8,13 @@
       "name": "Midland Park HS - Stadium",
       "size": "Large Field (11 vs 11)"
     },
+    "105": {
+      "address": "155 Wyckoff Ave, Waldwick, NJ 07463",
+      "comments": "Full sided turf field in Stadium",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Waldwick H.S. Turf Field 3 - full",
+      "size": "Large Field (11 vs 11)"
+    },
     "1121": {
       "address": "330 River Rd, New Milford, NJ 07646",
       "comments": "11v11",
@@ -50,6 +57,13 @@
       "name": "Westwood Regional High School",
       "size": "Large Field (11 vs 11)"
     },
+    "395": {
+      "address": "343 Belleville Ave, Belleville, NJ 07109",
+      "comments": "Both Full and Small Sided",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "Belleville Park - Full Sided",
+      "size": "Both (Small & Large)"
+    },
     "570": {
       "address": "5 Mead Street, South Orange, NJ 07079",
       "comments": "",
@@ -83,13 +97,6 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "James Braddock / Soccer Field behind bleachers",
-      "size": "Both (Small & Large)"
-    },
-    "799": {
-      "address": "PO Box 26, HohoKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled - Northen Counties Cup",
       "size": "Both (Small & Large)"
     },
     "938": {
@@ -130,21 +137,6 @@
       "home_team": "RiverDell-B13XB-Sullivan",
       "is_upcoming": false,
       "time": "06:30 PM"
-    },
-    {
-      "away_club": "Warriors",
-      "away_score": null,
-      "away_team": "Warriors-B13XB-Bzik",
-      "date": "2026-11-01",
-      "division": "B13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418025",
-      "home_club": "Belleville",
-      "home_score": null,
-      "home_team": "Belleville-B13XB-Chavarria",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "Ajax",
@@ -237,6 +229,21 @@
       "time": "12:00 PM"
     },
     {
+      "away_club": "Warriors",
+      "away_score": null,
+      "away_team": "Warriors-B13XB-Bzik",
+      "date": "2026-11-15",
+      "division": "B13XB",
+      "field": "Belleville Park - Full Sided",
+      "field_id": "395",
+      "game_id": "418025",
+      "home_club": "Belleville",
+      "home_score": null,
+      "home_team": "Belleville-B13XB-Chavarria",
+      "is_upcoming": true,
+      "time": "01:15 PM"
+    },
+    {
       "away_club": "CougarSC",
       "away_score": null,
       "away_team": "CougarSC-B13XB-Kolodiy",
@@ -297,6 +304,21 @@
       "time": "02:00 PM"
     },
     {
+      "away_club": "Belleville",
+      "away_score": null,
+      "away_team": "Belleville-B13XB-Chavarria",
+      "date": "2026-11-22",
+      "division": "B13XB",
+      "field": "Waldwick H.S. Turf Field 3 - full",
+      "field_id": "105",
+      "game_id": "418026",
+      "home_club": "Warriors",
+      "home_score": null,
+      "home_team": "Warriors-B13XB-Bzik",
+      "is_upcoming": true,
+      "time": "05:00 PM"
+    },
+    {
       "away_club": "WayneBG",
       "away_score": null,
       "away_team": "WayneBG-B13XB-Sanchez",
@@ -325,23 +347,8 @@
       "home_team": "WayneBG-B13XB-Sanchez",
       "is_upcoming": true,
       "time": "11:00 AM"
-    },
-    {
-      "away_club": "Belleville",
-      "away_score": null,
-      "away_team": "Belleville-B13XB-Chavarria",
-      "date": "2026-12-03",
-      "division": "B13XB",
-      "field": "To Be Scheduled - Northen Counties Cup",
-      "field_id": "799",
-      "game_id": "418026",
-      "home_club": "Warriors",
-      "home_score": null,
-      "home_team": "Warriors-B13XB-Bzik",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-14T13:18:39.218128Z",
+  "scraped_at": "2026-11-15T13:48:51.401639Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

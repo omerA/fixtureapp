@@ -1,6 +1,6 @@
 {
   "division": "B08F7",
-  "scraped_at": "2026-11-14T13:15:18.592488Z",
+  "scraped_at": "2026-11-15T13:45:06.362429Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "CougarUtd",
       "coach": "Benedy",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -99,6 +99,17 @@
           "venue_code": "COUGUTD-ReganSmall1"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "413806",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B08F7-Saxena",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "SS-HamiltonA"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "413810",
           "goals_against": 2,
@@ -110,14 +121,14 @@
           "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": 38,
+      "goal_diff": 45,
       "goals_against": 20,
-      "goals_for": 58,
+      "goals_for": 65,
       "losses": 0,
-      "played": 9,
-      "points": 25,
+      "played": 10,
+      "points": 28,
       "team_raw": "CougarUtd-B08F7-Benedy",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "Southside",
@@ -298,7 +309,7 @@
       "club": "SaddleBR",
       "coach": "Salas",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-10-18",
@@ -365,22 +376,33 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "413807",
+          "goals_against": 3,
+          "goals_for": 6,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08F7-Dominguez",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 23,
-      "goals_for": 16,
+      "goal_diff": -4,
+      "goals_against": 26,
+      "goals_for": 22,
       "losses": 4,
-      "played": 6,
-      "points": 6,
+      "played": 7,
+      "points": 9,
       "team_raw": "SaddleBR-B08F7-Salas",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Rutherford",
       "coach": "Dominguez",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -427,6 +449,17 @@
           "venue_code": "RUTH-Memorial5"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "413807",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B08F7-Salas",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "413810",
           "goals_against": 9,
@@ -438,11 +471,11 @@
           "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 26,
-      "goals_for": 16,
-      "losses": 3,
-      "played": 5,
+      "goal_diff": -13,
+      "goals_against": 32,
+      "goals_for": 19,
+      "losses": 4,
+      "played": 6,
       "points": 6,
       "team_raw": "Rutherford-B08F7-Dominguez",
       "wins": 2
@@ -529,13 +562,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "413806",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B08F7-Benedy",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "SS-HamiltonA"
         }
       ],
-      "goal_diff": -35,
-      "goals_against": 40,
+      "goal_diff": -42,
+      "goals_against": 47,
       "goals_for": 5,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "GlenRock-B08F7-Saxena",
       "wins": 0

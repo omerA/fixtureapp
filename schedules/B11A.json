@@ -22,6 +22,13 @@
       "name": "Waldwick H.S. Turf Field 2 - small",
       "size": "Small Field (8 vs 8)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "157": {
       "address": "398 West Mombasha Road, Monroe, NY 10950",
       "comments": "]",
@@ -112,13 +119,6 @@
       "details": "NO-LIGHTS \u2014 ARTIFICIAL",
       "name": "Hitchcock - Small Paterson",
       "size": "Small Field (8 vs 8)"
-    },
-    "984": {
-      "address": "122 State School Road, Warwick, NY 10990",
-      "comments": "",
-      "details": "LIGHTS \u2014 ARTIFICIAL",
-      "name": "Hudson Sports Complex",
-      "size": "Both (Small & Large)"
     },
     "989": {
       "address": "Route 17 S and Franklin Ave and Field Ave, Hasbrouck Heights, NJ 07604",
@@ -686,7 +686,7 @@
     },
     {
       "away_club": "Force",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Force-B11A-Darling",
       "date": "2026-11-14",
       "division": "B11A",
@@ -694,14 +694,14 @@
       "field_id": "704",
       "game_id": "415664",
       "home_club": "Nutley",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "Nutley-B11A-Sceppaguercio",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
       "away_club": "Hotspur",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Hotspur-B11A-Cengarle",
       "date": "2026-11-14",
       "division": "B11A",
@@ -709,14 +709,14 @@
       "field_id": "989",
       "game_id": "415661",
       "home_club": "AviatorsHHSA",
-      "home_score": null,
+      "home_score": 6,
       "home_team": "AviatorsHHSA-B11A-DeGennaro",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:00 AM"
     },
     {
       "away_club": "FairLawnAllSports",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "FairLawnAllSports-B11A-Arcentales",
       "date": "2026-11-14",
       "division": "B11A",
@@ -724,14 +724,14 @@
       "field_id": "204",
       "game_id": "415662",
       "home_club": "CougarUtd",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "CougarUtd-B11A-Sayag",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:15 AM"
     },
     {
       "away_club": "Warriors",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "Warriors-B11A-Leonard",
       "date": "2026-11-14",
       "division": "B11A",
@@ -739,9 +739,9 @@
       "field_id": "172",
       "game_id": "415665",
       "home_club": "RdgfldPk",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "RdgfldPk-B11A-Glover",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:00 PM"
     },
     {
@@ -750,14 +750,14 @@
       "away_team": "AviatorsHHSA-B11A-DeGennaro",
       "date": "2026-11-15",
       "division": "B11A",
-      "field": "Hudson Sports Complex",
-      "field_id": "984",
+      "field": "TBS Postponed",
+      "field_id": "1111",
       "game_id": "415653",
       "home_club": "Force",
       "home_score": null,
       "home_team": "Force-B11A-Darling",
       "is_upcoming": true,
-      "time": "03:30 PM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "CougarUtd",
@@ -880,6 +880,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-11-14T13:17:11.451219Z",
+  "scraped_at": "2026-11-15T13:47:09.296674Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

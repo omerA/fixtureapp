@@ -1,6 +1,6 @@
 {
   "division": "G12CW",
-  "scraped_at": "2026-11-14T13:15:22.536142Z",
+  "scraped_at": "2026-11-15T13:45:13.324564Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -10,6 +10,17 @@
       "draws": 0,
       "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "416916",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12CW-Deptula",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MONT-GlenfldPk"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416920",
@@ -88,14 +99,14 @@
           "venue_code": "LKLND-BBeach-Sml-9v9"
         }
       ],
-      "goal_diff": 34,
-      "goals_against": 12,
-      "goals_for": 46,
+      "goal_diff": 36,
+      "goals_against": 15,
+      "goals_for": 51,
       "losses": 0,
-      "played": 7,
-      "points": 21,
+      "played": 8,
+      "points": 24,
       "team_raw": "NMKnights-G12CW-McAndrews",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "UnionCity",
@@ -402,8 +413,19 @@
       "club": "GlenRidge",
       "coach": "Deptula",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "416916",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12CW-McAndrews",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MONT-GlenfldPk"
+        },
         {
           "date": "2026-09-20",
           "game_number": "416921",
@@ -471,11 +493,11 @@
           "venue_code": "MONT-GlenfldPk"
         }
       ],
-      "goal_diff": -11,
-      "goals_against": 26,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -13,
+      "goals_against": 31,
+      "goals_for": 18,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "GlenRidge-G12CW-Deptula",
       "wins": 2

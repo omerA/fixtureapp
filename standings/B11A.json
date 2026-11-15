@@ -1,9 +1,113 @@
 {
   "division": "B11A",
-  "scraped_at": "2026-11-14T13:15:19.675696Z",
+  "scraped_at": "2026-11-15T13:45:08.366674Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Warriors",
+      "coach": "Leonard",
+      "draws": 0,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415622",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11A-Zotaj",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415630",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B11A-Darling",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415640",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11A-Cengarle",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415645",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11A-DaSilva",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415650",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
+          "result": "W",
+          "time": "06:15 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415652",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11A-Arcentales",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415660",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11A-Sceppaguercio",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WALD-HSTurf-1"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415665",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B11A-Glover",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        }
+      ],
+      "goal_diff": 26,
+      "goals_against": 7,
+      "goals_for": 33,
+      "losses": 1,
+      "played": 8,
+      "points": 21,
+      "team_raw": "Warriors-B11A-Leonard",
+      "wins": 7
+    },
     {
       "club": "Dumont",
       "coach": "Zotaj",
@@ -98,103 +202,10 @@
       "wins": 6
     },
     {
-      "club": "Warriors",
-      "coach": "Leonard",
-      "draws": 0,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415622",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B11A-Zotaj",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "DUM-TwinBoro"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415630",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-B11A-Darling",
-          "result": "W",
-          "time": "02:00 PM",
-          "venue_code": "WALD-HSTurf-1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415640",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B11A-Cengarle",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415645",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B11A-DaSilva",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "NA-Zadroga2"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415650",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
-          "result": "W",
-          "time": "06:15 PM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "415652",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B11A-Arcentales",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "415660",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B11A-Sceppaguercio",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": 19,
-      "goals_against": 7,
-      "goals_for": 26,
-      "losses": 1,
-      "played": 7,
-      "points": 18,
-      "team_raw": "Warriors-B11A-Leonard",
-      "wins": 6
-    },
-    {
       "club": "FairLawnAllSports",
       "coach": "Arcentales",
-      "draws": 2,
-      "form": "WWLWD",
+      "draws": 3,
+      "form": "WLWDD",
       "games": [
         {
           "date": "2026-11-02",
@@ -283,22 +294,33 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415662",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Sayag",
+          "result": "D",
+          "time": "10:15 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
       "goal_diff": 5,
-      "goals_against": 15,
-      "goals_for": 20,
+      "goals_against": 16,
+      "goals_for": 21,
       "losses": 2,
-      "played": 8,
-      "points": 14,
+      "played": 9,
+      "points": 15,
       "team_raw": "FairLawnAllSports-B11A-Arcentales",
       "wins": 4
     },
     {
       "club": "CougarUtd",
       "coach": "Sayag",
-      "draws": 1,
-      "form": "WDWLW",
+      "draws": 2,
+      "form": "DWLWD",
       "games": [
         {
           "date": "2026-11-08",
@@ -365,22 +387,33 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415662",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11A-Arcentales",
+          "result": "D",
+          "time": "10:15 AM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 20,
-      "goals_for": 20,
+      "goals_against": 21,
+      "goals_for": 21,
       "losses": 2,
-      "played": 6,
-      "points": 10,
+      "played": 7,
+      "points": 11,
       "team_raw": "CougarUtd-B11A-Sayag",
       "wins": 3
     },
     {
       "club": "Nutley",
       "coach": "Sceppaguercio",
-      "draws": 0,
-      "form": "WWLLL",
+      "draws": 1,
+      "form": "WLLLD",
       "games": [
         {
           "date": "2026-09-19",
@@ -447,93 +480,33 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "WALD-HSTurf-1"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 17,
-      "goals_for": 20,
-      "losses": 3,
-      "played": 6,
-      "points": 9,
-      "team_raw": "Nutley-B11A-Sceppaguercio",
-      "wins": 3
-    },
-    {
-      "club": "RdgfldPk",
-      "coach": "Glover",
-      "draws": 0,
-      "form": "WWWLL",
-      "games": [
+        },
         {
-          "date": "2026-09-12",
-          "game_number": "415623",
-          "goals_against": 2,
-          "goals_for": 3,
+          "date": "2026-11-14",
+          "game_number": "415664",
+          "goals_against": 4,
+          "goals_for": 4,
           "opponent_club": "Force",
           "opponent_raw": "Force-B11A-Darling",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "NY-MW-WMombasha"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "415629",
-          "goals_against": 7,
-          "goals_for": 5,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-B11A-Sayag",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "RDGFLDPK-McKeown"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415638",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-B11A-DaSilva",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NA-Zadroga2"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415641",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
-          "result": "W",
-          "time": "08:30 AM",
-          "venue_code": "AVIA-DepkenSmall"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415649",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B11A-Arcentales",
-          "result": "L",
-          "time": "02:15 PM",
-          "venue_code": "RDGFLDPK-McKeown"
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
       "goal_diff": 3,
-      "goals_against": 20,
-      "goals_for": 23,
-      "losses": 2,
-      "played": 5,
-      "points": 9,
-      "team_raw": "RdgfldPk-B11A-Glover",
+      "goals_against": 21,
+      "goals_for": 24,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
+      "team_raw": "Nutley-B11A-Sceppaguercio",
       "wins": 3
     },
     {
       "club": "AviatorsHHSA",
       "coach": "DeGennaro",
       "draws": 1,
-      "form": "DLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -611,21 +584,114 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "COUGUTD-Front"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415661",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B11A-Cengarle",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 27,
-      "goals_for": 14,
+      "goal_diff": -9,
+      "goals_against": 29,
+      "goals_for": 20,
       "losses": 4,
-      "played": 7,
-      "points": 7,
+      "played": 8,
+      "points": 10,
       "team_raw": "AviatorsHHSA-B11A-DeGennaro",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "RdgfldPk",
+      "coach": "Glover",
+      "draws": 0,
+      "form": "WWLLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415623",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B11A-Darling",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415629",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B11A-Sayag",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415638",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B11A-DaSilva",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NA-Zadroga2"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415641",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
+          "result": "W",
+          "time": "08:30 AM",
+          "venue_code": "AVIA-DepkenSmall"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415649",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11A-Arcentales",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415665",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B11A-Leonard",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "RDGFLDPK-McKeown"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 27,
+      "goals_for": 23,
+      "losses": 3,
+      "played": 6,
+      "points": 9,
+      "team_raw": "RdgfldPk-B11A-Glover",
+      "wins": 3
     },
     {
       "club": "Force",
       "coach": "Darling",
-      "draws": 5,
+      "draws": 6,
       "form": "DDDDD",
       "games": [
         {
@@ -704,14 +770,25 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "NY-MW-WMombasha"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415664",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11A-Sceppaguercio",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
       "goal_diff": -5,
-      "goals_against": 15,
-      "goals_for": 10,
+      "goals_against": 19,
+      "goals_for": 14,
       "losses": 2,
-      "played": 7,
-      "points": 5,
+      "played": 8,
+      "points": 6,
       "team_raw": "Force-B11A-Darling",
       "wins": 0
     },
@@ -719,7 +796,7 @@
       "club": "Hotspur",
       "coach": "Cengarle",
       "draws": 2,
-      "form": "LDLLD",
+      "form": "DLLDL",
       "games": [
         {
           "date": "2026-11-02",
@@ -786,13 +863,24 @@
           "result": "D",
           "time": "03:00 PM",
           "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415661",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B11A-DeGennaro",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "AVIA-DepkenSmall"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 19,
-      "goals_for": 9,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -14,
+      "goals_against": 25,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 7,
       "points": 2,
       "team_raw": "Hotspur-B11A-Cengarle",
       "wins": 0

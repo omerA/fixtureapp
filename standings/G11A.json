@@ -1,6 +1,6 @@
 {
   "division": "G11A",
-  "scraped_at": "2026-11-14T13:15:22.159640Z",
+  "scraped_at": "2026-11-15T13:45:12.671226Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -10,6 +10,17 @@
       "draws": 0,
       "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "415077",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G11A-Mapes",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "MAR-VetsFld2"
+        },
         {
           "date": "2026-09-20",
           "game_number": "415084",
@@ -88,11 +99,11 @@
           "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": 27,
+      "goal_diff": 30,
       "goals_against": 6,
-      "goals_for": 33,
+      "goals_for": 36,
       "losses": 0,
-      "played": 7,
+      "played": 8,
       "points": 21,
       "team_raw": "Maroons-G11A-Cotter",
       "wins": 7
@@ -402,8 +413,19 @@
       "club": "RiverDell",
       "coach": "Mapes",
       "draws": 4,
-      "form": "DDWWL",
+      "form": "DWWLL",
       "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "415077",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11A-Cotter",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAR-VetsFld2"
+        },
         {
           "date": "2026-11-07",
           "game_number": "415082",
@@ -482,11 +504,11 @@
           "venue_code": "RDBH-MS-Sm"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 10,
+      "goal_diff": -4,
+      "goals_against": 13,
       "goals_for": 9,
       "losses": 1,
-      "played": 7,
+      "played": 8,
       "points": 10,
       "team_raw": "RiverDell-G11A-Mapes",
       "wins": 2

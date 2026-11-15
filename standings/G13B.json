@@ -1,6 +1,6 @@
 {
   "division": "G13B",
-  "scraped_at": "2026-11-14T13:15:22.720486Z",
+  "scraped_at": "2026-11-15T13:45:13.616382Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "Paramus",
       "coach": "Buttacavoli",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWL",
       "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "414997",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G13B-Mulkeen",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "SS-LowerHS"
+        },
         {
           "date": "2026-09-29",
           "game_number": "415133",
@@ -99,14 +110,107 @@
           "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 11,
+      "goal_diff": 17,
+      "goals_against": 13,
       "goals_for": 30,
-      "losses": 0,
-      "played": 8,
+      "losses": 1,
+      "played": 9,
       "points": 22,
       "team_raw": "Paramus-G13B-Buttacavoli",
       "wins": 7
+    },
+    {
+      "club": "GlenRock",
+      "coach": "Mulkeen",
+      "draws": 0,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "414997",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G13B-Buttacavoli",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415136",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G13B-Williams",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415141",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G13B-Pak",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "415142",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13B-Collins",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415146",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G13B-Buttacavoli",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415152",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13B-Hill",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415157",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G13B-Williams",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": 10,
+      "goals_against": 12,
+      "goals_for": 22,
+      "losses": 2,
+      "played": 7,
+      "points": 15,
+      "team_raw": "GlenRock-G13B-Mulkeen",
+      "wins": 5
     },
     {
       "club": "Spartan",
@@ -211,88 +315,6 @@
       "points": 15,
       "team_raw": "Spartan-G13B-Kelly",
       "wins": 5
-    },
-    {
-      "club": "GlenRock",
-      "coach": "Mulkeen",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-10-24",
-          "game_number": "415136",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G13B-Williams",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415141",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G13B-Pak",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "415142",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G13B-Collins",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415146",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Paramus",
-          "opponent_raw": "Paramus-G13B-Buttacavoli",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "HAWTHORNE-Veterans"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415152",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G13B-Hill",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "SS-LowerHS"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "415157",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G13B-Williams",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        }
-      ],
-      "goal_diff": 8,
-      "goals_against": 12,
-      "goals_for": 20,
-      "losses": 2,
-      "played": 6,
-      "points": 12,
-      "team_raw": "GlenRock-G13B-Mulkeen",
-      "wins": 4
     },
     {
       "club": "Dragons",

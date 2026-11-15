@@ -1,6 +1,6 @@
 {
   "division": "B11G",
-  "scraped_at": "2026-11-14T13:15:19.956303Z",
+  "scraped_at": "2026-11-15T13:45:08.866416Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -97,16 +97,27 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415691",
+          "goals_against": 2,
+          "goals_for": 8,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B11G-Zotaj",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": 22,
-      "goals_against": 24,
-      "goals_for": 46,
+      "goal_diff": 28,
+      "goals_against": 26,
+      "goals_for": 54,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Mahwah-B11G-Kothiyal",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "RiverDell",
@@ -424,7 +435,7 @@
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 2,
-      "form": "DLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-10-18",
@@ -513,13 +524,24 @@
           "result": "D",
           "time": "12:00 PM",
           "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415691",
+          "goals_against": 8,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-B11G-Kothiyal",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "MAHWAH-CSF"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 46,
-      "goals_for": 24,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -28,
+      "goals_against": 54,
+      "goals_for": 26,
+      "losses": 6,
+      "played": 9,
       "points": 5,
       "team_raw": "Dumont-B11G-Zotaj",
       "wins": 1

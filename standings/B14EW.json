@@ -1,6 +1,6 @@
 {
   "division": "B14EW",
-  "scraped_at": "2026-11-14T13:15:21.246157Z",
+  "scraped_at": "2026-11-15T13:45:11.084914Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Dragons",
       "coach": "Gold",
       "draws": 1,
-      "form": "WWDLW",
+      "form": "WDLWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -97,22 +97,33 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416484",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B14EW-Sanford",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
-      "goal_diff": 25,
+      "goal_diff": 28,
       "goals_against": 13,
-      "goals_for": 38,
+      "goals_for": 41,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Dragons-B14EW-Gold",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Arsenal",
       "coach": "McDermott",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -201,22 +212,33 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "DRAG-WestwdHS"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416483",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14EW-Privitera",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "ARS-PHHS1"
         }
       ],
-      "goal_diff": 19,
+      "goal_diff": 26,
       "goals_against": 12,
-      "goals_for": 31,
+      "goals_for": 38,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Arsenal-B14EW-McDermott",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Vikings",
       "coach": "Donzis",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -305,22 +327,33 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416485",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B14EW-Breheney",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-DemarestHS-Upper"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 11,
-      "goals_for": 22,
+      "goal_diff": 13,
+      "goals_against": 13,
+      "goals_for": 26,
       "losses": 3,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "Vikings-B14EW-Donzis",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Lakeland",
       "coach": "Breheney",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -398,13 +431,24 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416485",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B14EW-Donzis",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "VIK-DemarestHS-Upper"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 29,
-      "goals_for": 26,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -5,
+      "goals_against": 33,
+      "goals_for": 28,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "Lakeland-B14EW-Breheney",
       "wins": 3
@@ -413,7 +457,7 @@
       "club": "Maywood",
       "coach": "Sanford",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -491,13 +535,24 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "LKLND-BBeach-Full"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416484",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B14EW-Gold",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 23,
+      "goal_diff": -10,
+      "goals_against": 26,
       "goals_for": 16,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Maywood-B14EW-Sanford",
       "wins": 2
@@ -595,13 +650,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416483",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B14EW-McDermott",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "ARS-PHHS1"
         }
       ],
-      "goal_diff": -45,
-      "goals_against": 51,
+      "goal_diff": -52,
+      "goals_against": 58,
       "goals_for": 6,
-      "losses": 8,
-      "played": 8,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "RiverDell-B14EW-Privitera",
       "wins": 0

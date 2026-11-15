@@ -1,6 +1,6 @@
 {
   "division": "B13CW",
-  "scraped_at": "2026-11-14T13:15:20.708967Z",
+  "scraped_at": "2026-11-15T13:45:10.176453Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "NoValley",
       "coach": "Birnie",
       "draws": 1,
-      "form": "DWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -86,22 +86,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415832",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B13CW-Valle",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 3,
-      "goals_for": 24,
+      "goal_diff": 25,
+      "goals_against": 6,
+      "goals_for": 31,
       "losses": 0,
-      "played": 7,
-      "points": 19,
+      "played": 8,
+      "points": 22,
       "team_raw": "NoValley-B13CW-Birnie",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "NMKnights",
       "coach": "Tramontano",
       "draws": 2,
-      "form": "DWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -190,22 +201,33 @@
           "result": "W",
           "time": "08:00 PM",
           "venue_code": "NMilford-Kennedy"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415833",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B13CW-Aschenbrand",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 11,
-      "goals_for": 30,
+      "goal_diff": 22,
+      "goals_against": 13,
+      "goals_for": 35,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 20,
       "team_raw": "NMKnights-B13CW-Tramontano",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "TeaneckFC",
       "coach": "Valle",
       "draws": 1,
-      "form": "LDWWW",
+      "form": "DWWWL",
       "games": [
         {
           "date": "2026-10-29",
@@ -294,13 +316,24 @@
           "result": "L",
           "time": "08:00 PM",
           "venue_code": "NMilford-Kennedy"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415832",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B13CW-Birnie",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 20,
-      "goals_for": 23,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -1,
+      "goals_against": 27,
+      "goals_for": 26,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "TeaneckFC-B13CW-Valle",
       "wins": 4
@@ -309,7 +342,7 @@
       "club": "RiverDell",
       "coach": "Sullivan",
       "draws": 1,
-      "form": "WLWLD",
+      "form": "LWLDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -365,22 +398,33 @@
           "result": "D",
           "time": "02:00 PM",
           "venue_code": "NMilford-Kennedy"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415831",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B13CW-Alexander",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NY-NR-NRSA-1"
         }
       ],
-      "goal_diff": 0,
+      "goal_diff": 1,
       "goals_against": 12,
-      "goals_for": 12,
+      "goals_for": 13,
       "losses": 2,
-      "played": 5,
-      "points": 7,
+      "played": 6,
+      "points": 10,
       "team_raw": "RiverDell-B13CW-Sullivan",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Vikings",
       "coach": "Aschenbrand",
       "draws": 1,
-      "form": "DLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -449,6 +493,17 @@
           "venue_code": "TEANECK-VoteeFB"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "415833",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B13CW-Tramontano",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
           "date": "2026-10-30",
           "game_number": "415834",
           "goals_against": 1,
@@ -460,11 +515,11 @@
           "venue_code": "NY-NR-NRSA-1"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 34,
-      "goals_for": 11,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -26,
+      "goals_against": 39,
+      "goals_for": 13,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Vikings-B13CW-Aschenbrand",
       "wins": 1
@@ -473,7 +528,7 @@
       "club": "NoRockland",
       "coach": "Alexander",
       "draws": 2,
-      "form": "DLLLL",
+      "form": "LLLLL",
       "games": [
         {
           "date": "2026-10-29",
@@ -564,6 +619,17 @@
           "venue_code": "NoVAL-OTHS turf"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "415831",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13CW-Sullivan",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NY-NR-NRSA-1"
+        },
+        {
           "date": "2026-10-30",
           "game_number": "415834",
           "goals_against": 2,
@@ -575,11 +641,11 @@
           "venue_code": "NY-NR-NRSA-1"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 34,
+      "goal_diff": -21,
+      "goals_against": 35,
       "goals_for": 14,
-      "losses": 7,
-      "played": 9,
+      "losses": 8,
+      "played": 10,
       "points": 2,
       "team_raw": "NoRockland-B13CW-Alexander",
       "wins": 0

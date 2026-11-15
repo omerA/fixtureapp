@@ -1,6 +1,6 @@
 {
   "division": "G08A7",
-  "scraped_at": "2026-11-14T13:15:21.452079Z",
+  "scraped_at": "2026-11-15T13:45:11.401932Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -101,7 +101,7 @@
       "club": "Vikings",
       "coach": "Lee",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-10-03",
@@ -124,6 +124,17 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "NY-CLARK-KennedyPk1"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "414327",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G08A7-Forsythe",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
         },
         {
           "date": "2026-10-04",
@@ -181,14 +192,14 @@
           "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 14,
-      "goals_for": 34,
+      "goal_diff": 27,
+      "goals_against": 16,
+      "goals_for": 43,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Vikings-G08A7-Lee",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "BLMFLD",
@@ -391,7 +402,7 @@
       "club": "Maroons",
       "coach": "Forsythe",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -414,6 +425,17 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "414327",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08A7-Lee",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
         },
         {
           "date": "2026-10-04",
@@ -471,11 +493,11 @@
           "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 25,
-      "goals_for": 13,
-      "losses": 5,
-      "played": 7,
+      "goal_diff": -19,
+      "goals_against": 34,
+      "goals_for": 15,
+      "losses": 6,
+      "played": 8,
       "points": 6,
       "team_raw": "Maroons-G08A7-Forsythe",
       "wins": 2

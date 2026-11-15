@@ -1,6 +1,6 @@
 {
   "division": "G09F",
-  "scraped_at": "2026-11-14T13:15:21.829455Z",
+  "scraped_at": "2026-11-15T13:45:12.066934Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -42,6 +42,17 @@
           "result": "W",
           "time": "02:30 PM",
           "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415020",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09F-Demoraes",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "RUTH-Memorial3"
         },
         {
           "date": "2026-10-04",
@@ -88,14 +99,14 @@
           "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": 22,
+      "goal_diff": 29,
       "goals_against": 8,
-      "goals_for": 30,
+      "goals_for": 37,
       "losses": 0,
-      "played": 7,
-      "points": 21,
+      "played": 8,
+      "points": 24,
       "team_raw": "Rutherford-G09F-Eng",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "WoodRidge",
@@ -205,8 +216,19 @@
       "club": "Clarkstown",
       "coach": "Kean",
       "draws": 1,
-      "form": "LWWWL",
+      "form": "WWWLW",
       "games": [
+        {
+          "date": "2026-11-14",
+          "game_number": "415008",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G09F-Ullrich",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "HOT-NoCentral"
+        },
         {
           "date": "2026-09-20",
           "game_number": "415012",
@@ -285,14 +307,14 @@
           "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 16,
-      "goals_for": 30,
+      "goal_diff": 18,
+      "goals_against": 18,
+      "goals_for": 36,
       "losses": 2,
-      "played": 7,
-      "points": 13,
+      "played": 8,
+      "points": 16,
       "team_raw": "Clarkstown-G09F-Kean",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Southside",
@@ -577,7 +599,7 @@
       "club": "Hotspur",
       "coach": "Ullrich",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -589,6 +611,17 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415008",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G09F-Kean",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "HOT-NoCentral"
         },
         {
           "date": "2026-10-17",
@@ -657,11 +690,11 @@
           "venue_code": "HOT-NoCentral"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 23,
-      "goals_for": 19,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -8,
+      "goals_against": 29,
+      "goals_for": 21,
+      "losses": 5,
+      "played": 8,
       "points": 9,
       "team_raw": "Hotspur-G09F-Ullrich",
       "wins": 3
@@ -1018,6 +1051,17 @@
           "venue_code": "TEN-Sunnyside"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "415020",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-G09F-Eng",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "415025",
           "goals_against": 8,
@@ -1073,11 +1117,11 @@
           "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": -48,
-      "goals_against": 50,
+      "goal_diff": -55,
+      "goals_against": 57,
       "goals_for": 2,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Tenafly-G09F-Demoraes",
       "wins": 0

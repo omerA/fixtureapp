@@ -1,14 +1,14 @@
 {
   "division": "B13G",
-  "scraped_at": "2026-11-14T13:15:20.902867Z",
+  "scraped_at": "2026-11-15T13:45:10.472176Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Verona",
       "coach": "Heimerle",
-      "draws": 2,
-      "form": "WWWLW",
+      "draws": 3,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -97,22 +97,33 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "BGFD-Vivyen A"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417536",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B13G-Regan",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
         }
       ],
       "goal_diff": 21,
-      "goals_against": 9,
-      "goals_for": 30,
+      "goals_against": 11,
+      "goals_for": 32,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 18,
       "team_raw": "Verona-B13G-Heimerle",
       "wins": 5
     },
     {
       "club": "Nutley",
       "coach": "Regan",
-      "draws": 0,
-      "form": "LWWLW",
+      "draws": 1,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -190,14 +201,25 @@
           "result": "W",
           "time": "12:45 PM",
           "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417536",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B13G-Heimerle",
+          "result": "D",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
         }
       ],
       "goal_diff": 3,
-      "goals_against": 15,
-      "goals_for": 18,
+      "goals_against": 17,
+      "goals_for": 20,
       "losses": 2,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 16,
       "team_raw": "Nutley-B13G-Regan",
       "wins": 5
     },

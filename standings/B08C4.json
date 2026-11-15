@@ -1,6 +1,6 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-11-14T13:15:18.324191Z",
+  "scraped_at": "2026-11-15T13:45:05.865209Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Americans",
       "coach": "Lee",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -97,22 +97,33 @@
           "result": "W",
           "time": "11:15 AM",
           "venue_code": "AMER-ReynoldsNorth"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415303",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B08C4-Mitchell",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
-      "goal_diff": 40,
-      "goals_against": 43,
-      "goals_for": 83,
+      "goal_diff": 42,
+      "goals_against": 46,
+      "goals_for": 88,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "Americans-B08C4-Lee",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Vikings",
       "coach": "Graciano",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-11-01",
@@ -201,22 +212,33 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415302",
+          "goals_against": 5,
+          "goals_for": 11,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B08C4-Muschinske",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Wdsd4v4"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 34,
-      "goals_for": 53,
+      "goal_diff": 25,
+      "goals_against": 39,
+      "goals_for": 64,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Vikings-B08C4-Graciano",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "NMKnights",
       "coach": "Mitchell",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -305,13 +327,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "VIK-NVRHS-DemarUP"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415303",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B08C4-Lee",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "NMilford-Williams4v4"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 38,
-      "goals_for": 67,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 27,
+      "goals_against": 43,
+      "goals_for": 70,
+      "losses": 3,
+      "played": 9,
       "points": 18,
       "team_raw": "NMKnights-B08C4-Mitchell",
       "wins": 6
@@ -424,7 +457,7 @@
       "club": "Ajax",
       "coach": "Muschinske",
       "draws": 1,
-      "form": "LDLLW",
+      "form": "DLLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -513,13 +546,24 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415302",
+          "goals_against": 11,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08C4-Graciano",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "AJAX-MPHS-Wdsd4v4"
         }
       ],
-      "goal_diff": -38,
-      "goals_against": 76,
-      "goals_for": 38,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -44,
+      "goals_against": 87,
+      "goals_for": 43,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Ajax-B08C4-Muschinske",
       "wins": 1

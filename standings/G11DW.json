@@ -1,6 +1,6 @@
 {
   "division": "G11DW",
-  "scraped_at": "2026-11-14T13:15:22.326986Z",
+  "scraped_at": "2026-11-15T13:45:12.973765Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -112,7 +112,7 @@
       "club": "SaddleBR",
       "coach": "Camporeale",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-10-18",
@@ -170,6 +170,17 @@
           "venue_code": "SaddleBR-VeteransFd2"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "416692",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G11DW-Lodato",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416695",
           "goals_against": 1,
@@ -181,20 +192,20 @@
           "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": 17,
+      "goal_diff": 24,
       "goals_against": 5,
-      "goals_for": 22,
+      "goals_for": 29,
       "losses": 1,
-      "played": 6,
-      "points": 13,
+      "played": 7,
+      "points": 16,
       "team_raw": "SaddleBR-G11DW-Camporeale",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Verona",
       "coach": "Lodato",
       "draws": 1,
-      "form": "WDLWW",
+      "form": "DLWWL",
       "games": [
         {
           "date": "2026-10-18",
@@ -252,6 +263,17 @@
           "venue_code": "VERONA-Centennial"
         },
         {
+          "date": "2026-11-14",
+          "game_number": "416692",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G11DW-Camporeale",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416693",
           "goals_against": 3,
@@ -263,11 +285,11 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 10,
+      "goal_diff": -1,
+      "goals_against": 17,
       "goals_for": 16,
-      "losses": 1,
-      "played": 6,
+      "losses": 2,
+      "played": 7,
       "points": 13,
       "team_raw": "Verona-G11DW-Lodato",
       "wins": 4

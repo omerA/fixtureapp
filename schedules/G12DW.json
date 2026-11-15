@@ -43,6 +43,13 @@
       "name": "James Zadroga Soccer Field Small-Sided",
       "size": "Small Field (8 vs 8)"
     },
+    "785": {
+      "address": "300 Schuyler Ave, North Arlington, NJ 07031",
+      "comments": "2 Small fields nested inside of large field",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "James Zadroga Soccer Field Small-Sided",
+      "size": "Small Field (8 vs 8)"
+    },
     "798": {
       "address": "8701 JFK Boulevard East, North Bergen, NJ 07047",
       "comments": "",
@@ -428,6 +435,21 @@
       "time": "06:30 PM"
     },
     {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-G12DW-Hong",
+      "date": "2026-11-19",
+      "division": "G12DW",
+      "field": "James Zadroga Soccer Field Small-Sided",
+      "field_id": "785",
+      "game_id": "414957",
+      "home_club": "NoArlington",
+      "home_score": null,
+      "home_team": "NoArlington-G12DW-Martinez",
+      "is_upcoming": true,
+      "time": "07:30 PM"
+    },
+    {
       "away_club": "NoArlington",
       "away_score": null,
       "away_team": "NoArlington-G12DW-Martinez",
@@ -441,21 +463,6 @@
       "home_team": "NMKnights-G12DW-Duque",
       "is_upcoming": true,
       "time": "03:00 PM"
-    },
-    {
-      "away_club": "NoArlington",
-      "away_score": null,
-      "away_team": "NoArlington-G12DW-Martinez",
-      "date": "2026-11-21",
-      "division": "G12DW",
-      "field": "Gateway Field",
-      "field_id": "1150",
-      "game_id": "414957",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-G12DW-Hong",
-      "is_upcoming": true,
-      "time": "08:00 PM"
     },
     {
       "away_club": "GlobalJC",
@@ -503,6 +510,6 @@
       "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-11-14T13:20:34.992896Z",
+  "scraped_at": "2026-11-15T13:53:32.728068Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

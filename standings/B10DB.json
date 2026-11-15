@@ -1,6 +1,6 @@
 {
   "division": "B10DB",
-  "scraped_at": "2026-11-14T13:15:19.341490Z",
+  "scraped_at": "2026-11-15T13:45:07.749500Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lyndhurst",
       "coach": "Westemeyer",
       "draws": 1,
-      "form": "WWWDW",
+      "form": "WWDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -97,16 +97,27 @@
           "result": "D",
           "time": "02:00 PM",
           "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415604",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B10DB-Porcaro",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": 37,
-      "goals_against": 22,
-      "goals_for": 59,
+      "goal_diff": 40,
+      "goals_against": 24,
+      "goals_for": 64,
       "losses": 0,
-      "played": 8,
-      "points": 22,
+      "played": 9,
+      "points": 25,
       "team_raw": "Lyndhurst-B10DB-Westemeyer",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Rutherford",
@@ -205,7 +216,7 @@
       "club": "Montclair",
       "coach": "Barrett",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-19",
@@ -272,22 +283,33 @@
           "result": "W",
           "time": "09:30 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415602",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B10DB-Lelinho",
+          "result": "W",
+          "time": "08:45 AM",
+          "venue_code": "MONT-BrookdaleC"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 22,
-      "goals_for": 38,
+      "goal_diff": 19,
+      "goals_against": 26,
+      "goals_for": 45,
       "losses": 2,
-      "played": 6,
-      "points": 12,
+      "played": 7,
+      "points": 15,
       "team_raw": "Montclair-B10DB-Barrett",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Nutley",
       "coach": "Lelinho",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -376,13 +398,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415602",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10DB-Barrett",
+          "result": "L",
+          "time": "08:45 AM",
+          "venue_code": "MONT-BrookdaleC"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 45,
-      "goals_for": 26,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -22,
+      "goals_against": 52,
+      "goals_for": 30,
+      "losses": 6,
+      "played": 9,
       "points": 9,
       "team_raw": "Nutley-B10DB-Lelinho",
       "wins": 3
@@ -573,13 +606,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415604",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10DB-Westemeyer",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 41,
-      "goals_for": 12,
-      "losses": 7,
-      "played": 7,
+      "goal_diff": -32,
+      "goals_against": 46,
+      "goals_for": 14,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "WOrange-B10DB-Porcaro",
       "wins": 0

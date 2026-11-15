@@ -1,6 +1,6 @@
 {
   "division": "G14B",
-  "scraped_at": "2026-11-14T13:15:22.868710Z",
+  "scraped_at": "2026-11-15T13:45:13.909777Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -320,7 +320,7 @@
       "club": "NoBergen",
       "coach": "Murillo",
       "draws": 4,
-      "form": "DDLWD",
+      "form": "DLWDW",
       "games": [
         {
           "date": "2026-09-26",
@@ -420,104 +420,33 @@
           "result": "D",
           "time": "04:30 PM",
           "venue_code": "LKLND-BBeach-Full"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 19,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 9,
-      "points": 10,
-      "team_raw": "NoBergen-G14B-Murillo",
-      "wins": 2
-    },
-    {
-      "club": "HobUtd",
-      "coach": "Andreula",
-      "draws": 2,
-      "form": "LDDWL",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "416713",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G14B-Rand",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "FL-CenterRec1"
         },
         {
-          "date": "2026-10-17",
-          "game_number": "416718",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G14B-Kehati",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416725",
-          "goals_against": 3,
-          "goals_for": 1,
+          "date": "2026-11-14",
+          "game_number": "416751",
+          "goals_against": 1,
+          "goals_for": 4,
           "opponent_club": "BLMFLD",
           "opponent_raw": "BLMFLD-G14B-Marri",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416731",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-G14B-Murillo",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416734",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "WayneBG",
-          "opponent_raw": "WayneBG-G14B-Scaturro",
           "result": "W",
-          "time": "01:15 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416739",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G14B-Marchetti",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "RDBH-HS-Stadium"
+          "time": "03:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 15,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 6,
-      "points": 8,
-      "team_raw": "HobUtd-G14B-Andreula",
+      "goal_diff": 5,
+      "goals_against": 17,
+      "goals_for": 22,
+      "losses": 1,
+      "played": 10,
+      "points": 10,
+      "team_raw": "NoBergen-G14B-Murillo",
       "wins": 2
     },
     {
       "club": "BLMFLD",
       "coach": "Marri",
       "draws": 1,
-      "form": "WLLWD",
+      "form": "LLWDL",
       "games": [
         {
           "date": "2026-10-03",
@@ -606,13 +535,24 @@
           "result": "D",
           "time": "06:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416751",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14B-Murillo",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -8,
+      "goal_diff": -10,
       "goals_against": 23,
-      "goals_for": 15,
+      "goals_for": 13,
       "losses": 4,
-      "played": 8,
+      "played": 9,
       "points": 7,
       "team_raw": "BLMFLD-G14B-Marri",
       "wins": 2
@@ -722,10 +662,103 @@
       "wins": 1
     },
     {
+      "club": "HobUtd",
+      "coach": "Andreula",
+      "draws": 3,
+      "form": "DDWLD",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "416713",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14B-Rand",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "FL-CenterRec1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416718",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-Kehati",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416725",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G14B-Marri",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416731",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14B-Murillo",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416734",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G14B-Scaturro",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416739",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14B-Marchetti",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416742",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14B-Rand",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 14,
+      "goals_for": 14,
+      "losses": 2,
+      "played": 7,
+      "points": 6,
+      "team_raw": "HobUtd-G14B-Andreula",
+      "wins": 1
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Rand",
-      "draws": 0,
-      "form": "LLLWL",
+      "draws": 1,
+      "form": "LLWLD",
       "games": [
         {
           "date": "2026-09-19",
@@ -803,14 +836,25 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416742",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14B-Andreula",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -18,
-      "goals_against": 26,
-      "goals_for": 8,
-      "losses": 6,
-      "played": 7,
-      "points": 3,
+      "goal_diff": -14,
+      "goals_against": 21,
+      "goals_for": 7,
+      "losses": 5,
+      "played": 8,
+      "points": 4,
       "team_raw": "FairLawnAllSports-G14B-Rand",
       "wins": 1
     }

@@ -8,6 +8,13 @@
       "name": "Wood Ridge Athletic Complex",
       "size": "Both (Small & Large)"
     },
+    "1155": {
+      "address": "516 E. Crescent Ave., Upper Saddle River, NJ 07458",
+      "comments": "110 yard full sided",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Lake Street Turf Soccer",
+      "size": "Large Field (11 vs 11)"
+    },
     "1186": {
       "address": "315 Hillside Avenue, Demarest, NJ 07626",
       "comments": "",
@@ -733,7 +740,7 @@
     },
     {
       "away_club": "Americans",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Americans-B14C-Hirsch",
       "date": "2026-11-15",
       "division": "B14C",
@@ -741,9 +748,9 @@
       "field_id": "1277",
       "game_id": "414256",
       "home_club": "Clarkstown",
-      "home_score": null,
+      "home_score": 8,
       "home_team": "Clarkstown-B14C-Iamurri",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:30 PM"
     },
     {
@@ -782,8 +789,8 @@
       "away_team": "RiverDell-B14C-Recanati",
       "date": "2026-11-21",
       "division": "B14C",
-      "field": "Lions Park South Full-sided",
-      "field_id": "424",
+      "field": "Lake Street Turf Soccer",
+      "field_id": "1155",
       "game_id": "414291",
       "home_club": "Americans",
       "home_score": null,
@@ -852,6 +859,6 @@
       "time": "11:00 AM"
     }
   ],
-  "scraped_at": "2026-11-15T13:49:11.690849Z",
+  "scraped_at": "2026-11-16T15:14:56.647060Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

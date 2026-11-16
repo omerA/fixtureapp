@@ -1,6 +1,6 @@
 {
   "division": "B13B",
-  "scraped_at": "2026-11-15T13:45:10.046712Z",
+  "scraped_at": "2026-11-16T15:11:26.752443Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -238,7 +238,7 @@
       "club": "GlenRock",
       "coach": "Gulmi",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-09-27",
@@ -261,6 +261,17 @@
           "result": "L",
           "time": "08:00 AM",
           "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414165",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13B-Silva",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
         },
         {
           "date": "2026-10-03",
@@ -329,14 +340,14 @@
           "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 20,
-      "goals_for": 28,
+      "goal_diff": 15,
+      "goals_against": 21,
+      "goals_for": 36,
       "losses": 4,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 15,
       "team_raw": "GlenRock-B13B-Gulmi",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Warriors",
@@ -457,7 +468,7 @@
       "club": "GlenRidge",
       "coach": "Silva",
       "draws": 0,
-      "form": "WLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-09-19",
@@ -469,6 +480,17 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "DRAG-WRMS-LG"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414165",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B13B-Gulmi",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
         },
         {
           "date": "2026-10-03",
@@ -526,11 +548,11 @@
           "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 20,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 6,
+      "goal_diff": -10,
+      "goals_against": 28,
+      "goals_for": 18,
+      "losses": 4,
+      "played": 7,
       "points": 9,
       "team_raw": "GlenRidge-B13B-Silva",
       "wins": 3

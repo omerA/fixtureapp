@@ -1,9 +1,112 @@
 {
   "division": "B13XB",
-  "scraped_at": "2026-11-15T13:45:10.534044Z",
+  "scraped_at": "2026-11-16T15:11:27.084035Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Belleville",
+      "coach": "Chavarria",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418025",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B13XB-Bzik",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 1,
+      "points": 3,
+      "team_raw": "Belleville-B13XB-Chavarria",
+      "wins": 1
+    },
+    {
+      "club": "Dragons",
+      "coach": "Neblock",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-10-05",
+          "game_number": "418021",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13XB-Kolodiy",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "COUGSC-Meadowlands"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418022",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13XB-Kolodiy",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 0,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Dragons-B13XB-Neblock",
+      "wins": 1
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Shalom",
+      "draws": 0,
+      "form": "LW",
+      "games": [
+        {
+          "date": "2026-11-12",
+          "game_number": "418023",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13XB-GraterolBriceno",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418024",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B13XB-GraterolBriceno",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 1,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "FairLawnAllSports-B13XB-Shalom",
+      "wins": 1
+    },
     {
       "club": "NMKnights",
       "coach": "Tramontano",
@@ -97,72 +200,57 @@
       "wins": 1
     },
     {
-      "club": "NoBergen",
-      "coach": "GraterolBriceno",
-      "draws": 0,
-      "form": "W",
+      "club": "Southside",
+      "coach": "Fernandez",
+      "draws": 1,
+      "form": "D",
       "games": [
         {
-          "date": "2026-11-12",
-          "game_number": "418023",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13XB-Shalom",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "NoBergen-HudsonPk2"
+          "date": "2026-11-15",
+          "game_number": "418013",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13XB-Schwartzberg",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 2,
-      "goals_for": 5,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "NoBergen-B13XB-GraterolBriceno",
-      "wins": 1
-    },
-    {
-      "club": "Dragons",
-      "coach": "Neblock",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-05",
-          "game_number": "418021",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13XB-Kolodiy",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "COUGSC-Meadowlands"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 3,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Dragons-B13XB-Neblock",
-      "wins": 1
-    },
-    {
-      "club": "Belleville",
-      "coach": "Chavarria",
-      "draws": 0,
-      "form": "",
-      "games": [],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 1,
+      "goals_for": 1,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Belleville-B13XB-Chavarria",
+      "played": 1,
+      "points": 1,
+      "team_raw": "Southside-B13XB-Fernandez",
+      "wins": 0
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Schwartzberg",
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418013",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B13XB-Fernandez",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 1,
+      "goals_for": 1,
+      "losses": 0,
+      "played": 1,
+      "points": 1,
+      "team_raw": "Tenafly-B13XB-Schwartzberg",
       "wins": 0
     },
     {
@@ -181,51 +269,6 @@
       "wins": 0
     },
     {
-      "club": "Southside",
-      "coach": "Fernandez",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Southside-B13XB-Fernandez",
-      "wins": 0
-    },
-    {
-      "club": "Tenafly",
-      "coach": "Schwartzberg",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Tenafly-B13XB-Schwartzberg",
-      "wins": 0
-    },
-    {
-      "club": "Warriors",
-      "coach": "Bzik",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Warriors-B13XB-Bzik",
-      "wins": 0
-    },
-    {
       "club": "WayneBG",
       "coach": "Sanchez",
       "draws": 0,
@@ -238,6 +281,44 @@
       "played": 0,
       "points": 0,
       "team_raw": "WayneBG-B13XB-Sanchez",
+      "wins": 0
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Kolodiy",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-10-05",
+          "game_number": "418021",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13XB-Neblock",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "COUGSC-Meadowlands"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418022",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B13XB-Neblock",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-WestwdHS"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 2,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "CougarSC-B13XB-Kolodiy",
       "wins": 0
     },
     {
@@ -279,57 +360,41 @@
       "wins": 0
     },
     {
-      "club": "CougarSC",
-      "coach": "Kolodiy",
+      "club": "NoBergen",
+      "coach": "GraterolBriceno",
       "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-05",
-          "game_number": "418021",
-          "goals_against": 4,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B13XB-Neblock",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "COUGSC-Meadowlands"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 4,
-      "goals_for": 3,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "CougarSC-B13XB-Kolodiy",
-      "wins": 0
-    },
-    {
-      "club": "FairLawnAllSports",
-      "coach": "Shalom",
-      "draws": 0,
-      "form": "L",
+      "form": "WL",
       "games": [
         {
           "date": "2026-11-12",
           "game_number": "418023",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B13XB-GraterolBriceno",
-          "result": "L",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13XB-Shalom",
+          "result": "W",
           "time": "06:30 PM",
           "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418024",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13XB-Shalom",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 5,
-      "goals_for": 2,
+      "goal_diff": -2,
+      "goals_against": 3,
+      "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
-      "team_raw": "FairLawnAllSports-B13XB-Shalom",
+      "team_raw": "NoBergen-B13XB-GraterolBriceno",
       "wins": 0
     },
     {
@@ -384,6 +449,33 @@
       "played": 1,
       "points": 0,
       "team_raw": "RiverDell-B13XB-Sullivan",
+      "wins": 0
+    },
+    {
+      "club": "Warriors",
+      "coach": "Bzik",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418025",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B13XB-Chavarria",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Warriors-B13XB-Bzik",
       "wins": 0
     }
   ]

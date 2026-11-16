@@ -1,6 +1,6 @@
 {
   "division": "B09A",
-  "scraped_at": "2026-11-15T13:45:06.427339Z",
+  "scraped_at": "2026-11-16T15:11:24.307307Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "WorldClassFC",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "LWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -146,6 +146,17 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415411",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09A-Callegari",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NY-WC-Field2"
         },
         {
           "date": "2026-10-03",
@@ -214,14 +225,14 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 30,
-      "goals_for": 33,
+      "goal_diff": 6,
+      "goals_against": 32,
+      "goals_for": 38,
       "losses": 3,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "WorldClassFC-B09A-GuevaraFuentes",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Clarkstown",
@@ -457,7 +468,7 @@
       "club": "NASA",
       "coach": "Callegari",
       "draws": 1,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -480,6 +491,17 @@
           "result": "W",
           "time": "12:45 PM",
           "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415411",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09A-GuevaraFuentes",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NY-WC-Field2"
         },
         {
           "date": "2026-10-03",
@@ -548,11 +570,11 @@
           "venue_code": "NY-CLARK-Zukor2A"
         }
       ],
-      "goal_diff": 8,
-      "goals_against": 23,
-      "goals_for": 31,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": 5,
+      "goals_against": 28,
+      "goals_for": 33,
+      "losses": 5,
+      "played": 9,
       "points": 10,
       "team_raw": "NASA-B09A-Callegari",
       "wins": 3

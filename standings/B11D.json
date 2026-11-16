@@ -1,6 +1,6 @@
 {
   "division": "B11D",
-  "scraped_at": "2026-11-15T13:45:08.616959Z",
+  "scraped_at": "2026-11-16T15:11:25.795724Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "NASA",
       "coach": "Callegari",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -192,6 +192,17 @@
           "venue_code": "RYSA-Heights"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "417256",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B11D-Percontino",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "417260",
           "goals_against": 0,
@@ -214,14 +225,14 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 18,
-      "goals_for": 29,
+      "goal_diff": 17,
+      "goals_against": 19,
+      "goals_for": 36,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "NASA-B11D-Callegari",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Clarkstown",
@@ -454,6 +465,121 @@
       "wins": 4
     },
     {
+      "club": "Verona",
+      "coach": "Ostendorp",
+      "draws": 2,
+      "form": "WLLDW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "416210",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11D-Cheshenko",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416212",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B11D-Callegari",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-JFK-Small"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "416219",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B11D-Rushing",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417242",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B11D-Piccione",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417246",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B11D-Percontino",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417250",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B11D-Maalouf",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "417257",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B11D-Civitarese",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "VERONA-Freedom1"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417258",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11D-Ulloa",
+          "result": "D",
+          "time": "04:45 PM",
+          "venue_code": "VERONA-Centennial"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417265",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B11D-Valles",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 31,
+      "goals_for": 32,
+      "losses": 4,
+      "played": 9,
+      "points": 11,
+      "team_raw": "Verona-B11D-Ostendorp",
+      "wins": 3
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Maalouf",
       "draws": 1,
@@ -673,110 +799,6 @@
       "wins": 3
     },
     {
-      "club": "Verona",
-      "coach": "Ostendorp",
-      "draws": 2,
-      "form": "DWLLD",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416210",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B11D-Cheshenko",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416212",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B11D-Callegari",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "WYNE-JFK-Small"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "416219",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-B11D-Rushing",
-          "result": "L",
-          "time": "03:15 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417242",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B11D-Piccione",
-          "result": "D",
-          "time": "03:30 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417246",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B11D-Percontino",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "VERONA-Centennial"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "417250",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B11D-Maalouf",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "FL-CenterRec1A"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "417257",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B11D-Civitarese",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "VERONA-Freedom1"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "417258",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B11D-Ulloa",
-          "result": "D",
-          "time": "04:45 PM",
-          "venue_code": "VERONA-Centennial"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 29,
-      "goals_for": 27,
-      "losses": 4,
-      "played": 8,
-      "points": 8,
-      "team_raw": "Verona-B11D-Ostendorp",
-      "wins": 2
-    },
-    {
       "club": "Belleville",
       "coach": "Ulloa",
       "draws": 1,
@@ -895,7 +917,7 @@
       "club": "GlobalJC",
       "coach": "Valles",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -962,13 +984,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "RYSA-Heights"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417265",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B11D-Ostendorp",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 19,
-      "goals_for": 9,
-      "losses": 4,
-      "played": 6,
+      "goal_diff": -13,
+      "goals_against": 24,
+      "goals_for": 11,
+      "losses": 5,
+      "played": 7,
       "points": 6,
       "team_raw": "GlobalJC-B11D-Valles",
       "wins": 2
@@ -977,7 +1010,7 @@
       "club": "NoBergen",
       "coach": "Percontino",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -1035,6 +1068,17 @@
           "venue_code": "NoBergen-HudsonPk2"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "417256",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B11D-Callegari",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "417261",
           "goals_against": 6,
@@ -1057,11 +1101,11 @@
           "venue_code": "RYSA-Heights"
         }
       ],
-      "goal_diff": -28,
-      "goals_against": 39,
-      "goals_for": 11,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -34,
+      "goals_against": 46,
+      "goals_for": 12,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "NoBergen-B11D-Percontino",
       "wins": 1

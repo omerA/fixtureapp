@@ -978,7 +978,7 @@
     },
     {
       "away_club": "Vikings",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Vikings-B09H-Laroche",
       "date": "2026-11-15",
       "division": "B09H",
@@ -986,14 +986,14 @@
       "field_id": "751",
       "game_id": "417105",
       "home_club": "WestEssex",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "WestEssex-B09H-Sevilla",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "Hackensack",
-      "away_score": null,
+      "away_score": 4,
       "away_team": "Hackensack-B09H-Holder",
       "date": "2026-11-15",
       "division": "B09H",
@@ -1001,14 +1001,14 @@
       "field_id": "43",
       "game_id": "417662",
       "home_club": "NoRockland",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "NoRockland-B09H-Germain",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "SaddleBR",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "SaddleBR-B09H-Belgiovine",
       "date": "2026-11-15",
       "division": "B09H",
@@ -1016,10 +1016,25 @@
       "field_id": "131",
       "game_id": "417108",
       "home_club": "Spartan",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Spartan-B09H-McCormack",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "02:00 PM"
+    },
+    {
+      "away_club": "Southside",
+      "away_score": null,
+      "away_team": "Southside-B09H-Zamora",
+      "date": "2026-11-21",
+      "division": "B09H",
+      "field": "Stevens Field - SS 2",
+      "field_id": "1088",
+      "game_id": "417116",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-B09H-Harrison",
+      "is_upcoming": true,
+      "time": "08:00 AM"
     },
     {
       "away_club": "FairLawnAllSports",
@@ -1082,21 +1097,6 @@
       "time": "03:00 PM"
     },
     {
-      "away_club": "Southside",
-      "away_score": null,
-      "away_team": "Southside-B09H-Zamora",
-      "date": "2026-11-21",
-      "division": "B09H",
-      "field": "Stevens Field - SS 2",
-      "field_id": "1088",
-      "game_id": "417116",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-B09H-Harrison",
-      "is_upcoming": true,
-      "time": "03:30 PM"
-    },
-    {
       "away_club": "Maroons",
       "away_score": null,
       "away_team": "Maroons-B09H-Harrison",
@@ -1127,6 +1127,6 @@
       "time": "03:00 PM"
     }
   ],
-  "scraped_at": "2026-11-15T13:46:21.469235Z",
+  "scraped_at": "2026-11-16T15:12:29.925994Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

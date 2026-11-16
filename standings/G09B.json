@@ -1,14 +1,118 @@
 {
   "division": "G09B",
-  "scraped_at": "2026-11-15T13:45:11.741917Z",
+  "scraped_at": "2026-11-16T15:11:27.909275Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
+      "club": "SaddleBR",
+      "coach": "Fontalvo",
+      "draws": 0,
+      "form": "WLWWW",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "414364",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G09B-Thorwarth",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "AMER-GuardianAngel"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414371",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09B-VanDyke",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-09-13",
+          "game_number": "416537",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G09B-Thorwarth",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416545",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09B-Meo",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416548",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09B-Esposto",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416553",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09B-Vaquero",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416555",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09B-Chiosie",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416558",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09B-Reynoso",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "EM-HSTurf2Small"
+        }
+      ],
+      "goal_diff": 15,
+      "goals_against": 3,
+      "goals_for": 18,
+      "losses": 1,
+      "played": 8,
+      "points": 18,
+      "team_raw": "SaddleBR-G09B-Fontalvo",
+      "wins": 6
+    },
+    {
       "club": "WorldClassFC",
       "coach": "VanDyke",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-11-01",
@@ -31,6 +135,17 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414371",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G09B-Fontalvo",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
         },
         {
           "date": "2026-10-03",
@@ -88,11 +203,11 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 23,
-      "goals_against": 4,
+      "goal_diff": 22,
+      "goals_against": 5,
       "goals_for": 27,
-      "losses": 0,
-      "played": 7,
+      "losses": 1,
+      "played": 8,
       "points": 18,
       "team_raw": "WorldClassFC-G09B-VanDyke",
       "wins": 6
@@ -101,8 +216,30 @@
       "club": "Emerson",
       "coach": "Reynoso",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "414365",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09B-Chiosie",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414370",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09B-Vaquero",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
         {
           "date": "2026-09-13",
           "game_number": "416534",
@@ -181,113 +318,20 @@
           "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 7,
-      "goals_for": 35,
+      "goal_diff": 22,
+      "goals_against": 8,
+      "goals_for": 30,
       "losses": 1,
-      "played": 7,
+      "played": 9,
       "points": 18,
       "team_raw": "Emerson-G09B-Reynoso",
       "wins": 6
     },
     {
-      "club": "SaddleBR",
-      "coach": "Fontalvo",
-      "draws": 0,
-      "form": "WWLWW",
-      "games": [
-        {
-          "date": "2026-11-08",
-          "game_number": "414364",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G09B-Thorwarth",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "AMER-GuardianAngel"
-        },
-        {
-          "date": "2026-09-13",
-          "game_number": "416537",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-G09B-Thorwarth",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416545",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G09B-Meo",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "416548",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G09B-Esposto",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416553",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G09B-Vaquero",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "MAR-MapleParkEastSm"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416555",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Force",
-          "opponent_raw": "Force-G09B-Chiosie",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416558",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G09B-Reynoso",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "EM-HSTurf2Small"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 3,
-      "goals_for": 17,
-      "losses": 1,
-      "played": 7,
-      "points": 15,
-      "team_raw": "SaddleBR-G09B-Fontalvo",
-      "wins": 5
-    },
-    {
       "club": "HobUtd",
       "coach": "Esposto",
       "draws": 0,
-      "form": "WLWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-11-08",
@@ -299,6 +343,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414369",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G09B-Meo",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
         },
         {
           "date": "2026-09-13",
@@ -378,11 +433,11 @@
           "venue_code": "HobUTD-SinatraPkNrth"
         }
       ],
-      "goal_diff": 8,
+      "goal_diff": 3,
       "goals_against": 10,
-      "goals_for": 18,
+      "goals_for": 13,
       "losses": 3,
-      "played": 8,
+      "played": 9,
       "points": 12,
       "team_raw": "HobUtd-G09B-Esposto",
       "wins": 4
@@ -390,8 +445,8 @@
     {
       "club": "Americans",
       "coach": "Thorwarth",
-      "draws": 1,
-      "form": "LWWLL",
+      "draws": 2,
+      "form": "WWLLD",
       "games": [
         {
           "date": "2026-11-08",
@@ -403,6 +458,17 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "AMER-GuardianAngel"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414368",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G09B-Chiosie",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
         },
         {
           "date": "2026-09-13",
@@ -482,20 +548,20 @@
           "venue_code": "HobUTD-SinatraPkNrth"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 24,
-      "goals_for": 19,
+      "goal_diff": -7,
+      "goals_against": 21,
+      "goals_for": 14,
       "losses": 4,
-      "played": 8,
-      "points": 7,
+      "played": 9,
+      "points": 5,
       "team_raw": "Americans-G09B-Thorwarth",
-      "wins": 2
+      "wins": 1
     },
     {
       "club": "Maroons",
       "coach": "Vaquero",
       "draws": 1,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-11-14",
@@ -507,6 +573,17 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414370",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09B-Reynoso",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MAR-MapleParkEastSm"
         },
         {
           "date": "2026-11-01",
@@ -586,11 +663,11 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 19,
-      "goals_for": 7,
+      "goal_diff": -8,
+      "goals_against": 16,
+      "goals_for": 8,
       "losses": 5,
-      "played": 8,
+      "played": 9,
       "points": 4,
       "team_raw": "Maroons-G09B-Vaquero",
       "wins": 1
@@ -599,7 +676,7 @@
       "club": "Vikings",
       "coach": "Meo",
       "draws": 1,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-11-01",
@@ -622,6 +699,17 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414369",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09B-Esposto",
+          "result": "L",
+          "time": "04:45 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
         },
         {
           "date": "2026-10-24",
@@ -690,11 +778,11 @@
           "venue_code": "VIK-Demarest-Low7v7"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 33,
+      "goal_diff": -24,
+      "goals_against": 28,
       "goals_for": 4,
       "losses": 5,
-      "played": 8,
+      "played": 9,
       "points": 4,
       "team_raw": "Vikings-G09B-Meo",
       "wins": 1
@@ -702,9 +790,31 @@
     {
       "club": "Force",
       "coach": "Chiosie",
-      "draws": 1,
-      "form": "DLLLL",
+      "draws": 2,
+      "form": "LLLDL",
       "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "414365",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G09B-Reynoso",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414368",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-G09B-Thorwarth",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
         {
           "date": "2026-10-03",
           "game_number": "414375",
@@ -783,12 +893,12 @@
           "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 33,
-      "goals_for": 6,
-      "losses": 6,
-      "played": 7,
-      "points": 1,
+      "goal_diff": -23,
+      "goals_against": 26,
+      "goals_for": 3,
+      "losses": 5,
+      "played": 9,
+      "points": 2,
       "team_raw": "Force-G09B-Chiosie",
       "wins": 0
     }

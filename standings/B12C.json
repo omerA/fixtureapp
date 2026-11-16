@@ -1,6 +1,6 @@
 {
   "division": "B12C",
-  "scraped_at": "2026-11-15T13:45:09.286811Z",
+  "scraped_at": "2026-11-16T15:11:26.238567Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -457,7 +457,7 @@
       "club": "GlenRock",
       "coach": "Chafetz",
       "draws": 3,
-      "form": "DWLWD",
+      "form": "WLWDL",
       "games": [
         {
           "date": "2026-10-04",
@@ -537,6 +537,17 @@
           "venue_code": "RYSA-Heights"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "417346",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-B12C-Ceron",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "417350",
           "goals_against": 1,
@@ -548,11 +559,11 @@
           "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 26,
-      "goals_for": 28,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 1,
+      "goals_against": 30,
+      "goals_for": 31,
+      "losses": 3,
+      "played": 9,
       "points": 12,
       "team_raw": "GlenRock-B12C-Chafetz",
       "wins": 3
@@ -1021,7 +1032,7 @@
       "club": "NoArlington",
       "coach": "Ceron",
       "draws": 1,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -1099,16 +1110,27 @@
           "result": "W",
           "time": "02:45 PM",
           "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "417346",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B12C-Chafetz",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 10,
-      "goals_for": 36,
+      "goal_diff": 27,
+      "goals_against": 13,
+      "goals_for": 40,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "NoArlington-B12C-Ceron",
-      "wins": 5
+      "wins": 6
     }
   ]
 }

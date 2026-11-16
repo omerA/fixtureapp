@@ -1,14 +1,14 @@
 {
   "division": "B10HB",
-  "scraped_at": "2026-11-15T13:45:08.148072Z",
+  "scraped_at": "2026-11-16T15:11:25.474847Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "HobUtd",
       "coach": "Henriques",
-      "draws": 1,
-      "form": "WDLWW",
+      "draws": 2,
+      "form": "DLWWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -31,6 +31,17 @@
           "result": "L",
           "time": "07:30 PM",
           "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413978",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10HB-Orgera",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-10-03",
@@ -100,19 +111,19 @@
         }
       ],
       "goal_diff": 12,
-      "goals_against": 19,
-      "goals_for": 31,
+      "goals_against": 21,
+      "goals_for": 33,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 17,
       "team_raw": "HobUtd-B10HB-Henriques",
       "wins": 5
     },
     {
       "club": "CougarSC",
       "coach": "Orgera",
-      "draws": 0,
-      "form": "LLWWW",
+      "draws": 1,
+      "form": "LWWWD",
       "games": [
         {
           "date": "2026-11-08",
@@ -135,6 +146,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413978",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10HB-Henriques",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
         },
         {
           "date": "2026-10-03",
@@ -204,13 +226,128 @@
         }
       ],
       "goal_diff": 5,
-      "goals_against": 12,
-      "goals_for": 17,
+      "goals_against": 14,
+      "goals_for": 19,
       "losses": 3,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 16,
       "team_raw": "CougarSC-B10HB-Orgera",
       "wins": 5
+    },
+    {
+      "club": "ST23",
+      "coach": "Rosskamp",
+      "draws": 3,
+      "form": "WDLDW",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "413972",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10HB-Orgera",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "413977",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10HB-Henriques",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413980",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10HB-Pierro",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "413983",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10HB-Perrelle",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "413986",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B10HB-Patel",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "413989",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10HB-Orgera",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "413991",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10HB-Henriques",
+          "result": "D",
+          "time": "04:30 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "413995",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B10HB-Pierro",
+          "result": "D",
+          "time": "02:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "413997",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B10HB-Perrelle",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 20,
+      "goals_for": 23,
+      "losses": 2,
+      "played": 9,
+      "points": 15,
+      "team_raw": "ST23-B10HB-Rosskamp",
+      "wins": 4
     },
     {
       "club": "SaddleBR",
@@ -317,114 +454,10 @@
       "wins": 4
     },
     {
-      "club": "ST23",
-      "coach": "Rosskamp",
-      "draws": 3,
-      "form": "DWDLD",
-      "games": [
-        {
-          "date": "2026-11-08",
-          "game_number": "413972",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B10HB-Orgera",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "413977",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10HB-Henriques",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "413983",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B10HB-Perrelle",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "GLENRDGE-CarteretSm"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "413986",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B10HB-Patel",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "413989",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B10HB-Orgera",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "413991",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10HB-Henriques",
-          "result": "D",
-          "time": "04:30 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "413995",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B10HB-Pierro",
-          "result": "D",
-          "time": "02:00 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "413997",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-B10HB-Perrelle",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "GLENRDGE-CarteretSm"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 18,
-      "goals_for": 19,
-      "losses": 2,
-      "played": 8,
-      "points": 12,
-      "team_raw": "ST23-B10HB-Rosskamp",
-      "wins": 3
-    },
-    {
       "club": "Vikings",
       "coach": "Pierro",
       "draws": 1,
-      "form": "LLWDL",
+      "form": "LWDLL",
       "games": [
         {
           "date": "2026-09-27",
@@ -447,6 +480,17 @@
           "result": "L",
           "time": "12:30 PM",
           "venue_code": "SaddleBR-SmithField2"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413980",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B10HB-Rosskamp",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
         },
         {
           "date": "2026-10-03",
@@ -515,11 +559,11 @@
           "venue_code": "VIK-Demarest-Low7v7"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 26,
-      "goals_for": 18,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -10,
+      "goals_against": 30,
+      "goals_for": 20,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "Vikings-B10HB-Pierro",
       "wins": 2

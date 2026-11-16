@@ -1,6 +1,6 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-11-15T13:45:09.064084Z",
+  "scraped_at": "2026-11-16T15:11:26.092902Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -62,7 +62,7 @@
       "club": "GlenRidge",
       "coach": "Yucel",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-08",
@@ -74,13 +74,24 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418047",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B11XW-Ulloa",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "GLENRDGE-ForestAve"
         }
       ],
       "goal_diff": 4,
-      "goals_against": 2,
-      "goals_for": 6,
+      "goals_against": 3,
+      "goals_for": 7,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "GlenRidge-B11XW-Yucel",
       "wins": 1
@@ -143,7 +154,7 @@
       "club": "Belleville",
       "coach": "Ulloa",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-11-08",
@@ -155,13 +166,24 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418047",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B11XW-Yucel",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "GLENRDGE-ForestAve"
         }
       ],
       "goal_diff": -4,
-      "goals_against": 6,
-      "goals_for": 2,
+      "goals_against": 7,
+      "goals_for": 3,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Belleville-B11XW-Ulloa",
       "wins": 0

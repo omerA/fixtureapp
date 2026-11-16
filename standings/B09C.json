@@ -1,6 +1,6 @@
 {
   "division": "B09C",
-  "scraped_at": "2026-11-15T13:45:06.571868Z",
+  "scraped_at": "2026-11-16T15:11:24.403776Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -432,10 +432,125 @@
       "wins": 2
     },
     {
+      "club": "Bergenfield",
+      "coach": "Asadi",
+      "draws": 3,
+      "form": "DDDLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415463",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09C-Leone",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415468",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B09C-Escher",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415474",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B09C-Gunther",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415475",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B09C-Macias",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415953",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B09C-Dieme",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "JC-GatewaySm1"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415956",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B09C-Vinciguerra",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415960",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B09C-Hutson",
+          "result": "D",
+          "time": "01:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415967",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09C-Leone",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415968",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B09C-Escher",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "BGFD-RoyBrown"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 21,
+      "goals_for": 17,
+      "losses": 2,
+      "played": 9,
+      "points": 9,
+      "team_raw": "Bergenfield-B09C-Asadi",
+      "wins": 2
+    },
+    {
       "club": "Tenafly",
       "coach": "Gunther",
       "draws": 1,
-      "form": "LLWLD",
+      "form": "LWLDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -458,6 +573,17 @@
           "result": "D",
           "time": "12:30 PM",
           "venue_code": "SS-HamiltonA"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415474",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B09C-Asadi",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "TEN-Sunnyside"
         },
         {
           "date": "2026-10-03",
@@ -526,11 +652,11 @@
           "venue_code": "TEN-Sunnyside"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 19,
-      "goals_for": 7,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -16,
+      "goals_against": 26,
+      "goals_for": 10,
+      "losses": 4,
+      "played": 9,
       "points": 7,
       "team_raw": "Tenafly-B09C-Gunther",
       "wins": 2
@@ -649,110 +775,6 @@
       "points": 7,
       "team_raw": "NoValley-B09C-Hutson",
       "wins": 2
-    },
-    {
-      "club": "Bergenfield",
-      "coach": "Asadi",
-      "draws": 3,
-      "form": "WDDDL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415463",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09C-Leone",
-          "result": "L",
-          "time": "02:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415468",
-          "goals_against": 3,
-          "goals_for": 4,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B09C-Escher",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "LKLND-BBeach-Sml-7v7"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415475",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B09C-Macias",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415953",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B09C-Dieme",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "JC-GatewaySm1"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415956",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-B09C-Vinciguerra",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "415960",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-B09C-Hutson",
-          "result": "D",
-          "time": "01:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "415967",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B09C-Leone",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "NY-WC-Field3"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "415968",
-          "goals_against": 4,
-          "goals_for": 0,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-B09C-Escher",
-          "result": "L",
-          "time": "01:00 PM",
-          "venue_code": "BGFD-RoyBrown"
-        }
-      ],
-      "goal_diff": -8,
-      "goals_against": 18,
-      "goals_for": 10,
-      "losses": 2,
-      "played": 8,
-      "points": 6,
-      "team_raw": "Bergenfield-B09C-Asadi",
-      "wins": 1
     },
     {
       "club": "GlobalJC",

@@ -1,34 +1,72 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-11-15T13:45:08.278272Z",
+  "scraped_at": "2026-11-16T15:11:25.567523Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
-      "club": "HobUtd",
-      "coach": "Gandolfi",
+      "club": "RiverDell",
+      "coach": "Cilia",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418064",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B10XW-Doyle",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "418065",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B10XW-Doyle",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "RDGFLDPK-Veterans"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "RiverDell-B10XW-Cilia",
+      "wins": 1
+    },
+    {
+      "club": "Lyndhurst",
+      "coach": "Westemeyer",
       "draws": 0,
       "form": "W",
       "games": [
         {
-          "date": "2026-11-08",
-          "game_number": "418060",
+          "date": "2026-11-15",
+          "game_number": "418053",
           "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B10XW-Marmanides",
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10XW-Millard",
           "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "HobUTD-1600Park"
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 6,
+      "goal_diff": 2,
       "goals_against": 0,
-      "goals_for": 6,
+      "goals_for": 2,
       "losses": 0,
       "played": 1,
       "points": 3,
-      "team_raw": "HobUtd-B10XW-Gandolfi",
+      "team_raw": "Lyndhurst-B10XW-Westemeyer",
       "wins": 1
     },
     {
@@ -59,30 +97,68 @@
       "wins": 1
     },
     {
-      "club": "RiverDell",
-      "coach": "Cilia",
+      "club": "WoodRidge",
+      "coach": "Prior",
       "draws": 0,
       "form": "W",
       "games": [
         {
-          "date": "2026-11-05",
-          "game_number": "418065",
+          "date": "2026-11-15",
+          "game_number": "418054",
           "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B10XW-Doyle",
+          "goals_for": 6,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10XW-Millar",
           "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "RDGFLDPK-Veterans"
+          "time": "12:00 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 5,
       "goals_against": 1,
-      "goals_for": 4,
+      "goals_for": 6,
       "losses": 0,
       "played": 1,
       "points": 3,
-      "team_raw": "RiverDell-B10XW-Cilia",
+      "team_raw": "WoodRidge-B10XW-Prior",
+      "wins": 1
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Gandolfi",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418060",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10XW-Marmanides",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418061",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10XW-Marmanides",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 2,
+      "goals_for": 6,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "HobUtd-B10XW-Gandolfi",
       "wins": 1
     },
     {
@@ -113,21 +189,6 @@
       "wins": 1
     },
     {
-      "club": "CougarSC",
-      "coach": "Millard",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "CougarSC-B10XW-Millard",
-      "wins": 0
-    },
-    {
       "club": "Dragons",
       "coach": "Friedman",
       "draws": 0,
@@ -143,21 +204,6 @@
       "wins": 0
     },
     {
-      "club": "Lyndhurst",
-      "coach": "Westemeyer",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Lyndhurst-B10XW-Westemeyer",
-      "wins": 0
-    },
-    {
       "club": "Maroons",
       "coach": "OHara",
       "draws": 0,
@@ -170,36 +216,6 @@
       "played": 0,
       "points": 0,
       "team_raw": "Maroons-B10XW-OHara",
-      "wins": 0
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Millar",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-B10XW-Millar",
-      "wins": 0
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Prior",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "WoodRidge-B10XW-Prior",
       "wins": 0
     },
     {
@@ -241,11 +257,87 @@
       "wins": 0
     },
     {
-      "club": "RdgfldPk",
-      "coach": "Doyle",
+      "club": "CougarSC",
+      "coach": "Millard",
       "draws": 0,
       "form": "L",
       "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418053",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10XW-Westemeyer",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 2,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "CougarSC-B10XW-Millard",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Marmanides",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418060",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10XW-Gandolfi",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418061",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10XW-Gandolfi",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 6,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "RiverDell-B10XW-Marmanides",
+      "wins": 0
+    },
+    {
+      "club": "RdgfldPk",
+      "coach": "Doyle",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418064",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10XW-Cilia",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
         {
           "date": "2026-11-05",
           "game_number": "418065",
@@ -258,11 +350,11 @@
           "venue_code": "RDGFLDPK-Veterans"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "RdgfldPk-B10XW-Doyle",
       "wins": 0
@@ -295,30 +387,30 @@
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Marmanides",
+      "club": "Rutherford",
+      "coach": "Millar",
       "draws": 0,
       "form": "L",
       "games": [
         {
-          "date": "2026-11-08",
-          "game_number": "418060",
+          "date": "2026-11-15",
+          "game_number": "418054",
           "goals_against": 6,
-          "goals_for": 0,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10XW-Gandolfi",
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10XW-Prior",
           "result": "L",
-          "time": "01:45 PM",
-          "venue_code": "HobUTD-1600Park"
+          "time": "12:00 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
         }
       ],
-      "goal_diff": -6,
+      "goal_diff": -5,
       "goals_against": 6,
-      "goals_for": 0,
+      "goals_for": 1,
       "losses": 1,
       "played": 1,
       "points": 0,
-      "team_raw": "RiverDell-B10XW-Marmanides",
+      "team_raw": "Rutherford-B10XW-Millar",
       "wins": 0
     },
     {

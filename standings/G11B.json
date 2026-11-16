@@ -1,14 +1,14 @@
 {
   "division": "G11B",
-  "scraped_at": "2026-11-15T13:45:12.748868Z",
+  "scraped_at": "2026-11-16T15:11:28.616986Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Dragons",
       "coach": "Cotter",
-      "draws": 1,
-      "form": "WWWDW",
+      "draws": 2,
+      "form": "WWDWD",
       "games": [
         {
           "date": "2026-09-13",
@@ -88,6 +88,17 @@
           "venue_code": "MAYWOOD-MemorialPkLg"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415365",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G11B-Zaidenberg",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
           "date": "2026-10-25",
           "game_number": "417908",
           "goals_against": 0,
@@ -99,20 +110,20 @@
           "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 6,
-      "goals_for": 35,
+      "goal_diff": 22,
+      "goals_against": 8,
+      "goals_for": 30,
       "losses": 0,
-      "played": 8,
-      "points": 22,
+      "played": 9,
+      "points": 20,
       "team_raw": "Dragons-G11B-Cotter",
-      "wins": 7
+      "wins": 6
     },
     {
       "club": "CougarUtd",
       "coach": "Zaidenberg",
-      "draws": 1,
-      "form": "WWWLW",
+      "draws": 2,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-10-18",
@@ -181,6 +192,28 @@
           "venue_code": "COUGUTD-Front"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415365",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11B-Cotter",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415370",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G11B-Dillow",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
           "date": "2026-10-25",
           "game_number": "417908",
           "goals_against": 7,
@@ -192,12 +225,12 @@
           "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": 11,
-      "goals_against": 14,
-      "goals_for": 25,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
+      "goal_diff": 17,
+      "goals_against": 10,
+      "goals_for": 27,
+      "losses": 0,
+      "played": 9,
+      "points": 17,
       "team_raw": "CougarUtd-G11B-Zaidenberg",
       "wins": 5
     },
@@ -205,7 +238,7 @@
       "club": "AviatorsHHSA",
       "coach": "Emara",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWL",
       "games": [
         {
           "date": "2026-10-24",
@@ -283,13 +316,24 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415368",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G11B-DePinho",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "WORANGE-Oconnor"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 9,
+      "goal_diff": 6,
+      "goals_against": 10,
       "goals_for": 16,
-      "losses": 2,
-      "played": 7,
+      "losses": 3,
+      "played": 8,
       "points": 15,
       "team_raw": "AviatorsHHSA-G11B-Emara",
       "wins": 5
@@ -298,7 +342,7 @@
       "club": "Maroons",
       "coach": "Vaquero",
       "draws": 1,
-      "form": "DWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-10-24",
@@ -378,6 +422,17 @@
           "venue_code": "COUGUTD-Front"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415367",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G11B-Trinkwalder",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "417907",
           "goals_against": 5,
@@ -389,20 +444,20 @@
           "venue_code": "MAR-MapleParkWestSm"
         }
       ],
-      "goal_diff": -4,
+      "goal_diff": 3,
       "goals_against": 11,
-      "goals_for": 7,
+      "goals_for": 14,
       "losses": 3,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 13,
       "team_raw": "Maroons-G11B-Vaquero",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Emerson",
       "coach": "Dillow",
-      "draws": 1,
-      "form": "WLDWL",
+      "draws": 2,
+      "form": "DWLDL",
       "games": [
         {
           "date": "2026-10-18",
@@ -482,6 +537,28 @@
           "venue_code": "EM-HSTurf2Small"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415366",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11B-Pardo",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415370",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G11B-Zaidenberg",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
           "date": "2026-10-25",
           "game_number": "417910",
           "goals_against": 3,
@@ -493,14 +570,107 @@
           "venue_code": "NY-CLARK-KennedyPk1"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 15,
-      "goals_for": 20,
+      "goal_diff": 6,
+      "goals_against": 16,
+      "goals_for": 22,
       "losses": 3,
-      "played": 8,
-      "points": 10,
+      "played": 10,
+      "points": 11,
       "team_raw": "Emerson-G11B-Dillow",
       "wins": 3
+    },
+    {
+      "club": "Maywood",
+      "coach": "Pardo",
+      "draws": 4,
+      "form": "LLDDD",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "415118",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G11B-JuarezOsorio",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415125",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G11B-Zaidenberg",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415129",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G11B-Trinkwalder",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-10-02",
+          "game_number": "415343",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G11B-Emara",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415358",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11B-Vaquero",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-11-06",
+          "game_number": "415363",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G11B-Cotter",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415366",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G11B-Dillow",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "EM-HSTurf2Small"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 15,
+      "goals_for": 15,
+      "losses": 2,
+      "played": 7,
+      "points": 7,
+      "team_raw": "Maywood-G11B-Pardo",
+      "wins": 1
     },
     {
       "club": "Clarkstown",
@@ -618,81 +788,10 @@
       "wins": 2
     },
     {
-      "club": "Maywood",
-      "coach": "Pardo",
-      "draws": 2,
-      "form": "WDLLD",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415118",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G11B-JuarezOsorio",
-          "result": "W",
-          "time": "01:45 PM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415125",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G11B-Zaidenberg",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-10-02",
-          "game_number": "415343",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-G11B-Emara",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "415358",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G11B-Vaquero",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "MAR-MapleParkWestSm"
-        },
-        {
-          "date": "2026-11-06",
-          "game_number": "415363",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G11B-Cotter",
-          "result": "D",
-          "time": "07:00 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 12,
-      "goals_for": 12,
-      "losses": 2,
-      "played": 5,
-      "points": 5,
-      "team_raw": "Maywood-G11B-Pardo",
-      "wins": 1
-    },
-    {
       "club": "WOrange",
       "coach": "DePinho",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -750,6 +849,17 @@
           "venue_code": "HobUtd-SinatraPark"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415368",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-G11B-Emara",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "WORANGE-Oconnor"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "417907",
           "goals_against": 4,
@@ -761,20 +871,20 @@
           "venue_code": "MAR-MapleParkWestSm"
         }
       ],
-      "goal_diff": -6,
+      "goal_diff": -5,
       "goals_against": 12,
-      "goals_for": 6,
+      "goals_for": 7,
       "losses": 4,
-      "played": 6,
-      "points": 3,
+      "played": 7,
+      "points": 6,
       "team_raw": "WOrange-G11B-DePinho",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "HobUtd",
       "coach": "Trinkwalder",
-      "draws": 0,
-      "form": "LLLLL",
+      "draws": 1,
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-09-13",
@@ -797,6 +907,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415129",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G11B-Pardo",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "HobUtd-SinatraPark"
         },
         {
           "date": "2026-10-04",
@@ -841,14 +962,25 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415367",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G11B-Vaquero",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -30,
-      "goals_against": 32,
-      "goals_for": 2,
-      "losses": 6,
-      "played": 6,
-      "points": 0,
+      "goal_diff": -37,
+      "goals_against": 41,
+      "goals_for": 4,
+      "losses": 7,
+      "played": 8,
+      "points": 1,
       "team_raw": "HobUtd-G11B-Trinkwalder",
       "wins": 0
     }

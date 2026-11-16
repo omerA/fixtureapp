@@ -1,6 +1,6 @@
 {
   "division": "G14B",
-  "scraped_at": "2026-11-15T13:45:13.909777Z",
+  "scraped_at": "2026-11-16T15:11:29.454864Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -97,13 +97,24 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416745",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14B-Rand",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 18,
+      "goal_diff": 21,
       "goals_against": 5,
-      "goals_for": 23,
+      "goals_for": 26,
       "losses": 0,
-      "played": 8,
+      "played": 9,
       "points": 19,
       "team_raw": "RiverDell-G14B-Marchetti",
       "wins": 6
@@ -210,110 +221,6 @@
       "played": 8,
       "points": 11,
       "team_raw": "Lakeland-G14B-Videc",
-      "wins": 3
-    },
-    {
-      "club": "WayneBG",
-      "coach": "Scaturro",
-      "draws": 1,
-      "form": "DWLLL",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "416716",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G14B-Marchetti",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416717",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G14B-Marri",
-          "result": "W",
-          "time": "12:30 PM",
-          "venue_code": "MONT-WatsessingPk"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416724",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G14B-Rand",
-          "result": "W",
-          "time": "11:30 AM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416727",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-G14B-Murillo",
-          "result": "D",
-          "time": "09:45 AM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416732",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G14B-Kehati",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "VIK-NVRHS Turf"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416734",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G14B-Andreula",
-          "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "HobUtd-SinatraPark"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416740",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G14B-Videc",
-          "result": "L",
-          "time": "08:00 AM",
-          "venue_code": "WYNE-Alps3"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "416744",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G14B-Marchetti",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "RDBH-HS-Stadium"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 16,
-      "goals_for": 17,
-      "losses": 3,
-      "played": 8,
-      "points": 10,
-      "team_raw": "WayneBG-G14B-Scaturro",
       "wins": 3
     },
     {
@@ -443,10 +350,125 @@
       "wins": 2
     },
     {
+      "club": "WayneBG",
+      "coach": "Scaturro",
+      "draws": 2,
+      "form": "WLLLD",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "416716",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14B-Marchetti",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416717",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G14B-Marri",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "MONT-WatsessingPk"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416724",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14B-Rand",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416727",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14B-Murillo",
+          "result": "D",
+          "time": "09:45 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416732",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-Kehati",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416734",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14B-Andreula",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416740",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G14B-Videc",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416744",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14B-Marchetti",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416748",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G14B-Marri",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "WYNE-Alps3"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 16,
+      "goals_for": 12,
+      "losses": 3,
+      "played": 9,
+      "points": 8,
+      "team_raw": "WayneBG-G14B-Scaturro",
+      "wins": 2
+    },
+    {
       "club": "BLMFLD",
       "coach": "Marri",
-      "draws": 1,
-      "form": "LLWDL",
+      "draws": 2,
+      "form": "LWDLD",
       "games": [
         {
           "date": "2026-10-03",
@@ -537,6 +559,17 @@
           "venue_code": "BLMFLD-Foley"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "416748",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G14B-Scaturro",
+          "result": "D",
+          "time": "11:30 AM",
+          "venue_code": "WYNE-Alps3"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "416751",
           "goals_against": 4,
@@ -548,12 +581,12 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -10,
-      "goals_against": 23,
+      "goal_diff": -5,
+      "goals_against": 18,
       "goals_for": 13,
-      "losses": 4,
-      "played": 9,
-      "points": 7,
+      "losses": 3,
+      "played": 10,
+      "points": 8,
       "team_raw": "BLMFLD-G14B-Marri",
       "wins": 2
     },
@@ -561,7 +594,7 @@
       "club": "Vikings",
       "coach": "Kehati",
       "draws": 3,
-      "form": "WDLLL",
+      "form": "DLLLD",
       "games": [
         {
           "date": "2026-09-26",
@@ -650,13 +683,24 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416747",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G14B-Andreula",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": -2,
-      "goals_against": 11,
-      "goals_for": 9,
+      "goals_against": 10,
+      "goals_for": 8,
       "losses": 3,
-      "played": 8,
+      "played": 9,
       "points": 6,
       "team_raw": "Vikings-G14B-Kehati",
       "wins": 1
@@ -665,7 +709,7 @@
       "club": "HobUtd",
       "coach": "Andreula",
       "draws": 3,
-      "form": "DDWLD",
+      "form": "DWLDD",
       "games": [
         {
           "date": "2026-09-19",
@@ -743,13 +787,24 @@
           "result": "D",
           "time": "06:00 PM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416747",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G14B-Kehati",
+          "result": "D",
+          "time": "02:30 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 14,
-      "goals_for": 14,
+      "goals_against": 13,
+      "goals_for": 13,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "points": 6,
       "team_raw": "HobUtd-G14B-Andreula",
       "wins": 1
@@ -758,7 +813,7 @@
       "club": "FairLawnAllSports",
       "coach": "Rand",
       "draws": 1,
-      "form": "LLWLD",
+      "form": "LWLDL",
       "games": [
         {
           "date": "2026-09-19",
@@ -847,13 +902,24 @@
           "result": "D",
           "time": "06:00 PM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416745",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14B-Marchetti",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 21,
+      "goal_diff": -17,
+      "goals_against": 24,
       "goals_for": 7,
       "losses": 5,
-      "played": 8,
+      "played": 9,
       "points": 4,
       "team_raw": "FairLawnAllSports-G14B-Rand",
       "wins": 1

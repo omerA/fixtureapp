@@ -1,6 +1,6 @@
 {
   "division": "B12XB",
-  "scraped_at": "2026-11-15T13:45:09.856860Z",
+  "scraped_at": "2026-11-16T15:11:26.644669Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -73,7 +73,7 @@
       "club": "Maroons",
       "coach": "Breheny",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-10-16",
@@ -85,13 +85,24 @@
           "result": "W",
           "time": "07:30 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "417946",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B12XB-Rotolo",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 1,
+      "goal_diff": 3,
+      "goals_against": 0,
       "goals_for": 3,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "Maroons-B12XB-Breheny",
       "wins": 1
@@ -130,7 +141,7 @@
       "club": "Hotspur",
       "coach": "Rotolo",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-10-16",
@@ -142,13 +153,24 @@
           "result": "L",
           "time": "07:30 PM",
           "venue_code": "MAR-MapleParkWestSm"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "417946",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12XB-Breheny",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": -2,
+      "goal_diff": -3,
       "goals_against": 3,
-      "goals_for": 1,
+      "goals_for": 0,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Hotspur-B12XB-Rotolo",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B08B7",
-  "scraped_at": "2026-11-15T13:45:05.800745Z",
+  "scraped_at": "2026-11-16T15:11:23.888668Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -342,7 +342,7 @@
       "club": "WorldClassFC",
       "coach": "JeanCharles",
       "draws": 1,
-      "form": "DLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -365,6 +365,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413734",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08B7-Chambers",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field3"
         },
         {
           "date": "2026-10-03",
@@ -433,20 +444,20 @@
           "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 51,
-      "goals_for": 17,
+      "goal_diff": -30,
+      "goals_against": 53,
+      "goals_for": 23,
       "losses": 6,
-      "played": 8,
-      "points": 4,
+      "played": 9,
+      "points": 7,
       "team_raw": "WorldClassFC-B08B7-JeanCharles",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "GlobalJC",
       "coach": "Demircan",
       "draws": 2,
-      "form": "DLDLL",
+      "form": "LDLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -524,16 +535,27 @@
           "result": "L",
           "time": "09:45 AM",
           "venue_code": "HobUTD-SinatraPkSth"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415272",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08B7-Chambers",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "JC-GatewaySm2"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 27,
-      "goals_for": 7,
+      "goal_diff": -18,
+      "goals_against": 29,
+      "goals_for": 11,
       "losses": 5,
-      "played": 7,
-      "points": 2,
+      "played": 8,
+      "points": 5,
       "team_raw": "GlobalJC-B08B7-Demircan",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "Maroons",
@@ -562,6 +584,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413734",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08B7-JeanCharles",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NY-WC-Field3"
         },
         {
           "date": "2026-10-03",
@@ -617,13 +650,24 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415272",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B08B7-Demircan",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "JC-GatewaySm2"
         }
       ],
-      "goal_diff": -31,
-      "goals_against": 39,
-      "goals_for": 8,
-      "losses": 6,
-      "played": 7,
+      "goal_diff": -37,
+      "goals_against": 49,
+      "goals_for": 12,
+      "losses": 8,
+      "played": 9,
       "points": 1,
       "team_raw": "Maroons-B08B7-Chambers",
       "wins": 0

@@ -36,13 +36,6 @@
       "name": "Gateway Small 2",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "301": {
       "address": "610 North Central Ave, Mahwah, NJ 07430",
       "comments": "GPS Coordinates: 41.0772903, -74.1502984",
@@ -84,6 +77,13 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Northvale Public School",
       "size": "Small Field (8 vs 8)"
+    },
+    "821": {
+      "address": "1000 Garfield Avenue, Jersey City, NJ 07304",
+      "comments": "Multipurpose turf field located in the back of the park",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Berry Lane Park",
+      "size": "Large Field (11 vs 11)"
     }
   },
   "games": [
@@ -146,21 +146,6 @@
       "home_team": "Hotspur-G10B-Mulanaphy",
       "is_upcoming": false,
       "time": "01:30 PM"
-    },
-    {
-      "away_club": "Warriors",
-      "away_score": null,
-      "away_team": "Warriors-G10B-Reed",
-      "date": "2026-09-27",
-      "division": "G10B",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416597",
-      "home_club": "GlobalJC",
-      "home_score": null,
-      "home_team": "GlobalJC-G10B-Coulson",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "GlobalJC",
@@ -449,7 +434,7 @@
     },
     {
       "away_club": "HobUtd",
-      "away_score": null,
+      "away_score": 7,
       "away_team": "HobUtd-G10B-Stearns",
       "date": "2026-11-15",
       "division": "G10B",
@@ -457,14 +442,14 @@
       "field_id": "667",
       "game_id": "416617",
       "home_club": "NoValley",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "NoValley-G10B-Steinman",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "10:00 AM"
     },
     {
       "away_club": "Warriors",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Warriors-G10B-Reed",
       "date": "2026-11-15",
       "division": "G10B",
@@ -472,14 +457,14 @@
       "field_id": "584",
       "game_id": "416616",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Maroons-G10B-Forsythe",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "11:45 AM"
     },
     {
       "away_club": "Hotspur",
-      "away_score": null,
+      "away_score": 5,
       "away_team": "Hotspur-G10B-Mulanaphy",
       "date": "2026-11-15",
       "division": "G10B",
@@ -487,10 +472,25 @@
       "field_id": "1219",
       "game_id": "416615",
       "home_club": "GlobalJC",
+      "home_score": 1,
+      "home_team": "GlobalJC-G10B-Coulson",
+      "is_upcoming": false,
+      "time": "01:30 PM"
+    },
+    {
+      "away_club": "Warriors",
+      "away_score": null,
+      "away_team": "Warriors-G10B-Reed",
+      "date": "2026-11-21",
+      "division": "G10B",
+      "field": "Berry Lane Park",
+      "field_id": "821",
+      "game_id": "416597",
+      "home_club": "GlobalJC",
       "home_score": null,
       "home_team": "GlobalJC-G10B-Coulson",
       "is_upcoming": true,
-      "time": "01:30 PM"
+      "time": "02:00 PM"
     },
     {
       "away_club": "Hotspur",
@@ -538,6 +538,6 @@
       "time": "10:30 AM"
     }
   ],
-  "scraped_at": "2026-11-15T13:50:40.226049Z",
+  "scraped_at": "2026-11-16T15:15:56.087812Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

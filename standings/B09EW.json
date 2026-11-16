@@ -1,6 +1,6 @@
 {
   "division": "B09EW",
-  "scraped_at": "2026-11-15T13:45:06.874438Z",
+  "scraped_at": "2026-11-16T15:11:24.619550Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "GlenRidge",
       "coach": "Cohn",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-09-19",
@@ -203,6 +203,17 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "413844",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B09EW-Toubroukji",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417100",
           "goals_against": 0,
@@ -214,11 +225,11 @@
           "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
-      "goal_diff": 25,
-      "goals_against": 11,
-      "goals_for": 36,
+      "goal_diff": 23,
+      "goals_against": 10,
+      "goals_for": 33,
       "losses": 1,
-      "played": 8,
+      "played": 9,
       "points": 18,
       "team_raw": "GlenRidge-B09EW-Cohn",
       "wins": 6
@@ -342,8 +353,19 @@
       "club": "RYSA",
       "coach": "Vanderbeck",
       "draws": 0,
-      "form": "LWWLW",
+      "form": "WWLWW",
       "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "413821",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09EW-Antell",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "RYSA-HighMtn"
+        },
         {
           "date": "2026-10-03",
           "game_number": "413825",
@@ -433,14 +455,14 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 13,
-      "goals_for": 32,
+      "goal_diff": 23,
+      "goals_against": 15,
+      "goals_for": 38,
       "losses": 2,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 15,
       "team_raw": "RYSA-B09EW-Vanderbeck",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Dumont",
@@ -676,7 +698,7 @@
       "club": "NMKnights",
       "coach": "Toubroukji",
       "draws": 1,
-      "form": "LWLLD",
+      "form": "WLLDL",
       "games": [
         {
           "date": "2026-09-19",
@@ -756,6 +778,17 @@
           "venue_code": "NMilford-Williams7v7"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "413844",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B09EW-Cohn",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
           "date": "2026-09-12",
           "game_number": "417099",
           "goals_against": 5,
@@ -767,11 +800,11 @@
           "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 42,
-      "goals_for": 13,
+      "goal_diff": -27,
+      "goals_against": 39,
+      "goals_for": 12,
       "losses": 5,
-      "played": 8,
+      "played": 9,
       "points": 4,
       "team_raw": "NMKnights-B09EW-Toubroukji",
       "wins": 1
@@ -792,6 +825,17 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "413821",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B09EW-Vanderbeck",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "RYSA-HighMtn"
         },
         {
           "date": "2026-10-03",
@@ -871,11 +915,11 @@
           "venue_code": "GLENRDGE-CarteretSm"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 39,
-      "goals_for": 5,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -38,
+      "goals_against": 45,
+      "goals_for": 7,
+      "losses": 7,
+      "played": 9,
       "points": 0,
       "team_raw": "Nutley-B09EW-Antell",
       "wins": 0

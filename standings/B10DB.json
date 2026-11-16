@@ -1,6 +1,6 @@
 {
   "division": "B10DB",
-  "scraped_at": "2026-11-15T13:45:07.749500Z",
+  "scraped_at": "2026-11-16T15:11:25.210449Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "Rutherford",
       "coach": "Millar",
       "draws": 1,
-      "form": "WWWDL",
+      "form": "WWDLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -201,16 +201,27 @@
           "result": "D",
           "time": "02:00 PM",
           "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415603",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10DB-Nowicki",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 16,
-      "goals_for": 44,
+      "goal_diff": 35,
+      "goals_against": 18,
+      "goals_for": 53,
       "losses": 1,
-      "played": 7,
-      "points": 16,
+      "played": 8,
+      "points": 19,
       "team_raw": "Rutherford-B10DB-Millar",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Montclair",
@@ -218,6 +229,17 @@
       "draws": 0,
       "form": "WWWWW",
       "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "415580",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B10DB-Porcaro",
+          "result": "W",
+          "time": "12:15 PM",
+          "venue_code": "WORANGE-OConnor2"
+        },
         {
           "date": "2026-09-19",
           "game_number": "415581",
@@ -296,14 +318,14 @@
           "venue_code": "MONT-BrookdaleC"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 26,
-      "goals_for": 45,
+      "goal_diff": 21,
+      "goals_against": 27,
+      "goals_for": 48,
       "losses": 2,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 18,
       "team_raw": "Montclair-B10DB-Barrett",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Nutley",
@@ -424,7 +446,7 @@
       "club": "Verona",
       "coach": "Nowicki",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -513,13 +535,24 @@
           "result": "L",
           "time": "09:30 AM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415603",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10DB-Millar",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 50,
-      "goals_for": 17,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -40,
+      "goals_against": 59,
+      "goals_for": 19,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "Verona-B10DB-Nowicki",
       "wins": 2
@@ -530,6 +563,17 @@
       "draws": 0,
       "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "415580",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10DB-Barrett",
+          "result": "L",
+          "time": "12:15 PM",
+          "venue_code": "WORANGE-OConnor2"
+        },
         {
           "date": "2026-09-19",
           "game_number": "415583",
@@ -619,11 +663,11 @@
           "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": -32,
-      "goals_against": 46,
-      "goals_for": 14,
-      "losses": 8,
-      "played": 8,
+      "goal_diff": -34,
+      "goals_against": 49,
+      "goals_for": 15,
+      "losses": 9,
+      "played": 9,
       "points": 0,
       "team_raw": "WOrange-B10DB-Porcaro",
       "wins": 0

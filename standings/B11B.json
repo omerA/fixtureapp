@@ -1,9 +1,124 @@
 {
   "division": "B11B",
-  "scraped_at": "2026-11-15T13:45:08.455642Z",
+  "scraped_at": "2026-11-16T15:11:25.689913Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WorldClassFC",
+      "coach": "Contreras",
+      "draws": 0,
+      "form": "WLWLW",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415673",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11B-Heydt",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-09-13",
+          "game_number": "415676",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B11B-Maccarrone",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "415679",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11B-Furman",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-10-10",
+          "game_number": "416156",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B11B-Ventura",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416160",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B11B-Paulose",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416162",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B11B-Heydt",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416167",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B11B-Furman",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416172",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B11B-Ventura",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416174",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-B11B-Paulose",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "NMilford-Williams9v9"
+        }
+      ],
+      "goal_diff": 8,
+      "goals_against": 22,
+      "goals_for": 30,
+      "losses": 3,
+      "played": 9,
+      "points": 18,
+      "team_raw": "WorldClassFC-B11B-Contreras",
+      "wins": 6
+    },
     {
       "club": "WoodRidge",
       "coach": "Maccarrone",
@@ -350,110 +465,6 @@
       "wins": 5
     },
     {
-      "club": "WorldClassFC",
-      "coach": "Contreras",
-      "draws": 0,
-      "form": "WWLWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415673",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B11B-Heydt",
-          "result": "L",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field4"
-        },
-        {
-          "date": "2026-09-13",
-          "game_number": "415676",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B11B-Maccarrone",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "WDRDG-AthComp Sm B"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "415679",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11B-Furman",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "NY-WC-Field4"
-        },
-        {
-          "date": "2026-10-10",
-          "game_number": "416156",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B11B-Ventura",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "NY-WC-Field4"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416160",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "NMKnights",
-          "opponent_raw": "NMKnights-B11B-Paulose",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field4"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416162",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B11B-Heydt",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "RDBH-DPAC North"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "416167",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B11B-Furman",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "WALD-SuperDomeOut"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "416172",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Fairview",
-          "opponent_raw": "Fairview-B11B-Ventura",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "NY-WC-Field4"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 20,
-      "goals_for": 26,
-      "losses": 3,
-      "played": 8,
-      "points": 15,
-      "team_raw": "WorldClassFC-B11B-Contreras",
-      "wins": 5
-    },
-    {
       "club": "Fairview",
       "coach": "Ventura",
       "draws": 1,
@@ -561,7 +572,7 @@
       "club": "NMKnights",
       "coach": "Paulose",
       "draws": 0,
-      "form": "LLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-10-25",
@@ -661,13 +672,24 @@
           "result": "L",
           "time": "11:15 AM",
           "venue_code": "NMilford-Williams9v9"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416174",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B11B-Contreras",
+          "result": "L",
+          "time": "02:45 PM",
+          "venue_code": "NMilford-Williams9v9"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 29,
-      "goals_for": 13,
-      "losses": 7,
-      "played": 9,
+      "goal_diff": -18,
+      "goals_against": 33,
+      "goals_for": 15,
+      "losses": 8,
+      "played": 10,
       "points": 6,
       "team_raw": "NMKnights-B11B-Paulose",
       "wins": 2

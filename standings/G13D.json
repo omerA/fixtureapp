@@ -1,6 +1,6 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-11-15T13:45:13.756658Z",
+  "scraped_at": "2026-11-16T15:11:29.330407Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "HobUtd",
       "coach": "Gray",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-09-13",
@@ -99,6 +99,17 @@
           "venue_code": "HobUtd-SinatraPark"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415221",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "415223",
           "goals_against": 1,
@@ -110,20 +121,20 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": 20,
+      "goal_diff": 22,
       "goals_against": 11,
-      "goals_for": 31,
+      "goals_for": 33,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "HobUtd-G13D-Gray",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Vikings",
       "coach": "Flanagan",
       "draws": 3,
-      "form": "DWDWD",
+      "form": "WDWDW",
       "games": [
         {
           "date": "2026-09-20",
@@ -201,22 +212,33 @@
           "result": "D",
           "time": "12:30 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415222",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13D-Nahorniak",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 14,
       "goals_against": 8,
-      "goals_for": 18,
+      "goals_for": 22,
       "losses": 0,
-      "played": 7,
-      "points": 15,
+      "played": 8,
+      "points": 18,
       "team_raw": "Vikings-G13D-Flanagan",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "NoValley",
       "coach": "Mamalian",
       "draws": 2,
-      "form": "DWWWD",
+      "form": "WWWDL",
       "games": [
         {
           "date": "2026-09-20",
@@ -294,13 +316,24 @@
           "result": "D",
           "time": "12:30 PM",
           "venue_code": "VIK-NVRHS Turf"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415221",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G13D-Gray",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 8,
+      "goal_diff": 1,
+      "goals_against": 10,
       "goals_for": 11,
-      "losses": 1,
-      "played": 7,
+      "losses": 2,
+      "played": 8,
       "points": 14,
       "team_raw": "NoValley-G13D-Mamalian",
       "wins": 4
@@ -495,7 +528,7 @@
       "club": "WayneBG",
       "coach": "Nahorniak",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-09-27",
@@ -564,6 +597,17 @@
           "venue_code": "MAHWAH-CSF"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415222",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
           "date": "2026-11-07",
           "game_number": "415223",
           "goals_against": 3,
@@ -575,11 +619,11 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 28,
+      "goal_diff": -23,
+      "goals_against": 32,
       "goals_for": 9,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "points": 3,
       "team_raw": "WayneBG-G13D-Nahorniak",
       "wins": 1

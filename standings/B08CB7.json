@@ -1,6 +1,6 @@
 {
   "division": "B08CB7",
-  "scraped_at": "2026-11-15T13:45:05.930698Z",
+  "scraped_at": "2026-11-16T15:11:23.974475Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "NASA",
       "coach": "Callegari",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -88,6 +88,17 @@
           "venue_code": "JC-CochraneCaven-4"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415331",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B08CB7-Wechsler",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "415332",
           "goals_against": 3,
@@ -99,14 +110,14 @@
           "venue_code": "WALD-SprDomeIndoor1"
         }
       ],
-      "goal_diff": 43,
-      "goals_against": 15,
-      "goals_for": 58,
+      "goal_diff": 47,
+      "goals_against": 18,
+      "goals_for": 65,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "NASA-B08CB7-Callegari",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "HobUtd",
@@ -342,7 +353,7 @@
       "club": "Montclair",
       "coach": "Wechsler",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-09-20",
@@ -422,6 +433,17 @@
           "venue_code": "MONT-BrookdaleC"
         },
         {
+          "date": "2026-11-15",
+          "game_number": "415331",
+          "goals_against": 7,
+          "goals_for": 3,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B08CB7-Callegari",
+          "result": "L",
+          "time": "04:30 PM",
+          "venue_code": "MONT-BrookdaleStadN"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "415333",
           "goals_against": 1,
@@ -433,11 +455,11 @@
           "venue_code": "MONT-BrookdaleC"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 34,
-      "goals_for": 36,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -2,
+      "goals_against": 41,
+      "goals_for": 39,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "Montclair-B08CB7-Wechsler",
       "wins": 5

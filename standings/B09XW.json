@@ -1,6 +1,6 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-11-15T13:45:07.369643Z",
+  "scraped_at": "2026-11-16T15:11:24.959701Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -252,31 +252,28 @@
       "club": "Emerson",
       "coach": "Rice",
       "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418009",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B09XW-Balmos",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "EM-HSTurf3Small"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 2,
+      "goals_for": 3,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 3,
       "team_raw": "Emerson-B09XW-Rice",
-      "wins": 0
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Balmos",
-      "draws": 0,
-      "form": "",
-      "games": [],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Rutherford-B09XW-Balmos",
-      "wins": 0
+      "wins": 1
     },
     {
       "club": "NMKnights",
@@ -455,6 +452,33 @@
       "played": 2,
       "points": 0,
       "team_raw": "Broncos-B09XW-Grunauer",
+      "wins": 0
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Balmos",
+      "draws": 0,
+      "form": "L",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418009",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B09XW-Rice",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "EM-HSTurf3Small"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 3,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Rutherford-B09XW-Balmos",
       "wins": 0
     },
     {

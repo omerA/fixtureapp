@@ -1,6 +1,6 @@
 {
   "division": "B11GW",
-  "scraped_at": "2026-11-15T13:45:08.951820Z",
+  "scraped_at": "2026-11-16T15:11:26.019426Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -216,7 +216,7 @@
       "club": "FF",
       "coach": "Cortez",
       "draws": 0,
-      "form": "WLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -305,16 +305,27 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415721",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B11GW-Rolston",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2B"
         }
       ],
-      "goal_diff": 13,
+      "goal_diff": 16,
       "goals_against": 17,
-      "goals_for": 30,
+      "goals_for": 33,
       "losses": 3,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "FF-B11GW-Cortez",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Dragons",
@@ -617,13 +628,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415721",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B11GW-Cortez",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NY-CLARK-Zukor2B"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 35,
+      "goal_diff": -36,
+      "goals_against": 38,
       "goals_for": 2,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Clarkstown-B11GW-Rolston",
       "wins": 0

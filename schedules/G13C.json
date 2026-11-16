@@ -413,22 +413,7 @@
     },
     {
       "away_club": "Fairview",
-      "away_score": null,
-      "away_team": "Fairview-G13C-Macias",
-      "date": "2026-11-12",
-      "division": "G13C",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "415173",
-      "home_club": "RYSA",
-      "home_score": null,
-      "home_team": "RYSA-G13C-Deubel",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
-      "away_club": "Fairview",
-      "away_score": null,
+      "away_score": 0,
       "away_team": "Fairview-G13C-Macias",
       "date": "2026-11-15",
       "division": "G13C",
@@ -436,14 +421,14 @@
       "field_id": "684",
       "game_id": "415192",
       "home_club": "TeaneckFC",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "TeaneckFC-G13C-Valle",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "09:00 AM"
     },
     {
       "away_club": "RYSA",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "RYSA-G13C-Deubel",
       "date": "2026-11-15",
       "division": "G13C",
@@ -451,9 +436,9 @@
       "field_id": "1038",
       "game_id": "415191",
       "home_club": "Ajax",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Ajax-G13C-Jackson",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
@@ -470,6 +455,21 @@
       "home_team": "TeaneckFC-G13C-Valle",
       "is_upcoming": true,
       "time": "06:00 PM"
+    },
+    {
+      "away_club": "Fairview",
+      "away_score": null,
+      "away_team": "Fairview-G13C-Macias",
+      "date": "2026-11-19",
+      "division": "G13C",
+      "field": "RYSA-OakMuni",
+      "field_id": "434",
+      "game_id": "415173",
+      "home_club": "RYSA",
+      "home_score": null,
+      "home_team": "RYSA-G13C-Deubel",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     },
     {
       "away_club": "RYSA",
@@ -517,6 +517,6 @@
       "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-11-15T13:54:12.051682Z",
+  "scraped_at": "2026-11-16T15:17:10.863657Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

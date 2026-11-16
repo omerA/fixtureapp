@@ -1,6 +1,6 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-11-15T13:45:07.299276Z",
+  "scraped_at": "2026-11-16T15:11:24.927633Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Maroons",
       "coach": "Breheny",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-01",
@@ -20,42 +20,26 @@
           "result": "W",
           "time": "03:45 PM",
           "venue_code": "HobUTD-1600Park"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 0,
-      "goals_for": 5,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Maroons-B09XB-Breheny",
-      "wins": 1
-    },
-    {
-      "club": "Nutley",
-      "coach": "Crespo",
-      "draws": 0,
-      "form": "W",
-      "games": [
+        },
         {
-          "date": "2026-11-04",
-          "game_number": "418099",
+          "date": "2026-11-15",
+          "game_number": "418104",
           "goals_against": 1,
           "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B09XB-Gioffre",
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B09XB-Kapur",
           "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
+          "time": "04:00 PM",
+          "venue_code": "MAR-Stevens SS1"
         }
       ],
       "goal_diff": 5,
       "goals_against": 1,
       "goals_for": 6,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
-      "team_raw": "Nutley-B09XB-Crespo",
+      "team_raw": "Maroons-B09XB-Breheny",
       "wins": 1
     },
     {
@@ -97,6 +81,44 @@
       "wins": 1
     },
     {
+      "club": "Nutley",
+      "coach": "Crespo",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-04",
+          "game_number": "418099",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09XB-Gioffre",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418100",
+          "goals_against": 3,
+          "goals_for": 8,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B09XB-Gioffre",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        }
+      ],
+      "goal_diff": 5,
+      "goals_against": 3,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Nutley-B09XB-Crespo",
+      "wins": 1
+    },
+    {
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
@@ -122,6 +144,44 @@
       "points": 3,
       "team_raw": "Southside-B09XB-Zamora",
       "wins": 1
+    },
+    {
+      "club": "HobUtd",
+      "coach": "Kapur",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-01",
+          "game_number": "418103",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09XB-Breheny",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418104",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09XB-Breheny",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "MAR-Stevens SS1"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 6,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "HobUtd-B09XB-Kapur",
+      "wins": 0
     },
     {
       "club": "CougarUtd",
@@ -162,30 +222,41 @@
       "wins": 0
     },
     {
-      "club": "HobUtd",
-      "coach": "Kapur",
+      "club": "Dragons",
+      "coach": "Gioffre",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
-          "date": "2026-11-01",
-          "game_number": "418103",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09XB-Breheny",
+          "date": "2026-11-04",
+          "game_number": "418099",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09XB-Crespo",
           "result": "L",
-          "time": "03:45 PM",
-          "venue_code": "HobUTD-1600Park"
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418100",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B09XB-Crespo",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
       "goal_diff": -5,
-      "goals_against": 5,
-      "goals_for": 0,
+      "goals_against": 8,
+      "goals_for": 3,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
-      "team_raw": "HobUtd-B09XB-Kapur",
+      "team_raw": "Dragons-B09XB-Gioffre",
       "wins": 0
     },
     {
@@ -213,33 +284,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "Hotspur-B09XB-Anari",
-      "wins": 0
-    },
-    {
-      "club": "Dragons",
-      "coach": "Gioffre",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-04",
-          "game_number": "418099",
-          "goals_against": 6,
-          "goals_for": 1,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B09XB-Crespo",
-          "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 6,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Dragons-B09XB-Gioffre",
       "wins": 0
     }
   ]

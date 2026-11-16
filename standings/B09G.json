@@ -1,6 +1,6 @@
 {
   "division": "B09G",
-  "scraped_at": "2026-11-15T13:45:07.146607Z",
+  "scraped_at": "2026-11-16T15:11:24.801404Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "FairLawnAllSports",
       "coach": "Niland",
       "draws": 1,
-      "form": "WLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-10-04",
@@ -20,6 +20,17 @@
           "result": "W",
           "time": "11:00 AM",
           "venue_code": "RYSA-HighMtn"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415518",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09G-McGee",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC North"
         },
         {
           "date": "2026-09-19",
@@ -110,14 +121,14 @@
           "venue_code": "FL-CenterRec2A"
         }
       ],
-      "goal_diff": 25,
+      "goal_diff": 29,
       "goals_against": 27,
-      "goals_for": 52,
+      "goals_for": 56,
       "losses": 1,
-      "played": 9,
-      "points": 22,
+      "played": 10,
+      "points": 25,
       "team_raw": "FairLawnAllSports-B09G-Niland",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "RYSA",
@@ -616,7 +627,7 @@
       "club": "RiverDell",
       "coach": "McGee",
       "draws": 1,
-      "form": "LWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-09-25",
@@ -628,6 +639,17 @@
           "result": "D",
           "time": "06:00 PM",
           "venue_code": "TORP-Pulis4"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415518",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09G-Niland",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC North"
         },
         {
           "date": "2026-09-19",
@@ -718,11 +740,11 @@
           "venue_code": "THIS-Harvey Back SS"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 33,
+      "goal_diff": -9,
+      "goals_against": 37,
       "goals_for": 28,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "points": 13,
       "team_raw": "RiverDell-B09G-McGee",
       "wins": 4
@@ -731,7 +753,7 @@
       "club": "Torpedoes",
       "coach": "Kunwar",
       "draws": 1,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-09-25",
@@ -765,6 +787,17 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415534",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B09G-Bechara",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-McCoogPark"
         },
         {
           "date": "2026-10-03",
@@ -833,11 +866,11 @@
           "venue_code": "TORP-Pulis3"
         }
       ],
-      "goal_diff": -27,
-      "goals_against": 49,
-      "goals_for": 22,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -30,
+      "goals_against": 54,
+      "goals_for": 24,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "Torpedoes-B09G-Kunwar",
       "wins": 3
@@ -846,7 +879,7 @@
       "club": "WayneBG",
       "coach": "Bechara",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-11-01",
@@ -879,6 +912,17 @@
           "opponent_raw": "Emerson-B09G-Morrisey",
           "result": "W",
           "time": "10:30 AM",
+          "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415534",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09G-Kunwar",
+          "result": "W",
+          "time": "10:00 AM",
           "venue_code": "WYNE-McCoogPark"
         },
         {
@@ -948,14 +992,14 @@
           "venue_code": "WYNE-ShaiShaknai"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 51,
-      "goals_for": 35,
+      "goal_diff": -13,
+      "goals_against": 53,
+      "goals_for": 40,
       "losses": 7,
-      "played": 9,
-      "points": 6,
+      "played": 10,
+      "points": 9,
       "team_raw": "WayneBG-B09G-Bechara",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Emerson",

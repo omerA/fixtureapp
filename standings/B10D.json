@@ -1,6 +1,6 @@
 {
   "division": "B10D",
-  "scraped_at": "2026-11-15T13:45:07.688265Z",
+  "scraped_at": "2026-11-16T15:11:25.168724Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "Ajax",
       "coach": "Parlegreco",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -146,6 +146,17 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415554",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B10D-Brown",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "AJAX-DePhillips Rec"
         },
         {
           "date": "2026-10-03",
@@ -214,20 +225,20 @@
           "venue_code": "AJAX-DePhillips Rec"
         }
       ],
-      "goal_diff": 29,
+      "goal_diff": 36,
       "goals_against": 23,
-      "goals_for": 52,
+      "goals_for": 59,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "Ajax-B10D-Parlegreco",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "WayneBG",
       "coach": "Brown",
       "draws": 1,
-      "form": "WLWLD",
+      "form": "LWLDL",
       "games": [
         {
           "date": "2026-09-12",
@@ -250,6 +261,17 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "TEANECK-VoteeNorth"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415554",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B10D-Parlegreco",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "AJAX-DePhillips Rec"
         },
         {
           "date": "2026-10-03",
@@ -318,11 +340,11 @@
           "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 25,
+      "goal_diff": -1,
+      "goals_against": 32,
       "goals_for": 31,
-      "losses": 3,
-      "played": 8,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "WayneBG-B10D-Brown",
       "wins": 4
@@ -331,7 +353,7 @@
       "club": "NoValley",
       "coach": "Voellm",
       "draws": 1,
-      "form": "LWLWD",
+      "form": "WLWDW",
       "games": [
         {
           "date": "2026-09-12",
@@ -354,6 +376,17 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415555",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "TeaneckTravel",
+          "opponent_raw": "TeaneckTravel-B10D-Nylander",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "NoVAL-Northvale"
         },
         {
           "date": "2026-10-03",
@@ -422,14 +455,14 @@
           "venue_code": "NoVAL-Northvale"
         }
       ],
-      "goal_diff": -3,
+      "goal_diff": 4,
       "goals_against": 31,
-      "goals_for": 28,
+      "goals_for": 35,
       "losses": 4,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 13,
       "team_raw": "NoValley-B10D-Voellm",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "TeaneckTravel",
@@ -458,6 +491,17 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "TEANECK-VoteeNorth"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415555",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-B10D-Voellm",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "NoVAL-Northvale"
         },
         {
           "date": "2026-10-03",
@@ -515,11 +559,11 @@
           "venue_code": "TEANECK-VoteeNorth"
         }
       ],
-      "goal_diff": -38,
-      "goals_against": 44,
+      "goal_diff": -45,
+      "goals_against": 51,
       "goals_for": 6,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "TeaneckTravel-B10D-Nylander",
       "wins": 0

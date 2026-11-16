@@ -1,6 +1,6 @@
 {
   "division": "G08B7",
-  "scraped_at": "2026-11-15T13:45:11.518964Z",
+  "scraped_at": "2026-11-16T15:11:27.770577Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "HobUtd",
       "coach": "Oplinger",
       "draws": 1,
-      "form": "WWWDL",
+      "form": "WWDLW",
       "games": [
         {
           "date": "2026-09-13",
@@ -97,22 +97,33 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414769",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G08B7-Vo",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-2"
         }
       ],
-      "goal_diff": 27,
-      "goals_against": 25,
-      "goals_for": 52,
+      "goal_diff": 28,
+      "goals_against": 27,
+      "goals_for": 55,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "HobUtd-G08B7-Oplinger",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "RiverDell",
       "coach": "Malcolm",
       "draws": 1,
-      "form": "WLWDW",
+      "form": "LWDWL",
       "games": [
         {
           "date": "2026-10-10",
@@ -190,13 +201,24 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414768",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G08B7-Reger",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": 10,
-      "goals_against": 18,
-      "goals_for": 28,
-      "losses": 1,
-      "played": 7,
+      "goal_diff": 7,
+      "goals_against": 23,
+      "goals_for": 30,
+      "losses": 2,
+      "played": 8,
       "points": 16,
       "team_raw": "RiverDell-G08B7-Malcolm",
       "wins": 5
@@ -205,7 +227,7 @@
       "club": "GlenRock",
       "coach": "Reger",
       "draws": 1,
-      "form": "WLDWW",
+      "form": "LDWWW",
       "games": [
         {
           "date": "2026-10-31",
@@ -294,22 +316,33 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414768",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G08B7-Malcolm",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 30,
-      "goals_for": 27,
+      "goal_diff": 0,
+      "goals_against": 32,
+      "goals_for": 32,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "GlenRock-G08B7-Reger",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Warriors",
       "coach": "Vo",
       "draws": 1,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-10-10",
@@ -398,13 +431,24 @@
           "result": "W",
           "time": "02:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414769",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G08B7-Oplinger",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-2"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 29,
-      "goals_for": 21,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": -9,
+      "goals_against": 32,
+      "goals_for": 23,
+      "losses": 5,
+      "played": 9,
       "points": 10,
       "team_raw": "Warriors-G08B7-Vo",
       "wins": 3
@@ -413,7 +457,7 @@
       "club": "WorldClassFC",
       "coach": "Valdes",
       "draws": 1,
-      "form": "WLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -502,13 +546,24 @@
           "result": "L",
           "time": "03:15 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414770",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G08B7-Kim",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 35,
+      "goal_diff": -11,
+      "goals_against": 38,
       "goals_for": 27,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "WorldClassFC-G08B7-Valdes",
       "wins": 2
@@ -517,7 +572,7 @@
       "club": "Vikings",
       "coach": "Kim",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLW",
       "games": [
         {
           "date": "2026-10-31",
@@ -595,16 +650,27 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414770",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G08B7-Valdes",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": -18,
+      "goal_diff": -15,
       "goals_against": 26,
-      "goals_for": 8,
+      "goals_for": 11,
       "losses": 6,
-      "played": 7,
-      "points": 1,
+      "played": 8,
+      "points": 4,
       "team_raw": "Vikings-G08B7-Kim",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

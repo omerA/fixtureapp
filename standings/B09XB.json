@@ -1,6 +1,6 @@
 {
   "division": "B09XB",
-  "scraped_at": "2026-11-16T15:11:24.927633Z",
+  "scraped_at": "2026-11-17T15:47:33.275705Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -122,7 +122,7 @@
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-07",
@@ -134,16 +134,65 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-11-16",
+          "game_number": "418102",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B09XB-Anari",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 2,
-      "goals_for": 6,
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
       "losses": 0,
       "played": 1,
-      "points": 3,
+      "points": 0,
       "team_raw": "Southside-B09XB-Zamora",
-      "wins": 1
+      "wins": 0
+    },
+    {
+      "club": "Hotspur",
+      "coach": "Anari",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-07",
+          "game_number": "418101",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09XB-Zamora",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-11-16",
+          "game_number": "418102",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09XB-Zamora",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "HOT-McFarran"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Hotspur-B09XB-Anari",
+      "wins": 0
     },
     {
       "club": "HobUtd",
@@ -257,33 +306,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "Dragons-B09XB-Gioffre",
-      "wins": 0
-    },
-    {
-      "club": "Hotspur",
-      "coach": "Anari",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-07",
-          "game_number": "418101",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B09XB-Zamora",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "Haledon-Rec-7v7"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 6,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Hotspur-B09XB-Anari",
       "wins": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
   "division": "B08C4",
-  "scraped_at": "2026-11-16T15:11:23.931010Z",
+  "scraped_at": "2026-11-17T15:47:32.278204Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -353,7 +353,7 @@
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLW",
       "games": [
         {
           "date": "2026-11-01",
@@ -442,16 +442,27 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415304",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B08C4-Crollo",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 49,
-      "goals_for": 41,
+      "goal_diff": -4,
+      "goals_against": 51,
+      "goals_for": 47,
       "losses": 5,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 9,
       "team_raw": "Maroons-B08C4-Chambers",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Ajax",
@@ -572,7 +583,7 @@
       "club": "Spartan",
       "coach": "Crollo",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -661,13 +672,24 @@
           "result": "L",
           "time": "11:15 AM",
           "venue_code": "AMER-ReynoldsNorth"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415304",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B08C4-Chambers",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "PAR-ParkwayMS7"
         }
       ],
-      "goal_diff": -42,
-      "goals_against": 66,
-      "goals_for": 24,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -46,
+      "goals_against": 72,
+      "goals_for": 26,
+      "losses": 8,
+      "played": 9,
       "points": 1,
       "team_raw": "Spartan-B08C4-Crollo",
       "wins": 0

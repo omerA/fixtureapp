@@ -57,11 +57,11 @@
       "name": "Faber Turf Small",
       "size": "Small Field (8 vs 8)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
+    "180": {
+      "address": "31 Zukor Road, New City, NY 10956",
       "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Zukor Park",
       "size": "Both (Small & Large)"
     },
     "284": {
@@ -129,21 +129,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "Clarkstown",
-      "away_score": null,
-      "away_team": "Clarkstown-G12B-Laskowski",
-      "date": "2026-09-13",
-      "division": "G12B",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "414562",
-      "home_club": "Hotspur",
-      "home_score": null,
-      "home_team": "Hotspur-G12B-Wexler",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Rutherford",
       "away_score": 0,
@@ -850,6 +835,21 @@
       "time": "06:30 PM"
     },
     {
+      "away_club": "Hotspur",
+      "away_score": null,
+      "away_team": "Hotspur-G12B-Wexler",
+      "date": "2026-11-19",
+      "division": "G12B",
+      "field": "Zukor Park",
+      "field_id": "180",
+      "game_id": "414562",
+      "home_club": "Clarkstown",
+      "home_score": null,
+      "home_team": "Clarkstown-G12B-Laskowski",
+      "is_upcoming": true,
+      "time": "06:45 PM"
+    },
+    {
       "away_club": "Warriors",
       "away_score": null,
       "away_team": "Warriors-G12B-Orozco",
@@ -955,6 +955,6 @@
       "time": "05:00 PM"
     }
   ],
-  "scraped_at": "2026-11-16T15:16:40.019343Z",
+  "scraped_at": "2026-11-17T15:52:40.200995Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

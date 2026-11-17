@@ -1,6 +1,6 @@
 {
   "division": "B09C",
-  "scraped_at": "2026-11-16T15:11:24.403776Z",
+  "scraped_at": "2026-11-17T15:47:32.753688Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -112,7 +112,7 @@
       "club": "Lakeland",
       "coach": "Escher",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -135,6 +135,17 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "LKLND-BBeach-Sml-7v7"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415471",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Fairview",
+          "opponent_raw": "Fairview-B09C-Macias",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "CLIF-CliftonSports"
         },
         {
           "date": "2026-10-03",
@@ -203,20 +214,20 @@
           "venue_code": "BGFD-RoyBrown"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 12,
-      "goals_for": 21,
+      "goal_diff": 14,
+      "goals_against": 14,
+      "goals_for": 28,
       "losses": 2,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 15,
       "team_raw": "Lakeland-B09C-Escher",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Fairview",
       "coach": "Macias",
       "draws": 1,
-      "form": "WWDLL",
+      "form": "WDLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -239,6 +250,17 @@
           "result": "L",
           "time": "04:30 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "415471",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B09C-Escher",
+          "result": "L",
+          "time": "02:15 PM",
+          "venue_code": "CLIF-CliftonSports"
         },
         {
           "date": "2026-10-03",
@@ -307,11 +329,11 @@
           "venue_code": "CLIF-CliftonSports"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 15,
-      "goals_for": 18,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": -2,
+      "goals_against": 22,
+      "goals_for": 20,
+      "losses": 3,
+      "played": 9,
       "points": 10,
       "team_raw": "Fairview-B09C-Macias",
       "wins": 3

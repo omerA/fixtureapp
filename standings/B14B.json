@@ -1,6 +1,6 @@
 {
   "division": "B14B",
-  "scraped_at": "2026-11-16T15:11:27.182557Z",
+  "scraped_at": "2026-11-17T15:47:35.564400Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -159,6 +159,17 @@
           "venue_code": "SS-LowerHS"
         },
         {
+          "date": "2026-10-31",
+          "game_number": "414238",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B14B-Rich",
+          "result": "W",
+          "time": "12:00 AM",
+          "venue_code": "TBS (PPD)"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "414241",
           "goals_against": 2,
@@ -306,88 +317,6 @@
       "wins": 5
     },
     {
-      "club": "JerseyCity",
-      "coach": "Rich",
-      "draws": 1,
-      "form": "WLLDL",
-      "games": [
-        {
-          "date": "2026-10-03",
-          "game_number": "414227",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B14B-Ramirez",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "JC-Gateway-New"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414230",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-B14B-Amaya",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "414233",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B14B-Patel",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "414240",
-          "goals_against": 7,
-          "goals_for": 5,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B14B-Ramirez",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "JC-CochraneCaven"
-        },
-        {
-          "date": "2026-09-12",
-          "game_number": "417571",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B14B-Patel",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "JC-CochraneCaven"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417573",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-B14B-Lopez",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "BLMFLD-Foley"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 20,
-      "goals_for": 15,
-      "losses": 3,
-      "played": 6,
-      "points": 7,
-      "team_raw": "JerseyCity-B14B-Rich",
-      "wins": 2
-    },
-    {
       "club": "Montclair",
       "coach": "Patel",
       "draws": 1,
@@ -531,6 +460,17 @@
           "venue_code": "BLMFLD-Foley"
         },
         {
+          "date": "2026-10-30",
+          "game_number": "414235",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B14B-Rich",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
           "date": "2026-10-23",
           "game_number": "414237",
           "goals_against": 2,
@@ -597,14 +537,118 @@
           "venue_code": "BLMFLD-Foley"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 27,
-      "goals_for": 12,
-      "losses": 7,
-      "played": 8,
+      "goal_diff": -17,
+      "goals_against": 30,
+      "goals_for": 13,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "BLMFLD-B14B-Lopez",
       "wins": 1
+    },
+    {
+      "club": "JerseyCity",
+      "coach": "Rich",
+      "draws": 1,
+      "form": "LDWLL",
+      "games": [
+        {
+          "date": "2026-10-03",
+          "game_number": "414227",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B14B-Ramirez",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "JC-Gateway-New"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414230",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14B-Amaya",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "414233",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B14B-Patel",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-10-30",
+          "game_number": "414235",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B14B-Lopez",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414238 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14B-Lynch",
+          "result": "L",
+          "time": "12:00 AM",
+          "venue_code": "TBS (PPD)"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "414240",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B14B-Ramirez",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "417571",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B14B-Patel",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417573",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-B14B-Lopez",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "BLMFLD-Foley"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 21,
+      "goals_for": 18,
+      "losses": 3,
+      "played": 7,
+      "points": 10,
+      "team_raw": "JerseyCity-B14B-Rich",
+      "wins": 3
     }
   ]
 }

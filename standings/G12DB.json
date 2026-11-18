@@ -1,9 +1,102 @@
 {
   "division": "G12DB",
-  "scraped_at": "2026-11-17T15:47:37.469933Z",
+  "scraped_at": "2026-11-18T15:26:31.854680Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Hotspur",
+      "coach": "DeRosa",
+      "draws": 0,
+      "form": "WWWLW",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "414587",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12DB-Crowley",
+          "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-10-02",
+          "game_number": "416946",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12DB-DelGreco",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HOT-McFarran"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416951",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G12DB-Betamour",
+          "result": "W",
+          "time": "02:15 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-11-17",
+          "game_number": "416953",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12DB-Austin",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416955",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12DB-Crowley",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416962",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12DB-DelGreco",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "RDBH-MS-Sm"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416964",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G12DB-Betamour",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HOT-AdornoLower"
+        }
+      ],
+      "goal_diff": 19,
+      "goals_against": 6,
+      "goals_for": 25,
+      "losses": 1,
+      "played": 7,
+      "points": 18,
+      "team_raw": "Hotspur-G12DB-DeRosa",
+      "wins": 6
+    },
     {
       "club": "Mahwah",
       "coach": "Cullaro",
@@ -95,88 +188,6 @@
       "played": 7,
       "points": 16,
       "team_raw": "Mahwah-G12DB-Cullaro",
-      "wins": 5
-    },
-    {
-      "club": "Hotspur",
-      "coach": "DeRosa",
-      "draws": 0,
-      "form": "WWWWL",
-      "games": [
-        {
-          "date": "2026-11-15",
-          "game_number": "414587",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12DB-Crowley",
-          "result": "L",
-          "time": "10:45 AM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-10-02",
-          "game_number": "416946",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G12DB-DelGreco",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "HOT-McFarran"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416951",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G12DB-Betamour",
-          "result": "W",
-          "time": "02:15 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416955",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12DB-Crowley",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HOT-AdornoLower"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416962",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G12DB-DelGreco",
-          "result": "W",
-          "time": "01:15 PM",
-          "venue_code": "RDBH-MS-Sm"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416964",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G12DB-Betamour",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HOT-AdornoLower"
-        }
-      ],
-      "goal_diff": 18,
-      "goals_against": 5,
-      "goals_for": 23,
-      "losses": 1,
-      "played": 6,
-      "points": 15,
-      "team_raw": "Hotspur-G12DB-DeRosa",
       "wins": 5
     },
     {
@@ -517,7 +528,7 @@
       "club": "Maroons",
       "coach": "Austin",
       "draws": 2,
-      "form": "LDWDL",
+      "form": "DWDLL",
       "games": [
         {
           "date": "2026-11-15",
@@ -551,6 +562,17 @@
           "result": "L",
           "time": "08:15 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-11-17",
+          "game_number": "416953",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12DB-DeRosa",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         },
         {
           "date": "2026-10-04",
@@ -597,11 +619,11 @@
           "venue_code": "MAR-VetsFld2"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 15,
-      "goals_for": 11,
-      "losses": 4,
-      "played": 7,
+      "goal_diff": -5,
+      "goals_against": 17,
+      "goals_for": 12,
+      "losses": 5,
+      "played": 8,
       "points": 5,
       "team_raw": "Maroons-G12DB-Austin",
       "wins": 1

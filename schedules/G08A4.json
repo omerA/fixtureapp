@@ -70,24 +70,16 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Pulis 2",
       "size": "Small Field (8 vs 8)"
+    },
+    "940": {
+      "address": "50 Dairy Street, Midland Park, NJ 07432",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "DePhillips Recreation Center",
+      "size": "Both (Small & Large)"
     }
   },
   "games": [
-    {
-      "away_club": "GlobalJC",
-      "away_score": null,
-      "away_team": "GlobalJC-G08A4-Charoth",
-      "date": "2026-09-06",
-      "division": "G08A4",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "417637",
-      "home_club": "Ajax",
-      "home_score": null,
-      "home_team": "Ajax-G08A4-Stockman",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "Maroons",
       "away_score": 5,
@@ -539,6 +531,21 @@
       "time": "01:00 PM"
     },
     {
+      "away_club": "GlobalJC",
+      "away_score": null,
+      "away_team": "GlobalJC-G08A4-Charoth",
+      "date": "2026-11-20",
+      "division": "G08A4",
+      "field": "DePhillips Recreation Center",
+      "field_id": "940",
+      "game_id": "417637",
+      "home_club": "Ajax",
+      "home_score": null,
+      "home_team": "Ajax-G08A4-Stockman",
+      "is_upcoming": true,
+      "time": "06:30 PM"
+    },
+    {
       "away_club": "Torpedoes",
       "away_score": null,
       "away_team": "Torpedoes-G08A4-Meaney",
@@ -599,6 +606,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-11-17T15:51:28.763603Z",
+  "scraped_at": "2026-11-18T15:30:24.465371Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-11-17T15:47:35.049139Z",
+  "scraped_at": "2026-11-18T15:26:29.227821Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -135,33 +135,6 @@
       "wins": 1
     },
     {
-      "club": "WoodRidge",
-      "coach": "Mueller",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-10",
-          "game_number": "418269",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B12XW-Chudzik",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 1,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "WoodRidge-B12XW-Mueller",
-      "wins": 1
-    },
-    {
       "club": "Rutherford",
       "coach": "Henderson",
       "draws": 0,
@@ -187,6 +160,82 @@
       "points": 3,
       "team_raw": "Rutherford-B12XW-Henderson",
       "wins": 1
+    },
+    {
+      "club": "WoodRidge",
+      "coach": "Mueller",
+      "draws": 1,
+      "form": "WD",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418269",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B12XW-Chudzik",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-17",
+          "game_number": "418270",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B12XW-Chudzik",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "WoodRidge-B12XW-Mueller",
+      "wins": 0
+    },
+    {
+      "club": "AviatorsHHSA",
+      "coach": "Chudzik",
+      "draws": 1,
+      "form": "LD",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418269",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12XW-Mueller",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-17",
+          "game_number": "418270",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12XW-Mueller",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "WDRDG-AthComp Sm B"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "AviatorsHHSA-B12XW-Chudzik",
+      "wins": 0
     },
     {
       "club": "FairLawnAllSports",
@@ -273,33 +322,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "GlenRidge-B12XW-Glick",
-      "wins": 0
-    },
-    {
-      "club": "AviatorsHHSA",
-      "coach": "Chudzik",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-10",
-          "game_number": "418269",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B12XW-Mueller",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "AviatorsHHSA-B12XW-Chudzik",
       "wins": 0
     },
     {

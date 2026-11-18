@@ -1,6 +1,6 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-11-17T15:47:37.065445Z",
+  "scraped_at": "2026-11-18T15:26:31.414451Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -111,8 +111,8 @@
     {
       "club": "Clarkstown",
       "coach": "Laskowski",
-      "draws": 1,
-      "form": "WWDLW",
+      "draws": 2,
+      "form": "WDLWD",
       "games": [
         {
           "date": "2026-09-13",
@@ -192,6 +192,17 @@
           "venue_code": "NY-CLARK-Zukor2B"
         },
         {
+          "date": "2026-11-17",
+          "game_number": "416630",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G11C-Prager",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "ARS-MemParkRdg1"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "416636",
           "goals_against": 1,
@@ -204,11 +215,11 @@
         }
       ],
       "goal_diff": 15,
-      "goals_against": 12,
-      "goals_for": 27,
+      "goals_against": 13,
+      "goals_for": 28,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 20,
       "team_raw": "Clarkstown-G11C-Laskowski",
       "wins": 6
     },
@@ -549,8 +560,8 @@
     {
       "club": "Arsenal",
       "coach": "Prager",
-      "draws": 2,
-      "form": "WLDDW",
+      "draws": 3,
+      "form": "LDDWD",
       "games": [
         {
           "date": "2026-09-13",
@@ -630,6 +641,17 @@
           "venue_code": "NoVAL-Chestnut"
         },
         {
+          "date": "2026-11-17",
+          "game_number": "416630",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G11C-Laskowski",
+          "result": "D",
+          "time": "07:00 PM",
+          "venue_code": "ARS-MemParkRdg1"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "416634",
           "goals_against": 0,
@@ -642,11 +664,11 @@
         }
       ],
       "goal_diff": 2,
-      "goals_against": 16,
-      "goals_for": 18,
+      "goals_against": 17,
+      "goals_for": 19,
       "losses": 3,
-      "played": 8,
-      "points": 11,
+      "played": 9,
+      "points": 12,
       "team_raw": "Arsenal-G11C-Prager",
       "wins": 3
     },

@@ -479,7 +479,7 @@
     },
     {
       "away_club": "Lakeland",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "Lakeland-B14EW-Breheney",
       "date": "2026-11-17",
       "division": "B14EW",
@@ -487,10 +487,25 @@
       "field_id": "1255",
       "game_id": "416466",
       "home_club": "Maywood",
-      "home_score": null,
+      "home_score": 3,
       "home_team": "Maywood-B14EW-Sanford",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:00 PM"
+    },
+    {
+      "away_club": "Maywood",
+      "away_score": null,
+      "away_team": "Maywood-B14EW-Sanford",
+      "date": "2026-11-21",
+      "division": "B14EW",
+      "field": "River Dell High School - Stadium",
+      "field_id": "32",
+      "game_id": "416488",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-B14EW-Privitera",
+      "is_upcoming": true,
+      "time": "12:00 AM"
     },
     {
       "away_club": "Lakeland",
@@ -508,21 +523,6 @@
       "time": "10:00 AM"
     },
     {
-      "away_club": "Maywood",
-      "away_score": null,
-      "away_team": "Maywood-B14EW-Sanford",
-      "date": "2026-11-21",
-      "division": "B14EW",
-      "field": "River Dell High School - Stadium",
-      "field_id": "32",
-      "game_id": "416488",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-B14EW-Privitera",
-      "is_upcoming": true,
-      "time": "11:00 AM"
-    },
-    {
       "away_club": "Vikings",
       "away_score": null,
       "away_team": "Vikings-B14EW-Donzis",
@@ -538,6 +538,6 @@
       "time": "12:00 PM"
     }
   ],
-  "scraped_at": "2026-11-17T15:51:14.621449Z",
+  "scraped_at": "2026-11-18T15:30:10.659681Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

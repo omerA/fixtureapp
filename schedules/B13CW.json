@@ -1,6 +1,13 @@
 {
   "division": "B13CW",
   "fields": {
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1121": {
       "address": "330 River Rd, New Milford, NJ 07646",
       "comments": "11v11",
@@ -56,13 +63,6 @@
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "Harrington Park School",
       "size": "Large Field (11 vs 11)"
-    },
-    "641": {
-      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
-      "comments": "",
-      "details": "LIGHTS \u2014 ARTIFICIAL",
-      "name": "Doug Parcells Athletic Complex South",
-      "size": "Both (Small & Large)"
     },
     "684": {
       "address": "1129 Palisades Ave, Teaneck, NJ 07666",
@@ -490,14 +490,14 @@
       "away_team": "NoValley-B13CW-Birnie",
       "date": "2026-11-20",
       "division": "B13CW",
-      "field": "Doug Parcells Athletic Complex South",
-      "field_id": "641",
+      "field": "TBS Postponed",
+      "field_id": "1111",
       "game_id": "415826",
       "home_club": "RiverDell",
       "home_score": null,
       "home_team": "RiverDell-B13CW-Sullivan",
       "is_upcoming": true,
-      "time": "06:30 PM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "NMKnights",
@@ -545,6 +545,6 @@
       "time": "09:00 AM"
     }
   ],
-  "scraped_at": "2026-11-17T15:50:40.325179Z",
+  "scraped_at": "2026-11-18T15:29:36.958365Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

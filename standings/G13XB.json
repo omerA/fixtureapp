@@ -1,6 +1,6 @@
 {
   "division": "G13XB",
-  "scraped_at": "2026-11-17T15:47:37.760623Z",
+  "scraped_at": "2026-11-18T15:26:32.211060Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -73,7 +73,7 @@
       "club": "BLMFLD",
       "coach": "Crespo",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-16",
@@ -85,43 +85,27 @@
           "result": "W",
           "time": "07:30 PM",
           "venue_code": "BLMFLD-Foley"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
-      "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "BLMFLD-G13XB-Crespo",
-      "wins": 0
-    },
-    {
-      "club": "Paramus",
-      "coach": "Buttacavoli",
-      "draws": 0,
-      "form": "L",
-      "games": [
+        },
         {
-          "date": "2026-11-16",
-          "game_number": "418194",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "BLMFLD",
-          "opponent_raw": "BLMFLD-G13XB-Crespo",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "BLMFLD-Foley"
+          "date": "2026-11-17",
+          "game_number": "418195",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G13XB-Buttacavoli",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goal_diff": 1,
+      "goals_against": 1,
+      "goals_for": 2,
       "losses": 0,
-      "played": 0,
-      "points": 0,
-      "team_raw": "Paramus-G13XB-Buttacavoli",
-      "wins": 0
+      "played": 1,
+      "points": 3,
+      "team_raw": "BLMFLD-G13XB-Crespo",
+      "wins": 1
     },
     {
       "club": "Ajax",
@@ -148,6 +132,44 @@
       "played": 1,
       "points": 0,
       "team_raw": "Ajax-G13XB-Jackson",
+      "wins": 0
+    },
+    {
+      "club": "Paramus",
+      "coach": "Buttacavoli",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-16",
+          "game_number": "418194",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G13XB-Crespo",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-11-17",
+          "game_number": "418195",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "BLMFLD",
+          "opponent_raw": "BLMFLD-G13XB-Crespo",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 2,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Paramus-G13XB-Buttacavoli",
       "wins": 0
     },
     {

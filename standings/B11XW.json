@@ -1,9 +1,47 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-11-18T15:26:28.594268Z",
+  "scraped_at": "2026-11-19T15:33:26.190394Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Rutherford",
+      "coach": "Carlstein",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-18",
+          "game_number": "418040",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B11XW-Zamora",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-11-09",
+          "game_number": "418041",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B11XW-Zamora",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "Haledon-Rec-Field"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 1,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Rutherford-B11XW-Carlstein",
+      "wins": 1
+    },
     {
       "club": "CougarSC",
       "coach": "James",
@@ -97,38 +135,22 @@
       "wins": 1
     },
     {
-      "club": "Rutherford",
-      "coach": "Carlstein",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-09",
-          "game_number": "418041",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B11XW-Zamora",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "Haledon-Rec-Field"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 2,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Rutherford-B11XW-Carlstein",
-      "wins": 1
-    },
-    {
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-11-18",
+          "game_number": "418040",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B11XW-Carlstein",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
         {
           "date": "2026-11-09",
           "game_number": "418041",
@@ -141,11 +163,11 @@
           "venue_code": "Haledon-Rec-Field"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 3,
-      "goals_for": 2,
+      "goal_diff": -4,
+      "goals_against": 5,
+      "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Southside-B11XW-Zamora",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G14XB",
-  "scraped_at": "2026-11-18T15:26:32.463695Z",
+  "scraped_at": "2026-11-19T15:33:29.319924Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -32,6 +32,44 @@
       "wins": 1
     },
     {
+      "club": "NoRockland",
+      "coach": "Barrios",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "417971",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14XB-Murillo",
+          "result": "W",
+          "time": "02:45 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "417972",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G14XB-Murillo",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NY-NR-NRSA-1"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 1,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "NoRockland-G14XB-Barrios",
+      "wins": 1
+    },
+    {
       "club": "RiverDell",
       "coach": "Marchetti",
       "draws": 0,
@@ -56,33 +94,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "RiverDell-G14XB-Marchetti",
-      "wins": 1
-    },
-    {
-      "club": "NoRockland",
-      "coach": "Barrios",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-31",
-          "game_number": "417971",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "NoBergen",
-          "opponent_raw": "NoBergen-G14XB-Murillo",
-          "result": "W",
-          "time": "02:45 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 2,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "NoRockland-G14XB-Barrios",
       "wins": 1
     },
     {
@@ -116,6 +127,44 @@
       "wins": 0
     },
     {
+      "club": "NoBergen",
+      "coach": "Murillo",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-10-31",
+          "game_number": "417971",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G14XB-Barrios",
+          "result": "L",
+          "time": "02:45 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "417972",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-G14XB-Barrios",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NY-NR-NRSA-1"
+        }
+      ],
+      "goal_diff": -2,
+      "goals_against": 3,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "NoBergen-G14XB-Murillo",
+      "wins": 0
+    },
+    {
       "club": "Warriors",
       "coach": "Clark",
       "draws": 0,
@@ -140,33 +189,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "Warriors-G14XB-Clark",
-      "wins": 0
-    },
-    {
-      "club": "NoBergen",
-      "coach": "Murillo",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-31",
-          "game_number": "417971",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-G14XB-Barrios",
-          "result": "L",
-          "time": "02:45 PM",
-          "venue_code": "NoBergen-HudsonPk2"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 3,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "NoBergen-G14XB-Murillo",
       "wins": 0
     },
     {

@@ -57,18 +57,18 @@
       "name": "NVRHS-DEMAREST-TURF FIELD",
       "size": "Large Field (11 vs 11)"
     },
-    "32": {
-      "address": "55 Pyle Street, Oradell, NJ 07649",
-      "comments": "",
-      "details": "LIGHTS \u2014 ARTIFICIAL",
-      "name": "River Dell High School - Stadium",
-      "size": "Large Field (11 vs 11)"
-    },
     "641": {
       "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Doug Parcells Athletic Complex South",
+      "size": "Both (Small & Large)"
+    },
+    "75": {
+      "address": "900 Ridgewood Avenue, Oradell, NJ 07649",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Doug Parcells Athletic Complex North",
       "size": "Both (Small & Large)"
     },
     "76": {
@@ -493,21 +493,6 @@
       "time": "07:00 PM"
     },
     {
-      "away_club": "Maywood",
-      "away_score": null,
-      "away_team": "Maywood-B14EW-Sanford",
-      "date": "2026-11-21",
-      "division": "B14EW",
-      "field": "River Dell High School - Stadium",
-      "field_id": "32",
-      "game_id": "416488",
-      "home_club": "RiverDell",
-      "home_score": null,
-      "home_team": "RiverDell-B14EW-Privitera",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Lakeland",
       "away_score": null,
       "away_team": "Lakeland-B14EW-Breheney",
@@ -536,8 +521,23 @@
       "home_team": "Arsenal-B14EW-McDermott",
       "is_upcoming": true,
       "time": "12:00 PM"
+    },
+    {
+      "away_club": "Maywood",
+      "away_score": null,
+      "away_team": "Maywood-B14EW-Sanford",
+      "date": "2026-11-22",
+      "division": "B14EW",
+      "field": "Doug Parcells Athletic Complex North",
+      "field_id": "75",
+      "game_id": "416488",
+      "home_club": "RiverDell",
+      "home_score": null,
+      "home_team": "RiverDell-B14EW-Privitera",
+      "is_upcoming": true,
+      "time": "01:00 PM"
     }
   ],
-  "scraped_at": "2026-11-18T15:30:10.659681Z",
+  "scraped_at": "2026-11-19T15:37:13.279458Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

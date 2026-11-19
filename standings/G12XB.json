@@ -1,36 +1,9 @@
 {
   "division": "G12XB",
-  "scraped_at": "2026-11-18T15:26:31.918406Z",
+  "scraped_at": "2026-11-19T15:33:28.891224Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "RiverDell",
-      "coach": "Hill",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-14",
-          "game_number": "418038",
-          "goals_against": 0,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-G12XB-Zotaj",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "DUM-TwinBoro"
-        }
-      ],
-      "goal_diff": 2,
-      "goals_against": 0,
-      "goals_for": 2,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "RiverDell-G12XB-Hill",
-      "wins": 1
-    },
     {
       "club": "Dragons",
       "coach": "Johnson",
@@ -124,10 +97,48 @@
       "wins": 1
     },
     {
+      "club": "RiverDell",
+      "coach": "Hill",
+      "draws": 1,
+      "form": "WD",
+      "games": [
+        {
+          "date": "2026-10-14",
+          "game_number": "418038",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12XB-Zotaj",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "418039",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12XB-Zotaj",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 1,
+      "goals_for": 1,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "RiverDell-G12XB-Hill",
+      "wins": 0
+    },
+    {
       "club": "Dumont",
       "coach": "Zotaj",
-      "draws": 0,
-      "form": "L",
+      "draws": 1,
+      "form": "LD",
       "games": [
         {
           "date": "2026-10-14",
@@ -139,14 +150,25 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "418039",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12XB-Hill",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -2,
-      "goals_against": 2,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
+      "goal_diff": 0,
+      "goals_against": 1,
+      "goals_for": 1,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
       "team_raw": "Dumont-G12XB-Zotaj",
       "wins": 0
     },

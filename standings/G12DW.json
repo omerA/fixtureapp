@@ -1,6 +1,6 @@
 {
   "division": "G12DW",
-  "scraped_at": "2026-11-18T15:26:31.897011Z",
+  "scraped_at": "2026-11-19T15:33:28.873324Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,8 +123,19 @@
       "club": "WestEssex",
       "coach": "Scorciolla",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
+        {
+          "date": "2026-11-18",
+          "game_number": "414937",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-G12DW-Guanga",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414941",
@@ -214,14 +225,14 @@
           "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": 34,
+      "goal_diff": 41,
       "goals_against": 9,
-      "goals_for": 43,
+      "goals_for": 50,
       "losses": 1,
-      "played": 8,
-      "points": 21,
+      "played": 9,
+      "points": 24,
       "team_raw": "WestEssex-G12DW-Scorciolla",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "NoArlington",
@@ -528,8 +539,19 @@
       "club": "NoBergen",
       "coach": "Guanga",
       "draws": 1,
-      "form": "WLLLL",
+      "form": "LLLLL",
       "games": [
+        {
+          "date": "2026-11-18",
+          "game_number": "414937",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G12DW-Scorciolla",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NoBergen-HudsonPk2"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414940",
@@ -619,11 +641,11 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -25,
-      "goals_against": 30,
+      "goal_diff": -32,
+      "goals_against": 37,
       "goals_for": 5,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "NoBergen-G12DW-Guanga",
       "wins": 1

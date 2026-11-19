@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-11-18T15:26:29.445200Z",
+  "scraped_at": "2026-11-19T15:33:26.871791Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -126,6 +126,17 @@
       "form": "WWWWW",
       "games": [
         {
+          "date": "2026-11-18",
+          "game_number": "415839",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B13D-Escandon",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
+        {
           "date": "2026-09-26",
           "game_number": "415843",
           "goals_against": 2,
@@ -214,14 +225,14 @@
           "venue_code": "HOT-HS Turf 2"
         }
       ],
-      "goal_diff": 29,
+      "goal_diff": 34,
       "goals_against": 9,
-      "goals_for": 38,
+      "goals_for": 43,
       "losses": 1,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "Hotspur-B13D-Petrie",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "RYSA",
@@ -457,8 +468,19 @@
       "club": "Thistle",
       "coach": "Escandon",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLL",
       "games": [
+        {
+          "date": "2026-11-18",
+          "game_number": "415839",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HOT-HS Turf 2"
+        },
         {
           "date": "2026-09-19",
           "game_number": "415842",
@@ -537,11 +559,11 @@
           "venue_code": "RYSA-FAMS"
         }
       ],
-      "goal_diff": -15,
-      "goals_against": 20,
+      "goal_diff": -20,
+      "goals_against": 25,
       "goals_for": 5,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 1,
       "team_raw": "Thistle-B13D-Escandon",
       "wins": 0

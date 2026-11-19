@@ -1,6 +1,6 @@
 {
   "division": "G11A",
-  "scraped_at": "2026-11-18T15:26:31.286489Z",
+  "scraped_at": "2026-11-19T15:33:28.359512Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "WorldClassFC",
       "coach": "Brownell",
       "draws": 1,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-19",
@@ -223,13 +223,24 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "NY-WC-Field4"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "415115",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G11A-Vinces",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": 9,
-      "goals_against": 8,
-      "goals_for": 17,
+      "goal_diff": 3,
+      "goals_against": 10,
+      "goals_for": 13,
       "losses": 2,
-      "played": 9,
+      "played": 10,
       "points": 13,
       "team_raw": "WorldClassFC-G11A-Brownell",
       "wins": 4
@@ -813,7 +824,7 @@
       "club": "WayneBG",
       "coach": "Vinces",
       "draws": 2,
-      "form": "LLLLD",
+      "form": "LLLDL",
       "games": [
         {
           "date": "2026-11-04",
@@ -913,13 +924,24 @@
           "result": "D",
           "time": "11:00 AM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "415115",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G11A-Brownell",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WYNE-Alps2"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 28,
-      "goals_for": 4,
+      "goal_diff": -18,
+      "goals_against": 24,
+      "goals_for": 6,
       "losses": 5,
-      "played": 9,
+      "played": 10,
       "points": 2,
       "team_raw": "WayneBG-G11A-Vinces",
       "wins": 0

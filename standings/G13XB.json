@@ -1,6 +1,6 @@
 {
   "division": "G13XB",
-  "scraped_at": "2026-11-18T15:26:32.211060Z",
+  "scraped_at": "2026-11-19T15:33:29.117952Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -43,33 +43,6 @@
       "wins": 2
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Rand",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "418198",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G13XB-Jackson",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "AJAX-MPHS-Stadium"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 0,
-      "goals_for": 1,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "FairLawnAllSports-G13XB-Rand",
-      "wins": 1
-    },
-    {
       "club": "BLMFLD",
       "coach": "Crespo",
       "draws": 0,
@@ -98,13 +71,40 @@
           "venue_code": "HAWTHORNE-Veterans"
         }
       ],
+      "goal_diff": 2,
+      "goals_against": 2,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 6,
+      "team_raw": "BLMFLD-G13XB-Crespo",
+      "wins": 2
+    },
+    {
+      "club": "FairLawnAllSports",
+      "coach": "Rand",
+      "draws": 0,
+      "form": "W",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418198",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G13XB-Jackson",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "AJAX-MPHS-Stadium"
+        }
+      ],
       "goal_diff": 1,
-      "goals_against": 1,
-      "goals_for": 2,
+      "goals_against": 0,
+      "goals_for": 1,
       "losses": 0,
       "played": 1,
       "points": 3,
-      "team_raw": "BLMFLD-G13XB-Crespo",
+      "team_raw": "FairLawnAllSports-G13XB-Rand",
       "wins": 1
     },
     {
@@ -163,11 +163,11 @@
           "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 2,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
+      "goal_diff": -2,
+      "goals_against": 4,
+      "goals_for": 2,
+      "losses": 2,
+      "played": 2,
       "points": 0,
       "team_raw": "Paramus-G13XB-Buttacavoli",
       "wins": 0

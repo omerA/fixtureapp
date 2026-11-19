@@ -1,9 +1,124 @@
 {
   "division": "G12CB",
-  "scraped_at": "2026-11-18T15:26:31.739848Z",
+  "scraped_at": "2026-11-19T15:33:28.733129Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Thistle",
+      "coach": "Crispin",
+      "draws": 0,
+      "form": "LWWWW",
+      "games": [
+        {
+          "date": "2026-09-19",
+          "game_number": "417977",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12CB-Zotaj",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "417978",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12CB-Kerslake",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "THIS-HarveyBack FS"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "417980",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12CB-Snee",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "THIS-Harvey Back SS"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417981",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G12CB-Pawlowski",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-10-29",
+          "game_number": "417982",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G12CB-Zotaj",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "THIS-HarveyBack FS"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417983",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12CB-Kerslake",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "VIK-Ruckman"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417984",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G12CB-Lachs",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "THIS-HarveyBackSS3"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "417985",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G12CB-Snee",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "DRAG-Westvaleback9v9"
+        },
+        {
+          "date": "2026-10-02",
+          "game_number": "417986",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G12CB-Pawlowski",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "THIS-Harvey Back SS"
+        }
+      ],
+      "goal_diff": 39,
+      "goals_against": 12,
+      "goals_for": 51,
+      "losses": 1,
+      "played": 9,
+      "points": 24,
+      "team_raw": "Thistle-G12CB-Crispin",
+      "wins": 8
+    },
     {
       "club": "Dumont",
       "coach": "Zotaj",
@@ -118,110 +233,6 @@
       "points": 24,
       "team_raw": "Dumont-G12CB-Zotaj",
       "wins": 8
-    },
-    {
-      "club": "Thistle",
-      "coach": "Crispin",
-      "draws": 0,
-      "form": "WLWWW",
-      "games": [
-        {
-          "date": "2026-09-19",
-          "game_number": "417977",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-G12CB-Zotaj",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "DUM-TwinBoro"
-        },
-        {
-          "date": "2026-10-23",
-          "game_number": "417978",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12CB-Kerslake",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "THIS-HarveyBack FS"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "417981",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G12CB-Pawlowski",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "NoVAL-Chestnut"
-        },
-        {
-          "date": "2026-10-29",
-          "game_number": "417982",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-G12CB-Zotaj",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "THIS-HarveyBack FS"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "417983",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12CB-Kerslake",
-          "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "VIK-Ruckman"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "417984",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G12CB-Lachs",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "THIS-HarveyBackSS3"
-        },
-        {
-          "date": "2026-11-15",
-          "game_number": "417985",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-G12CB-Snee",
-          "result": "W",
-          "time": "05:15 PM",
-          "venue_code": "DRAG-Westvaleback9v9"
-        },
-        {
-          "date": "2026-10-02",
-          "game_number": "417986",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G12CB-Pawlowski",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "THIS-Harvey Back SS"
-        }
-      ],
-      "goal_diff": 32,
-      "goals_against": 12,
-      "goals_for": 44,
-      "losses": 1,
-      "played": 8,
-      "points": 21,
-      "team_raw": "Thistle-G12CB-Crispin",
-      "wins": 7
     },
     {
       "club": "Vikings",
@@ -630,6 +641,17 @@
           "venue_code": "NoVAL-Chestnut"
         },
         {
+          "date": "2026-11-18",
+          "game_number": "417980",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-G12CB-Crispin",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "THIS-Harvey Back SS"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "417985",
           "goals_against": 6,
@@ -641,11 +663,11 @@
           "venue_code": "DRAG-Westvaleback9v9"
         }
       ],
-      "goal_diff": -35,
-      "goals_against": 37,
+      "goal_diff": -42,
+      "goals_against": 44,
       "goals_for": 2,
-      "losses": 7,
-      "played": 7,
+      "losses": 8,
+      "played": 8,
       "points": 0,
       "team_raw": "Dragons-G12CB-Snee",
       "wins": 0

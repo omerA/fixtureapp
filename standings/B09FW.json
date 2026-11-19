@@ -1,6 +1,6 @@
 {
   "division": "B09FW",
-  "scraped_at": "2026-11-18T15:26:27.042086Z",
+  "scraped_at": "2026-11-19T15:33:19.126791Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Torpedoes",
       "coach": "Nikolaidis",
       "draws": 1,
-      "form": "WWDLW",
+      "form": "WDLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -99,6 +99,17 @@
           "venue_code": "TORP-Pulis3"
         },
         {
+          "date": "2026-11-18",
+          "game_number": "415510",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B09FW-Ferreira",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis4"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "417784",
           "goals_against": 2,
@@ -110,11 +121,11 @@
           "venue_code": "AMER-GuardianAngel"
         }
       ],
-      "goal_diff": 30,
+      "goal_diff": 31,
       "goals_against": 12,
-      "goals_for": 42,
+      "goals_for": 43,
       "losses": 1,
-      "played": 9,
+      "played": 10,
       "points": 19,
       "team_raw": "Torpedoes-B09FW-Nikolaidis",
       "wins": 6
@@ -802,7 +813,7 @@
       "club": "AviatorsHHSA",
       "coach": "Ferreira",
       "draws": 0,
-      "form": "LWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -882,6 +893,17 @@
           "venue_code": "AVIA-DepkenSmall"
         },
         {
+          "date": "2026-11-18",
+          "game_number": "415510",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B09FW-Nikolaidis",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis4"
+        },
+        {
           "date": "2026-10-31",
           "game_number": "417783",
           "goals_against": 1,
@@ -893,11 +915,11 @@
           "venue_code": "Teaneck-Argonne"
         }
       ],
-      "goal_diff": -24,
-      "goals_against": 39,
+      "goal_diff": -25,
+      "goals_against": 40,
       "goals_for": 15,
       "losses": 7,
-      "played": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "AviatorsHHSA-B09FW-Ferreira",
       "wins": 1

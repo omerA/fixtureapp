@@ -1,6 +1,6 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-11-18T15:26:31.414451Z",
+  "scraped_at": "2026-11-19T15:33:28.493436Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -97,16 +97,27 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "AJAX-DePhillips Rec"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "416638",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G11C-Reed",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
         }
       ],
-      "goal_diff": 39,
-      "goals_against": 3,
-      "goals_for": 42,
+      "goal_diff": 45,
+      "goals_against": 4,
+      "goals_for": 49,
       "losses": 0,
-      "played": 8,
-      "points": 24,
+      "played": 9,
+      "points": 27,
       "team_raw": "Paramus-G11C-Buttacavoli",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "Clarkstown",
@@ -454,110 +465,6 @@
       "wins": 4
     },
     {
-      "club": "Warriors",
-      "coach": "Reed",
-      "draws": 3,
-      "form": "LLDDD",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "415378",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G11C-Mezzina",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415382",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G11C-Kim",
-          "result": "W",
-          "time": "03:15 PM",
-          "venue_code": "MONT-GlenfldPk9v9"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "415388",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-G11C-Cole",
-          "result": "W",
-          "time": "10:15 AM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415389",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-G11C-Jackson",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415397",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "NoValley",
-          "opponent_raw": "NoValley-G11C-Beezer",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "NoVAL-Chestnut"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415403",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-G11C-Prager",
-          "result": "D",
-          "time": "05:30 PM",
-          "venue_code": "ARS-MemParkRdg1"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "415405",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Clarkstown",
-          "opponent_raw": "Clarkstown-G11C-Laskowski",
-          "result": "D",
-          "time": "03:30 PM",
-          "venue_code": "NY-CLARK-Zukor2B"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "416633",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Lakeland",
-          "opponent_raw": "Lakeland-G11C-Egbert",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "WALD-Hopper"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 14,
-      "goals_for": 20,
-      "losses": 2,
-      "played": 8,
-      "points": 12,
-      "team_raw": "Warriors-G11C-Reed",
-      "wins": 3
-    },
-    {
       "club": "Arsenal",
       "coach": "Prager",
       "draws": 3,
@@ -670,6 +577,121 @@
       "played": 9,
       "points": 12,
       "team_raw": "Arsenal-G11C-Prager",
+      "wins": 3
+    },
+    {
+      "club": "Warriors",
+      "coach": "Reed",
+      "draws": 3,
+      "form": "LDDDL",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "415378",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G11C-Mezzina",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415382",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G11C-Kim",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "MONT-GlenfldPk9v9"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "415388",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G11C-Cole",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415389",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-G11C-Jackson",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415397",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G11C-Beezer",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "NoVAL-Chestnut"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415403",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G11C-Prager",
+          "result": "D",
+          "time": "05:30 PM",
+          "venue_code": "ARS-MemParkRdg1"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "415405",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-G11C-Laskowski",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "NY-CLARK-Zukor2B"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "416633",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-G11C-Egbert",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "416638",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Paramus",
+          "opponent_raw": "Paramus-G11C-Buttacavoli",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "HAWTHORNE-Veterans"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 21,
+      "goals_for": 21,
+      "losses": 3,
+      "played": 9,
+      "points": 12,
+      "team_raw": "Warriors-G11C-Reed",
       "wins": 3
     },
     {

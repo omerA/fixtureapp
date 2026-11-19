@@ -15,6 +15,13 @@
       "name": "Veterans Field HAWTH",
       "size": "Both (Small & Large)"
     },
+    "1109": {
+      "address": "160 Northern Parkway, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 GRASS",
+      "name": "Veterans Field - FS 3",
+      "size": "Large Field (11 vs 11)"
+    },
     "1121": {
       "address": "330 River Rd, New Milford, NJ 07646",
       "comments": "11v11",
@@ -34,13 +41,6 @@
       "comments": "",
       "details": "NO-LIGHTS \u2014 GRASS",
       "name": "To Be Scheduled-Home",
-      "size": "Both (Small & Large)"
-    },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
       "size": "Both (Small & Large)"
     },
     "366": {
@@ -69,6 +69,13 @@
       "comments": "",
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Ridgewood HS Stadium",
+      "size": "Large Field (11 vs 11)"
+    },
+    "503": {
+      "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Stevens Field",
       "size": "Large Field (11 vs 11)"
     },
     "619": {
@@ -159,21 +166,6 @@
       "home_team": "Maroons-G15A-Manning",
       "is_upcoming": false,
       "time": "09:00 AM"
-    },
-    {
-      "away_club": "Paramus",
-      "away_score": null,
-      "away_team": "Paramus-G15A-Buttacavoli",
-      "date": "2026-09-27",
-      "division": "G15A",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416882",
-      "home_club": "Maroons",
-      "home_score": null,
-      "home_team": "Maroons-G15A-Manning",
-      "is_upcoming": true,
-      "time": "12:00 AM"
     },
     {
       "away_club": "NMKnights",
@@ -781,8 +773,8 @@
       "away_team": "WorldClassFC-G15A-Carter",
       "date": "2026-11-22",
       "division": "G15A",
-      "field": "Ridgewood HS Stadium",
-      "field_id": "492",
+      "field": "Veterans Field - FS 3",
+      "field_id": "1109",
       "game_id": "414586",
       "home_club": "Maroons",
       "home_score": null,
@@ -864,8 +856,23 @@
       "home_team": "Nutley-G15A-Lohf",
       "is_upcoming": true,
       "time": "06:30 PM"
+    },
+    {
+      "away_club": "Paramus",
+      "away_score": null,
+      "away_team": "Paramus-G15A-Buttacavoli",
+      "date": "2026-11-24",
+      "division": "G15A",
+      "field": "Stevens Field",
+      "field_id": "503",
+      "game_id": "416882",
+      "home_club": "Maroons",
+      "home_score": null,
+      "home_team": "Maroons-G15A-Manning",
+      "is_upcoming": true,
+      "time": "07:30 PM"
     }
   ],
-  "scraped_at": "2026-11-18T15:32:26.453487Z",
+  "scraped_at": "2026-11-19T15:39:34.372508Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

@@ -1,9 +1,47 @@
 {
   "division": "G12XW",
-  "scraped_at": "2026-11-18T15:26:31.939090Z",
+  "scraped_at": "2026-11-19T15:33:28.908490Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "WoodRidge",
+      "coach": "Squeo",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418140",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G12XW-Avila",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "418141",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-G12XW-Avila",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 0,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "WoodRidge-G12XW-Squeo",
+      "wins": 1
+    },
     {
       "club": "RiverDell",
       "coach": "DelGreco",
@@ -97,33 +135,6 @@
       "wins": 1
     },
     {
-      "club": "WoodRidge",
-      "coach": "Squeo",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-15",
-          "game_number": "418140",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-G12XW-Avila",
-          "result": "W",
-          "time": "11:45 AM",
-          "venue_code": "BELLE-BellePkSm"
-        }
-      ],
-      "goal_diff": 3,
-      "goals_against": 1,
-      "goals_for": 4,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "WoodRidge-G12XW-Squeo",
-      "wins": 1
-    },
-    {
       "club": "GlenRock",
       "coach": "Weinstein",
       "draws": 0,
@@ -181,7 +192,7 @@
       "club": "Belleville",
       "coach": "Avila",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
           "date": "2026-11-15",
@@ -193,13 +204,24 @@
           "result": "L",
           "time": "11:45 AM",
           "venue_code": "BELLE-BellePkSm"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "418141",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G12XW-Squeo",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
       "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
+      "goals_against": 3,
+      "goals_for": 0,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Belleville-G12XW-Avila",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G11C",
-  "scraped_at": "2026-11-19T15:33:28.493436Z",
+  "scraped_at": "2026-11-20T15:09:54.043583Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -813,8 +813,19 @@
       "club": "NoValley",
       "coach": "Beezer",
       "draws": 2,
-      "form": "LWDDL",
+      "form": "WDDLW",
       "games": [
+        {
+          "date": "2026-11-19",
+          "game_number": "415377",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-G11C-Cole",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
         {
           "date": "2026-09-20",
           "game_number": "415381",
@@ -904,14 +915,14 @@
           "venue_code": "NoVAL-Chestnut"
         }
       ],
-      "goal_diff": -5,
+      "goal_diff": -2,
       "goals_against": 26,
-      "goals_for": 21,
+      "goals_for": 24,
       "losses": 4,
-      "played": 8,
-      "points": 8,
+      "played": 9,
+      "points": 11,
       "team_raw": "NoValley-G11C-Beezer",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "UnionCity",
@@ -1032,8 +1043,19 @@
       "club": "Dumont",
       "coach": "Cole",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
+        {
+          "date": "2026-11-19",
+          "game_number": "415377",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G11C-Beezer",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "DUM-TwinBoro"
+        },
         {
           "date": "2026-09-20",
           "game_number": "415380",
@@ -1123,11 +1145,11 @@
           "venue_code": "GLENRDGE-WashFld"
         }
       ],
-      "goal_diff": -38,
-      "goals_against": 45,
+      "goal_diff": -41,
+      "goals_against": 48,
       "goals_for": 7,
-      "losses": 7,
-      "played": 8,
+      "losses": 8,
+      "played": 9,
       "points": 1,
       "team_raw": "Dumont-G11C-Cole",
       "wins": 0

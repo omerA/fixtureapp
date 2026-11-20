@@ -1,6 +1,6 @@
 {
   "division": "B13F",
-  "scraped_at": "2026-11-19T15:33:26.999872Z",
+  "scraped_at": "2026-11-20T15:09:51.171974Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -238,7 +238,7 @@
       "club": "Lakeland",
       "coach": "Escher",
       "draws": 0,
-      "form": "WWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-10-25",
@@ -338,16 +338,27 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "LKLND-LakelandHS"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "417734",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B13F-Moran",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "LKLND-BBeach-Full"
         }
       ],
-      "goal_diff": 19,
-      "goals_against": 17,
-      "goals_for": 36,
+      "goal_diff": 24,
+      "goals_against": 19,
+      "goals_for": 43,
       "losses": 2,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 24,
       "team_raw": "Lakeland-B13F-Escher",
-      "wins": 7
+      "wins": 8
     },
     {
       "club": "Dragons",
@@ -731,7 +742,7 @@
       "club": "Clarkstown",
       "coach": "Moran",
       "draws": 1,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-10-25",
@@ -765,6 +776,17 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "RDBH-HS-Grass"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "417734",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B13F-Escher",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "LKLND-BBeach-Full"
         },
         {
           "date": "2026-10-03",
@@ -833,11 +855,11 @@
           "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 22,
-      "goals_for": 21,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -6,
+      "goals_against": 29,
+      "goals_for": 23,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "Clarkstown-B13F-Moran",
       "wins": 3

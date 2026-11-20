@@ -1,6 +1,6 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-11-19T15:33:29.048071Z",
+  "scraped_at": "2026-11-20T15:09:55.137715Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -238,8 +238,19 @@
       "club": "NoValley",
       "coach": "Mamalian",
       "draws": 2,
-      "form": "WWWDL",
+      "form": "WWDLW",
       "games": [
+        {
+          "date": "2026-11-19",
+          "game_number": "415198",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-G13D-Nahorniak",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "NoVAL-Kennedy"
+        },
         {
           "date": "2026-09-20",
           "game_number": "415199",
@@ -329,14 +340,14 @@
           "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": 1,
+      "goal_diff": 6,
       "goals_against": 10,
-      "goals_for": 11,
+      "goals_for": 16,
       "losses": 2,
-      "played": 8,
-      "points": 14,
+      "played": 9,
+      "points": 17,
       "team_raw": "NoValley-G13D-Mamalian",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Mahwah",
@@ -528,8 +539,19 @@
       "club": "WayneBG",
       "coach": "Nahorniak",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
+        {
+          "date": "2026-11-19",
+          "game_number": "415198",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "NoVAL-Kennedy"
+        },
         {
           "date": "2026-09-27",
           "game_number": "415204",
@@ -619,11 +641,11 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -23,
-      "goals_against": 32,
+      "goal_diff": -28,
+      "goals_against": 37,
       "goals_for": 9,
-      "losses": 7,
-      "played": 8,
+      "losses": 8,
+      "played": 9,
       "points": 3,
       "team_raw": "WayneBG-G13D-Nahorniak",
       "wins": 1

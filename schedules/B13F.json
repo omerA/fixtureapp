@@ -8,6 +8,13 @@
       "name": "Clifton Sports",
       "size": "Both (Small & Large)"
     },
+    "1111": {
+      "address": "PO Box, HoHpKus, NJ 07423",
+      "comments": "",
+      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
+      "name": "TBS Postponed",
+      "size": "Both (Small & Large)"
+    },
     "1162": {
       "address": "19 Zukor Road, New City, NY 10956",
       "comments": "",
@@ -1036,7 +1043,7 @@
     },
     {
       "away_club": "Clarkstown",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Clarkstown-B13F-Moran",
       "date": "2026-11-19",
       "division": "B13F",
@@ -1044,9 +1051,9 @@
       "field_id": "1202",
       "game_id": "417734",
       "home_club": "Lakeland",
-      "home_score": null,
+      "home_score": 7,
       "home_team": "Lakeland-B13F-Escher",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "07:00 PM"
     },
     {
@@ -1055,14 +1062,14 @@
       "away_team": "CougarSC-B13F-Ravano",
       "date": "2026-11-21",
       "division": "B13F",
-      "field": "River Dell High School - Stadium",
-      "field_id": "32",
+      "field": "TBS Postponed",
+      "field_id": "1111",
       "game_id": "416423",
       "home_club": "RiverDell",
       "home_score": null,
       "home_team": "RiverDell-B13F-King",
       "is_upcoming": true,
-      "time": "09:00 AM"
+      "time": "12:00 AM"
     },
     {
       "away_club": "FF",
@@ -1155,6 +1162,6 @@
       "time": "04:00 PM"
     }
   ],
-  "scraped_at": "2026-11-19T15:36:46.589318Z",
+  "scraped_at": "2026-11-20T15:13:01.348369Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

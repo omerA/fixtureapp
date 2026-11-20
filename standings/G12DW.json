@@ -1,6 +1,6 @@
 {
   "division": "G12DW",
-  "scraped_at": "2026-11-19T15:33:28.873324Z",
+  "scraped_at": "2026-11-20T15:09:54.775981Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -238,7 +238,7 @@
       "club": "NoArlington",
       "coach": "Martinez",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -307,6 +307,17 @@
           "venue_code": "NoBergen-HudsonPk2"
         },
         {
+          "date": "2026-11-19",
+          "game_number": "414957",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-G12DW-Hong",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "414961",
           "goals_against": 7,
@@ -318,20 +329,20 @@
           "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 22,
-      "goals_for": 17,
+      "goal_diff": 2,
+      "goals_against": 24,
+      "goals_for": 26,
       "losses": 4,
-      "played": 7,
-      "points": 9,
+      "played": 8,
+      "points": 12,
       "team_raw": "NoArlington-G12DW-Martinez",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "GlobalJC",
       "coach": "Hong",
       "draws": 1,
-      "form": "LLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-10-24",
@@ -411,6 +422,17 @@
           "venue_code": "NMilford-Williams9v9"
         },
         {
+          "date": "2026-11-19",
+          "game_number": "414957",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G12DW-Martinez",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "NA-Zadroga3"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "414962",
           "goals_against": 1,
@@ -422,11 +444,11 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 31,
-      "goals_for": 9,
-      "losses": 5,
-      "played": 8,
+      "goal_diff": -29,
+      "goals_against": 40,
+      "goals_for": 11,
+      "losses": 6,
+      "played": 9,
       "points": 7,
       "team_raw": "GlobalJC-G12DW-Hong",
       "wins": 2

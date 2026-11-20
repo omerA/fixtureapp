@@ -1,9 +1,47 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-11-19T15:33:26.698863Z",
+  "scraped_at": "2026-11-20T15:09:50.580145Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Rutherford",
+      "coach": "Henderson",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418163",
+          "goals_against": 4,
+          "goals_for": 9,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12XW-Bott",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "418164",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12XW-Bott",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 0,
+      "goals_for": 7,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Rutherford-B12XW-Henderson",
+      "wins": 1
+    },
     {
       "club": "WayneBG",
       "coach": "Bechara",
@@ -135,33 +173,6 @@
       "wins": 1
     },
     {
-      "club": "Rutherford",
-      "coach": "Henderson",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "418163",
-          "goals_against": 4,
-          "goals_for": 9,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12XW-Bott",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "RUTH-Memorial3"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 4,
-      "goals_for": 9,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Rutherford-B12XW-Henderson",
-      "wins": 1
-    },
-    {
       "club": "WoodRidge",
       "coach": "Mueller",
       "draws": 1,
@@ -271,8 +282,20 @@
       "club": "Maywood",
       "coach": "Bautista",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-19",
+          "game_number": "418174",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12XW-Leckenby",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
@@ -286,8 +309,20 @@
       "club": "RiverDell",
       "coach": "Leckenby",
       "draws": 0,
-      "form": "",
-      "games": [],
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-19",
+          "game_number": "418174",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B12XW-Bautista",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        }
+      ],
       "goal_diff": 0,
       "goals_against": 0,
       "goals_for": 0,
@@ -322,6 +357,44 @@
       "played": 1,
       "points": 0,
       "team_raw": "GlenRidge-B12XW-Glick",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Bott",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418163",
+          "goals_against": 9,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12XW-Henderson",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "418164",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B12XW-Henderson",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "RDBH-DPAC North"
+        }
+      ],
+      "goal_diff": -7,
+      "goals_against": 7,
+      "goals_for": 0,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "RiverDell-B12XW-Bott",
       "wins": 0
     },
     {
@@ -425,33 +498,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "Verona-B12XW-Ahmed",
-      "wins": 0
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Bott",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "418163",
-          "goals_against": 9,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B12XW-Henderson",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "RUTH-Memorial3"
-        }
-      ],
-      "goal_diff": -5,
-      "goals_against": 9,
-      "goals_for": 4,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "RiverDell-B12XW-Bott",
       "wins": 0
     }
   ]

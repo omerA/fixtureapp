@@ -1,6 +1,6 @@
 {
   "division": "B12XB",
-  "scraped_at": "2026-11-19T15:33:26.675218Z",
+  "scraped_at": "2026-11-20T15:09:50.528532Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -111,7 +111,7 @@
       "club": "Lyndhurst",
       "coach": "Seddiki",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-17",
@@ -123,16 +123,65 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "LYND-RecCtrFld3"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "417948",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-B12XB-DePiccioto",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "COUGUTD-Front"
         }
       ],
-      "goal_diff": 4,
+      "goal_diff": 1,
       "goals_against": 1,
-      "goals_for": 5,
+      "goals_for": 2,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "Lyndhurst-B12XB-Seddiki",
       "wins": 1
+    },
+    {
+      "club": "CougarUtd",
+      "coach": "DePiccioto",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-17",
+          "game_number": "417947",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12XB-Seddiki",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "LYND-RecCtrFld3"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "417948",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B12XB-Seddiki",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "COUGUTD-Front"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 2,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "CougarUtd-B12XB-DePiccioto",
+      "wins": 0
     },
     {
       "club": "Hotspur",
@@ -208,33 +257,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "NMKnights-B12XB-Melki",
-      "wins": 0
-    },
-    {
-      "club": "CougarUtd",
-      "coach": "DePiccioto",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-17",
-          "game_number": "417947",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B12XB-Seddiki",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "LYND-RecCtrFld3"
-        }
-      ],
-      "goal_diff": -4,
-      "goals_against": 5,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "CougarUtd-B12XB-DePiccioto",
       "wins": 0
     },
     {

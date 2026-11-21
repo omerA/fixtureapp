@@ -1,6 +1,6 @@
 {
   "division": "B09G",
-  "scraped_at": "2026-11-20T15:09:47.358167Z",
+  "scraped_at": "2026-11-21T14:32:08.049699Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -512,7 +512,7 @@
       "club": "Thistle",
       "coach": "Roemer",
       "draws": 0,
-      "form": "LWWLW",
+      "form": "WWLWW",
       "games": [
         {
           "date": "2026-10-25",
@@ -546,6 +546,17 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "THIS-Harvey Back SS"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "415533",
+          "goals_against": 0,
+          "goals_for": 8,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B09G-Morrisey",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "THIS-HarveyBackSS3"
         },
         {
           "date": "2026-10-03",
@@ -614,14 +625,14 @@
           "venue_code": "THIS-Harvey Back SS"
         }
       ],
-      "goal_diff": 25,
+      "goal_diff": 33,
       "goals_against": 22,
-      "goals_for": 47,
+      "goals_for": 55,
       "losses": 3,
-      "played": 9,
-      "points": 18,
+      "played": 10,
+      "points": 20,
       "team_raw": "Thistle-B09G-Roemer",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "RiverDell",
@@ -1005,7 +1016,7 @@
       "club": "Emerson",
       "coach": "Morrisey",
       "draws": 2,
-      "form": "WLLDD",
+      "form": "LLDDL",
       "games": [
         {
           "date": "2026-10-10",
@@ -1039,6 +1050,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "WYNE-McCoogPark"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "415533",
+          "goals_against": 8,
+          "goals_for": 0,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B09G-Roemer",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "THIS-HarveyBackSS3"
         },
         {
           "date": "2026-10-03",
@@ -1107,11 +1129,11 @@
           "venue_code": "EM-Hillman"
         }
       ],
-      "goal_diff": -29,
-      "goals_against": 45,
+      "goal_diff": -37,
+      "goals_against": 53,
       "goals_for": 16,
-      "losses": 6,
-      "played": 9,
+      "losses": 7,
+      "played": 10,
       "points": 5,
       "team_raw": "Emerson-B09G-Morrisey",
       "wins": 1

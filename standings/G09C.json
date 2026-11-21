@@ -1,6 +1,6 @@
 {
   "division": "G09C",
-  "scraped_at": "2026-11-20T15:09:52.776274Z",
+  "scraped_at": "2026-11-21T14:32:11.775092Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,8 +8,19 @@
       "club": "RiverDell",
       "coach": "Medeiros",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "414377",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09C-Grados",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis4"
+        },
         {
           "date": "2026-10-03",
           "game_number": "414382",
@@ -99,13 +110,139 @@
           "venue_code": "DRAG-JessieGeoSch"
         }
       ],
-      "goal_diff": 28,
+      "goal_diff": 34,
       "goals_against": 9,
-      "goals_for": 37,
+      "goals_for": 43,
       "losses": 0,
-      "played": 8,
-      "points": 22,
+      "played": 9,
+      "points": 25,
       "team_raw": "RiverDell-G09C-Medeiros",
+      "wins": 8
+    },
+    {
+      "club": "Dragons",
+      "coach": "Lehman",
+      "draws": 1,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "414376",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09C-Denberg",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "414380",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09C-Connolly",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414389",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09C-Medeiros",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414393",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09C-Howe",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414398",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G09C-Bresnan",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414402",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09C-Grados",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414407",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G09C-Denberg",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414408",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-G09C-Connolly",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-10-02",
+          "game_number": "417670",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09C-Grados",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "417672",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09C-Medeiros",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "DRAG-JessieGeoSch"
+        }
+      ],
+      "goal_diff": 32,
+      "goals_against": 11,
+      "goals_for": 43,
+      "losses": 2,
+      "played": 10,
+      "points": 22,
+      "team_raw": "Dragons-G09C-Lehman",
       "wins": 7
     },
     {
@@ -224,126 +361,22 @@
       "wins": 6
     },
     {
-      "club": "Dragons",
-      "coach": "Lehman",
-      "draws": 1,
-      "form": "DWWWW",
-      "games": [
-        {
-          "date": "2026-09-20",
-          "game_number": "414380",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G09C-Connolly",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414389",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09C-Medeiros",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414393",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G09C-Howe",
-          "result": "D",
-          "time": "10:30 AM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414398",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G09C-Bresnan",
-          "result": "W",
-          "time": "05:00 PM",
-          "venue_code": "WALD-Hopper"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "414402",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09C-Grados",
-          "result": "W",
-          "time": "09:15 AM",
-          "venue_code": "TORP-Lincoln1"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "414407",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-G09C-Denberg",
-          "result": "W",
-          "time": "03:30 PM",
-          "venue_code": "TEN-Sunnyside"
-        },
-        {
-          "date": "2026-11-15",
-          "game_number": "414408",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-G09C-Connolly",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-10-02",
-          "game_number": "417670",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09C-Grados",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "417672",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09C-Medeiros",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "DRAG-JessieGeoSch"
-        }
-      ],
-      "goal_diff": 26,
-      "goals_against": 11,
-      "goals_for": 37,
-      "losses": 2,
-      "played": 9,
-      "points": 19,
-      "team_raw": "Dragons-G09C-Lehman",
-      "wins": 6
-    },
-    {
       "club": "Torpedoes",
       "coach": "Grados",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "414377",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09C-Medeiros",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis4"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414383",
@@ -433,11 +466,11 @@
           "venue_code": "DRAG-Westvaleback7v7"
         }
       ],
-      "goal_diff": -9,
-      "goals_against": 26,
+      "goal_diff": -15,
+      "goals_against": 32,
       "goals_for": 17,
-      "losses": 4,
-      "played": 8,
+      "losses": 5,
+      "played": 9,
       "points": 12,
       "team_raw": "Torpedoes-G09C-Grados",
       "wins": 4
@@ -679,6 +712,17 @@
       "form": "LLLLL",
       "games": [
         {
+          "date": "2026-11-20",
+          "game_number": "414376",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G09C-Lehman",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
           "date": "2026-09-20",
           "game_number": "414383",
           "goals_against": 6,
@@ -767,11 +811,11 @@
           "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": -33,
-      "goals_against": 39,
+      "goal_diff": -39,
+      "goals_against": 45,
       "goals_for": 6,
-      "losses": 7,
-      "played": 8,
+      "losses": 8,
+      "played": 9,
       "points": 1,
       "team_raw": "Tenafly-G09C-Denberg",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "G14XB",
-  "scraped_at": "2026-11-20T15:09:55.660551Z",
+  "scraped_at": "2026-11-21T14:32:30.644137Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,6 +29,44 @@
       "played": 1,
       "points": 3,
       "team_raw": "NMKnights-G14XB-Regas",
+      "wins": 1
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Marchetti",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "417969",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G14XB-Clark",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417970",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G14XB-Clark",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "WALD-Hopper"
+        }
+      ],
+      "goal_diff": 4,
+      "goals_against": 0,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "RiverDell-G14XB-Marchetti",
       "wins": 1
     },
     {
@@ -67,33 +105,6 @@
       "played": 2,
       "points": 3,
       "team_raw": "NoRockland-G14XB-Barrios",
-      "wins": 1
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Marchetti",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-07",
-          "game_number": "417970",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-G14XB-Clark",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "WALD-Hopper"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 1,
-      "goals_for": 2,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "RiverDell-G14XB-Marchetti",
       "wins": 1
     },
     {
@@ -168,8 +179,19 @@
       "club": "Warriors",
       "coach": "Clark",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "417969",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G14XB-Marchetti",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "RDBH-DPAC North"
+        },
         {
           "date": "2026-11-07",
           "game_number": "417970",
@@ -182,11 +204,11 @@
           "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 2,
-      "goals_for": 1,
+      "goal_diff": -4,
+      "goals_against": 4,
+      "goals_for": 0,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Warriors-G14XB-Clark",
       "wins": 0

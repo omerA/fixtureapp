@@ -1,9 +1,113 @@
 {
   "division": "G12DB",
-  "scraped_at": "2026-11-20T15:09:54.704779Z",
+  "scraped_at": "2026-11-21T14:32:25.065949Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Mahwah",
+      "coach": "Cullaro",
+      "draws": 1,
+      "form": "WWDWW",
+      "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "414566",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12DB-DelGreco",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416697",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G12DB-Betamour",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416948",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12DB-Crowley",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416949",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12DB-Austin",
+          "result": "W",
+          "time": "08:15 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-09-27",
+          "game_number": "416952",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12DB-DelGreco",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416957",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-G12DB-Betamour",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "Haledon-Rec-Field"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416961",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G12DB-Crowley",
+          "result": "W",
+          "time": "10:15 AM",
+          "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "416965",
+          "goals_against": 2,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G12DB-Austin",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "MAR-VetsFld2"
+        }
+      ],
+      "goal_diff": 25,
+      "goals_against": 11,
+      "goals_for": 36,
+      "losses": 1,
+      "played": 8,
+      "points": 19,
+      "team_raw": "Mahwah-G12DB-Cullaro",
+      "wins": 6
+    },
     {
       "club": "Hotspur",
       "coach": "DeRosa",
@@ -98,104 +202,22 @@
       "wins": 6
     },
     {
-      "club": "Mahwah",
-      "coach": "Cullaro",
-      "draws": 1,
-      "form": "WWWDW",
-      "games": [
-        {
-          "date": "2026-11-15",
-          "game_number": "416697",
-          "goals_against": 1,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G12DB-Betamour",
-          "result": "W",
-          "time": "10:15 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416948",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12DB-Crowley",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416949",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12DB-Austin",
-          "result": "W",
-          "time": "08:15 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-09-27",
-          "game_number": "416952",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G12DB-DelGreco",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416957",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-G12DB-Betamour",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "Haledon-Rec-Field"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416961",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G12DB-Crowley",
-          "result": "W",
-          "time": "10:15 AM",
-          "venue_code": "MAHWAH-CSF"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "416965",
-          "goals_against": 2,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G12DB-Austin",
-          "result": "D",
-          "time": "09:00 AM",
-          "venue_code": "MAR-VetsFld2"
-        }
-      ],
-      "goal_diff": 21,
-      "goals_against": 9,
-      "goals_for": 30,
-      "losses": 1,
-      "played": 7,
-      "points": 16,
-      "team_raw": "Mahwah-G12DB-Cullaro",
-      "wins": 5
-    },
-    {
       "club": "RiverDell",
       "coach": "DelGreco",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWL",
       "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "414566",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G12DB-Cullaro",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "MAHWAH-CSF"
+        },
         {
           "date": "2026-11-15",
           "game_number": "414934",
@@ -285,11 +307,11 @@
           "venue_code": "VIK-Ruckman"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 11,
-      "goals_for": 14,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -1,
+      "goals_against": 17,
+      "goals_for": 16,
+      "losses": 4,
+      "played": 9,
       "points": 15,
       "team_raw": "RiverDell-G12DB-DelGreco",
       "wins": 5

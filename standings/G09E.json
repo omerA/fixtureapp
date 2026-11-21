@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-11-20T15:09:53.005528Z",
+  "scraped_at": "2026-11-21T14:32:11.904476Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -339,110 +339,6 @@
       "wins": 5
     },
     {
-      "club": "Maywood",
-      "coach": "Soto",
-      "draws": 0,
-      "form": "WLLWW",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "414819",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-G09E-Duka",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "TORP-Pulis3"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "414822",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-G09E-Rothman",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "HobUTD-1600Park"
-        },
-        {
-          "date": "2026-10-09",
-          "game_number": "414826",
-          "goals_against": 5,
-          "goals_for": 3,
-          "opponent_club": "CougarUtd",
-          "opponent_raw": "CougarUtd-G09E-Chang",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "COUGUTD-ReganSmall1"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414833",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Verona",
-          "opponent_raw": "Verona-G09E-Goman",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414841",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-G09E-vanGulik",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "414849",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-G09E-Norris",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "414855",
-          "goals_against": 8,
-          "goals_for": 3,
-          "opponent_club": "WOrange",
-          "opponent_raw": "WOrange-G09E-Tutalo",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "WORANGE-OConnor2"
-        },
-        {
-          "date": "2026-11-15",
-          "game_number": "414857",
-          "goals_against": 0,
-          "goals_for": 5,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-G09E-Sevilla",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "MAYWOOD-MemPark 7v7"
-        }
-      ],
-      "goal_diff": 6,
-      "goals_against": 28,
-      "goals_for": 34,
-      "losses": 4,
-      "played": 8,
-      "points": 12,
-      "team_raw": "Maywood-G09E-Soto",
-      "wins": 4
-    },
-    {
       "club": "Torpedoes",
       "coach": "Duka",
       "draws": 0,
@@ -687,7 +583,7 @@
       "club": "RiverDell",
       "coach": "Norris",
       "draws": 1,
-      "form": "LLWLL",
+      "form": "LWLLW",
       "games": [
         {
           "date": "2026-11-14",
@@ -776,16 +672,142 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "RDBH-DPAC North"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "417665",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-G09E-Soto",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "RDBH-DPAC South"
         }
       ],
-      "goal_diff": -17,
-      "goals_against": 33,
-      "goals_for": 16,
-      "losses": 5,
-      "played": 8,
-      "points": 7,
+      "goal_diff": -7,
+      "goals_against": 25,
+      "goals_for": 18,
+      "losses": 4,
+      "played": 9,
+      "points": 10,
       "team_raw": "RiverDell-G09E-Norris",
-      "wins": 2
+      "wins": 3
+    },
+    {
+      "club": "Maywood",
+      "coach": "Soto",
+      "draws": 0,
+      "form": "LLWWL",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "414819",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-G09E-Duka",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "TORP-Pulis3"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "414822",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-G09E-Rothman",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "HobUTD-1600Park"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "414826",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "CougarUtd",
+          "opponent_raw": "CougarUtd-G09E-Chang",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "COUGUTD-ReganSmall1"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414833",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G09E-Goman",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414841",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09E-vanGulik",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414849",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Norris",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414855",
+          "goals_against": 8,
+          "goals_for": 3,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-G09E-Tutalo",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414857",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G09E-Sevilla",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MAYWOOD-MemPark 7v7"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "417665",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G09E-Norris",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "RDBH-DPAC South"
+        }
+      ],
+      "goal_diff": -4,
+      "goals_against": 30,
+      "goals_for": 26,
+      "losses": 5,
+      "played": 9,
+      "points": 9,
+      "team_raw": "Maywood-G09E-Soto",
+      "wins": 3
     },
     {
       "club": "Maroons",

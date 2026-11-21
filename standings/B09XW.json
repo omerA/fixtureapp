@@ -1,6 +1,6 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-11-20T15:09:47.619421Z",
+  "scraped_at": "2026-11-21T14:32:08.231223Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -122,7 +122,7 @@
       "club": "WoodRidge",
       "coach": "Hughes",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
         {
           "date": "2026-11-08",
@@ -134,13 +134,24 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "418002",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B09XW-Buser",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 1,
       "goals_against": 1,
-      "goals_for": 4,
+      "goals_for": 2,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "WoodRidge-B09XW-Hughes",
       "wins": 1
@@ -311,6 +322,44 @@
       "played": 2,
       "points": 0,
       "team_raw": "NMKnights-B09XW-Austin",
+      "wins": 0
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Buser",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-08",
+          "game_number": "418001",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09XW-Hughes",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "418002",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09XW-Hughes",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 2,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "RiverDell-B09XW-Buser",
       "wins": 0
     },
     {
@@ -517,33 +566,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "NMKnights-B09XW-Toubroukji",
-      "wins": 0
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Buser",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-08",
-          "game_number": "418001",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B09XW-Hughes",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-DPAC South"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "RiverDell-B09XW-Buser",
       "wins": 0
     }
   ]

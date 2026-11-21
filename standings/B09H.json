@@ -1,6 +1,6 @@
 {
   "division": "B09H",
-  "scraped_at": "2026-11-20T15:09:47.523225Z",
+  "scraped_at": "2026-11-21T14:32:08.166741Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -1131,7 +1131,7 @@
       "club": "Southside",
       "coach": "Zamora",
       "draws": 2,
-      "form": "WDLDL",
+      "form": "DLDLL",
       "games": [
         {
           "date": "2026-10-25",
@@ -1233,6 +1233,17 @@
           "venue_code": "Haledon-Rec-7v7"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "417116",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09H-Harrison",
+          "result": "L",
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens SS2"
+        },
+        {
           "date": "2026-10-31",
           "game_number": "417659",
           "goals_against": 12,
@@ -1244,11 +1255,11 @@
           "venue_code": "Haledon-Rec-7v7"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 51,
-      "goals_for": 31,
-      "losses": 6,
-      "played": 10,
+      "goal_diff": -21,
+      "goals_against": 54,
+      "goals_for": 33,
+      "losses": 7,
+      "played": 11,
       "points": 8,
       "team_raw": "Southside-B09H-Zamora",
       "wins": 2
@@ -1383,7 +1394,7 @@
       "club": "Maroons",
       "coach": "Harrison",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-10-04",
@@ -1474,6 +1485,17 @@
           "venue_code": "FL-CenterRec2A"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "417116",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09H-Zamora",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "MAR-Stevens SS2"
+        },
+        {
           "date": "2026-09-19",
           "game_number": "417654",
           "goals_against": 7,
@@ -1485,14 +1507,14 @@
           "venue_code": "MAR-VetsFld1"
         }
       ],
-      "goal_diff": -44,
-      "goals_against": 48,
-      "goals_for": 4,
+      "goal_diff": -43,
+      "goals_against": 50,
+      "goals_for": 7,
       "losses": 9,
-      "played": 9,
-      "points": 0,
+      "played": 10,
+      "points": 3,
       "team_raw": "Maroons-B09H-Harrison",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

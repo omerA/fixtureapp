@@ -1,6 +1,6 @@
 {
   "division": "G14D",
-  "scraped_at": "2026-11-20T15:09:55.557600Z",
+  "scraped_at": "2026-11-21T14:32:30.573638Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -479,7 +479,7 @@
       "club": "Dragons",
       "coach": "Gsellmeier",
       "draws": 1,
-      "form": "LWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-09-13",
@@ -502,6 +502,17 @@
           "result": "W",
           "time": "11:15 AM",
           "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "416815",
+          "goals_against": 6,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G14D-Manning",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MaplePark"
         },
         {
           "date": "2026-10-04",
@@ -570,11 +581,11 @@
           "venue_code": "DRAG-WRMS-LG"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 7,
+      "goal_diff": 0,
+      "goals_against": 13,
       "goals_for": 13,
-      "losses": 2,
-      "played": 8,
+      "losses": 3,
+      "played": 9,
       "points": 16,
       "team_raw": "Dragons-G14D-Gsellmeier",
       "wins": 5
@@ -583,7 +594,7 @@
       "club": "Maroons",
       "coach": "Manning",
       "draws": 0,
-      "form": "LWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -595,6 +606,17 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-11-18",
+          "game_number": "416815",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G14D-Gsellmeier",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MaplePark"
         },
         {
           "date": "2026-10-04",
@@ -663,14 +685,14 @@
           "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 9,
       "goals_against": 10,
-      "goals_for": 13,
+      "goals_for": 19,
       "losses": 3,
-      "played": 7,
-      "points": 12,
+      "played": 8,
+      "points": 15,
       "team_raw": "Maroons-G14D-Manning",
-      "wins": 4
+      "wins": 5
     }
   ]
 }

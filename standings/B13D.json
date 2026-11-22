@@ -1,6 +1,6 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-11-21T14:32:10.495296Z",
+  "scraped_at": "2026-11-22T14:22:57.758416Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -364,7 +364,7 @@
       "club": "Americans",
       "coach": "Monroe",
       "draws": 1,
-      "form": "LWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -444,6 +444,17 @@
           "venue_code": "AMER-NHHS-LTrf-11v11"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "415864",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B13D-Escandon",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "AMER-LakeStTurf"
+        },
+        {
           "date": "2026-10-12",
           "game_number": "417748",
           "goals_against": 4,
@@ -455,20 +466,20 @@
           "venue_code": "AMER-NHHS-LTrf-11v11"
         }
       ],
-      "goal_diff": -16,
+      "goal_diff": -11,
       "goals_against": 29,
-      "goals_for": 13,
+      "goals_for": 18,
       "losses": 5,
-      "played": 8,
-      "points": 4,
+      "played": 9,
+      "points": 7,
       "team_raw": "Americans-B13D-Monroe",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "Thistle",
       "coach": "Escandon",
       "draws": 1,
-      "form": "LLDLL",
+      "form": "LDLLL",
       "games": [
         {
           "date": "2026-11-18",
@@ -548,6 +559,17 @@
           "venue_code": "THIS-HarveyMain"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "415864",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Monroe",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "AMER-LakeStTurf"
+        },
+        {
           "date": "2026-11-08",
           "game_number": "417747",
           "goals_against": 1,
@@ -559,11 +581,11 @@
           "venue_code": "RYSA-FAMS"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 25,
+      "goal_diff": -25,
+      "goals_against": 30,
       "goals_for": 5,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 1,
       "team_raw": "Thistle-B13D-Escandon",
       "wins": 0

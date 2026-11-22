@@ -1,6 +1,6 @@
 {
   "division": "B14EB",
-  "scraped_at": "2026-11-21T14:32:11.120810Z",
+  "scraped_at": "2026-11-22T14:22:58.327228Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "ST23",
       "coach": "Rosskamp",
       "draws": 1,
-      "form": "WDWWW",
+      "form": "DWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -110,6 +110,17 @@
           "venue_code": "THIS-HarveyMain"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "416457",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B14EB-DeCastro",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
           "date": "2026-09-19",
           "game_number": "417750",
           "goals_against": 0,
@@ -121,20 +132,20 @@
           "venue_code": "TEANECK-BenFrankMS"
         }
       ],
-      "goal_diff": 38,
+      "goal_diff": 40,
       "goals_against": 9,
-      "goals_for": 47,
+      "goals_for": 49,
       "losses": 0,
-      "played": 10,
-      "points": 28,
+      "played": 11,
+      "points": 31,
       "team_raw": "ST23-B14EB-Rosskamp",
-      "wins": 9
+      "wins": 10
     },
     {
       "club": "Belleville",
       "coach": "Calvache",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -234,16 +245,27 @@
           "result": "W",
           "time": "03:15 PM",
           "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416454",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14EB-Nacak",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "BELLE-BellePkFull"
         }
       ],
-      "goal_diff": 33,
-      "goals_against": 6,
-      "goals_for": 39,
+      "goal_diff": 34,
+      "goals_against": 7,
+      "goals_for": 41,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 27,
       "team_raw": "Belleville-B14EB-Calvache",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "HobUtd",
@@ -490,7 +512,7 @@
       "club": "CougarSC",
       "coach": "Nacak",
       "draws": 2,
-      "form": "WLLLW",
+      "form": "LLLWL",
       "games": [
         {
           "date": "2026-11-13",
@@ -581,6 +603,17 @@
           "venue_code": "COUGSC-OrangePark"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "416454",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B14EB-Calvache",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
           "date": "2026-10-31",
           "game_number": "417729",
           "goals_against": 4,
@@ -603,11 +636,11 @@
           "venue_code": "COUGSC-OrangePark"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 38,
-      "goals_for": 31,
-      "losses": 5,
-      "played": 10,
+      "goal_diff": -8,
+      "goals_against": 40,
+      "goals_for": 32,
+      "losses": 6,
+      "played": 11,
       "points": 11,
       "team_raw": "CougarSC-B14EB-Nacak",
       "wins": 3
@@ -616,7 +649,7 @@
       "club": "TeaneckFC",
       "coach": "DeCastro",
       "draws": 1,
-      "form": "WLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-10-11",
@@ -707,6 +740,17 @@
           "venue_code": "SaddleBR-VeteransFld"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "416457",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B14EB-Rosskamp",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
           "date": "2026-11-01",
           "game_number": "417730",
           "goals_against": 2,
@@ -718,11 +762,11 @@
           "venue_code": "TEANECK-VoteeSoccer"
         }
       ],
-      "goal_diff": -13,
-      "goals_against": 38,
+      "goal_diff": -15,
+      "goals_against": 40,
       "goals_for": 25,
-      "losses": 5,
-      "played": 9,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "TeaneckFC-B14EB-DeCastro",
       "wins": 3
@@ -731,7 +775,7 @@
       "club": "WayneBG",
       "coach": "Alom",
       "draws": 3,
-      "form": "DWLLW",
+      "form": "WLLWL",
       "games": [
         {
           "date": "2026-10-11",
@@ -822,6 +866,17 @@
           "venue_code": "WYNE-ValleyHSVarsity"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "416458",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B14EB-Roemer",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "THIS-HarveyMain"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "417728",
           "goals_against": 4,
@@ -844,11 +899,11 @@
           "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 39,
-      "goals_for": 25,
-      "losses": 5,
-      "played": 10,
+      "goal_diff": -19,
+      "goals_against": 45,
+      "goals_for": 26,
+      "losses": 6,
+      "played": 11,
       "points": 9,
       "team_raw": "WayneBG-B14EB-Alom",
       "wins": 2
@@ -1221,6 +1276,121 @@
       "wins": 1
     },
     {
+      "club": "Thistle",
+      "coach": "Roemer",
+      "draws": 0,
+      "form": "WWWLW",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "414707",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B14EB-Nacak",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "THIS-HarveyMain2"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414713",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B14EB-Blanchard",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416428",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B14EB-Fernandez",
+          "result": "W",
+          "time": "08:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416429 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B14EB-Calvache",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416438",
+          "goals_against": 0,
+          "goals_for": 10,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B14EB-Hegyi",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416442",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B14EB-Velazquez",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "THIS-HarveyMain"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "416448",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B14EB-DeCastro",
+          "result": "W",
+          "time": "08:00 PM",
+          "venue_code": "TEANECK-VoteeSoccer"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416452",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "ST23",
+          "opponent_raw": "ST23-B14EB-Rosskamp",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "THIS-HarveyMain"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416458",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B14EB-Alom",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "THIS-HarveyMain"
+        }
+      ],
+      "goal_diff": 32,
+      "goals_against": 10,
+      "goals_for": 42,
+      "losses": 2,
+      "played": 9,
+      "points": 20,
+      "team_raw": "Thistle-B14EB-Roemer",
+      "wins": 7
+    },
+    {
       "club": "Southside",
       "coach": "Fernandez",
       "draws": 1,
@@ -1344,110 +1514,6 @@
       "played": 10,
       "points": 19,
       "team_raw": "Southside-B14EB-Fernandez",
-      "wins": 6
-    },
-    {
-      "club": "Thistle",
-      "coach": "Roemer",
-      "draws": 0,
-      "form": "WWWWL",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "414707",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B14EB-Nacak",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "THIS-HarveyMain2"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414713",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B14EB-Blanchard",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416428",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B14EB-Fernandez",
-          "result": "W",
-          "time": "08:00 AM",
-          "venue_code": "Haledon-MnchstHS-Lrg"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416429 (F)",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B14EB-Calvache",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "BELLE-BellePkFull"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416438",
-          "goals_against": 0,
-          "goals_for": 10,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B14EB-Hegyi",
-          "result": "W",
-          "time": "10:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416442",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B14EB-Velazquez",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "THIS-HarveyMain"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "416448",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "TeaneckFC",
-          "opponent_raw": "TeaneckFC-B14EB-DeCastro",
-          "result": "W",
-          "time": "08:00 PM",
-          "venue_code": "TEANECK-VoteeSoccer"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "416452",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "ST23",
-          "opponent_raw": "ST23-B14EB-Rosskamp",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "THIS-HarveyMain"
-        }
-      ],
-      "goal_diff": 27,
-      "goals_against": 9,
-      "goals_for": 36,
-      "losses": 2,
-      "played": 8,
-      "points": 17,
-      "team_raw": "Thistle-B14EB-Roemer",
       "wins": 6
     }
   ]

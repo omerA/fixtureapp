@@ -1,6 +1,6 @@
 {
   "division": "B13B",
-  "scraped_at": "2026-11-21T14:32:10.356025Z",
+  "scraped_at": "2026-11-22T14:22:57.607626Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -134,7 +134,7 @@
       "club": "WayneBG",
       "coach": "Sanchez",
       "draws": 1,
-      "form": "WLWWD",
+      "form": "LWWDW",
       "games": [
         {
           "date": "2026-10-04",
@@ -223,16 +223,27 @@
           "result": "D",
           "time": "10:00 AM",
           "venue_code": "DRAG-WRMS-LG"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414187",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13B-Shalom",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 16,
-      "goals_for": 30,
+      "goal_diff": 18,
+      "goals_against": 18,
+      "goals_for": 36,
       "losses": 2,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "WayneBG-B13B-Sanchez",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "GlenRock",
@@ -590,13 +601,24 @@
           "result": "L",
           "time": "02:30 PM",
           "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414187",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "WayneBG",
+          "opponent_raw": "WayneBG-B13B-Sanchez",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "WYNE-Alps3"
         }
       ],
-      "goal_diff": -43,
-      "goals_against": 52,
-      "goals_for": 9,
-      "losses": 9,
-      "played": 9,
+      "goal_diff": -47,
+      "goals_against": 58,
+      "goals_for": 11,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "FairLawnAllSports-B13B-Shalom",
       "wins": 0

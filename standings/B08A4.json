@@ -1,6 +1,6 @@
 {
   "division": "B08A4",
-  "scraped_at": "2026-11-21T14:32:06.789972Z",
+  "scraped_at": "2026-11-22T14:22:54.271645Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -133,8 +133,8 @@
     {
       "club": "CougarSC",
       "coach": "Mazzullo",
-      "draws": 1,
-      "form": "WWWLW",
+      "draws": 2,
+      "form": "WWLWD",
       "games": [
         {
           "date": "2026-10-18",
@@ -234,14 +234,25 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "ARS-Dorchester1"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417403",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "FF",
+          "opponent_raw": "FF-B08A4-Cortez",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
       "goal_diff": 13,
-      "goals_against": 31,
-      "goals_for": 44,
+      "goals_against": 35,
+      "goals_for": 48,
       "losses": 3,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 17,
       "team_raw": "CougarSC-B08A4-Mazzullo",
       "wins": 5
     },
@@ -249,7 +260,7 @@
       "club": "Dumont",
       "coach": "Zotaj",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -349,16 +360,27 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "AMER-LionsSoLacrosse"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417404",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B08A4-Dickins",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": 7,
-      "goals_against": 48,
-      "goals_for": 55,
+      "goal_diff": 10,
+      "goals_against": 49,
+      "goals_for": 59,
       "losses": 4,
-      "played": 9,
-      "points": 14,
+      "played": 10,
+      "points": 17,
       "team_raw": "Dumont-B08A4-Zotaj",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Spartan",
@@ -489,8 +511,8 @@
     {
       "club": "FF",
       "coach": "Cortez",
-      "draws": 3,
-      "form": "DLDLD",
+      "draws": 4,
+      "form": "LDLDD",
       "games": [
         {
           "date": "2026-09-12",
@@ -590,14 +612,25 @@
           "result": "D",
           "time": "04:00 PM",
           "venue_code": "PAR-ParkwayMS7"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417403",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B08A4-Mazzullo",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "FF-KnightsColumbus"
         }
       ],
       "goal_diff": -28,
-      "goals_against": 60,
-      "goals_for": 32,
+      "goals_against": 64,
+      "goals_for": 36,
       "losses": 5,
-      "played": 9,
-      "points": 6,
+      "played": 10,
+      "points": 7,
       "team_raw": "FF-B08A4-Cortez",
       "wins": 1
     },
@@ -605,7 +638,7 @@
       "club": "Arsenal",
       "coach": "Dickins",
       "draws": 1,
-      "form": "LDLWL",
+      "form": "DLWLL",
       "games": [
         {
           "date": "2026-09-20",
@@ -705,13 +738,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "ARS-Dorchester1"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417404",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B08A4-Zotaj",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "DUM-GinasField"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 48,
-      "goals_for": 29,
-      "losses": 7,
-      "played": 9,
+      "goal_diff": -22,
+      "goals_against": 52,
+      "goals_for": 30,
+      "losses": 8,
+      "played": 10,
       "points": 4,
       "team_raw": "Arsenal-B08A4-Dickins",
       "wins": 1

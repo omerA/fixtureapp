@@ -1,6 +1,6 @@
 {
   "division": "B09F",
-  "scraped_at": "2026-11-21T14:32:07.886606Z",
+  "scraped_at": "2026-11-22T14:22:55.293602Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -108,22 +108,33 @@
           "result": "W",
           "time": "10:00 AM",
           "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "413877",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B09F-Mancheno",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 48,
-      "goals_against": 10,
-      "goals_for": 58,
+      "goal_diff": 54,
+      "goals_against": 11,
+      "goals_for": 65,
       "losses": 0,
-      "played": 9,
-      "points": 27,
+      "played": 10,
+      "points": 30,
       "team_raw": "Emerson-B09F-Rice",
-      "wins": 9
+      "wins": 10
     },
     {
       "club": "Arsenal",
       "coach": "Mancheno",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -223,13 +234,24 @@
           "result": "W",
           "time": "05:30 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "413877",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B09F-Rice",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "EM-HSTurf2Small"
         }
       ],
-      "goal_diff": 26,
-      "goals_against": 24,
-      "goals_for": 50,
-      "losses": 2,
-      "played": 9,
+      "goal_diff": 20,
+      "goals_against": 31,
+      "goals_for": 51,
+      "losses": 3,
+      "played": 10,
       "points": 21,
       "team_raw": "Arsenal-B09F-Mancheno",
       "wins": 7
@@ -468,7 +490,7 @@
       "club": "Rutherford",
       "coach": "Booth",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -568,16 +590,27 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "413879",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09F-Sims",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "VIK-Myrtle"
         }
       ],
-      "goal_diff": -21,
+      "goal_diff": -17,
       "goals_against": 49,
-      "goals_for": 28,
+      "goals_for": 32,
       "losses": 7,
-      "played": 9,
-      "points": 6,
+      "played": 10,
+      "points": 9,
       "team_raw": "Rutherford-B09F-Booth",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Vikings",
@@ -683,13 +716,24 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "413879",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B09F-Booth",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "VIK-Myrtle"
         }
       ],
-      "goal_diff": -57,
-      "goals_against": 65,
+      "goal_diff": -61,
+      "goals_against": 69,
       "goals_for": 8,
-      "losses": 9,
-      "played": 9,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "Vikings-B09F-Sims",
       "wins": 0

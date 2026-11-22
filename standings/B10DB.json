@@ -1,6 +1,6 @@
 {
   "division": "B10DB",
-  "scraped_at": "2026-11-21T14:32:08.526595Z",
+  "scraped_at": "2026-11-22T14:22:55.920436Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lyndhurst",
       "coach": "Westemeyer",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -108,22 +108,33 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415605",
+          "goals_against": 5,
+          "goals_for": 8,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B10DB-Barrett",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 40,
-      "goals_against": 24,
-      "goals_for": 64,
+      "goal_diff": 43,
+      "goals_against": 29,
+      "goals_for": 72,
       "losses": 0,
-      "played": 9,
-      "points": 25,
+      "played": 10,
+      "points": 28,
       "team_raw": "Lyndhurst-B10DB-Westemeyer",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "Rutherford",
       "coach": "Millar",
       "draws": 1,
-      "form": "WWDLW",
+      "form": "WDLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -212,22 +223,33 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415607",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WOrange",
+          "opponent_raw": "WOrange-B10DB-Porcaro",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": 35,
-      "goals_against": 18,
-      "goals_for": 53,
+      "goal_diff": 38,
+      "goals_against": 20,
+      "goals_for": 58,
       "losses": 1,
-      "played": 8,
-      "points": 19,
+      "played": 9,
+      "points": 22,
       "team_raw": "Rutherford-B10DB-Millar",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Montclair",
       "coach": "Barrett",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-11-15",
@@ -316,13 +338,24 @@
           "result": "W",
           "time": "08:45 AM",
           "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415605",
+          "goals_against": 8,
+          "goals_for": 5,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10DB-Westemeyer",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
         }
       ],
-      "goal_diff": 21,
-      "goals_against": 27,
-      "goals_for": 48,
-      "losses": 2,
-      "played": 8,
+      "goal_diff": 18,
+      "goals_against": 35,
+      "goals_for": 53,
+      "losses": 3,
+      "played": 9,
       "points": 18,
       "team_raw": "Montclair-B10DB-Barrett",
       "wins": 6
@@ -331,7 +364,7 @@
       "club": "Nutley",
       "coach": "Lelinho",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -431,22 +464,33 @@
           "result": "L",
           "time": "08:45 AM",
           "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415606",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-B10DB-Nowicki",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 52,
-      "goals_for": 30,
+      "goal_diff": -21,
+      "goals_against": 57,
+      "goals_for": 36,
       "losses": 6,
-      "played": 9,
-      "points": 9,
+      "played": 10,
+      "points": 12,
       "team_raw": "Nutley-B10DB-Lelinho",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Verona",
       "coach": "Nowicki",
       "draws": 0,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -546,13 +590,24 @@
           "result": "L",
           "time": "04:00 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415606",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B10DB-Lelinho",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": -40,
-      "goals_against": 59,
-      "goals_for": 19,
-      "losses": 7,
-      "played": 9,
+      "goal_diff": -41,
+      "goals_against": 65,
+      "goals_for": 24,
+      "losses": 8,
+      "played": 10,
       "points": 6,
       "team_raw": "Verona-B10DB-Nowicki",
       "wins": 2
@@ -661,13 +716,24 @@
           "result": "L",
           "time": "09:00 AM",
           "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415607",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10DB-Millar",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 49,
-      "goals_for": 15,
-      "losses": 9,
-      "played": 9,
+      "goal_diff": -37,
+      "goals_against": 54,
+      "goals_for": 17,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "WOrange-B10DB-Porcaro",
       "wins": 0

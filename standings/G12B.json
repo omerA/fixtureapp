@@ -1,6 +1,6 @@
 {
   "division": "G12B",
-  "scraped_at": "2026-11-21T14:32:12.897529Z",
+  "scraped_at": "2026-11-22T14:22:59.975672Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -252,6 +252,17 @@
           "venue_code": "RUTH-Memorial3"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414564",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G12B-Blanken",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "WALD-HSTurf-2"
+        },
+        {
           "date": "2026-09-20",
           "game_number": "414601",
           "goals_against": 1,
@@ -329,21 +340,32 @@
           "venue_code": "WALD-Hopper"
         }
       ],
-      "goal_diff": 14,
+      "goal_diff": 17,
       "goals_against": 10,
-      "goals_for": 24,
+      "goals_for": 27,
       "losses": 2,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "Warriors-G12B-Orozco",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Hotspur",
       "coach": "Wexler",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
+        {
+          "date": "2026-11-21",
+          "game_number": "414557",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G12B-Helm",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-11-19",
           "game_number": "414562",
@@ -444,20 +466,20 @@
           "venue_code": "HOT-AdornoLower"
         }
       ],
-      "goal_diff": 10,
+      "goal_diff": 15,
       "goals_against": 19,
-      "goals_for": 29,
+      "goals_for": 34,
       "losses": 3,
-      "played": 9,
-      "points": 18,
+      "played": 10,
+      "points": 21,
       "team_raw": "Hotspur-G12B-Wexler",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Emerson",
       "coach": "Blanken",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-11-08",
@@ -469,6 +491,17 @@
           "result": "L",
           "time": "05:45 PM",
           "venue_code": "SS-FaberTurfSml"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414564",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-G12B-Orozco",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "WALD-HSTurf-2"
         },
         {
           "date": "2026-09-20",
@@ -559,11 +592,11 @@
           "venue_code": "MAR-VetsFld2"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 18,
+      "goal_diff": 10,
+      "goals_against": 21,
       "goals_for": 31,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "points": 15,
       "team_raw": "Emerson-G12B-Blanken",
       "wins": 5
@@ -1043,8 +1076,19 @@
       "club": "Nutley",
       "coach": "Helm",
       "draws": 1,
-      "form": "LDLLL",
+      "form": "DLLLL",
       "games": [
+        {
+          "date": "2026-11-21",
+          "game_number": "414557",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-G12B-Wexler",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414565",
@@ -1134,11 +1178,11 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -31,
-      "goals_against": 43,
+      "goal_diff": -36,
+      "goals_against": 48,
       "goals_for": 12,
-      "losses": 6,
-      "played": 8,
+      "losses": 7,
+      "played": 9,
       "points": 4,
       "team_raw": "Nutley-G12B-Helm",
       "wins": 1

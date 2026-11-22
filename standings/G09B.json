@@ -1,6 +1,6 @@
 {
   "division": "G09B",
-  "scraped_at": "2026-11-21T14:32:11.696780Z",
+  "scraped_at": "2026-11-22T14:22:58.881956Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "SaddleBR",
       "coach": "Fontalvo",
       "draws": 0,
-      "form": "WLWWW",
+      "form": "LWWWW",
       "games": [
         {
           "date": "2026-11-08",
@@ -42,6 +42,17 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416541",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G09B-VanDyke",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "NY-WC-Field2"
         },
         {
           "date": "2026-09-27",
@@ -103,7 +114,7 @@
       "goals_against": 3,
       "goals_for": 18,
       "losses": 1,
-      "played": 8,
+      "played": 9,
       "points": 18,
       "team_raw": "SaddleBR-G09B-Fontalvo",
       "wins": 6
@@ -112,7 +123,7 @@
       "club": "WorldClassFC",
       "coach": "VanDyke",
       "draws": 0,
-      "form": "WWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-11-01",
@@ -170,6 +181,17 @@
           "venue_code": "HobUTD-SinatraPkNrth"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "416541",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G09B-Fontalvo",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "NY-WC-Field2"
+        },
+        {
           "date": "2026-10-04",
           "game_number": "416549",
           "goals_against": 1,
@@ -207,7 +229,7 @@
       "goals_against": 5,
       "goals_for": 27,
       "losses": 1,
-      "played": 8,
+      "played": 9,
       "points": 18,
       "team_raw": "WorldClassFC-G09B-VanDyke",
       "wins": 6

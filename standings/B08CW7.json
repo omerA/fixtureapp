@@ -1,6 +1,6 @@
 {
   "division": "B08CW7",
-  "scraped_at": "2026-11-21T14:32:07.141699Z",
+  "scraped_at": "2026-11-22T14:22:54.592967Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Dragons",
       "coach": "Gioffre",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -108,13 +108,24 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415909",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08CW7-Seaman",
+          "result": "L",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": 29,
-      "goals_against": 26,
-      "goals_for": 55,
-      "losses": 1,
-      "played": 9,
+      "goal_diff": 28,
+      "goals_against": 29,
+      "goals_for": 57,
+      "losses": 2,
+      "played": 10,
       "points": 24,
       "team_raw": "Dragons-B08CW7-Gioffre",
       "wins": 8
@@ -123,7 +134,7 @@
       "club": "WorldClassFC",
       "coach": "Hurtado",
       "draws": 1,
-      "form": "DWWLL",
+      "form": "WWLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -223,137 +234,33 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "RUTH-Memorial5"
-        }
-      ],
-      "goal_diff": 9,
-      "goals_against": 35,
-      "goals_for": 44,
-      "losses": 3,
-      "played": 9,
-      "points": 16,
-      "team_raw": "WorldClassFC-B08CW7-Hurtado",
-      "wins": 5
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Fishbein",
-      "draws": 2,
-      "form": "DLWLW",
-      "games": [
-        {
-          "date": "2026-11-15",
-          "game_number": "415883",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08CW7-Seaman",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "RUTH-Memorial5"
         },
         {
-          "date": "2026-09-19",
-          "game_number": "415885",
-          "goals_against": 6,
-          "goals_for": 3,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B08CW7-Gioffre",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "415889",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B08CW7-Dooley",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415892",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B08CW7-Alves",
+          "date": "2026-11-21",
+          "game_number": "415911",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B08CW7-Fishbein",
           "result": "W",
           "time": "03:00 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "415895",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-B08CW7-Hurtado",
-          "result": "D",
-          "time": "10:30 AM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415897",
-          "goals_against": 0,
-          "goals_for": 0,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B08CW7-Seaman",
-          "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "415900",
-          "goals_against": 7,
-          "goals_for": 4,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B08CW7-Gioffre",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "DRAG-JessieGeoSch"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "415903",
-          "goals_against": 5,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B08CW7-Dooley",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "TORP-Lincoln1"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "415907",
-          "goals_against": 1,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B08CW7-Alves",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "RDBH-DPAC South"
+          "venue_code": "NY-WC-Field3"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 28,
-      "goals_for": 32,
+      "goal_diff": 14,
+      "goals_against": 36,
+      "goals_for": 50,
       "losses": 3,
-      "played": 9,
-      "points": 14,
-      "team_raw": "RiverDell-B08CW7-Fishbein",
-      "wins": 4
+      "played": 10,
+      "points": 19,
+      "team_raw": "WorldClassFC-B08CW7-Hurtado",
+      "wins": 6
     },
     {
       "club": "Rutherford",
       "coach": "Seaman",
       "draws": 1,
-      "form": "DLWWL",
+      "form": "LWWLW",
       "games": [
         {
           "date": "2026-11-15",
@@ -453,22 +360,33 @@
           "result": "W",
           "time": "07:00 PM",
           "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415909",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08CW7-Gioffre",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "RUTH-Memorial5"
         }
       ],
-      "goal_diff": 4,
-      "goals_against": 32,
-      "goals_for": 36,
+      "goal_diff": 5,
+      "goals_against": 34,
+      "goals_for": 39,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 16,
       "team_raw": "Rutherford-B08CW7-Seaman",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Vikings",
       "coach": "Alves",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -568,15 +486,152 @@
           "result": "W",
           "time": "09:00 AM",
           "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415910",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08CW7-Dooley",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "VIK-Myrtle"
         }
       ],
-      "goal_diff": -12,
-      "goals_against": 29,
-      "goals_for": 17,
+      "goal_diff": -9,
+      "goals_against": 30,
+      "goals_for": 21,
       "losses": 5,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 15,
       "team_raw": "Vikings-B08CW7-Alves",
+      "wins": 5
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Fishbein",
+      "draws": 2,
+      "form": "LWLWL",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "415883",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08CW7-Seaman",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415885",
+          "goals_against": 6,
+          "goals_for": 3,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08CW7-Gioffre",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "415889",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08CW7-Dooley",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415892",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08CW7-Alves",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "415895",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08CW7-Hurtado",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415897",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B08CW7-Seaman",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415900",
+          "goals_against": 7,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B08CW7-Gioffre",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "DRAG-JessieGeoSch"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415903",
+          "goals_against": 5,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B08CW7-Dooley",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "TORP-Lincoln1"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415907",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08CW7-Alves",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415911",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B08CW7-Hurtado",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NY-WC-Field3"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 34,
+      "goals_for": 33,
+      "losses": 4,
+      "played": 10,
+      "points": 14,
+      "team_raw": "RiverDell-B08CW7-Fishbein",
       "wins": 4
     },
     {
@@ -683,13 +738,24 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "DRAG-Westvaleback7v7"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415910",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B08CW7-Alves",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "VIK-Myrtle"
         }
       ],
-      "goal_diff": -34,
-      "goals_against": 49,
-      "goals_for": 15,
-      "losses": 9,
-      "played": 9,
+      "goal_diff": -37,
+      "goals_against": 53,
+      "goals_for": 16,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "Torpedoes-B08CW7-Dooley",
       "wins": 0

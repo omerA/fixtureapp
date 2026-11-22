@@ -50,13 +50,6 @@
       "name": "Kennedy Dells Park  - 1",
       "size": "Large Field (11 vs 11)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "204": {
       "address": "Corner of Third St and Madison Ave, Cresskill, NJ 07626",
       "comments": "For U11 & U12 (9v9)",
@@ -588,21 +581,6 @@
       "time": "02:15 PM"
     },
     {
-      "away_club": "AviatorsHHSA",
-      "away_score": null,
-      "away_team": "AviatorsHHSA-G11B-Emara",
-      "date": "2026-11-13",
-      "division": "G11B",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "417909",
-      "home_club": "Maywood",
-      "home_score": null,
-      "home_team": "Maywood-G11B-Pardo",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Maroons",
       "away_score": 3,
       "away_team": "Maroons-G11B-Vaquero",
@@ -709,7 +687,7 @@
     },
     {
       "away_club": "HobUtd",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "HobUtd-G11B-Trinkwalder",
       "date": "2026-11-21",
       "division": "G11B",
@@ -717,14 +695,14 @@
       "field_id": "543",
       "game_id": "417911",
       "home_club": "WOrange",
-      "home_score": null,
+      "home_score": 4,
       "home_team": "WOrange-G11B-DePinho",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:15 PM"
     },
     {
       "away_club": "WOrange",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "WOrange-G11B-DePinho",
       "date": "2026-11-21",
       "division": "G11B",
@@ -732,9 +710,9 @@
       "field_id": "1255",
       "game_id": "415353",
       "home_club": "Maywood",
-      "home_score": null,
+      "home_score": 2,
       "home_team": "Maywood-G11B-Pardo",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "05:30 PM"
     },
     {
@@ -796,8 +774,23 @@
       "home_team": "Maywood-G11B-Pardo",
       "is_upcoming": true,
       "time": "04:15 PM"
+    },
+    {
+      "away_club": "AviatorsHHSA",
+      "away_score": null,
+      "away_team": "AviatorsHHSA-G11B-Emara",
+      "date": "2026-11-23",
+      "division": "G11B",
+      "field": "Memorial Park - Lg",
+      "field_id": "1255",
+      "game_id": "417909",
+      "home_club": "Maywood",
+      "home_score": null,
+      "home_team": "Maywood-G11B-Pardo",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     }
   ],
-  "scraped_at": "2026-11-21T14:40:08.641787Z",
+  "scraped_at": "2026-11-22T14:29:41.995714Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

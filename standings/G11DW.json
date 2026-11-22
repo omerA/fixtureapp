@@ -1,6 +1,6 @@
 {
   "division": "G11DW",
-  "scraped_at": "2026-11-21T14:32:12.729804Z",
+  "scraped_at": "2026-11-22T14:22:59.823064Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "SaddleBR",
       "coach": "Camporeale",
       "draws": 2,
-      "form": "WDWWD",
+      "form": "DWWDW",
       "games": [
         {
           "date": "2026-10-18",
@@ -157,6 +157,17 @@
           "result": "W",
           "time": "06:30 PM",
           "venue_code": "HACK-Johnson2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414508",
+          "goals_against": 0,
+          "goals_for": 5,
+          "opponent_club": "Verona",
+          "opponent_raw": "Verona-G11DW-Lodato",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFd3"
         },
         {
           "date": "2026-11-15",
@@ -214,20 +225,20 @@
           "venue_code": "SaddleBR-VeteransFd2"
         }
       ],
-      "goal_diff": 24,
+      "goal_diff": 29,
       "goals_against": 7,
-      "goals_for": 31,
+      "goals_for": 36,
       "losses": 1,
-      "played": 8,
-      "points": 17,
+      "played": 9,
+      "points": 20,
       "team_raw": "SaddleBR-G11DW-Camporeale",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Verona",
       "coach": "Lodato",
       "draws": 1,
-      "form": "LWWLW",
+      "form": "WWLWL",
       "games": [
         {
           "date": "2026-10-18",
@@ -261,6 +272,17 @@
           "result": "W",
           "time": "08:45 AM",
           "venue_code": "BLMFLD-LionsGate"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414508",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-G11DW-Camporeale",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "SaddleBR-VeteransFd3"
         },
         {
           "date": "2026-11-15",
@@ -318,11 +340,11 @@
           "venue_code": "BELLE-BellePkSm"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 19,
+      "goal_diff": -2,
+      "goals_against": 24,
       "goals_for": 22,
-      "losses": 2,
-      "played": 8,
+      "losses": 3,
+      "played": 9,
       "points": 16,
       "team_raw": "Verona-G11DW-Lodato",
       "wins": 5

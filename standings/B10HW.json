@@ -1,6 +1,6 @@
 {
   "division": "B10HW",
-  "scraped_at": "2026-11-21T14:32:08.896772Z",
+  "scraped_at": "2026-11-22T14:22:56.260496Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -353,7 +353,7 @@
       "club": "Arsenal",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -453,16 +453,27 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "EM-Hillman"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415618",
+          "goals_against": 5,
+          "goals_for": 6,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10HW-Musano",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 43,
-      "goals_for": 27,
+      "goal_diff": -15,
+      "goals_against": 48,
+      "goals_for": 33,
       "losses": 6,
-      "played": 9,
-      "points": 9,
+      "played": 10,
+      "points": 12,
       "team_raw": "Arsenal-B10HW-GuevaraFuentes",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Americans",
@@ -583,7 +594,7 @@
       "club": "Spartan",
       "coach": "Musano",
       "draws": 1,
-      "form": "DLWLL",
+      "form": "LWLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -683,13 +694,24 @@
           "result": "D",
           "time": "05:00 PM",
           "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415618",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge3Sm"
         }
       ],
-      "goal_diff": -26,
-      "goals_against": 47,
-      "goals_for": 21,
-      "losses": 7,
-      "played": 9,
+      "goal_diff": -27,
+      "goals_against": 53,
+      "goals_for": 26,
+      "losses": 8,
+      "played": 10,
       "points": 4,
       "team_raw": "Spartan-B10HW-Musano",
       "wins": 1

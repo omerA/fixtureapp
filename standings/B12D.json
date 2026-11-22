@@ -1,14 +1,14 @@
 {
   "division": "B12D",
-  "scraped_at": "2026-11-21T14:32:09.823582Z",
+  "scraped_at": "2026-11-22T14:22:57.104780Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "WoodRidge",
       "coach": "Mueller",
-      "draws": 1,
-      "form": "WWWWW",
+      "draws": 2,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-10-31",
@@ -41,6 +41,17 @@
           "opponent_raw": "RIDGFLD-B12D-Salinas",
           "result": "W",
           "time": "11:15 AM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414104",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B12D-Stratton",
+          "result": "D",
+          "time": "09:30 AM",
           "venue_code": "WDRDG-AthComp Sm A"
         },
         {
@@ -114,8 +125,8 @@
       "goals_against": 7,
       "goals_for": 32,
       "losses": 0,
-      "played": 9,
-      "points": 25,
+      "played": 10,
+      "points": 26,
       "team_raw": "WoodRidge-B12D-Mueller",
       "wins": 8
     },
@@ -123,7 +134,7 @@
       "club": "Force",
       "coach": "McGee",
       "draws": 3,
-      "form": "LWDDW",
+      "form": "WDDWW",
       "games": [
         {
           "date": "2026-10-25",
@@ -157,6 +168,17 @@
           "result": "D",
           "time": "10:15 AM",
           "venue_code": "EPUnited-BoroughFld"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414102",
+          "goals_against": 1,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12D-Leckenby",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
         },
         {
           "date": "2026-09-13",
@@ -214,20 +236,20 @@
           "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": 15,
-      "goals_against": 13,
-      "goals_for": 28,
+      "goal_diff": 17,
+      "goals_against": 14,
+      "goals_for": 31,
       "losses": 1,
-      "played": 8,
-      "points": 15,
+      "played": 9,
+      "points": 18,
       "team_raw": "Force-B12D-McGee",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Warriors",
       "coach": "Stratton",
-      "draws": 0,
-      "form": "LLWWW",
+      "draws": 1,
+      "form": "LWWWD",
       "games": [
         {
           "date": "2026-10-25",
@@ -272,6 +294,17 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414104",
+          "goals_against": 0,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B12D-Mueller",
+          "result": "D",
+          "time": "09:30 AM",
+          "venue_code": "WDRDG-AthComp Sm A"
         },
         {
           "date": "2026-09-13",
@@ -333,8 +366,8 @@
       "goals_against": 28,
       "goals_for": 30,
       "losses": 4,
-      "played": 9,
-      "points": 15,
+      "played": 10,
+      "points": 16,
       "team_raw": "Warriors-B12D-Stratton",
       "wins": 5
     },
@@ -468,7 +501,7 @@
       "club": "RiverDell",
       "coach": "Leckenby",
       "draws": 3,
-      "form": "WLWDL",
+      "form": "LWDLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -513,6 +546,17 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "WALD-Hopper"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414102",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B12D-McGee",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
         },
         {
           "date": "2026-09-12",
@@ -570,11 +614,11 @@
           "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 18,
-      "goals_for": 15,
-      "losses": 4,
-      "played": 9,
+      "goal_diff": -5,
+      "goals_against": 21,
+      "goals_for": 16,
+      "losses": 5,
+      "played": 10,
       "points": 9,
       "team_raw": "RiverDell-B12D-Leckenby",
       "wins": 2

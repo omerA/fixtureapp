@@ -1,6 +1,6 @@
 {
   "division": "G09E",
-  "scraped_at": "2026-11-21T14:32:11.904476Z",
+  "scraped_at": "2026-11-22T14:22:59.047848Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "WestEssex",
       "coach": "Sevilla",
       "draws": 1,
-      "form": "DWWWL",
+      "form": "WWWLW",
       "games": [
         {
           "date": "2026-11-14",
@@ -146,6 +146,17 @@
           "result": "L",
           "time": "05:00 PM",
           "venue_code": "WORANGE-OConnor2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414828",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G09E-vanGulik",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "MAR-Stevens SS2"
         },
         {
           "date": "2026-10-04",
@@ -214,14 +225,14 @@
           "venue_code": "WORANGE-OConnor2"
         }
       ],
-      "goal_diff": 12,
+      "goal_diff": 14,
       "goals_against": 15,
-      "goals_for": 27,
+      "goals_for": 29,
       "losses": 1,
-      "played": 8,
-      "points": 16,
+      "played": 9,
+      "points": 19,
       "team_raw": "WestEssex-G09E-Sevilla",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "CougarUtd",
@@ -813,7 +824,7 @@
       "club": "Maroons",
       "coach": "vanGulik",
       "draws": 0,
-      "form": "WWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-10-31",
@@ -836,6 +847,17 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "VERONA-ForestAve"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414828",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-G09E-Sevilla",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "MAR-Stevens SS2"
         },
         {
           "date": "2026-10-18",
@@ -904,11 +926,11 @@
           "venue_code": "VERONA-ForestAve"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 24,
+      "goal_diff": -9,
+      "goals_against": 26,
       "goals_for": 17,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "points": 6,
       "team_raw": "Maroons-G09E-vanGulik",
       "wins": 2

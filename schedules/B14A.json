@@ -57,6 +57,13 @@
       "name": "Maple Park",
       "size": "Large Field (11 vs 11)"
     },
+    "492": {
+      "address": "627 E. Ridgewood Ave, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Ridgewood HS Stadium",
+      "size": "Large Field (11 vs 11)"
+    },
     "503": {
       "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
       "comments": "",
@@ -472,22 +479,22 @@
     },
     {
       "away_club": "NoValley",
-      "away_score": null,
+      "away_score": 8,
       "away_team": "NoValley-B14A-Torrie",
       "date": "2026-11-21",
       "division": "B14A",
-      "field": "Maple Park",
-      "field_id": "47",
+      "field": "Ridgewood HS Stadium",
+      "field_id": "492",
       "game_id": "417567",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 1,
       "home_team": "Maroons-B14A-Breheny",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "12:00 PM"
     },
     {
       "away_club": "Dumont",
-      "away_score": null,
+      "away_score": 2,
       "away_team": "Dumont-B14A-Arapi",
       "date": "2026-11-21",
       "division": "B14A",
@@ -495,9 +502,9 @@
       "field_id": "102",
       "game_id": "417569",
       "home_club": "Warriors",
-      "home_score": null,
+      "home_score": 0,
       "home_team": "Warriors-B14A-Krysa",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "06:00 PM"
     },
     {
@@ -531,6 +538,6 @@
       "time": "01:30 PM"
     }
   ],
-  "scraped_at": "2026-11-21T14:35:54.082593Z",
+  "scraped_at": "2026-11-22T14:28:15.973174Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

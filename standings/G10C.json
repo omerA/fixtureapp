@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-11-21T14:32:12.192002Z",
+  "scraped_at": "2026-11-22T14:22:59.314092Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -364,7 +364,7 @@
       "club": "Montclair",
       "coach": "CioePena",
       "draws": 1,
-      "form": "LWLDL",
+      "form": "WLDLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -433,6 +433,17 @@
           "venue_code": "MONT-BrookdaleStadN"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414461",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G10C-OConnor",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "MONT-BrookdaleC"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "414465",
           "goals_against": 5,
@@ -455,20 +466,20 @@
           "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 18,
-      "goals_for": 19,
+      "goal_diff": 3,
+      "goals_against": 20,
+      "goals_for": 23,
       "losses": 3,
-      "played": 8,
-      "points": 13,
+      "played": 9,
+      "points": 16,
       "team_raw": "Montclair-G10C-CioePena",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Force",
       "coach": "OConnor",
       "draws": 0,
-      "form": "LWWWL",
+      "form": "WWWLL",
       "games": [
         {
           "date": "2026-10-24",
@@ -526,6 +537,17 @@
           "venue_code": "NY-MW-SapphireElem"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414461",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G10C-CioePena",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "MONT-BrookdaleC"
+        },
+        {
           "date": "2026-11-15",
           "game_number": "414464",
           "goals_against": 5,
@@ -559,11 +581,11 @@
           "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 28,
-      "goals_for": 31,
-      "losses": 4,
-      "played": 8,
+      "goal_diff": 1,
+      "goals_against": 32,
+      "goals_for": 33,
+      "losses": 5,
+      "played": 9,
       "points": 12,
       "team_raw": "Force-G10C-OConnor",
       "wins": 4

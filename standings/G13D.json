@@ -1,6 +1,6 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-11-21T14:32:30.289369Z",
+  "scraped_at": "2026-11-22T14:23:00.396751Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -134,8 +134,19 @@
       "club": "Vikings",
       "coach": "Flanagan",
       "draws": 3,
-      "form": "WDWDW",
+      "form": "DWDWW",
       "games": [
+        {
+          "date": "2026-11-21",
+          "game_number": "415197",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13D-Austin",
+          "result": "W",
+          "time": "05:15 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-09-20",
           "game_number": "415200",
@@ -225,14 +236,14 @@
           "venue_code": "WYNE-ValleyHSVarsity"
         }
       ],
-      "goal_diff": 14,
+      "goal_diff": 15,
       "goals_against": 8,
-      "goals_for": 22,
+      "goals_for": 23,
       "losses": 0,
-      "played": 8,
-      "points": 18,
+      "played": 9,
+      "points": 21,
       "team_raw": "Vikings-G13D-Flanagan",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "NoValley",
@@ -457,8 +468,19 @@
       "club": "Maroons",
       "coach": "Austin",
       "draws": 1,
-      "form": "LDWLL",
+      "form": "DWLLL",
       "games": [
+        {
+          "date": "2026-11-21",
+          "game_number": "415197",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "MAR-MaplePark"
+        },
         {
           "date": "2026-11-14",
           "game_number": "415202",
@@ -526,11 +548,11 @@
           "venue_code": "HobUtd-SinatraPark"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 13,
+      "goal_diff": -6,
+      "goals_against": 14,
       "goals_for": 8,
-      "losses": 4,
-      "played": 6,
+      "losses": 5,
+      "played": 7,
       "points": 4,
       "team_raw": "Maroons-G13D-Austin",
       "wins": 1

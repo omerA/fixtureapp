@@ -1,6 +1,6 @@
 {
   "division": "G12XB",
-  "scraped_at": "2026-11-21T14:32:30.031830Z",
+  "scraped_at": "2026-11-22T14:23:00.197047Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -29,33 +29,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "Dragons-G12XB-Johnson",
-      "wins": 1
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "Prior",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-16",
-          "game_number": "418034",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G12XB-Deptula",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "WDRDG-AthComp Sm A"
-        }
-      ],
-      "goal_diff": 4,
-      "goals_against": 1,
-      "goals_for": 5,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "WoodRidge-G12XB-Prior",
       "wins": 1
     },
     {
@@ -173,10 +146,48 @@
       "wins": 0
     },
     {
+      "club": "WoodRidge",
+      "coach": "Prior",
+      "draws": 1,
+      "form": "WD",
+      "games": [
+        {
+          "date": "2026-10-16",
+          "game_number": "418034",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12XB-Deptula",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "418035",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G12XB-Deptula",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-ForestAve"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 4,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "WoodRidge-G12XB-Prior",
+      "wins": 0
+    },
+    {
       "club": "GlenRidge",
       "coach": "Deptula",
-      "draws": 0,
-      "form": "L",
+      "draws": 1,
+      "form": "LD",
       "games": [
         {
           "date": "2026-10-16",
@@ -188,14 +199,25 @@
           "result": "L",
           "time": "07:30 PM",
           "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "418035",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-G12XB-Prior",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "GLENRDGE-ForestAve"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 5,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
+      "goal_diff": 0,
+      "goals_against": 4,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
       "team_raw": "GlenRidge-G12XB-Deptula",
       "wins": 0
     },

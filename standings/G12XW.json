@@ -1,6 +1,6 @@
 {
   "division": "G12XW",
-  "scraped_at": "2026-11-21T14:32:30.057891Z",
+  "scraped_at": "2026-11-22T14:23:00.219332Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -81,33 +81,6 @@
       "wins": 1
     },
     {
-      "club": "RiverDell",
-      "coach": "DelGreco",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "418138",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "GlenRock",
-          "opponent_raw": "GlenRock-G12XW-Weinstein",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "RDBH-DPAC South"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 0,
-      "goals_for": 1,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "RiverDell-G12XW-DelGreco",
-      "wins": 1
-    },
-    {
       "club": "Maroons",
       "coach": "vanGulik",
       "draws": 0,
@@ -146,10 +119,48 @@
       "wins": 1
     },
     {
+      "club": "RiverDell",
+      "coach": "DelGreco",
+      "draws": 1,
+      "form": "WD",
+      "games": [
+        {
+          "date": "2026-11-13",
+          "game_number": "418138",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12XW-Weinstein",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "418139",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G12XW-Weinstein",
+          "result": "D",
+          "time": "06:15 PM",
+          "venue_code": "SS-FaberTurfSml"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 3,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "RiverDell-G12XW-DelGreco",
+      "wins": 0
+    },
+    {
       "club": "GlenRock",
       "coach": "Weinstein",
-      "draws": 0,
-      "form": "L",
+      "draws": 1,
+      "form": "LD",
       "games": [
         {
           "date": "2026-11-13",
@@ -161,14 +172,25 @@
           "result": "L",
           "time": "06:00 PM",
           "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "418139",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G12XW-DelGreco",
+          "result": "D",
+          "time": "06:15 PM",
+          "venue_code": "SS-FaberTurfSml"
         }
       ],
-      "goal_diff": -1,
-      "goals_against": 1,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
+      "goal_diff": 0,
+      "goals_against": 3,
+      "goals_for": 3,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
       "team_raw": "GlenRock-G12XW-Weinstein",
       "wins": 0
     },

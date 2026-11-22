@@ -1,6 +1,6 @@
 {
   "division": "B13E",
-  "scraped_at": "2026-11-21T14:32:10.565669Z",
+  "scraped_at": "2026-11-22T14:22:57.805200Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Rutherford",
       "coach": "Seaman",
       "draws": 1,
-      "form": "WWDWW",
+      "form": "WDWWW",
       "games": [
         {
           "date": "2026-10-25",
@@ -108,22 +108,159 @@
           "result": "W",
           "time": "06:45 PM",
           "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416367",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B13E-Vassallo",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "HARR-WHudsonParkSB"
         }
       ],
-      "goal_diff": 31,
-      "goals_against": 11,
-      "goals_for": 42,
+      "goal_diff": 32,
+      "goals_against": 12,
+      "goals_for": 44,
       "losses": 0,
-      "played": 9,
-      "points": 25,
+      "played": 10,
+      "points": 28,
       "team_raw": "Rutherford-B13E-Seaman",
-      "wins": 8
+      "wins": 9
+    },
+    {
+      "club": "Maroons",
+      "coach": "Herbert",
+      "draws": 0,
+      "form": "LWWLW",
+      "games": [
+        {
+          "date": "2026-10-25",
+          "game_number": "415867",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13E-Seaman",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "MAR-Stevens"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415871",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B13E-Vassallo",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415874",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B13E-Riddick",
+          "result": "W",
+          "time": "04:00 PM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415877",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13E-Rangrez",
+          "result": "W",
+          "time": "05:00 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415879",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13E-McDermott",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "ARS-PHHS2"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "416357",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13E-Seaman",
+          "result": "L",
+          "time": "07:30 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-11-05",
+          "game_number": "416358",
+          "goals_against": 5,
+          "goals_for": 0,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B13E-Vassallo",
+          "result": "L",
+          "time": "08:00 PM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416362",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B13E-Riddick",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416366",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13E-Rangrez",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416368",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13E-McDermott",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "MAR-Stevens"
+        }
+      ],
+      "goal_diff": 21,
+      "goals_against": 19,
+      "goals_for": 40,
+      "losses": 3,
+      "played": 10,
+      "points": 21,
+      "team_raw": "Maroons-B13E-Herbert",
+      "wins": 7
     },
     {
       "club": "Harrison",
       "coach": "Vassallo",
       "draws": 1,
-      "form": "LWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -223,126 +360,33 @@
           "result": "W",
           "time": "12:00 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416367",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13E-Seaman",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "HARR-WHudsonParkSB"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 15,
-      "goals_for": 35,
-      "losses": 3,
-      "played": 9,
+      "goal_diff": 19,
+      "goals_against": 17,
+      "goals_for": 36,
+      "losses": 4,
+      "played": 10,
       "points": 16,
       "team_raw": "Harrison-B13E-Vassallo",
-      "wins": 5
-    },
-    {
-      "club": "Maroons",
-      "coach": "Herbert",
-      "draws": 0,
-      "form": "LLWWL",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "415867",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B13E-Seaman",
-          "result": "L",
-          "time": "05:00 PM",
-          "venue_code": "MAR-Stevens"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415871",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B13E-Vassallo",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415874",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B13E-Riddick",
-          "result": "W",
-          "time": "04:00 PM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415879",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B13E-McDermott",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "ARS-PHHS2"
-        },
-        {
-          "date": "2026-11-20",
-          "game_number": "416357",
-          "goals_against": 5,
-          "goals_for": 4,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B13E-Seaman",
-          "result": "L",
-          "time": "07:30 PM",
-          "venue_code": "RUTH-Memorial5"
-        },
-        {
-          "date": "2026-11-05",
-          "game_number": "416358",
-          "goals_against": 5,
-          "goals_for": 0,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B13E-Vassallo",
-          "result": "L",
-          "time": "08:00 PM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-11-15",
-          "game_number": "416362",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B13E-Riddick",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "MAR-VetsFld3"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "416366",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B13E-Rangrez",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "TEN-Municipal"
-        }
-      ],
-      "goal_diff": 13,
-      "goals_against": 19,
-      "goals_for": 32,
-      "losses": 3,
-      "played": 8,
-      "points": 15,
-      "team_raw": "Maroons-B13E-Herbert",
       "wins": 5
     },
     {
       "club": "Arsenal",
       "coach": "McDermott",
       "draws": 0,
-      "form": "LLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-10-04",
@@ -442,120 +486,27 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "ARS-PHHS1"
-        }
-      ],
-      "goal_diff": -9,
-      "goals_against": 32,
-      "goals_for": 23,
-      "losses": 6,
-      "played": 9,
-      "points": 9,
-      "team_raw": "Arsenal-B13E-McDermott",
-      "wins": 3
-    },
-    {
-      "club": "Tenafly",
-      "coach": "Rangrez",
-      "draws": 2,
-      "form": "WLDLL",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "415869",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B13E-McDermott",
-          "result": "W",
-          "time": "01:15 PM",
-          "venue_code": "TEN-Municipal"
         },
         {
-          "date": "2026-09-19",
-          "game_number": "415872",
+          "date": "2026-11-21",
+          "game_number": "416368",
           "goals_against": 7,
           "goals_for": 0,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B13E-Seaman",
-          "result": "L",
-          "time": "12:30 PM",
-          "venue_code": "RUTH-Tryon"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "415875",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B13E-Vassallo",
-          "result": "D",
-          "time": "07:30 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "415880",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-B13E-Riddick",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "MONT-Fortunato"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415882",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B13E-McDermott",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "ARS-PHHS1"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416360",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B13E-Seaman",
-          "result": "D",
-          "time": "02:15 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-11-15",
-          "game_number": "416361",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-B13E-Vassallo",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "HARR-WHudsonParkSB"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "416366",
-          "goals_against": 4,
-          "goals_for": 1,
           "opponent_club": "Maroons",
           "opponent_raw": "Maroons-B13E-Herbert",
           "result": "L",
-          "time": "02:30 PM",
-          "venue_code": "TEN-Municipal"
+          "time": "10:30 AM",
+          "venue_code": "MAR-Stevens"
         }
       ],
-      "goal_diff": -19,
-      "goals_against": 33,
-      "goals_for": 14,
-      "losses": 4,
-      "played": 8,
-      "points": 8,
-      "team_raw": "Tenafly-B13E-Rangrez",
-      "wins": 2
+      "goal_diff": -16,
+      "goals_against": 39,
+      "goals_for": 23,
+      "losses": 7,
+      "played": 10,
+      "points": 9,
+      "team_raw": "Arsenal-B13E-McDermott",
+      "wins": 3
     },
     {
       "club": "Montclair",
@@ -661,16 +612,153 @@
           "result": "L",
           "time": "06:45 PM",
           "venue_code": "MONT-BrookdaleStad"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416369",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13E-Rangrez",
+          "result": "L",
+          "time": "01:45 PM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -36,
-      "goals_against": 51,
-      "goals_for": 15,
-      "losses": 8,
-      "played": 9,
+      "goal_diff": -43,
+      "goals_against": 60,
+      "goals_for": 17,
+      "losses": 9,
+      "played": 10,
       "points": 3,
       "team_raw": "Montclair-B13E-Riddick",
       "wins": 1
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Rangrez",
+      "draws": 2,
+      "form": "LDLLW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "415869",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13E-McDermott",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415872",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13E-Seaman",
+          "result": "L",
+          "time": "12:30 PM",
+          "venue_code": "RUTH-Tryon"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "415875",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B13E-Vassallo",
+          "result": "D",
+          "time": "07:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415877 (F)",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13E-Herbert",
+          "result": "L",
+          "time": "05:00 PM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "415880",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B13E-Riddick",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "MONT-Fortunato"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415882",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B13E-McDermott",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416360",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B13E-Seaman",
+          "result": "D",
+          "time": "02:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "416361",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-B13E-Vassallo",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "HARR-WHudsonParkSB"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416366",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B13E-Herbert",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416369",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B13E-Riddick",
+          "result": "W",
+          "time": "01:45 PM",
+          "venue_code": "TEN-Municipal"
+        }
+      ],
+      "goal_diff": -13,
+      "goals_against": 36,
+      "goals_for": 23,
+      "losses": 5,
+      "played": 10,
+      "points": 11,
+      "team_raw": "Tenafly-B13E-Rangrez",
+      "wins": 3
     }
   ]
 }

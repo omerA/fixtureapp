@@ -1,6 +1,6 @@
 {
   "division": "G12DW",
-  "scraped_at": "2026-11-21T14:32:29.673375Z",
+  "scraped_at": "2026-11-22T14:23:00.174922Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -238,8 +238,19 @@
       "club": "NoArlington",
       "coach": "Martinez",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWW",
       "games": [
+        {
+          "date": "2026-11-21",
+          "game_number": "414936",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G12DW-Duque",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414940",
@@ -329,14 +340,14 @@
           "venue_code": "NA-Zadroga2"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 24,
-      "goals_for": 26,
+      "goal_diff": 3,
+      "goals_against": 28,
+      "goals_for": 31,
       "losses": 4,
-      "played": 8,
-      "points": 12,
+      "played": 9,
+      "points": 15,
       "team_raw": "NoArlington-G12DW-Martinez",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "GlobalJC",
@@ -457,8 +468,19 @@
       "club": "NMKnights",
       "coach": "Duque",
       "draws": 0,
-      "form": "LWWLL",
+      "form": "WWLLL",
       "games": [
+        {
+          "date": "2026-11-21",
+          "game_number": "414936",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G12DW-Martinez",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "NMilford-Williams9v9"
+        },
         {
           "date": "2026-09-20",
           "game_number": "414939",
@@ -548,11 +570,11 @@
           "venue_code": "NMilford-Williams9v9"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 29,
-      "goals_for": 15,
-      "losses": 6,
-      "played": 8,
+      "goal_diff": -15,
+      "goals_against": 34,
+      "goals_for": 19,
+      "losses": 7,
+      "played": 9,
       "points": 6,
       "team_raw": "NMKnights-G12DW-Duque",
       "wins": 2

@@ -1,14 +1,14 @@
 {
   "division": "B11F",
-  "scraped_at": "2026-11-21T14:32:09.391896Z",
+  "scraped_at": "2026-11-22T14:22:56.693111Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Vikings",
       "coach": "Jung",
-      "draws": 1,
-      "form": "DWLWW",
+      "draws": 2,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-10-14",
@@ -88,6 +88,17 @@
           "venue_code": "NUT-FatherGlotzbach2"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414078",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B11F-Oakland",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
           "date": "2026-09-23",
           "game_number": "417761",
           "goals_against": 2,
@@ -111,11 +122,11 @@
         }
       ],
       "goal_diff": 11,
-      "goals_against": 13,
-      "goals_for": 24,
+      "goals_against": 14,
+      "goals_for": 25,
       "losses": 1,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 17,
       "team_raw": "Vikings-B11F-Jung",
       "wins": 5
     },
@@ -237,8 +248,8 @@
     {
       "club": "GlenRock",
       "coach": "Oakland",
-      "draws": 1,
-      "form": "WWWLL",
+      "draws": 2,
+      "form": "WWLLD",
       "games": [
         {
           "date": "2026-11-01",
@@ -318,6 +329,17 @@
           "venue_code": "ARS-OldMill"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414078",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B11F-Jung",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "WALD-SuperDomeOut"
+        },
+        {
           "date": "2026-10-24",
           "game_number": "417760",
           "goals_against": 1,
@@ -341,11 +363,11 @@
         }
       ],
       "goal_diff": 4,
-      "goals_against": 13,
-      "goals_for": 17,
+      "goals_against": 14,
+      "goals_for": 18,
       "losses": 2,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 14,
       "team_raw": "GlenRock-B11F-Oakland",
       "wins": 4
     },
@@ -353,7 +375,7 @@
       "club": "TeaneckFC",
       "coach": "Preciado",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-11-01",
@@ -387,6 +409,17 @@
           "result": "L",
           "time": "09:15 AM",
           "venue_code": "ARS-Fieldstone2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414063",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11F-Zurita",
+          "result": "W",
+          "time": "07:45 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-11-08",
@@ -444,14 +477,14 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 23,
-      "goals_for": 15,
-      "losses": 5,
-      "played": 8,
-      "points": 6,
+      "goal_diff": -3,
+      "goals_against": 20,
+      "goals_for": 17,
+      "losses": 4,
+      "played": 9,
+      "points": 9,
       "team_raw": "TeaneckFC-B11F-Preciado",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Nutley",
@@ -491,6 +524,17 @@
           "result": "L",
           "time": "01:30 PM",
           "venue_code": "VIK-Schauble"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414063",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B11F-Preciado",
+          "result": "L",
+          "time": "07:45 PM",
+          "venue_code": "NUT-FatherGlotzbach2"
         },
         {
           "date": "2026-10-31",
@@ -559,14 +603,14 @@
           "venue_code": "NUT-FatherGlotzbach2"
         }
       ],
-      "goal_diff": -26,
-      "goals_against": 39,
-      "goals_for": 13,
-      "losses": 7,
-      "played": 9,
-      "points": 3,
+      "goal_diff": -31,
+      "goals_against": 41,
+      "goals_for": 10,
+      "losses": 8,
+      "played": 10,
+      "points": 0,
       "team_raw": "Nutley-B11F-Zurita",
-      "wins": 1
+      "wins": 0
     }
   ]
 }

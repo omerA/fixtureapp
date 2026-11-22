@@ -1,6 +1,6 @@
 {
   "division": "B09A",
-  "scraped_at": "2026-11-21T14:32:07.480172Z",
+  "scraped_at": "2026-11-22T14:22:54.911228Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Maroons",
       "coach": "Breheny",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -108,13 +108,24 @@
           "result": "W",
           "time": "10:15 AM",
           "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415430",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-B09A-GuevaraFuentes",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 28,
-      "goals_against": 23,
-      "goals_for": 51,
-      "losses": 0,
-      "played": 9,
+      "goal_diff": 27,
+      "goals_against": 27,
+      "goals_for": 54,
+      "losses": 1,
+      "played": 10,
       "points": 27,
       "team_raw": "Maroons-B09A-Breheny",
       "wins": 9
@@ -123,7 +134,7 @@
       "club": "WorldClassFC",
       "coach": "GuevaraFuentes",
       "draws": 0,
-      "form": "WLWLW",
+      "form": "LWLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -223,22 +234,33 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415430",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09A-Breheny",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 6,
-      "goals_against": 32,
-      "goals_for": 38,
+      "goal_diff": 7,
+      "goals_against": 35,
+      "goals_for": 42,
       "losses": 3,
-      "played": 9,
-      "points": 18,
+      "played": 10,
+      "points": 21,
       "team_raw": "WorldClassFC-B09A-GuevaraFuentes",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Clarkstown",
       "coach": "Munting",
       "draws": 1,
-      "form": "WWLLL",
+      "form": "WLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -338,22 +360,33 @@
           "result": "L",
           "time": "05:15 PM",
           "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415431",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-B09A-Goldberg",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MONT-BrookdaleC"
         }
       ],
-      "goal_diff": -6,
+      "goal_diff": -2,
       "goals_against": 30,
-      "goals_for": 24,
+      "goals_for": 28,
       "losses": 4,
-      "played": 9,
-      "points": 13,
+      "played": 10,
+      "points": 16,
       "team_raw": "Clarkstown-B09A-Munting",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Southside",
       "coach": "Zamora",
       "draws": 0,
-      "form": "WWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -453,22 +486,33 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "NY-WC-Field3"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415432",
+          "goals_against": 0,
+          "goals_for": 2,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09A-Callegari",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
         }
       ],
-      "goal_diff": 2,
+      "goal_diff": 4,
       "goals_against": 28,
-      "goals_for": 30,
+      "goals_for": 32,
       "losses": 5,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 15,
       "team_raw": "Southside-B09A-Zamora",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "NASA",
       "coach": "Callegari",
       "draws": 1,
-      "form": "LWLWL",
+      "form": "WLWLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -568,13 +612,24 @@
           "result": "W",
           "time": "05:15 PM",
           "venue_code": "NY-CLARK-Zukor2A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415432",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09A-Zamora",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "Haledon-Rec-7v7"
         }
       ],
-      "goal_diff": 5,
-      "goals_against": 28,
+      "goal_diff": 3,
+      "goals_against": 30,
       "goals_for": 33,
-      "losses": 5,
-      "played": 9,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "NASA-B09A-Callegari",
       "wins": 3
@@ -683,13 +738,24 @@
           "result": "L",
           "time": "10:15 AM",
           "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415431",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B09A-Munting",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "MONT-BrookdaleC"
         }
       ],
-      "goal_diff": -35,
-      "goals_against": 45,
+      "goal_diff": -39,
+      "goals_against": 49,
       "goals_for": 10,
-      "losses": 9,
-      "played": 9,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "Montclair-B09A-Goldberg",
       "wins": 0

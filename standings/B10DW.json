@@ -1,6 +1,6 @@
 {
   "division": "B10DW",
-  "scraped_at": "2026-11-21T14:32:08.608839Z",
+  "scraped_at": "2026-11-22T14:22:55.966669Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "WoodRidge",
       "coach": "Prior",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -108,13 +108,24 @@
           "result": "W",
           "time": "03:00 PM",
           "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416109",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10DW-OHara",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 54,
-      "goals_against": 8,
-      "goals_for": 62,
-      "losses": 0,
-      "played": 9,
+      "goal_diff": 52,
+      "goals_against": 12,
+      "goals_for": 64,
+      "losses": 1,
+      "played": 10,
       "points": 27,
       "team_raw": "WoodRidge-B10DW-Prior",
       "wins": 9
@@ -123,7 +134,7 @@
       "club": "Maroons",
       "coach": "OHara",
       "draws": 0,
-      "form": "LWWWW",
+      "form": "WWWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -223,22 +234,33 @@
           "result": "W",
           "time": "02:15 PM",
           "venue_code": "WALD-HSTurf-2"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416109",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B10DW-Prior",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 14,
-      "goals_for": 34,
+      "goal_diff": 22,
+      "goals_against": 16,
+      "goals_for": 38,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 27,
       "team_raw": "Maroons-B10DW-OHara",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "RiverDell",
       "coach": "Cilia",
       "draws": 0,
-      "form": "WWLWL",
+      "form": "WLWLW",
       "games": [
         {
           "date": "2026-09-20",
@@ -338,16 +360,27 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "WDRDG-AthComp Sm A"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416110",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B10DW-Hernandez",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "RDBH-Roosevelt"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 25,
-      "goals_for": 17,
+      "goal_diff": -7,
+      "goals_against": 26,
+      "goals_for": 19,
       "losses": 5,
-      "played": 9,
-      "points": 12,
+      "played": 10,
+      "points": 15,
       "team_raw": "RiverDell-B10DW-Cilia",
-      "wins": 4
+      "wins": 5
     },
     {
       "club": "Warriors",
@@ -468,7 +501,7 @@
       "club": "AviatorsHHSA",
       "coach": "Hernandez",
       "draws": 1,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -568,13 +601,24 @@
           "result": "W",
           "time": "10:30 AM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "416110",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10DW-Cilia",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "RDBH-Roosevelt"
         }
       ],
-      "goal_diff": -20,
-      "goals_against": 39,
-      "goals_for": 19,
-      "losses": 6,
-      "played": 9,
+      "goal_diff": -21,
+      "goals_against": 41,
+      "goals_for": 20,
+      "losses": 7,
+      "played": 10,
       "points": 7,
       "team_raw": "AviatorsHHSA-B10DW-Hernandez",
       "wins": 2

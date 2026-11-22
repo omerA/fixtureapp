@@ -1,6 +1,6 @@
 {
   "division": "B13A",
-  "scraped_at": "2026-11-21T14:32:10.305964Z",
+  "scraped_at": "2026-11-22T14:22:57.561723Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -123,7 +123,7 @@
       "club": "Ajax",
       "coach": "Aufiero",
       "draws": 1,
-      "form": "WWWLL",
+      "form": "WWLLL",
       "games": [
         {
           "date": "2026-09-12",
@@ -212,13 +212,24 @@
           "result": "L",
           "time": "03:00 PM",
           "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417508",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13A-Schwartzberg",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 20,
-      "goals_for": 23,
-      "losses": 3,
-      "played": 8,
+      "goal_diff": -4,
+      "goals_against": 28,
+      "goals_for": 24,
+      "losses": 4,
+      "played": 9,
       "points": 13,
       "team_raw": "Ajax-B13A-Aufiero",
       "wins": 4
@@ -326,6 +337,132 @@
       "points": 12,
       "team_raw": "Nutley-B13A-Clifford",
       "wins": 4
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Schwartzberg",
+      "draws": 2,
+      "form": "WLDWW",
+      "games": [
+        {
+          "date": "2026-09-13",
+          "game_number": "417481",
+          "goals_against": 5,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13A-Kolodiy",
+          "result": "L",
+          "time": "05:15 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417484",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13A-Rake",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "417487",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B13A-Sharry",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "417490",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B13A-Clifford",
+          "result": "L",
+          "time": "06:15 PM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417491",
+          "goals_against": 6,
+          "goals_for": 2,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B13A-Aufiero",
+          "result": "L",
+          "time": "03:00 PM",
+          "venue_code": "AJAX-MPHS-Schiffer"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417495",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B13A-Kolodiy",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-Ritzer"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "417499",
+          "goals_against": 7,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13A-Rake",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417500",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "AviatorsHHSA",
+          "opponent_raw": "AviatorsHHSA-B13A-Sharry",
+          "result": "D",
+          "time": "06:00 PM",
+          "venue_code": "AVIA-Depken"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417505",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B13A-Clifford",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "TEN-Municipal"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417508",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Ajax",
+          "opponent_raw": "Ajax-B13A-Aufiero",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "TEN-Municipal"
+        }
+      ],
+      "goal_diff": -11,
+      "goals_against": 37,
+      "goals_for": 26,
+      "losses": 5,
+      "played": 10,
+      "points": 11,
+      "team_raw": "Tenafly-B13A-Schwartzberg",
+      "wins": 3
     },
     {
       "club": "CougarSC",
@@ -441,121 +578,6 @@
       "points": 9,
       "team_raw": "CougarSC-B13A-Kolodiy",
       "wins": 3
-    },
-    {
-      "club": "Tenafly",
-      "coach": "Schwartzberg",
-      "draws": 2,
-      "form": "LWLDW",
-      "games": [
-        {
-          "date": "2026-09-13",
-          "game_number": "417481",
-          "goals_against": 5,
-          "goals_for": 1,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13A-Kolodiy",
-          "result": "L",
-          "time": "05:15 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417484",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13A-Rake",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "417487",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B13A-Sharry",
-          "result": "D",
-          "time": "10:30 AM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "417490",
-          "goals_against": 8,
-          "goals_for": 1,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B13A-Clifford",
-          "result": "L",
-          "time": "06:15 PM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417491",
-          "goals_against": 6,
-          "goals_for": 2,
-          "opponent_club": "Ajax",
-          "opponent_raw": "Ajax-B13A-Aufiero",
-          "result": "L",
-          "time": "03:00 PM",
-          "venue_code": "AJAX-MPHS-Schiffer"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "417495",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B13A-Kolodiy",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "COUGSC-Ritzer"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "417499",
-          "goals_against": 7,
-          "goals_for": 1,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13A-Rake",
-          "result": "L",
-          "time": "03:45 PM",
-          "venue_code": "TEN-Municipal"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "417500",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "AviatorsHHSA",
-          "opponent_raw": "AviatorsHHSA-B13A-Sharry",
-          "result": "D",
-          "time": "06:00 PM",
-          "venue_code": "AVIA-Depken"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "417505",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B13A-Clifford",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "TEN-Municipal"
-        }
-      ],
-      "goal_diff": -18,
-      "goals_against": 36,
-      "goals_for": 18,
-      "losses": 5,
-      "played": 9,
-      "points": 8,
-      "team_raw": "Tenafly-B13A-Schwartzberg",
-      "wins": 2
     },
     {
       "club": "AviatorsHHSA",

@@ -1,6 +1,6 @@
 {
   "division": "B10F",
-  "scraped_at": "2026-11-22T14:22:56.100085Z",
+  "scraped_at": "2026-11-23T17:44:27.294019Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -225,6 +225,17 @@
           "venue_code": "MAR-VetsFld1"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "417212",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10F-Grados",
+          "result": "W",
+          "time": "12:45 PM",
+          "venue_code": "WESSEX-VetSmallNorth"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "417213",
           "goals_against": 3,
@@ -247,14 +258,151 @@
           "venue_code": "WEssex-Volunteers"
         }
       ],
-      "goal_diff": 50,
-      "goals_against": 25,
-      "goals_for": 75,
+      "goal_diff": 53,
+      "goals_against": 27,
+      "goals_for": 80,
       "losses": 1,
-      "played": 10,
-      "points": 27,
+      "played": 11,
+      "points": 30,
       "team_raw": "WestEssex-B10F-Scorciolla",
-      "wins": 9
+      "wins": 10
+    },
+    {
+      "club": "Force",
+      "coach": "PierreJoseph",
+      "draws": 1,
+      "form": "WWLDW",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "416142",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10F-Chambers",
+          "result": "W",
+          "time": "09:45 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-09-12",
+          "game_number": "416152",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Torpedoes",
+          "opponent_raw": "Torpedoes-B10F-Grados",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TORP-Pulis1"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "417172",
+          "goals_against": 6,
+          "goals_for": 4,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B10F-Mavrorasakis",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "417177",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B10F-McDonald",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "RUTH-Memorial3"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "417188",
+          "goals_against": 6,
+          "goals_for": 5,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B10F-Wangenheim",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "TEN-Sunnyside"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "417189",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "TeaneckFC",
+          "opponent_raw": "TeaneckFC-B10F-DeCastro",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "TEANECK-VoteeSoccerN"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "417197",
+          "goals_against": 3,
+          "goals_for": 10,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B10F-Doyle",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "RDGFLDPK-Veterans"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "417201",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10F-Capp",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "NY-MWU-Gonzaga"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417209",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "HobUtd",
+          "opponent_raw": "HobUtd-B10F-Gandolfi",
+          "result": "W",
+          "time": "04:30 PM",
+          "venue_code": "HobUTD-SinatraPkNrth"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417213",
+          "goals_against": 9,
+          "goals_for": 3,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10F-Scorciolla",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417220",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B10F-Pardo",
+          "result": "D",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": 24,
+      "goals_against": 37,
+      "goals_for": 61,
+      "losses": 3,
+      "played": 11,
+      "points": 22,
+      "team_raw": "Force-B10F-PierreJoseph",
+      "wins": 7
     },
     {
       "club": "Hackensack",
@@ -528,132 +676,6 @@
       "played": 11,
       "points": 20,
       "team_raw": "HobUtd-B10F-Gandolfi",
-      "wins": 6
-    },
-    {
-      "club": "Force",
-      "coach": "PierreJoseph",
-      "draws": 1,
-      "form": "WWWLD",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "416152",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Torpedoes",
-          "opponent_raw": "Torpedoes-B10F-Grados",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "TORP-Pulis1"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "417172",
-          "goals_against": 6,
-          "goals_for": 4,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B10F-Mavrorasakis",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "417177",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B10F-McDonald",
-          "result": "W",
-          "time": "06:45 PM",
-          "venue_code": "RUTH-Memorial3"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "417188",
-          "goals_against": 6,
-          "goals_for": 5,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B10F-Wangenheim",
-          "result": "L",
-          "time": "11:00 AM",
-          "venue_code": "TEN-Sunnyside"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "417189",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "TeaneckFC",
-          "opponent_raw": "TeaneckFC-B10F-DeCastro",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "TEANECK-VoteeSoccerN"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "417197",
-          "goals_against": 3,
-          "goals_for": 10,
-          "opponent_club": "RdgfldPk",
-          "opponent_raw": "RdgfldPk-B10F-Doyle",
-          "result": "W",
-          "time": "02:30 PM",
-          "venue_code": "RDGFLDPK-Veterans"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "417201",
-          "goals_against": 4,
-          "goals_for": 5,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10F-Capp",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "NY-MWU-Gonzaga"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "417209",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "HobUtd",
-          "opponent_raw": "HobUtd-B10F-Gandolfi",
-          "result": "W",
-          "time": "04:30 PM",
-          "venue_code": "HobUTD-SinatraPkNrth"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "417213",
-          "goals_against": 9,
-          "goals_for": 3,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-B10F-Scorciolla",
-          "result": "L",
-          "time": "11:30 AM",
-          "venue_code": "NY-MWU-HudsonComplex"
-        },
-        {
-          "date": "2026-11-21",
-          "game_number": "417220",
-          "goals_against": 1,
-          "goals_for": 1,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B10F-Pardo",
-          "result": "D",
-          "time": "04:00 PM",
-          "venue_code": "HACK-Johnson2"
-        }
-      ],
-      "goal_diff": 22,
-      "goals_against": 35,
-      "goals_for": 57,
-      "losses": 3,
-      "played": 10,
-      "points": 19,
-      "team_raw": "Force-B10F-PierreJoseph",
       "wins": 6
     },
     {
@@ -934,7 +956,7 @@
       "club": "Torpedoes",
       "coach": "Grados",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWL",
       "games": [
         {
           "date": "2026-11-11",
@@ -1025,6 +1047,17 @@
           "venue_code": "TORP-Pulis3"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "417212",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B10F-Scorciolla",
+          "result": "L",
+          "time": "12:45 PM",
+          "venue_code": "WESSEX-VetSmallNorth"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "417218",
           "goals_against": 6,
@@ -1047,11 +1080,11 @@
           "venue_code": "MAR-Stevens SS1"
         }
       ],
-      "goal_diff": -14,
-      "goals_against": 41,
-      "goals_for": 27,
-      "losses": 5,
-      "played": 10,
+      "goal_diff": -17,
+      "goals_against": 46,
+      "goals_for": 29,
+      "losses": 6,
+      "played": 11,
       "points": 15,
       "team_raw": "Torpedoes-B10F-Grados",
       "wins": 5
@@ -1460,8 +1493,19 @@
       "club": "Maroons",
       "coach": "Chambers",
       "draws": 1,
-      "form": "LLLDL",
+      "form": "LLDLL",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "416142",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B10F-PierreJoseph",
+          "result": "L",
+          "time": "09:45 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
         {
           "date": "2026-09-12",
           "game_number": "416150",
@@ -1573,11 +1617,11 @@
           "venue_code": "MAR-Stevens SS1"
         }
       ],
-      "goal_diff": -48,
-      "goals_against": 64,
-      "goals_for": 16,
-      "losses": 9,
-      "played": 10,
+      "goal_diff": -50,
+      "goals_against": 68,
+      "goals_for": 18,
+      "losses": 10,
+      "played": 11,
       "points": 1,
       "team_raw": "Maroons-B10F-Chambers",
       "wins": 0

@@ -1,6 +1,6 @@
 {
   "division": "B11A",
-  "scraped_at": "2026-11-22T14:22:56.376970Z",
+  "scraped_at": "2026-11-23T17:44:27.535387Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -676,7 +676,7 @@
       "club": "RdgfldPk",
       "coach": "Glover",
       "draws": 0,
-      "form": "WLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -754,13 +754,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "RDGFLDPK-McKeown"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415669",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-B11A-Darling",
+          "result": "W",
+          "time": "11:30 AM",
+          "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 33,
-      "goals_for": 27,
+      "goal_diff": -4,
+      "goals_against": 32,
+      "goals_for": 28,
       "losses": 4,
-      "played": 7,
+      "played": 8,
       "points": 9,
       "team_raw": "RdgfldPk-B11A-Glover",
       "wins": 3
@@ -769,7 +780,7 @@
       "club": "Force",
       "coach": "Darling",
       "draws": 6,
-      "form": "DDDDW",
+      "form": "DDDWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -869,13 +880,24 @@
           "result": "D",
           "time": "09:00 AM",
           "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415669",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RdgfldPk",
+          "opponent_raw": "RdgfldPk-B11A-Glover",
+          "result": "L",
+          "time": "11:30 AM",
+          "venue_code": "RDGFLDPK-McKeown"
         }
       ],
-      "goal_diff": -4,
-      "goals_against": 21,
-      "goals_for": 17,
+      "goal_diff": -6,
+      "goals_against": 22,
+      "goals_for": 16,
       "losses": 2,
-      "played": 9,
+      "played": 10,
       "points": 9,
       "team_raw": "Force-B11A-Darling",
       "wins": 1

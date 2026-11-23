@@ -1,6 +1,6 @@
 {
   "division": "B09XW",
-  "scraped_at": "2026-11-22T14:22:55.620037Z",
+  "scraped_at": "2026-11-23T17:44:26.896689Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -195,33 +195,6 @@
       "wins": 1
     },
     {
-      "club": "CougarSC",
-      "coach": "Mankey",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "418000",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Rutherford",
-          "opponent_raw": "Rutherford-B09XW-Booth",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 1,
-      "goals_for": 2,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "CougarSC-B09XW-Mankey",
-      "wins": 1
-    },
-    {
       "club": "FairLawnAllSports",
       "coach": "Gudovich",
       "draws": 0,
@@ -285,6 +258,82 @@
       "points": 3,
       "team_raw": "Emerson-B09XW-Rice",
       "wins": 1
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Mankey",
+      "draws": 1,
+      "form": "WD",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "417999",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B09XW-Booth",
+          "result": "D",
+          "time": "02:15 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "418000",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B09XW-Booth",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 5,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "CougarSC-B09XW-Mankey",
+      "wins": 0
+    },
+    {
+      "club": "Rutherford",
+      "coach": "Booth",
+      "draws": 1,
+      "form": "LD",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "417999",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09XW-Mankey",
+          "result": "D",
+          "time": "02:15 PM",
+          "venue_code": "RUTH-Memorial5"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "418000",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09XW-Mankey",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 5,
+      "goals_for": 5,
+      "losses": 0,
+      "played": 2,
+      "points": 1,
+      "team_raw": "Rutherford-B09XW-Booth",
+      "wins": 0
     },
     {
       "club": "NMKnights",
@@ -398,33 +447,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "Harrison-B09XW-Quiroz",
-      "wins": 0
-    },
-    {
-      "club": "Rutherford",
-      "coach": "Booth",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "418000",
-          "goals_against": 2,
-          "goals_for": 1,
-          "opponent_club": "CougarSC",
-          "opponent_raw": "CougarSC-B09XW-Mankey",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": -1,
-      "goals_against": 2,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Rutherford-B09XW-Booth",
       "wins": 0
     },
     {

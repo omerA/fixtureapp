@@ -1,14 +1,14 @@
 {
   "division": "B14B",
-  "scraped_at": "2026-11-22T14:22:58.101194Z",
+  "scraped_at": "2026-11-23T17:44:28.970420Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "NoBergen",
       "coach": "Amaya",
-      "draws": 0,
-      "form": "WLWWW",
+      "draws": 1,
+      "form": "LWWWD",
       "games": [
         {
           "date": "2026-10-17",
@@ -66,6 +66,17 @@
           "venue_code": "NoBergen-HudsonPk2"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414245",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "JerseyCity",
+          "opponent_raw": "JerseyCity-B14B-Rich",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
+        {
           "date": "2026-09-12",
           "game_number": "417572",
           "goals_against": 2,
@@ -111,11 +122,11 @@
         }
       ],
       "goal_diff": 22,
-      "goals_against": 14,
-      "goals_for": 36,
+      "goals_against": 15,
+      "goals_for": 37,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 25,
       "team_raw": "NoBergen-B14B-Amaya",
       "wins": 8
     },
@@ -123,7 +134,7 @@
       "club": "GlenRock",
       "coach": "Lynch",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-10-03",
@@ -157,6 +168,17 @@
           "result": "W",
           "time": "01:30 PM",
           "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "414234",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B14B-Ramirez",
+          "result": "L",
+          "time": "03:15 PM",
+          "venue_code": "JC-Gateway-New"
         },
         {
           "date": "2026-10-31",
@@ -214,11 +236,11 @@
           "venue_code": "SS-LowerHS"
         }
       ],
-      "goal_diff": 14,
-      "goals_against": 9,
-      "goals_for": 23,
-      "losses": 1,
-      "played": 8,
+      "goal_diff": 12,
+      "goals_against": 13,
+      "goals_for": 25,
+      "losses": 2,
+      "played": 9,
       "points": 21,
       "team_raw": "GlenRock-B14B-Lynch",
       "wins": 7
@@ -227,7 +249,7 @@
       "club": "GlobalJC",
       "coach": "Ramirez",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-10-03",
@@ -261,6 +283,17 @@
           "result": "W",
           "time": "06:00 PM",
           "venue_code": "BLMFLD-Foley"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "414234",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B14B-Lynch",
+          "result": "W",
+          "time": "03:15 PM",
+          "venue_code": "JC-Gateway-New"
         },
         {
           "date": "2026-11-07",
@@ -329,14 +362,14 @@
           "venue_code": "NoBergen-HudsonPk2"
         }
       ],
-      "goal_diff": 13,
-      "goals_against": 22,
-      "goals_for": 35,
+      "goal_diff": 15,
+      "goals_against": 24,
+      "goals_for": 39,
       "losses": 3,
-      "played": 9,
-      "points": 18,
+      "played": 10,
+      "points": 21,
       "team_raw": "GlobalJC-B14B-Ramirez",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Montclair",
@@ -593,8 +626,8 @@
     {
       "club": "JerseyCity",
       "coach": "Rich",
-      "draws": 1,
-      "form": "LDWLL",
+      "draws": 2,
+      "form": "DWLLD",
       "games": [
         {
           "date": "2026-10-03",
@@ -663,6 +696,17 @@
           "venue_code": "JC-CochraneCaven"
         },
         {
+          "date": "2026-11-21",
+          "game_number": "414245",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NoBergen",
+          "opponent_raw": "NoBergen-B14B-Amaya",
+          "result": "D",
+          "time": "06:45 PM",
+          "venue_code": "JC-CochraneCaven"
+        },
+        {
           "date": "2026-09-12",
           "game_number": "417571",
           "goals_against": 0,
@@ -686,11 +730,11 @@
         }
       ],
       "goal_diff": -4,
-      "goals_against": 22,
-      "goals_for": 18,
+      "goals_against": 23,
+      "goals_for": 19,
       "losses": 4,
-      "played": 8,
-      "points": 10,
+      "played": 9,
+      "points": 11,
       "team_raw": "JerseyCity-B14B-Rich",
       "wins": 3
     }

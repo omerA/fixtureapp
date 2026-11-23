@@ -1,6 +1,6 @@
 {
   "division": "B10XW",
-  "scraped_at": "2026-11-22T14:22:56.313379Z",
+  "scraped_at": "2026-11-23T17:44:27.482908Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -84,8 +84,19 @@
       "club": "Lyndhurst",
       "coach": "Westemeyer",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418052",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B10XW-Millard",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
+        },
         {
           "date": "2026-11-15",
           "game_number": "418053",
@@ -98,11 +109,11 @@
           "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": 2,
-      "goals_against": 0,
-      "goals_for": 2,
+      "goal_diff": 7,
+      "goals_against": 1,
+      "goals_for": 8,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "Lyndhurst-B10XW-Westemeyer",
       "wins": 1
@@ -132,33 +143,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "Torpedoes-B10XW-Grados",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "OHara",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-20",
-          "game_number": "418059",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Dragons",
-          "opponent_raw": "Dragons-B10XW-Friedman",
-          "result": "W",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 1,
-      "goals_for": 6,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Maroons-B10XW-OHara",
       "wins": 1
     },
     {
@@ -227,6 +211,82 @@
       "wins": 1
     },
     {
+      "club": "Dragons",
+      "coach": "Friedman",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418058",
+          "goals_against": 5,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10XW-OHara",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "418059",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B10XW-OHara",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Dragons-B10XW-Friedman",
+      "wins": 0
+    },
+    {
+      "club": "Maroons",
+      "coach": "OHara",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418058",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B10XW-Friedman",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "MAR-Stevens SS1"
+        },
+        {
+          "date": "2026-11-20",
+          "game_number": "418059",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-B10XW-Friedman",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "DRAG-Westvaleback7v7"
+        }
+      ],
+      "goal_diff": 0,
+      "goals_against": 0,
+      "goals_for": 0,
+      "losses": 0,
+      "played": 1,
+      "points": 0,
+      "team_raw": "Maroons-B10XW-OHara",
+      "wins": 0
+    },
+    {
       "club": "WestEssex",
       "coach": "Scorciolla",
       "draws": 0,
@@ -262,33 +322,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "WestEssex-B10XW-Scorciolla",
-      "wins": 0
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Millard",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-15",
-          "game_number": "418053",
-          "goals_against": 2,
-          "goals_for": 0,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-B10XW-Westemeyer",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "COUGSC-Borden1"
-        }
-      ],
-      "goal_diff": -2,
-      "goals_against": 2,
-      "goals_for": 0,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "CougarSC-B10XW-Millard",
       "wins": 0
     },
     {
@@ -406,30 +439,41 @@
       "wins": 0
     },
     {
-      "club": "Dragons",
-      "coach": "Friedman",
+      "club": "CougarSC",
+      "coach": "Millard",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
         {
-          "date": "2026-11-20",
-          "game_number": "418059",
-          "goals_against": 6,
+          "date": "2026-11-22",
+          "game_number": "418052",
+          "goals_against": 8,
           "goals_for": 1,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B10XW-OHara",
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10XW-Westemeyer",
           "result": "L",
-          "time": "06:00 PM",
-          "venue_code": "DRAG-Westvaleback7v7"
+          "time": "01:00 PM",
+          "venue_code": "LYND-RecCtrFld1A"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "418053",
+          "goals_against": 2,
+          "goals_for": 0,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-B10XW-Westemeyer",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "COUGSC-Borden1"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 6,
+      "goal_diff": -7,
+      "goals_against": 8,
       "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
-      "team_raw": "Dragons-B10XW-Friedman",
+      "team_raw": "CougarSC-B10XW-Millard",
       "wins": 0
     },
     {

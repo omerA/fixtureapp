@@ -1,36 +1,9 @@
 {
   "division": "B13XB",
-  "scraped_at": "2026-11-22T14:22:57.992815Z",
+  "scraped_at": "2026-11-23T17:44:28.876543Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Belleville",
-      "coach": "Chavarria",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-15",
-          "game_number": "418025",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "Warriors",
-          "opponent_raw": "Warriors-B13XB-Bzik",
-          "result": "W",
-          "time": "01:15 PM",
-          "venue_code": "BELLE-BellePkFull"
-        }
-      ],
-      "goal_diff": 7,
-      "goals_against": 0,
-      "goals_for": 7,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Belleville-B13XB-Chavarria",
-      "wins": 1
-    },
     {
       "club": "Dragons",
       "coach": "Neblock",
@@ -149,8 +122,19 @@
       "club": "FairLawnAllSports",
       "coach": "Rake",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418019",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-B13XB-Cohn",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
         {
           "date": "2026-11-13",
           "game_number": "418020",
@@ -163,21 +147,70 @@
           "venue_code": "FL-FLHS Turf"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": 5,
       "goals_against": 2,
-      "goals_for": 5,
+      "goals_for": 7,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "FairLawnAllSports-B13XB-Rake",
+      "wins": 1
+    },
+    {
+      "club": "Tenafly",
+      "coach": "Schwartzberg",
+      "draws": 0,
+      "form": "DW",
+      "games": [
+        {
+          "date": "2026-11-15",
+          "game_number": "418013",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B13XB-Fernandez",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "418014",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B13XB-Fernandez",
+          "result": "W",
+          "time": "12:30 PM",
+          "venue_code": "TEN-Municipal"
+        }
+      ],
+      "goal_diff": 2,
+      "goals_against": 2,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Tenafly-B13XB-Schwartzberg",
       "wins": 1
     },
     {
       "club": "GlenRock",
       "coach": "Gulmi",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418027",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B13XB-Sullivan",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
         {
           "date": "2026-10-30",
           "game_number": "418028",
@@ -190,67 +223,89 @@
           "venue_code": "RDBH-DPAC South"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 2,
-      "goals_for": 5,
+      "goal_diff": 1,
+      "goals_against": 3,
+      "goals_for": 4,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "GlenRock-B13XB-Gulmi",
       "wins": 1
     },
     {
-      "club": "Southside",
-      "coach": "Fernandez",
+      "club": "Belleville",
+      "coach": "Chavarria",
       "draws": 1,
-      "form": "D",
+      "form": "WD",
       "games": [
         {
           "date": "2026-11-15",
-          "game_number": "418013",
+          "game_number": "418025",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B13XB-Bzik",
+          "result": "W",
+          "time": "01:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "418026",
           "goals_against": 1,
           "goals_for": 1,
-          "opponent_club": "Tenafly",
-          "opponent_raw": "Tenafly-B13XB-Schwartzberg",
+          "opponent_club": "Warriors",
+          "opponent_raw": "Warriors-B13XB-Bzik",
           "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "Haledon-MnchstHS-Lrg"
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-3"
         }
       ],
       "goal_diff": 0,
       "goals_against": 1,
       "goals_for": 1,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 1,
-      "team_raw": "Southside-B13XB-Fernandez",
+      "team_raw": "Belleville-B13XB-Chavarria",
       "wins": 0
     },
     {
-      "club": "Tenafly",
-      "coach": "Schwartzberg",
+      "club": "Warriors",
+      "coach": "Bzik",
       "draws": 1,
-      "form": "D",
+      "form": "LD",
       "games": [
         {
           "date": "2026-11-15",
-          "game_number": "418013",
+          "game_number": "418025",
+          "goals_against": 7,
+          "goals_for": 0,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B13XB-Chavarria",
+          "result": "L",
+          "time": "01:15 PM",
+          "venue_code": "BELLE-BellePkFull"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "418026",
           "goals_against": 1,
           "goals_for": 1,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B13XB-Fernandez",
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B13XB-Chavarria",
           "result": "D",
-          "time": "12:00 PM",
-          "venue_code": "Haledon-MnchstHS-Lrg"
+          "time": "05:00 PM",
+          "venue_code": "WALD-HSTurf-3"
         }
       ],
       "goal_diff": 0,
       "goals_against": 1,
       "goals_for": 1,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 1,
-      "team_raw": "Tenafly-B13XB-Schwartzberg",
+      "team_raw": "Warriors-B13XB-Bzik",
       "wins": 0
     },
     {
@@ -398,38 +453,22 @@
       "wins": 0
     },
     {
-      "club": "GlenRidge",
-      "coach": "Cohn",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-13",
-          "game_number": "418020",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B13XB-Rake",
-          "result": "L",
-          "time": "07:00 PM",
-          "venue_code": "FL-FLHS Turf"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 5,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "GlenRidge-B13XB-Cohn",
-      "wins": 0
-    },
-    {
       "club": "RiverDell",
       "coach": "Sullivan",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418027",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-B13XB-Gulmi",
+          "result": "L",
+          "time": "11:00 AM",
+          "venue_code": "SS-LowerHS"
+        },
         {
           "date": "2026-10-30",
           "game_number": "418028",
@@ -442,40 +481,89 @@
           "venue_code": "RDBH-DPAC South"
         }
       ],
-      "goal_diff": -3,
-      "goals_against": 5,
-      "goals_for": 2,
+      "goal_diff": -1,
+      "goals_against": 4,
+      "goals_for": 3,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "RiverDell-B13XB-Sullivan",
       "wins": 0
     },
     {
-      "club": "Warriors",
-      "coach": "Bzik",
+      "club": "Southside",
+      "coach": "Fernandez",
       "draws": 0,
-      "form": "L",
+      "form": "DL",
       "games": [
         {
           "date": "2026-11-15",
-          "game_number": "418025",
-          "goals_against": 7,
-          "goals_for": 0,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B13XB-Chavarria",
+          "game_number": "418013",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13XB-Schwartzberg",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "418014",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B13XB-Schwartzberg",
           "result": "L",
-          "time": "01:15 PM",
-          "venue_code": "BELLE-BellePkFull"
+          "time": "12:30 PM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 7,
-      "goals_for": 0,
+      "goal_diff": -2,
+      "goals_against": 4,
+      "goals_for": 2,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
-      "team_raw": "Warriors-B13XB-Bzik",
+      "team_raw": "Southside-B13XB-Fernandez",
+      "wins": 0
+    },
+    {
+      "club": "GlenRidge",
+      "coach": "Cohn",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418019",
+          "goals_against": 7,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13XB-Rake",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "GLENRDGE-ForestAve"
+        },
+        {
+          "date": "2026-11-13",
+          "game_number": "418020",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B13XB-Rake",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "FL-FLHS Turf"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 7,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "GlenRidge-B13XB-Cohn",
       "wins": 0
     }
   ]

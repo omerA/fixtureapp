@@ -1,6 +1,6 @@
 {
   "division": "B11GW",
-  "scraped_at": "2026-11-22T14:22:56.782180Z",
+  "scraped_at": "2026-11-23T17:44:27.870665Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Lakeland",
       "coach": "Curran",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -31,6 +31,17 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "LKLND-BBeach-Sml-9v9"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415705",
+          "goals_against": 5,
+          "goals_for": 4,
+          "opponent_club": "Rutherford",
+          "opponent_raw": "Rutherford-B11GW-Carlstein",
+          "result": "L",
+          "time": "03:45 PM",
+          "venue_code": "RUTH-Memorial3"
         },
         {
           "date": "2026-10-03",
@@ -110,11 +121,11 @@
           "venue_code": "LKLND-BBeach-Full"
         }
       ],
-      "goal_diff": 41,
-      "goals_against": 8,
-      "goals_for": 49,
-      "losses": 0,
-      "played": 9,
+      "goal_diff": 40,
+      "goals_against": 13,
+      "goals_for": 53,
+      "losses": 1,
+      "played": 10,
       "points": 27,
       "team_raw": "Lakeland-B11GW-Curran",
       "wins": 9
@@ -123,7 +134,7 @@
       "club": "Rutherford",
       "coach": "Carlstein",
       "draws": 0,
-      "form": "WWLWW",
+      "form": "WLWWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -146,6 +157,17 @@
           "result": "W",
           "time": "01:15 PM",
           "venue_code": "FF-KnightsColumbus"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415705",
+          "goals_against": 4,
+          "goals_for": 5,
+          "opponent_club": "Lakeland",
+          "opponent_raw": "Lakeland-B11GW-Curran",
+          "result": "W",
+          "time": "03:45 PM",
+          "venue_code": "RUTH-Memorial3"
         },
         {
           "date": "2026-10-03",
@@ -225,14 +247,14 @@
           "venue_code": "RUTH-Memorial3"
         }
       ],
-      "goal_diff": 37,
-      "goals_against": 19,
-      "goals_for": 56,
+      "goal_diff": 38,
+      "goals_against": 23,
+      "goals_for": 61,
       "losses": 1,
-      "played": 9,
-      "points": 24,
+      "played": 10,
+      "points": 27,
       "team_raw": "Rutherford-B11GW-Carlstein",
-      "wins": 8
+      "wins": 9
     },
     {
       "club": "FF",
@@ -490,7 +512,7 @@
       "club": "Tenafly",
       "coach": "Martinelli",
       "draws": 0,
-      "form": "LLWLW",
+      "form": "LWLWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -513,6 +535,17 @@
           "result": "L",
           "time": "01:00 PM",
           "venue_code": "LKLND-BBeach-Sml-9v9"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415703",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Clarkstown",
+          "opponent_raw": "Clarkstown-B11GW-Rolston",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NY-CLARK-Zukor2C"
         },
         {
           "date": "2026-10-03",
@@ -592,11 +625,11 @@
           "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -22,
-      "goals_against": 32,
-      "goals_for": 10,
-      "losses": 7,
-      "played": 9,
+      "goal_diff": -23,
+      "goals_against": 35,
+      "goals_for": 12,
+      "losses": 8,
+      "played": 10,
       "points": 6,
       "team_raw": "Tenafly-B11GW-Martinelli",
       "wins": 2
@@ -605,7 +638,7 @@
       "club": "Clarkstown",
       "coach": "Rolston",
       "draws": 0,
-      "form": "LLLLL",
+      "form": "LLLLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -628,6 +661,17 @@
           "result": "L",
           "time": "03:45 PM",
           "venue_code": "DRAG-WestvalePkSmall"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415703",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-B11GW-Martinelli",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NY-CLARK-Zukor2C"
         },
         {
           "date": "2026-10-03",
@@ -707,14 +751,14 @@
           "venue_code": "RUTH-Memorial3"
         }
       ],
-      "goal_diff": -39,
-      "goals_against": 45,
-      "goals_for": 6,
+      "goal_diff": -38,
+      "goals_against": 47,
+      "goals_for": 9,
       "losses": 9,
-      "played": 9,
-      "points": 0,
+      "played": 10,
+      "points": 3,
       "team_raw": "Clarkstown-B11GW-Rolston",
-      "wins": 0
+      "wins": 1
     }
   ]
 }

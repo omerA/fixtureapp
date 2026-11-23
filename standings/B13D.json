@@ -1,124 +1,9 @@
 {
   "division": "B13D",
-  "scraped_at": "2026-11-22T14:22:57.758416Z",
+  "scraped_at": "2026-11-23T17:44:28.678998Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
-    {
-      "club": "Spartan",
-      "coach": "Herrera",
-      "draws": 0,
-      "form": "WWWWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "415837",
-          "goals_against": 4,
-          "goals_for": 10,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B13D-Monroe",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "AMER-LionsSouthFull"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "415842",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B13D-Escandon",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-09",
-          "game_number": "415844",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B13D-Drumgoole",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "RYSA-OakMuni"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "415846",
-          "goals_against": 2,
-          "goals_for": 4,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B13D-Petrie",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "HOT-Tisdale"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "415854",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B13D-Monroe",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "415857",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "Thistle",
-          "opponent_raw": "Thistle-B13D-Escandon",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "THIS-Franklin"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "415859",
-          "goals_against": 0,
-          "goals_for": 1,
-          "opponent_club": "RYSA",
-          "opponent_raw": "RYSA-B13D-Drumgoole",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "RYSA-FAMS"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "415862",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B13D-Petrie",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-12",
-          "game_number": "417748",
-          "goals_against": 0,
-          "goals_for": 4,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B13D-Monroe",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "AMER-NHHS-LTrf-11v11"
-        }
-      ],
-      "goal_diff": 14,
-      "goals_against": 8,
-      "goals_for": 22,
-      "losses": 1,
-      "played": 9,
-      "points": 21,
-      "team_raw": "Spartan-B13D-Herrera",
-      "wins": 7
-    },
     {
       "club": "Hotspur",
       "coach": "Petrie",
@@ -223,16 +108,153 @@
           "result": "W",
           "time": "01:00 PM",
           "venue_code": "HOT-HS Turf 2"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "417746",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B13D-Herrera",
+          "result": "W",
+          "time": "11:45 AM",
+          "venue_code": "PAR-ParkwayMS11"
         }
       ],
-      "goal_diff": 34,
-      "goals_against": 9,
+      "goal_diff": 37,
+      "goals_against": 6,
       "goals_for": 43,
-      "losses": 1,
-      "played": 9,
-      "points": 21,
+      "losses": 0,
+      "played": 10,
+      "points": 24,
       "team_raw": "Hotspur-B13D-Petrie",
-      "wins": 7
+      "wins": 8
+    },
+    {
+      "club": "Spartan",
+      "coach": "Herrera",
+      "draws": 0,
+      "form": "WWWLL",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "415837",
+          "goals_against": 4,
+          "goals_for": 10,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Monroe",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "AMER-LionsSouthFull"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "415842",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B13D-Escandon",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-09",
+          "game_number": "415844",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B13D-Drumgoole",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "RYSA-OakMuni"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "415846",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "HOT-Tisdale"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "415854",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Monroe",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "415857",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Thistle",
+          "opponent_raw": "Thistle-B13D-Escandon",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "THIS-Franklin"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "415859",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "RYSA",
+          "opponent_raw": "RYSA-B13D-Drumgoole",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "RYSA-FAMS"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "415862",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "417746",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B13D-Petrie",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-12",
+          "game_number": "417748",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B13D-Monroe",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "AMER-NHHS-LTrf-11v11"
+        }
+      ],
+      "goal_diff": 11,
+      "goals_against": 8,
+      "goals_for": 19,
+      "losses": 2,
+      "played": 10,
+      "points": 18,
+      "team_raw": "Spartan-B13D-Herrera",
+      "wins": 6
     },
     {
       "club": "RYSA",

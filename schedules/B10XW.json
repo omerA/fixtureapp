@@ -8,6 +8,13 @@
       "name": "Lyndhurst Rec Center Field 1A",
       "size": "Small Field (8 vs 8)"
     },
+    "1089": {
+      "address": "627 E Ridgewood Ave, Ridgewood, NJ 07450",
+      "comments": "",
+      "details": "LIGHTS \u2014 ARTIFICIAL",
+      "name": "Stevens Field - SS 1",
+      "size": "Small Field (8 vs 8)"
+    },
     "1140": {
       "address": "1600 Park Ave, Hoboken, NJ 07030",
       "comments": "",
@@ -63,13 +70,6 @@
       "details": "LIGHTS \u2014 ARTIFICIAL",
       "name": "Memorial No 3",
       "size": "Small Field (8 vs 8)"
-    },
-    "46": {
-      "address": "1037 Hillcrest Road, Ridgewood, NJ 07450",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "Habernickel Park",
-      "size": "Both (Small & Large)"
     },
     "726": {
       "address": "30 Sampson Street, Saddle Brook, NJ 07663",
@@ -290,22 +290,22 @@
     },
     {
       "away_club": "Dragons",
-      "away_score": null,
+      "away_score": 3,
       "away_team": "Dragons-B10XW-Friedman",
       "date": "2026-11-22",
       "division": "B10XW",
-      "field": "Habernickel Park",
-      "field_id": "46",
+      "field": "Stevens Field - SS 1",
+      "field_id": "1089",
       "game_id": "418058",
       "home_club": "Maroons",
-      "home_score": null,
+      "home_score": 5,
       "home_team": "Maroons-B10XW-OHara",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
       "away_club": "CougarSC",
-      "away_score": null,
+      "away_score": 1,
       "away_team": "CougarSC-B10XW-Millard",
       "date": "2026-11-22",
       "division": "B10XW",
@@ -313,9 +313,9 @@
       "field_id": "1010",
       "game_id": "418052",
       "home_club": "Lyndhurst",
-      "home_score": null,
+      "home_score": 8,
       "home_team": "Lyndhurst-B10XW-Westemeyer",
-      "is_upcoming": true,
+      "is_upcoming": false,
       "time": "01:00 PM"
     },
     {
@@ -349,6 +349,6 @@
       "time": "12:00 AM"
     }
   ],
-  "scraped_at": "2026-11-22T14:25:20.954042Z",
+  "scraped_at": "2026-11-23T17:46:19.519381Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

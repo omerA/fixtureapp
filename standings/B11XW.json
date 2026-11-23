@@ -1,9 +1,47 @@
 {
   "division": "B11XW",
-  "scraped_at": "2026-11-22T14:22:56.864410Z",
+  "scraped_at": "2026-11-23T17:44:27.959807Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "OHara",
+      "draws": 0,
+      "form": "WW",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418044",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11XW-Zurita",
+          "result": "W",
+          "time": "09:15 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
+        {
+          "date": "2026-10-13",
+          "game_number": "418045",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B11XW-Zurita",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAR-MapleParkEastSm"
+        }
+      ],
+      "goal_diff": 7,
+      "goals_against": 1,
+      "goals_for": 8,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Maroons-B11XW-OHara",
+      "wins": 1
+    },
     {
       "club": "Rutherford",
       "coach": "Carlstein",
@@ -67,33 +105,6 @@
       "played": 1,
       "points": 3,
       "team_raw": "CougarSC-B11XW-James",
-      "wins": 1
-    },
-    {
-      "club": "Maroons",
-      "coach": "OHara",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-10-13",
-          "game_number": "418045",
-          "goals_against": 1,
-          "goals_for": 6,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-B11XW-Zurita",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "MAR-MapleParkEastSm"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 1,
-      "goals_for": 6,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "Maroons-B11XW-OHara",
       "wins": 1
     },
     {
@@ -214,8 +225,19 @@
       "club": "Nutley",
       "coach": "Zurita",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418044",
+          "goals_against": 8,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11XW-OHara",
+          "result": "L",
+          "time": "09:15 AM",
+          "venue_code": "NUT-FatherGlotzbach2"
+        },
         {
           "date": "2026-10-13",
           "game_number": "418045",
@@ -228,11 +250,11 @@
           "venue_code": "MAR-MapleParkEastSm"
         }
       ],
-      "goal_diff": -5,
-      "goals_against": 6,
+      "goal_diff": -7,
+      "goals_against": 8,
       "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Nutley-B11XW-Zurita",
       "wins": 0

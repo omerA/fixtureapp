@@ -1,6 +1,6 @@
 {
   "division": "B14XB",
-  "scraped_at": "2026-11-22T14:22:58.420144Z",
+  "scraped_at": "2026-11-23T17:44:29.238364Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -111,8 +111,19 @@
       "club": "Dumont",
       "coach": "Arapi",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418076",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B14XB-McLean",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
         {
           "date": "2026-10-25",
           "game_number": "418077",
@@ -125,11 +136,11 @@
           "venue_code": "DUM-Honiss"
         }
       ],
-      "goal_diff": 7,
+      "goal_diff": 3,
       "goals_against": 2,
-      "goals_for": 9,
+      "goals_for": 5,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "Dumont-B14XB-Arapi",
       "wins": 1
@@ -170,6 +181,44 @@
       "played": 2,
       "points": 0,
       "team_raw": "Nutley-B14XB-Tischio",
+      "wins": 0
+    },
+    {
+      "club": "WoodRidge",
+      "coach": "McLean",
+      "draws": 0,
+      "form": "LL",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418076",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B14XB-Arapi",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "WDRDG-AthleticComp"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "418077",
+          "goals_against": 9,
+          "goals_for": 2,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B14XB-Arapi",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "DUM-Honiss"
+        }
+      ],
+      "goal_diff": -3,
+      "goals_against": 5,
+      "goals_for": 2,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "WoodRidge-B14XB-McLean",
       "wins": 0
     },
     {
@@ -235,33 +284,6 @@
       "played": 1,
       "points": 0,
       "team_raw": "NoValley-B14XB-Lotz",
-      "wins": 0
-    },
-    {
-      "club": "WoodRidge",
-      "coach": "McLean",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-10-25",
-          "game_number": "418077",
-          "goals_against": 9,
-          "goals_for": 2,
-          "opponent_club": "Dumont",
-          "opponent_raw": "Dumont-B14XB-Arapi",
-          "result": "L",
-          "time": "10:00 AM",
-          "venue_code": "DUM-Honiss"
-        }
-      ],
-      "goal_diff": -7,
-      "goals_against": 9,
-      "goals_for": 2,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "WoodRidge-B14XB-McLean",
       "wins": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
   "division": "B08D7",
-  "scraped_at": "2026-11-22T14:22:54.712468Z",
+  "scraped_at": "2026-11-23T17:44:26.054299Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -512,7 +512,7 @@
       "club": "Bergenfield",
       "coach": "Cifuentes",
       "draws": 1,
-      "form": "LLWDL",
+      "form": "LWDLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -592,6 +592,17 @@
           "venue_code": "BGFD-RoyBrown"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "417000",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B08D7-Carnevale",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "417003",
           "goals_against": 4,
@@ -614,14 +625,14 @@
           "venue_code": "BGFD-RoyBrown"
         }
       ],
-      "goal_diff": -36,
-      "goals_against": 57,
-      "goals_for": 21,
+      "goal_diff": -34,
+      "goals_against": 59,
+      "goals_for": 25,
       "losses": 7,
-      "played": 9,
-      "points": 4,
+      "played": 10,
+      "points": 7,
       "team_raw": "Bergenfield-B08D7-Cifuentes",
-      "wins": 1
+      "wins": 2
     },
     {
       "club": "RiverDell",
@@ -707,6 +718,17 @@
           "venue_code": "RDBH-Roosevelt"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "417000",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Bergenfield",
+          "opponent_raw": "Bergenfield-B08D7-Cifuentes",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "BGFD-RoyBrown"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "417004",
           "goals_against": 7,
@@ -729,11 +751,11 @@
           "venue_code": "NUT-MsgnorOwenPk2"
         }
       ],
-      "goal_diff": -54,
-      "goals_against": 67,
-      "goals_for": 13,
-      "losses": 9,
-      "played": 9,
+      "goal_diff": -56,
+      "goals_against": 71,
+      "goals_for": 15,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "RiverDell-B08D7-Carnevale",
       "wins": 0

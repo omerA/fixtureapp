@@ -1,6 +1,6 @@
 {
   "division": "B12H",
-  "scraped_at": "2026-11-22T14:22:57.464618Z",
+  "scraped_at": "2026-11-23T17:44:28.431518Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -134,7 +134,7 @@
       "club": "WestEssex",
       "coach": "Pajuelo",
       "draws": 1,
-      "form": "WLWDW",
+      "form": "LWDWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -156,6 +156,17 @@
           "opponent_raw": "Rutherford-B12H-Henderson",
           "result": "L",
           "time": "08:30 AM",
+          "venue_code": "WEssex-Volunteers"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "417457",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B12H-Gillies",
+          "result": "W",
+          "time": "02:30 PM",
           "venue_code": "WEssex-Volunteers"
         },
         {
@@ -236,20 +247,20 @@
           "venue_code": "Haledon-Rec-Field"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 19,
-      "goals_for": 35,
+      "goal_diff": 19,
+      "goals_against": 21,
+      "goals_for": 40,
       "losses": 3,
-      "played": 9,
-      "points": 16,
+      "played": 10,
+      "points": 19,
       "team_raw": "WestEssex-B12H-Pajuelo",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Maroons",
       "coach": "Gillies",
       "draws": 1,
-      "form": "LWWLD",
+      "form": "WWLDL",
       "games": [
         {
           "date": "2026-10-25",
@@ -272,6 +283,17 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "MAR-MapleParkEastSm"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "417457",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B12H-Pajuelo",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "WEssex-Volunteers"
         },
         {
           "date": "2026-10-03",
@@ -351,11 +373,11 @@
           "venue_code": "HOT-McFarran"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 27,
-      "goals_for": 30,
-      "losses": 3,
-      "played": 9,
+      "goal_diff": 0,
+      "goals_against": 32,
+      "goals_for": 32,
+      "losses": 4,
+      "played": 10,
       "points": 16,
       "team_raw": "Maroons-B12H-Gillies",
       "wins": 5

@@ -1,6 +1,6 @@
 {
   "division": "B10XB",
-  "scraped_at": "2026-11-22T14:22:56.282348Z",
+  "scraped_at": "2026-11-23T17:44:27.451966Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -40,6 +40,44 @@
       "played": 2,
       "points": 3,
       "team_raw": "NMKnights-B10XB-Mohr",
+      "wins": 1
+    },
+    {
+      "club": "Nutley",
+      "coach": "Rosales",
+      "draws": 0,
+      "form": "DW",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "417929",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10XB-Villanueva",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
+        {
+          "date": "2026-10-23",
+          "game_number": "417930",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B10XB-Villanueva",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "FL-CenterRec2B"
+        }
+      ],
+      "goal_diff": 3,
+      "goals_against": 1,
+      "goals_for": 4,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "Nutley-B10XB-Rosales",
       "wins": 1
     },
     {
@@ -121,9 +159,20 @@
     {
       "club": "FairLawnAllSports",
       "coach": "Villanueva",
-      "draws": 1,
-      "form": "D",
+      "draws": 0,
+      "form": "DL",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "417929",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-B10XB-Rosales",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "NUT-MsgnorOwenPk2"
+        },
         {
           "date": "2026-10-23",
           "game_number": "417930",
@@ -136,40 +185,13 @@
           "venue_code": "FL-CenterRec2B"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 3,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
-      "points": 1,
+      "goal_diff": -3,
+      "goals_against": 4,
+      "goals_for": 1,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
       "team_raw": "FairLawnAllSports-B10XB-Villanueva",
-      "wins": 0
-    },
-    {
-      "club": "Nutley",
-      "coach": "Rosales",
-      "draws": 1,
-      "form": "D",
-      "games": [
-        {
-          "date": "2026-10-23",
-          "game_number": "417930",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B10XB-Villanueva",
-          "result": "D",
-          "time": "06:30 PM",
-          "venue_code": "FL-CenterRec2B"
-        }
-      ],
-      "goal_diff": 0,
-      "goals_against": 3,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
-      "points": 1,
-      "team_raw": "Nutley-B10XB-Rosales",
       "wins": 0
     },
     {

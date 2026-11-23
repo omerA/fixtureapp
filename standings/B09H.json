@@ -1,6 +1,6 @@
 {
   "division": "B09H",
-  "scraped_at": "2026-11-22T14:22:55.561960Z",
+  "scraped_at": "2026-11-23T17:44:26.772921Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -281,8 +281,8 @@
     {
       "club": "NASA",
       "coach": "Callegari",
-      "draws": 0,
-      "form": "WWWWW",
+      "draws": 1,
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-11-08",
@@ -316,6 +316,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "Haledon-Rec-7v7"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "416065",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "CougarSC",
+          "opponent_raw": "CougarSC-B09H-Janeski",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-GeoWashMS"
         },
         {
           "date": "2026-10-03",
@@ -396,11 +407,11 @@
         }
       ],
       "goal_diff": 20,
-      "goals_against": 28,
-      "goals_for": 48,
+      "goals_against": 31,
+      "goals_for": 51,
       "losses": 3,
-      "played": 10,
-      "points": 21,
+      "played": 11,
+      "points": 22,
       "team_raw": "NASA-B09H-Callegari",
       "wins": 7
     },
@@ -818,8 +829,8 @@
     {
       "club": "CougarSC",
       "coach": "Janeski",
-      "draws": 3,
-      "form": "WWDLD",
+      "draws": 4,
+      "form": "WDLDD",
       "games": [
         {
           "date": "2026-10-04",
@@ -853,6 +864,17 @@
           "result": "L",
           "time": "10:30 AM",
           "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "416065",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09H-Callegari",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-GeoWashMS"
         },
         {
           "date": "2026-10-03",
@@ -933,11 +955,11 @@
         }
       ],
       "goal_diff": 5,
-      "goals_against": 30,
-      "goals_for": 35,
+      "goals_against": 33,
+      "goals_for": 38,
       "losses": 3,
-      "played": 10,
-      "points": 15,
+      "played": 11,
+      "points": 16,
       "team_raw": "CougarSC-B09H-Janeski",
       "wins": 4
     },

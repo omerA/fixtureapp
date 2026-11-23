@@ -1,6 +1,6 @@
 {
   "division": "G10C",
-  "scraped_at": "2026-11-22T14:22:59.314092Z",
+  "scraped_at": "2026-11-23T17:44:30.046507Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "GlenRidge",
       "coach": "Fisher",
       "draws": 1,
-      "form": "WWWWW",
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-10-06",
@@ -88,6 +88,17 @@
           "venue_code": "GLENRDGE-CarteretSm"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "414470",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10C-Timmerman",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
           "date": "2026-09-26",
           "game_number": "416621",
           "goals_against": 1,
@@ -114,7 +125,7 @@
       "goals_against": 10,
       "goals_for": 43,
       "losses": 0,
-      "played": 9,
+      "played": 10,
       "points": 25,
       "team_raw": "GlenRidge-G10C-Fisher",
       "wins": 8
@@ -249,7 +260,7 @@
       "club": "Emerson",
       "coach": "Timmerman",
       "draws": 1,
-      "form": "LWWWW",
+      "form": "WWWWD",
       "games": [
         {
           "date": "2026-09-27",
@@ -329,6 +340,17 @@
           "venue_code": "EM-HSTurf2Small"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "414470",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G10C-Fisher",
+          "result": "D",
+          "time": "12:00 PM",
+          "venue_code": "GLENRDGE-CarteretSm"
+        },
+        {
           "date": "2026-09-26",
           "game_number": "416621",
           "goals_against": 1,
@@ -355,7 +377,7 @@
       "goals_against": 15,
       "goals_for": 39,
       "losses": 1,
-      "played": 9,
+      "played": 10,
       "points": 22,
       "team_raw": "Emerson-G10C-Timmerman",
       "wins": 7
@@ -364,7 +386,7 @@
       "club": "Montclair",
       "coach": "CioePena",
       "draws": 1,
-      "form": "WLDLW",
+      "form": "LDLWW",
       "games": [
         {
           "date": "2026-09-20",
@@ -455,6 +477,17 @@
           "venue_code": "GLENRDGE-CarteretSm"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "414468",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G10C-GuevaraFuentes",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416624",
           "goals_against": 1,
@@ -466,129 +499,14 @@
           "venue_code": "MONT-BrookdaleStadN"
         }
       ],
-      "goal_diff": 3,
+      "goal_diff": -1,
       "goals_against": 20,
-      "goals_for": 23,
+      "goals_for": 19,
       "losses": 3,
-      "played": 9,
+      "played": 10,
       "points": 16,
       "team_raw": "Montclair-G10C-CioePena",
       "wins": 5
-    },
-    {
-      "club": "Force",
-      "coach": "OConnor",
-      "draws": 0,
-      "form": "WWWLL",
-      "games": [
-        {
-          "date": "2026-10-24",
-          "game_number": "414437",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-G10C-Jain",
-          "result": "L",
-          "time": "03:30 PM",
-          "venue_code": "VIK-Demarest-Low7v7"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "414438",
-          "goals_against": 1,
-          "goals_for": 8,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G10C-Sin",
-          "result": "W",
-          "time": "11:15 AM",
-          "venue_code": "NY-MW-SapphireElem"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "414444",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "GlenRidge",
-          "opponent_raw": "GlenRidge-G10C-Fisher",
-          "result": "L",
-          "time": "09:00 AM",
-          "venue_code": "NY-MW-SapphireElem"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414448",
-          "goals_against": 1,
-          "goals_for": 2,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-G10C-GuevaraFuentes",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "ARS-Fieldstone6"
-        },
-        {
-          "date": "2026-11-01",
-          "game_number": "414453",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G10C-Matos",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "NY-MW-SapphireElem"
-        },
-        {
-          "date": "2026-11-21",
-          "game_number": "414461",
-          "goals_against": 4,
-          "goals_for": 2,
-          "opponent_club": "Montclair",
-          "opponent_raw": "Montclair-G10C-CioePena",
-          "result": "L",
-          "time": "11:45 AM",
-          "venue_code": "MONT-BrookdaleC"
-        },
-        {
-          "date": "2026-11-15",
-          "game_number": "414464",
-          "goals_against": 5,
-          "goals_for": 2,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-G10C-Timmerman",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "EM-HSTurf2Small"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "415339",
-          "goals_against": 7,
-          "goals_for": 5,
-          "opponent_club": "Lyndhurst",
-          "opponent_raw": "Lyndhurst-G10C-Bifulco",
-          "result": "L",
-          "time": "09:30 AM",
-          "venue_code": "NY-MWU-HudsonComplex"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "416622",
-          "goals_against": 3,
-          "goals_for": 7,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G10C-Ramirez",
-          "result": "W",
-          "time": "04:45 PM",
-          "venue_code": "FL-CenterRec2B"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 32,
-      "goals_for": 33,
-      "losses": 5,
-      "played": 9,
-      "points": 12,
-      "team_raw": "Force-G10C-OConnor",
-      "wins": 4
     },
     {
       "club": "Vikings",
@@ -843,10 +761,136 @@
       "wins": 3
     },
     {
+      "club": "Force",
+      "coach": "OConnor",
+      "draws": 0,
+      "form": "WWLLL",
+      "games": [
+        {
+          "date": "2026-10-24",
+          "game_number": "414437",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G10C-Jain",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "VIK-Demarest-Low7v7"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "414438",
+          "goals_against": 1,
+          "goals_for": 8,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G10C-Sin",
+          "result": "W",
+          "time": "11:15 AM",
+          "venue_code": "NY-MW-SapphireElem"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "414444",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "GlenRidge",
+          "opponent_raw": "GlenRidge-G10C-Fisher",
+          "result": "L",
+          "time": "09:00 AM",
+          "venue_code": "NY-MW-SapphireElem"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414448",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-G10C-GuevaraFuentes",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "ARS-Fieldstone6"
+        },
+        {
+          "date": "2026-11-01",
+          "game_number": "414453",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G10C-Matos",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "NY-MW-SapphireElem"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "414461",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G10C-CioePena",
+          "result": "L",
+          "time": "11:45 AM",
+          "venue_code": "MONT-BrookdaleC"
+        },
+        {
+          "date": "2026-11-15",
+          "game_number": "414464",
+          "goals_against": 5,
+          "goals_for": 2,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-G10C-Timmerman",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "EM-HSTurf2Small"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "414469",
+          "goals_against": 4,
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10C-Ramirez",
+          "result": "L",
+          "time": "03:30 PM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "415339",
+          "goals_against": 7,
+          "goals_for": 5,
+          "opponent_club": "Lyndhurst",
+          "opponent_raw": "Lyndhurst-G10C-Bifulco",
+          "result": "L",
+          "time": "09:30 AM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "416622",
+          "goals_against": 3,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G10C-Ramirez",
+          "result": "W",
+          "time": "04:45 PM",
+          "venue_code": "FL-CenterRec2B"
+        }
+      ],
+      "goal_diff": -5,
+      "goals_against": 33,
+      "goals_for": 28,
+      "losses": 6,
+      "played": 10,
+      "points": 9,
+      "team_raw": "Force-G10C-OConnor",
+      "wins": 3
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Ramirez",
       "draws": 0,
-      "form": "LLLWW",
+      "form": "LLWWW",
       "games": [
         {
           "date": "2026-11-20",
@@ -915,6 +959,17 @@
           "venue_code": "VIK-Demarest-Low7v7"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "414469",
+          "goals_against": 2,
+          "goals_for": 4,
+          "opponent_club": "Force",
+          "opponent_raw": "Force-G10C-OConnor",
+          "result": "W",
+          "time": "03:30 PM",
+          "venue_code": "NY-MWU-HudsonComplex"
+        },
+        {
           "date": "2026-11-14",
           "game_number": "416622",
           "goals_against": 7,
@@ -937,14 +992,14 @@
           "venue_code": "FL-CenterRec2A"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 37,
-      "goals_for": 21,
-      "losses": 6,
-      "played": 8,
-      "points": 6,
+      "goal_diff": -10,
+      "goals_against": 32,
+      "goals_for": 22,
+      "losses": 5,
+      "played": 9,
+      "points": 9,
       "team_raw": "FairLawnAllSports-G10C-Ramirez",
-      "wins": 2
+      "wins": 3
     },
     {
       "club": "Nutley",
@@ -1145,6 +1200,17 @@
           "venue_code": "ARS-Dorchester2"
         },
         {
+          "date": "2026-11-22",
+          "game_number": "414468",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Montclair",
+          "opponent_raw": "Montclair-G10C-CioePena",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "ARS-MemParkRidge2Sm"
+        },
+        {
           "date": "2026-09-13",
           "game_number": "416624",
           "goals_against": 6,
@@ -1167,11 +1233,11 @@
           "venue_code": "ARS-Fieldstone6"
         }
       ],
-      "goal_diff": -41,
-      "goals_against": 47,
+      "goal_diff": -37,
+      "goals_against": 43,
       "goals_for": 6,
       "losses": 9,
-      "played": 9,
+      "played": 10,
       "points": 0,
       "team_raw": "Arsenal-G10C-GuevaraFuentes",
       "wins": 0

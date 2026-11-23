@@ -1,6 +1,6 @@
 {
   "division": "G13D",
-  "scraped_at": "2026-11-22T14:23:00.396751Z",
+  "scraped_at": "2026-11-23T17:44:30.985146Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -133,8 +133,8 @@
     {
       "club": "Vikings",
       "coach": "Flanagan",
-      "draws": 3,
-      "form": "DWDWW",
+      "draws": 4,
+      "form": "WDWWD",
       "games": [
         {
           "date": "2026-11-21",
@@ -234,14 +234,25 @@
           "result": "W",
           "time": "04:00 PM",
           "venue_code": "WYNE-ValleyHSVarsity"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415225",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Mahwah",
+          "opponent_raw": "Mahwah-G13D-Shah",
+          "result": "D",
+          "time": "02:45 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": 15,
-      "goals_against": 8,
-      "goals_for": 23,
+      "goals_against": 9,
+      "goals_for": 24,
       "losses": 0,
-      "played": 9,
-      "points": 21,
+      "played": 10,
+      "points": 22,
       "team_raw": "Vikings-G13D-Flanagan",
       "wins": 6
     },
@@ -249,7 +260,7 @@
       "club": "NoValley",
       "coach": "Mamalian",
       "draws": 2,
-      "form": "WWDLW",
+      "form": "WDLWW",
       "games": [
         {
           "date": "2026-11-19",
@@ -349,22 +360,33 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "NoVAL-OTHS turf"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415224",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G13D-Austin",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": 6,
+      "goal_diff": 7,
       "goals_against": 10,
-      "goals_for": 16,
+      "goals_for": 17,
       "losses": 2,
-      "played": 9,
-      "points": 17,
+      "played": 10,
+      "points": 20,
       "team_raw": "NoValley-G13D-Mamalian",
-      "wins": 5
+      "wins": 6
     },
     {
       "club": "Mahwah",
       "coach": "Shah",
-      "draws": 0,
-      "form": "WLLLL",
+      "draws": 1,
+      "form": "LLLLD",
       "games": [
         {
           "date": "2026-09-13",
@@ -453,14 +475,25 @@
           "result": "L",
           "time": "10:00 AM",
           "venue_code": "MAHWAH-CSF"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415225",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-G13D-Flanagan",
+          "result": "D",
+          "time": "02:45 PM",
+          "venue_code": "VIK-NVRHS Turf"
         }
       ],
       "goal_diff": -9,
-      "goals_against": 21,
-      "goals_for": 12,
+      "goals_against": 22,
+      "goals_for": 13,
       "losses": 6,
-      "played": 8,
-      "points": 6,
+      "played": 9,
+      "points": 7,
       "team_raw": "Mahwah-G13D-Shah",
       "wins": 2
     },
@@ -468,7 +501,7 @@
       "club": "Maroons",
       "coach": "Austin",
       "draws": 1,
-      "form": "DWLLL",
+      "form": "WLLLL",
       "games": [
         {
           "date": "2026-11-21",
@@ -546,13 +579,24 @@
           "result": "L",
           "time": "02:45 PM",
           "venue_code": "HobUtd-SinatraPark"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415224",
+          "goals_against": 1,
+          "goals_for": 0,
+          "opponent_club": "NoValley",
+          "opponent_raw": "NoValley-G13D-Mamalian",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "NoVAL-OTHS turf"
         }
       ],
-      "goal_diff": -6,
-      "goals_against": 14,
+      "goal_diff": -7,
+      "goals_against": 15,
       "goals_for": 8,
-      "losses": 5,
-      "played": 7,
+      "losses": 6,
+      "played": 8,
       "points": 4,
       "team_raw": "Maroons-G13D-Austin",
       "wins": 1

@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-11-22T14:22:57.517877Z",
+  "scraped_at": "2026-11-23T17:44:28.477212Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -67,6 +67,44 @@
       "played": 1,
       "points": 3,
       "team_raw": "WayneBG-B12XW-Bechara",
+      "wins": 1
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Leckenby",
+      "draws": 0,
+      "form": "DW",
+      "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418173",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B12XW-Bautista",
+          "result": "W",
+          "time": "10:45 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "418174",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B12XW-Bautista",
+          "result": "D",
+          "time": "06:30 PM",
+          "venue_code": "MAYWOOD-MemorialPkLg"
+        }
+      ],
+      "goal_diff": 1,
+      "goals_against": 1,
+      "goals_for": 2,
+      "losses": 0,
+      "played": 2,
+      "points": 3,
+      "team_raw": "RiverDell-B12XW-Leckenby",
       "wins": 1
     },
     {
@@ -173,33 +211,6 @@
       "wins": 1
     },
     {
-      "club": "FairLawnAllSports",
-      "coach": "Mrkulic",
-      "draws": 0,
-      "form": "W",
-      "games": [
-        {
-          "date": "2026-11-20",
-          "game_number": "418161",
-          "goals_against": 2,
-          "goals_for": 3,
-          "opponent_club": "GlobalJC",
-          "opponent_raw": "GlobalJC-B12XW-Nobrega",
-          "result": "W",
-          "time": "06:30 PM",
-          "venue_code": "FL-CenterRec1A"
-        }
-      ],
-      "goal_diff": 1,
-      "goals_against": 2,
-      "goals_for": 3,
-      "losses": 0,
-      "played": 1,
-      "points": 3,
-      "team_raw": "FairLawnAllSports-B12XW-Mrkulic",
-      "wins": 1
-    },
-    {
       "club": "WoodRidge",
       "coach": "Mueller",
       "draws": 1,
@@ -276,57 +287,79 @@
       "wins": 0
     },
     {
-      "club": "Maywood",
-      "coach": "Bautista",
-      "draws": 1,
-      "form": "D",
+      "club": "FairLawnAllSports",
+      "coach": "Mrkulic",
+      "draws": 0,
+      "form": "WL",
       "games": [
         {
-          "date": "2026-11-19",
-          "game_number": "418174",
-          "goals_against": 3,
+          "date": "2026-11-20",
+          "game_number": "418161",
+          "goals_against": 2,
           "goals_for": 3,
-          "opponent_club": "RiverDell",
-          "opponent_raw": "RiverDell-B12XW-Leckenby",
-          "result": "D",
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12XW-Nobrega",
+          "result": "W",
           "time": "06:30 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "418162",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "GlobalJC",
+          "opponent_raw": "GlobalJC-B12XW-Nobrega",
+          "result": "L",
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 3,
-      "goals_for": 3,
+      "goals_against": 0,
+      "goals_for": 0,
       "losses": 0,
       "played": 1,
-      "points": 1,
-      "team_raw": "Maywood-B12XW-Bautista",
+      "points": 0,
+      "team_raw": "FairLawnAllSports-B12XW-Mrkulic",
       "wins": 0
     },
     {
-      "club": "RiverDell",
-      "coach": "Leckenby",
-      "draws": 1,
-      "form": "D",
+      "club": "GlobalJC",
+      "coach": "Nobrega",
+      "draws": 0,
+      "form": "LW",
       "games": [
         {
-          "date": "2026-11-19",
-          "game_number": "418174",
+          "date": "2026-11-20",
+          "game_number": "418161",
           "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Maywood",
-          "opponent_raw": "Maywood-B12XW-Bautista",
-          "result": "D",
+          "goals_for": 2,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12XW-Mrkulic",
+          "result": "L",
           "time": "06:30 PM",
-          "venue_code": "MAYWOOD-MemorialPkLg"
+          "venue_code": "FL-CenterRec1A"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "418162",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B12XW-Mrkulic",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "JC-Gateway-New"
         }
       ],
       "goal_diff": 0,
-      "goals_against": 3,
-      "goals_for": 3,
+      "goals_against": 0,
+      "goals_for": 0,
       "losses": 0,
       "played": 1,
-      "points": 1,
-      "team_raw": "RiverDell-B12XW-Leckenby",
+      "points": 0,
+      "team_raw": "GlobalJC-B12XW-Nobrega",
       "wins": 0
     },
     {
@@ -357,30 +390,41 @@
       "wins": 0
     },
     {
-      "club": "GlobalJC",
-      "coach": "Nobrega",
+      "club": "Maywood",
+      "coach": "Bautista",
       "draws": 0,
-      "form": "L",
+      "form": "DL",
       "games": [
         {
-          "date": "2026-11-20",
-          "game_number": "418161",
-          "goals_against": 3,
-          "goals_for": 2,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B12XW-Mrkulic",
+          "date": "2026-11-22",
+          "game_number": "418173",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12XW-Leckenby",
           "result": "L",
+          "time": "10:45 AM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "418174",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B12XW-Leckenby",
+          "result": "D",
           "time": "06:30 PM",
-          "venue_code": "FL-CenterRec1A"
+          "venue_code": "MAYWOOD-MemorialPkLg"
         }
       ],
       "goal_diff": -1,
-      "goals_against": 3,
-      "goals_for": 2,
+      "goals_against": 2,
+      "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
-      "team_raw": "GlobalJC-B12XW-Nobrega",
+      "team_raw": "Maywood-B12XW-Bautista",
       "wins": 0
     },
     {

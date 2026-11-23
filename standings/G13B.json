@@ -1,6 +1,6 @@
 {
   "division": "G13B",
-  "scraped_at": "2026-11-22T14:23:00.313886Z",
+  "scraped_at": "2026-11-23T17:44:30.891872Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -134,7 +134,7 @@
       "club": "GlenRock",
       "coach": "Mulkeen",
       "draws": 1,
-      "form": "WWWWD",
+      "form": "WWWDW",
       "games": [
         {
           "date": "2026-11-14",
@@ -234,16 +234,27 @@
           "result": "W",
           "time": "11:30 AM",
           "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415163",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Dragons",
+          "opponent_raw": "Dragons-G13B-Collins",
+          "result": "W",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": 12,
-      "goals_against": 13,
-      "goals_for": 25,
+      "goal_diff": 15,
+      "goals_against": 14,
+      "goals_for": 29,
       "losses": 2,
-      "played": 9,
-      "points": 19,
+      "played": 10,
+      "points": 22,
       "team_raw": "GlenRock-G13B-Mulkeen",
-      "wins": 6
+      "wins": 7
     },
     {
       "club": "Spartan",
@@ -375,7 +386,7 @@
       "club": "Tenafly",
       "coach": "Pak",
       "draws": 2,
-      "form": "LWLLW",
+      "form": "WLLWW",
       "games": [
         {
           "date": "2026-10-02",
@@ -475,22 +486,33 @@
           "result": "L",
           "time": "11:30 AM",
           "venue_code": "SS-LowerHS"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415165",
+          "goals_against": 1,
+          "goals_for": 2,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-G13B-Hill",
+          "result": "W",
+          "time": "02:30 PM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": 0,
-      "goals_against": 17,
-      "goals_for": 17,
+      "goal_diff": 1,
+      "goals_against": 18,
+      "goals_for": 19,
       "losses": 4,
-      "played": 9,
-      "points": 11,
+      "played": 10,
+      "points": 14,
       "team_raw": "Tenafly-G13B-Pak",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "RiverDell",
       "coach": "Hill",
       "draws": 1,
-      "form": "LLLWL",
+      "form": "LLWLL",
       "games": [
         {
           "date": "2026-09-26",
@@ -590,13 +612,24 @@
           "result": "W",
           "time": "05:00 PM",
           "venue_code": "RDBH-HS-Stadium"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415165",
+          "goals_against": 2,
+          "goals_for": 1,
+          "opponent_club": "Tenafly",
+          "opponent_raw": "Tenafly-G13B-Pak",
+          "result": "L",
+          "time": "02:30 PM",
+          "venue_code": "TEN-Municipal"
         }
       ],
-      "goal_diff": -7,
-      "goals_against": 21,
-      "goals_for": 14,
-      "losses": 5,
-      "played": 9,
+      "goal_diff": -8,
+      "goals_against": 23,
+      "goals_for": 15,
+      "losses": 6,
+      "played": 10,
       "points": 10,
       "team_raw": "RiverDell-G13B-Hill",
       "wins": 3
@@ -605,7 +638,7 @@
       "club": "Dragons",
       "coach": "Collins",
       "draws": 0,
-      "form": "WLWWL",
+      "form": "LWWLL",
       "games": [
         {
           "date": "2026-09-19",
@@ -705,13 +738,24 @@
           "result": "L",
           "time": "05:30 PM",
           "venue_code": "HAWTHORNE-Veterans"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "415163",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "GlenRock",
+          "opponent_raw": "GlenRock-G13B-Mulkeen",
+          "result": "L",
+          "time": "02:00 PM",
+          "venue_code": "DRAG-WestwdHS"
         }
       ],
-      "goal_diff": -16,
-      "goals_against": 24,
-      "goals_for": 8,
-      "losses": 6,
-      "played": 9,
+      "goal_diff": -19,
+      "goals_against": 28,
+      "goals_for": 9,
+      "losses": 7,
+      "played": 10,
       "points": 9,
       "team_raw": "Dragons-G13B-Collins",
       "wins": 3

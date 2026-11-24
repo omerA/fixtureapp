@@ -8,13 +8,6 @@
       "name": "SUNNYSIDE PARK FIELD",
       "size": "Both (Small & Large)"
     },
-    "1111": {
-      "address": "PO Box, HoHpKus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 ARTIFICIAL",
-      "name": "TBS Postponed",
-      "size": "Both (Small & Large)"
-    },
     "1200": {
       "address": "Back Beach Park, Haskell, NJ 07420",
       "comments": "7v7",
@@ -390,21 +383,6 @@
       "time": "01:00 PM"
     },
     {
-      "away_club": "TeaneckTravel",
-      "away_score": null,
-      "away_team": "TeaneckTravel-B10D-Nylander",
-      "date": "2026-11-14",
-      "division": "B10D",
-      "field": "TBS Postponed",
-      "field_id": "1111",
-      "game_id": "415574",
-      "home_club": "Tenafly",
-      "home_score": null,
-      "home_team": "Tenafly-B10D-Amsel",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "WayneBG",
       "away_score": 3,
       "away_team": "WayneBG-B10D-Brown",
@@ -508,8 +486,23 @@
       "home_team": "TeaneckTravel-B10D-Nylander",
       "is_upcoming": false,
       "time": "10:45 AM"
+    },
+    {
+      "away_club": "TeaneckTravel",
+      "away_score": null,
+      "away_team": "TeaneckTravel-B10D-Nylander",
+      "date": "2026-11-28",
+      "division": "B10D",
+      "field": "SUNNYSIDE PARK FIELD",
+      "field_id": "1106",
+      "game_id": "415574",
+      "home_club": "Tenafly",
+      "home_score": null,
+      "home_team": "Tenafly-B10D-Amsel",
+      "is_upcoming": true,
+      "time": "12:00 PM"
     }
   ],
-  "scraped_at": "2026-11-23T17:45:53.650289Z",
+  "scraped_at": "2026-11-24T17:16:21.927969Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

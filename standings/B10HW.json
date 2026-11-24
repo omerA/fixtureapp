@@ -1,14 +1,14 @@
 {
   "division": "B10HW",
-  "scraped_at": "2026-11-23T17:44:27.433093Z",
+  "scraped_at": "2026-11-24T17:14:58.161566Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
     {
       "club": "Hotspur",
       "coach": "Herbst",
-      "draws": 1,
-      "form": "WWLWW",
+      "draws": 2,
+      "form": "WLWWD",
       "games": [
         {
           "date": "2026-09-12",
@@ -108,16 +108,153 @@
           "result": "W",
           "time": "10:45 AM",
           "venue_code": "AMER-LionsSouthSmall"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415620",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B10HW-Marmanides",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-Roosevelt"
         }
       ],
       "goal_diff": 32,
-      "goals_against": 19,
-      "goals_for": 51,
+      "goals_against": 20,
+      "goals_for": 52,
       "losses": 1,
-      "played": 9,
-      "points": 22,
+      "played": 10,
+      "points": 23,
       "team_raw": "Hotspur-B10HW-Herbst",
       "wins": 7
+    },
+    {
+      "club": "RiverDell",
+      "coach": "Marmanides",
+      "draws": 3,
+      "form": "DWWLD",
+      "games": [
+        {
+          "date": "2026-09-12",
+          "game_number": "414002",
+          "goals_against": 2,
+          "goals_for": 5,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B10HW-Kelly",
+          "result": "W",
+          "time": "09:30 AM",
+          "venue_code": "AMER-LionsSouthSmall"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "414006",
+          "goals_against": 1,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
+          "result": "W",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-09-26",
+          "game_number": "414009",
+          "goals_against": 2,
+          "goals_for": 9,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10HW-Perrone",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "EM-Hillman"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "414013",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10HW-Musano",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "414015",
+          "goals_against": 4,
+          "goals_for": 4,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10HW-Herbst",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "HOT-NoCentral"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "414018",
+          "goals_against": 4,
+          "goals_for": 7,
+          "opponent_club": "Americans",
+          "opponent_raw": "Americans-B10HW-Kelly",
+          "result": "W",
+          "time": "12:00 PM",
+          "venue_code": "RDBH-Roosevelt"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "414021",
+          "goals_against": 5,
+          "goals_for": 7,
+          "opponent_club": "Arsenal",
+          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "ARS-Dorchester2"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "415614",
+          "goals_against": 9,
+          "goals_for": 5,
+          "opponent_club": "Emerson",
+          "opponent_raw": "Emerson-B10HW-Perrone",
+          "result": "L",
+          "time": "01:30 PM",
+          "venue_code": "RDBH-DPAC South"
+        },
+        {
+          "date": "2026-10-20",
+          "game_number": "415617",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B10HW-Musano",
+          "result": "D",
+          "time": "05:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "415620",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "Hotspur",
+          "opponent_raw": "Hotspur-B10HW-Herbst",
+          "result": "D",
+          "time": "09:00 AM",
+          "venue_code": "RDBH-Roosevelt"
+        }
+      ],
+      "goal_diff": 20,
+      "goals_against": 35,
+      "goals_for": 55,
+      "losses": 1,
+      "played": 10,
+      "points": 21,
+      "team_raw": "RiverDell-B10HW-Marmanides",
+      "wins": 6
     },
     {
       "club": "Emerson",
@@ -244,121 +381,6 @@
       "points": 21,
       "team_raw": "Emerson-B10HW-Perrone",
       "wins": 7
-    },
-    {
-      "club": "RiverDell",
-      "coach": "Marmanides",
-      "draws": 2,
-      "form": "DDWWL",
-      "games": [
-        {
-          "date": "2026-09-12",
-          "game_number": "414002",
-          "goals_against": 2,
-          "goals_for": 5,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B10HW-Kelly",
-          "result": "W",
-          "time": "09:30 AM",
-          "venue_code": "AMER-LionsSouthSmall"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "414006",
-          "goals_against": 1,
-          "goals_for": 7,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
-          "result": "W",
-          "time": "01:30 PM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-09-26",
-          "game_number": "414009",
-          "goals_against": 2,
-          "goals_for": 9,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10HW-Perrone",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "EM-Hillman"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "414013",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B10HW-Musano",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "414015",
-          "goals_against": 4,
-          "goals_for": 4,
-          "opponent_club": "Hotspur",
-          "opponent_raw": "Hotspur-B10HW-Herbst",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "HOT-NoCentral"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "414018",
-          "goals_against": 4,
-          "goals_for": 7,
-          "opponent_club": "Americans",
-          "opponent_raw": "Americans-B10HW-Kelly",
-          "result": "W",
-          "time": "12:00 PM",
-          "venue_code": "RDBH-Roosevelt"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "414021",
-          "goals_against": 5,
-          "goals_for": 7,
-          "opponent_club": "Arsenal",
-          "opponent_raw": "Arsenal-B10HW-GuevaraFuentes",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "ARS-Dorchester2"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "415614",
-          "goals_against": 9,
-          "goals_for": 5,
-          "opponent_club": "Emerson",
-          "opponent_raw": "Emerson-B10HW-Perrone",
-          "result": "L",
-          "time": "01:30 PM",
-          "venue_code": "RDBH-DPAC South"
-        },
-        {
-          "date": "2026-10-20",
-          "game_number": "415617",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B10HW-Musano",
-          "result": "D",
-          "time": "05:00 PM",
-          "venue_code": "PAR-WestbrkSmall"
-        }
-      ],
-      "goal_diff": 20,
-      "goals_against": 34,
-      "goals_for": 54,
-      "losses": 1,
-      "played": 9,
-      "points": 20,
-      "team_raw": "RiverDell-B10HW-Marmanides",
-      "wins": 6
     },
     {
       "club": "Arsenal",

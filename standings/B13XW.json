@@ -1,6 +1,6 @@
 {
   "division": "B13XW",
-  "scraped_at": "2026-11-23T17:44:28.893713Z",
+  "scraped_at": "2026-11-24T17:15:01.172486Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -111,8 +111,19 @@
       "club": "Dumont",
       "coach": "Arapi",
       "draws": 0,
-      "form": "W",
+      "form": "WW",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418134",
+          "goals_against": 1,
+          "goals_for": 6,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B13XW-Chowdhury",
+          "result": "W",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
         {
           "date": "2026-10-25",
           "game_number": "418135",
@@ -129,7 +140,7 @@
       "goals_against": 1,
       "goals_for": 6,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
       "team_raw": "Dumont-B13XW-Arapi",
       "wins": 1
@@ -214,8 +225,19 @@
       "club": "Southside",
       "coach": "Chowdhury",
       "draws": 0,
-      "form": "L",
+      "form": "LL",
       "games": [
+        {
+          "date": "2026-11-22",
+          "game_number": "418134",
+          "goals_against": 6,
+          "goals_for": 1,
+          "opponent_club": "Dumont",
+          "opponent_raw": "Dumont-B13XW-Arapi",
+          "result": "L",
+          "time": "10:00 AM",
+          "venue_code": "Haledon-MnchstHS-Lrg"
+        },
         {
           "date": "2026-10-25",
           "game_number": "418135",
@@ -232,7 +254,7 @@
       "goals_against": 6,
       "goals_for": 1,
       "losses": 1,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "team_raw": "Southside-B13XW-Chowdhury",
       "wins": 0

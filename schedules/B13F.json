@@ -71,13 +71,6 @@
       "name": "Dumont High School",
       "size": "Large Field (11 vs 11)"
     },
-    "194": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-Rain or Snow",
-      "size": "Both (Small & Large)"
-    },
     "201": {
       "address": "23 Third Avenue, Westwood, NJ 07675",
       "comments": "11 v11",
@@ -937,21 +930,6 @@
       "time": "07:30 PM"
     },
     {
-      "away_club": "Dumont",
-      "away_score": null,
-      "away_team": "Dumont-B13F-Zotaj",
-      "date": "2026-11-14",
-      "division": "B13F",
-      "field": "To Be Scheduled-Rain or Snow",
-      "field_id": "194",
-      "game_id": "416415",
-      "home_club": "Broncos",
-      "home_score": null,
-      "home_team": "Broncos-B13F-Chaves",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
-    {
       "away_club": "Vikings",
       "away_score": 2,
       "away_team": "Vikings-B13F-Siddiqi",
@@ -1160,8 +1138,23 @@
       "home_team": "Dragons-B13F-Lehman",
       "is_upcoming": false,
       "time": "04:00 PM"
+    },
+    {
+      "away_club": "Broncos",
+      "away_score": null,
+      "away_team": "Broncos-B13F-Chaves",
+      "date": "2026-12-02",
+      "division": "B13F",
+      "field": "Dumont High School",
+      "field_id": "187",
+      "game_id": "416415",
+      "home_club": "Dumont",
+      "home_score": null,
+      "home_team": "Dumont-B13F-Zotaj",
+      "is_upcoming": true,
+      "time": "07:00 PM"
     }
   ],
-  "scraped_at": "2026-11-23T17:47:45.050332Z",
+  "scraped_at": "2026-11-24T17:18:09.742644Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

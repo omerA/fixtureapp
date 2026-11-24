@@ -1,6 +1,6 @@
 {
   "division": "G14XB",
-  "scraped_at": "2026-11-23T17:44:31.270433Z",
+  "scraped_at": "2026-11-24T17:15:05.966886Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -110,30 +110,54 @@
     {
       "club": "FairLawnAllSports",
       "coach": "Puzino",
-      "draws": 0,
-      "form": "",
-      "games": [],
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-23",
+          "game_number": "417968",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G14XB-Anderson",
+          "result": "D",
+          "time": "08:00 PM",
+          "venue_code": "NMilford-NMHS-Main"
+        }
+      ],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 1,
+      "goals_for": 1,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 1,
       "team_raw": "FairLawnAllSports-G14XB-Puzino",
       "wins": 0
     },
     {
       "club": "NMKnights",
       "coach": "Anderson",
-      "draws": 0,
-      "form": "",
-      "games": [],
+      "draws": 1,
+      "form": "D",
+      "games": [
+        {
+          "date": "2026-11-23",
+          "game_number": "417968",
+          "goals_against": 1,
+          "goals_for": 1,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G14XB-Puzino",
+          "result": "D",
+          "time": "08:00 PM",
+          "venue_code": "NMilford-NMHS-Main"
+        }
+      ],
       "goal_diff": 0,
-      "goals_against": 0,
-      "goals_for": 0,
+      "goals_against": 1,
+      "goals_for": 1,
       "losses": 0,
-      "played": 0,
-      "points": 0,
+      "played": 1,
+      "points": 1,
       "team_raw": "NMKnights-G14XB-Anderson",
       "wins": 0
     },

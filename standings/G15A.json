@@ -1,9 +1,113 @@
 {
   "division": "G15A",
-  "scraped_at": "2026-11-23T17:44:31.324164Z",
+  "scraped_at": "2026-11-24T17:15:06.081021Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
+    {
+      "club": "Maroons",
+      "coach": "Manning",
+      "draws": 1,
+      "form": "WWWWW",
+      "games": [
+        {
+          "date": "2026-11-20",
+          "game_number": "414567",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-G15A-Cepeda",
+          "result": "W",
+          "time": "07:30 PM",
+          "venue_code": "MAR-MaplePark"
+        },
+        {
+          "date": "2026-11-08",
+          "game_number": "414572",
+          "goals_against": 0,
+          "goals_for": 7,
+          "opponent_club": "NoArlington",
+          "opponent_raw": "NoArlington-G15A-Simone",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "NA-Zadroga1"
+        },
+        {
+          "date": "2026-11-23",
+          "game_number": "414581",
+          "goals_against": 0,
+          "goals_for": 4,
+          "opponent_club": "NMKnights",
+          "opponent_raw": "NMKnights-G15A-Regas",
+          "result": "W",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-NMHS-Main"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "414586",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "WorldClassFC",
+          "opponent_raw": "WorldClassFC-G15A-Carter",
+          "result": "W",
+          "time": "11:00 AM",
+          "venue_code": "MAR-VetsFld3"
+        },
+        {
+          "date": "2026-09-20",
+          "game_number": "416878",
+          "goals_against": 0,
+          "goals_for": 6,
+          "opponent_club": "Harrison",
+          "opponent_raw": "Harrison-G15A-Flores",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "MAR-RHS Stadium"
+        },
+        {
+          "date": "2026-10-04",
+          "game_number": "416885",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-G15A-Auriemmma",
+          "result": "D",
+          "time": "11:00 AM",
+          "venue_code": "PAR-ParkwayMS11"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416891",
+          "goals_against": 1,
+          "goals_for": 5,
+          "opponent_club": "UnionCity",
+          "opponent_raw": "UnionCity-G15A-Viveros",
+          "result": "W",
+          "time": "05:30 PM",
+          "venue_code": "UNIONCITY-Marti"
+        },
+        {
+          "date": "2026-10-25",
+          "game_number": "416897",
+          "goals_against": 2,
+          "goals_for": 6,
+          "opponent_club": "Nutley",
+          "opponent_raw": "Nutley-G15A-Lohf",
+          "result": "W",
+          "time": "09:00 AM",
+          "venue_code": "NUT-FatherGlotzbach1"
+        }
+      ],
+      "goal_diff": 31,
+      "goals_against": 7,
+      "goals_for": 38,
+      "losses": 0,
+      "played": 8,
+      "points": 22,
+      "team_raw": "Maroons-G15A-Manning",
+      "wins": 7
+    },
     {
       "club": "Spartan",
       "coach": "Auriemmma",
@@ -123,7 +227,7 @@
       "club": "NMKnights",
       "coach": "Regas",
       "draws": 1,
-      "form": "WWLWW",
+      "form": "WLWWL",
       "games": [
         {
           "date": "2026-10-30",
@@ -146,6 +250,17 @@
           "result": "L",
           "time": "06:30 PM",
           "venue_code": "NMilford-Kennedy"
+        },
+        {
+          "date": "2026-11-23",
+          "game_number": "414581",
+          "goals_against": 4,
+          "goals_for": 0,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-G15A-Manning",
+          "result": "L",
+          "time": "06:00 PM",
+          "venue_code": "NMilford-NMHS-Main"
         },
         {
           "date": "2026-11-22",
@@ -225,106 +340,13 @@
           "venue_code": "NMilford-NMHS-Main"
         }
       ],
-      "goal_diff": 16,
-      "goals_against": 8,
+      "goal_diff": 12,
+      "goals_against": 12,
       "goals_for": 24,
-      "losses": 1,
-      "played": 9,
+      "losses": 2,
+      "played": 10,
       "points": 19,
       "team_raw": "NMKnights-G15A-Regas",
-      "wins": 6
-    },
-    {
-      "club": "Maroons",
-      "coach": "Manning",
-      "draws": 1,
-      "form": "WWWWW",
-      "games": [
-        {
-          "date": "2026-11-20",
-          "game_number": "414567",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-G15A-Cepeda",
-          "result": "W",
-          "time": "07:30 PM",
-          "venue_code": "MAR-MaplePark"
-        },
-        {
-          "date": "2026-11-08",
-          "game_number": "414572",
-          "goals_against": 0,
-          "goals_for": 7,
-          "opponent_club": "NoArlington",
-          "opponent_raw": "NoArlington-G15A-Simone",
-          "result": "W",
-          "time": "07:00 PM",
-          "venue_code": "NA-Zadroga1"
-        },
-        {
-          "date": "2026-11-22",
-          "game_number": "414586",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "WorldClassFC",
-          "opponent_raw": "WorldClassFC-G15A-Carter",
-          "result": "W",
-          "time": "11:00 AM",
-          "venue_code": "MAR-VetsFld3"
-        },
-        {
-          "date": "2026-09-20",
-          "game_number": "416878",
-          "goals_against": 0,
-          "goals_for": 6,
-          "opponent_club": "Harrison",
-          "opponent_raw": "Harrison-G15A-Flores",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "MAR-RHS Stadium"
-        },
-        {
-          "date": "2026-10-04",
-          "game_number": "416885",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-G15A-Auriemmma",
-          "result": "D",
-          "time": "11:00 AM",
-          "venue_code": "PAR-ParkwayMS11"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416891",
-          "goals_against": 1,
-          "goals_for": 5,
-          "opponent_club": "UnionCity",
-          "opponent_raw": "UnionCity-G15A-Viveros",
-          "result": "W",
-          "time": "05:30 PM",
-          "venue_code": "UNIONCITY-Marti"
-        },
-        {
-          "date": "2026-10-25",
-          "game_number": "416897",
-          "goals_against": 2,
-          "goals_for": 6,
-          "opponent_club": "Nutley",
-          "opponent_raw": "Nutley-G15A-Lohf",
-          "result": "W",
-          "time": "09:00 AM",
-          "venue_code": "NUT-FatherGlotzbach1"
-        }
-      ],
-      "goal_diff": 27,
-      "goals_against": 7,
-      "goals_for": 34,
-      "losses": 0,
-      "played": 7,
-      "points": 19,
-      "team_raw": "Maroons-G15A-Manning",
       "wins": 6
     },
     {

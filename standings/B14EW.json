@@ -1,6 +1,6 @@
 {
   "division": "B14EW",
-  "scraped_at": "2026-11-23T17:44:29.220125Z",
+  "scraped_at": "2026-11-24T17:15:01.847166Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -386,7 +386,7 @@
       "club": "Maywood",
       "coach": "Sanford",
       "draws": 0,
-      "form": "LLLLW",
+      "form": "LLLWW",
       "games": [
         {
           "date": "2026-09-12",
@@ -486,16 +486,27 @@
           "result": "L",
           "time": "07:00 PM",
           "venue_code": "MAYWOOD-MemorialPkLg"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "416488",
+          "goals_against": 2,
+          "goals_for": 3,
+          "opponent_club": "RiverDell",
+          "opponent_raw": "RiverDell-B14EW-Privitera",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -8,
-      "goals_against": 27,
-      "goals_for": 19,
+      "goal_diff": -7,
+      "goals_against": 29,
+      "goals_for": 22,
       "losses": 6,
-      "played": 9,
-      "points": 9,
+      "played": 10,
+      "points": 12,
       "team_raw": "Maywood-B14EW-Sanford",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "Lakeland",
@@ -727,13 +738,24 @@
           "result": "L",
           "time": "02:00 PM",
           "venue_code": "ARS-PHHS1"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "416488",
+          "goals_against": 3,
+          "goals_for": 2,
+          "opponent_club": "Maywood",
+          "opponent_raw": "Maywood-B14EW-Sanford",
+          "result": "L",
+          "time": "01:00 PM",
+          "venue_code": "RDBH-DPAC North"
         }
       ],
-      "goal_diff": -52,
-      "goals_against": 58,
-      "goals_for": 6,
-      "losses": 9,
-      "played": 9,
+      "goal_diff": -53,
+      "goals_against": 61,
+      "goals_for": 8,
+      "losses": 10,
+      "played": 10,
       "points": 0,
       "team_raw": "RiverDell-B14EW-Privitera",
       "wins": 0

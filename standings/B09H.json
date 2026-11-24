@@ -1,6 +1,6 @@
 {
   "division": "B09H",
-  "scraped_at": "2026-11-23T17:44:26.772921Z",
+  "scraped_at": "2026-11-24T17:14:56.973692Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -281,8 +281,8 @@
     {
       "club": "NASA",
       "coach": "Callegari",
-      "draws": 1,
-      "form": "WWWWD",
+      "draws": 0,
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-11-08",
@@ -320,11 +320,11 @@
         {
           "date": "2026-11-22",
           "game_number": "416065",
-          "goals_against": 3,
-          "goals_for": 3,
+          "goals_against": 1,
+          "goals_for": 0,
           "opponent_club": "CougarSC",
           "opponent_raw": "CougarSC-B09H-Janeski",
-          "result": "D",
+          "result": "L",
           "time": "03:00 PM",
           "venue_code": "WYNE-GeoWashMS"
         },
@@ -406,12 +406,12 @@
           "venue_code": "HACK-Johnson2"
         }
       ],
-      "goal_diff": 20,
-      "goals_against": 31,
-      "goals_for": 51,
-      "losses": 3,
+      "goal_diff": 19,
+      "goals_against": 29,
+      "goals_for": 48,
+      "losses": 4,
       "played": 11,
-      "points": 22,
+      "points": 21,
       "team_raw": "NASA-B09H-Callegari",
       "wins": 7
     },
@@ -551,6 +551,143 @@
       "points": 18,
       "team_raw": "NoRockland-B09H-Germain",
       "wins": 6
+    },
+    {
+      "club": "CougarSC",
+      "coach": "Janeski",
+      "draws": 3,
+      "form": "WDLDW",
+      "games": [
+        {
+          "date": "2026-10-04",
+          "game_number": "416050",
+          "goals_against": 0,
+          "goals_for": 3,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B09H-Harrison",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-18",
+          "game_number": "416058",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Spartan",
+          "opponent_raw": "Spartan-B09H-McCormack",
+          "result": "L",
+          "time": "12:00 PM",
+          "venue_code": "PAR-WestbrkSmall"
+        },
+        {
+          "date": "2026-09-19",
+          "game_number": "416060",
+          "goals_against": 3,
+          "goals_for": 0,
+          "opponent_club": "WoodRidge",
+          "opponent_raw": "WoodRidge-B09H-Hughes",
+          "result": "L",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-22",
+          "game_number": "416065",
+          "goals_against": 0,
+          "goals_for": 1,
+          "opponent_club": "NASA",
+          "opponent_raw": "NASA-B09H-Callegari",
+          "result": "W",
+          "time": "03:00 PM",
+          "venue_code": "WYNE-GeoWashMS"
+        },
+        {
+          "date": "2026-10-03",
+          "game_number": "416070",
+          "goals_against": 3,
+          "goals_for": 5,
+          "opponent_club": "NoRockland",
+          "opponent_raw": "NoRockland-B09H-Germain",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-17",
+          "game_number": "416077",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "SaddleBR",
+          "opponent_raw": "SaddleBR-B09H-Belgiovine",
+          "result": "D",
+          "time": "03:30 PM",
+          "venue_code": "SaddleBR-VeteransFd2"
+        },
+        {
+          "date": "2026-10-24",
+          "game_number": "416080",
+          "goals_against": 2,
+          "goals_for": 7,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B09H-Sevilla",
+          "result": "W",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-10-31",
+          "game_number": "416085",
+          "goals_against": 5,
+          "goals_for": 7,
+          "opponent_club": "FairLawnAllSports",
+          "opponent_raw": "FairLawnAllSports-B09H-Bashan",
+          "result": "W",
+          "time": "01:00 PM",
+          "venue_code": "FL-CenterRec2A"
+        },
+        {
+          "date": "2026-11-07",
+          "game_number": "417106",
+          "goals_against": 3,
+          "goals_for": 3,
+          "opponent_club": "Southside",
+          "opponent_raw": "Southside-B09H-Zamora",
+          "result": "D",
+          "time": "10:30 AM",
+          "venue_code": "COUGSC-Borden1"
+        },
+        {
+          "date": "2026-11-21",
+          "game_number": "417119",
+          "goals_against": 5,
+          "goals_for": 5,
+          "opponent_club": "Vikings",
+          "opponent_raw": "Vikings-B09H-Laroche",
+          "result": "D",
+          "time": "03:00 PM",
+          "venue_code": "VIK-Myrtle"
+        },
+        {
+          "date": "2026-11-14",
+          "game_number": "417661",
+          "goals_against": 3,
+          "goals_for": 1,
+          "opponent_club": "Hackensack",
+          "opponent_raw": "Hackensack-B09H-Holder",
+          "result": "L",
+          "time": "04:00 PM",
+          "venue_code": "HACK-Johnson2"
+        }
+      ],
+      "goal_diff": 6,
+      "goals_against": 30,
+      "goals_for": 36,
+      "losses": 3,
+      "played": 11,
+      "points": 18,
+      "team_raw": "CougarSC-B09H-Janeski",
+      "wins": 5
     },
     {
       "club": "SaddleBR",
@@ -825,143 +962,6 @@
       "points": 16,
       "team_raw": "Vikings-B09H-Laroche",
       "wins": 5
-    },
-    {
-      "club": "CougarSC",
-      "coach": "Janeski",
-      "draws": 4,
-      "form": "WDLDD",
-      "games": [
-        {
-          "date": "2026-10-04",
-          "game_number": "416050",
-          "goals_against": 0,
-          "goals_for": 3,
-          "opponent_club": "Maroons",
-          "opponent_raw": "Maroons-B09H-Harrison",
-          "result": "W",
-          "time": "03:00 PM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-18",
-          "game_number": "416058",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Spartan",
-          "opponent_raw": "Spartan-B09H-McCormack",
-          "result": "L",
-          "time": "12:00 PM",
-          "venue_code": "PAR-WestbrkSmall"
-        },
-        {
-          "date": "2026-09-19",
-          "game_number": "416060",
-          "goals_against": 3,
-          "goals_for": 0,
-          "opponent_club": "WoodRidge",
-          "opponent_raw": "WoodRidge-B09H-Hughes",
-          "result": "L",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-11-22",
-          "game_number": "416065",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "NASA",
-          "opponent_raw": "NASA-B09H-Callegari",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "WYNE-GeoWashMS"
-        },
-        {
-          "date": "2026-10-03",
-          "game_number": "416070",
-          "goals_against": 3,
-          "goals_for": 5,
-          "opponent_club": "NoRockland",
-          "opponent_raw": "NoRockland-B09H-Germain",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-17",
-          "game_number": "416077",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "SaddleBR",
-          "opponent_raw": "SaddleBR-B09H-Belgiovine",
-          "result": "D",
-          "time": "03:30 PM",
-          "venue_code": "SaddleBR-VeteransFd2"
-        },
-        {
-          "date": "2026-10-24",
-          "game_number": "416080",
-          "goals_against": 2,
-          "goals_for": 7,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-B09H-Sevilla",
-          "result": "W",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-10-31",
-          "game_number": "416085",
-          "goals_against": 5,
-          "goals_for": 7,
-          "opponent_club": "FairLawnAllSports",
-          "opponent_raw": "FairLawnAllSports-B09H-Bashan",
-          "result": "W",
-          "time": "01:00 PM",
-          "venue_code": "FL-CenterRec2A"
-        },
-        {
-          "date": "2026-11-07",
-          "game_number": "417106",
-          "goals_against": 3,
-          "goals_for": 3,
-          "opponent_club": "Southside",
-          "opponent_raw": "Southside-B09H-Zamora",
-          "result": "D",
-          "time": "10:30 AM",
-          "venue_code": "COUGSC-Borden1"
-        },
-        {
-          "date": "2026-11-21",
-          "game_number": "417119",
-          "goals_against": 5,
-          "goals_for": 5,
-          "opponent_club": "Vikings",
-          "opponent_raw": "Vikings-B09H-Laroche",
-          "result": "D",
-          "time": "03:00 PM",
-          "venue_code": "VIK-Myrtle"
-        },
-        {
-          "date": "2026-11-14",
-          "game_number": "417661",
-          "goals_against": 3,
-          "goals_for": 1,
-          "opponent_club": "Hackensack",
-          "opponent_raw": "Hackensack-B09H-Holder",
-          "result": "L",
-          "time": "04:00 PM",
-          "venue_code": "HACK-Johnson2"
-        }
-      ],
-      "goal_diff": 5,
-      "goals_against": 33,
-      "goals_for": 38,
-      "losses": 3,
-      "played": 11,
-      "points": 16,
-      "team_raw": "CougarSC-B09H-Janeski",
-      "wins": 4
     },
     {
       "club": "Spartan",

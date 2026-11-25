@@ -1,6 +1,6 @@
 {
   "division": "B12XW",
-  "scraped_at": "2026-11-24T17:15:00.298853Z",
+  "scraped_at": "2026-11-25T17:04:22.073438Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -222,30 +222,41 @@
       "wins": 1
     },
     {
-      "club": "WestEssex",
-      "coach": "Pajuelo",
+      "club": "Belleville",
+      "coach": "Garrido",
       "draws": 0,
-      "form": "W",
+      "form": "LW",
       "games": [
         {
           "date": "2026-11-10",
           "game_number": "418171",
-          "goals_against": 1,
-          "goals_for": 4,
-          "opponent_club": "Belleville",
-          "opponent_raw": "Belleville-B12XW-Garrido",
-          "result": "W",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B12XW-Pajuelo",
+          "result": "L",
           "time": "06:30 PM",
           "venue_code": "WEssex-TOBeirne-9v9"
+        },
+        {
+          "date": "2026-11-24",
+          "game_number": "418172",
+          "goals_against": 3,
+          "goals_for": 4,
+          "opponent_club": "WestEssex",
+          "opponent_raw": "WestEssex-B12XW-Pajuelo",
+          "result": "W",
+          "time": "06:45 PM",
+          "venue_code": "WEssex-Harrison"
         }
       ],
-      "goal_diff": 3,
-      "goals_against": 1,
+      "goal_diff": 1,
+      "goals_against": 3,
       "goals_for": 4,
       "losses": 0,
-      "played": 1,
+      "played": 2,
       "points": 3,
-      "team_raw": "WestEssex-B12XW-Pajuelo",
+      "team_raw": "Belleville-B12XW-Garrido",
       "wins": 1
     },
     {
@@ -390,6 +401,44 @@
       "wins": 0
     },
     {
+      "club": "WestEssex",
+      "coach": "Pajuelo",
+      "draws": 0,
+      "form": "WL",
+      "games": [
+        {
+          "date": "2026-11-10",
+          "game_number": "418171",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12XW-Garrido",
+          "result": "W",
+          "time": "06:30 PM",
+          "venue_code": "WEssex-TOBeirne-9v9"
+        },
+        {
+          "date": "2026-11-24",
+          "game_number": "418172",
+          "goals_against": 4,
+          "goals_for": 3,
+          "opponent_club": "Belleville",
+          "opponent_raw": "Belleville-B12XW-Garrido",
+          "result": "L",
+          "time": "06:45 PM",
+          "venue_code": "WEssex-Harrison"
+        }
+      ],
+      "goal_diff": -1,
+      "goals_against": 4,
+      "goals_for": 3,
+      "losses": 1,
+      "played": 2,
+      "points": 0,
+      "team_raw": "WestEssex-B12XW-Pajuelo",
+      "wins": 0
+    },
+    {
       "club": "FairLawnAllSports",
       "coach": "Mrkulic",
       "draws": 0,
@@ -463,33 +512,6 @@
       "played": 2,
       "points": 0,
       "team_raw": "RiverDell-B12XW-Bott",
-      "wins": 0
-    },
-    {
-      "club": "Belleville",
-      "coach": "Garrido",
-      "draws": 0,
-      "form": "L",
-      "games": [
-        {
-          "date": "2026-11-10",
-          "game_number": "418171",
-          "goals_against": 4,
-          "goals_for": 1,
-          "opponent_club": "WestEssex",
-          "opponent_raw": "WestEssex-B12XW-Pajuelo",
-          "result": "L",
-          "time": "06:30 PM",
-          "venue_code": "WEssex-TOBeirne-9v9"
-        }
-      ],
-      "goal_diff": -3,
-      "goals_against": 4,
-      "goals_for": 1,
-      "losses": 1,
-      "played": 1,
-      "points": 0,
-      "team_raw": "Belleville-B12XW-Garrido",
       "wins": 0
     },
     {

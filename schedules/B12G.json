@@ -43,13 +43,6 @@
       "name": "Municipal Field",
       "size": "Both (Small & Large)"
     },
-    "196": {
-      "address": "PO Box 26, Ho-Ho-Kus, NJ 07423",
-      "comments": "",
-      "details": "NO-LIGHTS \u2014 GRASS",
-      "name": "To Be Scheduled-League",
-      "size": "Both (Small & Large)"
-    },
     "207": {
       "address": "315 Belleville Ave, Belleville, NJ 07109",
       "comments": "Full and Small Sided",
@@ -129,21 +122,6 @@
     }
   },
   "games": [
-    {
-      "away_club": "NoRockland",
-      "away_score": null,
-      "away_team": "NoRockland-B12G-Alexander",
-      "date": "2026-09-05",
-      "division": "B12G",
-      "field": "To Be Scheduled-League",
-      "field_id": "196",
-      "game_id": "416307",
-      "home_club": "Belleville",
-      "home_score": null,
-      "home_team": "Belleville-B12G-Garrido",
-      "is_upcoming": true,
-      "time": "12:00 AM"
-    },
     {
       "away_club": "ST23",
       "away_score": 0,
@@ -323,21 +301,6 @@
       "home_team": "CougarSC-B12G-Loffredo",
       "is_upcoming": false,
       "time": "08:30 AM"
-    },
-    {
-      "away_club": "Clarkstown",
-      "away_score": null,
-      "away_team": "Clarkstown-B12G-MongeCalderon",
-      "date": "2026-09-29",
-      "division": "B12G",
-      "field": "Votee North",
-      "field_id": "683",
-      "game_id": "417765",
-      "home_club": "TeaneckTravel",
-      "home_score": null,
-      "home_team": "TeaneckTravel-B12G-Myriee",
-      "is_upcoming": true,
-      "time": "02:00 PM"
     },
     {
       "away_club": "Tenafly",
@@ -1118,8 +1081,38 @@
       "home_team": "HobUtd-B12G-Timek",
       "is_upcoming": false,
       "time": "05:30 PM"
+    },
+    {
+      "away_club": "Clarkstown",
+      "away_score": null,
+      "away_team": "Clarkstown-B12G-MongeCalderon",
+      "date": "2026-11-29",
+      "division": "B12G",
+      "field": "Votee North",
+      "field_id": "683",
+      "game_id": "417765",
+      "home_club": "TeaneckTravel",
+      "home_score": null,
+      "home_team": "TeaneckTravel-B12G-Myriee",
+      "is_upcoming": true,
+      "time": "02:00 PM"
+    },
+    {
+      "away_club": "NoRockland",
+      "away_score": null,
+      "away_team": "NoRockland-B12G-Alexander",
+      "date": "2026-11-29",
+      "division": "B12G",
+      "field": "Belleville Park - Turf",
+      "field_id": "207",
+      "game_id": "416307",
+      "home_club": "Belleville",
+      "home_score": null,
+      "home_team": "Belleville-B12G-Garrido",
+      "is_upcoming": true,
+      "time": "02:00 PM"
     }
   ],
-  "scraped_at": "2026-11-25T17:07:07.592244Z",
+  "scraped_at": "2026-11-26T16:44:02.188785Z",
   "source_url": "https://www.ncsanj.com/gameSchedule.cfm"
 }

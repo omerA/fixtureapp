@@ -1,6 +1,6 @@
 {
   "division": "B11E",
-  "scraped_at": "2026-11-25T17:04:20.473284Z",
+  "scraped_at": "2026-11-26T16:41:19.190910Z",
   "season": "2026-fall",
   "source_url": "https://www.ncsanj.com/standings.cfm",
   "teams": [
@@ -8,7 +8,7 @@
       "club": "Maroons",
       "coach": "OHara",
       "draws": 0,
-      "form": "WWWWW",
+      "form": "WWWWL",
       "games": [
         {
           "date": "2026-09-12",
@@ -108,13 +108,24 @@
           "result": "W",
           "time": "08:00 AM",
           "venue_code": "WYNE-Alps2"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "417301",
+          "goals_against": 4,
+          "goals_for": 1,
+          "opponent_club": "RIDGFLD",
+          "opponent_raw": "RIDGFLD-B11E-Viafara",
+          "result": "L",
+          "time": "07:00 PM",
+          "venue_code": "MAR-Stevens SS1"
         }
       ],
-      "goal_diff": 40,
-      "goals_against": 7,
-      "goals_for": 47,
-      "losses": 0,
-      "played": 9,
+      "goal_diff": 37,
+      "goals_against": 11,
+      "goals_for": 48,
+      "losses": 1,
+      "played": 10,
       "points": 27,
       "team_raw": "Maroons-B11E-OHara",
       "wins": 9
@@ -375,7 +386,7 @@
       "club": "RIDGFLD",
       "coach": "Viafara",
       "draws": 0,
-      "form": "WLLWL",
+      "form": "LLWLW",
       "games": [
         {
           "date": "2026-09-12",
@@ -464,16 +475,27 @@
           "result": "L",
           "time": "12:00 PM",
           "venue_code": "LYND-RecCtrFld4"
+        },
+        {
+          "date": "2026-11-19",
+          "game_number": "417301",
+          "goals_against": 1,
+          "goals_for": 4,
+          "opponent_club": "Maroons",
+          "opponent_raw": "Maroons-B11E-OHara",
+          "result": "W",
+          "time": "07:00 PM",
+          "venue_code": "MAR-Stevens SS1"
         }
       ],
-      "goal_diff": 1,
-      "goals_against": 29,
-      "goals_for": 30,
+      "goal_diff": 4,
+      "goals_against": 30,
+      "goals_for": 34,
       "losses": 5,
-      "played": 8,
-      "points": 9,
+      "played": 9,
+      "points": 12,
       "team_raw": "RIDGFLD-B11E-Viafara",
-      "wins": 3
+      "wins": 4
     },
     {
       "club": "WayneBG",
